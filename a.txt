@@ -5,8 +5,8 @@
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
-! Fork of: yList https://gitee.com/adfilter/abp/raw/master/a.txt
-! Homepage: https://gitee.com/adfilter/abp/blob/master/a.txt
+! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/a.txt
+! Homepage: hhttps://github.com/vokins/ad
 !
 
 @@||ajax.googleapis.com^
