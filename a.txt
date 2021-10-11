@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.37
+! Version: 0.39
 ! Title: adfilter
-! Last modified: 11:46 2020/11/26
+! Last modified: 22:00 2021/10/11
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -407,3 +407,4 @@ outlook.live.com##div[class="_3_hHr3kfEhbNYRFM5YJxH9"]
 ||exdynsrv.com^
 ||crwdcntrl.net^
 pcbeta.com##+js(acis,showDialog,probe)
+pcbeta.com###wp > div[class][id]:not([class*="cl"])
