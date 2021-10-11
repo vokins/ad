@@ -406,5 +406,4 @@ outlook.live.com##div[class="_3_hHr3kfEhbNYRFM5YJxH9"]
 ||cytcm.com^
 ||exdynsrv.com^
 ||crwdcntrl.net^
-pcbeta.com##+js(acis,showDialog,probe)
-pcbeta.com###wp > div[class][id]:not([class*="cl"])
+pcbeta.com##+js(aopr, Node.prototype.insertBefore)
