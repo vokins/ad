@@ -1,4 +1,4 @@
-# Update > 21:57 2021/11/8
+# Update > 22:02 2021/11/8
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -275,7 +275,7 @@ DOMAIN,qnmob3.doubanio.com,REJECT
 #ots
 DOMAIN,api.xmpush.xiaomi.com,REJECT
 DOMAIN,unilog.wostore.cn,REJECT
-DOMAIN,video-ad.sm.cn,REJECT-DROP
+DOMAIN,video-ad.sm.cn,REJECT
 #Union-CNAds
 DOMAIN-SUFFIX,2345.com,REJECT
 DOMAIN-SUFFIX,37cs.com,REJECT
