@@ -92,7 +92,6 @@ DOMAIN,ecmc.bdimg.com,REJECT
 DOMAIN,su.bdimg.com,REJECT
 #Baidu-bdstatic
 DOMAIN,ae.bdstatic.com,REJECT
-DOMAIN,dss0.bdstatic.com,REJECT
 DOMAIN,fex.bdstatic.com,REJECT
 DOMAIN,mipcache.bdstatic.com,REJECT
 DOMAIN,nspt.bdstatic.com,REJECT
