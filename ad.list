@@ -21,11 +21,6 @@ DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,h-adashx4bc.ut.taobao.com,REJECT
-#Ali-taobao-cps
-DOMAIN,simba.m.taobao.com,REJECT
-DOMAIN-SUFFIX,ai.taobao.com,REJECT
-DOMAIN-SUFFIX,click.taobao.com,REJECT
-DOMAIN-SUFFIX,simba.taobao.com,REJECT
 #Ali-Weibo
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,adstrategy.biz.weibo.com,REJECT
@@ -108,8 +103,6 @@ DOMAIN,p9-ad-sign.byteimg.com,REJECT
 #Bytedance-pstatp
 DOMAIN,dm.pstatp.com,REJECT
 DOMAIN,pb3.pstatp.com,REJECT
-DOMAIN,sf3-ttcdn-tos.pstatp.com,REJECT
-DOMAIN,sf6-ttcdn-tos.pstatp.com,REJECT
 #Bytedance-snssdk
 DOMAIN,abtest-ch.snssdk.com,REJECT
 DOMAIN,bds.snssdk.com,REJECT
