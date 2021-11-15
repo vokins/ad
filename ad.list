@@ -1,4 +1,4 @@
-# Update > 11:08 2021/11/14
+# Update > 18:36 2021/11/15
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -110,6 +110,7 @@ DOMAIN,bds.snssdk.com,REJECT
 DOMAIN,frontier.snssdk.com,REJECT
 DOMAIN,gurd.snssdk.com,REJECT
 DOMAIN,homed-lq.snssdk.com,REJECT
+DOMAIN,i-hl.snssdk.com,REJECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN,ichannel.snssdk.com,REJECT
 DOMAIN,is.snssdk.com,REJECT
@@ -124,10 +125,14 @@ DOMAIN,security-hl.snssdk.com,REJECT
 DOMAIN,smr.snssdk.com,REJECT
 DOMAIN,stream.snssdk.com,REJECT
 DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+DOMAIN,ug.snssdk.com,REJECT
 DOMAIN,vas-hl-x.snssdk.com,REJECT
 DOMAIN,vcs.snssdk.com,REJECT
+DOMAIN,tobapplog.ctobsnssdk.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
 #Bytedance-toutiao
 DOMAIN,ad.toutiao.com,REJECT
+DOMAIN,dm.toutiao.com,REJECT
 DOMAIN,dsp.toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
@@ -297,6 +302,8 @@ DOMAIN,qnmob3.doubanio.com,REJECT
 DOMAIN,adlaunch.moji.com,REJECT
 DOMAIN,stat.moji.com,REJECT
 DOMAIN,v1.log.moji.com,REJECT
+#caiyun
+DOMAIN,ad.caiyunapp.com,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
@@ -311,6 +318,7 @@ DOMAIN,unilog.wostore.cn,REJECT
 DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
 DOMAIN,sdk.iad-06.braze.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 #Union-CNAds
 DOMAIN-SUFFIX,2345.com,REJECT
 DOMAIN-SUFFIX,37cs.com,REJECT
@@ -408,6 +416,7 @@ DOMAIN-SUFFIX,rtbasia.com,REJECT
 DOMAIN-SUFFIX,scupio.com,REJECT
 DOMAIN-SUFFIX,sdqoi2d.com,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
+DOMAIN-SUFFIX,sigmob.cn,REJECT
 DOMAIN-SUFFIX,social-touch.com,REJECT
 DOMAIN-SUFFIX,stg8.com,REJECT
 DOMAIN-SUFFIX,talkingdata.com,REJECT
