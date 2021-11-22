@@ -1,8 +1,9 @@
-# Update > 18:36 2021/11/15
+# Update > 16:36 2021/11/22
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
+DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,unidesk.alicdn.com
 DOMAIN-SUFFIX,alimama.cn,REJECT
 DOMAIN-SUFFIX,alimama.com,REJECT
@@ -21,6 +22,7 @@ DOMAIN,acs.m.taobao.com,REJECT
 DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4bc.ut.taobao.com,REJECT
 #Ali-Weibo
 DOMAIN,dp.im.weibo.cn,REJECT
@@ -52,6 +54,7 @@ DOMAIN,r.dmp.sina.cn,REJECT
 #Ali-Youku
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 #Apple
+DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 #Baidu
 DOMAIN-SUFFIX,baichuan.baidu.com,REJECT
@@ -99,8 +102,8 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN,t7z.cupid.ptqy.gitv.tv,REJECT
 #Bytedance
 DOMAIN,dm.bytedance.com,REJECT
-DOMAIN,p6-ad-sign.byteimg.com,REJECT
-DOMAIN,p9-ad-sign.byteimg.com,REJECT
+DOMAIN-KEYWORD,adbrand.byteimg.com,REJECT
+DOMAIN-KEYWORD,ad-sign.byteimg.com,REJECT
 #Bytedance-pstatp
 DOMAIN,dm.pstatp.com,REJECT
 DOMAIN,pb3.pstatp.com,REJECT
@@ -139,6 +142,10 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 #Google
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
+DOMAIN,firebaseinstallations.googleapis.com,REJECT
+DOMAIN,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN,firebaselogging.googleapis.com,REJECT
+DOMAIN,firebaseremoteconfig.googleapis.com,REJECT
 DOMAIN,safebrowsing.googleapis.com,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
@@ -277,7 +284,9 @@ DOMAIN,a3.xinhuanet.com,REJECT
 DOMAIN,adpic.chinadaily.com.cn,REJECT
 DOMAIN,same.chinadaily.com.cn,REJECT
 DOMAIN-SUFFIX,imp-toutiao-data.37.com.cn,REJECT
-DOMAIN-SUFFIX,ads-twitter.com,REJECT
+#twitter
+DOMAIN,ads-api.twitter.com,REJECT
+DOMAIN,ads-api-sandbox.twitter.com,REJECT
 #yahoo
 DOMAIN-SUFFIX,ads.yahoo.com,REJECT
 DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
@@ -304,6 +313,8 @@ DOMAIN,stat.moji.com,REJECT
 DOMAIN,v1.log.moji.com,REJECT
 #caiyun
 DOMAIN,ad.caiyunapp.com,REJECT
+#10010
+DOMAIN,smartad.10010.com,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
@@ -311,6 +322,7 @@ DOMAIN-SUFFIX,ads.oppomobile.com,REJECT
 DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,REJECT
 DOMAIN-SUFFIX,samsungadhub.com,REJECT
 DOMAIN-SUFFIX,samsungads.com,REJECT
+DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
 DOMAIN-SUFFIX,data.microsft.com,REJECT
 #ots
@@ -439,6 +451,7 @@ DOMAIN-SUFFIX,whalecloud.com,REJECT
 DOMAIN-SUFFIX,winads.cn,REJECT
 DOMAIN-SUFFIX,wisemedia.cn,REJECT
 DOMAIN-SUFFIX,xdplt.com,REJECT
+DOMAIN-SUFFIX,xdrig.com,REJECT
 DOMAIN-SUFFIX,ymapp.com,REJECT
 DOMAIN-SUFFIX,ymcdn.cn,REJECT
 DOMAIN-SUFFIX,youmi.net,REJECT
