@@ -1,4 +1,4 @@
-# Update > 16:39 2021/11/22
+# Update > 16:44 2021/11/22
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -175,6 +175,8 @@ DOMAIN,pgdt.ugdtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adstats.tencentmusic.com,REJECT
 #Mgtv
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,log.mgtv.com,REJECT
