@@ -1,4 +1,4 @@
-# Update > 16:36 2021/11/22
+# Update > 16:39 2021/11/22
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -135,7 +135,6 @@ DOMAIN,tobapplog.ctobsnssdk.com,REJECT
 DOMAIN,toblog.ctobsnssdk.com,REJECT
 #Bytedance-toutiao
 DOMAIN,ad.toutiao.com,REJECT
-DOMAIN,dm.toutiao.com,REJECT
 DOMAIN,dsp.toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
@@ -173,7 +172,6 @@ DOMAIN,wxsnsdy.video.qq.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,adsmind.ugdtimg.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
