@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.391
+! Version: 0.395
 ! Title: adfilter
-! Last modified: 23:00 2021/10/20
+! Last modified: 14:03 2021/11/24
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -361,6 +361,10 @@ huanqiu.com##div[id="aa-block"]
 ||wa.gtimg.com^
 ||tiem-cdn.qq.com/o2/images/^
 v.qq.com##div[class^="mod_ad"]
+qq.com##+js(no-xhr-if, trace.)
+qq.com##+js(no-fetch-if, trace.)
+qq.com##+js(set, Beacon.prototype.fail, null)
+||beacon.
 
 !58
 ||adshow.58.com^
