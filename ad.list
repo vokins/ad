@@ -1,9 +1,11 @@
-# Update > 16:44 2021/11/22
+# Update > 13:58 2021/11/24
+# https://raw.githubusercontent.com/vokins/ad/main/ad.list
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
+DOMAIN,adash.man.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,unidesk.alicdn.com
 DOMAIN-SUFFIX,alimama.cn,REJECT
 DOMAIN-SUFFIX,alimama.com,REJECT
@@ -104,6 +106,7 @@ DOMAIN,t7z.cupid.ptqy.gitv.tv,REJECT
 DOMAIN,dm.bytedance.com,REJECT
 DOMAIN-KEYWORD,adbrand.byteimg.com,REJECT
 DOMAIN-KEYWORD,ad-sign.byteimg.com,REJECT
+DOMAIN-KEYWORD,analytics.bytescm.com,REJECT
 #Bytedance-pstatp
 DOMAIN,dm.pstatp.com,REJECT
 DOMAIN,pb3.pstatp.com,REJECT
@@ -285,8 +288,9 @@ DOMAIN,adpic.chinadaily.com.cn,REJECT
 DOMAIN,same.chinadaily.com.cn,REJECT
 DOMAIN-SUFFIX,imp-toutiao-data.37.com.cn,REJECT
 #twitter
-DOMAIN,ads-api.twitter.com,REJECT
-DOMAIN,ads-api-sandbox.twitter.com,REJECT
+DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
+DOMAIN-SUFFIX,ads-api-sandbox.twitter.com,REJECT
+DOMAIN-SUFFIX,analytics.twitter.com,REJECT
 #yahoo
 DOMAIN-SUFFIX,ads.yahoo.com,REJECT
 DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
@@ -315,6 +319,8 @@ DOMAIN,v1.log.moji.com,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
 #10010
 DOMAIN,smartad.10010.com,REJECT
+#ximalaya
+DOMAIN,adse.ximalaya.com,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
