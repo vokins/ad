@@ -1,5 +1,7 @@
-# Update > 0:57 2021/11/29
+# Update > 10:10 2021/12/3
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
+#WhiteLists
+DOMAIN-SUFFIX,easemob.com,DIRECT
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -26,6 +28,10 @@ DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4bc.ut.taobao.com,REJECT
+DOMAIN,nbsdk-baichuan.taobao.com,REJECT
+#Ali-ele.me
+DOMAIN,adashx.ut.ele.me,DIRECT
+DOMAIN,h-adashx.ut.ele.me,DIRECT
 #Ali-Weibo
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,adstrategy.biz.weibo.com,REJECT
@@ -111,31 +117,20 @@ DOMAIN-KEYWORD,analytics.bytescm.com,REJECT
 DOMAIN,dm.pstatp.com,REJECT
 DOMAIN,pb3.pstatp.com,REJECT
 #Bytedance-snssdk
-DOMAIN,abtest-ch.snssdk.com,REJECT
 DOMAIN,bds.snssdk.com,REJECT
-DOMAIN,frontier.snssdk.com,REJECT
-DOMAIN,gurd.snssdk.com,REJECT
-DOMAIN,homed-lq.snssdk.com,REJECT
-DOMAIN,i-hl.snssdk.com,REJECT
-DOMAIN,i.snssdk.com,REJECT
-DOMAIN,ichannel.snssdk.com,REJECT
-DOMAIN,is.snssdk.com,REJECT
-DOMAIN,isub.snssdk.com,REJECT
-DOMAIN,jsb.snssdk.com,REJECT
-DOMAIN,lf.snssdk.com,REJECT
+DOMAIN,ctobsnssdk.com,REJECT
+DOMAIN,extlog.snssdk.com,REJECT
+DOMAIN,haohuo.snssdk.com,REJECT
+DOMAIN,log.snssdk.com,REJECT
+DOMAIN,mcs.snssdk.com,REJECT
 DOMAIN,mon.snssdk.com,REJECT
-DOMAIN,mssdk-lf.snssdk.com,REJECT
 DOMAIN,pangolin.snssdk.com,REJECT
 DOMAIN,sdfp.snssdk.com,REJECT
-DOMAIN,security-hl.snssdk.com,REJECT
-DOMAIN,smr.snssdk.com,REJECT
-DOMAIN,stream.snssdk.com,REJECT
-DOMAIN,tnc3-aliec2.snssdk.com,REJECT
-DOMAIN,ug.snssdk.com,REJECT
-DOMAIN,vas-hl-x.snssdk.com,REJECT
-DOMAIN,vcs.snssdk.com,REJECT
-DOMAIN,tobapplog.ctobsnssdk.com,REJECT
+DOMAIN,tbm.snssdk.com,REJECT
 DOMAIN,toblog.ctobsnssdk.com,REJECT
+DOMAIN,toblog.snssdk.com,REJECT
+DOMAIN,ug.snssdk.com,REJECT
+DOMAIN-KEYWORD,-hl.snssdk.com,REJECT
 #Bytedance-toutiao
 DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,dsp.toutiao.com,REJECT
@@ -174,6 +169,7 @@ DOMAIN,pgdt.ugdtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
 #Mgtv
@@ -535,4 +531,4 @@ DOMAIN-SUFFIX,tribalfusion.com,REJECT
 DOMAIN-SUFFIX,verizonmedia.com,REJECT
 DOMAIN-SUFFIX,viglink.com,REJECT
 DOMAIN-SUFFIX,vzuu.com,REJECT
-DOMAIN-SUFFIX,zedo.com,REJEC
+DOMAIN-SUFFIX,zedo.com,REJECT
