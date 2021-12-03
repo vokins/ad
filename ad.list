@@ -1,8 +1,7 @@
-# Update > 10:10 2021/12/3
+# Update > 10:18 2021/12/3
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 #WhiteLists
-DOMAIN-SUFFIX,easemob.com,DIRECT
-#Ali
+DOMAIN-SUFFIX,easemob.com,DIRECT#Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
@@ -118,7 +117,6 @@ DOMAIN,dm.pstatp.com,REJECT
 DOMAIN,pb3.pstatp.com,REJECT
 #Bytedance-snssdk
 DOMAIN,bds.snssdk.com,REJECT
-DOMAIN,ctobsnssdk.com,REJECT
 DOMAIN,extlog.snssdk.com,REJECT
 DOMAIN,haohuo.snssdk.com,REJECT
 DOMAIN,log.snssdk.com,REJECT
@@ -127,10 +125,10 @@ DOMAIN,mon.snssdk.com,REJECT
 DOMAIN,pangolin.snssdk.com,REJECT
 DOMAIN,sdfp.snssdk.com,REJECT
 DOMAIN,tbm.snssdk.com,REJECT
-DOMAIN,toblog.ctobsnssdk.com,REJECT
 DOMAIN,toblog.snssdk.com,REJECT
 DOMAIN,ug.snssdk.com,REJECT
 DOMAIN-KEYWORD,-hl.snssdk.com,REJECT
+DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
 #Bytedance-toutiao
 DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,dsp.toutiao.com,REJECT
