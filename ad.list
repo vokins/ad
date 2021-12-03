@@ -1,7 +1,6 @@
-# Update > 10:18 2021/12/3
+# Update > 10:20 2021/12/3
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
-#WhiteLists
-DOMAIN-SUFFIX,easemob.com,DIRECT#Ali
+#Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
