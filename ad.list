@@ -1,4 +1,4 @@
-# Update > 21:20 2021/12/16
+# Update > 21:22 2021/12/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -132,6 +132,7 @@ DOMAIN-SUFFIX,pangolin.snssdk.com,REJECT
 DOMAIN-SUFFIX,sdfp.snssdk.com,REJECT
 DOMAIN-SUFFIX,toblog.snssdk.com,REJECT
 DOMAIN,haohuo.snssdk.com,REJECT
+DOMAIN,lf.snssdk.com,REJECT
 DOMAIN,log-hl.snssdk.com,REJECT
 DOMAIN,mcs.snssdk.com,REJECT
 DOMAIN,mon.snssdk.com,REJECT
