@@ -1,4 +1,4 @@
-# Update > 21:05 2021/12/16
+# Update > 21:06 2021/12/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -366,6 +366,7 @@ DOMAIN,adscount.fawulu.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
 DOMAIN,dn-growing.qbox.me,REJECT
 DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
+DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
 DOMAIN,sdk.iad-06.braze.com,REJECT
 DOMAIN,pic-ad.tupian1234.com,REJECT
 #Union-CNAds
