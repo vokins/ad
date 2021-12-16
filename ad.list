@@ -1,6 +1,9 @@
-# Update > 21:22 2021/12/16
+# Update > 21:50 2021/12/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
+#white
+DOMAIN,fairplay.l.qq.com,DIRECT
+DOMAIN,ib-hl.snssdk.com,DIRECT
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -337,6 +340,8 @@ DOMAIN,v1.log.moji.com,REJECT
 #caiyun
 DOMAIN,ad.caiyunapp.com,REJECT
 #ximalaya
+DOMAIN,adbehavior.ximalaya.com,REJECT
+DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
@@ -367,6 +372,7 @@ DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
 #App-Video
 DOMAIN-SUFFIX,ads.tvb.com,REJECT
 DOMAIN,video-ad.sm.cn,REJECT
+DOMAIN,ggv.cmvideo.cn,REJECT
 #ots
 DOMAIN,adsapi.fawulu.com,REJECT
 DOMAIN,adscount.fawulu.com,REJECT
