@@ -1,4 +1,4 @@
-# Update > 21:01 2021/12/16
+# Update > 21:03 2021/12/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -67,7 +67,6 @@ DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,hm.baidu.com,REJECT
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN-SUFFIX,share.baidu.com,REJECT
-DOMAIN-SUFFIX,tuisong.baidu.com,REJECT
 DOMAIN-SUFFIX,baidustatic.com,REJECT
 DOMAIN,afd.baidu.com,REJECT
 DOMAIN,als.baidu.com,REJECT
@@ -87,7 +86,6 @@ DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 DOMAIN,qapm.baidu.com,REJECT
-DOMAIN,aip.baidubce.com,REJECT
 #Baidu-bdimg
 DOMAIN,ecma.bdimg.com,REJECT
 DOMAIN,ecmb.bdimg.com,REJECT
