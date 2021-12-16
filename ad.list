@@ -368,8 +368,6 @@ DOMAIN,dn-growing.qbox.me,REJECT
 DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
 DOMAIN,sdk.iad-06.braze.com,REJECT
 DOMAIN,pic-ad.tupian1234.com,REJECT
-URL-REGEX,^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/,REJECT
-URL-REGEX,^http?+:\/\/c\.tieba\.baidu\.com\/tiebaads\/,REJECT
 #Union-CNAds
 DOMAIN-SUFFIX,2345.com,REJECT
 DOMAIN-SUFFIX,37cs.com,REJECT
