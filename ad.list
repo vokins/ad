@@ -1,4 +1,4 @@
-# Update > 10:20 2021/12/3
+# Update > 17:44 2021/12/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
@@ -22,14 +22,7 @@ DOMAIN,optimus-ads.amap.com,REJECT
 #Ali-taobao
 DOMAIN,acs.m.taobao.com,REJECT
 DOMAIN,adashbc.ut.taobao.com,REJECT
-DOMAIN,adashx.m.taobao.com,REJECT
-DOMAIN,adashxgc.ut.taobao.com,REJECT
-DOMAIN,h-adashx.ut.taobao.com,REJECT
-DOMAIN,h-adashx4bc.ut.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.taobao.com,REJECT
-#Ali-ele.me
-DOMAIN,adashx.ut.ele.me,DIRECT
-DOMAIN,h-adashx.ut.ele.me,DIRECT
 #Ali-Weibo
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,adstrategy.biz.weibo.com,REJECT
@@ -328,7 +321,11 @@ DOMAIN,unilog.wostore.cn,REJECT
 DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
 DOMAIN,sdk.iad-06.braze.com,REJECT
+DOMAIN,ads.api.vungle.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
+DOMAIN-SUFFIX,ads.tvb.com,REJECT
+DOMAIN,ad.12306.cn,REJECT
 URL-REGEX,^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/,REJECT
 URL-REGEX,^http?+:\/\/c\.tieba\.baidu\.com\/tiebaads\/,REJECT
 #Union-CNAds
