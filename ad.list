@@ -1,4 +1,4 @@
-# Update > 20:18 2021/12/23
+# Update > 20:25 2021/12/23
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #white
@@ -99,8 +99,7 @@ DOMAIN,aip.baidubce.com,REJECT
 #baidu-tieba
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog),REJECT
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo,REJECT
-URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/adLog,REJECT
-URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule,REJECT
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/(adLog|newlog|splashSchedule),REJECT
 DOMAIN,browserkernel.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
