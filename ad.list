@@ -1,4 +1,4 @@
-# Update > 21:50 2021/12/16
+# Update > 20:18 2021/12/23
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #white
@@ -20,6 +20,8 @@ DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
 DOMAIN-SUFFIX,umsns.com,REJECT
 DOMAIN-SUFFIX,wrating.com,REJECT
+DOMAIN,log.mmstat.com,REJECT
+DOMAIN,wgo.mmstat.com,REJECT
 #Ali-amap
 DOMAIN,dualstack-logs.amap.com,REJECT
 DOMAIN,logs.amap.com,REJECT
@@ -38,7 +40,9 @@ DOMAIN,adstrategy.biz.weibo.com,REJECT
 DOMAIN,vs.biz.weibo.com,REJECT
 DOMAIN,adimg.uve.weibo.com,REJECT
 DOMAIN,sdkapp.uve.weibo.com,REJECT
+DOMAIN,sdkclick.uve.weibo.com,REJECT
 DOMAIN,wbapp.uve.weibo.com,REJECT
+DOMAIN-SUFFIX,uve.weibo.com,REJECT
 DOMAIN,down.apps.sina.cn,REJECT
 DOMAIN,u1.img.mobile.sina.cn,REJECT
 DOMAIN,ad.us.sinaimg.cn,REJECT
@@ -92,6 +96,21 @@ DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 DOMAIN,qapm.baidu.com,REJECT
 DOMAIN,aip.baidubce.com,REJECT
+#baidu-tieba
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog),REJECT
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo,REJECT
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/adLog,REJECT
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule,REJECT
+DOMAIN,browserkernel.baidu.com,REJECT
+DOMAIN,feed-image.baidu.com,REJECT
+DOMAIN,nadvideo2.baidu.com,REJECT
+DOMAIN,sofire.baidu.com,REJECT
+DOMAIN,tcbox.baidu.com,REJECT
+DOMAIN,aod-image-material.cdn.bcebos.com,REJECT
+DOMAIN,bj.bcebos.com,REJECT
+DOMAIN,internal-amis-res.cdn.bcebos.com,REJECT
+DOMAIN,pn-cover.cdn.bcebos.com,REJECT
+DOMAIN,search-operate.cdn.bcebos.com,REJECT
 #Baidu-bdimg
 DOMAIN,ecma.bdimg.com,REJECT
 DOMAIN,ecmb.bdimg.com,REJECT
@@ -256,9 +275,13 @@ DOMAIN,yes1.feng.com,REJECT
 DOMAIN,analytics.163.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN-SUFFIX,g.163.com,REJECT
+DOMAIN,iadmat.nosdn.127.net,REJECT
+DOMAIN,iadmusicmat.music.126.net,REJECT
+DOMAIN,clientlog.music.163.com,REJECT
+DOMAIN,clientlog3.music.163.com,REJECT
+DOMAIN,pg-ad-b1.ws.126.net,REJECT
 DOMAIN,webstat.ws.126.net,REJECT
 DOMAIN,yt-adp.ws.126.net,REJECT
-DOMAIN,pg-ad-b1.ws.126.net,REJECT
 DOMAIN-SUFFIX,da.netease.com,REJECT
 DOMAIN-SUFFIX,clkservice.youdao.com,REJECT
 DOMAIN,dsp-impr2.youdao.com,REJECT
@@ -343,6 +366,7 @@ DOMAIN,ad.caiyunapp.com,REJECT
 DOMAIN,adbehavior.ximalaya.com,REJECT
 DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
+DOMAIN,mermaid.ximalaya.com,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
@@ -374,6 +398,7 @@ DOMAIN-SUFFIX,ads.tvb.com,REJECT
 DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,ggv.cmvideo.cn,REJECT
 #ots
+DOMAIN,analysis.tratao.com,REJECT
 DOMAIN,adsapi.fawulu.com,REJECT
 DOMAIN,adscount.fawulu.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
@@ -485,6 +510,7 @@ DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,sigmob.cn,REJECT
 DOMAIN-SUFFIX,social-touch.com,REJECT
 DOMAIN-SUFFIX,stg8.com,REJECT
+DOMAIN-SUFFIX,stgowan.com,REJECT
 DOMAIN-SUFFIX,talkingdata.com,REJECT
 DOMAIN-SUFFIX,talkingdata.net,REJECT
 DOMAIN-SUFFIX,tianmidian.com,REJECT
