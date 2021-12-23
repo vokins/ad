@@ -1,4 +1,4 @@
-# Update > 20:25 2021/12/23
+# Update > 20:33 2021/12/23
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #white
@@ -99,17 +99,24 @@ DOMAIN,aip.baidubce.com,REJECT
 #baidu-tieba
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog),REJECT
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo,REJECT
-URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/(adLog|newlog|splashSchedule),REJECT
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/adLog,REJECT
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule,REJECT
+DOMAIN-SUFFIX,bj.bcebos.com,REJECT
+DOMAIN-SUFFIX,rmblive.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,dsp-idea.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,pmp-ad.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,aod-image-material.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,internal-amis-res.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,pn-cover.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,search-operate.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,aod-image.baidu.com,REJECT
+DOMAIN-SUFFIX,paimgcdn-feed.baidu.com,REJECT
 DOMAIN,browserkernel.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
 DOMAIN,sofire.baidu.com,REJECT
 DOMAIN,tcbox.baidu.com,REJECT
-DOMAIN,aod-image-material.cdn.bcebos.com,REJECT
-DOMAIN,bj.bcebos.com,REJECT
-DOMAIN,internal-amis-res.cdn.bcebos.com,REJECT
-DOMAIN,pn-cover.cdn.bcebos.com,REJECT
-DOMAIN,search-operate.cdn.bcebos.com,REJECT
 #Baidu-bdimg
 DOMAIN,ecma.bdimg.com,REJECT
 DOMAIN,ecmb.bdimg.com,REJECT
