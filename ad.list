@@ -1,4 +1,4 @@
-# Update > 10:46 2021/12/24
+# Update > 0:33 2021/12/30
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #white
@@ -35,6 +35,8 @@ DOMAIN,optimus-ads.amap.com,REJECT
 DOMAIN,acs.m.taobao.com,REJECT
 DOMAIN,acs4baichuan.m.taobao.com,REJECT
 DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,adashx4yt.m.taobao.com,REJECT
+DOMAIN,tunion-api.m.taobao.com,REJECT
 DOMAIN,youku-acs.m.taobao.com,REJECT
 DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
@@ -74,6 +76,17 @@ DOMAIN,d5.sina.com.cn,REJECT
 DOMAIN,d8.sina.com.cn,REJECT
 DOMAIN,d9.sina.com.cn,REJECT
 DOMAIN,r.dmp.sina.cn,REJECT
+#Ali-UC
+DOMAIN,adtrack.ucweb.com,REJECT
+DOMAIN,safe.ucweb.com,REJECT
+DOMAIN,applog.uc.cn,REJECT
+DOMAIN,applogios.uc.cn,REJECT
+DOMAIN,hcadv.video.ums.uc.cn,REJECT
+DOMAIN,track.uc.cn,REJECT
+DOMAIN,c.sm.cn,REJECT
+DOMAIN,huichuan.sm.cn,REJECT
+DOMAIN,sdk-log.partner.sm.cn,REJECT
+DOMAIN,px.effirst.com,REJECT
 #Ali-suning
 DOMAIN,log.suning.com,REJECT
 #Ali-Youku
@@ -92,6 +105,7 @@ DOMAIN,ykad-data.youku.com,REJECT
 #Apple
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+DOMAIN,tr.iadsdk.apple.com,REJECT
 #Baidu
 DOMAIN-SUFFIX,baichuan.baidu.com,REJECT
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
@@ -152,9 +166,12 @@ DOMAIN,nspt.bdstatic.com,REJECT
 DOMAIN,su.bdstatic.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
 #Baidu-iQiyi
-DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN,api.cupid.dns.iqiyi.com,REJECT
+DOMAIN,ifacelog.iqiyi.com,REJECT
+DOMAIN,sns-paopao.iqiyi.com,REJECT
 DOMAIN,t7z.cupid.ptqy.gitv.tv,REJECT
+DOMAIN,msg.qy.net,REJECT
 #Baidu-xiaodutv
 DOMAIN,adx.xiaodutv.com,REJECT
 DOMAIN,click.xiaodutv.com,REJECT
@@ -212,6 +229,7 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 DOMAIN,app-measurement.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN,safebrowsing.googleapis.com,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
@@ -222,6 +240,13 @@ DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN,ade.googlesyndication.com,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
+DOMAIN,tpc.googlesyndication.com,REJECT
+DOMAIN,ad.doubleclick.net,REJECT
+DOMAIN,cm.g.doubleclick.net,REJECT
+DOMAIN,googleads.g.doubleclick.net,REJECT
+DOMAIN,securepubads.g.doubleclick.net,REJECT
 #qq-upload
 DOMAIN,oth.eve.mdt.qq.com,REJECT
 DOMAIN,info4.video.qq.com,REJECT
@@ -249,6 +274,10 @@ DOMAIN,tpstelemetry.tencent.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
+#easemob
+DOMAIN,a1-v2.easemob.com,REJECT
+DOMAIN,a2-v2.easemob.com,REJECT
+DOMAIN,a5-v2.easemob.com,REJECT
 #Mgtv
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,log.mgtv.com,REJECT
@@ -366,6 +395,7 @@ DOMAIN,ivy.pcauto.com.cn,REJECT
 DOMAIN,jwz.3conline.com,REJECT
 DOMAIN,icons.mydrivers.com,REJECT
 #xiaohongshu
+DOMAIN,ads-video-al.xhscdn.com,REJECT
 DOMAIN,crash.xiaohongshu.com,REJECT
 #App-News
 DOMAIN,adpai.thepaper.cn,REJECT
@@ -398,6 +428,7 @@ DOMAIN,beap.gemini.yahoo.com,REJECT
 #miaozhen
 DOMAIN,g.cn.miaozhen.com,REJECT
 DOMAIN,www.google.com.miaozhen.com,REJECT
+DOMAIN,iqiyi-mipdx.cn.miaozhen.com,REJECT
 #APP-Trip
 DOMAIN,ad.12306.cn,REJECT
 DOMAIN,analytics.umetrip.com,REJECT
@@ -466,6 +497,8 @@ DOMAIN,mpartner.funshion.com,REJECT
 DOMAIN,iphone.v0.mgtv.com,REJECT
 DOMAIN-SUFFIX,bz.mgtv.com,REJECT
 DOMAIN,analytics3.starschina.com,REJECT
+DOMAIN,ad.yuntuds.com,REJECT
+DOMAIN,probe.yuntuds.com,REJECT
 #xunlei
 DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
 DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
@@ -628,12 +661,15 @@ DOMAIN-SUFFIX,zhiziyun.com,REJECT
 DOMAIN-SUFFIX,ad-survey.com,REJECT
 DOMAIN-SUFFIX,ad4game.com,REJECT
 DOMAIN-SUFFIX,adcolony.com,REJECT
+DOMAIN-SUFFIX,adform.net,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,admarvel.com,REJECT
 DOMAIN-SUFFIX,admedia.com,REJECT
+DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,adroll.com,REJECT
 DOMAIN-SUFFIX,adsfactor.net,REJECT
 DOMAIN-SUFFIX,adsrvr.org,REJECT
+DOMAIN-SUFFIX,adsymptotic.com,REJECT
 DOMAIN-SUFFIX,adtechjp.com,REJECT
 DOMAIN-SUFFIX,adtechus.com,REJECT
 DOMAIN-SUFFIX,adzerk.net,REJECT
@@ -695,9 +731,9 @@ DOMAIN-SUFFIX,verizonmedia.com,REJECT
 DOMAIN-SUFFIX,viglink.com,REJECT
 DOMAIN-SUFFIX,vungle.com,REJECT
 DOMAIN-SUFFIX,vzuu.com,REJECT
+DOMAIN-SUFFIX,xspadvertising.com,REJECT
 DOMAIN-SUFFIX,zedo.com,REJECT
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo,REJECT
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/adLog,REJECT
-URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule,REJECT
 URL-REGEX,^http?+:\/\/c\.tieba\.baidu\.com\/tiebaads\/,REJECT
 URL-REGEX,^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/,REJECT
