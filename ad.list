@@ -1,4 +1,4 @@
-# Update > 4:06 2021/12/31
+# Update > 4:22 2021/12/31
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -111,7 +111,6 @@ DOMAIN,ykad-data.youku.com,REJECT
 #Apple
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
-DOMAIN,tr.iadsdk.apple.com,REJECT
 #Baidu
 DOMAIN-SUFFIX,baidustatic.com,REJECT
 DOMAIN-SUFFIX,baichuan.baidu.com,REJECT
@@ -294,6 +293,7 @@ DOMAIN-SUFFIX,log.hunantv.com,REJECT
 DOMAIN,adserver.yidianzixun.com,REJECT
 DOMAIN,dsp.yidianzixun.com,REJECT
 #Smzdm
+DOMAIN,analytics-api-01.smzdm.com,REJECT
 DOMAIN,analytics-api.smzdm.com,REJECT
 DOMAIN,eimg.smzdm.com,REJECT
 DOMAIN,shence-import.smzdm.com,REJECT
