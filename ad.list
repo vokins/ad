@@ -1,4 +1,4 @@
-# Update > 4:22 2021/12/31
+# Update > 2:23 2022/1/3
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -6,7 +6,7 @@ DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,ib-hl.snssdk.com,DIRECT
 DOMAIN,dfp.suning.com,DIRECT
 DOMAIN,dns.jd.com,DIRECT
-DOMAIN-SUFFIX,easemob.com,REJECT
+DOMAIN-SUFFIX,easemob.com,DIRECT
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -16,7 +16,7 @@ DOMAIN,unidesk.alicdn.com,REJECT
 DOMAIN,userlink.alicdn.com,REJECT
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN,adash.man.aliyuncs.com,REJECT
-DOMAIN,client-upload.cn-shanghai.log.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,alimama.cn,REJECT
 DOMAIN-SUFFIX,alimama.com,REJECT
 DOMAIN-SUFFIX,puata.info,REJECT
@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,umengcloud.com,REJECT
 DOMAIN-SUFFIX,umsns.com,REJECT
 DOMAIN-SUFFIX,wrating.com,REJECT
 DOMAIN,log.mmstat.com,REJECT
+DOMAIN,gm.mmstat.com,REJECT
 DOMAIN,wgo.mmstat.com,REJECT
 #Ali-amap
 DOMAIN,dualstack-logs.amap.com,REJECT
@@ -108,6 +109,12 @@ DOMAIN,push.m.youku.com,REJECT
 DOMAIN,un-acs.youku.com,REJECT
 DOMAIN,yk-ssp.ad.youku.com,REJECT
 DOMAIN,ykad-data.youku.com,REJECT
+#Ali-youku-danmu
+DOMAIN,dr-danmu.youku.com,REJECT
+DOMAIN,res-danmu.youku.com,REJECT
+#Ali-youku-privacy
+DOMAIN,sensorsdata.cmbchina.com,REJECT
+DOMAIN,mars.ccc.cmbchina.com,REJECT
 #Apple
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -186,6 +193,8 @@ DOMAIN,ifacelog.iqiyi.com,REJECT
 DOMAIN,sns-paopao.iqiyi.com,REJECT
 DOMAIN,t7z.cupid.ptqy.gitv.tv,REJECT
 DOMAIN,msg.qy.net,REJECT
+DOMAIN,msgv6.qy.net,REJECT
+DOMAIN-SUFFIX,inter.71edge.com,REJECT
 #Baidu-xiaodutv
 DOMAIN,adx.xiaodutv.com,REJECT
 DOMAIN,click.xiaodutv.com,REJECT
@@ -254,8 +263,15 @@ DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN,googleads.g.doubleclick.net,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
+DOMAIN,tpc.googlesyndication.com,REJECT
+DOMAIN,partner.googleadservices.com,REJECT
+DOMAIN,www.googletagmanager.com,REJECT
+DOMAIN,www.googletagservices.com,REJECT
 #qq-upload
 DOMAIN,oth.eve.mdt.qq.com,REJECT
+DOMAIN,ios.bugly.qq.com,REJECT
 DOMAIN,info4.video.qq.com,REJECT
 DOMAIN,info6.video.qq.com,REJECT
 #Tencent-gdt
@@ -282,6 +298,7 @@ DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+#Tencent-qqmusic
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
 #Mgtv
@@ -305,6 +322,7 @@ DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
 #Kuaishou
 DOMAIN-SUFFIX,e.kuaishou.com,REJECT
+DOMAIN,gdfp.gifshow.com,REJECT
 DOMAIN,js-ad.a.yximgs.com,REJECT
 DOMAIN,static.yximgs.com,REJECT
 #Hupu
@@ -505,7 +523,6 @@ DOMAIN-SUFFIX,samsungadhub.com,REJECT
 DOMAIN-SUFFIX,samsungads.com,REJECT
 DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
-DOMAIN-SUFFIX,data.microsft.com,REJECT
 #10010
 DOMAIN,smartad.10010.com,REJECT
 DOMAIN,m1.ad.10010.com,REJECT
@@ -640,6 +657,7 @@ DOMAIN-SUFFIX,duomai.com,REJECT
 DOMAIN-SUFFIX,duomeng.cn,REJECT
 DOMAIN-SUFFIX,dutils.com,REJECT
 DOMAIN-SUFFIX,dxpmedia.com,REJECT
+DOMAIN-SUFFIX,enlightent.cn,REJECT
 DOMAIN-SUFFIX,fengkongcloud.com,REJECT
 DOMAIN-SUFFIX,fraudmetrix.cn,REJECT
 DOMAIN-SUFFIX,gentags.com,REJECT
@@ -671,6 +689,7 @@ DOMAIN-SUFFIX,linezing.com,REJECT
 DOMAIN-SUFFIX,lnk0.com,REJECT
 DOMAIN-SUFFIX,madhouse.cn,REJECT
 DOMAIN-SUFFIX,madserving.com,REJECT
+DOMAIN-SUFFIX,manduhu.com,REJECT
 DOMAIN-SUFFIX,mediav.com,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
 DOMAIN-SUFFIX,microad-cn.com,REJECT
@@ -700,6 +719,7 @@ DOMAIN-SUFFIX,stgowan.com,REJECT
 DOMAIN-SUFFIX,talkingdata.com,REJECT
 DOMAIN-SUFFIX,talkingdata.net,REJECT
 DOMAIN-SUFFIX,tddmp.com,REJECT
+DOMAIN-SUFFIX,testplus.cn,REJECT
 DOMAIN-SUFFIX,tianmidian.com,REJECT
 DOMAIN-SUFFIX,trackingio.com,REJECT
 DOMAIN-SUFFIX,trafficjam.cn,REJECT
@@ -721,6 +741,7 @@ DOMAIN-SUFFIX,winads.cn,REJECT
 DOMAIN-SUFFIX,wisemedia.cn,REJECT
 DOMAIN-SUFFIX,xdplt.com,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
+DOMAIN-SUFFIX,xelements.cn,REJECT
 DOMAIN-SUFFIX,ymapp.com,REJECT
 DOMAIN-SUFFIX,ymcdn.cn,REJECT
 DOMAIN-SUFFIX,youmi.net,REJECT
@@ -728,7 +749,6 @@ DOMAIN-SUFFIX,youxiaoad.com,REJECT
 DOMAIN-SUFFIX,yoyi.com.cn,REJECT
 DOMAIN-SUFFIX,yoyi.tv,REJECT
 DOMAIN-SUFFIX,zhiziyun.com,REJECT
-DOMAIN-SUFFIX,xelements.cn,REJECT
 #Union-OAds
 DOMAIN-SUFFIX,ad-survey.com,REJECT
 DOMAIN-SUFFIX,ad4game.com,REJECT
@@ -746,6 +766,7 @@ DOMAIN-SUFFIX,adtechjp.com,REJECT
 DOMAIN-SUFFIX,adtechus.com,REJECT
 DOMAIN-SUFFIX,adzerk.net,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+DOMAIN-SUFFIX,appier.net,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,atdmt.com,REJECT
 DOMAIN-SUFFIX,awempire.com,REJECT
