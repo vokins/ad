@@ -1,4 +1,4 @@
-# Update > 19:10 2022/1/7
+# Update > 19:15 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -270,8 +270,10 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 #Bytedance-zijieapi
 DOMAIN,ad.zijieapi.com,REJECT
+DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
 DOMAIN,ads5-normal.zijieapi.com,REJECT
 DOMAIN,minigame5-normal.zijieapi.com,REJECT
+DOMAIN,minigame5-normal-lq.zijieapi.com,REJECT
 DOMAIN,mssdk.zijieapi.com,REJECT
 #Google
 DOMAIN,app-measurement.com,REJECT
@@ -671,8 +673,8 @@ DOMAIN-SUFFIX,stickyadstv.com,REJECT
 DOMAIN-SUFFIX,vidoomy.com,REJECT
 DOMAIN-SUFFIX,zampda.net,REJECT
 #novel
-DOMAIN,log5-applog-lq.fqnovel.com,REJECT
-DOMAIN,rtlog5-applog.fqnovel.com,REJECT
+DOMAIN-KEYWORD,applog-lq.fqnovel.com,REJECT
+DOMAIN-KEYWORD,applog.fqnovel.com,REJECT
 DOMAIN,ws2.fengdunovel.com,REJECT
 DOMAIN,applog.reader.qq.com,REJECT
 DOMAIN,log.ireader.com,REJECT
