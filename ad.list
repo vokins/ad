@@ -1,4 +1,4 @@
-# Update > 14:06 2022/1/7
+# Update > 14:11 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -35,6 +35,8 @@ DOMAIN-SUFFIX,wrating.com,REJECT
 DOMAIN,log.mmstat.com,REJECT
 DOMAIN,gm.mmstat.com,REJECT
 DOMAIN,wgo.mmstat.com,REJECT
+DOMAIN,umdc.aliapp.org,REJECT
+DOMAIN,ynuf.aliapp.org,REJECT
 #Ali-amap
 DOMAIN,dualstack-logs.amap.com,REJECT
 DOMAIN,logs.amap.com,REJECT
