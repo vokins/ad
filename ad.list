@@ -1,4 +1,4 @@
-# Update > 11:23 2022/1/7
+# Update > 11:54 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -8,8 +8,9 @@ DOMAIN,dns.jd.com,DIRECT
 DOMAIN,ib-hl.snssdk.com,DIRECT
 DOMAIN,sf3-ttcdn-tos.pstatp.com,DIRECT
 DOMAIN,sf6-ttcdn-tos.pstatp.com,DIRECT
-DOMAIN-SUFFIX,easemob.com,DIRECT
 DOMAIN-SUFFIX,cl2009.com,DIRECT
+DOMAIN-SUFFIX,cztv.com,DIRECT
+DOMAIN-SUFFIX,easemob.com,DIRECT
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -554,11 +555,22 @@ DOMAIN,ads.95516.com,REJECT
 #unity
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
-#App-Video
-DOMAIN-SUFFIX,ads.tvb.com,REJECT
+#MiGu-Video
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
+DOMAIN,ggic.cmvideo.cn,REJECT
+DOMAIN,ggtagcache.cmvideo.cn,REJECT
 DOMAIN,ggv.cmvideo.cn,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
+DOMAIN,ggmk.miguvideo.com,REJECT
+DOMAIN,ggic05.miguvideo.com,REJECT
+DOMAIN,ggx05.miguvideo.com,REJECT
+DOMAIN,ggicaqz.miguvideo.com,REJECT
+#YunTuTV
+DOMAIN,ad.yuntuds.com,REJECT
+DOMAIN,probe.yuntuds.com,REJECT
+DOMAIN,api.ls.eyunmy.com,REJECT
+#App-Video
+DOMAIN-SUFFIX,ads.tvb.com,REJECT
 DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,ads.aplusapi.pptv.com,REJECT
 DOMAIN,ads.aplus.pptv.com,REJECT
@@ -573,8 +585,6 @@ DOMAIN,mpartner.funshion.com,REJECT
 DOMAIN,iphone.v0.mgtv.com,REJECT
 DOMAIN-SUFFIX,bz.mgtv.com,REJECT
 DOMAIN,analytics3.starschina.com,REJECT
-DOMAIN,ad.yuntuds.com,REJECT
-DOMAIN,probe.yuntuds.com,REJECT
 #xunlei
 DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
 DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
