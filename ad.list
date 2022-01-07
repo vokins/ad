@@ -1,7 +1,8 @@
-# Update > 19:28 2022/1/7
+# Update > 19:45 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
+DOMAIN,ssp-partner.alibaba.com,REJECT
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
@@ -667,6 +668,7 @@ DOMAIN,applog.reader.qq.com,REJECT
 DOMAIN,log.ireader.com,REJECT
 DOMAIN,logv2.ireader.com,REJECT
 DOMAIN,cdn-ad.wtzw.com,REJECT
+DOMAIN,adashx.ut.shuqi.com,REJECT
 DOMAIN,ut2.shuqistat.com,REJECT
 #ots
 DOMAIN,analysis.tratao.com,REJECT
