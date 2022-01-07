@@ -1,4 +1,4 @@
-# Update > 12:50 2022/1/7
+# Update > 13:27 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -40,15 +40,16 @@ DOMAIN,optimus-ads.amap.com,REJECT
 #Ali-taobao
 DOMAIN,acs.m.taobao.com,REJECT
 DOMAIN,acs4baichuan.m.taobao.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,adashx4yt.m.taobao.com,REJECT
-DOMAIN,tunion-api.m.taobao.com,REJECT
-DOMAIN,youku-acs.m.taobao.com,REJECT
-DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,eco.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4bc.ut.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.taobao.com,REJECT
+DOMAIN,tunion-api.m.taobao.com,REJECT
+DOMAIN,youku-acs.m.taobao.com,REJECT
 #Ali-Weibo
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,adstrategy.biz.weibo.com,REJECT
@@ -300,8 +301,7 @@ DOMAIN-SUFFIX,html5.qq.com,REJECT
 DOMAIN-SUFFIX,imtt.qq.com,REJECT
 DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN,dp3.qq.com,REJECT
-DOMAIN,h.trace.qq.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
 DOMAIN,report.qqweb.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
@@ -576,6 +576,7 @@ DOMAIN,ggic05.miguvideo.com,REJECT
 DOMAIN,ggicaqz.miguvideo.com,REJECT
 DOMAIN,ggmk.miguvideo.com,REJECT
 DOMAIN,ggx05.miguvideo.com,REJECT
+DOMAIN,log1.cmpassport.com,REJECT
 #mdd
 DOMAIN,log.mddcloud.com.cn,REJECT
 DOMAIN,dplog.mddcloud.com.cn,REJECT
@@ -887,6 +888,7 @@ DOMAIN-SUFFIX,yoyi.tv,REJECT
 DOMAIN-SUFFIX,zedo.com,REJECT
 DOMAIN-SUFFIX,zhidian3g.cn,REJECT
 DOMAIN-SUFFIX,zhiziyun.com,REJECT
+DOMAIN-SUFFIX,zxrtb.com,REJECT
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo,REJECT
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/adLog,REJECT
 URL-REGEX,^http?+:\/\/c\.tieba\.baidu\.com\/tiebaads\/,REJECT
