@@ -1,12 +1,15 @@
-# Update > 5:16 2022/1/4
+# Update > 11:23 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
 DOMAIN,fairplay.l.qq.com,DIRECT
-DOMAIN,ib-hl.snssdk.com,DIRECT
 DOMAIN,dfp.suning.com,DIRECT
 DOMAIN,dns.jd.com,DIRECT
+DOMAIN,ib-hl.snssdk.com,DIRECT
+DOMAIN,sf3-ttcdn-tos.pstatp.com,DIRECT
+DOMAIN,sf6-ttcdn-tos.pstatp.com,DIRECT
 DOMAIN-SUFFIX,easemob.com,DIRECT
+DOMAIN-SUFFIX,cl2009.com,DIRECT
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -125,6 +128,7 @@ DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,hm.baidu.com,REJECT
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN-SUFFIX,tuisong.baidu.com,REJECT
+DOMAIN,ada.baidu.com,REJECT
 DOMAIN,afd.baidu.com,REJECT
 DOMAIN,als.baidu.com,REJECT
 DOMAIN,aod-image.baidu.com,REJECT
@@ -141,6 +145,7 @@ DOMAIN,dlswbr.baidu.com,REJECT
 DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,dxp.baidu.com,REJECT
 DOMAIN,eclick.baidu.com,REJECT
+DOMAIN,fclick.baidu.com,REJECT
 DOMAIN,em.baidu.com,REJECT
 DOMAIN,fc1tn.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
@@ -235,6 +240,7 @@ DOMAIN-SUFFIX,log.snssdk.com,REJECT
 DOMAIN-SUFFIX,pangolin.snssdk.com,REJECT
 DOMAIN-SUFFIX,sdfp.snssdk.com,REJECT
 DOMAIN-SUFFIX,toblog.snssdk.com,REJECT
+DOMAIN,analytics.snssdk.com,REJECT
 DOMAIN,haohuo.snssdk.com,REJECT
 DOMAIN,lf.snssdk.com,REJECT
 DOMAIN,log-hl.snssdk.com,REJECT
@@ -308,6 +314,10 @@ DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 #Tencent-qqmusic
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,rich.kuwo.cn,REJECT
+DOMAIN,mobilead.kuwo.cn,REJECT
+DOMAIN,g.koowo.com,REJECT
+DOMAIN,logwebs.kugou.com,REJECT
 #Mgtv
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,log.mgtv.com,REJECT
@@ -373,20 +383,12 @@ DOMAIN-SUFFIX,uranus.sogou.com,REJECT
 DOMAIN-SUFFIX,inte.sogoucdn.com,REJECT
 DOMAIN-SUFFIX,theta.sogoucdn.com,REJECT
 #meituan
-DOMAIN,dreport.meituan.net,REJECT
-DOMAIN,fe_perf_env.dreport.meituan.net,REJECT
-DOMAIN,maidan_kfk2es.dreport.meituan.net,REJECT
-DOMAIN,met-badge.dreport.meituan.net,REJECT
-DOMAIN,met_metrics_mobile.dreport.meituan.net,REJECT
-DOMAIN,met_mobile_sniffer.dreport.meituan.net,REJECT
-DOMAIN,metrics-exit-ios.dreport.meituan.net,REJECT
-DOMAIN,prism-report-ddd.dreport.meituan.net,REJECT
-DOMAIN,route-stats.dreport.meituan.net,REJECT
+DOMAIN,analytics.meituan.net,REJECT
+DOMAIN,report.meituan.com,REJECT
+DOMAIN,hreport.meituan.com,REJECT
 DOMAIN-SUFFIX,dreport.meituan.net,REJECT
 DOMAIN-SUFFIX,hreport.meituan.com,REJECT
 DOMAIN-SUFFIX,report.meituan.com,REJECT
-DOMAIN,report.meituan.com,REJECT
-DOMAIN,hreport.meituan.com,REJECT
 #ifeng
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN-SUFFIX,newad.ifeng.com,REJECT
@@ -493,6 +495,8 @@ DOMAIN,doraemon.xiaojukeji.com,REJECT
 DOMAIN,ma-adx.ctrip.com,REJECT
 #58
 DOMAIN,adshow.58.com,REJECT
+DOMAIN,adx.58.com,REJECT
+DOMAIN,adxtrack.58.com,REJECT
 DOMAIN,afsxml.58.com,REJECT
 DOMAIN,brandadshowjs.58.com,REJECT
 DOMAIN,cdata.58.com,REJECT
@@ -516,11 +520,15 @@ DOMAIN,stat.moji.com,REJECT
 DOMAIN,v1.log.moji.com,REJECT
 #caiyun
 DOMAIN,ad.caiyunapp.com,REJECT
-#ximalaya
+#FM-ximalaya
 DOMAIN,adbehavior.ximalaya.com,REJECT
 DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
 DOMAIN,mermaid.ximalaya.com,REJECT
+#FM-
+DOMAIN,logs.luojilab.com,REJECT
+DOMAIN,stat.ajmide.com,REJECT
+DOMAIN,upload.ajmide.com,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
@@ -548,8 +556,10 @@ DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
 #App-Video
 DOMAIN-SUFFIX,ads.tvb.com,REJECT
-DOMAIN,video-ad.sm.cn,REJECT
+DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN,ggv.cmvideo.cn,REJECT
+DOMAIN,ggx.cmvideo.cn,REJECT
+DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,ads.aplusapi.pptv.com,REJECT
 DOMAIN,ads.aplus.pptv.com,REJECT
 DOMAIN,de.as.pptv.com,REJECT
@@ -626,6 +636,7 @@ DOMAIN-SUFFIX,adform.net,REJECT
 DOMAIN-SUFFIX,adgeek.com.tw,REJECT
 DOMAIN-SUFFIX,adinall.com,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.net.in,REJECT
 DOMAIN-SUFFIX,adlocus.com,REJECT
 DOMAIN-SUFFIX,admarvel.com,REJECT
 DOMAIN-SUFFIX,admaster.com.cn,REJECT
@@ -768,6 +779,7 @@ DOMAIN-SUFFIX,nend.net,REJECT
 DOMAIN-SUFFIX,newrelic.com,REJECT
 DOMAIN-SUFFIX,ninebox.cn,REJECT
 DOMAIN-SUFFIX,oadz.com,REJECT
+DOMAIN-SUFFIX,openinstall.io,REJECT
 DOMAIN-SUFFIX,optaim.com,REJECT
 DOMAIN-SUFFIX,optimix.cn,REJECT
 DOMAIN-SUFFIX,pagechoice.net,REJECT
