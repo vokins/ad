@@ -1,10 +1,13 @@
-# Update > 14:11 2022/1/7
+# Update > 14:34 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
-DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,dfp.suning.com,DIRECT
 DOMAIN,dns.jd.com,DIRECT
+DOMAIN,fairplay.l.qq.com,DIRECT
+DOMAIN,mgxhtj.kuwo.cn,DIRECT
+DOMAIN,log.kuwo.cn,DIRECT
+DOMAIN,mbd.baidu.com,DIRECT
 DOMAIN,ib-hl.snssdk.com,DIRECT
 DOMAIN,sf3-ttcdn-tos.pstatp.com,DIRECT
 DOMAIN,sf6-ttcdn-tos.pstatp.com,DIRECT
@@ -159,7 +162,7 @@ DOMAIN,gsp0.baidu.com,REJECT
 DOMAIN,hcl.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
 DOMAIN,hpd.baidu.com,REJECT
-DOMAIN,mbd.baidu.com,REJECT
+DOMAIN,bz-ipdx.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
@@ -846,6 +849,7 @@ DOMAIN-SUFFIX,rtbasia.com,REJECT
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,scupio.com,REJECT
 DOMAIN-SUFFIX,sdqoi2d.com,REJECT
+DOMAIN-SUFFIX,sensorsdata.cn,REJECT
 DOMAIN-SUFFIX,serving-sys.com,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,sigmob.cn,REJECT
