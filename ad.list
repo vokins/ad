@@ -1,4 +1,4 @@
-# Update > 11:54 2022/1/7
+# Update > 12:50 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -300,6 +300,9 @@ DOMAIN-SUFFIX,html5.qq.com,REJECT
 DOMAIN-SUFFIX,imtt.qq.com,REJECT
 DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN,dp3.qq.com,REJECT
+DOMAIN,h.trace.qq.com,REJECT
+DOMAIN,mtrace.qq.com,REJECT
+DOMAIN,report.qqweb.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
@@ -310,6 +313,7 @@ DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,ra.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
+DOMAIN,report.idqqimg.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 #Tencent-qqmusic
@@ -368,8 +372,6 @@ DOMAIN-SUFFIX,go.sohu.com,REJECT
 DOMAIN-SUFFIX,images.sohu.com,REJECT
 DOMAIN-SUFFIX,qpb.sohu.com,REJECT
 DOMAIN-SUFFIX,track.sohu.com,REJECT
-DOMAIN-SUFFIX,ad-plus.cn,REJECT
-DOMAIN-SUFFIX,optaim.com,REJECT
 DOMAIN-SUFFIX,bealge.sogou.com,REJECT
 DOMAIN-SUFFIX,brand.sogou.com,REJECT
 DOMAIN-SUFFIX,cpc.sogou.com,REJECT
@@ -521,6 +523,15 @@ DOMAIN,stat.moji.com,REJECT
 DOMAIN,v1.log.moji.com,REJECT
 #caiyun
 DOMAIN,ad.caiyunapp.com,REJECT
+#cam-meitu
+DOMAIN-SUFFIX,tg.meitu.com,REJECT
+DOMAIN-SUFFIX,meitustat.com,REJECT
+DOMAIN,mea.meitudata.com,REJECT
+DOMAIN,stat.meitudata.com,REJECT
+#cam-b612
+DOMAIN,api-ad.kajicam.com,REJECT
+DOMAIN,api-ad-data.kajicam.com,REJECT
+DOMAIN,log.b612kaji.com,REJECT
 #FM-ximalaya
 DOMAIN,adbehavior.ximalaya.com,REJECT
 DOMAIN,adse.wsa.ximalaya.com,REJECT
@@ -561,10 +572,13 @@ DOMAIN,ggic.cmvideo.cn,REJECT
 DOMAIN,ggtagcache.cmvideo.cn,REJECT
 DOMAIN,ggv.cmvideo.cn,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
-DOMAIN,ggmk.miguvideo.com,REJECT
 DOMAIN,ggic05.miguvideo.com,REJECT
-DOMAIN,ggx05.miguvideo.com,REJECT
 DOMAIN,ggicaqz.miguvideo.com,REJECT
+DOMAIN,ggmk.miguvideo.com,REJECT
+DOMAIN,ggx05.miguvideo.com,REJECT
+#mdd
+DOMAIN,log.mddcloud.com.cn,REJECT
+DOMAIN,dplog.mddcloud.com.cn,REJECT
 #YunTuTV
 DOMAIN,ad.yuntuds.com,REJECT
 DOMAIN,probe.yuntuds.com,REJECT
