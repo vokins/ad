@@ -1,4 +1,4 @@
-# Update > 19:21 2022/1/7
+# Update > 19:28 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -833,6 +833,7 @@ DOMAIN-SUFFIX,lnk0.com,REJECT
 DOMAIN-SUFFIX,madhouse.cn,REJECT
 DOMAIN-SUFFIX,madserving.com,REJECT
 DOMAIN-SUFFIX,manduhu.com,REJECT
+DOMAIN-SUFFIX,manmeng168.com,REJECT
 DOMAIN-SUFFIX,mediav.com,REJECT
 DOMAIN-SUFFIX,mgid.com,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
@@ -845,6 +846,7 @@ DOMAIN-SUFFIX,mobgi.com,REJECT
 DOMAIN-SUFFIX,mobvista.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 DOMAIN-SUFFIX,muhoujiemi.com,REJECT
+DOMAIN-SUFFIX,mzgood.cn,REJECT
 DOMAIN-SUFFIX,nend.net,REJECT
 DOMAIN-SUFFIX,networkbench.com,REJECT
 DOMAIN-SUFFIX,newrelic.com,REJECT
@@ -902,6 +904,7 @@ DOMAIN-SUFFIX,trackingio.com,REJECT
 DOMAIN-SUFFIX,trafficjam.cn,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
 DOMAIN-SUFFIX,tribalfusion.com,REJECT
+DOMAIN-SUFFIX,tsquan.cn,REJECT
 DOMAIN-SUFFIX,turn.com,REJECT
 DOMAIN-SUFFIX,ujian.cc,REJECT
 DOMAIN-SUFFIX,ulink.cc,REJECT
