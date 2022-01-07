@@ -1,4 +1,4 @@
-# Update > 15:09 2022/1/7
+# Update > 19:01 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -268,6 +268,11 @@ DOMAIN-SUFFIX,mon.toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+#Bytedance-zijieapi
+DOMAIN,ad.zijieapi.com,REJECT
+DOMAIN,ads5-normal.zijieapi.com,REJECT
+DOMAIN,minigame5-normal.zijieapi.com,REJECT
+DOMAIN,mssdk.zijieapi.com,REJECT
 #Google
 DOMAIN,app-measurement.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
@@ -665,6 +670,15 @@ DOMAIN-SUFFIX,rubiconproject.com,REJECT
 DOMAIN-SUFFIX,stickyadstv.com,REJECT
 DOMAIN-SUFFIX,vidoomy.com,REJECT
 DOMAIN-SUFFIX,zampda.net,REJECT
+#novel
+DOMAIN,log5-applog-lq.fqnovel.com,REJECT
+DOMAIN,rtlog5-applog.fqnovel.com,REJECT
+DOMAIN,ws2.fengdunovel.com,REJECT
+DOMAIN,applog.reader.qq.com,REJECT
+DOMAIN,log.ireader.com,REJECT
+DOMAIN,logv2.ireader.com,REJECT
+DOMAIN,cdn-ad.wtzw.com,REJECT
+DOMAIN,ut2.shuqistat.com,REJECT
 #ots
 DOMAIN,analysis.tratao.com,REJECT
 DOMAIN,adsapi.fawulu.com,REJECT
@@ -702,6 +716,7 @@ DOMAIN-SUFFIX,admarvel.com,REJECT
 DOMAIN-SUFFIX,admaster.com.cn,REJECT
 DOMAIN-SUFFIX,admedia.com,REJECT
 DOMAIN-SUFFIX,admin6.com,REJECT
+DOMAIN-SUFFIX,admobile.top,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,adperium.com,REJECT
 DOMAIN-SUFFIX,adpolestar.net,REJECT
@@ -720,6 +735,7 @@ DOMAIN-SUFFIX,adview.cn,REJECT
 DOMAIN-SUFFIX,adwo.com,REJECT
 DOMAIN-SUFFIX,adzerk.net,REJECT
 DOMAIN-SUFFIX,agrantsem.com,REJECT
+DOMAIN-SUFFIX,aiclk.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,anythinktech.com,REJECT
 DOMAIN-SUFFIX,appadhoc.com,REJECT
@@ -743,6 +759,8 @@ DOMAIN-SUFFIX,bloggerads.net,REJECT
 DOMAIN-SUFFIX,bluekai.com,REJECT
 DOMAIN-SUFFIX,bmob.cn,REJECT
 DOMAIN-SUFFIX,bugsnag.com,REJECT
+DOMAIN-SUFFIX,bugtags.cn,REJECT
+DOMAIN-SUFFIX,busydata.cn,REJECT
 DOMAIN-SUFFIX,buysellads.com,REJECT
 DOMAIN-SUFFIX,cacafly.com,REJECT
 DOMAIN-SUFFIX,casalemedia.com,REJECT
@@ -760,6 +778,7 @@ DOMAIN-SUFFIX,cn.miaozhen.com,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
 DOMAIN-SUFFIX,cocounion.com,REJECT
 DOMAIN-SUFFIX,codenow.cn,REJECT
+DOMAIN-SUFFIX,convergemob.com,REJECT
 DOMAIN-SUFFIX,cpatrk.net,REJECT
 DOMAIN-SUFFIX,cr-nielsen.com,REJECT
 DOMAIN-SUFFIX,crashlytics.com,REJECT
