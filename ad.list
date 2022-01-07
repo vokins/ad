@@ -1,4 +1,4 @@
-# Update > 14:55 2022/1/7
+# Update > 15:05 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -331,7 +331,13 @@ DOMAIN,tmeadcomm.y.qq.com,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,g.koowo.com,REJECT
+DOMAIN,ads.service.kugou.com,REJECT
+DOMAIN,adserviceretry.kugou.com,REJECT
+DOMAIN,adsfilebssdlbig.ali.kugou.com,REJECT
+DOMAIN,log.web.kugou.com,REJECT
 DOMAIN,logwebs.kugou.com,REJECT
+DOMAIN,mobilelog.kugou.com,REJECT
+DOMAIN,splashimgbssdl.yun.kugou.com,REJECT
 #Mgtv
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,log.mgtv.com,REJECT
