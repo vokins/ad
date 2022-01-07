@@ -1,19 +1,6 @@
-# Update > 19:15 2022/1/7
+# Update > 19:21 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
-#WhiteLists
-DOMAIN,dfp.suning.com,DIRECT
-DOMAIN,dns.jd.com,DIRECT
-DOMAIN,fairplay.l.qq.com,DIRECT
-DOMAIN,mgxhtj.kuwo.cn,DIRECT
-DOMAIN,log.kuwo.cn,DIRECT
-DOMAIN,mbd.baidu.com,DIRECT
-DOMAIN,ib-hl.snssdk.com,DIRECT
-DOMAIN,sf3-ttcdn-tos.pstatp.com,DIRECT
-DOMAIN,sf6-ttcdn-tos.pstatp.com,DIRECT
-DOMAIN-SUFFIX,cl2009.com,DIRECT
-DOMAIN-SUFFIX,cztv.com,DIRECT
-DOMAIN-SUFFIX,easemob.com,DIRECT
 #Ali
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
