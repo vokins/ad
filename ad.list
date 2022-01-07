@@ -1,4 +1,4 @@
-# Update > 14:34 2022/1/7
+# Update > 14:47 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -51,6 +51,7 @@ DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,adashx4yt.m.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,audid-api.taobao.com,REJECT
 DOMAIN,eco.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4bc.ut.taobao.com,REJECT
@@ -531,6 +532,9 @@ DOMAIN,stat.moji.com,REJECT
 DOMAIN,v1.log.moji.com,REJECT
 #caiyun
 DOMAIN,ad.caiyunapp.com,REJECT
+#dewu
+DOMAIN,client-log.poizon.com,REJECT
+DOMAIN,sensors.dewu.com,REJECT
 #cam-meitu
 DOMAIN-SUFFIX,tg.meitu.com,REJECT
 DOMAIN-SUFFIX,meitustat.com,REJECT
@@ -622,6 +626,7 @@ DOMAIN,mpartner.funshion.com,REJECT
 DOMAIN,iphone.v0.mgtv.com,REJECT
 DOMAIN-SUFFIX,bz.mgtv.com,REJECT
 DOMAIN,analytics3.starschina.com,REJECT
+DOMAIN,rp.hpplay.cn,REJECT
 #xunlei
 DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
 DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
@@ -850,6 +855,7 @@ DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,scupio.com,REJECT
 DOMAIN-SUFFIX,sdqoi2d.com,REJECT
 DOMAIN-SUFFIX,sensorsdata.cn,REJECT
+DOMAIN-SUFFIX,sensorsdatavip.com,REJECT
 DOMAIN-SUFFIX,serving-sys.com,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,sigmob.cn,REJECT
