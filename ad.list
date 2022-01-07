@@ -1,4 +1,4 @@
-# Update > 13:27 2022/1/7
+# Update > 14:06 2022/1/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #WhiteLists
@@ -18,8 +18,10 @@ DOMAIN,baichuan-sdk.alicdn.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,unidesk.alicdn.com,REJECT
 DOMAIN,userlink.alicdn.com,REJECT
+DOMAIN,mpush-api.aliyun.com,REJECT
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN,adash.man.aliyuncs.com,REJECT
+DOMAIN,beacon-api.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,alimama.cn,REJECT
 DOMAIN-SUFFIX,alimama.com,REJECT
@@ -291,7 +293,6 @@ DOMAIN,pingma.qq.com,REJECT
 DOMAIN-SUFFIX,mtrace.qq.com,REJECT
 #Tencent-gdt
 DOMAIN,ads.privacy.qq.com,REJECT
-DOMAIN,tmead.y.qq.com,REJECT
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
@@ -319,6 +320,8 @@ DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 #Tencent-qqmusic
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,tmead.y.qq.com,REJECT
+DOMAIN,tmeadcomm.y.qq.com,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,g.koowo.com,REJECT
@@ -537,10 +540,23 @@ DOMAIN,adbehavior.ximalaya.com,REJECT
 DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
 DOMAIN,mermaid.ximalaya.com,REJECT
-#FM-
+#FM-荔枝
+DOMAIN,apprds.lizhifm.com,REJECT
+DOMAIN,httpproxy101.lizhifm.com,REJECT
+DOMAIN,datasensors.lz310.com,REJECT
+DOMAIN,netopt.lizhi.fm,REJECT
+#FM-得到
 DOMAIN,logs.luojilab.com,REJECT
+#FM-蜻蜓
+DOMAIN,ad-cdn.qingting.fm,REJECT
+#FM-阿基米德
 DOMAIN,stat.ajmide.com,REJECT
 DOMAIN,upload.ajmide.com,REJECT
+#FM-懒人听书
+DOMAIN,adv.wting.info,REJECT
+DOMAIN,hadvert.mting.info,REJECT
+#radio.cn
+DOMAIN,report.radio.cn,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
@@ -577,6 +593,7 @@ DOMAIN,ggicaqz.miguvideo.com,REJECT
 DOMAIN,ggmk.miguvideo.com,REJECT
 DOMAIN,ggx05.miguvideo.com,REJECT
 DOMAIN,log1.cmpassport.com,REJECT
+DOMAIN,log2.cmpassport.com,REJECT
 #mdd
 DOMAIN,log.mddcloud.com.cn,REJECT
 DOMAIN,dplog.mddcloud.com.cn,REJECT
@@ -642,6 +659,7 @@ DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
 DOMAIN,sdk.iad-06.braze.com,REJECT
 DOMAIN,pic-ad.tupian1234.com,REJECT
 DOMAIN,track.cnki.net,REJECT
+DOMAIN,lkme.cc,REJECT
 #Union-Ads
 DOMAIN-SUFFIX,2345.com,REJECT
 DOMAIN-SUFFIX,37cs.com,REJECT
@@ -707,6 +725,7 @@ DOMAIN-SUFFIX,biddingx.com,REJECT
 DOMAIN-SUFFIX,bloggerads.net,REJECT
 DOMAIN-SUFFIX,bluekai.com,REJECT
 DOMAIN-SUFFIX,bmob.cn,REJECT
+DOMAIN-SUFFIX,bugsnag.com,REJECT
 DOMAIN-SUFFIX,buysellads.com,REJECT
 DOMAIN-SUFFIX,cacafly.com,REJECT
 DOMAIN-SUFFIX,casalemedia.com,REJECT
@@ -761,6 +780,7 @@ DOMAIN-SUFFIX,hitslink.com,REJECT
 DOMAIN-SUFFIX,hot-mob.com,REJECT
 DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
 DOMAIN-SUFFIX,huodonghezi.com,REJECT
+DOMAIN-SUFFIX,hzbxm.com,REJECT
 DOMAIN-SUFFIX,icast.cn,REJECT
 DOMAIN-SUFFIX,ieeod0.com,REJECT
 DOMAIN-SUFFIX,igexin.com,REJECT
@@ -801,6 +821,7 @@ DOMAIN-SUFFIX,mobvista.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 DOMAIN-SUFFIX,muhoujiemi.com,REJECT
 DOMAIN-SUFFIX,nend.net,REJECT
+DOMAIN-SUFFIX,networkbench.com,REJECT
 DOMAIN-SUFFIX,newrelic.com,REJECT
 DOMAIN-SUFFIX,ninebox.cn,REJECT
 DOMAIN-SUFFIX,oadz.com,REJECT
