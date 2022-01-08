@@ -1,4 +1,4 @@
-# Update > 14:49 2022/1/8
+# Update > 17:51 2022/1/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -46,6 +46,8 @@ DOMAIN,h-adashx4bc.ut.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.taobao.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
 DOMAIN,youku-acs.m.taobao.com,REJECT
+DOMAIN,adashx.ut.fliggy.com,REJECT
+DOMAIN,h-adashx.ut.fliggy.com,REJECT
 #Ali-Weibo
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,adstrategy.biz.weibo.com,REJECT
@@ -241,9 +243,7 @@ DOMAIN-SUFFIX,applog.snssdk.com,REJECT
 DOMAIN-SUFFIX,bds.snssdk.com,REJECT
 DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,extlog.snssdk.com,REJECT
-DOMAIN-SUFFIX,i.snssdk.com,REJECT
 DOMAIN-SUFFIX,is.snssdk.com,REJECT
-DOMAIN-SUFFIX,log.snssdk.com,REJECT
 DOMAIN-SUFFIX,pangolin.snssdk.com,REJECT
 DOMAIN-SUFFIX,sdfp.snssdk.com,REJECT
 DOMAIN-SUFFIX,toblog.snssdk.com,REJECT
@@ -251,12 +251,9 @@ DOMAIN,analytics.snssdk.com,REJECT
 DOMAIN,haohuo.snssdk.com,REJECT
 DOMAIN,lf.snssdk.com,REJECT
 DOMAIN,log-hl.snssdk.com,REJECT
-DOMAIN,mcs.snssdk.com,REJECT
-DOMAIN,mon.snssdk.com,REJECT
 DOMAIN,mssdk-bu.snssdk.com,REJECT
 DOMAIN,mssdk.snssdk.com,REJECT
-DOMAIN,tbm.snssdk.com,REJECT
-DOMAIN,ug.snssdk.com,REJECT
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
 #Bytedance-toutiao
 DOMAIN-SUFFIX,ad.toutiao.com,REJECT
 DOMAIN-SUFFIX,dm.toutiao.com,REJECT
@@ -270,12 +267,14 @@ DOMAIN,ad.zijieapi.com,REJECT
 DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
 DOMAIN,ads5-normal.zijieapi.com,REJECT
 DOMAIN,minigame3-normal.zijieapi.com,REJECT
+DOMAIN,minigame5-normal-hl.zijieapi.com,REJECT
 DOMAIN,minigame5-normal-lq.zijieapi.com,REJECT
 DOMAIN,minigame5-normal.zijieapi.com,REJECT
 DOMAIN,mssdk.zijieapi.com,REJECT
 DOMAIN,mssdk3-normal-lf.zijieapi.com,REJECT
 DOMAIN,mssdk5-normal.zijieapi.com,REJECT
 DOMAIN,polaris.zijieapi.com,REJECT
+DOMAIN,polaris3-normal-hl.zijieapi.com,REJECT
 #Google
 DOMAIN,app-measurement.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
@@ -629,7 +628,6 @@ DOMAIN,unilog.wostore.cn,REJECT
 #189
 DOMAIN,appgoad.189.cn,REJECT
 DOMAIN,bigdata-behaviordata.189.cn,REJECT
-DOMAIN,jgsjtj.189.cn,REJECT
 DOMAIN,reportappgo.189.cn,REJECT
 #95516
 DOMAIN,ads.95516.com,REJECT
