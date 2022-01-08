@@ -1,4 +1,4 @@
-# Update > 19:45 2022/1/7
+# Update > 14:49 2022/1/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -94,6 +94,7 @@ DOMAIN,track.uc.cn,REJECT
 DOMAIN,c.sm.cn,REJECT
 DOMAIN,huichuan.sm.cn,REJECT
 DOMAIN,sdk-log.partner.sm.cn,REJECT
+DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,px.effirst.com,REJECT
 #Ali-suning
 DOMAIN,log.suning.com,REJECT
@@ -133,6 +134,7 @@ DOMAIN,aod-image.baidu.com,REJECT
 DOMAIN,bdimg.share.baidu.com,REJECT
 DOMAIN,bgg.baidu.com,REJECT
 DOMAIN,browserkernel.baidu.com,REJECT
+DOMAIN,bz-ipdx.baidu.com,REJECT
 DOMAIN,caclick.baidu.com,REJECT
 DOMAIN,cbjs.baidu.com,REJECT
 DOMAIN,cm.baidu.com,REJECT
@@ -143,20 +145,20 @@ DOMAIN,dlswbr.baidu.com,REJECT
 DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,dxp.baidu.com,REJECT
 DOMAIN,eclick.baidu.com,REJECT
-DOMAIN,fclick.baidu.com,REJECT
 DOMAIN,em.baidu.com,REJECT
 DOMAIN,fc1tn.baidu.com,REJECT
+DOMAIN,fclick.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
 DOMAIN,gsp0.baidu.com,REJECT
 DOMAIN,hcl.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
 DOMAIN,hpd.baidu.com,REJECT
-DOMAIN,bz-ipdx.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 DOMAIN,paimgcdn-feed.baidu.com,REJECT
+DOMAIN,pimlog.baidu.com,REJECT
 DOMAIN,push.zhanzhang.baidu.com,REJECT
 DOMAIN,qapm.baidu.com,REJECT
 DOMAIN,sofire.baidu.com,REJECT
@@ -193,6 +195,13 @@ DOMAIN,nspt.bdstatic.com,REJECT
 DOMAIN,sofire.bdstatic.com,REJECT
 DOMAIN,su.bdstatic.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
+#baidu-dxm
+DOMAIN-SUFFIX,daikuan.360.cn,REJECT
+DOMAIN-SUFFIX,duxiaoman.com,REJECT
+DOMAIN-SUFFIX,dxmbaoxian.com,REJECT
+DOMAIN-SUFFIX,dxmpay.com,REJECT
+DOMAIN-SUFFIX,dxmstatic.com,REJECT
+DOMAIN-SUFFIX,paydxm.com,REJECT
 #Baidu-iQiyi
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
@@ -260,9 +269,13 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 DOMAIN,ad.zijieapi.com,REJECT
 DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
 DOMAIN,ads5-normal.zijieapi.com,REJECT
-DOMAIN,minigame5-normal.zijieapi.com,REJECT
+DOMAIN,minigame3-normal.zijieapi.com,REJECT
 DOMAIN,minigame5-normal-lq.zijieapi.com,REJECT
+DOMAIN,minigame5-normal.zijieapi.com,REJECT
 DOMAIN,mssdk.zijieapi.com,REJECT
+DOMAIN,mssdk3-normal-lf.zijieapi.com,REJECT
+DOMAIN,mssdk5-normal.zijieapi.com,REJECT
+DOMAIN,polaris.zijieapi.com,REJECT
 #Google
 DOMAIN,app-measurement.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
@@ -309,6 +322,8 @@ DOMAIN,safebrowsing.urlsec.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN-KEYWORD,variety.tc.qq.com,REJECT
 DOMAIN,adsmind.ugdtimg.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
@@ -318,6 +333,7 @@ DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,report.idqqimg.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,tpns.gz2.tencent.com,REJECT
 #Tencent-qqmusic
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
@@ -335,8 +351,14 @@ DOMAIN,logwebs.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 DOMAIN,splashimgbssdl.yun.kugou.com,REJECT
 #Mgtv
+DOMAIN,iphone-v0-al.data.mgtv.com,REJECT
+DOMAIN,iphone.v0.mgtv.com,REJECT
+DOMAIN,iphone.v2.data.mgtv.com,REJECT
+DOMAIN,recom.api.mgtv.com,REJECT
+DOMAIN-SUFFIX,bz.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,log.mgtv.com,REJECT
+DOMAIN-SUFFIX,titan.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
 DOMAIN-SUFFIX,log.hunantv.com,REJECT
 #Yidianzixun
@@ -568,6 +590,27 @@ DOMAIN,adv.wting.info,REJECT
 DOMAIN,hadvert.mting.info,REJECT
 #radio.cn
 DOMAIN,report.radio.cn,REJECT
+#易车
+DOMAIN,adx.yiche.com,REJECT
+DOMAIN,applog.yiche.com,REJECT
+DOMAIN,applogm.yiche.com,REJECT
+DOMAIN,log.ycapp.yiche.com,REJECT
+DOMAIN,rc-logc.yiche.com,REJECT
+DOMAIN,tracker.yiche.com,REJECT
+#汽车之家
+DOMAIN,al.autohome.com.cn,REJECT
+DOMAIN,adproxy.autohome.com.cn,REJECT
+DOMAIN,applogapi.autohome.com.cn,REJECT
+DOMAIN,pvx.autohome.com.cn,REJECT
+DOMAIN,rd.autohome.com.cn,REJECT
+DOMAIN,rdx.autohome.com.cn,REJECT
+#探探
+DOMAIN,autoupdate.tantanapp.com,REJECT
+DOMAIN,client-tracking.tantanapp.com,REJECT
+DOMAIN,counter.tantanapp.com,REJECT
+DOMAIN,deviceid.tantanapp.com,REJECT
+DOMAIN,report.tantanapp.com,REJECT
+DOMAIN,sc-report.tantanapp.com,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
@@ -605,6 +648,7 @@ DOMAIN,ggmk.miguvideo.com,REJECT
 DOMAIN,ggx05.miguvideo.com,REJECT
 DOMAIN,log1.cmpassport.com,REJECT
 DOMAIN,log2.cmpassport.com,REJECT
+DOMAIN,log001.cmpassport.com,REJECT
 #mdd
 DOMAIN,log.mddcloud.com.cn,REJECT
 DOMAIN,dplog.mddcloud.com.cn,REJECT
@@ -614,7 +658,8 @@ DOMAIN,probe.yuntuds.com,REJECT
 DOMAIN,api.ls.eyunmy.com,REJECT
 #App-Video
 DOMAIN-SUFFIX,ads.tvb.com,REJECT
-DOMAIN,video-ad.sm.cn,REJECT
+DOMAIN,adeng.hpplay.cn,REJECT
+DOMAIN,rp.hpplay.cn,REJECT
 DOMAIN,ads.aplusapi.pptv.com,REJECT
 DOMAIN,ads.aplus.pptv.com,REJECT
 DOMAIN,de.as.pptv.com,REJECT
@@ -625,15 +670,12 @@ DOMAIN,ark.letv.com,REJECT
 DOMAIN,dynamic.app.m.letv.com,REJECT
 DOMAIN,adm4.funshion.com,REJECT
 DOMAIN,mpartner.funshion.com,REJECT
-DOMAIN,iphone.v0.mgtv.com,REJECT
-DOMAIN-SUFFIX,bz.mgtv.com,REJECT
+
 DOMAIN,analytics3.starschina.com,REJECT
-DOMAIN,rp.hpplay.cn,REJECT
 #xunlei
 DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
 DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
 DOMAIN,hub5btmain.v6.shub.sandai.net,REJECT
-#izuiyou
 DOMAIN,adapi.izuiyou.com,REJECT
 #https://www.ctrip.com/
 DOMAIN,s.c-ctrip.com,REJECT
@@ -670,6 +712,13 @@ DOMAIN,logv2.ireader.com,REJECT
 DOMAIN,cdn-ad.wtzw.com,REJECT
 DOMAIN,adashx.ut.shuqi.com,REJECT
 DOMAIN,ut2.shuqistat.com,REJECT
+DOMAIN,log.ssread.cn,REJECT
+DOMAIN,ads.nbbookne.com,REJECT
+DOMAIN,adapi.cread.com,REJECT
+DOMAIN,b.zhuishushenqi.com,REJECT
+DOMAIN,sensorspop.zhuishushenqi.com,REJECT
+DOMAIN,unitelogreport.reader.qq.com,REJECT
+DOMAIN,uplog.inews.qq.com,REJECT
 #ots
 DOMAIN,analysis.tratao.com,REJECT
 DOMAIN,adsapi.fawulu.com,REJECT
@@ -682,6 +731,7 @@ DOMAIN,sdk.iad-06.braze.com,REJECT
 DOMAIN,pic-ad.tupian1234.com,REJECT
 DOMAIN,track.cnki.net,REJECT
 DOMAIN,lkme.cc,REJECT
+DOMAIN,tongji.qichacha.com,REJECT
 #Union-Ads
 DOMAIN-SUFFIX,2345.com,REJECT
 DOMAIN-SUFFIX,37cs.com,REJECT
@@ -746,6 +796,7 @@ DOMAIN-SUFFIX,behe.com,REJECT
 DOMAIN-SUFFIX,beintoo.com,REJECT
 DOMAIN-SUFFIX,beizi.biz,REJECT
 DOMAIN-SUFFIX,biddingx.com,REJECT
+DOMAIN-SUFFIX,bjzghd.com,REJECT
 DOMAIN-SUFFIX,bloggerads.net,REJECT
 DOMAIN-SUFFIX,bluekai.com,REJECT
 DOMAIN-SUFFIX,bmob.cn,REJECT
@@ -777,6 +828,7 @@ DOMAIN-SUFFIX,criteo.com,REJECT
 DOMAIN-SUFFIX,criteo.net,REJECT
 DOMAIN-SUFFIX,crwdcntrl.net,REJECT
 DOMAIN-SUFFIX,csbew.com,REJECT
+DOMAIN-SUFFIX,ctags.cn,REJECT
 DOMAIN-SUFFIX,cytcm.com,REJECT
 DOMAIN-SUFFIX,daoyoudao.com,REJECT
 DOMAIN-SUFFIX,dlads.cn,REJECT
@@ -799,6 +851,7 @@ DOMAIN-SUFFIX,fraudmetrix.cn,REJECT
 DOMAIN-SUFFIX,gentags.com,REJECT
 DOMAIN-SUFFIX,gentags.net,REJECT
 DOMAIN-SUFFIX,getui.com,REJECT
+DOMAIN-SUFFIX,getui.net,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,gtags.net,REJECT
 DOMAIN-SUFFIX,hapying.com,REJECT
@@ -815,6 +868,7 @@ DOMAIN-SUFFIX,imrworldwide.com,REJECT
 DOMAIN-SUFFIX,inmobi.cn,REJECT
 DOMAIN-SUFFIX,inmobi.com,REJECT
 DOMAIN-SUFFIX,inmobicdn.net,REJECT
+DOMAIN-SUFFIX,innotechx.com,REJECT
 DOMAIN-SUFFIX,ipinyou.com,REJECT
 DOMAIN-SUFFIX,irs01.com,REJECT
 DOMAIN-SUFFIX,irs03.com,REJECT
