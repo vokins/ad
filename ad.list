@@ -1,4 +1,4 @@
-# Update > 17:51 2022/1/8
+# Update > 18:26 2022/1/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -251,8 +251,12 @@ DOMAIN,analytics.snssdk.com,REJECT
 DOMAIN,haohuo.snssdk.com,REJECT
 DOMAIN,lf.snssdk.com,REJECT
 DOMAIN,log-hl.snssdk.com,REJECT
+DOMAIN,mcs.snssdk.com,REJECT
+DOMAIN,mon.snssdk.com,REJECT
 DOMAIN,mssdk-bu.snssdk.com,REJECT
 DOMAIN,mssdk.snssdk.com,REJECT
+DOMAIN,tbm.snssdk.com,REJECT
+DOMAIN,ug.snssdk.com,REJECT
 DOMAIN,tnc3-aliec2.snssdk.com,REJECT
 #Bytedance-toutiao
 DOMAIN-SUFFIX,ad.toutiao.com,REJECT
@@ -463,8 +467,14 @@ DOMAIN,log-yex.youdao.com,REJECT
 DOMAIN-SUFFIX,clkservice.youdao.com,REJECT
 DOMAIN-SUFFIX,corp.youdao.com,REJECT
 DOMAIN-SUFFIX,union.youdao.com,REJECT
-#autohome.com.cn
+#汽车之家autohome.com.cn
 DOMAIN,adm3.autoimg.cn,REJECT
+DOMAIN,adproxy.autohome.com.cn,REJECT
+DOMAIN,al.autohome.com.cn,REJECT
+DOMAIN,applogapi.autohome.com.cn,REJECT
+DOMAIN,pvx.autohome.com.cn,REJECT
+DOMAIN,rd.autohome.com.cn,REJECT
+DOMAIN,rdx.autohome.com.cn,REJECT
 DOMAIN,twypgj2o.autohome.com.cn,REJECT
 #zol
 DOMAIN,ca.zol.com.cn,REJECT
@@ -596,13 +606,6 @@ DOMAIN,applogm.yiche.com,REJECT
 DOMAIN,log.ycapp.yiche.com,REJECT
 DOMAIN,rc-logc.yiche.com,REJECT
 DOMAIN,tracker.yiche.com,REJECT
-#汽车之家
-DOMAIN,al.autohome.com.cn,REJECT
-DOMAIN,adproxy.autohome.com.cn,REJECT
-DOMAIN,applogapi.autohome.com.cn,REJECT
-DOMAIN,pvx.autohome.com.cn,REJECT
-DOMAIN,rd.autohome.com.cn,REJECT
-DOMAIN,rdx.autohome.com.cn,REJECT
 #探探
 DOMAIN,autoupdate.tantanapp.com,REJECT
 DOMAIN,client-tracking.tantanapp.com,REJECT
