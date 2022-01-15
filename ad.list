@@ -1,4 +1,4 @@
-# Update > 18:26 2022/1/8
+# Update > 10:36 2022/1/15
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -6,6 +6,7 @@ DOMAIN,ssp-partner.alibaba.com,REJECT
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
+DOMAIN,liangcang-material.alicdn.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,unidesk.alicdn.com,REJECT
 DOMAIN,userlink.alicdn.com,REJECT
@@ -57,7 +58,6 @@ DOMAIN,down.apps.sina.cn,REJECT
 DOMAIN,u1.img.mobile.sina.cn,REJECT
 DOMAIN,ad.us.sinaimg.cn,REJECT
 DOMAIN,wbox.sinaimg.cn,REJECT
-DOMAIN,f3.video.weibocdn.com,REJECT
 DOMAIN,dm.video.weibocdn.com,REJECT
 DOMAIN,storage.wax.weibo.com,REJECT
 DOMAIN,vip.storage.weibo.com,REJECT
@@ -107,9 +107,11 @@ DOMAIN,adashx.ut.youku.com,REJECT
 DOMAIN,adx-open-service.youku.com,REJECT
 DOMAIN,apiv4-iyes.youku.com,REJECT
 DOMAIN,cad.youku.com,REJECT
+DOMAIN,ems.youku.com,REJECT
 DOMAIN,h-adashx.ut.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
 DOMAIN,push.m.youku.com,REJECT
+DOMAIN,rhdc-acs.youku.com,REJECT
 DOMAIN,un-acs.youku.com,REJECT
 DOMAIN,yk-ssp.ad.youku.com,REJECT
 DOMAIN,ykad-data.youku.com,REJECT
@@ -167,7 +169,6 @@ DOMAIN,sofire.baidu.com,REJECT
 DOMAIN,sp1.baidu.com,REJECT
 DOMAIN,tcbox.baidu.com,REJECT
 DOMAIN,wkctj.baidu.com,REJECT
-DOMAIN,aip.baidubce.com,REJECT
 DOMAIN,cpro.baidustatic.com,REJECT
 DOMAIN,cpro2.baidustatic.com,REJECT
 DOMAIN,dup.baidustatic.com,REJECT
@@ -337,6 +338,8 @@ DOMAIN,report.idqqimg.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 DOMAIN-SUFFIX,tpns.gz2.tencent.com,REJECT
+DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net,REJECT
+DOMAIN,apd-vodp2preport.teg.tencent-cloud.net,REJECT
 #Tencent-qqmusic
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
@@ -561,6 +564,9 @@ DOMAIN,frodo.douban.com,REJECT
 DOMAIN,qnmob3.doubanio.com,REJECT
 #moji
 DOMAIN,adlaunch.moji.com,REJECT
+DOMAIN,ffds.api.moji.com,REJECT
+DOMAIN,logb.moji.com,REJECT
+DOMAIN,psnlz.api.moji.com,REJECT
 DOMAIN,stat.moji.com,REJECT
 DOMAIN,v1.log.moji.com,REJECT
 #caiyun
@@ -621,8 +627,10 @@ DOMAIN-SUFFIX,ads.oppomobile.com,REJECT
 DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,REJECT
 DOMAIN-SUFFIX,samsungadhub.com,REJECT
 DOMAIN-SUFFIX,samsungads.com,REJECT
+#MicroSoft
 DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
+DOMAIN,telemetry.api.swiftkey.com,REJECT
 #10010
 DOMAIN,smartad.10010.com,REJECT
 DOMAIN,m1.ad.10010.com,REJECT
@@ -671,7 +679,7 @@ DOMAIN,ark.letv.com,REJECT
 DOMAIN,dynamic.app.m.letv.com,REJECT
 DOMAIN,adm4.funshion.com,REJECT
 DOMAIN,mpartner.funshion.com,REJECT
-
+DOMAIN,image.9xsecndns.cn,REJECT
 DOMAIN,analytics3.starschina.com,REJECT
 #xunlei
 DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
@@ -814,6 +822,7 @@ DOMAIN-SUFFIX,chanet.com.cn,REJECT
 DOMAIN-SUFFIX,channeladvisor.com,REJECT
 DOMAIN-SUFFIX,chartbeat.com,REJECT
 DOMAIN-SUFFIX,chushoushijian.cn,REJECT
+DOMAIN-SUFFIX,cl2009.com,REJECT
 DOMAIN-SUFFIX,clicki.cn,REJECT
 DOMAIN-SUFFIX,cloudmobi.net,REJECT
 DOMAIN-SUFFIX,cmgadx.com,REJECT
