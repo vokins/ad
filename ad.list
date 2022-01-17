@@ -1,4 +1,4 @@
-# Update > 10:36 2022/1/15
+# Update > 16:01 2022/1/17
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -52,6 +52,7 @@ DOMAIN,h-adashx.ut.fliggy.com,REJECT
 #Ali-Weibo
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,adstrategy.biz.weibo.com,REJECT
+DOMAIN,future.biz.weibo.com,REJECT
 DOMAIN,vs.biz.weibo.com,REJECT
 DOMAIN-SUFFIX,uve.weibo.com,REJECT
 DOMAIN,down.apps.sina.cn,REJECT
@@ -345,34 +346,34 @@ DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
 DOMAIN,tmead.y.qq.com,REJECT
 DOMAIN,tmeadcomm.y.qq.com,REJECT
+#Tencent-kuwo
 DOMAIN,rich.kuwo.cn,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,g.koowo.com,REJECT
+#Tencent-kugou
 DOMAIN,ads.service.kugou.com,REJECT
 DOMAIN,adservice.kugou.com,REJECT
 DOMAIN,adserviceretry.kugou.com,REJECT
 DOMAIN,adsfilebssdlbig.ali.kugou.com,REJECT
+DOMAIN,install2.kugou.com,REJECT
+DOMAIN,kgipadstat.kugou.com,REJECT
+DOMAIN,kgipadstatbak.kugou.com,REJECT
 DOMAIN,log.web.kugou.com,REJECT
 DOMAIN,logwebs.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
+DOMAIN,msg.mobile.kugou.com,REJECT
+DOMAIN,push.mobile.kugou.com,REJECT
 DOMAIN,splashimgbssdl.yun.kugou.com,REJECT
+DOMAIN,tracker.kugou.com,REJECT
+DOMAIN,trackercdnbj.kugou.com,REJECT
 #Mgtv
-DOMAIN,iphone-v0-al.data.mgtv.com,REJECT
-DOMAIN,iphone.v0.mgtv.com,REJECT
-DOMAIN,iphone.v2.data.mgtv.com,REJECT
 DOMAIN,recom.api.mgtv.com,REJECT
-DOMAIN-SUFFIX,bz.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
-DOMAIN-SUFFIX,log.mgtv.com,REJECT
-DOMAIN-SUFFIX,titan.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
-DOMAIN-SUFFIX,log.hunantv.com,REJECT
 #Yidianzixun
 DOMAIN,adserver.yidianzixun.com,REJECT
 DOMAIN,dsp.yidianzixun.com,REJECT
 #Smzdm
-DOMAIN,analytics-api-01.smzdm.com,REJECT
-DOMAIN,analytics-api.smzdm.com,REJECT
 DOMAIN,eimg.smzdm.com,REJECT
 DOMAIN,shence-import.smzdm.com,REJECT
 DOMAIN,s2.zdmimg.com,REJECT
@@ -449,7 +450,6 @@ DOMAIN,c1.ifengimg.com,REJECT
 DOMAIN,yes1.feng.com,REJECT
 #163
 DOMAIN,analytics.163.com,REJECT
-DOMAIN,c.m.163.com,REJECT
 DOMAIN,clientlog.music.163.com,REJECT
 DOMAIN,clientlog3.music.163.com,REJECT
 DOMAIN,g.163.com,REJECT
@@ -588,6 +588,7 @@ DOMAIN,adbehavior.ximalaya.com,REJECT
 DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
 DOMAIN,mermaid.ximalaya.com,REJECT
+DOMAIN,xdcs-collector.ximalaya.com,REJECT
 #FM-荔枝
 DOMAIN,apprds.lizhifm.com,REJECT
 DOMAIN,httpproxy101.lizhifm.com,REJECT
