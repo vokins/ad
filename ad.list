@@ -1,4 +1,4 @@
-# Update > 1:17 2022/1/25
+# Update > 1:22 2022/1/25
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -181,7 +181,6 @@ DOMAIN,ecmb.bdimg.com,REJECT
 DOMAIN,ecmc.bdimg.com,REJECT
 DOMAIN,su.bdimg.com,REJECT
 #Baidu-bcebos
-DOMAIN-SUFFIX,bj.bcebos.com,REJECT
 DOMAIN,aod-image-material.cdn.bcebos.com,REJECT
 DOMAIN,dsp-idea.cdn.bcebos.com,REJECT
 DOMAIN,edu-ad-test-cdn.cdn.bcebos.com,REJECT
@@ -323,6 +322,8 @@ DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN,ad.browser.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,dp3.qq.com,REJECT
+DOMAIN,hc.tdm.qq.com,REJECT
+DOMAIN,jpush.html5.qq.com,REJECT
 DOMAIN,logsdk.qq.com,REJECT
 DOMAIN,mazu.m.qq.com,REJECT
 DOMAIN,report.qqweb.qq.com,REJECT
@@ -338,6 +339,7 @@ DOMAIN,pgdt.ugdtimg.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,ra.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,report.idqqimg.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
