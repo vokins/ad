@@ -1,4 +1,4 @@
-# Update > 16:01 2022/1/17
+# Update > 18:47 2022/1/24
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -92,6 +92,7 @@ DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,safe.ucweb.com,REJECT
 DOMAIN,applog.uc.cn,REJECT
 DOMAIN,applogios.uc.cn,REJECT
+DOMAIN,feedback.uc.cn,REJECT
 DOMAIN,hcadv.video.ums.uc.cn,REJECT
 DOMAIN,track.uc.cn,REJECT
 DOMAIN,c.sm.cn,REJECT
@@ -104,6 +105,7 @@ DOMAIN,log.suning.com,REJECT
 #Ali-Youku
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 DOMAIN,acs.youku.com,REJECT
+DOMAIN,adashx.ut.tudou.com,REJECT
 DOMAIN,adashx.ut.youku.com,REJECT
 DOMAIN,adx-open-service.youku.com,REJECT
 DOMAIN,apiv4-iyes.youku.com,REJECT
@@ -286,6 +288,7 @@ DOMAIN,app-measurement.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
+DOMAIN,firebasedynamiclinks.googleapis.com,REJECT
 DOMAIN,safebrowsing.googleapis.com,REJECT
 DOMAIN,safebrowsing.googleapis-cn.com,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
@@ -317,13 +320,15 @@ DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN-SUFFIX,html5.qq.com,REJECT
-DOMAIN-SUFFIX,imtt.qq.com,REJECT
 DOMAIN-SUFFIX,mdt.qq.com,REJECT
-DOMAIN,dp3.qq.com,REJECT
+DOMAIN,ad.browser.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
+DOMAIN,dp3.qq.com,REJECT
+DOMAIN,logsdk.qq.com,REJECT
+DOMAIN,mazu.m.qq.com,REJECT
 DOMAIN,report.qqweb.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+DOMAIN,tpush.html5.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
@@ -405,6 +410,10 @@ DOMAIN,images.sohu.com,REJECT
 DOMAIN,pv.sohu.com,REJECT
 DOMAIN,mb.hd.sohu.com.cn,REJECT
 DOMAIN,track.sohu.com,REJECT
+DOMAIN,get.sogou.com,REJECT
+DOMAIN,apt2k.sogou.com,REJECT
+DOMAIN,conv.k.sogou.com,REJECT
+DOMAIN,push2k.sogou.com,REJECT
 DOMAIN-SUFFIX,ads.sohu.com,REJECT
 DOMAIN-SUFFIX,aty.sohu.com,REJECT
 DOMAIN-SUFFIX,fpb.sohu.com,REJECT
@@ -598,6 +607,7 @@ DOMAIN,netopt.lizhi.fm,REJECT
 DOMAIN,logs.luojilab.com,REJECT
 #FM-蜻蜓
 DOMAIN,ad-cdn.qingting.fm,REJECT
+DOMAIN,adlaunch.qingting.fm,REJECT
 #FM-阿基米德
 DOMAIN,stat.ajmide.com,REJECT
 DOMAIN,upload.ajmide.com,REJECT
@@ -717,23 +727,35 @@ DOMAIN-KEYWORD,applog-lq.fqnovel.com,REJECT
 DOMAIN-KEYWORD,applog.fqnovel.com,REJECT
 DOMAIN,ws2.fengdunovel.com,REJECT
 DOMAIN,applog.reader.qq.com,REJECT
-DOMAIN,log.ireader.com,REJECT
-DOMAIN,logv2.ireader.com,REJECT
-DOMAIN,cdn-ad.wtzw.com,REJECT
-DOMAIN,adashx.ut.shuqi.com,REJECT
-DOMAIN,ut2.shuqistat.com,REJECT
-DOMAIN,log.ssread.cn,REJECT
-DOMAIN,ads.nbbookne.com,REJECT
-DOMAIN,adapi.cread.com,REJECT
+DOMAIN,uplog.inews.qq.com,REJECT
+DOMAIN,unitelogreport.reader.qq.com,REJECT
+DOMAIN,16dd-advertise-1252317822.file.myqcloud.com,REJECT
+DOMAIN,16dd-advertise-1252317822.image.myqcloud.com,REJECT
 DOMAIN,b.zhuishushenqi.com,REJECT
 DOMAIN,sensorspop.zhuishushenqi.com,REJECT
-DOMAIN,unitelogreport.reader.qq.com,REJECT
-DOMAIN,uplog.inews.qq.com,REJECT
+DOMAIN,log.ireader.com,REJECT
+DOMAIN,logv2.ireader.com,REJECT
+DOMAIN,adashx.ut.shuqi.com,REJECT
+DOMAIN,ut2.shuqistat.com,REJECT
+DOMAIN,adapi.cread.com,REJECT
+DOMAIN,ads.nbbookne.com,REJECT
+DOMAIN,adx.8bcd9.com,REJECT
+DOMAIN,cdn-ad.wtzw.com,REJECT
+DOMAIN,log.51changdu.com,REJECT
+DOMAIN,log.ireaderm.net,REJECT
+DOMAIN,log.ssread.cn,REJECT
+DOMAIN,logs.manmeng168.com,REJECT
+DOMAIN,upload.easyread.163.com,REJECT
+DOMAIN,tjlog.ps.appeasou.com,REJECT
+DOMAIN,track.audiobuy.cc,REJECT
+DOMAIN,engine.audiobuy.cc,REJECT
+DOMAIN,sdk.qzbonline.com,REJECT
 #ots
 DOMAIN,analysis.tratao.com,REJECT
 DOMAIN,adsapi.fawulu.com,REJECT
 DOMAIN,adscount.fawulu.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
+DOMAIN,dsp-x.jd.com,REJECT
 DOMAIN,dn-growing.qbox.me,REJECT
 DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
 DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
@@ -762,12 +784,15 @@ DOMAIN-SUFFIX,adgeek.com.tw,REJECT
 DOMAIN-SUFFIX,adinall.com,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adjust.net.in,REJECT
+DOMAIN-SUFFIX,adjust.world,REJECT
+DOMAIN-SUFFIX,adlefee.com,REJECT
 DOMAIN-SUFFIX,adlocus.com,REJECT
 DOMAIN-SUFFIX,admarvel.com,REJECT
 DOMAIN-SUFFIX,admaster.com.cn,REJECT
 DOMAIN-SUFFIX,admedia.com,REJECT
 DOMAIN-SUFFIX,admin6.com,REJECT
 DOMAIN-SUFFIX,admobile.top,REJECT
+DOMAIN-SUFFIX,admost.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,adperium.com,REJECT
 DOMAIN-SUFFIX,adpolestar.net,REJECT
@@ -790,6 +815,7 @@ DOMAIN-SUFFIX,aiclk.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,anythinktech.com,REJECT
 DOMAIN-SUFFIX,appadhoc.com,REJECT
+DOMAIN-SUFFIX,appcenter.ms,REJECT
 DOMAIN-SUFFIX,appcha.net,REJECT
 DOMAIN-SUFFIX,appier.net,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
@@ -880,9 +906,11 @@ DOMAIN-SUFFIX,inmobi.cn,REJECT
 DOMAIN-SUFFIX,inmobi.com,REJECT
 DOMAIN-SUFFIX,inmobicdn.net,REJECT
 DOMAIN-SUFFIX,innotechx.com,REJECT
+DOMAIN-SUFFIX,instabug.com,REJECT
 DOMAIN-SUFFIX,ipinyou.com,REJECT
 DOMAIN-SUFFIX,irs01.com,REJECT
 DOMAIN-SUFFIX,irs03.com,REJECT
+DOMAIN-SUFFIX,iterable.com,REJECT
 DOMAIN-SUFFIX,jazdoxthxiv.com,REJECT
 DOMAIN-SUFFIX,jiguang.cn,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
@@ -911,6 +939,7 @@ DOMAIN-SUFFIX,mob.com,REJECT
 DOMAIN-SUFFIX,mobgi.com,REJECT
 DOMAIN-SUFFIX,mobvista.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
+DOMAIN-SUFFIX,morningds.com,REJECT
 DOMAIN-SUFFIX,muhoujiemi.com,REJECT
 DOMAIN-SUFFIX,mzgood.cn,REJECT
 DOMAIN-SUFFIX,nend.net,REJECT
@@ -919,6 +948,7 @@ DOMAIN-SUFFIX,newrelic.com,REJECT
 DOMAIN-SUFFIX,ninebox.cn,REJECT
 DOMAIN-SUFFIX,oadz.com,REJECT
 DOMAIN-SUFFIX,openinstall.io,REJECT
+DOMAIN-SUFFIX,openmediation.com,REJECT
 DOMAIN-SUFFIX,optaim.com,REJECT
 DOMAIN-SUFFIX,optimix.cn,REJECT
 DOMAIN-SUFFIX,pagechoice.net,REJECT
@@ -937,6 +967,7 @@ DOMAIN-SUFFIX,rtbasia.com,REJECT
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,scupio.com,REJECT
 DOMAIN-SUFFIX,sdqoi2d.com,REJECT
+DOMAIN-SUFFIX,segment.io,REJECT
 DOMAIN-SUFFIX,sensorsdata.cn,REJECT
 DOMAIN-SUFFIX,sensorsdatavip.com,REJECT
 DOMAIN-SUFFIX,serving-sys.com,REJECT
@@ -952,6 +983,7 @@ DOMAIN-SUFFIX,statcounter.com,REJECT
 DOMAIN-SUFFIX,steelhousemedia.com,REJECT
 DOMAIN-SUFFIX,stg8.com,REJECT
 DOMAIN-SUFFIX,stgowan.com,REJECT
+DOMAIN-SUFFIX,stnts.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,taboola.com.cn,REJECT
 DOMAIN-SUFFIX,taboolasyndication.com,REJECT
@@ -1006,7 +1038,3 @@ DOMAIN-SUFFIX,zedo.com,REJECT
 DOMAIN-SUFFIX,zhidian3g.cn,REJECT
 DOMAIN-SUFFIX,zhiziyun.com,REJECT
 DOMAIN-SUFFIX,zxrtb.com,REJECT
-URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo,REJECT
-URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/adLog,REJECT
-URL-REGEX,^http?+:\/\/c\.tieba\.baidu\.com\/tiebaads\/,REJECT
-URL-REGEX,^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/,REJECT
