@@ -1,4 +1,4 @@
-# Update > 1:22 2022/1/25
+# Update > 0:33 2022/1/28
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -117,9 +117,6 @@ DOMAIN,rhdc-acs.youku.com,REJECT
 DOMAIN,un-acs.youku.com,REJECT
 DOMAIN,yk-ssp.ad.youku.com,REJECT
 DOMAIN,ykad-data.youku.com,REJECT
-#Ali-youku-danmu
-DOMAIN,dr-danmu.youku.com,REJECT
-DOMAIN,res-danmu.youku.com,REJECT
 #Ali-youku-privacy
 DOMAIN,sensorsdata.cmbchina.com,REJECT
 DOMAIN,mars.ccc.cmbchina.com,REJECT
