@@ -1,4 +1,4 @@
-# Update > 22:53 2022/2/6
+# Update > 19:30 2022/2/9
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -67,10 +67,8 @@ DOMAIN,vip.storage.weibo.com,REJECT
 DOMAIN-SUFFIX,adbox.sina.com.cn,REJECT
 DOMAIN-SUFFIX,ad.sina.com.cn,REJECT
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
-DOMAIN,sax.sina.com.cn,REJECT
-DOMAIN,saxn.sina.com.cn,REJECT
-DOMAIN,saxs.sina.com.cn,REJECT
-DOMAIN,sbeacon.sina.com.cn,REJECT
+DOMAIN,beacon.sina.com.cn,REJECT
+DOMAIN,d00.sina.com.cn,REJECT
 DOMAIN,d0.sina.com.cn,REJECT
 DOMAIN,d1.sina.com.cn,REJECT
 DOMAIN,d2.sina.com.cn,REJECT
@@ -81,13 +79,24 @@ DOMAIN,d6.sina.com.cn,REJECT
 DOMAIN,d7.sina.com.cn,REJECT
 DOMAIN,d8.sina.com.cn,REJECT
 DOMAIN,d9.sina.com.cn,REJECT
+DOMAIN,sax.sina.com.cn,REJECT
+DOMAIN,saxn.sina.com.cn,REJECT
+DOMAIN,saxs.sina.com.cn,REJECT
+DOMAIN,sbeacon.sina.com.cn,REJECT
+DOMAIN,9ibbcq2d.sina.cn,REJECT
+DOMAIN,qgnu18wo.sina.cn,REJECT
+DOMAIN,mixern.sina.cn,REJECT
 DOMAIN,r.dmp.sina.cn,REJECT
+DOMAIN,sa.sina.cn,REJECT
+DOMAIN,sax.sina.cn,REJECT
 DOMAIN,rs.sinajs.cn,REJECT
 DOMAIN,s3.pfp.sina.net,REJECT
-DOMAIN,s.u7u9.com,REJECT
-DOMAIN-SUFFIX,twlxyx.cn,REJECT
-DOMAIN-SUFFIX,dhsz.cn,REJECT
+DOMAIN-SUFFIX,25ku.com,REJECT
 DOMAIN-SUFFIX,71360.com,REJECT
+DOMAIN-SUFFIX,dhsz.cn,REJECT
+DOMAIN-SUFFIX,lkhihfkds.cn,REJECT
+DOMAIN-SUFFIX,twlxyx.cn,REJECT
+DOMAIN-SUFFIX,u7u9.com,REJECT
 #Ali-UC
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,safe.ucweb.com,REJECT
@@ -136,6 +145,7 @@ DOMAIN,ada.baidu.com,REJECT
 DOMAIN,afd.baidu.com,REJECT
 DOMAIN,als.baidu.com,REJECT
 DOMAIN,aod-image.baidu.com,REJECT
+DOMAIN,api-sao.baidu.com,REJECT
 DOMAIN,bdimg.share.baidu.com,REJECT
 DOMAIN,bgg.baidu.com,REJECT
 DOMAIN,browserkernel.baidu.com,REJECT
@@ -174,6 +184,7 @@ DOMAIN,cpro.baidustatic.com,REJECT
 DOMAIN,cpro2.baidustatic.com,REJECT
 DOMAIN,dup.baidustatic.com,REJECT
 DOMAIN,ubmcmm.baidustatic.com,REJECT
+DOMAIN,m.hao123.com,REJECT
 #Baidu-bdimg
 DOMAIN,ecma.bdimg.com,REJECT
 DOMAIN,ecmb.bdimg.com,REJECT
@@ -328,7 +339,6 @@ DOMAIN,ios.bugly.qq.com,REJECT
 DOMAIN,info4.video.qq.com,REJECT
 DOMAIN,info6.video.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
-DOMAIN-SUFFIX,mtrace.qq.com,REJECT
 #Tencent-gdt
 DOMAIN,ads.privacy.qq.com,REJECT
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
@@ -411,11 +421,13 @@ DOMAIN-SUFFIX,e.kuaishou.com,REJECT
 DOMAIN,gdfp.gifshow.com,REJECT
 DOMAIN,js-ad.a.yximgs.com,REJECT
 DOMAIN,static.yximgs.com,REJECT
+DOMAIN-SUFFIX,push.yximgs.com,REJECT
 #Hupu
 DOMAIN,goblin.hupu.com,REJECT
 DOMAIN,hermes.hupu.com,REJECT
 DOMAIN,shence.hupu.com,REJECT
-DOMAIN,w1.hoopchina.com.cn,REJECT
+DOMAIN,rts.cqqc3.com,REJECT
+DOMAIN,siw.cqqc3.com,REJECT
 #Tianya
 DOMAIN,801.tianya.cn,REJECT
 DOMAIN,baidu20.tianya.cn,REJECT
@@ -453,10 +465,10 @@ DOMAIN-SUFFIX,lu.sogou.com,REJECT
 DOMAIN-SUFFIX,pb.sogou.com,REJECT
 DOMAIN-SUFFIX,pluto.sogou.com,REJECT
 DOMAIN-SUFFIX,uranus.sogou.com,REJECT
+DOMAIN-SUFFIX,hhytrace.sogoucdn.com,REJECT
 DOMAIN-SUFFIX,inte.sogoucdn.com,REJECT
+DOMAIN-SUFFIX,lu.sogoucdn.com,REJECT
 DOMAIN-SUFFIX,theta.sogoucdn.com,REJECT
-DOMAIN,dlweb.sogoucdn.com,REJECT
-DOMAIN,hhytrace.sogoucdn.com,REJECT
 #meituan
 DOMAIN,analytics.meituan.net,REJECT
 DOMAIN,report.meituan.com,REJECT
@@ -468,6 +480,7 @@ DOMAIN-SUFFIX,report.meituan.com,REJECT
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN-SUFFIX,newad.ifeng.com,REJECT
 DOMAIN,ax.ifeng.com,REJECT
+DOMAIN,cvf.ifeng.com,REJECT
 DOMAIN,ifengad.3g.ifeng.com,REJECT
 DOMAIN,iis1.deliver.ifeng.com,REJECT
 DOMAIN,mfp.deliver.ifeng.com,REJECT
@@ -507,6 +520,8 @@ DOMAIN,adm3.autoimg.cn,REJECT
 DOMAIN,adproxy.autohome.com.cn,REJECT
 DOMAIN,al.autohome.com.cn,REJECT
 DOMAIN,applogapi.autohome.com.cn,REJECT
+DOMAIN,c.autohome.com.cn,REJECT
+DOMAIN,haelm16j.autohome.com.cn,REJECT
 DOMAIN,pvx.autohome.com.cn,REJECT
 DOMAIN,rd.autohome.com.cn,REJECT
 DOMAIN,rdx.autohome.com.cn,REJECT
@@ -521,16 +536,21 @@ DOMAIN,stat.zol.com.cn,REJECT
 DOMAIN,zdw.w8.com.cn,REJECT
 #pconline
 DOMAIN,count.pcauto.com.cn,REJECT
+DOMAIN,imgad0.pcauto.com.cn,REJECT
+DOMAIN,ivy.pcauto.com.cn,REJECT
+DOMAIN,jzz.pcauto.com.cn,REJECT
+DOMAIN,qdfront.pcauto.com.cn,REJECT
 DOMAIN,count5.pconline.com.cn,REJECT
 DOMAIN,count6.pconline.com.cn,REJECT
 DOMAIN,imgad0.pconline.com.cn,REJECT
 DOMAIN,ivy.pconline.com.cn,REJECT
-DOMAIN,ivy.pcauto.com.cn,REJECT
 DOMAIN,jwz.3conline.com,REJECT
 DOMAIN,icons.mydrivers.com,REJECT
 #xiaohongshu
 DOMAIN,ads-video-al.xhscdn.com,REJECT
 DOMAIN,crash.xiaohongshu.com,REJECT
+#jjwxc.net
+DOMAIN,hitcount.jjwxc.net,REJECT
 #App-News
 DOMAIN,adpai.thepaper.cn,REJECT
 DOMAIN,applog.thepaper.cn,REJECT
@@ -542,6 +562,7 @@ DOMAIN,channel-analysis.gmw.cn,REJECT
 DOMAIN,channel-analysis-js.gmw.cn,REJECT
 DOMAIN,ad.ettoday.net,REJECT
 DOMAIN,ad.dzwww.com,REJECT
+DOMAIN,pgg.people.com.cn,REJECT
 DOMAIN,pmm.people.com.cn,REJECT
 DOMAIN,a2.xinhuanet.com,REJECT
 DOMAIN,a3.xinhuanet.com,REJECT
@@ -551,6 +572,11 @@ DOMAIN,same.chinadaily.com.cn,REJECT
 DOMAIN,gg.caixin.com,REJECT
 DOMAIN,alidongfeng.hexun.com,REJECT
 DOMAIN,hxsame.hexun.com,REJECT
+DOMAIN,32.huanqiu.com,REJECT
+DOMAIN,3w.huanqiu.com,REJECT
+DOMAIN,90.huanqiu.com,REJECT
+DOMAIN,analysis.huanqiu.com,REJECT
+DOMAIN,ipengtai.huanqiu.com,REJECT
 DOMAIN-SUFFIX,imp-toutiao-data.37.com.cn,REJECT
 #twitter
 DOMAIN-SUFFIX,ads.twitter.com,REJECT
@@ -723,10 +749,24 @@ DOMAIN,s.c-ctrip.com,REJECT
 DOMAIN,g1.dfcfw.com,REJECT
 DOMAIN,bdstatics.eastmoney.com,REJECT
 DOMAIN,bdwblog.eastmoney.com,REJECT
+DOMAIN,emdcadvertise-wap.eastmoney.com,REJECT
+DOMAIN,emdcadvertise.eastmoney.com,REJECT
+DOMAIN,mobappconfig.securities.eastmoney.com,REJECT
 DOMAIN,same.eastmoney.com,REJECT
 DOMAIN,zqhd.eastmoney.com,REJECT
 #https://whois.chinaz.com/
 DOMAIN,a2put.chinaz.com,REJECT
+#m.gushiwen.cn
+DOMAIN,enennsa.gushiwen.cn,REJECT
+DOMAIN,enennsb.gushiwen.cn,REJECT
+#http://m.10jqka.com.cn/
+DOMAIN,ad.thsi.cn,REJECT
+DOMAIN,stat.10jqka.com.cn,REJECT
+#mini.eastday.com
+DOMAIN,adctrlpre-def.tt.cn,REJECT
+DOMAIN,pcunionreportlog.dfxwdc.com,REJECT
+DOMAIN,ttpcssp.dftoutiao.com,REJECT
+DOMAIN,unionstatis.dfxwdc.com,REJECT
 #yandex
 DOMAIN,startup.mobile.yandex.net,REJECT
 DOMAIN,report.appmetrica.yandex.net,REJECT
@@ -801,6 +841,7 @@ DOMAIN-SUFFIX,adjust.net.in,REJECT
 DOMAIN-SUFFIX,adjust.world,REJECT
 DOMAIN-SUFFIX,adlefee.com,REJECT
 DOMAIN-SUFFIX,adlocus.com,REJECT
+DOMAIN-SUFFIX,admamax.com,REJECT
 DOMAIN-SUFFIX,admarvel.com,REJECT
 DOMAIN-SUFFIX,admaster.com.cn,REJECT
 DOMAIN-SUFFIX,admedia.com,REJECT
@@ -926,6 +967,7 @@ DOMAIN-SUFFIX,gtags.net,REJECT
 DOMAIN-SUFFIX,hapying.com,REJECT
 DOMAIN-SUFFIX,histats.com,REJECT
 DOMAIN-SUFFIX,hitslink.com,REJECT
+DOMAIN-SUFFIX,hokeyness.top,REJECT
 DOMAIN-SUFFIX,hot-mob.com,REJECT
 DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
 DOMAIN-SUFFIX,huodonghezi.com,REJECT
