@@ -1,4 +1,4 @@
-# Update > 19:30 2022/2/9
+# Update > 11:02 2022/2/12
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 #Ali
@@ -307,6 +307,12 @@ DOMAIN,ads-cloud.rovio.com,REJECT
 DOMAIN,videoads-cloud.rovio.com,REJECT
 DOMAIN,subway.prod.sybo.net,REJECT
 DOMAIN,skadnetworks.fyber.com,REJECT
+#189-21cn
+DOMAIN,adshows.21cn.com,REJECT
+DOMAIN,afp.21cn.com,REJECT
+DOMAIN,analytics.21cn.com,REJECT
+DOMAIN,market.21cn.com,REJECT
+DOMAIN,choujiang.19ego.cn,REJECT
 #Google
 DOMAIN,app-measurement.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
@@ -336,8 +342,6 @@ DOMAIN,www.googletagservices.com,REJECT
 #qq-upload
 DOMAIN,oth.eve.mdt.qq.com,REJECT
 DOMAIN,ios.bugly.qq.com,REJECT
-DOMAIN,info4.video.qq.com,REJECT
-DOMAIN,info6.video.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 #Tencent-gdt
 DOMAIN,ads.privacy.qq.com,REJECT
@@ -515,6 +519,7 @@ DOMAIN,log-yex.youdao.com,REJECT
 DOMAIN-SUFFIX,clkservice.youdao.com,REJECT
 DOMAIN-SUFFIX,corp.youdao.com,REJECT
 DOMAIN-SUFFIX,union.youdao.com,REJECT
+DOMAIN,oimageb8.ydstatic.com,REJECT
 #autohome.com.cn
 DOMAIN,adm3.autoimg.cn,REJECT
 DOMAIN,adproxy.autohome.com.cn,REJECT
@@ -584,6 +589,10 @@ DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
 DOMAIN-SUFFIX,ads-api-sandbox.twitter.com,REJECT
 DOMAIN-SUFFIX,analytics.twitter.com,REJECT
 DOMAIN-SUFFIX,syndication.twitter.com,REJECT
+#花生地铁
+DOMAIN,adfile.wifi8.com,REJECT
+DOMAIN,adnew.wifi8.com,REJECT
+DOMAIN,log-sh.wifi8.com,REJECT
 #yahoo
 DOMAIN-SUFFIX,ads.yahoo.com,REJECT
 DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
@@ -680,6 +689,11 @@ DOMAIN,counter.tantanapp.com,REJECT
 DOMAIN,deviceid.tantanapp.com,REJECT
 DOMAIN,report.tantanapp.com,REJECT
 DOMAIN,sc-report.tantanapp.com,REJECT
+#车来了
+DOMAIN,atrace.chelaile.net.cn,REJECT
+DOMAIN,logs-h52-bv.chelaile.net.cn,REJECT
+DOMAIN,logs.chelaile.net.cn,REJECT
+DOMAIN,ss.chelaile.net.cn,REJECT
 #os
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
@@ -702,6 +716,11 @@ DOMAIN,ads.95516.com,REJECT
 #unity
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
+#百词斩
+DOMAIN,advertise.baicizhan.com,REJECT
+DOMAIN,advertise.baicizhan.org,REJECT
+#懂球帝
+DOMAIN,ap.dongqiudi.com,REJECT
 #MiGu-Video
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN,ggic.cmvideo.cn,REJECT
@@ -766,6 +785,7 @@ DOMAIN,stat.10jqka.com.cn,REJECT
 DOMAIN,adctrlpre-def.tt.cn,REJECT
 DOMAIN,pcunionreportlog.dfxwdc.com,REJECT
 DOMAIN,ttpcssp.dftoutiao.com,REJECT
+DOMAIN,wzrypclog.dftoutiao.com,REJECT
 DOMAIN,unionstatis.dfxwdc.com,REJECT
 #yandex
 DOMAIN,startup.mobile.yandex.net,REJECT
@@ -815,6 +835,7 @@ DOMAIN,track.cnki.net,REJECT
 DOMAIN,lkme.cc,REJECT
 DOMAIN,tongji.qichacha.com,REJECT
 #Union-Ads
+DOMAIN-SUFFIX,1nmob.com,REJECT
 DOMAIN-SUFFIX,2345.com,REJECT
 DOMAIN-SUFFIX,37cs.com,REJECT
 DOMAIN-SUFFIX,37wan.com,REJECT
@@ -1094,6 +1115,7 @@ DOMAIN-SUFFIX,tddmp.com,REJECT
 DOMAIN-SUFFIX,tenjin.com,REJECT
 DOMAIN-SUFFIX,testplus.cn,REJECT
 DOMAIN-SUFFIX,tianmidian.com,REJECT
+DOMAIN-SUFFIX,tingyun.com,REJECT
 DOMAIN-SUFFIX,tinytapgame.com,REJECT
 DOMAIN-SUFFIX,toponad.com,REJECT
 DOMAIN-SUFFIX,trackingio.com,REJECT
