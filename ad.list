@@ -1,4 +1,4 @@
-# Update > 21:55 2022/2/12
+# Update > 22:02 2022/2/12
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -33,6 +33,8 @@ DOMAIN,trackercdnbj.kugou.com
 #Audio-考拉听
 DOMAIN,track.audiobuy.cc
 DOMAIN,engine.audiobuy.cc
+#Audio-Tidal
+DOMAIN,sp-ad-cf.audio.tidal.com,REJECT
 #Buy-美团
 DOMAIN,analytics.meituan.net
 DOMAIN-SUFFIX,dreport.meituan.net
@@ -196,7 +198,6 @@ DOMAIN,adv.wting.info
 DOMAIN,hadvert.mting.info
 #FM-云听
 DOMAIN,report.radio.cn
-
 #Read-番茄小说
 DOMAIN-KEYWORD,applog-lq.fqnovel.com
 DOMAIN-KEYWORD,applog.fqnovel.com
@@ -783,6 +784,7 @@ DOMAIN,dsp-x.jd.com
 DOMAIN,oth.eve.mdt.qq.com
 DOMAIN,ios.bugly.qq.com
 DOMAIN,pingma.qq.com
+DOMAIN,tpstelemetry.tencent.com,REJECT
 #Sohu
 DOMAIN,mb.hd.sohu.com.cn
 DOMAIN,vstat.v.blog.sohu.com
@@ -816,6 +818,43 @@ DOMAIN-SUFFIX,hhytrace.sogoucdn.com
 DOMAIN-SUFFIX,inte.sogoucdn.com
 DOMAIN-SUFFIX,lu.sogoucdn.com
 DOMAIN-SUFFIX,theta.sogoucdn.com
+#Tencent-QQ
+DOMAIN,ads.privacy.qq.com,REJECT
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-SUFFIX,mdt.qq.com,REJECT
+DOMAIN,ad.browser.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
+DOMAIN,dp3.qq.com,REJECT
+DOMAIN,hc.tdm.qq.com,REJECT
+DOMAIN,jpush.html5.qq.com,REJECT
+DOMAIN,logsdk.qq.com,REJECT
+DOMAIN,mazu.m.qq.com,REJECT
+DOMAIN,report.qqweb.qq.com,REJECT
+DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+DOMAIN,tpush.html5.qq.com,REJECT
+DOMAIN,wxsnsdy.tc.qq.com,REJECT
+DOMAIN,wxsnsdy.video.qq.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN-KEYWORD,variety.tc.qq.com,REJECT
+#Tencent-gdt
+DOMAIN,adsmind.ugdtimg.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,ra.gtimg.com,REJECT
+DOMAIN,wa.gtimg.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,qzs.gdtimg.com,REJECT
+DOMAIN,report.idqqimg.com,REJECT
+#Tencent-
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,tpns.gz2.tencent.com,REJECT
+DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net,REJECT
+DOMAIN,apd-vodp2preport.teg.tencent-cloud.net,REJECT
 #Unity
 DOMAIN-SUFFIX,unityads.unity3d.com
 DOMAIN-SUFFIX,unityads.unitychina.cn
@@ -828,6 +867,9 @@ DOMAIN-SUFFIX,adserver.yahoo.com
 DOMAIN-SUFFIX,analytics.yahoo.com
 DOMAIN,analytics.query.yahoo.com
 DOMAIN,beap.gemini.yahoo.com
+#Others
+DOMAIN,dn-growing.qbox.me,REJECT
+DOMAIN,lkme.cc,REJECT
 #Union-Ads
 DOMAIN-SUFFIX,1nmob.com
 DOMAIN-SUFFIX,2345.com
