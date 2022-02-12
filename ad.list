@@ -1,4 +1,4 @@
-# Update > 22:02 2022/2/12
+# Update > 22:35 2022/2/12
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -884,6 +884,7 @@ DOMAIN-SUFFIX,51link.com
 DOMAIN-SUFFIX,71360.com
 DOMAIN-SUFFIX,7clink.com
 DOMAIN-SUFFIX,a2tw6yoodsag.com
+DOMAIN-SUFFIX,ad-cloud.jp
 DOMAIN-SUFFIX,ad-locus.com
 DOMAIN-SUFFIX,ad-plus.cn
 DOMAIN-SUFFIX,ad-stir.com
@@ -893,6 +894,7 @@ DOMAIN-SUFFIX,adcolony.com
 DOMAIN-SUFFIX,adeaz.com
 DOMAIN-SUFFIX,adexplain.com
 DOMAIN-SUFFIX,adform.net
+DOMAIN-SUFFIX,adfurikun.jp
 DOMAIN-SUFFIX,adgeek.com.tw
 DOMAIN-SUFFIX,adinall.com
 DOMAIN-SUFFIX,adjust.com
@@ -911,6 +913,7 @@ DOMAIN-SUFFIX,admost.com
 DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adperium.com
 DOMAIN-SUFFIX,adpolestar.net
+DOMAIN-SUFFIX,adriver.ru
 DOMAIN-SUFFIX,adroll.com
 DOMAIN-SUFFIX,adsage.cn
 DOMAIN-SUFFIX,adsage.com
@@ -921,6 +924,7 @@ DOMAIN-SUFFIX,adsfactor.net
 DOMAIN-SUFFIX,adsrvr.cn
 DOMAIN-SUFFIX,adsrvr.org
 DOMAIN-SUFFIX,adsymptotic.com
+DOMAIN-SUFFIX,adtaily.com
 DOMAIN-SUFFIX,adtechjp.com
 DOMAIN-SUFFIX,adtechus.com
 DOMAIN-SUFFIX,adview.cn
@@ -959,6 +963,7 @@ DOMAIN-SUFFIX,beintoo.com
 DOMAIN-SUFFIX,beizi.biz
 DOMAIN-SUFFIX,biddingx.com
 DOMAIN-SUFFIX,bidswitch.net
+DOMAIN-SUFFIX,bidvertiser.com
 DOMAIN-SUFFIX,bjzghd.com
 DOMAIN-SUFFIX,bloggerads.net
 DOMAIN-SUFFIX,bluekai.com
@@ -1021,6 +1026,7 @@ DOMAIN-SUFFIX,everesttech.net
 DOMAIN-SUFFIX,exdynsrv.com
 DOMAIN-SUFFIX,exoclick.com
 DOMAIN-SUFFIX,fanli.com
+DOMAIN-SUFFIX,fastclick.net
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,fraudmetrix.cn
@@ -1047,6 +1053,7 @@ DOMAIN-SUFFIX,hot-mob.com
 DOMAIN-SUFFIX,hubcloud.com.cn
 DOMAIN-SUFFIX,huodonghezi.com
 DOMAIN-SUFFIX,hzbxm.com
+DOMAIN-SUFFIX,i-mobile.co.jp
 DOMAIN-SUFFIX,icast.cn
 DOMAIN-SUFFIX,id5-sync.com
 DOMAIN-SUFFIX,ieeod0.com
@@ -1066,15 +1073,20 @@ DOMAIN-SUFFIX,iyoudui.cn
 DOMAIN-SUFFIX,iyoudui.com
 DOMAIN-SUFFIX,jazdoxthxiv.com
 DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,jizzads.com
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.io
+DOMAIN-SUFFIX,juicyads.com
 DOMAIN-SUFFIX,kejet.com
 DOMAIN-SUFFIX,kejet.net
 DOMAIN-SUFFIX,keyrun.cn
 DOMAIN-SUFFIX,krxd.net
 DOMAIN-SUFFIX,kuyun.com
 DOMAIN-SUFFIX,langago.cn,DIRECT
+DOMAIN-SUFFIX,leadbolt.net
 DOMAIN-SUFFIX,leadboltads.net
+DOMAIN-SUFFIX,leadboltapps.net
+DOMAIN-SUFFIX,leadboltmobile.net
 DOMAIN-SUFFIX,lenzmx.com
 DOMAIN-SUFFIX,lijit.com
 DOMAIN-SUFFIX,linezing.com
@@ -1095,6 +1107,8 @@ DOMAIN-SUFFIX,mijifen.com
 DOMAIN-SUFFIX,mintegral.com
 DOMAIN-SUFFIX,moatads.com
 DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,mobadme.jp
+DOMAIN-SUFFIX,mobfox.com
 DOMAIN-SUFFIX,mobgi.com
 DOMAIN-SUFFIX,mobilegamestats.com
 DOMAIN-SUFFIX,mobvista.com
@@ -1220,6 +1234,7 @@ DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,xelements.cn
 DOMAIN-SUFFIX,xspadvertising.com
 DOMAIN-SUFFIX,xunfuli.top
+DOMAIN-SUFFIX,yengo.com
 DOMAIN-SUFFIX,ymapp.com
 DOMAIN-SUFFIX,ymcdn.cn
 DOMAIN-SUFFIX,youmi.net
