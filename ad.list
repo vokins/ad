@@ -1,4 +1,4 @@
-# Update > 16:00 2022/2/13
+# Update > 16:47 2022/2/13
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -552,12 +552,19 @@ DOMAIN,jsjs.jbzj.com
 #Site-https://m.wenzhangba.com/
 DOMAIN,2a.wenzhangba.cn
 DOMAIN,2b.wenzhangba.cn
+#Site-https://www.duanmeiwen.com/
+DOMAIN,abc.9136.com
+DOMAIN,cpt.9136.com
+DOMAIN,j.9136.com
+#Site-Docin.com豆丁网
+DOMAIN,fpb.docin.com
+DOMAIN,zx.docin.com
 #Site-简书
 DOMAIN,boardy.huanqiu.com
 DOMAIN,sensors.ibreader.com
 DOMAIN,www.nkscdn.com
 DOMAIN,udiab1.jianshu.com
-DOMAIN,udiab1.jianshu.com
+DOMAIN,udiab2.jianshu.com
 #OS-Mi
 DOMAIN-SUFFIX,ad.intl.xiaomi.com
 DOMAIN-SUFFIX,ad.xiaomi.com
@@ -596,6 +603,15 @@ DOMAIN-SUFFIX,corp.youdao.com
 DOMAIN-SUFFIX,union.youdao.com
 DOMAIN,oimagea7.ydstatic.com
 DOMAIN,oimageb8.ydstatic.com
+#360So
+DOMAIN,api.so.lianmeng.360.cn
+DOMAIN,papi.look.360.cn
+DOMAIN,socm.dmp.360.cn
+DOMAIN,stat.lianmeng.360.cn
+DOMAIN,e.so.com
+DOMAIN,p.sug.so.com
+DOMAIN,s.qhupdate.com
+DOMAIN,
 #Ali
 DOMAIN,ssp-partner.alibaba.com
 DOMAIN,alimama.alicdn.com
@@ -673,12 +689,14 @@ DOMAIN,hmma.baidu.com
 DOMAIN,hpd.baidu.com
 DOMAIN,mobads-logs.baidu.com
 DOMAIN,mobads.baidu.com
+DOMAIN,mountain.zhidao.baidu.com
 DOMAIN,nadvideo2.baidu.com
 DOMAIN,nsclick.baidu.com
 DOMAIN,paimgcdn-feed.baidu.com
 DOMAIN,pimlog.baidu.com
 DOMAIN,push.zhanzhang.baidu.com
 DOMAIN,qapm.baidu.com
+DOMAIN,river.zhidao.baidu.com
 DOMAIN,sofire.baidu.com
 DOMAIN,sp1.baidu.com
 DOMAIN,tcbox.baidu.com
