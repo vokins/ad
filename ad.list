@@ -1,4 +1,4 @@
-# Update > 23:15 2022/2/12
+# Update > 16:00 2022/2/13
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -525,7 +525,6 @@ DOMAIN,ad.yuntuds.com
 DOMAIN,probe.yuntuds.com
 DOMAIN,api.ls.eyunmy.com
 #Video-快手
-DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN,gdfp.gifshow.com
 DOMAIN,js-ad.a.yximgs.com
 DOMAIN,static.yximgs.com
@@ -553,6 +552,12 @@ DOMAIN,jsjs.jbzj.com
 #Site-https://m.wenzhangba.com/
 DOMAIN,2a.wenzhangba.cn
 DOMAIN,2b.wenzhangba.cn
+#Site-简书
+DOMAIN,boardy.huanqiu.com
+DOMAIN,sensors.ibreader.com
+DOMAIN,www.nkscdn.com
+DOMAIN,udiab1.jianshu.com
+DOMAIN,udiab1.jianshu.com
 #OS-Mi
 DOMAIN-SUFFIX,ad.intl.xiaomi.com
 DOMAIN-SUFFIX,ad.xiaomi.com
@@ -569,7 +574,6 @@ DOMAIN-SUFFIX,samsungadhub.com
 DOMAIN-SUFFIX,samsungads.com
 #163
 DOMAIN,analytics.163.com
-DOMAIN,c.m.163.com
 DOMAIN,clientlog.music.163.com
 DOMAIN,clientlog3.music.163.com
 DOMAIN,g.163.com
