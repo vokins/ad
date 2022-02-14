@@ -1,4 +1,4 @@
-# Update > 16:47 2022/2/13
+# Update > 11:40 2022/2/14
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -874,7 +874,6 @@ DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN-SUFFIX,mdt.qq.com
 DOMAIN,ad.browser.qq.com
-DOMAIN,btrace.qq.com
 DOMAIN,dp3.qq.com
 DOMAIN,hc.tdm.qq.com
 DOMAIN,jpush.html5.qq.com
@@ -987,6 +986,7 @@ DOMAIN-SUFFIX,alimama.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,anythinktech.com
 DOMAIN-SUFFIX,appadhoc.com
+DOMAIN-SUFFIX,appboy.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,appcha.net
 DOMAIN-SUFFIX,appier.net
