@@ -1,4 +1,4 @@
-# Update > 11:40 2022/2/14
+# Update > 23:03 2022/2/15
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -611,7 +611,6 @@ DOMAIN,stat.lianmeng.360.cn
 DOMAIN,e.so.com
 DOMAIN,p.sug.so.com
 DOMAIN,s.qhupdate.com
-DOMAIN,
 #Ali
 DOMAIN,ssp-partner.alibaba.com
 DOMAIN,alimama.alicdn.com
@@ -868,7 +867,6 @@ DOMAIN-SUFFIX,theta.sogoucdn.com
 #Tencent-QQ
 DOMAIN,ads.privacy.qq.com
 DOMAIN-SUFFIX,bugly.qq.com
-DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
