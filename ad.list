@@ -1,4 +1,4 @@
-# Update > 23:03 2022/2/15
+# Update > 10:01 2022/2/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -213,8 +213,6 @@ DOMAIN,ws2.fengdunovel.com
 #Read-QQ阅读
 DOMAIN,16dd-advertise-1252317822.file.myqcloud.com
 DOMAIN,16dd-advertise-1252317822.image.myqcloud.com
-DOMAIN,adstore-1252524079.file.myqcloud.com
-DOMAIN,adstore-index-1252524079.file.myqcloud.com
 DOMAIN,applog.reader.qq.com
 DOMAIN,uplog.inews.qq.com
 DOMAIN,unitelogreport.reader.qq.com
@@ -415,6 +413,12 @@ DOMAIN,analysis.tratao.com
 DOMAIN,pic-ad.tupian1234.com
 #Tool-企查查
 DOMAIN,tongji.qichacha.com
+#Tool-WPS
+DOMAIN,cloudservice22.kingsoft-office-service.com
+DOMAIN,mb.adres.wpscdn.cn
+DOMAIN,honeycomb.wpscdn.cn
+DOMAIN,momsg.wps.cn
+DOMAIN,honeycomb.wps.cn
 #Tool-Xunlei
 DOMAIN,hub5idx.v6.shub.sandai.net
 DOMAIN,hub5emu.v6.shub.sandai.net
@@ -504,16 +508,27 @@ DOMAIN,dynamic.app.m.letv.com
 #Video-风行
 DOMAIN,adm4.funshion.com
 DOMAIN,mpartner.funshion.com
+#Video-CNTV
+DOMAIN,adstore-1252524079.file.myqcloud.com
+DOMAIN,adstore-index-1252524079.file.myqcloud.com
+DOMAIN,midas.yangshipin.cn
+#Video-Plex
+DOMAIN,analytics.plex.tv
+DOMAIN,vid-io-iad.springserve.com
 #Video-咪咕
 DOMAIN-SUFFIX,ad.cmvideo.cn
+DOMAIN,ggc.cmvideo.cn
 DOMAIN,ggic.cmvideo.cn
 DOMAIN,ggtagcache.cmvideo.cn
 DOMAIN,ggv.cmvideo.cn
 DOMAIN,ggx.cmvideo.cn
+DOMAIN,jadeite.migu.cn
 DOMAIN,ggic05.miguvideo.com
+DOMAIN,ggic09.miguvideo.com
 DOMAIN,ggicaqz.miguvideo.com
 DOMAIN,ggmk.miguvideo.com
 DOMAIN,ggx05.miguvideo.com
+DOMAIN,ggx09.miguvideo.com
 DOMAIN,log1.cmpassport.com
 DOMAIN,log2.cmpassport.com
 DOMAIN,log001.cmpassport.com
@@ -955,6 +970,7 @@ DOMAIN-SUFFIX,admin6.com
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,admobile.top
 DOMAIN-SUFFIX,admost.com
+DOMAIN-SUFFIX,adnxs-simple.com
 DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adperium.com
 DOMAIN-SUFFIX,adpolestar.net
