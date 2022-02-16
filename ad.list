@@ -1,4 +1,4 @@
-# Update > 10:01 2022/2/16
+# Update > 17:31 2022/2/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -845,7 +845,6 @@ DOMAIN,dsp-x.jd.com
 DOMAIN,oth.eve.mdt.qq.com
 DOMAIN,ios.bugly.qq.com
 DOMAIN,pingma.qq.com
-DOMAIN,tpstelemetry.tencent.com
 #Sohu
 DOMAIN,mb.hd.sohu.com.cn
 DOMAIN,vstat.v.blog.sohu.com
