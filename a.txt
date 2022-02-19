@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.63
+! Version: 0.65
 ! Title: adfilter
-! Last modified: 0:06 2022/2/20
+! Last modified: 0:26 2022/2/20
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -1334,6 +1334,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||inmobicdn.net^
 ||inner-active.mobi^
 ||innotechx.com^
+||innovid.com^
 ||instabug.com^
 ||ipinyou.com^
 ||irs01.com^
@@ -1447,6 +1448,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||stickyadstv.com^
 ||stnts.com^
 ||supersonicads.com^
+||survata.com^
 ||taboola.com.cn^
 ||taboola.com^
 ||taboolasyndication.com^
