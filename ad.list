@@ -1,4 +1,4 @@
-# Update > 17:31 2022/2/16
+# Update > 0:06 2022/2/20
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -325,6 +325,8 @@ DOMAIN,ap.dongqiudi.com
 #SNS-威锋
 DOMAIN,yes1.feng.com
 #SNS-豆瓣
+DOMAIN,at3.doubanio.com
+DOMAIN,at4.doubanio.com
 DOMAIN,erebor.douban.com
 DOMAIN,frodo.douban.com
 DOMAIN,qnmob3.doubanio.com
@@ -514,7 +516,6 @@ DOMAIN,adstore-index-1252524079.file.myqcloud.com
 DOMAIN,midas.yangshipin.cn
 #Video-Plex
 DOMAIN,analytics.plex.tv
-DOMAIN,vid-io-iad.springserve.com
 #Video-咪咕
 DOMAIN-SUFFIX,ad.cmvideo.cn
 DOMAIN,ggc.cmvideo.cn
@@ -556,6 +557,9 @@ DOMAIN,g.cn.miaozhen.com
 DOMAIN,www.google.com.miaozhen.com
 DOMAIN,iqiyi-mipdx.cn.miaozhen.com
 #Site-https://www.lanzou.com/
+DOMAIN,taisantech.com
+DOMAIN,glores2.taisantech.com
+DOMAIN,sanme2.taisantech.com
 DOMAIN,hm.woozooo.com
 DOMAIN,statics.woozooo.com
 #Site-https://whois.chinaz.com/
@@ -951,6 +955,7 @@ DOMAIN-SUFFIX,ad-survey.com
 DOMAIN-SUFFIX,ad4game.com
 DOMAIN-SUFFIX,adcolony.com
 DOMAIN-SUFFIX,adeaz.com
+DOMAIN-SUFFIX,adentifi.com
 DOMAIN-SUFFIX,adexplain.com
 DOMAIN-SUFFIX,adform.net
 DOMAIN-SUFFIX,adfurikun.jp
@@ -1028,6 +1033,7 @@ DOMAIN-SUFFIX,bjzghd.com
 DOMAIN-SUFFIX,bloggerads.net
 DOMAIN-SUFFIX,bluekai.com
 DOMAIN-SUFFIX,bmob.cn
+DOMAIN-SUFFIX,brand-display.com
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,bugtags.cn
@@ -1101,6 +1107,7 @@ DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,govhebie.cn
+DOMAIN-SUFFIX,govlaibing.cn
 DOMAIN-SUFFIX,govshenzhen.cn
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,gtags.net
@@ -1184,6 +1191,7 @@ DOMAIN-SUFFIX,oadz.com
 DOMAIN-SUFFIX,omnitagjs.com
 DOMAIN-SUFFIX,openinstall.io
 DOMAIN-SUFFIX,openmediation.com
+DOMAIN-SUFFIX,openx.net
 DOMAIN-SUFFIX,optaim.com
 DOMAIN-SUFFIX,optimix.cn
 DOMAIN-SUFFIX,pagechoice.net
@@ -1218,10 +1226,13 @@ DOMAIN-SUFFIX,shareclick.top
 DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,sigmob.cn
 DOMAIN-SUFFIX,sitescout.com
+DOMAIN-SUFFIX,smadex.com
 DOMAIN-SUFFIX,smartadserver.com
 DOMAIN-SUFFIX,smvm.cn
 DOMAIN-SUFFIX,social-touch.com
 DOMAIN-SUFFIX,solvemedia.com
+DOMAIN-SUFFIX,spotxchange.com
+DOMAIN-SUFFIX,springserve.com
 DOMAIN-SUFFIX,ssacdn.com
 DOMAIN-SUFFIX,startapp.com
 DOMAIN-SUFFIX,startappexchange.com
@@ -1247,12 +1258,14 @@ DOMAIN-SUFFIX,tddmp.com
 DOMAIN-SUFFIX,tenjin.com
 DOMAIN-SUFFIX,testplus.cn
 DOMAIN-SUFFIX,tianmidian.com
+DOMAIN-SUFFIX,tidaltv.com
 DOMAIN-SUFFIX,tingyun.com
 DOMAIN-SUFFIX,tinytapgame.com
 DOMAIN-SUFFIX,toponad.com
 DOMAIN-SUFFIX,trackingio.com
 DOMAIN-SUFFIX,trafficjam.cn
 DOMAIN-SUFFIX,trafficjunky.net
+DOMAIN-SUFFIX,tremorhub.com
 DOMAIN-SUFFIX,tribalfusion.com
 DOMAIN-SUFFIX,trwl1.com
 DOMAIN-SUFFIX,tsquan.cn
