@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 0.6
+! Version: 0.63
 ! Title: adfilter
-! Last modified: 23:03 2022/2/15
+! Last modified: 0:06 2022/2/20
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/a.txt
-! Homepage: https://github.com/vokins/ad
+! Homepage: https://github.com/vokins/ad/blob/main/a.txt
 !
 
 */ad/$image
@@ -14,6 +14,7 @@
 */adspace/*
 */adpic/*
 */adcreatives/*
+*/ad-tetris-site/*
 */ads.js
 ##a[class^="ad_hover"]
 ##div[adtype$="Ad"]
@@ -181,6 +182,7 @@ tw.news.yahoo.com##div[id$="-Banner-Proxy"]
 ettoday.net##div[class^="adM"]
 
 !sites
+||www.myhtlmebook.com/admgr/*
 ||cdn.v2ex.com/assets/sidebar/*
 hupu.com##div[class^="hp-ad"]
 pcbeta.com##div[id="wp"]>style+div
@@ -208,6 +210,7 @@ qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(set, Beacon.prototype.fail, null)
 ||beacon.
+||s.pc.qq.com/tousu/img/*
 
 !pconline
 ||pconline.com.cn/newcount/*
@@ -553,6 +556,8 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||erebor.douban.com^
 ||frodo.douban.com^
 ||qnmob3.doubanio.com^
+||at3.doubanio.com^
+||at4.doubanio.com^
 #SNS-天涯
 ||801.tianya.cn^
 ||baidu20.tianya.cn^
@@ -760,6 +765,8 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 #Union-页面赚钱收益-http://www.nianxiang.net.cn/
 ||api.nx-perf.cn^
 #Site-https://www.lanzou.com/
+||glores2.taisantech.com^
+||sanme2.taisantech.com^
 ||hm.woozooo.com^
 ||statics.woozooo.com^
 #Site-https://whois.chinaz.com/
@@ -1152,6 +1159,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||ad4game.com^
 ||adcolony.com^
 ||adeaz.com^
+||adentifi.com^
 ||adexplain.com^
 ||adform.net^
 ||adfurikun.jp^
@@ -1228,6 +1236,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||bloggerads.net^
 ||bluekai.com^
 ||bmob.cn^
+||brand-display.com^
 ||braze.com^
 ||bugsnag.com^
 ||bugtags.cn^
@@ -1301,6 +1310,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||googleadsserving.cn^
 ||googlesyndication.com^
 ||govhebie.cn^
+||govlaibing.cn^
 ||govshenzhen.cn^
 ||growingio.com^
 ||gtags.net^
@@ -1384,6 +1394,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||omnitagjs.com^
 ||openinstall.io^
 ||openmediation.com^
+||openx.net^
 ||optaim.com^
 ||optimix.cn^
 ||pagechoice.net^
@@ -1418,10 +1429,13 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||shuzilm.cn^
 ||sigmob.cn^
 ||sitescout.com^
+||smadex.com^
 ||smartadserver.com^
 ||smvm.cn^
 ||social-touch.com^
 ||solvemedia.com^
+||spotxchange.com^
+||springserve.com^
 ||ssacdn.com^
 ||startapp.com^
 ||startappexchange.com^
@@ -1433,8 +1447,8 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||stickyadstv.com^
 ||stnts.com^
 ||supersonicads.com^
-||taboola.com^
 ||taboola.com.cn^
+||taboola.com^
 ||taboolasyndication.com^
 ||taisantech.com^
 ||talkingdata.com^
@@ -1447,12 +1461,14 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||tenjin.com^
 ||testplus.cn^
 ||tianmidian.com^
+||tidaltv.com^
 ||tingyun.com^
 ||tinytapgame.com^
 ||toponad.com^
 ||trackingio.com^
 ||trafficjam.cn^
 ||trafficjunky.net^
+||tremorhub.com^
 ||tribalfusion.com^
 ||trwl1.com^
 ||tsquan.cn^
