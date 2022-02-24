@@ -1,4 +1,4 @@
-# Update > 2:08 2022/2/20
+# Update > 22:16 2022/2/24
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -345,6 +345,10 @@ DOMAIN,zhihu-web-analytics.zhihu.com,Reject
 #SNS-小红书
 DOMAIN,ads-video-al.xhscdn.com,Reject
 DOMAIN,crash.xiaohongshu.com,Reject
+#SNS-搞笑段子
+DOMAIN,ad.rhinox.cn,REJECT
+#SNS-最右/皮皮搞笑
+DOMAIN,adapi.izuiyou.com,Reject
 #SNS-Twitter
 DOMAIN-SUFFIX,ads.twitter.com,Reject
 DOMAIN-SUFFIX,ads-api.twitter.com,Reject
@@ -425,7 +429,6 @@ DOMAIN,honeycomb.wps.cn,Reject
 DOMAIN,hub5idx.v6.shub.sandai.net,Reject
 DOMAIN,hub5emu.v6.shub.sandai.net,Reject
 DOMAIN,hub5btmain.v6.shub.sandai.net,Reject
-DOMAIN,adapi.izuiyou.com,Reject
 #Trip-12306
 DOMAIN,ad.12306.cn,Reject
 #Trip-航旅纵横
@@ -844,10 +847,6 @@ DOMAIN,partner.googleadservices.com,Reject
 #JD
 DOMAIN,im-x.jd.com,Reject
 DOMAIN,dsp-x.jd.com,Reject
-#QQ-Upload
-DOMAIN,oth.eve.mdt.qq.com,Reject
-DOMAIN,ios.bugly.qq.com,Reject
-DOMAIN,pingma.qq.com,Reject
 #Sohu
 DOMAIN,mb.hd.sohu.com.cn,Reject
 DOMAIN,vstat.v.blog.sohu.com,Reject
@@ -1285,6 +1284,7 @@ DOMAIN-SUFFIX,unionsy.com,Reject
 DOMAIN-SUFFIX,usingde.com,Reject
 DOMAIN-SUFFIX,uyunad.com,Reject
 DOMAIN-SUFFIX,v4dwkcv.com,Reject
+DOMAIN-SUFFIX,veda.top,Reject
 DOMAIN-SUFFIX,verizonmedia.com,Reject
 DOMAIN-SUFFIX,videojj.com,Reject
 DOMAIN-SUFFIX,vidoomy.com,Reject
