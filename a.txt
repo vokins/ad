@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.65
+! Version: 0.68
 ! Title: adfilter
-! Last modified: 0:26 2022/2/20
+! Last modified: 13:24 2022/3/27
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -16,42 +16,48 @@
 */adcreatives/*
 */ad-tetris-site/*
 */ads.js
-##a[class^="ad_hover"]
-##div[adtype$="Ad"]
+
+!class:ad
 ##div[class*="_adtop_"]
 ##div[class="ad"]
+##div[class="ad-element"]
+##div[class="ad-inner"]
+##div[class="ad-box"]
 ##div[class="advert"]
+##div[class^="ad_box"]
+##div[class^="ad_text"]
+##div[class^="advert"]
+##div[class^="sidebar-ad-"]
+!class:ado
+##div[class="close-ad"]
 ##div[class="floadAd"]
 ##div[class="xuanfu"]
-##div[class^="ad_box_"]
 ##div[class^="topAd"]
-##div[id="floadAD"]
-##div[id="ad-bottom"]
-##div[id^="BAIDU_DUP_"]
-##div[id^="ad_banner"]
 ##div[class*="_textlink"]
-##div[id="txtlink"]
-##div[class^="ad_text"]
+!id:ad
+##div[id="ad-bottom"]
+##div[id^="ad_banner"]
 ##div[id*="_ad_text_"] 
-##img[alt="ads.png"]
-##div[class^="sidebar-ad-"]
+!id:ado
 ##div[id="content-ad"]
-##div[class="close-ad"]
-##div[class^="advert"]
-##div[class="ad-box"]
-##img[class="ad-img"]
-##iframe[src^="https://static-alias-1.360buyimg.com/"]
-##a[href*="https://union-click.jd.com/"]
+##div[id="floadAD"]
+##div[id="txtlink"]
+##div[id^="BAIDU_DUP_"]
+!ad:o
 ##a[class^=""youdao-flow-ad"]
-##span[class="ad-badge"]
+##a[class^="ad_hover"]
+##a[href*="https://union-click.jd.com/"]
+##div[adtype$="Ad"]
+##iframe[src^="https://static-alias-1.360buyimg.com/"]
+##img[alt="ads.png"]
+##img[class="ad-img"]
 ##ins[class="adsbygoogle"]
-##section[class^="col-right ad"]
 ##section[class^="col-left ad"]
-
+##section[class^="col-right ad"]
+##span[class="ad-badge"]
 !bbs
 ##font[class="jammer"]
 ##span[style="display:none"]
-
 !baidu
 ##[src*="//cpro.baidustatic.com/"]
 ##a[href*="/cpro/ui/"]
@@ -92,7 +98,6 @@ https://www.googletagservices.com/tag/js/*
 
 !union
 */taboola/*
-
 
 !163
 163.com##div[class*="_adtop_"]
@@ -791,6 +796,8 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||www.nkscdn.com^
 ||udiab1.jianshu.com^
 ||udiab2.jianshu.com^
+#Site-诚通网盘
+||mydisplay.ctfile.com^
 #OS-Mi
 ||ad.intl.xiaomi.com^
 ||ad.xiaomi.com^
