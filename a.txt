@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.68
+! Version: 0.69
 ! Title: adfilter
-! Last modified: 13:24 2022/3/27
+! Last modified: 1:08 2022/3/28
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -27,17 +27,21 @@
 ##div[class^="ad_box"]
 ##div[class^="ad_text"]
 ##div[class^="advert"]
-##div[class^="sidebar-ad-"]
+##div[class*="adsbygoogle"]
 !class:ado
 ##div[class="close-ad"]
+##div[class="content-ads"]
 ##div[class="floadAd"]
 ##div[class="xuanfu"]
-##div[class^="topAd"]
 ##div[class*="_textlink"]
+##div[class^="sidebar-ad-"]
+##div[class^="topAd"]
 !id:ad
+##div[id="ads"]
+##div[id="adunit"]
 ##div[id="ad-bottom"]
-##div[id^="ad_banner"]
 ##div[id*="_ad_text_"] 
+##div[id^="ad_banner"]
 !id:ado
 ##div[id="content-ad"]
 ##div[id="floadAD"]
