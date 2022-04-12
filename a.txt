@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.69
+! Version: 0.71
 ! Title: adfilter
-! Last modified: 1:08 2022/3/28
+! Last modified: 17:31 2022/4/12
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -28,6 +28,8 @@
 ##div[class^="ad_text"]
 ##div[class^="advert"]
 ##div[class*="adsbygoogle"]
+##div[class*="-ad-wrapper"]
+##div[class*="-ad-content"]
 !class:ado
 ##div[class="close-ad"]
 ##div[class="content-ads"]
@@ -63,6 +65,7 @@
 ##font[class="jammer"]
 ##span[style="display:none"]
 !baidu
+##a[href^="http://www.baidu.com/baidu.php?url="]
 ##[src*="//cpro.baidustatic.com/"]
 ##a[href*="/cpro/ui/"]
 ##a[href*="cpro.baidu.com"]
@@ -72,7 +75,6 @@
 ##iframe[src*="/pos.baidu.com/"]
 ##iframe[src^="//same.eastmoney.com/"]
 ##img[src$="/1x1.gif"]
-
 ##div[id="bd-hl-content"]
 */cpro/ui/*
 */rnptco.js
@@ -83,9 +85,11 @@ m.baidu.com##div[id^="adLargePicVideo"]
 m.baidu.com##div[class="nr-afdLargePic"]
 m.baidu.com##div[class*="ad-container-"]
 pan.baidu.com##div[class$="ad-platform-tips"]
+wenku.baidu.com##div[class="hx-recom-wrapper"]
 
 !google
 */adcreatives/*
+*/adsid/*
 */advertisement/*
 */pagead/*
 */simgad/*
@@ -215,9 +219,7 @@ huanqiu.com##div[id="aa-block"]
 ||wa.gtimg.com^
 ||tiem-cdn.qq.com/o2/images/^
 v.qq.com##div[class^="mod_ad"]
-qq.com##+js(no-xhr-if, trace.)
-qq.com##+js(no-fetch-if, trace.)
-qq.com##+js(set, Beacon.prototype.fail, null)
+qq.com##+js(json-prune,adList.item)
 ||beacon.
 ||s.pc.qq.com/tousu/img/*
 
@@ -1199,6 +1201,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||adsco.re^
 ||adsensor.com^
 ||adservice.google.com^
+||adservice.google.co.jp^
 ||adsfactor.net^
 ||adsrvr.cn^
 ||adsrvr.org^
