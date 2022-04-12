@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.71
+! Version: 0.72
 ! Title: adfilter
-! Last modified: 17:31 2022/4/12
+! Last modified: 17:40 2022/4/12
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
