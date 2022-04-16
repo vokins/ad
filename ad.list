@@ -1,4 +1,4 @@
-# Update > 22:16 2022/2/24
+# Update > 16:39 2022/4/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -170,7 +170,7 @@ DOMAIN,hc.sogoubaidusm.cn,Reject
 #News-金融界
 DOMAIN,baichuan-api.jrj.com.cn,Reject
 #News-东方财富
-DOMAIN,g1.dfcfw.com
+DOMAIN,g1.dfcfw.com,Reject
 DOMAIN,bdstatics.eastmoney.com,Reject
 DOMAIN,bdwblog.eastmoney.com,Reject
 DOMAIN,emdcadvertise-wap.eastmoney.com,Reject
@@ -578,6 +578,8 @@ DOMAIN,2b.wenzhangba.cn,Reject
 DOMAIN,abc.9136.com,Reject
 DOMAIN,cpt.9136.com,Reject
 DOMAIN,j.9136.com,Reject
+#Site-https://www.cnki.net/
+DOMAIN,track.cnki.net,Reject
 #Site-Docin.com豆丁网
 DOMAIN,fpb.docin.com,Reject
 DOMAIN,zx.docin.com,Reject
@@ -587,6 +589,8 @@ DOMAIN,sensors.ibreader.com,Reject
 DOMAIN,www.nkscdn.com,Reject
 DOMAIN,udiab1.jianshu.com,Reject
 DOMAIN,udiab2.jianshu.com,Reject
+#Site-诚通网盘
+DOMAIN,mydisplay.ctfile.com,Reject
 #OS-Mi
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,Reject
 DOMAIN-SUFFIX,ad.xiaomi.com,Reject
@@ -736,10 +740,10 @@ DOMAIN,su.bdimg.com,Reject
 DOMAIN,aod-image-material.cdn.bcebos.com,Reject
 DOMAIN,dsp-idea.cdn.bcebos.com,Reject
 DOMAIN,edu-ad-test-cdn.cdn.bcebos.com,Reject
-DOMAIN,fc-feed.cdn.bcebos.com,Reject
-DOMAIN,internal-amis-res.cdn.bcebos.com,Reject
 DOMAIN,mobads-pre-config.cdn.bcebos.com,Reject
 DOMAIN,pmp-ad.cdn.bcebos.com,Reject
+DOMAIN,fc-feed.cdn.bcebos.com,Reject
+DOMAIN,internal-amis-res.cdn.bcebos.com,Reject
 DOMAIN,pn-cover.cdn.bcebos.com,Reject
 DOMAIN,rmblive.cdn.bcebos.com,Reject
 DOMAIN,search-operate.cdn.bcebos.com,Reject
@@ -837,13 +841,22 @@ DOMAIN,firebaselogging.googleapis.com,Reject
 DOMAIN,firebaseremoteconfig.googleapis.com,Reject
 DOMAIN,safebrowsing.googleapis.com,Reject
 DOMAIN,safebrowsing.googleapis-cn.com,Reject
-DOMAIN-SUFFIX,2mdn.net,Reject
-DOMAIN-SUFFIX,googletagservices.com,Reject
-DOMAIN-SUFFIX,googletagmanager.com,Reject
+DOMAIN,adservice.google.co.jp,Reject
+DOMAIN,adservice.google.com,Reject
 DOMAIN,googleads.g.doubleclick.net,Reject
 DOMAIN,pagead2.googlesyndication.com,Reject
 DOMAIN,tpc.googlesyndication.com,Reject
 DOMAIN,partner.googleadservices.com,Reject
+DOMAIN,www.googletagmanager.com,Reject
+DOMAIN,www.googletagservices.com,Reject
+DOMAIN-SUFFIX,2mdn.net,Reject
+DOMAIN-SUFFIX,doubleclick.net,Reject
+DOMAIN-SUFFIX,google-analytics.com,Reject
+DOMAIN-SUFFIX,googleadservices.com,Reject
+DOMAIN-SUFFIX,googleadsserving.cn,Reject
+DOMAIN-SUFFIX,googlesyndication.com,Reject
+DOMAIN-SUFFIX,googletagmanager.com,Reject
+DOMAIN-SUFFIX,googletagservices.com,Reject
 #JD
 DOMAIN,im-x.jd.com,Reject
 DOMAIN,dsp-x.jd.com,Reject
@@ -901,6 +914,11 @@ DOMAIN,wxsnsdy.video.qq.com,Reject
 DOMAIN,wxsnsdy.wxs.qq.com,Reject
 DOMAIN,wxsnsdythumb.wxs.qq.com,Reject
 DOMAIN-KEYWORD,variety.tc.qq.com,Reject
+#Tencent-QQ-Upload
+DOMAIN,oth.eve.mdt.qq.com,Reject
+DOMAIN,ios.bugly.qq.com,Reject
+DOMAIN,pingma.qq.com,Reject
+DOMAIN,tpstelemetry.tencent.com,Reject
 #Tencent-gdt
 DOMAIN,adsmind.ugdtimg.com,Reject
 DOMAIN,pgdt.ugdtimg.com,Reject
@@ -982,7 +1000,6 @@ DOMAIN-SUFFIX,adsage.cn,Reject
 DOMAIN-SUFFIX,adsage.com,Reject
 DOMAIN-SUFFIX,adsco.re,Reject
 DOMAIN-SUFFIX,adsensor.com,Reject
-DOMAIN-SUFFIX,adservice.google.com,Reject
 DOMAIN-SUFFIX,adsfactor.net,Reject
 DOMAIN-SUFFIX,adsrvr.cn,Reject
 DOMAIN-SUFFIX,adsrvr.org,Reject
@@ -1077,7 +1094,6 @@ DOMAIN-SUFFIX,domob.cn,Reject
 DOMAIN-SUFFIX,domobcdn.com,Reject
 DOMAIN-SUFFIX,dotmore.com.tw,Reject
 DOMAIN-SUFFIX,dots-services.com,Reject
-DOMAIN-SUFFIX,doubleclick.net,Reject
 DOMAIN-SUFFIX,doumob.com,Reject
 DOMAIN-SUFFIX,dspunion.com,Reject
 DOMAIN-SUFFIX,duomai.com,Reject
@@ -1100,10 +1116,6 @@ DOMAIN-SUFFIX,gentags.com,Reject
 DOMAIN-SUFFIX,gentags.net,Reject
 DOMAIN-SUFFIX,getui.com,Reject
 DOMAIN-SUFFIX,getui.net,Reject
-DOMAIN-SUFFIX,google-analytics.com,Reject
-DOMAIN-SUFFIX,googleadservices.com,Reject
-DOMAIN-SUFFIX,googleadsserving.cn,Reject
-DOMAIN-SUFFIX,googlesyndication.com,Reject
 DOMAIN-SUFFIX,govhebie.cn,Reject
 DOMAIN-SUFFIX,govlaibing.cn,Reject
 DOMAIN-SUFFIX,govshenzhen.cn,Reject
@@ -1320,3 +1332,4 @@ DOMAIN-SUFFIX,zedo.com,Reject
 DOMAIN-SUFFIX,zhidian3g.cn,Reject
 DOMAIN-SUFFIX,zhiziyun.com,Reject
 DOMAIN-SUFFIX,zxrtb.com,Reject
+DOMAIN-SUFFIX,iclickcdn.com,Reject
