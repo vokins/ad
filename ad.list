@@ -1132,6 +1132,7 @@ DOMAIN-SUFFIX,huodonghezi.com,Reject
 DOMAIN-SUFFIX,hzbxm.com,Reject
 DOMAIN-SUFFIX,i-mobile.co.jp,Reject
 DOMAIN-SUFFIX,icast.cn,Reject
+DOMAIN-SUFFIX,iclickcdn.com,Reject
 DOMAIN-SUFFIX,id5-sync.com,Reject
 DOMAIN-SUFFIX,ieeod0.com,Reject
 DOMAIN-SUFFIX,igexin.com,Reject
@@ -1332,4 +1333,3 @@ DOMAIN-SUFFIX,zedo.com,Reject
 DOMAIN-SUFFIX,zhidian3g.cn,Reject
 DOMAIN-SUFFIX,zhiziyun.com,Reject
 DOMAIN-SUFFIX,zxrtb.com,Reject
-DOMAIN-SUFFIX,iclickcdn.com,Reject
