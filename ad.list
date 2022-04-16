@@ -3,6 +3,9 @@
 # https://github.com/vokins/ad/blob/main/dr.list
 
 DOMAIN-SUFFIX,beacon.qq.com,DIRECT
+DOMAIN-SUFFIX,cztv.com,DIRECT
+DOMAIN-SUFFIX,easemob.com,DIRECT
+DOMAIN-SUFFIX,open.e.kuaishou.com,DIRECT
 DOMAIN,mtrace.qq.com,DIRECT
 DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,wspeed.qq.com,DIRECT
@@ -28,9 +31,6 @@ DOMAIN-SUFFIX,manmeng168.com,DIRECT
 DOMAIN,dfp.suning.com,DIRECT
 DOMAIN,dns.jd.com,DIRECT
 DOMAIN,liangcang-material.alicdn.com,DIRECT
-DOMAIN-SUFFIX,open.e.kuaishou.com,DIRECT
-DOMAIN-SUFFIX,cztv.com,DIRECT
-DOMAIN-SUFFIX,easemob.com,DIRECT
 DOMAIN,w1.hoopchina.com.cn,DIRECT
 DOMAIN,vipmv.tv,DIRECT
 DOMAIN,vipmv.co,DIRECT
