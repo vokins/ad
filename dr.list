@@ -1,8 +1,11 @@
-# Update > 22:13 2022/2/24
+# Update > 16:50 2022/4/16
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
 DOMAIN-SUFFIX,beacon.qq.com,DIRECT
+DOMAIN-SUFFIX,cztv.com,DIRECT
+DOMAIN-SUFFIX,easemob.com,DIRECT
+DOMAIN-SUFFIX,open.e.kuaishou.com,DIRECT
 DOMAIN,mtrace.qq.com,DIRECT
 DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,wspeed.qq.com,DIRECT
@@ -12,35 +15,22 @@ DOMAIN,srchstatic.imtt.qq.com,DIRECT
 DOMAIN,today.imtt.qq.com,DIRECT
 DOMAIN,cdn.bookimg.html5.qq.com,DIRECT
 DOMAIN,novel.html5.qq.com,DIRECT
-DOMAIN,tpstelemetry.tencent.com
-
+DOMAIN,tpstelemetry.tencent.com,DIRECT
 DOMAIN,log.kuwo.cn,DIRECT
 DOMAIN,mgxhtj.kuwo.cn,DIRECT
-
 DOMAIN,dlweb.sogoucdn.com,DIRECT
-
 DOMAIN,i.snssdk.com,DIRECT
 DOMAIN,ib-hl.snssdk.com,DIRECT
 DOMAIN,log.snssdk.com,DIRECT
 DOMAIN,sf3-ttcdn-tos.pstatp.com,DIRECT
 DOMAIN,sf6-ttcdn-tos.pstatp.com,DIRECT
-
 DOMAIN,mbd.baidu.com,DIRECT
 DOMAIN,aip.baidubce.com,DIRECT
-
 DOMAIN,f3.video.weibocdn.com,DIRECT
 DOMAIN-SUFFIX,manmeng168.com,DIRECT
 DOMAIN,dfp.suning.com,DIRECT
 DOMAIN,dns.jd.com,DIRECT
-
 DOMAIN,liangcang-material.alicdn.com,DIRECT
-
-DOMAIN-SUFFIX,open.e.kuaishou.com,DIRECT
-
-DOMAIN-SUFFIX,cztv.com,DIRECT
-DOMAIN-SUFFIX,easemob.com,DIRECT
-
 DOMAIN,w1.hoopchina.com.cn,DIRECT
-
 DOMAIN,vipmv.tv,DIRECT
 DOMAIN,vipmv.co,DIRECT
