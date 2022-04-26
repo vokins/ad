@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.85
+! Version: 0.86
 ! Title: adfilter
-! Last modified: 7:40 2022/4/27
+! Last modified: 7:54 2022/4/27
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -117,6 +117,7 @@ https://www.googletagservices.com/activeview/js/*
 https://www.googletagservices.com/tag/js/*
 ##ins[class*="adsbygoogle"]
 ##ins[class*="adsense-cont"]
+www.google.com##div[class*="mobile-promo"]
 
 !taobao
 ||.ai.taobao.com^
