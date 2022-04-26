@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.82
+! Version: 0.83
 ! Title: adfilter
-! Last modified: 21:33 2022/4/26
+! Last modified: 21:44 2022/4/26
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -241,6 +241,7 @@ tw.news.yahoo.com##div[id$="-Banner-Proxy"]
 ettoday.net##div[class^="adM"]
 
 !sites
+||1000novel.com/js/ssads.js
 ||www.myhtlmebook.com/admgr/*
 ||cdn.v2ex.com/assets/sidebar/*
 hupu.com##div[class^="hp-ad"]
@@ -1592,10 +1593,12 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||23873645.com^
 ||34283078.com^
 ||77nnv9.xyz^
+||adultfriendfinder.com^
 ||cslpf.cn^
 ||dncvj.cn^
 ||govhenan.cn^
 ||ilaohuyou.xyz^
+||jads.co^
 ||mktyhr.xyz^
 ||mnknrt.xyz^
 ||nbrlzy.com^
