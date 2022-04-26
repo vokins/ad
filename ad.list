@@ -1,4 +1,4 @@
-# Update > 16:52 2022/4/16
+# Update > 21:32 2022/4/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -119,6 +119,9 @@ DOMAIN,3w.huanqiu.com,Reject
 DOMAIN,90.huanqiu.com,Reject
 DOMAIN,analysis.huanqiu.com,Reject
 DOMAIN,ipengtai.huanqiu.com,Reject
+#News-中华网China.com
+DOMAIN,bd1-china.xsfaya.com,Reject
+DOMAIN,bd2-china.xsfaya.com,Reject
 #News-鳳凰網
 DOMAIN-SUFFIX,deliver.ifeng.com,Reject
 DOMAIN-SUFFIX,newad.ifeng.com,Reject
@@ -589,6 +592,9 @@ DOMAIN,sensors.ibreader.com,Reject
 DOMAIN,www.nkscdn.com,Reject
 DOMAIN,udiab1.jianshu.com,Reject
 DOMAIN,udiab2.jianshu.com,Reject
+#Site-星座屋
+DOMAIN,bmjjs.xzw.com,Reject
+DOMAIN,bmjs.xzw.com,Reject
 #Site-诚通网盘
 DOMAIN,mydisplay.ctfile.com,Reject
 #OS-Mi
@@ -700,7 +706,6 @@ DOMAIN,cm.baidu.com,Reject
 DOMAIN,cpu.baidu.com,Reject
 DOMAIN,cpucdn.baidu.com,Reject
 DOMAIN,datax.baidu.com,Reject
-DOMAIN,dlswbr.baidu.com,Reject
 DOMAIN,duclick.baidu.com,Reject
 DOMAIN,dxp.baidu.com,Reject
 DOMAIN,eclick.baidu.com,Reject
@@ -722,7 +727,6 @@ DOMAIN,pimlog.baidu.com,Reject
 DOMAIN,push.zhanzhang.baidu.com,Reject
 DOMAIN,qapm.baidu.com,Reject
 DOMAIN,river.zhidao.baidu.com,Reject
-DOMAIN,sofire.baidu.com,Reject
 DOMAIN,sp1.baidu.com,Reject
 DOMAIN,tcbox.baidu.com,Reject
 DOMAIN,wkctj.baidu.com,Reject
@@ -750,9 +754,7 @@ DOMAIN,search-operate.cdn.bcebos.com,Reject
 #Baidu-bdstatic
 DOMAIN,ae.bdstatic.com,Reject
 DOMAIN,fex.bdstatic.com,Reject
-DOMAIN,mipcache.bdstatic.com,Reject
 DOMAIN,nspt.bdstatic.com,Reject
-DOMAIN,sofire.bdstatic.com,Reject
 DOMAIN,su.bdstatic.com,Reject
 DOMAIN,zz.bdstatic.com,Reject
 #Baidu-dxm
@@ -1333,3 +1335,18 @@ DOMAIN-SUFFIX,zedo.com,Reject
 DOMAIN-SUFFIX,zhidian3g.cn,Reject
 DOMAIN-SUFFIX,zhiziyun.com,Reject
 DOMAIN-SUFFIX,zxrtb.com,Reject
+#Union-popup
+DOMAIN-SUFFIX,23873645.com,Reject
+DOMAIN-SUFFIX,34283078.com,Reject
+DOMAIN-SUFFIX,77nnv9.xyz,Reject
+DOMAIN-SUFFIX,cslpf.cn,Reject
+DOMAIN-SUFFIX,dncvj.cn,Reject
+DOMAIN-SUFFIX,govhenan.cn,Reject
+DOMAIN-SUFFIX,ilaohuyou.xyz,Reject
+DOMAIN-SUFFIX,mktyhr.xyz,Reject
+DOMAIN-SUFFIX,mnknrt.xyz,Reject
+DOMAIN-SUFFIX,nbrlzy.com,Reject
+DOMAIN-SUFFIX,sglyd.cn,Reject
+DOMAIN-SUFFIX,twdjn.cn,Reject
+DOMAIN-SUFFIX,tydouke.com,Reject
+DOMAIN-SUFFIX,ycdywl.com,Reject
