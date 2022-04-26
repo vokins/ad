@@ -1,4 +1,4 @@
-# Update > 21:32 2022/4/26
+# Update > 21:45 2022/4/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -1339,10 +1339,12 @@ DOMAIN-SUFFIX,zxrtb.com,Reject
 DOMAIN-SUFFIX,23873645.com,Reject
 DOMAIN-SUFFIX,34283078.com,Reject
 DOMAIN-SUFFIX,77nnv9.xyz,Reject
+DOMAIN-SUFFIX,adultfriendfinder.com,Reject
 DOMAIN-SUFFIX,cslpf.cn,Reject
 DOMAIN-SUFFIX,dncvj.cn,Reject
 DOMAIN-SUFFIX,govhenan.cn,Reject
 DOMAIN-SUFFIX,ilaohuyou.xyz,Reject
+DOMAIN-SUFFIX,jads.co,Reject
 DOMAIN-SUFFIX,mktyhr.xyz,Reject
 DOMAIN-SUFFIX,mnknrt.xyz,Reject
 DOMAIN-SUFFIX,nbrlzy.com,Reject
