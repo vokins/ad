@@ -1,4 +1,4 @@
-# Update > 16:50 2022/4/16
+# Update > 21:32 2022/4/26
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
@@ -25,6 +25,10 @@ DOMAIN,log.snssdk.com,DIRECT
 DOMAIN,sf3-ttcdn-tos.pstatp.com,DIRECT
 DOMAIN,sf6-ttcdn-tos.pstatp.com,DIRECT
 DOMAIN,mbd.baidu.com,DIRECT
+DOMAIN,dlswbr.baidu.com,DIRECT
+DOMAIN,sofire.baidu.com,DIRECT
+DOMAIN,mipcache.bdstatic.com,DIRECT
+DOMAIN,sofire.bdstatic.com,DIRECT
 DOMAIN,aip.baidubce.com,DIRECT
 DOMAIN,f3.video.weibocdn.com,DIRECT
 DOMAIN-SUFFIX,manmeng168.com,DIRECT
