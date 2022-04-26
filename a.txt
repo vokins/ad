@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.73
+! Version: 0.82
 ! Title: adfilter
-! Last modified: 17:47 2022/4/12
+! Last modified: 21:33 2022/4/26
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -49,13 +49,16 @@
 ##div[id="floadAD"]
 ##div[id="txtlink"]
 ##div[id^="BAIDU_DUP_"]
+!jd
+##a[href*="/union-click.jd.com/"]
+##iframe[src^="/static-alias-1.360buyimg.com/"]
+##div[class="panel panel-list ad"]
+
 !ad:o
 ##a[class^=""youdao-flow-ad"]
 ##a[class^="ad_hover"]
-##a[href*="/union-click.jd.com/"]
 ##a[href*="/sugar.zhihu.com/"]
 ##div[adtype$="Ad"]
-##iframe[src^="/static-alias-1.360buyimg.com/"]
 ##img[alt="ads.png"]
 ##img[class="ad-img"]
 ##ins[class="adsbygoogle"]
@@ -87,6 +90,19 @@ m.baidu.com##div[class="nr-afdLargePic"]
 m.baidu.com##div[class*="ad-container-"]
 pan.baidu.com##div[class$="ad-platform-tips"]
 wenku.baidu.com##div[class="hx-recom-wrapper"]
+fanyi.baidu.com##a[class="app-bar"]
+fanyi.baidu.com##div[id="desktop-guide-wrapper"]
+m.baidu.com##div[class="tab_news"]
+hanyu.baidu.com##div[class="promotion-top-el"]
+hanyu.baidu.com##img[class="banner-img"]
+hanyu.baidu.com##div[class="hanyu-app-wrap"]
+hanyu.baidu.com##div[class="hanyu-download-wrap"]
+baidu.com##div[id="fengchao_els"]
+baidu.com##div[class="fengchao-el"]
+baidu.com##div[id="download-wrapper"]
+baidu.com##div[class="down-app"]
+aiqicha.baidu.com##div[class="app-enter"]
+##a[href*="/union.baidu.com"]
 
 !google
 */adcreatives/*
@@ -99,6 +115,8 @@ https://www.googletagmanager.com/gtag/js*
 https://www.googletagmanager.com/gtm.js*
 https://www.googletagservices.com/activeview/js/*
 https://www.googletagservices.com/tag/js/*
+##ins[class*="adsbygoogle"]
+##ins[class*="adsense-cont"]
 
 !taobao
 ||.ai.taobao.com^
@@ -107,6 +125,33 @@ https://www.googletagservices.com/tag/js/*
 
 !union
 */taboola/*
+
+!mobile
+jikipedia.com##div[class^="ad-card"]
+caiyunapp.com##div[class="footer"]
+m.people.cn##div[class="m-page-tip"]
+m.thepaper.cn##div[class="footer_banner"]
+m.thepaper.cn##div[class="header_moblink"]
+m.douban.com##div[class="TalionNav-static"]
+m.douban.com##div[class="subject-banner"]
+qq.com##div[data-boss-expo^="ad"]
+wap.eastmoney.com##a[class="open-inapp"]
+ifeng.com##div[class^="fixSlideBox-"]
+ifeng.com##div[class="link-1xGgkMtk"]
+m.pcauto.com.cn##div[class="bottom-half-dialog-content"]
+m.pcauto.com.cn##div[id="home-float"]
+m.pcauto.com.cn##div[id="m-brandsubsidy"]
+sina.cn##div[sax-type="proxy"]
+m.allhistory.com##div[class="navbar navbar-container-show"]
+m.allhistory.com##div[class="page-contents-mask"]
+m.allhistory.com##div[class="page-contents-btn"]
+##iframe[src*="bd2-china.xsfaya.com"]
+##div[src*="bd1-china.xsfaya.com"]
+m.ithome.com##div[class="open-app-banner"]
+m.cnbeta.com##div[class="article-global"]
+m.cnbeta.com##div[class="article-topic"]
+m.cnbeta.com##div[class="infinity"]
+
 
 !163
 163.com##div[class*="_adtop_"]
@@ -238,6 +283,7 @@ bbs.pcbeta.com##div[style="width:998px;height:75px;border:1px solid #ececec;bord
 bbs.pcbeta.com###wp > div[class][id]:not([class*="cl"])
 bbs.pcbeta.com##div[style="padding:0 15px;background:#fafafa;border:1px solid #ececec;"]
 
+||iclickcdn.com^
 !union-all
 
 #Apple
@@ -803,6 +849,11 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||www.nkscdn.com^
 ||udiab1.jianshu.com^
 ||udiab2.jianshu.com^
+#Site-星座屋
+||bmjjs.xzw.com^
+||bmjs.xzw.com^
+##a[href*="/bmjs.xzw.com/"]
+##img[src*="/bmjjs.xzw.com/"]
 #Site-诚通网盘
 ||mydisplay.ctfile.com^
 #OS-Mi
@@ -964,9 +1015,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 #Baidu-bdstatic^
 ||ae.bdstatic.com^
 ||fex.bdstatic.com^
-||mipcache.bdstatic.com^
 ||nspt.bdstatic.com^
-||sofire.bdstatic.com^
 ||su.bdstatic.com^
 ||zz.bdstatic.com^
 #Baidu-dxm
@@ -1539,3 +1588,18 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||zhidian3g.cn^
 ||zhiziyun.com^
 ||zxrtb.com^
+!Union-popup
+||23873645.com^
+||34283078.com^
+||77nnv9.xyz^
+||cslpf.cn^
+||dncvj.cn^
+||govhenan.cn^
+||ilaohuyou.xyz^
+||mktyhr.xyz^
+||mnknrt.xyz^
+||nbrlzy.com^
+||sglyd.cn^
+||twdjn.cn^
+||tydouke.com^
+||ycdywl.com^
