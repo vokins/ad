@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.83
+! Version: 0.85
 ! Title: adfilter
-! Last modified: 21:44 2022/4/26
+! Last modified: 7:40 2022/4/27
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -151,7 +151,11 @@ m.ithome.com##div[class="open-app-banner"]
 m.cnbeta.com##div[class="article-global"]
 m.cnbeta.com##div[class="article-topic"]
 m.cnbeta.com##div[class="infinity"]
-
+m.feng.com##div[class="float-tip"]
+m.zcool.com.cn##a[role="button"]
+m.hupu.com##div[role="button"]
+zhihu.com##button[class*="OpenInApp"]
+zhihu.com##a[class*="FeedAd"]
 
 !163
 163.com##div[class*="_adtop_"]
