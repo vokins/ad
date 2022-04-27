@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 0.88
 ! Title: adfilter
-! Last modified: 8:39 2022/4/27
+! Last modified: 8:47 2022/4/27
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -175,6 +175,7 @@ flyert.com##.aboutArticle
 flyert.com##div[id="f_Share"]
 flyert.com##div[class="update-app"]
 ||ptf.flyertrip.com/common/cf/*
+flyert.com##div[style="padding:0"]
 
 !163
 163.com##div[class*="_adtop_"]
