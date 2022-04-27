@@ -169,8 +169,6 @@ bbs.51credit.com##div[class="recommend_card"]
 bbs.51credit.com##div[class^="appdownlead-"]
 bbs.51credit.com##li[data-id$="=="]
 bbs.51credit.com##ul[class="bottom-nav"]
-flyert.com##.app-mask
-flyert.com##.app-container
 flyert.com##.aboutArticle
 flyert.com##div[id="f_Share"]
 flyert.com##div[class="update-app"]
