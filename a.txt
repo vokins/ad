@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.86
+! Version: 0.87
 ! Title: adfilter
-! Last modified: 7:54 2022/4/27
+! Last modified: 8:24 2022/4/27
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -157,6 +157,18 @@ m.zcool.com.cn##a[role="button"]
 m.hupu.com##div[role="button"]
 zhihu.com##button[class*="OpenInApp"]
 zhihu.com##a[class*="FeedAd"]
+bbs.tianya.cn##div[class^="u-like"]
+tianya.cn##div[class="ty-footer"]
+bbs.51credit.com##.recommend
+bbs.51credit.com##.regComponents
+bbs.51credit.com##.regMask
+bbs.51credit.com##div[class="bank_credit_center"]
+bbs.51credit.com##div[class="float-b-tip"]
+bbs.51credit.com##div[class="info-rm"]
+bbs.51credit.com##div[class="recommend_card"]
+bbs.51credit.com##div[class^="appdownlead-"]
+bbs.51credit.com##li[data-id$="=="]
+bbs.51credit.com##ul[class="bottom-nav"]
 
 !163
 163.com##div[class*="_adtop_"]
