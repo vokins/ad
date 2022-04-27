@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.87
+! Version: 0.88
 ! Title: adfilter
-! Last modified: 8:24 2022/4/27
+! Last modified: 8:39 2022/4/27
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -169,6 +169,12 @@ bbs.51credit.com##div[class="recommend_card"]
 bbs.51credit.com##div[class^="appdownlead-"]
 bbs.51credit.com##li[data-id$="=="]
 bbs.51credit.com##ul[class="bottom-nav"]
+flyert.com##.app-mask
+flyert.com##.app-container
+flyert.com##.aboutArticle
+flyert.com##div[id="f_Share"]
+flyert.com##div[class="update-app"]
+||ptf.flyertrip.com/common/cf/*
 
 !163
 163.com##div[class*="_adtop_"]
