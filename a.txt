@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.89
+! Version: 0.90
 ! Title: adfilter
-! Last modified: 8:48 2022/4/27
+! Last modified: 12:38 2022/4/27
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -103,6 +103,8 @@ baidu.com##div[id="download-wrapper"]
 baidu.com##div[class="down-app"]
 aiqicha.baidu.com##div[class="app-enter"]
 ##a[href*="/union.baidu.com"]
+baidu.com##div[class="yitiao-container"]
+baidu.com##div[class="yx-recommend-container"]
 
 !google
 */adcreatives/*
