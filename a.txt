@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.92
+! Version: 0.93
 ! Title: adfilter
-! Last modified: 6:58 2022/5/4
+! Last modified: 19:18 2022/5/6
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -311,6 +311,8 @@ pcbeta.com##+js(aopr, Node.prototype.insertBefore)
 bbs.pcbeta.com##div[style="width:998px;height:75px;border:1px solid #ececec;border-top:3px solid #009ad9;margin:0 0 10px 0;background:#fff;"]
 bbs.pcbeta.com###wp > div[class][id]:not([class*="cl"])
 bbs.pcbeta.com##div[style="padding:0 15px;background:#fafafa;border:1px solid #ececec;"]
+
+gushiwen.cn##div[id^="threeWeixin"]
 
 ||iclickcdn.com^
 !union-all
