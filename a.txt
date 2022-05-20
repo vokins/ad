@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.93
+! Version: 0.96
 ! Title: adfilter
-! Last modified: 19:18 2022/5/6
+! Last modified: 7:31 2022/5/21
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -1281,8 +1281,8 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||adsage.com^
 ||adsco.re^
 ||adsensor.com^
-||adservice.google.com^
 ||adservice.google.co.jp^
+||adservice.google.com^
 ||adsfactor.net^
 ||adsrvr.cn^
 ||adsrvr.org^
@@ -1468,6 +1468,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||mgid.com^
 ||miaozhen.com^
 ||microad-cn.com^
+||midongtech.com^
 ||mijifen.com^
 ||mintegral.com^
 ||moatads.com^
@@ -1513,6 +1514,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||realsrv.com^
 ||rtbasia.com^
 ||rubiconproject.com^
+||ryjoin.com^
 ||safedk.com^
 ||scorecardresearch.com^
 ||scupio.com^
@@ -1528,10 +1530,12 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||smadex.com^
 ||smartadserver.com^
 ||smvm.cn^
+||smyfinancial.com^
 ||social-touch.com^
 ||solvemedia.com^
 ||spotxchange.com^
 ||springserve.com^
+||spush.com^
 ||ssacdn.com^
 ||startapp.com^
 ||startappexchange.com^
@@ -1627,12 +1631,18 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||cslpf.cn^
 ||dncvj.cn^
 ||govhenan.cn^
+||hdyxc.com^
 ||ilaohuyou.xyz^
+||iyunzk.com^
 ||jads.co^
 ||mktyhr.xyz^
 ||mnknrt.xyz^
 ||nbrlzy.com^
 ||sglyd.cn^
+||tewtwt.top^
+||thefatherofsalmon.com^
 ||twdjn.cn^
 ||tydouke.com^
+||xmluren.com^
 ||ycdywl.com^
+
