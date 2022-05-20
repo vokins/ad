@@ -1,4 +1,4 @@
-# Update > 21:45 2022/4/26
+# Update > 7:31 2022/5/21
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -952,6 +952,7 @@ DOMAIN,beap.gemini.yahoo.com,Reject
 DOMAIN,dn-growing.qbox.me,Reject
 DOMAIN,lkme.cc,Reject
 #Union-Ads
+
 DOMAIN-SUFFIX,1nmob.com,Reject
 DOMAIN-SUFFIX,2345.com,Reject
 DOMAIN-SUFFIX,25ku.com,Reject
@@ -1183,6 +1184,7 @@ DOMAIN-SUFFIX,mfadsrvr.com,Reject
 DOMAIN-SUFFIX,mgid.com,Reject
 DOMAIN-SUFFIX,miaozhen.com,Reject
 DOMAIN-SUFFIX,microad-cn.com,Reject
+DOMAIN-SUFFIX,midongtech.com,Reject
 DOMAIN-SUFFIX,mijifen.com,Reject
 DOMAIN-SUFFIX,mintegral.com,Reject
 DOMAIN-SUFFIX,moatads.com,Reject
@@ -1228,6 +1230,7 @@ DOMAIN-SUFFIX,reachmax.cn,Reject
 DOMAIN-SUFFIX,realsrv.com,Reject
 DOMAIN-SUFFIX,rtbasia.com,Reject
 DOMAIN-SUFFIX,rubiconproject.com,Reject
+DOMAIN-SUFFIX,ryjoin.com,Reject
 DOMAIN-SUFFIX,safedk.com,Reject
 DOMAIN-SUFFIX,scorecardresearch.com,Reject
 DOMAIN-SUFFIX,scupio.com,Reject
@@ -1243,10 +1246,12 @@ DOMAIN-SUFFIX,sitescout.com,Reject
 DOMAIN-SUFFIX,smadex.com,Reject
 DOMAIN-SUFFIX,smartadserver.com,Reject
 DOMAIN-SUFFIX,smvm.cn,Reject
+DOMAIN-SUFFIX,smyfinancial.com,Reject
 DOMAIN-SUFFIX,social-touch.com,Reject
 DOMAIN-SUFFIX,solvemedia.com,Reject
 DOMAIN-SUFFIX,spotxchange.com,Reject
 DOMAIN-SUFFIX,springserve.com,Reject
+DOMAIN-SUFFIX,spush.com,Reject
 DOMAIN-SUFFIX,ssacdn.com,Reject
 DOMAIN-SUFFIX,startapp.com,Reject
 DOMAIN-SUFFIX,startappexchange.com,Reject
@@ -1343,12 +1348,17 @@ DOMAIN-SUFFIX,adultfriendfinder.com,Reject
 DOMAIN-SUFFIX,cslpf.cn,Reject
 DOMAIN-SUFFIX,dncvj.cn,Reject
 DOMAIN-SUFFIX,govhenan.cn,Reject
+DOMAIN-SUFFIX,hdyxc.com,Reject
 DOMAIN-SUFFIX,ilaohuyou.xyz,Reject
+DOMAIN-SUFFIX,iyunzk.com,Reject
 DOMAIN-SUFFIX,jads.co,Reject
 DOMAIN-SUFFIX,mktyhr.xyz,Reject
 DOMAIN-SUFFIX,mnknrt.xyz,Reject
 DOMAIN-SUFFIX,nbrlzy.com,Reject
 DOMAIN-SUFFIX,sglyd.cn,Reject
+DOMAIN-SUFFIX,tewtwt.top,Reject
+DOMAIN-SUFFIX,thefatherofsalmon.com,Reject
 DOMAIN-SUFFIX,twdjn.cn,Reject
 DOMAIN-SUFFIX,tydouke.com,Reject
+DOMAIN-SUFFIX,xmluren.com,Reject
 DOMAIN-SUFFIX,ycdywl.com,Reject
