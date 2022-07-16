@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.96
+! Version: 0.991
 ! Title: adfilter
-! Last modified: 7:31 2022/5/21
+! Last modified: 23:09 2022/7/16
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -13,9 +13,10 @@
 */ad-img/*
 */adspace/*
 */adpic/*
-*/adcreatives/*
+*/adver/*
 */ad-tetris-site/*
 */ads.js
+*/adserv.js
 
 !class:ad
 ##div[class*="_adtop_"]
@@ -29,7 +30,11 @@
 ##div[class^="advert"]
 ##div[class*="adsbygoogle"]
 ##div[class*="-ad-wrapper"]
-##div[class*="-ad-content"]
+##div[class*="-ad-box"]
+##div[class*="-ad-footer"]
+##div[class*="-ad-title"]
+##div[class*="ad-content"]
+##div[class*="ad-top-box"]
 !class:ado
 ##div[class="close-ad"]
 ##div[class="content-ads"]
@@ -68,6 +73,13 @@
 !bbs
 ##font[class="jammer"]
 ##span[style="display:none"]
+
+##div[class="item cooperation"]
+##[href*="/apple.pvxt.net/"]
+##[href*="/promotion.aliyun.com/"]
+##[href*="/url.cnbetacdn.com"]
+##[href*="/click.aliyun.com/"]
+
 !baidu
 ##a[href^="http://www.baidu.com/baidu.php?url="]
 ##[src*="/cpro.baidustatic.com/"]
@@ -132,6 +144,8 @@ www.google.com##div[class*="mobile-promo"]
 
 !union
 */taboola/*
+https://www.6vgood.com/d/*
+https://www.meijutt.tv/js/pcjs/*
 
 !mobile
 jikipedia.com##div[class^="ad-card"]
@@ -158,6 +172,8 @@ m.ithome.com##div[class="open-app-banner"]
 m.cnbeta.com##div[class="article-global"]
 m.cnbeta.com##div[class="article-topic"]
 m.cnbeta.com##div[class="infinity"]
+cnbeta.com##div[class="cbv"]
+cnbeta.com##div[id="upcoming_box"]
 m.feng.com##div[class="float-tip"]
 m.zcool.com.cn##a[role="button"]
 m.hupu.com##div[role="button"]
@@ -180,6 +196,14 @@ flyert.com##div[id="f_Share"]
 flyert.com##div[class="update-app"]
 ||ptf.flyertrip.com/common/cf/*
 flyert.com##div[style="padding:0"]
+m.cnbeta.com##.cbimage-fixed
+m.hujiang.com##.soft-text
+m.yxlady.com###banner_simple
+cn.bing.com###bgPro
+|http://www.myhtlmebook.com/images/*
+|https://www.tt1069.com/banners/*
+|https://m.cnbeta.com/js/hzh.js
+|https://www.jianshu.com/asimov/pdd_ads/*
 
 !163
 163.com##div[class*="_adtop_"]
@@ -280,8 +304,6 @@ huanqiu.com##div[id="aa-block"]
 ||www.ce.cn/guanggao/*
 ||img.jrjimg.cn/baichuan/*
 ||files.jb51.net/image/*$image
-||jscode.jbzj.com^
-||jsjs.jbzj.com^
 ||s.360.cn/so/zz.gif*
 ||s.ssl.qhres.com/ssl/*.js
 !xinhuanet
@@ -290,8 +312,6 @@ huanqiu.com##div[id="aa-block"]
 ||www.newsres.cn/temp/tempad$image
 ||events.jianshu.io^
 !QQ
-||l.qq.com^
-||wa.gtimg.com^
 ||tiem-cdn.qq.com/o2/images/^
 v.qq.com##div[class^="mod_ad"]
 qq.com##+js(json-prune,adList.item)
@@ -313,7 +333,11 @@ bbs.pcbeta.com###wp > div[class][id]:not([class*="cl"])
 bbs.pcbeta.com##div[style="padding:0 15px;background:#fafafa;border:1px solid #ececec;"]
 
 gushiwen.cn##div[id^="threeWeixin"]
-
+|https://m.icauto.com.cn/analysis/article.php
+|https://res.chazidian.com/tj.js
+|https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js
+|https://static202106.chazidian.com/mobile/global/mtw20210609.js
+|https://m.ithome.com/js/common/jump-app.min.js
 ||iclickcdn.com^
 !union-all
 
@@ -380,10 +404,12 @@ gushiwen.cn##div[id^="threeWeixin"]
 ||al.autohome.com.cn^
 ||applogapi.autohome.com.cn^
 ||c.autohome.com.cn^
+||dspmnt.autohome.com.cn^
 ||haelm16j.autohome.com.cn^
 ||pvx.autohome.com.cn^
 ||rd.autohome.com.cn^
 ||rdx.autohome.com.cn^
+||szocfjv3.autohome.com.cn^
 ||twypgj2o.autohome.com.cn^
 #Car-易车
 ||adx.yiche.com^
@@ -392,9 +418,18 @@ gushiwen.cn##div[id^="threeWeixin"]
 ||log.ycapp.yiche.com^
 ||rc-logc.yiche.com^
 ||tracker.yiche.com^
+#Car-Xcar
+||dw.xcar.com.cn^
+||jcmonitor.xcar.com.cn^
+||pvx.xcar.com.cn^
+||zio.xcar.com.cn^
 #EDU-百词斩
 ||advertise.baicizhan.com^
 ||advertise.baicizhan.org^
+#EDU-hujiang.com
+||track.hujiang.com^
+||trackcommon.hujiang.com^
+||u8.hujiang.com^
 #EDU-中国知网
 ||track.cnki.net
 #EDU-古诗文网
@@ -435,12 +470,14 @@ gushiwen.cn##div[id^="threeWeixin"]
 ||analysis.huanqiu.com^
 ||ipengtai.huanqiu.com^
 #News-鳳凰網
-||deliver.ifeng.com^
-||newad.ifeng.com^
 ||ax.ifeng.com^
 ||cvf.ifeng.com^
+||deliver.ifeng.com^
+||err.ifengcloud.ifeng.com^
 ||ifengad.3g.ifeng.com^
+||newad.ifeng.com^
 ||noscreenplz2.ifeng.com^
+||qcvf.ifeng.com^
 ||stadig.ifeng.com^
 ||stadig0.ifeng.com^
 ||ztyumn.ifeng.com^
@@ -583,7 +620,6 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||adbox.sina.com.cn^
 ||ad.sina.com.cn^
 ||beacon.sina.com.cn^
-||beacon.sina.com.cn^
 ||d00.sina.com.cn^
 ||d0.sina.com.cn^
 ||d1.sina.com.cn^
@@ -678,6 +714,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||stat.zol.com.cn^
 ||zdw.w8.com.cn^
 #Tech-太平洋
+||cmt.pcauto.com.cn^
 ||count.pcauto.com.cn^
 ||counter-new.pcauto.com.cn^
 ||imgad0.pcauto.com.cn^
@@ -871,6 +908,10 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||abc.9136.com^
 ||cpt.9136.com^
 ||j.9136.com^
+#Site-360doc
+||eclick.360doc.com^
+||pjogndc8ixoidna.360doc.cn^
+||xne1ocient87zxz.360doc.cn^
 #Site-Docin.com豆丁网
 ||fpb.docin.com^
 ||zx.docin.com^
@@ -880,6 +921,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||www.nkscdn.com^
 ||udiab1.jianshu.com^
 ||udiab2.jianshu.com^
+||tr.jianshu.com^
 #Site-星座屋
 ||bmjjs.xzw.com^
 ||bmjs.xzw.com^
@@ -907,14 +949,15 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||clientlog3.music.163.com^
 ||g.163.com^
 ||nex.163.com^
-||g.163.com^
 ||iadmat.nosdn.127.net^
+||h5.analytics.126.net^
 ||iadmusicmat.music.126.net^
 ||pg-ad-b1.ws.126.net^
 ||webstat.ws.126.net^
 ||yp.ws.126.net^
 ||yt-adp.ws.126.net^
 ||da.netease.com^
+||vmonitor.ws.netease.com^
 ||shared.ydstatic.com^
 ||conv.youdao.com^
 ||dsp-impr2.youdao.com^
@@ -941,7 +984,6 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||nbsdk-baichuan.alicdn.com^
 ||unidesk.alicdn.com^
 ||userlink.alicdn.com^
-||mpush-api.aliyun.com^
 ||adash-emas.cn-hangzhou.aliyuncs.com^
 ||adash.man.aliyuncs.com^
 ||beacon-api.aliyuncs.com^
@@ -1000,6 +1042,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||duclick.baidu.com^
 ||dxp.baidu.com^
 ||eclick.baidu.com^
+||entry.baidu.com^
 ||em.baidu.com^
 ||fc1tn.baidu.com^
 ||fclick.baidu.com^
@@ -1038,9 +1081,11 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||edu-ad-test-cdn.cdn.bcebos.com^
 ||fc-feed.cdn.bcebos.com^
 ||internal-amis-res.cdn.bcebos.com^
+||lupic.cdn.bcebos.com^
 ||mobads-pre-config.cdn.bcebos.com^
 ||pmp-ad.cdn.bcebos.com^
 ||pn-cover.cdn.bcebos.com^
+||render-server.cdn.bcebos.com^
 ||rmblive.cdn.bcebos.com^
 ||search-operate.cdn.bcebos.com^
 #Baidu-bdstatic^
@@ -1080,7 +1125,6 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||ctobsnssdk.com^
 ||extlog.snssdk.com^
 ||is.snssdk.com^
-||pangolin.snssdk.com^
 ||sdfp.snssdk.com^
 ||toblog.snssdk.com^
 ||analytics.snssdk.com^
@@ -1182,18 +1226,19 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||lu.sogoucdn.com^
 ||theta.sogoucdn.com^
 #Tencent-QQ
+||ad.browser.qq.com^
 ||ads.privacy.qq.com^
 ||bugly.qq.com^
+||dp3.qq.com^
 ||e.qq.com^
 ||gdt.qq.com^
-||l.qq.com^
-||mdt.qq.com^
-||ad.browser.qq.com^
-||dp3.qq.com^
+||h.trace.qq.com^
 ||hc.tdm.qq.com^
 ||jpush.html5.qq.com^
+||l.qq.com^
 ||logsdk.qq.com^
 ||mazu.m.qq.com^
+||mdt.qq.com^
 ||report.qqweb.qq.com^
 ||safebrowsing.urlsec.qq.com^
 ||tpush.html5.qq.com^
@@ -1623,26 +1668,87 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||zhidian3g.cn^
 ||zhiziyun.com^
 ||zxrtb.com^
+||bonree.com^
 !Union-popup
+||186078.com^
 ||23873645.com^
 ||34283078.com^
 ||77nnv9.xyz^
+||aaliyaheartha.com^
+||aaliyahzanna.com^
+||adblockanalytics.com^
 ||adultfriendfinder.com^
+||adutp.com^
+||alexanberton.com^
+||bixinlive.com^
+||cjgcedu.com^
 ||cslpf.cn^
 ||dncvj.cn^
+||elmahulda.com^
+||elvaheloise.com^
+||ffllff.com^
+||gbitcoin.cn^
+||govchengdu.cn^
 ||govhenan.cn^
+||haohuisheng555.cn^
 ||hdyxc.com^
 ||ilaohuyou.xyz^
 ||iyunzk.com^
 ||jads.co^
+||lgygy.cn^
+||lwmbc.cn^
+||meihu56.cn^
 ||mktyhr.xyz^
 ||mnknrt.xyz^
 ||nbrlzy.com^
+||nu5ebnh.cn^
+||outin.cn^
+||qdwght.com^
+||quandangdang.net^
 ||sglyd.cn^
+||simonayean.com^
+||tencentbs.cn^
 ||tewtwt.top^
 ||thefatherofsalmon.com^
 ||twdjn.cn^
 ||tydouke.com^
+||web605.cn^
 ||xmluren.com^
+||xx123.top^
 ||ycdywl.com^
-
+#Union-BD-Site
+||cb.8181zx.com^
+||cc.8181zx.com^
+||enl1.96845.com^
+||enl2.96845.com^
+||11.jiangzi.com^
+||22.jiangzi.com^
+||12.cookcai.com^
+||13.cookcai.com^
+||huohuo.huamuwo.com^
+||huohuo1.huamuwo.com^
+||a.huoche7.com^
+||b.huoche7.com^
+||hh.jiankang.com^
+||ii.jiankang.com^
+||53m.kuk8.com^
+||53s.kuk8.com^
+||b1.027art.com^
+||b2.027art.com^
+||cc.gerenjianli.com^
+||us.gerenjianli.com^
+||d.xidian5.com^
+||j.xidian5.com^
+||data.pinpai8.cn^
+||res.pinpai8.cn^
+||enews10.yxlady.net^
+||fnews10.yxlady.net^
+||fpb1.qicaixianhua.com^
+||fpb2.qicaixianhua.com^
+||mntest1.mangqu.cn^
+||org.mangqu.cn^
+||d.s11.cn^
+||j.s11.cn^
+||ss.gerenjianli.com^
+||etc.6187wo.com^
+||qa-log.xiaozuowen.net^
