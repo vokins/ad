@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.01
+! Version: 1.02
 ! Title: adfilter
-! Last modified: 14:14 2022/7/17
+! Last modified: 14:27 2022/7/17
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -21,6 +21,7 @@
 */hm.js
 */morejs/jc.js
 */morejs/jj.js
+*/js/js_content_top*.js
 
 !class:ad
 ##div[class*="_adtop_"]
@@ -1691,6 +1692,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||186078.com^
 ||23873645.com^
 ||34283078.com^
+||3xhmhct.cn^
 ||77nnv9.xyz^
 ||aaliyaheartha.com^
 ||aaliyahzanna.com^
@@ -1748,6 +1750,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||tydouke.com^
 ||uqnkvjx.cn^
 ||web605.cn^
+||xahelper.com^
 ||xmluren.com^
 ||xweuu.com^
 ||xx123.top^
@@ -1757,6 +1760,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||zhdchb.com^
 ||zhishouztian.top^
 ||ziyuanyinhang.wang^
+||zontta.cn^
 ||zygaoshou888.cn^
 #Union-BD-Site
 ||cb.8181zx.com^
