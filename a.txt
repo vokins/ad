@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.991
+! Version: 1.01
 ! Title: adfilter
-! Last modified: 23:09 2022/7/16
+! Last modified: 14:14 2022/7/17
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -17,6 +17,10 @@
 */ad-tetris-site/*
 */ads.js
 */adserv.js
+*/tongji.js
+*/hm.js
+*/morejs/jc.js
+*/morejs/jj.js
 
 !class:ad
 ##div[class*="_adtop_"]
@@ -649,6 +653,12 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||statictrack.58.com^
 ||track.58.com^
 ||tracklog.58.com^
+||callback.58.com^
+||tzjybeidou.58.com^
+||zpservice.58.com^
+||flog.58.com^
+||down.58.com^
+||rentercenter.58.com^
 ||stat-58home.58che.com^
 ||pic2.ajkimg.com^
 ||pic6.ajkimg.com^
@@ -1042,15 +1052,18 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||duclick.baidu.com^
 ||dxp.baidu.com^
 ||eclick.baidu.com^
-||entry.baidu.com^
 ||em.baidu.com^
+||entry.baidu.com^
 ||fc1tn.baidu.com^
 ||fclick.baidu.com^
+||fclog.baidu.com^
 ||feed-image.baidu.com^
-||gsp0.baidu.com^
 ||hcl.baidu.com^
+||hector.baidu.com^
 ||hmma.baidu.com^
 ||hpd.baidu.com^
+||jzapi.baidu.com^
+||leads.baidu.com^
 ||mobads-logs.baidu.com^
 ||mobads.baidu.com^
 ||mountain.zhidao.baidu.com^
@@ -1060,7 +1073,9 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||pimlog.baidu.com^
 ||push.zhanzhang.baidu.com^
 ||qapm.baidu.com^
+||report-uri.baidu.com^
 ||river.zhidao.baidu.com^
+||sjh.baidu.com^
 ||sofire.baidu.com^
 ||sp1.baidu.com^
 ||tcbox.baidu.com^
@@ -1193,17 +1208,19 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||pingma.qq.com^
 ||tpstelemetry.tencent.com^
 #Sohu
-||mb.hd.sohu.com.cn^
-||vstat.v.blog.sohu.com^
-||z.m.tv.sohu.com^
-||pv.sohu.com^
 ||ads.sohu.com^
 ||aty.sohu.com^
 ||fpb.sohu.com^
+||fpb0.sohu.com^
 ||go.sohu.com^
 ||images.sohu.com^
+||mb.hd.sohu.com.cn^
+||pv.sohu.com^
 ||qpb.sohu.com^
+||qpb0.sohu.com^
 ||track.sohu.com^
+||vstat.v.blog.sohu.com^
+||z.m.tv.sohu.com^
 #Sogou^
 ||apt2k.sogou.com^
 ||conv.k.sogou.com^
@@ -1670,6 +1687,7 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||zxrtb.com^
 ||bonree.com^
 !Union-popup
+||051091.com^
 ||186078.com^
 ||23873645.com^
 ||34283078.com^
@@ -1680,42 +1698,66 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||adultfriendfinder.com^
 ||adutp.com^
 ||alexanberton.com^
+||binfenhui.top^
 ||bixinlive.com^
 ||cjgcedu.com^
 ||cslpf.cn^
 ||dncvj.cn^
+||drrzzl.cn^
 ||elmahulda.com^
 ||elvaheloise.com^
+||envac-china.com^
 ||ffllff.com^
 ||gbitcoin.cn^
+||gfnormal01ae.com^
+||gnlunbii.rest^
 ||govchengdu.cn^
 ||govhenan.cn^
+||gtcxawq.com^
 ||haohuisheng555.cn^
+||hdazs.xyz^
 ||hdyxc.com^
+||heige.wang^
+||hjikv.cc^
 ||ilaohuyou.xyz^
 ||iyunzk.com^
 ||jads.co^
+||kluvcc.com^
+||ldpsfa.com^
 ||lgygy.cn^
 ||lwmbc.cn^
 ||meihu56.cn^
 ||mktyhr.xyz^
 ||mnknrt.xyz^
+||mtk.pub^
 ||nbrlzy.com^
+||nfsland.com^
 ||nu5ebnh.cn^
 ||outin.cn^
+||owtlra.xyz^
 ||qdwght.com^
 ||quandangdang.net^
 ||sglyd.cn^
+||sh-qiruizx.com^
 ||simonayean.com^
+||sxpjn.com^
 ||tencentbs.cn^
 ||tewtwt.top^
 ||thefatherofsalmon.com^
 ||twdjn.cn^
 ||tydouke.com^
+||uqnkvjx.cn^
 ||web605.cn^
 ||xmluren.com^
+||xweuu.com^
 ||xx123.top^
+||xxinhb.cn^
 ||ycdywl.com^
+||zhangwanwan.online^
+||zhdchb.com^
+||zhishouztian.top^
+||ziyuanyinhang.wang^
+||zygaoshou888.cn^
 #Union-BD-Site
 ||cb.8181zx.com^
 ||cc.8181zx.com^
@@ -1752,3 +1794,20 @@ DOMAIN-KEYWORD,applog.fqnovel.com^
 ||ss.gerenjianli.com^
 ||etc.6187wo.com^
 ||qa-log.xiaozuowen.net^
+||www.yhz18.com^
+||a01.yhz18.com^
+||p1.bdxiguaimg.com^
+||p6.bdxiguaimg.com^
+||jm2.xiao89.com^
+||jm1.xiao89.com^
+||ibook.pc899.cn^
+||ipad.pc899.cn^
+||aaa.zgqjmh.com^
+||bbb.zgqjmh.com^
+||mw2nf1s.eurostatsafetyshoes.tw^
+||1q22xnb.eurostatsafetyshoes.tw^
+||e.chunyuqiufeng.com^
+||f.chunyuqiufeng.com^
+||hm.5646.cn^
+||2.5646.cn^
+||mp.diebian.net^
