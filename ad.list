@@ -1,4 +1,4 @@
-# Update > 14:14 2022/7/17
+# Update > 14:26 2022/7/17
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -1379,6 +1379,7 @@ DOMAIN-SUFFIX,051091.com,Reject
 DOMAIN-SUFFIX,186078.com,Reject
 DOMAIN-SUFFIX,23873645.com,Reject
 DOMAIN-SUFFIX,34283078.com,Reject
+DOMAIN-SUFFIX,3xhmhct.cn,Reject
 DOMAIN-SUFFIX,77nnv9.xyz,Reject
 DOMAIN-SUFFIX,aaliyaheartha.com,Reject
 DOMAIN-SUFFIX,aaliyahzanna.com,Reject
@@ -1436,6 +1437,7 @@ DOMAIN-SUFFIX,twdjn.cn,Reject
 DOMAIN-SUFFIX,tydouke.com,Reject
 DOMAIN-SUFFIX,uqnkvjx.cn,Reject
 DOMAIN-SUFFIX,web605.cn,Reject
+DOMAIN-SUFFIX,xahelper.com,Reject
 DOMAIN-SUFFIX,xmluren.com,Reject
 DOMAIN-SUFFIX,xweuu.com,Reject
 DOMAIN-SUFFIX,xx123.top,Reject
@@ -1445,6 +1447,7 @@ DOMAIN-SUFFIX,zhangwanwan.online,Reject
 DOMAIN-SUFFIX,zhdchb.com,Reject
 DOMAIN-SUFFIX,zhishouztian.top,Reject
 DOMAIN-SUFFIX,ziyuanyinhang.wang,Reject
+DOMAIN-SUFFIX,zontta.cn,Reject
 DOMAIN-SUFFIX,zygaoshou888.cn,Reject
 #Union-BD-Site
 DOMAIN,b1.027art.com,Reject
