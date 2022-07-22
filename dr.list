@@ -1,4 +1,4 @@
-# Update > 21:09 2022/7/17
+# Update > 14:14 2022/7/22
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
@@ -43,3 +43,71 @@ DOMAIN,chinalife.com.cn,DIRECT
 DOMAIN,chinalife.com.hk,DIRECT
 DOMAIN,clamc.com,DIRECT
 DOMAIN,e-chinalife.com,DIRECT
+# https://paste.ubuntu.com/p/KYnTf7qmgm/
+# 更新时间:2022年5月13日22:31:49
+# 微信 (ip位于上海、深圳、香港）
+DOMAIN-SUFFIX,szsupport.weixin.qq.com,Direct
+DOMAIN-SUFFIX,extshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szaxshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,axshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mldisas.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szquic.weixin.qq.com,Direct
+DOMAIN-SUFFIX,long.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mlshort.pay.weixin.qq.com,Direct
+DOMAIN-SUFFIX,minorlong.weixin.qq.com,Direct
+DOMAIN-SUFFIX,shshort.pay.weixin.qq.com,Direct
+DOMAIN-SUFFIX,short.pay.weixin.qq.com,Direct
+DOMAIN-SUFFIX,shminorlong.weixin.qq.com,Direct
+DOMAIN-SUFFIX,shextshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,short.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szlong.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szextshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mlminorshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mllong.weixin.qq.com,Direct
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn,Direct
+DOMAIN-SUFFIX,szminorlong.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mlminorlong.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szfindershort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,shquic.weixin.qq.com,Direct
+DOMAIN-SUFFIX,quic.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mlfindershort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,minorshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,shdisas.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mlquic.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szshort.pay.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mlextshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mlaxshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,findershort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szdisas.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mlshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,szminorshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,wximg.qq.com,Direct
+DOMAIN-SUFFIX,wxsnsdyvip.wxs.qq.com,Direct
+DOMAIN-SUFFIX,support.weixin.qq.com,Direct
+DOMAIN-SUFFIX,weixinc2c.tc.qq.com,Direct
+DOMAIN-SUFFIX,weixin110.qq.com,Direct
+DOMAIN-SUFFIX,mlsupport.weixin.qq.com,Direct
+DOMAIN-SUFFIX,mp.weixin.qq.com,Direct
+DOMAIN-SUFFIX,open.weixin.qq.com,Direct
+DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com,Direct
+DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com,Direct
+DOMAIN-SUFFIX,api.weixin.qq.com,Direct
+DOMAIN-SUFFIX,vweixinf.tc.qq.com,Direct
+DOMAIN-SUFFIX,c6.y.qq.com,Direct
+DOMAIN-SUFFIX,weixin.qq.com,Direct
+DOMAIN-SUFFIX,wxapp.tc.qq.com,Direct
+# WeChat 港澳(ip位于深圳、香港）
+DOMAIN-SUFFIX,res.servicewechat.com,Direct
+DOMAIN-SUFFIX,resstatic.servicewechat.com,Direct
+DOMAIN-SUFFIX,hksupport.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkextshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkaxshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkdisas.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkshort6.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkshort.pay.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hklong.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkminorshort.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkquic.weixin.qq.com,Direct
+DOMAIN-SUFFIX,hkfindershort.weixin.qq.com,Direct
