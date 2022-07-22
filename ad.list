@@ -1,10 +1,18 @@
-# Update > 14:26 2022/7/17
+# Update > 14:14 2022/7/22
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
 #Apple
 DOMAIN,api-adservices.apple.com,Reject
 DOMAIN-SUFFIX,iadsdk.apple.com,Reject
+#WeChat 新加坡(ip位于新加坡）
+DOMAIN-SUFFIX,support.wechat.com,Proxy
+DOMAIN-SUFFIX,sgshort.wechat.com,Proxy
+DOMAIN-SUFFIX,sgshort.pay.wechat.com,Proxy
+DOMAIN-SUFFIX,sglong.wechat.com,Proxy
+DOMAIN-SUFFIX,sgminorshort.wechat.com,Proxy
+DOMAIN-SUFFIX,sgaxshort.wechat.com,Proxy
+DOMAIN-SUFFIX,sgfindershort.wechat.com,Proxy
 #Audio-QQ音乐
 DOMAIN,ad.tencentmusic.com,Reject
 DOMAIN,adstats.tencentmusic.com,Reject
