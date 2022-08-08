@@ -1,4 +1,4 @@
-# Update > 14:35 2022/8/8
+# Update > 14:44 2022/8/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -833,45 +833,43 @@ DOMAIN-SUFFIX,dxmbaoxian.com,REJECT
 DOMAIN-SUFFIX,dxmpay.com,REJECT
 DOMAIN-SUFFIX,dxmstatic.com,REJECT
 DOMAIN-SUFFIX,paydxm.com,REJECT
-#贷款
+#各种贷款
 DOMAIN-SUFFIX,andaike.com,REJECT
 DOMAIN-SUFFIX,fenqile.com,REJECT
 DOMAIN-SUFFIX,jjhuigou.com,REJECT
 DOMAIN-SUFFIX,qufenqi.com,REJECT
 DOMAIN-SUFFIX,rong360.com,REJECT
 DOMAIN-SUFFIX,smyfinancial.com,REJECT
-DOMAIN-SUFFIX,mtadver.com
-||umeng.com^
-||qumi.com^
-||adview.cn^
-||alimama.com^
-http://adver.showmylife.com/sdkdownload.html
-https://www.csjplatform.com/privacy/partner
 #Bytedance
-DOMAIN-SUFFIX,dm.bytedance.com,REJECT
-DOMAIN-SUFFIX,mssdk.bytedance.com,REJECT
 DOMAIN-KEYWORD,adbrand.byteimg.com,REJECT
 DOMAIN-KEYWORD,ad-sign.byteimg.com,REJECT
 DOMAIN-KEYWORD,analytics.bytescm.com,REJECT
+DOMAIN-SUFFIX,dm.bytedance.com,REJECT
+DOMAIN-SUFFIX,mssdk.bytedance.com,REJECT
+DOMAIN-SUFFIX,tosv.boe.byted.org,REJECT
+DOMAIN-SUFFIX,tosv.byted.org,REJECT
+DOMAIN-SUFFIX,dig.bdurl.net,REJECT
 #Bytedance-pstatp
 DOMAIN-SUFFIX,dm.pstatp.com,REJECT
 DOMAIN-SUFFIX,pb3.pstatp.com,REJECT
 DOMAIN-SUFFIX,s3a.pstatp.com,REJECT
+DOMAIN-SUFFIX,sf1-scmcdn-tos.pstatp.com,REJECT
 DOMAIN-SUFFIX,sf1-ttcdn-tos.pstatp.com,REJECT
 DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com,REJECT
-DOMAIN-SUFFIX,dig.bdurl.net,REJECT
-DOMAIN-SUFFIX,tosv.boe.byted.org,REJECT
-DOMAIN-SUFFIX,tosv.byted.org,REJECT
-#Bytedance-single
+#Bytedance-toutiao
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN,log-api.pangolin-sdk-toutiao.com,REJECT
 DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN,www.pangolin-dsp-toutiao.com,REJECT
 DOMAIN,zhanzhang.toutiao.com,REJECT
-DOMAIN,pangolin.snssdk.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,pangolin-dsp-toutiao.com,REJECT
+DOMAIN-SUFFIX,ad.toutiao.com,REJECT
+DOMAIN-SUFFIX,dm.toutiao.com,REJECT
+DOMAIN-SUFFIX,dsp.toutiao.com,REJECT
+DOMAIN-SUFFIX,mon.toutiao.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 #Bytedance-snssdk
 DOMAIN-SUFFIX,applog.snssdk.com,REJECT
 DOMAIN-SUFFIX,bds.snssdk.com,REJECT
@@ -889,15 +887,10 @@ DOMAIN,mcs.snssdk.com,REJECT
 DOMAIN,mon.snssdk.com,REJECT
 DOMAIN,mssdk-bu.snssdk.com,REJECT
 DOMAIN,mssdk.snssdk.com,REJECT
+DOMAIN,pangolin.snssdk.com,REJECT
 DOMAIN,tbm.snssdk.com,REJECT
-DOMAIN,ug.snssdk.com,REJECT
 DOMAIN,tnc3-aliec2.snssdk.com,REJECT
-#Bytedance-toutiao
-DOMAIN-SUFFIX,ad.toutiao.com,REJECT
-DOMAIN-SUFFIX,dm.toutiao.com,REJECT
-DOMAIN-SUFFIX,dsp.toutiao.com,REJECT
-DOMAIN-SUFFIX,mon.toutiao.com,REJECT
-DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+DOMAIN,ug.snssdk.com,REJECT
 #Bytedance-zijieapi
 DOMAIN,ad.zijieapi.com,REJECT
 DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
@@ -911,12 +904,13 @@ DOMAIN,mssdk3-normal-lf.zijieapi.com,REJECT
 DOMAIN,mssdk5-normal.zijieapi.com,REJECT
 DOMAIN,polaris.zijieapi.com,REJECT
 DOMAIN,polaris3-normal-hl.zijieapi.com,REJECT
-#Bytedance-waiguo
+#Bytedance-TikTok
 DOMAIN,pangolin16.sgsnssdk.com,REJECT
-DOMAIN,sf-tb-sg.ibytedtos.com,REJECT
-DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com,REJECT
 DOMAIN,tnc16-alisg.isnssdk.com,REJECT
 DOMAIN,toblog.tobsnssdk.com,REJECT
+DOMAIN,sf-tb-sg.ibytedtos.com,REJECT
+DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com,REJECT
+DOMAIN,csjplatform.com,REJECT
 #Google
 DOMAIN,app-measurement.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
@@ -1465,6 +1459,7 @@ DOMAIN-SUFFIX,lwmbc.cn,REJECT
 DOMAIN-SUFFIX,meihu56.cn,REJECT
 DOMAIN-SUFFIX,mktyhr.xyz,REJECT
 DOMAIN-SUFFIX,mnknrt.xyz,REJECT
+DOMAIN-SUFFIX,mtadver.com,REJECT
 DOMAIN-SUFFIX,mtk.pub,REJECT
 DOMAIN-SUFFIX,nbrlzy.com,REJECT
 DOMAIN-SUFFIX,nfsland.com,REJECT
@@ -1476,6 +1471,7 @@ DOMAIN-SUFFIX,qkdk.com,REJECT
 DOMAIN-SUFFIX,quandangdang.net,REJECT
 DOMAIN-SUFFIX,sglyd.cn,REJECT
 DOMAIN-SUFFIX,sh-qiruizx.com,REJECT
+DOMAIN-SUFFIX,showmylife.com,REJECT
 DOMAIN-SUFFIX,simonayean.com,REJECT
 DOMAIN-SUFFIX,starjump123.com,REJECT
 DOMAIN-SUFFIX,sxpjn.com,REJECT
