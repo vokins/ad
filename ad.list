@@ -1,7 +1,29 @@
-# Update > 14:44 2022/8/8
+# Update > 16:19 2022/8/18
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
+#DOMAIN-KEYWORD
+DOMAIN-KEYWORD,adsmogo,REJECT
+DOMAIN-KEYWORD,adsrvmedia,REJECT
+DOMAIN-KEYWORD,adwords,REJECT
+DOMAIN-KEYWORD,allyes.c,REJECT
+DOMAIN-KEYWORD,analysis,REJECT
+DOMAIN-KEYWORD,dnserror,REJECT
+DOMAIN-KEYWORD,doubleclick,REJECT
+DOMAIN-KEYWORD,dwtrack,REJECT
+DOMAIN-KEYWORD,flurry.c,REJECT
+DOMAIN-KEYWORD,googleads,REJECT
+DOMAIN-KEYWORD,googleadservices,REJECT
+DOMAIN-KEYWORD,guanggao,REJECT
+DOMAIN-KEYWORD,lianmeng,REJECT
+DOMAIN-KEYWORD,mobaders,REJECT
+DOMAIN-KEYWORD,omgmta,REJECT
+DOMAIN-KEYWORD,partnerad,REJECT
+DOMAIN-KEYWORD,pingfore,REJECT
+DOMAIN-KEYWORD,uedas,REJECT
+DOMAIN-KEYWORD,usage,REJECT
+DOMAIN-KEYWORD,wlmonitor,REJECT
+DOMAIN-KEYWORD,zjtoolbar,REJECT
 #Apple
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -62,6 +84,11 @@ DOMAIN,stat.meitudata.com,REJECT
 DOMAIN,api-ad.kajicam.com,REJECT
 DOMAIN,api-ad-data.kajicam.com,REJECT
 DOMAIN,log.b612kaji.com,REJECT
+#Car-8684
+DOMAIN,media.2011.8684.com,REJECT
+DOMAIN,js.2011.8684.com,REJECT
+DOMAIN,2012.8684.com,REJECT
+DOMAIN,cpendant.8684.com,REJECT
 #Car-汽车之家
 DOMAIN,adm3.autoimg.cn,REJECT
 DOMAIN,adproxy.autohome.com.cn,REJECT
@@ -571,7 +598,6 @@ DOMAIN,ggic.cmvideo.cn,REJECT
 DOMAIN,ggtagcache.cmvideo.cn,REJECT
 DOMAIN,ggv.cmvideo.cn,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
-DOMAIN,jadeite.migu.cn,REJECT
 DOMAIN,ggic03.miguvideo.com,REJECT
 DOMAIN,ggic05.miguvideo.com,REJECT
 DOMAIN,ggic09.miguvideo.com,REJECT
@@ -855,7 +881,6 @@ DOMAIN-SUFFIX,pb3.pstatp.com,REJECT
 DOMAIN-SUFFIX,s3a.pstatp.com,REJECT
 DOMAIN-SUFFIX,sf1-scmcdn-tos.pstatp.com,REJECT
 DOMAIN-SUFFIX,sf1-ttcdn-tos.pstatp.com,REJECT
-DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com,REJECT
 #Bytedance-toutiao
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN,log-api.pangolin-sdk-toutiao.com,REJECT
@@ -928,8 +953,6 @@ DOMAIN,googleads.g.doubleclick.net,REJECT
 DOMAIN,pagead2.googlesyndication.com,REJECT
 DOMAIN,tpc.googlesyndication.com,REJECT
 DOMAIN,partner.googleadservices.com,REJECT
-DOMAIN,www.googletagmanager.com,REJECT
-DOMAIN,www.googletagservices.com,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
@@ -1177,6 +1200,8 @@ DOMAIN-SUFFIX,dotmore.com.tw,REJECT
 DOMAIN-SUFFIX,dots-services.com,REJECT
 DOMAIN-SUFFIX,doumob.com,REJECT
 DOMAIN-SUFFIX,dspunion.com,REJECT
+DOMAIN-SUFFIX,dui88.com,REJECT
+DOMAIN-SUFFIX,duiba.com.cn,REJECT
 DOMAIN-SUFFIX,duomai.com,REJECT
 DOMAIN-SUFFIX,duomeng.cn,REJECT
 DOMAIN-SUFFIX,dutils.com,REJECT
@@ -1364,6 +1389,7 @@ DOMAIN-SUFFIX,tremorhub.com,REJECT
 DOMAIN-SUFFIX,tribalfusion.com,REJECT
 DOMAIN-SUFFIX,trwl1.com,REJECT
 DOMAIN-SUFFIX,tsquan.cn,REJECT
+DOMAIN-SUFFIX,tuisnake.com,REJECT
 DOMAIN-SUFFIX,turn.com,REJECT
 DOMAIN-SUFFIX,twlxyx.cn,REJECT
 DOMAIN-SUFFIX,u7u9.com,REJECT
@@ -1426,10 +1452,13 @@ DOMAIN-SUFFIX,adultfriendfinder.com,REJECT
 DOMAIN-SUFFIX,adutp.com,REJECT
 DOMAIN-SUFFIX,alexanberton.com,REJECT
 DOMAIN-SUFFIX,autumnone.cn,REJECT
+DOMAIN-SUFFIX,baminw.com.cn,REJECT
 DOMAIN-SUFFIX,binfenhui.top,REJECT
 DOMAIN-SUFFIX,bixinlive.com,REJECT
 DOMAIN-SUFFIX,bjsqdb.cn,REJECT
 DOMAIN-SUFFIX,booleandata.cn,REJECT
+DOMAIN-SUFFIX,boomallha.com,REJECT
+DOMAIN-SUFFIX,caidangdang.cn,REJECT
 DOMAIN-SUFFIX,cjgcedu.com,REJECT
 DOMAIN-SUFFIX,cslpf.cn,REJECT
 DOMAIN-SUFFIX,dncvj.cn,REJECT
@@ -1449,6 +1478,7 @@ DOMAIN-SUFFIX,hdazs.xyz,REJECT
 DOMAIN-SUFFIX,hdyxc.com,REJECT
 DOMAIN-SUFFIX,heige.wang,REJECT
 DOMAIN-SUFFIX,hjikv.cc,REJECT
+DOMAIN-SUFFIX,huoxingtan66.com,REJECT
 DOMAIN-SUFFIX,ilaohuyou.xyz,REJECT
 DOMAIN-SUFFIX,iyunzk.com,REJECT
 DOMAIN-SUFFIX,jads.co,REJECT
@@ -1456,7 +1486,9 @@ DOMAIN-SUFFIX,kluvcc.com,REJECT
 DOMAIN-SUFFIX,ldpsfa.com,REJECT
 DOMAIN-SUFFIX,lgygy.cn,REJECT
 DOMAIN-SUFFIX,lwmbc.cn,REJECT
+DOMAIN-SUFFIX,lywdoo.cn,REJECT
 DOMAIN-SUFFIX,meihu56.cn,REJECT
+DOMAIN-SUFFIX,miptoo.cn,REJECT
 DOMAIN-SUFFIX,mktyhr.xyz,REJECT
 DOMAIN-SUFFIX,mnknrt.xyz,REJECT
 DOMAIN-SUFFIX,mtadver.com,REJECT
@@ -1473,7 +1505,10 @@ DOMAIN-SUFFIX,sglyd.cn,REJECT
 DOMAIN-SUFFIX,sh-qiruizx.com,REJECT
 DOMAIN-SUFFIX,showmylife.com,REJECT
 DOMAIN-SUFFIX,simonayean.com,REJECT
+DOMAIN-SUFFIX,ssoffo.com,REJECT
 DOMAIN-SUFFIX,starjump123.com,REJECT
+DOMAIN-SUFFIX,suisuihu.com,REJECT
+DOMAIN-SUFFIX,sxhjty.cn,REJECT
 DOMAIN-SUFFIX,sxpjn.com,REJECT
 DOMAIN-SUFFIX,tencentbs.cn,REJECT
 DOMAIN-SUFFIX,tewtwt.top,REJECT
@@ -1486,18 +1521,22 @@ DOMAIN-SUFFIX,web605.cn,REJECT
 DOMAIN-SUFFIX,wla3ii66.top,REJECT
 DOMAIN-SUFFIX,xahelper.com,REJECT
 DOMAIN-SUFFIX,xbd360.com,REJECT
+DOMAIN-SUFFIX,xiaodongrui.com,REJECT
 DOMAIN-SUFFIX,xmluren.com,REJECT
 DOMAIN-SUFFIX,xweuu.com,REJECT
 DOMAIN-SUFFIX,xx123.top,REJECT
 DOMAIN-SUFFIX,xxinhb.cn,REJECT
 DOMAIN-SUFFIX,ycdywl.com,REJECT
+DOMAIN-SUFFIX,ydwhgs.com,REJECT
 DOMAIN-SUFFIX,yingtekeji.com,REJECT
 DOMAIN-SUFFIX,yitushuke.cn,REJECT
 DOMAIN-SUFFIX,youcaiplus.cn,REJECT
+DOMAIN-SUFFIX,yuyuetui.com,REJECT
 DOMAIN-SUFFIX,zhangwanwan.online,REJECT
 DOMAIN-SUFFIX,zhdchb.com,REJECT
 DOMAIN-SUFFIX,zhishouztian.top,REJECT
 DOMAIN-SUFFIX,ziyuanyinhang.wang,REJECT
+DOMAIN-SUFFIX,zl168.xyz,REJECT
 DOMAIN-SUFFIX,zontta.cn,REJECT
 DOMAIN-SUFFIX,zygaoshou888.cn,REJECT
 #Union-BD-Site
@@ -1555,3 +1594,17 @@ DOMAIN,hm.5646.cn,REJECT
 DOMAIN,mp.diebian.net,REJECT
 DOMAIN,bd1.ys991.com,REJECT
 DOMAIN,new1.ys991.com,REJECT
+DOMAIN,ad.yumei8899.com,REJECT
+DOMAIN,111.darenjiazu.com,REJECT
+DOMAIN,222.darenjiazu.com,REJECT
+DOMAIN,a1.99933.cn,REJECT
+DOMAIN,a2.99933.cn,REJECT
+DOMAIN,go-adapi.aiwei365.net,REJECT
+DOMAIN,js.aiwei365.net,REJECT
+DOMAIN,jymfe.aiwei365.net,REJECT
+DOMAIN,zhsho1.zhsho.cn,REJECT
+DOMAIN,zhsho2.zhsho.cn,REJECT
+DOMAIN,cdn.yunliunet.com,REJECT
+DOMAIN,dh.yunliunet.com,REJECT
+DOMAIN,area.propsad.com,REJECT
+DOMAIN,klcdn.propsad.com,REJECT
