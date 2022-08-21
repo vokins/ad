@@ -1,4 +1,4 @@
-# Update > 13:19 2022/8/8
+# Update > 15:51 2022/8/8
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -12,14 +12,22 @@ DOMAIN-SUFFIX,sgaxshort.wechat.com,PROXY
 DOMAIN-SUFFIX,sgfindershort.wechat.com,PROXY
 # 基于关键词后缀判断走代理（Proxy）
 DOMAIN-KEYWORD,aka,PROXY
+DOMAIN-KEYWORD,akamai,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
+DOMAIN-KEYWORD,dropbox,PROXY
 DOMAIN-KEYWORD,facebook,PROXY
 DOMAIN-KEYWORD,gmail,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,instagram,PROXY
 DOMAIN-KEYWORD,pixiv,PROXY
+DOMAIN-KEYWORD,porn,PROXY
+DOMAIN-KEYWORD,spotify,PROXY
+DOMAIN-KEYWORD,telegram,PROXY
 DOMAIN-KEYWORD,twitter,PROXY
+DOMAIN-KEYWORD,wikipedia,PROXY
+DOMAIN-KEYWORD,yahoo,PROXY
 DOMAIN-KEYWORD,youtube,PROXY
+# 基于域名后缀判断走代理（Proxy）
 DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,akamai.net,PROXY
 DOMAIN-SUFFIX,akamaihd.net,PROXY
@@ -190,9 +198,6 @@ DOMAIN-SUFFIX,wordpress.com,PROXY
 DOMAIN-SUFFIX,wp.com,PROXY
 DOMAIN-SUFFIX,wsj.com,PROXY
 DOMAIN-SUFFIX,wsj.net,PROXY
-DOMAIN-SUFFIX,x.company,PROXY
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
-DOMAIN-SUFFIX,ykimg.com,DIRECT
 DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
