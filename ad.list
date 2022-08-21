@@ -1,4 +1,4 @@
-# Update > 16:19 2022/8/18
+# Update > 14:50 2022/8/21
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -6,12 +6,9 @@
 DOMAIN-KEYWORD,adsmogo,REJECT
 DOMAIN-KEYWORD,adsrvmedia,REJECT
 DOMAIN-KEYWORD,adwords,REJECT
-DOMAIN-KEYWORD,allyes.c,REJECT
 DOMAIN-KEYWORD,analysis,REJECT
 DOMAIN-KEYWORD,dnserror,REJECT
 DOMAIN-KEYWORD,doubleclick,REJECT
-DOMAIN-KEYWORD,dwtrack,REJECT
-DOMAIN-KEYWORD,flurry.c,REJECT
 DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-KEYWORD,googleadservices,REJECT
 DOMAIN-KEYWORD,guanggao,REJECT
@@ -21,9 +18,6 @@ DOMAIN-KEYWORD,omgmta,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
 DOMAIN-KEYWORD,pingfore,REJECT
 DOMAIN-KEYWORD,uedas,REJECT
-DOMAIN-KEYWORD,usage,REJECT
-DOMAIN-KEYWORD,wlmonitor,REJECT
-DOMAIN-KEYWORD,zjtoolbar,REJECT
 #Apple
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -872,6 +866,7 @@ DOMAIN-KEYWORD,ad-sign.byteimg.com,REJECT
 DOMAIN-KEYWORD,analytics.bytescm.com,REJECT
 DOMAIN-SUFFIX,dm.bytedance.com,REJECT
 DOMAIN-SUFFIX,mssdk.bytedance.com,REJECT
+DOMAIN,mssdk-bu.bytedance.com,REJECT
 DOMAIN-SUFFIX,tosv.boe.byted.org,REJECT
 DOMAIN-SUFFIX,tosv.byted.org,REJECT
 DOMAIN-SUFFIX,dig.bdurl.net,REJECT
@@ -1015,6 +1010,10 @@ DOMAIN,logsdk.qq.com,REJECT
 DOMAIN,mazu.m.qq.com,REJECT
 DOMAIN,report.qqweb.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,v2.gdt.qq.com,REJECT
+DOMAIN,canvas.gdt.qq.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
 DOMAIN,tpush.html5.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
