@@ -1,4 +1,4 @@
-# Update > 0:11 2022/8/31
+# Update > 0:13 2022/8/31
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -1458,6 +1458,7 @@ DOMAIN-SUFFIX,bjsqdb.cn,REJECT
 DOMAIN-SUFFIX,booleandata.cn,REJECT
 DOMAIN-SUFFIX,boomallha.com,REJECT
 DOMAIN-SUFFIX,caidangdang.cn,REJECT
+DOMAIN-SUFFIX,chinese-blog.org,REJECT
 DOMAIN-SUFFIX,cjgcedu.com,REJECT
 DOMAIN-SUFFIX,cslpf.cn,REJECT
 DOMAIN-SUFFIX,dncvj.cn,REJECT
