@@ -1,4 +1,4 @@
-# Update > 0:13 2022/8/31
+# Update > 0:25 2022/8/31
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -1514,6 +1514,7 @@ DOMAIN-SUFFIX,tencentbs.cn,REJECT
 DOMAIN-SUFFIX,tewtwt.top,REJECT
 DOMAIN-SUFFIX,thefatherofsalmon.com,REJECT
 DOMAIN-SUFFIX,tjhwjm.cn,REJECT
+DOMAIN-SUFFIX,tuenhai.com,REJECT
 DOMAIN-SUFFIX,twdjn.cn,REJECT
 DOMAIN-SUFFIX,tydouke.com,REJECT
 DOMAIN-SUFFIX,uqnkvjx.cn,REJECT
@@ -1609,3 +1610,5 @@ DOMAIN,cdn.yunliunet.com,REJECT
 DOMAIN,dh.yunliunet.com,REJECT
 DOMAIN,area.propsad.com,REJECT
 DOMAIN,klcdn.propsad.com,REJECT
+DOMAIN,lf1-cdn-tos.bytegoofy.com,REJECT
+DOMAIN,q.baminw.com.cn,REJECT
