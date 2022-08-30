@@ -1,4 +1,4 @@
-# Update > 14:50 2022/8/21
+# Update > 0:11 2022/8/31
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -1525,6 +1525,7 @@ DOMAIN-SUFFIX,xmluren.com,REJECT
 DOMAIN-SUFFIX,xweuu.com,REJECT
 DOMAIN-SUFFIX,xx123.top,REJECT
 DOMAIN-SUFFIX,xxinhb.cn,REJECT
+DOMAIN-SUFFIX,xys.org,REJECT
 DOMAIN-SUFFIX,ycdywl.com,REJECT
 DOMAIN-SUFFIX,ydwhgs.com,REJECT
 DOMAIN-SUFFIX,yingtekeji.com,REJECT
