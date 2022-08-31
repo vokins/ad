@@ -1,4 +1,4 @@
-# Update > 23:16 2022/8/31
+# Update > 23:28 2022/8/31
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -722,6 +722,7 @@ DOMAIN-SUFFIX,umeng.co,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
 DOMAIN,ssp-partner.alibaba.com,REJECT
+DOMAIN,afpmm.alicdn.com,REJECT
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
