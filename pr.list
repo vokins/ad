@@ -1,7 +1,47 @@
-# Update > 10:26 2022/8/31
+# Update > 21:44 2022/10/2
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
+#Github
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,githubassets.com,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
+#V2EX
+DOMAIN-SUFFIX,v2ex.com,PROXY
+# Telegram
+DOMAIN-SUFFIX,t.me,PROXY
+DOMAIN-SUFFIX,tdesktop.com,PROXY
+DOMAIN-SUFFIX,telega.one,PROXY
+DOMAIN-SUFFIX,telegra.ph,PROXY
+DOMAIN-SUFFIX,telegram.dog,PROXY
+DOMAIN-SUFFIX,telegram.me,PROXY
+DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,telegram.space,PROXY
+DOMAIN-SUFFIX,telesco.pe,PROXY
+DOMAIN-SUFFIX,tg.dev,PROXY
+DOMAIN-SUFFIX,tx.me,PROXY
+DOMAIN-SUFFIX,comments.app,PROXY
+DOMAIN-SUFFIX,contest.com,PROXY
+DOMAIN-SUFFIX,graph.org,PROXY
+DOMAIN-SUFFIX,quiz.directory,PROXY
+DOMAIN-SUFFIX,usercontent.dev,PROXY
+# Telegram-cidr https://core.telegram.org/resources/cidr.txt
+IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+IP-CIDR,91.108.4.0/22,PROXY,no-resolve
+IP-CIDR,91.108.8.0/22,PROXY,no-resolve
+IP-CIDR,91.108.16.0/22,PROXY,no-resolve
+IP-CIDR,91.108.12.0/22,PROXY,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+IP-CIDR,91.105.192.0/23,PROXY,no-resolve
+IP-CIDR,91.108.20.0/22,PROXY,no-resolve
+IP-CIDR,185.76.151.0/24,PROXY,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,PROXY,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,PROXY,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,PROXY,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,PROXY,no-resolve
+IP-CIDR6,2a0a:f280::/32,PROXY,no-resolve
+# My
+DOMAIN-SUFFIX,google.com,PROXY
 # WeChat 新加坡(ip位于新加坡）
 DOMAIN-SUFFIX,support.wechat.com,PROXY
 DOMAIN-SUFFIX,sgshort.wechat.com,PROXY
@@ -10,9 +50,6 @@ DOMAIN-SUFFIX,sglong.wechat.com,PROXY
 DOMAIN-SUFFIX,sgminorshort.wechat.com,PROXY
 DOMAIN-SUFFIX,sgaxshort.wechat.com,PROXY
 DOMAIN-SUFFIX,sgfindershort.wechat.com,PROXY
-# My
-DOMAIN-SUFFIX,google.com,PROXY
-DOMAIN-SUFFIX,v2ex.com,PROXY
 # 基于关键词后缀判断走代理（Proxy）
 DOMAIN-KEYWORD,aka,PROXY
 DOMAIN-KEYWORD,akamai,PROXY
@@ -142,9 +179,7 @@ DOMAIN-SUFFIX,feedburner.com,PROXY
 DOMAIN-SUFFIX,fabric.io,PROXY
 DOMAIN-SUFFIX,flickr.com,PROXY
 DOMAIN-SUFFIX,fastly.net,PROXY
-DOMAIN-SUFFIX,github.com,PROXY
 DOMAIN-SUFFIX,github.io,PROXY
-DOMAIN-SUFFIX,githubusercontent.com,PROXY
 DOMAIN-SUFFIX,goo.gl,PROXY
 DOMAIN-SUFFIX,godaddy.com,PROXY
 DOMAIN-SUFFIX,gravatar.com,PROXY
@@ -196,28 +231,6 @@ DOMAIN-SUFFIX,licdn.com,PROXY
 # SoundCloud
 DOMAIN-SUFFIX,soundcloud.com,PROXY
 DOMAIN-SUFFIX,sndcdn.com,PROXY
-# Telegram
-DOMAIN-SUFFIX,t.me,PROXY
-DOMAIN-SUFFIX,tdesktop.com,PROXY
-DOMAIN-SUFFIX,telegra.ph,PROXY
-DOMAIN-SUFFIX,telegram.me,PROXY
-DOMAIN-SUFFIX,telegram.org,PROXY
-DOMAIN-SUFFIX,telesco.pe,PROXY
-#https://core.telegram.org/resources/cidr.txt
-IP-CIDR,91.108.56.0/22,PROXY,no-resolve
-IP-CIDR,91.108.4.0/22,PROXY,no-resolve
-IP-CIDR,91.108.8.0/22,PROXY,no-resolve
-IP-CIDR,91.108.16.0/22,PROXY,no-resolve
-IP-CIDR,91.108.12.0/22,PROXY,no-resolve
-IP-CIDR,149.154.160.0/20,PROXY,no-resolve
-IP-CIDR,91.105.192.0/23,PROXY,no-resolve
-IP-CIDR,91.108.20.0/22,PROXY,no-resolve
-IP-CIDR,185.76.151.0/24,PROXY,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,PROXY,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,PROXY,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,PROXY,no-resolve
-IP-CIDR6,2001:b28:f23c::/48,PROXY,no-resolve
-IP-CIDR6,2a0a:f280::/32,PROXY,no-resolve
 # DNS Leak
 DOMAIN-SUFFIX,dnsleaktest.com,PROXY
 DOMAIN-SUFFIX,dnsleak.com,PROXY
@@ -231,3 +244,5 @@ DOMAIN-SUFFIX,browserleaks.org,PROXY
 DOMAIN-SUFFIX,vpnunlimited.com,PROXY
 DOMAIN-SUFFIX,whoer.net,PROXY
 DOMAIN-SUFFIX,whrq.net,PROXY
+# Others
+DOMAIN-SUFFIX,amplitude.com,PROXY
