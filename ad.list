@@ -1,4 +1,4 @@
-# Update > 23:28 2022/8/31
+# Update > 21:45 2022/10/2
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -934,6 +934,7 @@ DOMAIN,toblog.tobsnssdk.com,REJECT
 DOMAIN,sf-tb-sg.ibytedtos.com,REJECT
 DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com,REJECT
 DOMAIN,csjplatform.com,REJECT
+DOMAIN-SUFFIX,ecombdapi.com,REJECT
 #Google
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
 DOMAIN,device-provisioning.googleapis.com,REJECT
@@ -950,6 +951,8 @@ DOMAIN,googleads.g.doubleclick.net,REJECT
 DOMAIN,pagead2.googlesyndication.com,REJECT
 DOMAIN,tpc.googlesyndication.com,REJECT
 DOMAIN,partner.googleadservices.com,REJECT
+DOMAIN,www.googleadservices.com,REJECT
+DOMAIN,app-measurement.com,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
@@ -1671,5 +1674,4 @@ DOMAIN,cdn.yunliunet.com,REJECT
 DOMAIN,dh.yunliunet.com,REJECT
 DOMAIN,area.propsad.com,REJECT
 DOMAIN,klcdn.propsad.com,REJECT
-DOMAIN,lf1-cdn-tos.bytegoofy.com,REJECT
 DOMAIN,q.baminw.com.cn,REJECT
