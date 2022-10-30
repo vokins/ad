@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.02
+! Version: 1.03
 ! Title: adfilter
-! Last modified: 14:27 2022/7/17
+! Last modified: 12:23 2022/10/13
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -344,6 +344,25 @@ gushiwen.cn##div[id^="threeWeixin"]
 |https://static202106.chazidian.com/mobile/global/mtw20210609.js
 |https://m.ithome.com/js/common/jump-app.min.js
 ||iclickcdn.com^
+ddys.tv###iaujwnefhw
+ddys.tv##.cfa_popup
+555dy7.com##.is_pc_flex
+66e.cc###HMimageright
+66e.cc###HMimageleft
+yanetflix.com##div[class="module-adslist  ads_w"]
+||https://www.66e.cc/hrf23r4.js
+||https://www.meijutt.tv/js/pcjs/allads.js
+||https://www.meijutt.tv/js/pcjs/alltop_960_1.js
+||https://www.meijutt.tv/js/pcjs/alltop_960_2.js
+###beitoudata
+||bixinlive.com^
+||sogowan.com^
+||awaliwa.com^
+||stgowan.com^
+||quandangdang.net^
+meijutt.tv##.a960_index
+yyets.com##div[class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"]
+
 !union-all
 
 #Apple
