@@ -40,6 +40,8 @@
 ##div[class*="-ad-title"]
 ##div[class*="ad-content"]
 ##div[class*="ad-top-box"]
+##div[class*="-ad-right"]
+##div[class*="-ad-left"]
 !class:ado
 ##div[class="close-ad"]
 ##div[class="content-ads"]
