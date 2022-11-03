@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.03
+! Version: 1.031
 ! Title: adfilter
-! Last modified: 12:23 2022/10/13
+! Last modified: 18:09 2022/11/03
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -340,11 +340,11 @@ bbs.pcbeta.com###wp > div[class][id]:not([class*="cl"])
 bbs.pcbeta.com##div[style="padding:0 15px;background:#fafafa;border:1px solid #ececec;"]
 
 gushiwen.cn##div[id^="threeWeixin"]
-|https://m.icauto.com.cn/analysis/article.php
-|https://res.chazidian.com/tj.js
-|https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js
-|https://static202106.chazidian.com/mobile/global/mtw20210609.js
-|https://m.ithome.com/js/common/jump-app.min.js
+||https://m.icauto.com.cn/analysis/article.php
+||https://res.chazidian.com/tj.js
+||https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js
+||https://static202106.chazidian.com/mobile/global/mtw20210609.js
+||https://m.ithome.com/js/common/jump-app.min.js
 ||iclickcdn.com^
 ddys.tv###iaujwnefhw
 ddys.tv##.cfa_popup
@@ -364,6 +364,10 @@ yanetflix.com##div[class="module-adslist  ads_w"]
 ||quandangdang.net^
 meijutt.tv##.a960_index
 yyets.com##div[class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"]
+
+||qlspx.com^
+||https://www.66s.tv/12.js
+
 
 !union-all
 
