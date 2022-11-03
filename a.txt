@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.031
+! Version: 1.05
 ! Title: adfilter
-! Last modified: 18:09 2022/11/03
+! Last modified: 18:19 2022/11/03
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -367,7 +367,8 @@ yyets.com##div[class="swiper mySwiper swiper-initialized swiper-horizontal swipe
 
 ||qlspx.com^
 ||https://www.66s.tv/12.js
-
+66s.tv##div[id="dtad"]
+66s.tv##div[id^="sjdb_div_"]
 
 !union-all
 
