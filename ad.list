@@ -1,4 +1,4 @@
-# Update > 20:12 2022/12/7
+# Update > 20:39 2022/12/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -14,6 +14,8 @@ DOMAIN-KEYWORD,lianmeng,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
 DOMAIN-KEYWORD,pingfore,REJECT
 DOMAIN-KEYWORD,uedas,REJECT
+#PinDuoDuo
+DOMAIN,t-dsp.pinduoduo.com,REJECT
 #Apple
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -584,8 +586,6 @@ DOMAIN,ad-mob-app.le.com,REJECT
 DOMAIN,apple.www.letv.com,REJECT
 DOMAIN,ark.letv.com,REJECT
 DOMAIN,dynamic.app.m.letv.com,REJECT
-DOMAIN,g3.letv.com,REJECT
-DOMAIN,n.mark.letv.com,REJECT
 DOMAIN,caid.shuzilm.cn,REJECT
 #Video-风行
 DOMAIN,adm4.funshion.com,REJECT
