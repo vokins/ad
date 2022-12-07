@@ -1,4 +1,4 @@
-# Update > 19:40 2022/12/7
+# Update > 20:12 2022/12/7
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -42,6 +42,7 @@ DOMAIN,push.mobile.kugou.com,REJECT
 DOMAIN,splashimgbssdl.yun.kugou.com,REJECT
 DOMAIN,tracker.kugou.com,REJECT
 DOMAIN,trackercdnbj.kugou.com,REJECT
+DOMAIN,nbcollect.kugou.com,REJECT
 #Audio-考拉听
 DOMAIN,track.audiobuy.cc,REJECT
 DOMAIN,engine.audiobuy.cc,REJECT
@@ -400,6 +401,7 @@ DOMAIN,ad.rhinox.cn,REJECT
 #SNS-最右/皮皮搞笑
 DOMAIN,adapi.izuiyou.com,REJECT
 DOMAIN,stat.izuiyou.com,REJECT
+DOMAIN,diagnosis.izuiyou.com,REJECT
 DOMAIN,stat.ippzone.com,REJECT
 DOMAIN,adsdk.9imobi.com,REJECT
 DOMAIN,advertising.youyizhidao.com,REJECT
@@ -525,6 +527,8 @@ DOMAIN,ss.chelaile.net.cn,REJECT
 DOMAIN,adfile.wifi8.com,REJECT
 DOMAIN,adnew.wifi8.com,REJECT
 DOMAIN,log-sh.wifi8.com,REJECT
+#Video-1905
+DOMAIN,vodlog.m1905.cn,REJECT
 #Video-爱奇艺
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
@@ -580,6 +584,9 @@ DOMAIN,ad-mob-app.le.com,REJECT
 DOMAIN,apple.www.letv.com,REJECT
 DOMAIN,ark.letv.com,REJECT
 DOMAIN,dynamic.app.m.letv.com,REJECT
+DOMAIN,g3.letv.com,REJECT
+DOMAIN,n.mark.letv.com,REJECT
+DOMAIN,caid.shuzilm.cn,REJECT
 #Video-风行
 DOMAIN,adm4.funshion.com,REJECT
 DOMAIN,mpartner.funshion.com,REJECT
