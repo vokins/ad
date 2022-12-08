@@ -1,7 +1,12 @@
-# Update > 23:13 2022/12/7
+# Update > 9:26 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
+#TEST
+DOMAIN,dgstatic.jd.com,REJECT
+DOMAIN,dg.k.jd.com,REJECT
+DOMAIN,wqs11.jd.com,REJECT
+DOMAIN,mercury-sdk.snssdk.com,REJECT
 #DOMAIN-KEYWORD
 DOMAIN-KEYWORD,adwords,REJECT
 DOMAIN-KEYWORD,analysis,REJECT
@@ -17,6 +22,8 @@ DOMAIN-KEYWORD,uedas,REJECT
 #PinDuoDuo
 DOMAIN,adim.pinduoduo.com,REJECT
 DOMAIN,t-dsp.pinduoduo.com,REJECT
+#车来了
+DOMAIN,adx.sogaha.cn,REJECT
 #美柚
 DOMAIN,api-youpin.meiyou.com,REJECT
 DOMAIN,x.seeyouyima.com,REJECT
