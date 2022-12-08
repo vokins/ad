@@ -1,4 +1,4 @@
-# Update > 12:18 2022/12/8
+# Update > 12:33 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -287,7 +287,9 @@ DOMAIN,applog.reader.qq.com,REJECT
 DOMAIN,uplog.inews.qq.com,REJECT
 DOMAIN,unitelogreport.reader.qq.com,REJECT
 #Read-追书神器
-DOMAIN,b.zhuishushenqi.com,REJECT
+DOMAIN,activitynew.zhuishushenqi.com,REJECT
+DOMAIN,goldcoin.zhuishushenqi.com,REJECT
+DOMAIN,goldcoinnew.zhuishushenqi.com,REJECT
 DOMAIN,sensorspop.zhuishushenqi.com,REJECT
 #Read-掌阅
 DOMAIN,log.ireader.com,REJECT
