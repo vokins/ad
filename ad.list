@@ -1,12 +1,24 @@
-# Update > 9:26 2022/12/8
+# Update > 10:12 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
+#第三方APP调用嵌入刷视频:快手 抖音
+DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,mercury-sdk.snssdk.com,REJECT
 #TEST
 DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,dg.k.jd.com,REJECT
 DOMAIN,wqs11.jd.com,REJECT
-DOMAIN,mercury-sdk.snssdk.com,REJECT
+DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
+#豆果美食
+DOMAIN,i1.douguo.net,REJECT
+DOMAIN,logs.douguo.net,REJECT
+#中华万年历
+DOMAIN,log-dmp.suishenyun.cn,REJECT
+DOMAIN,client-dmp.suishenyun.cn,REJECT
+DOMAIN,ads.weilitoutiao.net,REJECT
+DOMAIN,ad.fhtre.com,REJECT
+DOMAIN,ad.huazirc.com,REJECT
 #DOMAIN-KEYWORD
 DOMAIN-KEYWORD,adwords,REJECT
 DOMAIN-KEYWORD,analysis,REJECT
@@ -640,7 +652,6 @@ DOMAIN,ad.yuntuds.com,REJECT
 DOMAIN,probe.yuntuds.com,REJECT
 DOMAIN,api.ls.eyunmy.com,REJECT
 #Video-快手
-DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,gdfp.gifshow.com,REJECT
 DOMAIN,js-ad.a.yximgs.com,REJECT
 DOMAIN,static.yximgs.com,REJECT
@@ -648,8 +659,11 @@ DOMAIN-SUFFIX,push.yximgs.com,REJECT
 #Union-钱赚宝
 DOMAIN,sdk.qzbonline.com,REJECT
 #Union-页面抽奖
-DOMAIN,adsapi.fawulu.com,REJECT
-DOMAIN,adscount.fawulu.com,REJECT
+DOMAIN-SUFFIX,bianxianmao.com,REJECT
+DOMAIN-SUFFIX,cat-happy.cn,REJECT
+DOMAIN-SUFFIX,fawulu.com,REJECT
+DOMAIN-SUFFIX,ituibei.cn,REJECT
+DOMAIN-SUFFIX,iyoubei.cn,REJECT
 #Union-页面赚钱收益-http://www.nianxiang.net.cn/
 DOMAIN,api.nx-perf.cn,REJECT
 #Union-MiaoZhen
@@ -657,9 +671,7 @@ DOMAIN,g.cn.miaozhen.com,REJECT
 DOMAIN,www.google.com.miaozhen.com,REJECT
 DOMAIN,iqiyi-mipdx.cn.miaozhen.com,REJECT
 #Site-https://www.lanzou.com/
-DOMAIN,taisantech.com,REJECT
-DOMAIN,glores2.taisantech.com,REJECT
-DOMAIN,sanme2.taisantech.com,REJECT
+DOMAIN-SUFFIX,taisantech.com,REJECT
 #Site-https://whois.chinaz.com/
 DOMAIN,a2put.chinaz.com,REJECT
 DOMAIN,stats.chinaz.com,REJECT
