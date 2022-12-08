@@ -1,15 +1,19 @@
-# Update > 21:37 2022/10/2
+# Update > 10:31 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
 # 白名单
+DOMAIN,ug.snssdk.com,DIRECT
+DOMAIN,g3.letv.com,DIRECT
+DOMAIN,n.mark.letv.com,DIRECT
 DOMAIN,lf1-cdn-tos.bytegoofy.com,DIRECT
-DOMAIN,pingma.qq.com,DIRECT
 DOMAIN,acs.m.taobao.com,DIRECT
+DOMAIN,acs4baichuan.m.taobao.com,DIRECT
+DOMAIN,h-adashx.ut.taobao.com,DIRECT
 DOMAIN,jadeite.migu.cn,DIRECT
-DOMAIN-SUFFIX,gm.mmstat.com,DIRECT
-DOMAIN-SUFFIX,wgo.mmstat.com,DIRECT
-DOMAIN-SUFFIX,ac.mmstat.com,DIRECT
+DOMAIN,ac.mmstat.com,DIRECT
+DOMAIN,gm.mmstat.com,DIRECT
+DOMAIN,wgo.mmstat.com,DIRECT
 DOMAIN,cdn.bookimg.html5.qq.com,DIRECT
 DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,gameeve.beacon.qq.com,DIRECT
@@ -18,13 +22,12 @@ DOMAIN,hippy.imtt.qq.com,DIRECT
 DOMAIN,ios.bugly.qq.com,DIRECT
 DOMAIN,mtrace.qq.com,DIRECT
 DOMAIN,novel.html5.qq.com,DIRECT
+DOMAIN,pingma.qq.com,DIRECT
 DOMAIN,res.imtt.qq.com,DIRECT
 DOMAIN,srchstatic.imtt.qq.com,DIRECT
 DOMAIN,today.imtt.qq.com,DIRECT
 DOMAIN,wspeed.qq.com,DIRECT
 DOMAIN-SUFFIX,beacon.qq.com,DIRECT
-DOMAIN,acs4baichuan.m.taobao.com,DIRECT
-DOMAIN,h-adashx.ut.taobao.com,DIRECT
 DOMAIN,aip.baidubce.com,DIRECT
 DOMAIN,dlswbr.baidu.com,DIRECT
 DOMAIN,hpd.baidu.com,DIRECT
