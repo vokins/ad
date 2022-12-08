@@ -1,4 +1,4 @@
-# Update > 13:17 2022/12/8
+# Update > 13:20 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -306,6 +306,7 @@ DOMAIN,adapi.cread.com,REJECT
 #Read-七猫（梧桐中文）
 DOMAIN,cdn-ad.wtzw.com,REJECT
 DOMAIN,a-qmad.qimao.com,REJECT
+DOMAIN,a-qmad.qm989.com,REJECT
 DOMAIN,t-qmad.qm989.com,REJECT
 #Read-畅读书城
 DOMAIN,log.51changdu.com,REJECT
