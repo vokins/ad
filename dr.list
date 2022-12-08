@@ -1,8 +1,9 @@
-# Update > 10:31 2022/12/8
+# Update > 12:13 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
 # 白名单
+DOMAIN,shared.ydstatic.com,DIRECT
 DOMAIN,ug.snssdk.com,DIRECT
 DOMAIN,g3.letv.com,DIRECT
 DOMAIN,n.mark.letv.com,DIRECT
