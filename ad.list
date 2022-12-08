@@ -1,4 +1,4 @@
-# Update > 10:32 2022/12/8
+# Update > 10:39 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -10,6 +10,7 @@ DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,dg.k.jd.com,REJECT
 DOMAIN,wqs11.jd.com,REJECT
 DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
+DOMAIN,tnc3-aliec2.zijieapi.com,REJECT
 DOMAIN-SUFFIX,atomhike.com,REJECT
 #豆果美食
 DOMAIN,i1.douguo.net,REJECT
@@ -279,6 +280,7 @@ DOMAIN,report.radio.cn,REJECT
 DOMAIN-KEYWORD,applog-hl.fqnovel.com,REJECT
 DOMAIN-KEYWORD,applog-lq.fqnovel.com,REJECT
 DOMAIN-KEYWORD,applog.fqnovel.com,REJECT
+DOMAIN-KEYWORD,novelapp.fqnovelvod.com,REJECT
 #Read-疯读小说
 DOMAIN,ws2.fengdunovel.com,REJECT
 #Read-QQ阅读
@@ -951,6 +953,7 @@ DOMAIN,tbm.snssdk.com,REJECT
 DOMAIN,tnc3-aliec2.snssdk.com,REJECT
 #Bytedance-zijieapi
 DOMAIN,ad.zijieapi.com,REJECT
+DOMAIN,ads3-normal-hl.zijieapi.com,REJECT
 DOMAIN,ads5-normal-hl.zijieapi.com,REJECT
 DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
 DOMAIN,ads5-normal.zijieapi.com,REJECT
