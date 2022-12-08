@@ -1,9 +1,8 @@
-# Update > 8:33 2022/12/7
+# Update > 12:12 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
 #Github
-DOMAIN-KEYWORD,github,PROXY
 DOMAIN-SUFFIX,github.com,PROXY
 DOMAIN-SUFFIX,githubassets.com,PROXY
 DOMAIN-SUFFIX,githubusercontent.com,PROXY
@@ -52,37 +51,21 @@ DOMAIN-SUFFIX,sgminorshort.wechat.com,PROXY
 DOMAIN-SUFFIX,sgaxshort.wechat.com,PROXY
 DOMAIN-SUFFIX,sgfindershort.wechat.com,PROXY
 # 基于关键词后缀判断走代理（Proxy）
-DOMAIN-KEYWORD,1drv,PROXY
-DOMAIN-KEYWORD,aka,PROXY
 DOMAIN-KEYWORD,akamai,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
 DOMAIN-KEYWORD,dropbox,PROXY
 DOMAIN-KEYWORD,facebook,PROXY
-DOMAIN-KEYWORD,fbcdn,PROXY
 DOMAIN-KEYWORD,gmail,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,instagram,PROXY
-DOMAIN-KEYWORD,musical.ly,PROXY
-DOMAIN-KEYWORD,onedrive,PROXY
-DOMAIN-KEYWORD,paypal,PROXY
 DOMAIN-KEYWORD,pixiv,PROXY
 DOMAIN-KEYWORD,porn,PROXY
-DOMAIN-KEYWORD,sci-hub,PROXY
-DOMAIN-KEYWORD,skydrive,PROXY
 DOMAIN-KEYWORD,spotify,PROXY
 DOMAIN-KEYWORD,telegram,PROXY
-DOMAIN-KEYWORD,tiktok,PROXY
 DOMAIN-KEYWORD,twitter,PROXY
-DOMAIN-KEYWORD,whatsapp,PROXY
 DOMAIN-KEYWORD,wikipedia,PROXY
 DOMAIN-KEYWORD,yahoo,PROXY
 DOMAIN-KEYWORD,youtube,PROXY
-# USER-AGENT
-USER-AGENT,OneDrive*,PROXY
-USER-AGENT,PayPal*,PROXY
-USER-AGENT,TikTok*,PROXY
-USER-AGENT,WhatsApp*,PROXY
-USER-AGENT,battleroyale*,PROXY
 # 基于域名后缀判断走代理（Proxy）
 # LINE
 DOMAIN-SUFFIX,scdn.co,PROXY
