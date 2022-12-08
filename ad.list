@@ -1,4 +1,4 @@
-# Update > 10:46 2022/12/8
+# Update > 12:18 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -6,9 +6,11 @@
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,mercury-sdk.snssdk.com,REJECT
 #TEST
-DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,dg.k.jd.com,REJECT
+DOMAIN,dgstatic.jd.com,REJECT
+DOMAIN,janapi.jd.com,REJECT
 DOMAIN,wqs11.jd.com,REJECT
+DOMAIN,xlog.jd.com,REJECT
 #DOMAIN-KEYWORD
 DOMAIN-KEYWORD,adwords,REJECT
 DOMAIN-KEYWORD,analysis,REJECT
@@ -83,6 +85,8 @@ DOMAIN,client-log.poizon.com,REJECT
 DOMAIN,sensors.dewu.com,REJECT
 #Buy-苏宁
 DOMAIN,log.suning.com,REJECT
+#Cam-美人相机
+DOMAIN,a-m-s.adnonstop.com.cn,REJECT
 #Cam-美图秀秀
 DOMAIN-SUFFIX,tg.meitu.com,REJECT
 DOMAIN-SUFFIX,meitustat.com,REJECT
@@ -267,6 +271,8 @@ DOMAIN,report.radio.cn,REJECT
 #Food-豆果美食
 DOMAIN,i1.douguo.net,REJECT
 DOMAIN,logs.douguo.net,REJECT
+#Food-下厨房
+DOMAIN,track.xiachufang.com,REJECT
 #Read-番茄小说
 DOMAIN-KEYWORD,applog-hl.fqnovel.com,REJECT
 DOMAIN-KEYWORD,applog-lq.fqnovel.com,REJECT
@@ -745,7 +751,6 @@ DOMAIN,yp.ws.126.net,REJECT
 DOMAIN,yt-adp.ws.126.net,REJECT
 DOMAIN-SUFFIX,da.netease.com,REJECT
 DOMAIN,vmonitor.ws.netease.com,REJECT
-DOMAIN,shared.ydstatic.com,REJECT
 DOMAIN,conv.youdao.com,REJECT
 DOMAIN,dsp-impr2.youdao.com,REJECT
 DOMAIN,gorgon.youdao.com,REJECT
@@ -975,6 +980,7 @@ DOMAIN,sf-tb-sg.ibytedtos.com,REJECT
 DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com,REJECT
 DOMAIN,csjplatform.com,REJECT
 DOMAIN-SUFFIX,ecombdapi.com,REJECT
+DOMAIN-SUFFIX,volceapplog.com,REJECT
 #Google
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
 DOMAIN,device-provisioning.googleapis.com,REJECT
