@@ -1,4 +1,4 @@
-# Update > 13:09 2022/12/8
+# Update > 13:17 2022/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -11,6 +11,10 @@ DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,janapi.jd.com,REJECT
 DOMAIN,wqs11.jd.com,REJECT
 DOMAIN,xlog.jd.com,REJECT
+#PinDuoDuo
+DOMAIN,adim.pinduoduo.com,REJECT
+DOMAIN,t-dsp.pinduoduo.com,REJECT
+DOMAIN,video-dsp.pddpic.com,REJECT
 #DOMAIN-KEYWORD
 DOMAIN-KEYWORD,adwords,REJECT
 DOMAIN-KEYWORD,analysis,REJECT
@@ -23,9 +27,6 @@ DOMAIN-KEYWORD,lianmeng,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
 DOMAIN-KEYWORD,pingfore,REJECT
 DOMAIN-KEYWORD,uedas,REJECT
-#PinDuoDuo
-DOMAIN,adim.pinduoduo.com,REJECT
-DOMAIN,t-dsp.pinduoduo.com,REJECT
 #Apple
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -304,6 +305,8 @@ DOMAIN,ut2.shuqistat.com,REJECT
 DOMAIN,adapi.cread.com,REJECT
 #Read-七猫（梧桐中文）
 DOMAIN,cdn-ad.wtzw.com,REJECT
+DOMAIN,a-qmad.qimao.com,REJECT
+DOMAIN,t-qmad.qm989.com,REJECT
 #Read-畅读书城
 DOMAIN,log.51changdu.com,REJECT
 #Read-网易云阅读
