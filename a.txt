@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.05
+! Version: 1.06
 ! Title: adfilter
-! Last modified: 18:19 2022/11/03
+! Last modified: 0:10 2022/12/25
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -321,7 +321,16 @@ huanqiu.com##div[id="aa-block"]
 !QQ
 ||tiem-cdn.qq.com/o2/images/^
 v.qq.com##div[class^="mod_ad"]
+!https://bbs.kafan.cn/thread-1866845-1-1.html by star-ray
 qq.com##+js(json-prune,adList.item)
+qq.com##+js(json-prune,ads)
+! https://bbs.kafan.cn/thread-2248040-1-1.html by zanewayne
+! 2022-12-08 https://v.qq.com
+v.qq.com##.quick_games.quick_item
+v.qq.com##a[target="_self"]
+v.qq.com##div[class="card-wrap"]
+
+1905.com##+js(json-prune,videolink)
 ||beacon.
 ||s.pc.qq.com/tousu/img/*
 
@@ -369,6 +378,28 @@ yyets.com##div[class="swiper mySwiper swiper-initialized swiper-horizontal swipe
 ||https://www.66s.tv/12.js
 66s.tv##div[id="dtad"]
 66s.tv##div[id^="sjdb_div_"]
+v2ex.com##.adsbygoogle
+
+||2011.8684.com^
+||2012.8684.com^
+||engine.audiobuy.cc^
+! http://www.yimuhe.com
+www.yimuhe.com##[src^="http://ad.yueyayuan.com/"]
+||www.yimuhe.com/n_ad/$image
+! https://www.hdmoli.com
+www.hdmoli.com##div.clearfix.myui-panel-bg.myui-panel:nth-of-type(2)
+! https://www.5dy1.cc
+5dy1.cc##.is_mb
+5dy1.cc##.is_pc
+! https://cupfox.app
+cupfox.app##div[class$="cupfox-box"]
+! https://ddys.tv/
+ddys.tv###sajdhfbjwhe
+ddys.tv###kasjbgih
+! https://www.liantu.com
+||p.abcache.com/xc/image/*$image
+||www.liantu.com/images/*$image
+www.liantu.com##.prompt
 
 !union-all
 
