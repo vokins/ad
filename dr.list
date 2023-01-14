@@ -1,8 +1,10 @@
-# Update > 12:35 2022/12/8
+# Update > 0:50 2023-1-15
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
 # 白名单
+DOMAIN,wechat.com,DIRECT
+DOMAIN,dg.k.jd.com,DIRECT
 DOMAIN,b.zhuishushenqi.com,DIRECT
 DOMAIN,shared.ydstatic.com,DIRECT
 DOMAIN,ug.snssdk.com,DIRECT
