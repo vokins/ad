@@ -1,4 +1,4 @@
-# Update > 14:57 2022/12/8
+# Update > 0:53 2023-1-15
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -6,7 +6,6 @@
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,mercury-sdk.snssdk.com,REJECT
 #TEST
-DOMAIN,dg.k.jd.com,REJECT
 DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,janapi.jd.com,REJECT
 DOMAIN,wqs11.jd.com,REJECT
@@ -786,6 +785,7 @@ DOMAIN-SUFFIX,alimama.com,REJECT
 DOMAIN-SUFFIX,umeng.co,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,shujupie.com,REJECT
 DOMAIN,ssp-partner.alibaba.com,REJECT
 DOMAIN,afpmm.alicdn.com,REJECT
 DOMAIN,alimama.alicdn.com,REJECT
@@ -1535,7 +1535,6 @@ DOMAIN-SUFFIX,webterren.com,REJECT
 DOMAIN-SUFFIX,whalecloud.com,REJECT
 DOMAIN-SUFFIX,winads.cn,REJECT
 DOMAIN-SUFFIX,wisemedia.cn,REJECT
-DOMAIN-SUFFIX,woozooo.com,REJECT
 DOMAIN-SUFFIX,wrating.com,REJECT
 DOMAIN-SUFFIX,xdplt.com,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
