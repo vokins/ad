@@ -1,4 +1,4 @@
-# Update > 0:55 2023-1-15
+# Update > 14:06 2023/3/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
@@ -55,7 +55,7 @@ DOMAIN,w1.hoopchina.com.cn,DIRECT
 DOMAIN-SUFFIX,cztv.com,DIRECT
 DOMAIN-SUFFIX,easemob.com,DIRECT
 DOMAIN-SUFFIX,manmeng168.com,DIRECT
-# https://paste.ubuntu.com/p/KYnTf7qmgm/ 更新时间:2022年5月13日22:31:49
+# https://paste.ubuntu.com/p/KYnTf7qmgm/
 # 微信
 DOMAIN-SUFFIX,weixin.qq.com.cn,DIRECT
 DOMAIN-SUFFIX,weixin.qq.com,DIRECT
