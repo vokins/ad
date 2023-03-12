@@ -1,4 +1,4 @@
-# Update > 14:27 2023/3/9
+# Update > 22:19 2023/3/12
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -14,11 +14,6 @@ DOMAIN-KEYWORD,lianmeng,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
 DOMAIN-KEYWORD,pingfore,REJECT
 DOMAIN-KEYWORD,uedas,REJECT
-#TEST
-DOMAIN,dgstatic.jd.com,REJECT
-DOMAIN,janapi.jd.com,REJECT
-DOMAIN,wqs11.jd.com,REJECT
-DOMAIN,xlog.jd.com,REJECT
 #第三方APP调用嵌入刷视频:快手 抖音
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,promotion-partner.kuaishou.com,REJECT
@@ -331,6 +326,7 @@ DOMAIN-SUFFIX,uve.weibo.com,REJECT
 DOMAIN,dm.video.weibocdn.com,REJECT
 DOMAIN,9ibbcq2d.sina.cn,REJECT
 DOMAIN,down.apps.sina.cn,REJECT
+DOMAIN,log.sina.cn,REJECT
 DOMAIN,mixern.sina.cn,REJECT
 DOMAIN,qgnu18wo.sina.cn,REJECT
 DOMAIN,r.dmp.sina.cn,REJECT
@@ -720,6 +716,7 @@ DOMAIN,zx.docin.com,REJECT
 DOMAIN,sensors.ibreader.com,REJECT
 DOMAIN,www.nkscdn.com,REJECT
 DOMAIN,tr.jianshu.com,REJECT
+DOMAIN,events.jianshu.io,REJECT
 DOMAIN,udiab1.jianshu.com,REJECT
 DOMAIN,udiab2.jianshu.com,REJECT
 #Site-星座屋
@@ -1028,6 +1025,9 @@ DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com,REJECT
 DOMAIN,csjplatform.com,REJECT
 #Bytedance-ecombdapi抖音商城
 DOMAIN-SUFFIX,ecombdapi.com,REJECT
+DOMAIN-SUFFIX,ecombdimg.com,REJECT
+DOMAIN-SUFFIX,ecombdstatic.com,REJECT
+DOMAIN-SUFFIX,jinritemai.com,REJECT
 DOMAIN-SUFFIX,volceapplog.com,REJECT
 #Google
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
@@ -1073,8 +1073,13 @@ DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletraveladservices.com,REJECT
 DOMAIN-SUFFIX,urchin.com,REJECT
 #JD
-DOMAIN,im-x.jd.com,REJECT
 DOMAIN,dsp-x.jd.com,REJECT
+DOMAIN,im-x.jd.com,REJECT
+DOMAIN,x.jd.com,REJECT
+DOMAIN,dgstatic.jd.com,REJECT
+DOMAIN,janapi.jd.com,REJECT
+DOMAIN,wqs11.jd.com,REJECT
+DOMAIN,xlog.jd.com,REJECT
 #Sohu
 DOMAIN,fpb0.sohu.com,REJECT
 DOMAIN,mb.hd.sohu.com.cn,REJECT
@@ -1560,6 +1565,8 @@ DOMAIN-SUFFIX,upapi.net,REJECT
 DOMAIN-SUFFIX,usingde.com,REJECT
 DOMAIN-SUFFIX,uyunad.com,REJECT
 DOMAIN-SUFFIX,v4dwkcv.com,REJECT
+DOMAIN-SUFFIX,valueke.com,REJECT
+DOMAIN-SUFFIX,vamaker.com,REJECT
 DOMAIN-SUFFIX,veda.top,REJECT
 DOMAIN-SUFFIX,verizonmedia.com,REJECT
 DOMAIN-SUFFIX,videojj.com,REJECT
@@ -1583,6 +1590,7 @@ DOMAIN-SUFFIX,xdplt.com,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
 DOMAIN-SUFFIX,xelements.cn,REJECT
 DOMAIN-SUFFIX,xspadvertising.com,REJECT
+DOMAIN-SUFFIX,xtgreat.com,REJECT
 DOMAIN-SUFFIX,xunfuli.top,REJECT
 DOMAIN-SUFFIX,yengo.com,REJECT
 DOMAIN-SUFFIX,yieldmo.com,REJECT
@@ -1805,3 +1813,8 @@ DOMAIN,1x1.a-mo.net,REJECT
 DOMAIN,prebid.a-mo.net,REJECT
 DOMAIN,image2.fnxlxcw.cn,REJECT
 DOMAIN,wk2v.fnxlxcw.cn,REJECT
+DOMAIN,analysis.120ask.com,REJECT
+DOMAIN,scws.120ask.com,REJECT
+DOMAIN,x.120ask.com,REJECT
+DOMAIN,bdfl.120askimages.com,REJECT
+DOMAIN,bdjs.120askimages.com,REJECT
