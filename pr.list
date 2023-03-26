@@ -1,4 +1,4 @@
-# Update > 22:18 2023/3/12
+# Update > 20:23 2023/3/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -43,6 +43,7 @@ IP-CIDR6,2a0a:f280::/32,PROXY,no-resolve
 # My
 DOMAIN-SUFFIX,workers.dev,PROXY
 DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,cnbeta.com.tw,PROXY
 # 海棠文化
 DOMAIN-SUFFIX,haitbook.com,PROXY
 DOMAIN-SUFFIX,htwhbook.com,PROXY
@@ -54,14 +55,6 @@ DOMAIN-SUFFIX,lovehtbooks.com,PROXY
 DOMAIN-SUFFIX,myhtebook.com,PROXY
 DOMAIN-SUFFIX,myhtebooks.com,PROXY
 DOMAIN-SUFFIX,myhtlmebook.com,PROXY
-# WeChat 新加坡(ip位于新加坡）
-DOMAIN-SUFFIX,support.wechat.com,PROXY
-DOMAIN-SUFFIX,sgshort.wechat.com,PROXY
-DOMAIN-SUFFIX,sgshort.pay.wechat.com,PROXY
-DOMAIN-SUFFIX,sglong.wechat.com,PROXY
-DOMAIN-SUFFIX,sgminorshort.wechat.com,PROXY
-DOMAIN-SUFFIX,sgaxshort.wechat.com,PROXY
-DOMAIN-SUFFIX,sgfindershort.wechat.com,PROXY
 # 基于关键词后缀判断走代理（Proxy）
 DOMAIN-KEYWORD,akamai,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
