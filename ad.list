@@ -1,4 +1,4 @@
-# Update > 22:19 2023/3/12
+# Update > 20:50 2023/3/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -14,6 +14,7 @@ DOMAIN-KEYWORD,lianmeng,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
 DOMAIN-KEYWORD,pingfore,REJECT
 DOMAIN-KEYWORD,uedas,REJECT
+DOMAIN-KEYWORD,/AdCenter/,REJECT
 #第三方APP调用嵌入刷视频:快手 抖音
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,promotion-partner.kuaishou.com,REJECT
@@ -28,6 +29,7 @@ DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 #Audio-QQ音乐
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,report.tencentmusic.com,REJECT
 DOMAIN,tmead.y.qq.com,REJECT
 DOMAIN,tmeadcomm.y.qq.com,REJECT
 #Audio-酷我
@@ -534,11 +536,22 @@ DOMAIN,honeycomb.wpscdn.cn,REJECT
 DOMAIN,momsg.wps.cn,REJECT
 DOMAIN,honeycomb.wps.cn,REJECT
 #Tool-Xunlei
+DOMAIN,advertpay-vip-ssl.xunlei.com,REJECT
 DOMAIN,advertpay.vip.xunlei.com,REJECT
+DOMAIN,common-act-live.xunlei.com,REJECT
 DOMAIN,etl-xlmc-ssl.xunlei.com,REJECT
+DOMAIN,log-vip-ssl.xunlei.com,REJECT
+DOMAIN,msg-vip-ssl.xunlei.com,REJECT
+DOMAIN,res-etl-ssl.xunlei.com,REJECT
+DOMAIN,wap-youxi.xunlei.com,REJECT
+DOMAIN,xlgamebox-youxi.xunlei.com,REJECT
+DOMAIN,youxi.xunlei.com,REJECT
+DOMAIN,down.sandai.net,REJECT
+DOMAIN,etl-xlmc-ssl.sandai.net,REJECT
 DOMAIN,hub5btmain.v6.shub.sandai.net,REJECT
 DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
 DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
+DOMAIN,cdn3-live-ssl.a.88cdn.com,REJECT
 #Tool-MxPlay
 DOMAIN,evt.mxplay.com,REJECT
 #Trip-12306
@@ -628,6 +641,8 @@ DOMAIN,caid.shuzilm.cn,REJECT
 #Video-风行
 DOMAIN,adm4.funshion.com,REJECT
 DOMAIN,mpartner.funshion.com,REJECT
+DOMAIN,vs.funshion.com,REJECT
+DOMAIN,stat.funshion.net,REJECT
 #Video-CNTV
 DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
 DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
@@ -725,15 +740,22 @@ DOMAIN,bmjs.xzw.com,REJECT
 #Site-诚通网盘
 DOMAIN,mydisplay.ctfile.com,REJECT
 #OS-Mi
+DOMAIN,lite.a.market.xiaomi.com,REJECT
+DOMAIN,sf0.market.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
-DOMAIN-SUFFIX,market.xiaomi.com,REJECT
+DOMAIN-SUFFIX,mistat.xiaomi.com,REJECT
+DOMAIN,cdn.exp.xiaomi.com,REJECT
+DOMAIN-SUFFIX,kingdata.ksyun.com,REJECT
 DOMAIN-SUFFIX,browser.miui.com,REJECT
 DOMAIN-SUFFIX,inf.miui.com,REJECT
 DOMAIN-SUFFIX,mcc.miui.com,REJECT
 DOMAIN-SUFFIX,sys.miui.com,REJECT
 DOMAIN,adv.sec.miui.com,REJECT
+DOMAIN,connect.rom.miui.com,REJECT
+DOMAIN,data.sec.miui.com,REJECT
 DOMAIN,feedback.miui.com,REJECT
+DOMAIN,port.sec.miui.com,REJECT
 DOMAIN,report.sp.miui.com,REJECT
 DOMAIN,tracking.miui.com,REJECT
 DOMAIN,update.miui.com,REJECT
@@ -921,7 +943,9 @@ DOMAIN,s.bdstatic.com,REJECT
 DOMAIN,su.bdstatic.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
 #Baidu-度小满
+DOMAIN,qianbao.baidu.com,REJECT
 DOMAIN-SUFFIX,duxiaoman.com,REJECT
+DOMAIN-SUFFIX,duxiaomanfintech.com,REJECT
 DOMAIN-SUFFIX,dxmbaoxian.com,REJECT
 DOMAIN-SUFFIX,dxmpay.com,REJECT
 DOMAIN-SUFFIX,dxmstatic.com,REJECT
@@ -1016,6 +1040,7 @@ DOMAIN,polaris.zijieapi.com,REJECT
 DOMAIN,polaris3-normal-hl.zijieapi.com,REJECT
 DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
 DOMAIN,tnc3-aliec2.zijieapi.com,REJECT
+DOMAIN,tnc3-bjlgy.zijieapi.com,REJECT
 #Bytedance-TikTok
 DOMAIN,pangolin16.sgsnssdk.com,REJECT
 DOMAIN,tnc16-alisg.isnssdk.com,REJECT
@@ -1131,6 +1156,7 @@ DOMAIN,logsdk.qq.com,REJECT
 DOMAIN,mazu.m.qq.com,REJECT
 DOMAIN,report.qqweb.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+DOMAIN,tdid.m.qq.com,REJECT
 DOMAIN,tpush.html5.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
@@ -1270,6 +1296,7 @@ DOMAIN-SUFFIX,atomhike.com,REJECT
 DOMAIN-SUFFIX,atwola.com,REJECT
 DOMAIN-SUFFIX,awempire.com,REJECT
 DOMAIN-SUFFIX,baichuanhd.com,REJECT
+DOMAIN-SUFFIX,banyunjuhe.com,REJECT
 DOMAIN-SUFFIX,baradoot.com,REJECT
 DOMAIN-SUFFIX,bayescom.cn,REJECT
 DOMAIN-SUFFIX,bayescom.com,REJECT
@@ -1589,6 +1616,7 @@ DOMAIN-SUFFIX,wrating.com,REJECT
 DOMAIN-SUFFIX,xdplt.com,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
 DOMAIN-SUFFIX,xelements.cn,REJECT
+DOMAIN-SUFFIX,xinguad.com,REJECT
 DOMAIN-SUFFIX,xspadvertising.com,REJECT
 DOMAIN-SUFFIX,xtgreat.com,REJECT
 DOMAIN-SUFFIX,xunfuli.top,REJECT
