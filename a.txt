@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.17
+! Version: 1.20
 ! Title: adfilter
-! Last modified: 14:25 2023/3/9
+! Last modified: 12:00 2023/4/13
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -18,6 +18,7 @@
 */adserv.js
 */adspace/*
 */adver/*
+*/count.js
 */guanggao/*
 */hm.js
 */ivy/image/*
@@ -30,7 +31,13 @@
 */morejs/jc.js
 */morejs/jj.js
 */tj.js
-*/tongji.js
+*/tongji.js*
+*/ad.php?*
+*/adConfig?*
+*/_popupAD*.js
+*/clipboard.min.js*
+*/tuiguang/*
+*/qa_ad_card/*
 
 !class:ad
 ##div[class*="_adtop_"]
@@ -94,6 +101,7 @@
 ##[href*="/apple.pvxt.net/"]
 ##[href*="/promotion.aliyun.com/"]
 ##[href*="/click.aliyun.com/"]
+##[href*="/s.click.taobao.com/"]
 
 !baidu
 ##a[href^="http://www.baidu.com/baidu.php?url="]
@@ -381,6 +389,7 @@ ddys.tv###kasjbgih
 ||p.abcache.com/xc/image/*$image
 ||www.liantu.com/images/*$image
 www.liantu.com##.prompt
+jrkan2023.com##+js(acis, disp_prompt)
 
 #sync filter
 # Update > 14:23 2023/3/9
