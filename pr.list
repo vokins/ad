@@ -1,4 +1,4 @@
-# Update > 20:23 2023/3/26
+# Update > 14:59 2023/4/15
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,graph.org,PROXY
 DOMAIN-SUFFIX,quiz.directory,PROXY
 DOMAIN-SUFFIX,usercontent.dev,PROXY
 # Telegram-cidr https://core.telegram.org/resources/cidr.txt
+User-Agent,telegram,PROXY
 IP-CIDR,91.108.56.0/22,PROXY,no-resolve
 IP-CIDR,91.108.4.0/22,PROXY,no-resolve
 IP-CIDR,91.108.8.0/22,PROXY,no-resolve
@@ -41,6 +42,8 @@ IP-CIDR6,2001:67c:4e8::/48,PROXY,no-resolve
 IP-CIDR6,2001:b28:f23c::/48,PROXY,no-resolve
 IP-CIDR6,2a0a:f280::/32,PROXY,no-resolve
 # My
+User-Agent,com.google.ios.youtube*,PROXY
+User-Agent,pascalswager,PROXY
 DOMAIN-SUFFIX,workers.dev,PROXY
 DOMAIN-SUFFIX,google.com,PROXY
 DOMAIN-SUFFIX,cnbeta.com.tw,PROXY
@@ -80,7 +83,7 @@ DOMAIN-SUFFIX,line.me,PROXY
 DOMAIN-SUFFIX,line-apps.com,PROXY
 DOMAIN-SUFFIX,line-cdn.net,PROXY
 DOMAIN-SUFFIX,line-scdn.net,PROXY
-USER-AGENT,Line*,PROXY
+User-Agent,Line*,PROXY
 # Google
 DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,admin.recaptcha.net,PROXY
