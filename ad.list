@@ -1,4 +1,4 @@
-# Update > 12:00 2023/4/13
+# Update > 14:59 2023/4/15
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -14,6 +14,7 @@ DOMAIN-KEYWORD,lianmeng,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
 DOMAIN-KEYWORD,pingfore,REJECT
 DOMAIN-KEYWORD,uedas,REJECT
+DOMAIN-KEYWORD,pagead,REJECT
 DOMAIN-KEYWORD,/AdCenter/,REJECT
 #第三方APP调用嵌入刷视频:快手 抖音
 DOMAIN,open.e.kuaishou.com,REJECT
