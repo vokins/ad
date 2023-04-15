@@ -1,4 +1,4 @@
-# Update > 20:50 2023/3/26
+# Update > 14:59 2023/4/15
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
@@ -62,4 +62,12 @@ DOMAIN-SUFFIX,weixin.qq.com,DIRECT
 # WeChat
 DOMAIN-SUFFIX,servicewechat.com,DIRECT
 DOMAIN-SUFFIX,wechat.com,DIRECT
-USER-AGENT,MicroMessenger,DIRECT
+User-Agent,MicroMessenger*,DIRECT
+User-Agent,QQ*,DIRECT
+User-Agent,TIM*,DIRECT
+User-Agent,qqlive4iphone*,DIRECT
+User-Agent,QQ%E9%9F%B3%E4%B9%90,DIRECT
+User-Agent,WeChat*,DIRECT
+# Bilibili
+USER-AGENT,bili-universal*,DIRECT
+USER-AGENT,Bilibili*,DIRECT
