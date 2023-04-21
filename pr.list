@@ -1,4 +1,4 @@
-# Update > 13:10 2023/4/18
+# Update > 22:15 2023/4/21
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -44,8 +44,13 @@ IP-CIDR6,2a0a:f280::/32,PROXY,no-resolve
 # My
 User-Agent,com.google.ios.youtube*,PROXY
 User-Agent,pascalswager,PROXY
-DOMAIN-SUFFIX,workers.dev,PROXY
+DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
+DOMAIN-SUFFIX,googleusercontent.com,PROXY
 DOMAIN-SUFFIX,cnbeta.com.tw,PROXY
+DOMAIN-SUFFIX,techcrunch.com,PROXY
+DOMAIN-SUFFIX,workers.dev,PROXY
+DOMAIN-SUFFIX,ycombinator.com,PROXY
 # 海棠文化
 DOMAIN-SUFFIX,haitbook.com,PROXY
 DOMAIN-SUFFIX,htwhbook.com,PROXY
