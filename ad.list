@@ -1,4 +1,4 @@
-# Update > 13:17 2023/4/18
+# Update > 22:15 2023/4/21
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -1211,7 +1211,7 @@ DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN-SUFFIX,mdt.qq.com,REJECT
+#DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN,ad.browser.qq.com,REJECT
 DOMAIN,dp3.qq.com,REJECT
 DOMAIN,h.trace.qq.com,REJECT
