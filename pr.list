@@ -1,4 +1,4 @@
-# Update > 22:15 2023/4/21
+# Update > 18:11 2023/4/24
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -233,7 +233,6 @@ DOMAIN-SUFFIX,wsj.net,PROXY
 DOMAIN-SUFFIX,wp.com,PROXY
 DOMAIN-SUFFIX,vimeo.com,PROXY
 DOMAIN-SUFFIX,tapbots.com,PROXY
-DOMAIN-SUFFIX,ykimg.com,DIRECT
 DOMAIN-SUFFIX,medium.com,PROXY
 DOMAIN-SUFFIX,fast.com,PROXY
 DOMAIN-SUFFIX,nflxvideo.net,PROXY
