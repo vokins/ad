@@ -1,4 +1,4 @@
-# Update > 18:11 2023/4/24
+# Update > 0:39 2023/4/27
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,cnbeta.com.tw,PROXY
 DOMAIN-SUFFIX,techcrunch.com,PROXY
 DOMAIN-SUFFIX,workers.dev,PROXY
 DOMAIN-SUFFIX,ycombinator.com,PROXY
+DOMAIN-SUFFIX,unlock-music.dev,PROXY
 # 海棠文化
 DOMAIN-SUFFIX,haitbook.com,PROXY
 DOMAIN-SUFFIX,htwhbook.com,PROXY
