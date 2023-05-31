@@ -15,7 +15,6 @@ HOST-KEYWORD,pagead,REJECT
 HOST-KEYWORD,partnerad,REJECT
 HOST-KEYWORD,pingfore,REJECT
 HOST-KEYWORD,uedas,REJECT
-HOST-KEYWORD,/AdCenter/,REJECT
 #第三方APP调用嵌入刷视频:快手 抖音
 HOST,open.e.kuaishou.cn,REJECT
 HOST,open.e.kuaishou.com,REJECT
