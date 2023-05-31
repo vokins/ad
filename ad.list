@@ -1,4 +1,4 @@
-# Update > 22:15 2023/4/21
+# Update > 18:28 2023/5/31
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -17,6 +17,7 @@ DOMAIN-KEYWORD,pingfore,REJECT
 DOMAIN-KEYWORD,uedas,REJECT
 DOMAIN-KEYWORD,/AdCenter/,REJECT
 #第三方APP调用嵌入刷视频:快手 抖音
+DOMAIN,open.e.kuaishou.cn,REJECT
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,promotion-partner.kuaishou.com,REJECT
 DOMAIN,mercury-sdk.snssdk.com,REJECT
@@ -25,12 +26,18 @@ DOMAIN,adim.pinduoduo.com,REJECT
 DOMAIN,t-dsp.pinduoduo.com,REJECT
 DOMAIN,video-dsp.pddpic.com,REJECT
 #Apple
+DOMAIN,advertising.apple.com,REJECT
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 #Audio-QQ音乐
 DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adcdn.tencentmusic.com,REJECT
+DOMAIN,adclick.tencentmusic.com,REJECT
+DOMAIN,adexpo.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
 DOMAIN,report.tencentmusic.com,REJECT
+DOMAIN,monitor.music.qq.com,REJECT
+DOMAIN,stat.y.qq.com,REJECT
 DOMAIN,tmead.y.qq.com,REJECT
 DOMAIN,tmeadcomm.y.qq.com,REJECT
 #Audio-酷我
@@ -41,7 +48,9 @@ DOMAIN,g.koowo.com,REJECT
 DOMAIN,ads.service.kugou.com,REJECT
 DOMAIN,adservice.kugou.com,REJECT
 DOMAIN,adserviceretry.kugou.com,REJECT
+DOMAIN,adsfile.bssdlbig.kugou.com,REJECT
 DOMAIN,adsfilebssdlbig.ali.kugou.com,REJECT
+DOMAIN,collect.kugou.com,REJECT
 DOMAIN,install2.kugou.com,REJECT
 DOMAIN,kgipadstat.kugou.com,REJECT
 DOMAIN,kgipadstatbak.kugou.com,REJECT
@@ -49,11 +58,11 @@ DOMAIN,log.web.kugou.com,REJECT
 DOMAIN,logwebs.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 DOMAIN,msg.mobile.kugou.com,REJECT
+DOMAIN,nbcollect.kugou.com,REJECT
 DOMAIN,push.mobile.kugou.com,REJECT
 DOMAIN,splashimgbssdl.yun.kugou.com,REJECT
 DOMAIN,tracker.kugou.com,REJECT
 DOMAIN,trackercdnbj.kugou.com,REJECT
-DOMAIN,nbcollect.kugou.com,REJECT
 #Audio-考拉听
 DOMAIN,track.audiobuy.cc,REJECT
 DOMAIN,engine.audiobuy.cc,REJECT
@@ -726,9 +735,29 @@ DOMAIN,probe.yuntuds.com,REJECT
 DOMAIN,api.ls.eyunmy.com,REJECT
 #Video-快手
 DOMAIN,gdfp.gifshow.com,REJECT
+DOMAIN,ali-ad.a.yximgs.com,REJECT
 DOMAIN,js-ad.a.yximgs.com,REJECT
 DOMAIN,static.yximgs.com,REJECT
+DOMAIN,tx-ad.a.yximgs.com,REJECT
 DOMAIN-SUFFIX,push.yximgs.com,REJECT
+DOMAIN,bd-adaptive.pull.yximgs.com,REJECT
+DOMAIN,bd-livemate.pull.yximgs.com,REJECT
+DOMAIN,bd-origin.pull.yximgs.com,REJECT
+DOMAIN,bd-pclivemate.pull.yximgs.com,REJECT
+DOMAIN,bd-proxy.pull.yximgs.com,REJECT
+DOMAIN,bd.pull.yximgs.com,REJECT
+DOMAIN,ks.pull.yximgs.com,REJECT
+DOMAIN,tx-kmpaudio.pull.yximgs.com,REJECT
+DOMAIN,p1-lm.adukwai.com,REJECT
+DOMAIN,p2-lm.adukwai.com,REJECT
+DOMAIN,p3-lm.adukwai.com,REJECT
+DOMAIN,p4-lm.adukwai.com,REJECT
+DOMAIN,p5-lm.adukwai.com,REJECT
+DOMAIN,v1-lm.adukwai.com,REJECT
+DOMAIN,v2-lm.adukwai.com,REJECT
+DOMAIN,v3-lm.adukwai.com,REJECT
+DOMAIN,v4-lm.adukwai.com,REJECT
+DOMAIN,v5-lm.adukwai.com,REJECT
 #Union-钱赚宝
 DOMAIN,sdk.qzbonline.com,REJECT
 #Union-页面抽奖
@@ -811,6 +840,7 @@ DOMAIN,telemetry.api.swiftkey.com,REJECT
 #OS-Oppo
 DOMAIN-SUFFIX,ads.oppomobile.com,REJECT
 DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,REJECT
+DOMAIN,ads.heytapmobi.com,REJECT
 #OS-SamSung
 DOMAIN-SUFFIX,samsungadhub.com,REJECT
 DOMAIN-SUFFIX,samsungads.com,REJECT
@@ -902,6 +932,7 @@ DOMAIN,px.effirst.com,REJECT
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN-SUFFIX,tuisong.baidu.com,REJECT
+#DOMAIN,dlswbr.baidu.com,REJECT
 DOMAIN,a.baidu.com,REJECT
 DOMAIN,ada.baidu.com,REJECT
 DOMAIN,afd.baidu.com,REJECT
@@ -919,7 +950,6 @@ DOMAIN,cm.baidu.com,REJECT
 DOMAIN,cpu.baidu.com,REJECT
 DOMAIN,cpucdn.baidu.com,REJECT
 DOMAIN,datax.baidu.com,REJECT
-#DOMAIN,dlswbr.baidu.com,REJECT
 DOMAIN,dss3.baidu.com,REJECT
 DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,dxp.baidu.com,REJECT
@@ -943,12 +973,14 @@ DOMAIN,hectorstatic.baidu.com,REJECT
 DOMAIN,hm.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
 DOMAIN,hpd.baidu.com,REJECT
+DOMAIN,imageplus.baidu.com,REJECT
 DOMAIN,jzapi.baidu.com,REJECT
 DOMAIN,leads.baidu.com,REJECT
 DOMAIN,miao.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mountain.zhidao.baidu.com,REJECT
+DOMAIN,mtj.baidu.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 DOMAIN,paimgcdn-feed.baidu.com,REJECT
@@ -963,7 +995,9 @@ DOMAIN,sofire.baidu.com,REJECT
 DOMAIN,sp0.baidu.com,REJECT
 DOMAIN,sp1.baidu.com,REJECT
 DOMAIN,tcbox.baidu.com,REJECT
+DOMAIN,ucstat.baidu.com,REJECT
 DOMAIN,ug.baidu.com,REJECT
+DOMAIN,union.baidu.com,REJECT
 DOMAIN,wangmeng.baidu.com,REJECT
 DOMAIN,wkctj.baidu.com,REJECT
 DOMAIN,wn.pos.baidu.com,REJECT
@@ -1106,8 +1140,9 @@ DOMAIN,pangolin16.sgsnssdk.com,REJECT
 DOMAIN,tnc16-alisg.isnssdk.com,REJECT
 DOMAIN,toblog.tobsnssdk.com,REJECT
 DOMAIN,sf-tb-sg.ibytedtos.com,REJECT
+DOMAIN,sf16-static.i18n-pglstatp.com,REJECT
 DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com,REJECT
-DOMAIN,csjplatform.com,REJECT
+DOMAIN-SUFFIX,csjplatform.com,REJECT
 #Bytedance-ecombdapi抖音商城
 DOMAIN-SUFFIX,ecombdapi.com,REJECT
 DOMAIN-SUFFIX,ecombdimg.com,REJECT
@@ -1137,6 +1172,7 @@ DOMAIN-SUFFIX,adsense.com,REJECT
 DOMAIN-SUFFIX,adsensecustomsearchads.com,REJECT
 DOMAIN-SUFFIX,adsenseformobileapps.com,REJECT
 DOMAIN-SUFFIX,adservice.google.com,REJECT
+DOMAIN-SUFFIX,analytics.google.com,REJECT
 DOMAIN-SUFFIX,advertisercommunity.com,REJECT
 DOMAIN-SUFFIX,advertiserscommunity.com,REJECT
 DOMAIN-SUFFIX,adwords-community.com,REJECT
@@ -1206,11 +1242,14 @@ DOMAIN-SUFFIX,inte.sogoucdn.com,REJECT
 DOMAIN-SUFFIX,lu.sogoucdn.com,REJECT
 DOMAIN-SUFFIX,theta.sogoucdn.com,REJECT
 #Tencent-QQ
+DOMAIN,ad.qq.com,REJECT
 DOMAIN,ads.privacy.qq.com,REJECT
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN,p.l.qq.com,REJECT
+DOMAIN,us.l.qq.com,REJECT
 #DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN,ad.browser.qq.com,REJECT
 DOMAIN,dp3.qq.com,REJECT
@@ -1219,24 +1258,31 @@ DOMAIN,hc.tdm.qq.com,REJECT
 DOMAIN,jpush.html5.qq.com,REJECT
 DOMAIN,logsdk.qq.com,REJECT
 DOMAIN,mazu.m.qq.com,REJECT
+DOMAIN,masdkv6.3g.qq.com,REJECT
 DOMAIN,report.qqweb.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
 DOMAIN,tdid.m.qq.com,REJECT
 DOMAIN,tpush.html5.qq.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,tangram.e.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
+DOMAIN,wxa.wxs.qq.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 DOMAIN-KEYWORD,variety.tc.qq.com,REJECT
 #Tencent-QQ-Upload
 DOMAIN,aeventlog.beacon.qq.com,REJECT
+DOMAIN,android.bugly.qq.com,REJECT
 DOMAIN,astrategy.beacon.qq.com,REJECT
-DOMAIN,otheve.beacon.qq.com,REJECT
-DOMAIN,othstr.beacon.qq.com,REJECT
+DOMAIN,ios.bugly.qq.com,REJECT
 DOMAIN,log.tbs.qq.com,REJECT
 DOMAIN,oth.eve.mdt.qq.com,REJECT
-DOMAIN,ios.bugly.qq.com,REJECT
+DOMAIN,oth.str.mdt.qq.com,REJECT
+DOMAIN,otheve.beacon.qq.com,REJECT
+DOMAIN,othstr.beacon.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
+DOMAIN,qqdata.ab.qq.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
 #Tencent-gdt
 DOMAIN,adsmind.ugdtimg.com,REJECT
@@ -1390,6 +1436,7 @@ DOMAIN-SUFFIX,bebi.com,REJECT
 DOMAIN-SUFFIX,behe.com,REJECT
 DOMAIN-SUFFIX,beintoo.com,REJECT
 DOMAIN-SUFFIX,beizi.biz,REJECT
+DOMAIN-SUFFIX,bianxianniu.com,REJECT
 DOMAIN-SUFFIX,biddingx.com,REJECT
 DOMAIN-SUFFIX,bidswitch.net,REJECT
 DOMAIN-SUFFIX,bidvertiser.com,REJECT
@@ -1551,6 +1598,7 @@ DOMAIN-SUFFIX,jads.co,REJECT
 DOMAIN-SUFFIX,jazdoxthxiv.com,REJECT
 DOMAIN-SUFFIX,jiguang.cn,REJECT
 DOMAIN-SUFFIX,jizzads.com,REJECT
+DOMAIN-SUFFIX,jkzj120.com,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
@@ -1814,6 +1862,7 @@ DOMAIN-SUFFIX,yoyi.com.cn,REJECT
 DOMAIN-SUFFIX,yoyi.tv,REJECT
 DOMAIN-SUFFIX,yuxiangjiaozi.com,REJECT
 DOMAIN-SUFFIX,yuyuetui.com,REJECT
+DOMAIN-SUFFIX,yynetwk.com,REJECT
 DOMAIN-SUFFIX,zampda.net,REJECT
 DOMAIN-SUFFIX,zedo.com,REJECT
 DOMAIN-SUFFIX,zhangwanwan.online,REJECT
