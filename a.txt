@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.20
+! Version: 1.21
 ! Title: adfilter
-! Last modified: 12:00 2023/4/13
+! Last modified: 23:00 2023/7/7 星期五
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -217,7 +217,6 @@ flyert.com##div[style="padding:0"]
 m.hujiang.com##.soft-text
 m.yxlady.com###banner_simple
 cn.bing.com###bgPro
-|http://www.myhtlmebook.com/images/*
 |https://www.tt1069.com/banners/*
 |https://www.jianshu.com/asimov/pdd_ads/*
 
