@@ -1,4 +1,4 @@
-# Update > 18:28 2023/5/31
+# Update > 23:00 2023/7/7 星期五
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -470,8 +470,10 @@ DOMAIN,crash2.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
 #SNS-小红书
-DOMAIN,ads-video-al.xhscdn.com,REJECT
 DOMAIN,ads-img-al.xhscdn.com,REJECT
+DOMAIN,ads-img-qc.xhscdn.com,REJECT
+DOMAIN,ads-video-al.xhscdn.com,REJECT
+DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,crash.xiaohongshu.com,REJECT
 #SNS-搞笑段子
 DOMAIN,ad.rhinox.cn,REJECT
@@ -734,30 +736,27 @@ DOMAIN,ad.yuntuds.com,REJECT
 DOMAIN,probe.yuntuds.com,REJECT
 DOMAIN,api.ls.eyunmy.com,REJECT
 #Video-快手
+DOMAIN,ad.partner.gifshow.com,REJECT
 DOMAIN,gdfp.gifshow.com,REJECT
-DOMAIN,ali-ad.a.yximgs.com,REJECT
-DOMAIN,js-ad.a.yximgs.com,REJECT
-DOMAIN,static.yximgs.com,REJECT
-DOMAIN,tx-ad.a.yximgs.com,REJECT
+DOMAIN,log-sdk.gifshow.com,REJECT
+DOMAIN,ulog-sdk.gifshow.com,REJECT
 DOMAIN-SUFFIX,push.yximgs.com,REJECT
+DOMAIN,ali-ad.a.yximgs.com,REJECT
 DOMAIN,bd-adaptive.pull.yximgs.com,REJECT
 DOMAIN,bd-livemate.pull.yximgs.com,REJECT
 DOMAIN,bd-origin.pull.yximgs.com,REJECT
 DOMAIN,bd-pclivemate.pull.yximgs.com,REJECT
 DOMAIN,bd-proxy.pull.yximgs.com,REJECT
 DOMAIN,bd.pull.yximgs.com,REJECT
+DOMAIN,hw-ot-ad.a.yximgs.com,REJECT
+DOMAIN,js-ad.a.yximgs.com,REJECT
 DOMAIN,ks.pull.yximgs.com,REJECT
+DOMAIN,static.yximgs.com,REJECT
+DOMAIN,tx-ad.a.yximgs.com,REJECT
 DOMAIN,tx-kmpaudio.pull.yximgs.com,REJECT
-DOMAIN,p1-lm.adukwai.com,REJECT
-DOMAIN,p2-lm.adukwai.com,REJECT
-DOMAIN,p3-lm.adukwai.com,REJECT
-DOMAIN,p4-lm.adukwai.com,REJECT
-DOMAIN,p5-lm.adukwai.com,REJECT
-DOMAIN,v1-lm.adukwai.com,REJECT
-DOMAIN,v2-lm.adukwai.com,REJECT
-DOMAIN,v3-lm.adukwai.com,REJECT
-DOMAIN,v4-lm.adukwai.com,REJECT
-DOMAIN,v5-lm.adukwai.com,REJECT
+DOMAIN,v1-ad.video.yximgs.com,REJECT
+DOMAIN,v2-ad.video.yximgs.com,REJECT
+DOMAIN,v3-ad.video.yximgs.com,REJECT
 #Union-钱赚宝
 DOMAIN,sdk.qzbonline.com,REJECT
 #Union-页面抽奖
@@ -841,6 +840,9 @@ DOMAIN,telemetry.api.swiftkey.com,REJECT
 DOMAIN-SUFFIX,ads.oppomobile.com,REJECT
 DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,REJECT
 DOMAIN,ads.heytapmobi.com,REJECT
+DOMAIN,mdp-usertrace-cn.heytapmobi.com,REJECT
+#OS-Vivo
+DOMAIN-KEYWORD,adxlog-adnet.vivo.com.cn,REJECT
 #OS-SamSung
 DOMAIN-SUFFIX,samsungadhub.com,REJECT
 DOMAIN-SUFFIX,samsungads.com,REJECT
@@ -853,8 +855,9 @@ DOMAIN,crashlytics.163.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN-SUFFIX,g.163.com,REJECT
 DOMAIN,iadmat.nosdn.127.net,REJECT
-DOMAIN,iadmusicmat.music.126.net,REJECT
+DOMAIN,ads.music.126.net,REJECT
 DOMAIN,h5.analytics.126.net,REJECT
+DOMAIN,iadmusicmat.music.126.net,REJECT
 DOMAIN,pg-ad-b1.ws.126.net,REJECT
 DOMAIN,webstat.ws.126.net,REJECT
 DOMAIN,yp.ws.126.net,REJECT
@@ -1132,9 +1135,13 @@ DOMAIN,mssdk3-normal-lf.zijieapi.com,REJECT
 DOMAIN,mssdk5-normal.zijieapi.com,REJECT
 DOMAIN,polaris.zijieapi.com,REJECT
 DOMAIN,polaris3-normal-hl.zijieapi.com,REJECT
-DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
+DOMAIN,tnc1-bjlgy.zijieapi.com,REJECT
+DOMAIN,tnc2-bjlgy.zijieapi.com,REJECT
 DOMAIN,tnc3-aliec2.zijieapi.com,REJECT
+DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
 DOMAIN,tnc3-bjlgy.zijieapi.com,REJECT
+DOMAIN,tnc4-bjlgy.zijieapi.com,REJECT
+DOMAIN,tnc5-bjlgy.zijieapi.com,REJECT
 #Bytedance-TikTok
 DOMAIN,pangolin16.sgsnssdk.com,REJECT
 DOMAIN,tnc16-alisg.isnssdk.com,REJECT
@@ -1193,6 +1200,13 @@ DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletraveladservices.com,REJECT
 DOMAIN-SUFFIX,urchin.com,REJECT
+#GoogleCN
+DOMAIN-SUFFIX,ads.google.cn,REJECT
+DOMAIN-SUFFIX,adsense.google.cn,REJECT
+DOMAIN-SUFFIX,adservice.google.cn,REJECT
+DOMAIN-SUFFIX,doubleclick-cn.net,REJECT
+DOMAIN-SUFFIX,googleadservices-cn.com,REJECT
+DOMAIN-SUFFIX,googletagservices-cn.com,REJECT
 #JD
 DOMAIN,dsp-x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
@@ -1344,6 +1358,8 @@ DOMAIN-SUFFIX,ad-cloud.jp,REJECT
 DOMAIN-SUFFIX,ad-delivery.net,REJECT
 DOMAIN-SUFFIX,ad-locus.com,REJECT
 DOMAIN-SUFFIX,ad-plus.cn,REJECT
+DOMAIN-SUFFIX,ad-scope.com,REJECT
+DOMAIN-SUFFIX,ad-scope.com.cn,REJECT
 DOMAIN-SUFFIX,ad-stir.com,REJECT
 DOMAIN-SUFFIX,ad-survey.com,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
@@ -1556,6 +1572,7 @@ DOMAIN-SUFFIX,hapying.com,REJECT
 DOMAIN-SUFFIX,hdazs.xyz,REJECT
 DOMAIN-SUFFIX,hdyxc.com,REJECT
 DOMAIN-SUFFIX,heige.wang,REJECT
+DOMAIN-SUFFIX,henzanapp.com,REJECT
 DOMAIN-SUFFIX,hiido.com,REJECT
 DOMAIN-SUFFIX,histats.com,REJECT
 DOMAIN-SUFFIX,hitslink.com,REJECT
@@ -1568,6 +1585,7 @@ DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
 DOMAIN-SUFFIX,huodonghezi.com,REJECT
 DOMAIN-SUFFIX,huoxingtan66.com,REJECT
 DOMAIN-SUFFIX,hzbxm.com,REJECT
+DOMAIN-SUFFIX,hzsanjiaomao.com,REJECT
 DOMAIN-SUFFIX,i-mobile.co.jp,REJECT
 DOMAIN-SUFFIX,icast.cn,REJECT
 DOMAIN-SUFFIX,iclickcdn.com,REJECT
