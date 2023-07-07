@@ -1,4 +1,4 @@
-# Update > 23:00 2023/7/7 星期五
+# Update > 23:50 2023/7/7 星期五
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -29,6 +29,16 @@ DOMAIN,video-dsp.pddpic.com,REJECT
 DOMAIN,advertising.apple.com,REJECT
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+#欺诈性网站警告
+#https://developers.google.com/safe-browsing/
+DOMAIN,safebrowsing.googleapis.com,REJECT
+DOMAIN,safebrowsing.googleapis-cn.com,REJECT
+#https://anquan.baidu.com/article/281
+DOMAIN,lookup.api.bsb.baidu.com,REJECT
+#https://opensource.apple.com/source/WebKit2/WebKit2-7607.2.6.1.1/UIProcess/Cocoa/SafeBrowsingWarningCocoa.mm.auto.html
+DOMAIN-SUFFIX,urlsec.qq.com,REJECT
+DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+DOMAIN,www.urlsec.qq.com,REJECT
 #Audio-QQ音乐
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adcdn.tencentmusic.com,REJECT
@@ -1164,8 +1174,6 @@ DOMAIN,firebaseinstallations.googleapis.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN,firebaseremoteconfig.googleapis.com,REJECT
-DOMAIN,safebrowsing.googleapis.com,REJECT
-DOMAIN,safebrowsing.googleapis-cn.com,REJECT
 DOMAIN,adservice.google.co.jp,REJECT
 DOMAIN,googleads.g.doubleclick.net,REJECT
 DOMAIN,pagead2.googlesyndication.com,REJECT
@@ -1274,7 +1282,6 @@ DOMAIN,logsdk.qq.com,REJECT
 DOMAIN,mazu.m.qq.com,REJECT
 DOMAIN,masdkv6.3g.qq.com,REJECT
 DOMAIN,report.qqweb.qq.com,REJECT
-DOMAIN,safebrowsing.urlsec.qq.com,REJECT
 DOMAIN,tdid.m.qq.com,REJECT
 DOMAIN,tpush.html5.qq.com,REJECT
 DOMAIN,sdk.e.qq.com,REJECT
