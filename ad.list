@@ -1,4 +1,4 @@
-# Update > 23:50 2023/7/7 星期五
+# Update > 9:32 2023/7/28 星期五
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -16,6 +16,7 @@ DOMAIN-KEYWORD,partnerad,REJECT
 DOMAIN-KEYWORD,pingfore,REJECT
 DOMAIN-KEYWORD,uedas,REJECT
 DOMAIN-KEYWORD,/AdCenter/,REJECT
+DOMAIN-KEYWORD,/ad-app-package/,REJECT
 #第三方APP调用嵌入刷视频:快手 抖音
 DOMAIN,open.e.kuaishou.cn,REJECT
 DOMAIN,open.e.kuaishou.com,REJECT
@@ -618,6 +619,7 @@ DOMAIN,cdn3-live-ssl.a.88cdn.com,REJECT
 DOMAIN,evt.mxplay.com,REJECT
 #Trip-12306
 DOMAIN,ad.12306.cn,REJECT
+DOMAIN,app-tracker.ccrgt.com,REJECT
 #Trip-航旅纵横
 DOMAIN,analytics.umetrip.com,REJECT
 #Trip-高德地图
@@ -852,7 +854,7 @@ DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,REJECT
 DOMAIN,ads.heytapmobi.com,REJECT
 DOMAIN,mdp-usertrace-cn.heytapmobi.com,REJECT
 #OS-Vivo
-DOMAIN-KEYWORD,adxlog-adnet.vivo.com.cn,REJECT
+DOMAIN-KEYWORD,adnet.vivo.com.cn,REJECT
 #OS-SamSung
 DOMAIN-SUFFIX,samsungadhub.com,REJECT
 DOMAIN-SUFFIX,samsungads.com,REJECT
@@ -904,7 +906,7 @@ DOMAIN,afpmm.alicdn.com,REJECT
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
-#DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
+DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,unidesk.alicdn.com,REJECT
 DOMAIN,userlink.alicdn.com,REJECT
 DOMAIN,admobile.oss-cn-hangzhou.aliyuncs.com,REJECT
@@ -914,20 +916,26 @@ DOMAIN,768guanggao.oss-cn-shenzhen.aliyuncs.com,REJECT
 DOMAIN,max-admaster-public.oss-cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN,beacon-api.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
-DOMAIN,log.mmstat.com,REJECT
 DOMAIN,cnzz.mmstat.com,REJECT
+DOMAIN,gm.mmstat.com,REJECT
+DOMAIN,log.mmstat.com,REJECT
+DOMAIN,wgo.mmstat.com,REJECT
 DOMAIN,yt.mmstat.com,REJECT
 DOMAIN,umdc.aliapp.org,REJECT
 DOMAIN,ynuf.aliapp.org,REJECT
 #Ali-淘宝
-DOMAIN,agoo-report.m.taobao.com,REJECT
+DOMAIN,acs4baichuan.m.taobao.com,REJECT
 DOMAIN,baichuan-sdk.taobao.com,REJECT
-DOMAIN,mamasearchad.cloudvideocdn.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.taobao.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,agoo-report.m.taobao.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
 DOMAIN,umengacs.m.taobao.com,REJECT
 DOMAIN,umengjmacs.m.taobao.com,REJECT
 DOMAIN,youku-acs.m.taobao.com,REJECT
+DOMAIN,mamasearchad.cloudvideocdn.taobao.com,REJECT
+DOMAIN-SUFFIX,simba.taobao.com,REJECT
 #Ali-UC
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,safe.ucweb.com,REJECT
@@ -1084,6 +1092,7 @@ DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com,REJECT
 #Bytedance-toutiao
 DOMAIN,zhanzhang.toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,pangolin-dsp-toutiao.com,REJECT
 DOMAIN-SUFFIX,ad.toutiao.com,REJECT
@@ -1091,14 +1100,7 @@ DOMAIN-SUFFIX,dm.toutiao.com,REJECT
 DOMAIN-SUFFIX,dsp.toutiao.com,REJECT
 DOMAIN-SUFFIX,mon.toutiao.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
-DOMAIN,gromore.pangolin-sdk-toutiao.com,REJECT
 DOMAIN,guangguang.cloudvideocdn.taobao.com,REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
-DOMAIN,lf3-plat.pglstatp-toutiao.com,REJECT
-DOMAIN,log-api.pangolin-sdk-toutiao-b.com,REJECT
-DOMAIN,log-api.pangolin-sdk-toutiao.com,REJECT
-DOMAIN,www.pangolin-dsp-toutiao.com,REJECT
 #Bytedance-snssdk
 DOMAIN-SUFFIX,applog.snssdk.com,REJECT
 DOMAIN-SUFFIX,bds.snssdk.com,REJECT
@@ -1135,6 +1137,7 @@ DOMAIN,ads5-normal-hl.zijieapi.com,REJECT
 DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
 DOMAIN,ads5-normal.zijieapi.com,REJECT
 DOMAIN,feedback-c.zijieapi.com,REJECT
+DOMAIN,log.zijieapi.com,REJECT
 DOMAIN,minigame3-normal.zijieapi.com,REJECT
 DOMAIN,minigame5-normal-hl.zijieapi.com,REJECT
 DOMAIN,minigame5-normal-lq.zijieapi.com,REJECT
@@ -1160,6 +1163,7 @@ DOMAIN,sf-tb-sg.ibytedtos.com,REJECT
 DOMAIN,sf16-static.i18n-pglstatp.com,REJECT
 DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com,REJECT
 DOMAIN-SUFFIX,csjplatform.com,REJECT
+DOMAIN-SUFFIX,oceanengine.com,REJECT
 #Bytedance-ecombdapi抖音商城
 DOMAIN-SUFFIX,ecombdapi.com,REJECT
 DOMAIN-SUFFIX,ecombdimg.com,REJECT
@@ -1223,6 +1227,8 @@ DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,janapi.jd.com,REJECT
 DOMAIN,wqs11.jd.com,REJECT
 DOMAIN,xlog.jd.com,REJECT
+DOMAIN,dg.k.jd.com,REJECT
+DOMAIN,uranus.jd.com,REJECT
 #Sohu
 DOMAIN,fpb0.sohu.com,REJECT
 DOMAIN,fpb1.sohu.com,REJECT
@@ -1305,6 +1311,8 @@ DOMAIN,othstr.beacon.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,qqdata.ab.qq.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
+#腾讯移动推送 ios有系统级别推送不需要
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 #Tencent-gdt
 DOMAIN,adsmind.ugdtimg.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
@@ -1467,6 +1475,7 @@ DOMAIN-SUFFIX,binfenhui.top,REJECT
 DOMAIN-SUFFIX,bixinlive.com,REJECT
 DOMAIN-SUFFIX,bjsqdb.cn,REJECT
 DOMAIN-SUFFIX,bjzghd.com,REJECT
+DOMAIN-SUFFIX,blankabout.com,REJECT
 DOMAIN-SUFFIX,bloggerads.net,REJECT
 DOMAIN-SUFFIX,bluekai.com,REJECT
 DOMAIN-SUFFIX,bmob.cn,REJECT
@@ -2003,3 +2012,11 @@ DOMAIN,s.u7u9.com,REJECT
 DOMAIN,pb1.jiayongluyou.com,REJECT
 DOMAIN,pb2.jiayongluyou.com,REJECT
 #PopUps&Virus
+
+#Newtest
+DOMAIN,lf-cdn-tos.bytescm.com,REJECT
+DOMAIN,lf1-cdn-tos.bytegoofy.com,REJECT
+DOMAIN,mssdk.volces.com,REJECT
+DOMAIN,api.im.weibo.cn,REJECT
+DOMAIN,gw.im.weibo.cn,REJECT
+DOMAIN,staticsns.cdn.bcebos.com,REJECT
