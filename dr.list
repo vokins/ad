@@ -1,9 +1,10 @@
-# Update > 14:59 2023/4/15
+# Update > 22:55 2023/7/30 星期日
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
 # 白名单
 DOMAIN,dg.k.jd.com,DIRECT
+#影响什么值得买跳转到京东app
 DOMAIN,b.zhuishushenqi.com,DIRECT
 DOMAIN,shared.ydstatic.com,DIRECT
 DOMAIN,ug.snssdk.com,DIRECT
