@@ -1,4 +1,4 @@
-# Update > 9:32 2023/7/28 星期五
+# Update > 23:21 2023/7/30 星期日
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -619,7 +619,13 @@ DOMAIN,cdn3-live-ssl.a.88cdn.com,REJECT
 DOMAIN,evt.mxplay.com,REJECT
 #Trip-12306
 DOMAIN,ad.12306.cn,REJECT
+DOMAIN,app-tech-tracker.ccrgt.com,REJECT
 DOMAIN,app-tracker.ccrgt.com,REJECT
+DOMAIN,web-tracker.ccrgt.com,REJECT
+DOMAIN,shop43210511.m.youzan.com,REJECT
+DOMAIN,probe.youzan.com,REJECT
+DOMAIN,tj1.youzan.com,REJECT
+DOMAIN,tj.youzanyun.com,REJECT
 #Trip-航旅纵横
 DOMAIN,analytics.umetrip.com,REJECT
 #Trip-高德地图
@@ -901,6 +907,7 @@ DOMAIN-SUFFIX,umeng.co,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
 DOMAIN-SUFFIX,shujupie.com,REJECT
+DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN,ssp-partner.alibaba.com,REJECT
 DOMAIN,afpmm.alicdn.com,REJECT
 DOMAIN,alimama.alicdn.com,REJECT
@@ -929,6 +936,7 @@ DOMAIN,baichuan-sdk.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.taobao.com,REJECT
 DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,h-adashx4bc.ut.taobao.com,REJECT
 DOMAIN,agoo-report.m.taobao.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
 DOMAIN,umengacs.m.taobao.com,REJECT
@@ -1138,6 +1146,7 @@ DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
 DOMAIN,ads5-normal.zijieapi.com,REJECT
 DOMAIN,feedback-c.zijieapi.com,REJECT
 DOMAIN,log.zijieapi.com,REJECT
+DOMAIN,mon.zijieapi.com,REJECT
 DOMAIN,minigame3-normal.zijieapi.com,REJECT
 DOMAIN,minigame5-normal-hl.zijieapi.com,REJECT
 DOMAIN,minigame5-normal-lq.zijieapi.com,REJECT
@@ -1227,7 +1236,7 @@ DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,janapi.jd.com,REJECT
 DOMAIN,wqs11.jd.com,REJECT
 DOMAIN,xlog.jd.com,REJECT
-DOMAIN,dg.k.jd.com,REJECT
+#DOMAIN,dg.k.jd.com,REJECT
 DOMAIN,uranus.jd.com,REJECT
 #Sohu
 DOMAIN,fpb0.sohu.com,REJECT
@@ -1501,6 +1510,7 @@ DOMAIN-SUFFIX,chinese-blog.org,REJECT
 DOMAIN-SUFFIX,chushoushijian.cn,REJECT
 DOMAIN-SUFFIX,cjgcedu.com,REJECT
 DOMAIN-SUFFIX,cl2009.com,REJECT
+DOMAIN-SUFFIX,cl2m.cn,REJECT
 DOMAIN-SUFFIX,clarity.ms,REJECT
 DOMAIN-SUFFIX,clearbitjs.com,REJECT
 DOMAIN-SUFFIX,clicki.cn,REJECT
@@ -1569,6 +1579,7 @@ DOMAIN-SUFFIX,gameanalytics.com,REJECT
 DOMAIN-SUFFIX,gbitcoin.cn,REJECT
 DOMAIN-SUFFIX,gentags.com,REJECT
 DOMAIN-SUFFIX,gentags.net,REJECT
+DOMAIN-SUFFIX,gepush.com,REJECT
 DOMAIN-SUFFIX,getui.com,REJECT
 DOMAIN-SUFFIX,getui.net,REJECT
 DOMAIN-SUFFIX,gfnormal01ae.com,REJECT
@@ -1597,6 +1608,7 @@ DOMAIN-SUFFIX,hokeyness.top,REJECT
 DOMAIN-SUFFIX,hot-mob.com,REJECT
 DOMAIN-SUFFIX,hotjar.com,REJECT
 DOMAIN-SUFFIX,httpool.com,REJECT
+DOMAIN-SUFFIX,huagoustar.com,REJECT
 DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
 DOMAIN-SUFFIX,huodonghezi.com,REJECT
 DOMAIN-SUFFIX,huoxingtan66.com,REJECT
@@ -1636,6 +1648,7 @@ DOMAIN-SUFFIX,jkzj120.com,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
+DOMAIN-SUFFIX,jutuike.com,REJECT
 DOMAIN-SUFFIX,kejet.com,REJECT
 DOMAIN-SUFFIX,kejet.net,REJECT
 DOMAIN-SUFFIX,keyrun.cn,REJECT
@@ -1693,6 +1706,7 @@ DOMAIN-SUFFIX,mtk.pub,REJECT
 DOMAIN-SUFFIX,muhoujiemi.com,REJECT
 DOMAIN-SUFFIX,mzgood.cn,REJECT
 DOMAIN-SUFFIX,nbrlzy.com,REJECT
+DOMAIN-SUFFIX,ndcpp.com,REJECT
 DOMAIN-SUFFIX,nend.net,REJECT
 DOMAIN-SUFFIX,networkbench.com,REJECT
 DOMAIN-SUFFIX,newrelic.com,REJECT
@@ -1872,6 +1886,7 @@ DOMAIN-SUFFIX,xdrig.com,REJECT
 DOMAIN-SUFFIX,xelements.cn,REJECT
 DOMAIN-SUFFIX,xiaodongrui.com,REJECT
 DOMAIN-SUFFIX,xinguad.com,REJECT
+DOMAIN-SUFFIX,xlkeji.net,REJECT
 DOMAIN-SUFFIX,xmluren.com,REJECT
 DOMAIN-SUFFIX,xsao1.cc,REJECT
 DOMAIN-SUFFIX,xspadvertising.com,REJECT
@@ -2012,11 +2027,15 @@ DOMAIN,s.u7u9.com,REJECT
 DOMAIN,pb1.jiayongluyou.com,REJECT
 DOMAIN,pb2.jiayongluyou.com,REJECT
 #PopUps&Virus
-
-#Newtest
+#New-Test-一个月没发现问题会并入
 DOMAIN,lf-cdn-tos.bytescm.com,REJECT
 DOMAIN,lf1-cdn-tos.bytegoofy.com,REJECT
 DOMAIN,mssdk.volces.com,REJECT
 DOMAIN,api.im.weibo.cn,REJECT
 DOMAIN,gw.im.weibo.cn,REJECT
 DOMAIN,staticsns.cdn.bcebos.com,REJECT
+DOMAIN,huiduapi.nuomi.com,REJECT
+DOMAIN,integralwall.baidu.com,REJECT
+DOMAIN,yongche.baidu.com,REJECT
+DOMAIN,bailingniao2.baidu.com,REJECT
+DOMAIN,baiqueling.baidu.com,REJECT
