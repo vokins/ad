@@ -1,4 +1,4 @@
-# Update > 22:55 2023/7/30 星期日
+# Update > 9:47 2023/8/24 星期四
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
@@ -72,3 +72,30 @@ User-Agent,WeChat*,DIRECT
 # Bilibili
 USER-AGENT,bili-universal*,DIRECT
 USER-AGENT,Bilibili*,DIRECT
+#影视 分流修正 https://t.me/Aa28413761
+host,ain.bgm.tv, direct
+host,cdn.jsdelivr.net, direct
+host,deo.shopeemobile.com, direct
+host,image.maimn.com, direct
+host,img.bfzypic.com, direct
+host,img.ffzypic.com, direct
+host,img.kuaikanzy.net, direct
+host,img.liangzipic.com, direct
+host,lain.bgm.tv, direct
+host,m3u8.255tv.tk, direct
+host,m3u8.mstopq.com, direct
+host,ok.zuidapic.com, direct
+host,sdk.alibaba.com.ailbaba.me, direct
+host,static.jssp.tv, direct
+host,tiao.cjkypo.com, direct
+host,ts.thefilehosting.com, direct
+host,vip.ffzyread.com, direct
+host,vip.imgffzy.com, direct
+host-keyword,ax1x.com, direct
+host-keyword,bfzycdn.com, direct
+host-keyword,o.lencr.org, direct
+host-keyword,ttcdn-tos.kkimg.cc, direct
+host-keyword,vip.ffzy-online, direct
+host-keyword,vip.ffzy-play, direct
+host-keyword,vip.kuaikan-cdn, direct
+host-keyword,vip.lz-cdn, direct
