@@ -1,4 +1,4 @@
-# Update > 23:21 2023/7/30 星期日
+# Update > 22:33 2023/9/3 星期日
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -557,6 +557,8 @@ DOMAIN,bamboo.39health.com,REJECT
 DOMAIN,report.51credit.com,REJECT
 #Tool-95516
 DOMAIN,ads.95516.com,REJECT
+#Tool-yandex
+DOMAIN,mc.yandex.com,REJECT
 #Tool-墨迹天气
 DOMAIN,adlaunch.moji.com,REJECT
 DOMAIN,ffds.api.moji.com,REJECT
@@ -685,6 +687,8 @@ DOMAIN,rhdc-acs.youku.com,REJECT
 DOMAIN,un-acs.youku.com,REJECT
 DOMAIN,yk-ssp.ad.youku.com,REJECT
 DOMAIN,ykad-data.youku.com,REJECT
+DOMAIN,m-vali.cp31.ott.cibntv.net
+DOMAIN,vali-g1.cp31.ott.cibntv.net
 #Video-芒果TV
 DOMAIN,recom.api.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
@@ -794,6 +798,7 @@ DOMAIN,xiaomi.m.cn.miaozhen.com,REJECT
 #Site-https://www.lanzou.com/
 DOMAIN,d.woozooo.com,REJECT
 DOMAIN,hm.woozooo.com,REJECT
+DOMAIN,statics.woozooo.com,REJECT
 DOMAIN,glores2.taisantech.com,REJECT
 DOMAIN,sanme2.taisantech.com,REJECT
 #Site-https://whois.chinaz.com/
@@ -850,6 +855,13 @@ DOMAIN,report.sp.miui.com,REJECT
 DOMAIN,tracking.miui.com,REJECT
 DOMAIN,update.miui.com,REJECT
 DOMAIN,site.e.mi.com,REJECT
+#OS-Mi/小米跟踪API
+DOMAIN,a0.app.xiaomi.com,REJECT
+#OS-Mi/腾讯/安天
+DOMAIN,miav-cse.avlyun.com,REJECT
+DOMAIN,miui-fxcse.avlyun.com,REJECT
+#OS-Mi/应用包扫描API
+DOMAIN,api.installer.xiaomi.com,REJECT
 #OS-MicroSoft
 DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
@@ -1364,6 +1376,7 @@ DOMAIN-SUFFIX,37cs.com,REJECT
 DOMAIN-SUFFIX,37wan.com,REJECT
 DOMAIN-SUFFIX,3lift.com,REJECT
 DOMAIN-SUFFIX,3xhmhct.cn,REJECT
+DOMAIN-SUFFIX,4dex.io,REJECT
 DOMAIN-SUFFIX,50bang.org,REJECT
 DOMAIN-SUFFIX,51.la,REJECT
 DOMAIN-SUFFIX,51fanli.net,REJECT
@@ -1416,6 +1429,7 @@ DOMAIN-SUFFIX,adnxs-simple.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,adperium.com,REJECT
 DOMAIN-SUFFIX,adpolestar.net,REJECT
+DOMAIN-SUFFIX,adrecover.com,REJECT
 DOMAIN-SUFFIX,adriver.ru,REJECT
 DOMAIN-SUFFIX,adroll.com,REJECT
 DOMAIN-SUFFIX,adsafeprotected.com,REJECT
@@ -1455,6 +1469,7 @@ DOMAIN-SUFFIX,appier.net,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,applvn.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
+DOMAIN-SUFFIX,aralego.com,REJECT
 DOMAIN-SUFFIX,aralego.com,REJECT
 DOMAIN-SUFFIX,aralego.net,REJECT
 DOMAIN-SUFFIX,atdmt.com,REJECT
@@ -1520,6 +1535,7 @@ DOMAIN-SUFFIX,cn.miaozhen.com,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
 DOMAIN-SUFFIX,cocounion.com,REJECT
 DOMAIN-SUFFIX,codenow.cn,REJECT
+DOMAIN-SUFFIX,connectad.io,REJECT
 DOMAIN-SUFFIX,contextweb.com,REJECT
 DOMAIN-SUFFIX,convergemob.com,REJECT
 DOMAIN-SUFFIX,cpatrk.net,REJECT
@@ -1531,18 +1547,21 @@ DOMAIN-SUFFIX,criteo.com,REJECT
 DOMAIN-SUFFIX,criteo.net,REJECT
 DOMAIN-SUFFIX,crwdcntrl.net,REJECT
 DOMAIN-SUFFIX,csbew.com,REJECT
+DOMAIN-SUFFIX,cskefu.com,REJECT
 DOMAIN-SUFFIX,cslpf.cn,REJECT
 DOMAIN-SUFFIX,ctags.cn,REJECT
 DOMAIN-SUFFIX,cytcm.com,REJECT
 DOMAIN-SUFFIX,dable.io,REJECT
 DOMAIN-SUFFIX,dakawm.cc,REJECT
 DOMAIN-SUFFIX,daoyoudao.com,REJECT
+DOMAIN-SUFFIX,datadoghq.com,REJECT
 DOMAIN-SUFFIX,dedcrfvdj.xyz,REJECT
 DOMAIN-SUFFIX,deecqem892bg5er.com,REJECT
 DOMAIN-SUFFIX,demdex.net,REJECT
 DOMAIN-SUFFIX,dhsz.cn,REJECT
 DOMAIN-SUFFIX,dlads.cn,REJECT
 DOMAIN-SUFFIX,dncvj.cn,REJECT
+DOMAIN-SUFFIX,domainanalyticsapi.com,REJECT
 DOMAIN-SUFFIX,domob.cn,REJECT
 DOMAIN-SUFFIX,domobcdn.com,REJECT
 DOMAIN-SUFFIX,dotmore.com.tw,REJECT
@@ -1565,6 +1584,7 @@ DOMAIN-SUFFIX,enlightent.cn,REJECT
 DOMAIN-SUFFIX,envac-china.com,REJECT
 DOMAIN-SUFFIX,ero-advertising.com,REJECT
 DOMAIN-SUFFIX,everesttech.net,REJECT
+DOMAIN-SUFFIX,exdynsrv.com,REJECT
 DOMAIN-SUFFIX,exdynsrv.com,REJECT
 DOMAIN-SUFFIX,exoclick.com,REJECT
 DOMAIN-SUFFIX,fanli.com,REJECT
@@ -1674,6 +1694,7 @@ DOMAIN-SUFFIX,lwmbc.cn,REJECT
 DOMAIN-SUFFIX,lywdoo.cn,REJECT
 DOMAIN-SUFFIX,madhouse.cn,REJECT
 DOMAIN-SUFFIX,madserving.com,REJECT
+DOMAIN-SUFFIX,mainroll.com,REJECT
 DOMAIN-SUFFIX,manduhu.com,REJECT
 DOMAIN-SUFFIX,mathtag.com,REJECT
 DOMAIN-SUFFIX,mchnad.com,REJECT
@@ -1748,6 +1769,7 @@ DOMAIN-SUFFIX,qlspx.com,REJECT
 DOMAIN-SUFFIX,qtmojo.com,REJECT
 DOMAIN-SUFFIX,quandangdang.net,REJECT
 DOMAIN-SUFFIX,quanfeng.net,REJECT
+DOMAIN-SUFFIX,quantserve.com,REJECT
 DOMAIN-SUFFIX,qumi.com,REJECT
 DOMAIN-SUFFIX,rayjump.com,REJECT
 DOMAIN-SUFFIX,reachmax.cn,REJECT
