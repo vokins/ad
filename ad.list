@@ -1,4 +1,4 @@
-# Update > 22:33 2023/9/3 星期日
+# Update > 23:38 2023/9/4 星期一
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -40,6 +40,11 @@ DOMAIN,lookup.api.bsb.baidu.com,REJECT
 DOMAIN-SUFFIX,urlsec.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
 DOMAIN,www.urlsec.qq.com,REJECT
+#https://ie.sogou.com
+DOMAIN,get.sogou.com,REJECT
+DOMAIN,safe.sogou.com,REJECT
+DOMAIN,cronus.ie.sogou.com,REJECT
+DOMAIN,vinci.ie.sogou.com,REJECT
 #Audio-QQ音乐
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adcdn.tencentmusic.com,REJECT
@@ -1271,7 +1276,6 @@ DOMAIN-SUFFIX,track.sohu.com,REJECT
 DOMAIN,apt2k.sogou.com,REJECT
 DOMAIN,conv.k.sogou.com,REJECT
 DOMAIN,gdt2k.sogou.com,REJECT
-DOMAIN,get.sogou.com,REJECT
 DOMAIN,pb10.sogou.com,REJECT
 DOMAIN,push2k.sogou.com,REJECT
 DOMAIN-SUFFIX,bealge.sogou.com,REJECT
