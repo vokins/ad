@@ -1,4 +1,4 @@
-# Update > 23:38 2023/9/4 星期一
+# Update > 19:22 2023/10/18
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -573,6 +573,7 @@ DOMAIN,stat.moji.com,REJECT
 DOMAIN,v1.log.moji.com,REJECT
 #Tool-彩云
 DOMAIN,ad.caiyunapp.com,REJECT
+DOMAIN,bcd.caiyunapp.com,REJECT
 #Tool-万年历
 DOMAIN,ad.51wnl-cq.com,REJECT
 DOMAIN,adextra.51wnl-cq.com,REJECT
