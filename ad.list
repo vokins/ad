@@ -1,11 +1,10 @@
-# Update > 19:22 2023/10/18
+# Update > 16:31 2023/10/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
 #DOMAIN-KEYWORD
 DOMAIN-KEYWORD,adservices,REJECT
 DOMAIN-KEYWORD,adwords,REJECT
-DOMAIN-KEYWORD,analysis,REJECT
 DOMAIN-KEYWORD,dnserror,REJECT
 DOMAIN-KEYWORD,doubleclick,REJECT
 DOMAIN-KEYWORD,googleads,REJECT
@@ -13,9 +12,6 @@ DOMAIN-KEYWORD,guanggao,REJECT
 DOMAIN-KEYWORD,lianmeng,REJECT
 DOMAIN-KEYWORD,pagead,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
-DOMAIN-KEYWORD,pingfore,REJECT
-DOMAIN-KEYWORD,uedas,REJECT
-DOMAIN-KEYWORD,/ad-app-package/,REJECT
 #第三方APP调用嵌入刷视频:快手 抖音
 DOMAIN,open.e.kuaishou.cn,REJECT
 DOMAIN,open.e.kuaishou.com,REJECT
