@@ -1,4 +1,4 @@
-# Update > 16:45 2023/10/26
+# Update > 16:46 2023/10/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 
@@ -688,8 +688,8 @@ DOMAIN,rhdc-acs.youku.com,REJECT
 DOMAIN,un-acs.youku.com,REJECT
 DOMAIN,yk-ssp.ad.youku.com,REJECT
 DOMAIN,ykad-data.youku.com,REJECT
-DOMAIN,m-vali.cp31.ott.cibntv.net
-DOMAIN,vali-g1.cp31.ott.cibntv.net
+DOMAIN,m-vali.cp31.ott.cibntv.net,REJECT
+DOMAIN,vali-g1.cp31.ott.cibntv.net,REJECT
 #Video-芒果TV
 DOMAIN,recom.api.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
