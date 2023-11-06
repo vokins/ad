@@ -393,6 +393,10 @@ jrkan2023.com##+js(acis, disp_prompt)
 |https://yastatic.net/partner-code-bundles/*.js
 |https://yandex.ru/an/tracking/*
 czzy.art##.mikd
+||metheny.cn^
+||yleopg.cn^
+||modela.cn^ 
+||https://m.lianshubao.com/static/wap/jk*.js*
 
 #sync filter
 # Update > 22:35 2023/9/3 星期日
