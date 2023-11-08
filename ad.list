@@ -1,4 +1,4 @@
-# Update > 0:01 2023/11/9
+# Update > 0:37 2023/11/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -24,6 +24,10 @@ DOMAIN,get.sogou.com
 DOMAIN,safe.sogou.com
 DOMAIN,cronus.ie.sogou.com
 DOMAIN,vinci.ie.sogou.com
+#UCWEB
+DOMAIN,adtrack.ucweb.com
+DOMAIN,safe.ucweb.com
+DOMAIN-SUFFIX,u3.ucweb.com
 #3rdPage-页面插入-第三方APP调用嵌入刷视频:快手 抖音
 DOMAIN,open.e.kuaishou.cn
 DOMAIN,open.e.kuaishou.com
@@ -141,6 +145,7 @@ DOMAIN-KEYWORD,applog-hl.fqnovel.com
 DOMAIN-KEYWORD,applog-lq.fqnovel.com
 DOMAIN-KEYWORD,applog.fqnovel.com
 DOMAIN-KEYWORD,novelapp.fqnovelvod.com
+DOMAIN-KEYWORD,applog.novelfm.com
 DOMAIN-KEYWORD,applog-lf.ixigua.com
 #Book-疯读小说
 DOMAIN,ws2.fengdunovel.com
@@ -164,6 +169,7 @@ DOMAIN,ut2.shuqistat.com
 DOMAIN,adapi.cread.com
 #Book-七猫（梧桐中文）
 DOMAIN,cdn-ad.wtzw.com
+DOMAIN,cdn-new-ad.wtzw.com
 DOMAIN,a-qmad.qimao.com
 DOMAIN,a-qmad.qm989.com
 DOMAIN,t-qmad.qm989.com
@@ -240,6 +246,7 @@ DOMAIN,haelm16j.autohome.com.cn
 DOMAIN,pvx.autohome.com.cn
 DOMAIN,rd.autohome.com.cn
 DOMAIN,rdx.autohome.com.cn
+DOMAIN,salesleads.autohome.com.cn
 DOMAIN,szocfjv3.autohome.com.cn
 DOMAIN,twypgj2o.autohome.com.cn
 #Car-易车
@@ -976,8 +983,7 @@ DOMAIN,youku-acs.m.taobao.com
 DOMAIN,mamasearchad.cloudvideocdn.taobao.com
 DOMAIN-SUFFIX,simba.taobao.com
 #Ali-UC
-DOMAIN,adtrack.ucweb.com
-DOMAIN,safe.ucweb.com
+DOMAIN,applog-perf.uc.cn
 DOMAIN,applog.uc.cn
 DOMAIN,applogios.uc.cn
 DOMAIN,feedback.uc.cn
@@ -1165,6 +1171,7 @@ DOMAIN,vcl-brain.snssdk.com
 #Bytedance-zijieapi
 DOMAIN,ad.zijieapi.com
 DOMAIN,ads3-normal-hl.zijieapi.com
+DOMAIN,ads3-normal.zijieapi.com
 DOMAIN,ads5-normal-hl.zijieapi.com
 DOMAIN,ads5-normal-lq.zijieapi.com
 DOMAIN,ads5-normal.zijieapi.com
@@ -1179,6 +1186,7 @@ DOMAIN,mssdk.zijieapi.com
 DOMAIN,mssdk3-normal-hl.zijieapi.com
 DOMAIN,mssdk3-normal-lf.zijieapi.com
 DOMAIN,mssdk5-normal.zijieapi.com
+DOMAIN,mssdk5-normal-lf.zijieapi.com
 DOMAIN,polaris.zijieapi.com
 DOMAIN,polaris3-normal-hl.zijieapi.com
 DOMAIN,tnc1-bjlgy.zijieapi.com
