@@ -1,4 +1,4 @@
-# Update > 0:37 2023/11/9
+# Update > 1:08 2023/11/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -499,6 +499,7 @@ DOMAIN,ads-img-qc.xhscdn.com
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-video-qc.xhscdn.com
 DOMAIN,crash.xiaohongshu.com
+DOMAIN,spider-tracker.xiaohongshu.com
 #SNS-搞笑段子
 DOMAIN,ad.rhinox.cn
 #SNS-最右/皮皮搞笑
@@ -701,8 +702,10 @@ DOMAIN,rhdc-acs.youku.com
 DOMAIN,un-acs.youku.com
 DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,ykad-data.youku.com
+DOMAIN,f-vali.cp31.ott.cibntv.net
 DOMAIN,m-vali.cp31.ott.cibntv.net
 DOMAIN,vali-g1.cp31.ott.cibntv.net
+DOMAIN,h-adashx.ut.taobao.com
 #Video-芒果TV
 DOMAIN,collect.bz.mgtv.com
 DOMAIN,collect3.bz.mgtv.com
