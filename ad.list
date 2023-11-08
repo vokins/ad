@@ -1,5 +1,5 @@
-# Update > 23:26 2023/11/8
-# https://raw.githubusercontent.com/vokins/ad/main/ad.list
+# Update > 23:45 2023/11/8
+# https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
 # https://raw.githubusercontent.com/vokins/ad/main/qx.list
@@ -697,17 +697,34 @@ DOMAIN,ykad-data.youku.com
 DOMAIN,m-vali.cp31.ott.cibntv.net
 DOMAIN,vali-g1.cp31.ott.cibntv.net
 #Video-芒果TV
+DOMAIN,collect3.bz.mgtv.com
+DOMAIN,credits.bz.mgtv.com
+DOMAIN,credits2.bz.mgtv.com
+DOMAIN,credits3.bz.mgtv.com
+DOMAIN,encounter.bz.mgtv.com
+DOMAIN,fantuan.bz.mgtv.com
+DOMAIN,fantuan2.bz.mgtv.com
+DOMAIN,fantuan3.bz.mgtv.com
+DOMAIN,floor.bz.mgtv.com
+DOMAIN,galaxy.bz.mgtv.com
+DOMAIN,galaxy2.bz.mgtv.com
+DOMAIN,galaxy3.bz.mgtv.com
+DOMAIN,layer.bz.mgtv.com
+DOMAIN,rprain.bz.mgtv.com
+DOMAIN,upload-ugc.bz.mgtv.com
+DOMAIN,vip.bz.mgtv.com
+DOMAIN,vod-box.bz.mgtv.com
+DOMAIN,crash.data.v2.mgtv.com
 DOMAIN,recom.api.mgtv.com
-DOMAIN,collect3.bz.mgtv.com,REJECT
-DOMAIN,credits.bz.mgtv.com,REJECT
-DOMAIN,credits2.bz.mgtv.com,REJECT
-DOMAIN,credits3.bz.mgtv.com,REJECT
-DOMAIN,encounter.bz.mgtv.com,REJECT
-DOMAIN,galaxy2.bz.mgtv.com,REJECT
-DOMAIN,galaxy3.bz.mgtv.com,REJECT
-DOMAIN,vip.bz.mgtv.com,REJECT
+DOMAIN,m.ecom.mgtv.com
+DOMAIN,h5.ecom.mgtv.com
+DOMAIN,ecompic0.hitv.com
+DOMAIN,ecompic1.hitv.com
+DOMAIN,ecompic2.hitv.com
+DOMAIN,ecompic3.hitv.com
 DOMAIN-SUFFIX,da.mgtv.com
 DOMAIN-SUFFIX,log.mgtv.com
+DOMAIN-SUFFIX,log.hunantv.com
 DOMAIN-SUFFIX,da.hunantv.com
 #Video-TVB
 DOMAIN-SUFFIX,ads.tvb.com
