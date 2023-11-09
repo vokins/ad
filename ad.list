@@ -1,4 +1,4 @@
-# Update > 13:40 2023/11/9
+# Update > 16:28 2023/11/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -100,6 +100,8 @@ DOMAIN,trackercdnbj.kugou.com
 #Audio-考拉听
 DOMAIN,track.audiobuy.cc
 DOMAIN,engine.audiobuy.cc
+#Audio-儿歌点点
+DOMAIN,log.ergediandian.com
 #Audio-Tidal
 DOMAIN,sp-ad-cf.audio.tidal.com
 #Audio-FM-喜马拉雅
@@ -132,6 +134,8 @@ DOMAIN,display.wting.info
 DOMAIN,hadvert.mting.info
 #Audio-FM-云听
 DOMAIN,report.radio.cn
+#Book-多看阅读
+DOMAIN,sensorsdata2.read.duokan.com
 #Book-阅文-小说阅读网 创世中文网 云起书院 红袖添香 小说阅读网 言情小说吧 潇湘书院 榕树下 小说网 天方听书网 阅文悦读 作家助手
 DOMAIN,qdp.readnovel.com
 #Book-阅文-起点
@@ -214,8 +218,9 @@ DOMAIN,bc-ad-vod.zdmimg.com
 DOMAIN,s2.zdmimg.com
 DOMAIN,s3.zdmimg.com
 #Buy-得物
-DOMAIN,client-log.poizon.com
+DOMAIN,app-log.dewu.com
 DOMAIN,sensors.dewu.com
+DOMAIN,client-log.poizon.com
 #Buy-苏宁
 DOMAIN,log.suning.com
 #Cam-美人相机
@@ -259,12 +264,14 @@ DOMAIN,applogm.yiche.com
 DOMAIN,log.ycapp.yiche.com
 DOMAIN,rc-logc.yiche.com
 DOMAIN,tracker.yiche.com
+DOMAIN,log.yccdn.com
 #Car-Xcar
 DOMAIN,dw.xcar.com.cn
 DOMAIN,jcmonitor.xcar.com.cn
 DOMAIN,pvx.xcar.com.cn
 DOMAIN,zio.xcar.com.cn
 #Car-瓜子
+DOMAIN,apmreport.guazi.com
 DOMAIN,growth-tracker.guazi.com
 #EDU-百词斩
 DOMAIN,advertise.baicizhan.com
@@ -306,6 +313,7 @@ DOMAIN,channel-analysis-js.gmw.cn
 #News-澎湃新闻
 DOMAIN,adpai.thepaper.cn
 DOMAIN,applog.thepaper.cn
+DOMAIN,applogs.thepaper.cn
 #News-观察者
 DOMAIN,sc.guancha.cn
 #News-环球网
@@ -335,7 +343,6 @@ DOMAIN,ztyumn.ifeng.com
 DOMAIN,bdfpbimg.ifengimg.com
 DOMAIN,c0.ifengimg.com
 DOMAIN,c1.ifengimg.com
-DOMAIN,x0.ifengimg.com
 #News-ETtoday新聞雲
 DOMAIN,ad.ettoday.net
 DOMAIN,ad1.ettoday.net
@@ -933,10 +940,13 @@ DOMAIN,yp.ws.126.net
 DOMAIN,yt-adp.ws.126.net
 DOMAIN-SUFFIX,da.netease.com
 DOMAIN,vmonitor.ws.netease.com
+#163-有道
+DOMAIN,ad-sdk-config.youdao.com
 DOMAIN,conv.youdao.com
 DOMAIN,dsp-impr2.youdao.com
 DOMAIN,gorgon.youdao.com
 DOMAIN,log-yex.youdao.com
+DOMAIN,rlogs.youdao.com
 DOMAIN-SUFFIX,clkservice.youdao.com
 DOMAIN-SUFFIX,corp.youdao.com
 DOMAIN-SUFFIX,union.youdao.com
@@ -1143,6 +1153,11 @@ DOMAIN-SUFFIX,tosv.boe.byted.org
 DOMAIN-SUFFIX,tosv.byted.org
 DOMAIN-SUFFIX,csjplatform.com
 DOMAIN-SUFFIX,oceanengine.com
+#Bytedance-amemv
+DOMAIN,log0-misc-alinc2.amemv.com
+DOMAIN,log3-misc-lq.amemv.com
+DOMAIN,log5-misc-lq.amemv.com
+DOMAIN,mon11-misc-lq.amemv.com
 #Bytedance-Others
 DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN,lf1-cdn-tos.bytegoofy.com
@@ -1201,7 +1216,10 @@ DOMAIN-SUFFIX,pangolin.snssdk.com
 DOMAIN-SUFFIX,sdfp.snssdk.com
 DOMAIN-SUFFIX,toblog.snssdk.com
 DOMAIN,analytics.snssdk.com
+DOMAIN,aweme.snssdk.com
 DOMAIN,haohuo.snssdk.com
+DOMAIN,i-lq.snssdk.com
+DOMAIN,ib.snssdk.com
 DOMAIN,lf.snssdk.com
 DOMAIN,log.snssdk.com
 DOMAIN,mcs.snssdk.com
@@ -1236,6 +1254,8 @@ DOMAIN,mssdk.zijieapi.com
 DOMAIN,polaris.zijieapi.com
 DOMAIN,starkgame.zijieapi.com
 DOMAIN,view.zijieapi.com
+DOMAIN,vcs.zijieapi.com
+DOMAIN,abtest3-misc-lq.zijieapi.com
 DOMAIN,abtest5-misc-hl.zijieapi.com
 DOMAIN,ads3-normal-hl.zijieapi.com
 DOMAIN,ads3-normal.zijieapi.com
@@ -1243,6 +1263,7 @@ DOMAIN,ads5-normal-hl.zijieapi.com
 DOMAIN,ads5-normal-lq.zijieapi.com
 DOMAIN,ads5-normal.zijieapi.com
 DOMAIN,bsync5-normal-lf.zijieapi.com
+DOMAIN,ma5-normal-lq.zijieapi.com
 DOMAIN,minigame3-normal.zijieapi.com
 DOMAIN,minigame5-normal-hl.zijieapi.com
 DOMAIN,minigame5-normal-lq.zijieapi.com
@@ -1253,6 +1274,7 @@ DOMAIN,mssdk3-normal-lf.zijieapi.com
 DOMAIN,mssdk5-normal-lf.zijieapi.com
 DOMAIN,mssdk5-normal.zijieapi.com
 DOMAIN,polaris3-normal-hl.zijieapi.com
+DOMAIN,polaris3-normal-lq.zijieapi.com
 DOMAIN,tnc1-bjlgy.zijieapi.com
 DOMAIN,tnc11-aliec2.zijieapi.com
 DOMAIN,tnc11-alisc1.zijieapi.com
@@ -1362,35 +1384,33 @@ DOMAIN-SUFFIX,inte.sogoucdn.com
 DOMAIN-SUFFIX,lu.sogoucdn.com
 DOMAIN-SUFFIX,theta.sogoucdn.com
 #Tencent-QQ
-DOMAIN,ad.qq.com
-DOMAIN,ads.privacy.qq.com
 DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
-DOMAIN,ios.rqd.qq.com
-DOMAIN,analytics.map.qq.com
-#DOMAIN-SUFFIX,mdt.qq.com
+DOMAIN-KEYWORD,variety.tc.qq.com
 DOMAIN,ad.browser.qq.com
+DOMAIN,ad.qq.com
+DOMAIN,ads.privacy.qq.com
+DOMAIN,analytics.map.qq.com
 DOMAIN,dp3.qq.com
 DOMAIN,h.trace.qq.com
 DOMAIN,hc.tdm.qq.com
+DOMAIN,ios.rqd.qq.com
 DOMAIN,jpush.html5.qq.com
 DOMAIN,logsdk.qq.com
-DOMAIN,mazu.m.qq.com
-DOMAIN,tmfmazu.m.qq.com
 DOMAIN,masdkv6.3g.qq.com
+DOMAIN,mazu.m.qq.com
+DOMAIN,rdelivery.qq.com
 DOMAIN,report.qqweb.qq.com
 DOMAIN,tdid.m.qq.com
+DOMAIN,tmfmazu.m.qq.com
 DOMAIN,tpush.html5.qq.com
-DOMAIN,sdk.e.qq.com
-DOMAIN,tangram.e.qq.com
+DOMAIN,wxa.wxs.qq.com
 DOMAIN,wxsnsdy.tc.qq.com
 DOMAIN,wxsnsdy.video.qq.com
-DOMAIN,wxa.wxs.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
-DOMAIN-KEYWORD,variety.tc.qq.com
 #Tencent-QQ-Upload
 DOMAIN,aeventlog.beacon.qq.com
 DOMAIN,android.bugly.qq.com
