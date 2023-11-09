@@ -1,4 +1,4 @@
-# Update > 11:31 2023/11/9
+# Update > 13:27 2023/11/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -29,10 +29,12 @@ DOMAIN,adtrack.ucweb.com
 DOMAIN,safe.ucweb.com
 DOMAIN-SUFFIX,u3.ucweb.com
 #3rdPage-页面插入-第三方APP调用嵌入刷视频:快手 抖音
-DOMAIN,open.e.kuaishou.cn
-DOMAIN,open.e.kuaishou.com
-DOMAIN,promotion-partner.kuaishou.com
-DOMAIN,mercury-sdk.snssdk.com
+DOMAIN-SUFFIX,open.e.kuaishou.cn
+DOMAIN-SUFFIX,open.e.kuaishou.com
+DOMAIN-SUFFIX,open.kwaizt.com
+DOMAIN-SUFFIX,open.kuaishouzt.com
+DOMAIN-SUFFIX,promotion-partner.kuaishou.com
+DOMAIN-SUFFIX,mercury-sdk.snssdk.com
 #3rdPage-页面插入
 DOMAIN-SUFFIX,imp-toutiao-data.37.com.cn
 #3rdPage-页面插入-东方资讯-mini.eastday.com
@@ -188,9 +190,14 @@ DOMAIN,video-dsp.pddpic.com
 #Buy-美团
 DOMAIN,analytics.meituan.net
 DOMAIN,adgame.waimai.meituan.com
+DOMAIN,mtvod.meituan.net
+DOMAIN-SUFFIX,d.meituan.net
 DOMAIN-SUFFIX,dreport.meituan.net
 DOMAIN-SUFFIX,hreport.meituan.com
 DOMAIN-SUFFIX,report.meituan.com
+DOMAIN-KEYWORD,-flv.meituan.net
+DOMAIN-KEYWORD,-hls.meituan.net
+DOMAIN-KEYWORD,-rtmp.meituan.net
 #Finance-95516
 DOMAIN,ads.95516.com
 #Finance-建设银行
@@ -948,6 +955,7 @@ DOMAIN-SUFFIX,alimama.com
 DOMAIN-SUFFIX,umeng.co
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,umenglog.com
 DOMAIN-SUFFIX,shujupie.com
 DOMAIN-SUFFIX,alipaylog.com
 DOMAIN,ssp-partner.alibaba.com
@@ -1684,6 +1692,7 @@ DOMAIN-SUFFIX,hdazs.xyz
 DOMAIN-SUFFIX,hdyxc.com
 DOMAIN-SUFFIX,heige.wang
 DOMAIN-SUFFIX,henzanapp.com
+DOMAIN-SUFFIX,hiaiabc.com
 DOMAIN-SUFFIX,hiido.com
 DOMAIN-SUFFIX,histats.com
 DOMAIN-SUFFIX,hitslink.com
