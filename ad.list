@@ -1,4 +1,4 @@
-# Update > 11:10 2023/11/9
+# Update > 11:31 2023/11/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -1120,19 +1120,30 @@ DOMAIN-SUFFIX,dxmpay.com
 DOMAIN-SUFFIX,dxmstatic.com
 DOMAIN-SUFFIX,paydxm.com
 #Bytedance
+DOMAIN-SUFFIX,dm.bytedance.com
+DOMAIN-SUFFIX,mssdk.bytedance.com
+DOMAIN,mssdk-bu.bytedance.com
+DOMAIN,tnc3-alisc1.bytedance.com
+DOMAIN,tnc3-bjlgy.bytedance.com
 DOMAIN-KEYWORD,adbrand.byteimg.com
 DOMAIN-KEYWORD,ad-sign.byteimg.com
 DOMAIN-KEYWORD,analytics.bytescm.com
-DOMAIN-SUFFIX,dm.bytedance.com
-DOMAIN-SUFFIX,mssdk.bytedance.com
+DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN-SUFFIX,tosv.boe.byted.org
 DOMAIN-SUFFIX,tosv.byted.org
+DOMAIN-SUFFIX,csjplatform.com
+DOMAIN-SUFFIX,oceanengine.com
+#Bytedance-Others
 DOMAIN-SUFFIX,dig.bdurl.net
-DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf1-cdn-tos.bytegoofy.com
-DOMAIN,mssdk-bu.bytedance.com
 DOMAIN,mssdk.volces.com
-DOMAIN,tnc3-bjlgy.bytedance.com
+#Bytedance-TikTok
+DOMAIN,pangolin16.sgsnssdk.com
+DOMAIN,tnc16-alisg.isnssdk.com
+DOMAIN,toblog.tobsnssdk.com
+DOMAIN,sf-tb-sg.ibytedtos.com
+DOMAIN,sf16-static.i18n-pglstatp.com
+DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com
 #Bytedance-pstatp
 DOMAIN-SUFFIX,dm.pstatp.com
 DOMAIN-SUFFIX,pb3.pstatp.com
@@ -1182,29 +1193,32 @@ DOMAIN-SUFFIX,toblog.snssdk.com
 DOMAIN,analytics.snssdk.com
 DOMAIN,haohuo.snssdk.com
 DOMAIN,lf.snssdk.com
-DOMAIN,log-hl.snssdk.com
 DOMAIN,log.snssdk.com
 DOMAIN,mcs.snssdk.com
 DOMAIN,mon.snssdk.com
-DOMAIN,mssdk-bu.snssdk.com
 DOMAIN,mssdk.snssdk.com
 DOMAIN,smr.snssdk.com
 DOMAIN,tbm.snssdk.com
 DOMAIN,ug.snssdk.com
-DOMAIN,vas-lf-x.snssdk.com
-DOMAIN,vcl-brain.snssdk.com
+DOMAIN,vcs.snssdk.com
+DOMAIN,abtest-ch.snssdk.com
 DOMAIN,aweme-hl.snssdk.com
 DOMAIN,gecko-hl.snssdk.com
 DOMAIN,gecko-pangle-hl.snssdk.com
 DOMAIN,gecko-pangle-lf.snssdk.com
 DOMAIN,gecko-pangle-lq.snssdk.com
+DOMAIN,log-hl.snssdk.com
+DOMAIN,mssdk-bu.snssdk.com
 DOMAIN,tnc3-aliec2.snssdk.com
 DOMAIN,tnc3-alisc1.snssdk.com
 DOMAIN,tnc3-bjlgy.snssdk.com
+DOMAIN,vas-lf-x.snssdk.com
+DOMAIN,vcl-brain.snssdk.com
 #Bytedance-zijieapi
 DOMAIN,ad.zijieapi.com
 DOMAIN,applog.zijieapi.com
 DOMAIN,feedback-c.zijieapi.com
+DOMAIN,gecko.zijieapi.com
 DOMAIN,log.zijieapi.com
 DOMAIN,mcs.zijieapi.com
 DOMAIN,mon.zijieapi.com
@@ -1239,15 +1253,6 @@ DOMAIN,tnc3-alisc1.zijieapi.com
 DOMAIN,tnc3-bjlgy.zijieapi.com
 DOMAIN,tnc4-bjlgy.zijieapi.com
 DOMAIN,tnc5-bjlgy.zijieapi.com
-#Bytedance-TikTok
-DOMAIN,pangolin16.sgsnssdk.com
-DOMAIN,tnc16-alisg.isnssdk.com
-DOMAIN,toblog.tobsnssdk.com
-DOMAIN,sf-tb-sg.ibytedtos.com
-DOMAIN,sf16-static.i18n-pglstatp.com
-DOMAIN,sf19-fe-tos-sg.i18n-pglstatp.com
-DOMAIN-SUFFIX,csjplatform.com
-DOMAIN-SUFFIX,oceanengine.com
 #Google
 DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,device-provisioning.googleapis.com
