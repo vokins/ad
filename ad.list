@@ -1,4 +1,4 @@
-# Update > 16:28 2023/11/9
+# Update > 17:40 2023/11/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -498,7 +498,6 @@ DOMAIN,yes1.feng.com
 DOMAIN,at3.doubanio.com
 DOMAIN,at4.doubanio.com
 DOMAIN,erebor.douban.com
-DOMAIN,frodo.douban.com
 DOMAIN,qnmob3.doubanio.com
 #SNS-知乎
 DOMAIN,apm.zhihu.com
@@ -604,6 +603,9 @@ DOMAIN,client-dmp.suishenyun.cn
 DOMAIN,ads.weilitoutiao.net
 DOMAIN,ad.fhtre.com
 DOMAIN,ad.huazirc.com
+#Tool-智谱清言
+DOMAIN,analysis.chatglm.cn
+DOMAIN,log.aispeech.com
 #Tool-WiFi共享大师
 DOMAIN,nochange.ggsafe.com
 DOMAIN,sdkstat.ggsafe.com
@@ -657,6 +659,8 @@ DOMAIN,tj1.youzan.com
 DOMAIN,tj.youzanyun.com
 #Trip-航旅纵横
 DOMAIN,analytics.umetrip.com
+#Trip-同程旅行
+DOMAIN,vstlog.17usoft.com
 #Trip-高德地图
 DOMAIN,dualstack-logs.amap.com
 DOMAIN,logs.amap.com
@@ -1147,6 +1151,7 @@ DOMAIN,tnc3-alisc1.bytedance.com
 DOMAIN,tnc3-bjlgy.bytedance.com
 DOMAIN-KEYWORD,adbrand.byteimg.com
 DOMAIN-KEYWORD,ad-sign.byteimg.com
+DOMAIN,p1-dpa.byteimg.com
 DOMAIN-KEYWORD,analytics.bytescm.com
 DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN-SUFFIX,tosv.boe.byted.org
@@ -1189,6 +1194,7 @@ DOMAIN-SUFFIX,mon.toutiao.com
 DOMAIN,zhanzhang.toutiao.com
 DOMAIN,mon.toutiaocloud.com
 DOMAIN,mon.toutiaocloud.net
+DOMAIN,log3-normal-lq.toutiaoapi.com
 #Bytedance-番茄小说
 DOMAIN-KEYWORD,applog-hl.fqnovel.com
 DOMAIN-KEYWORD,applog-lq.fqnovel.com
@@ -1263,6 +1269,7 @@ DOMAIN,ads5-normal-hl.zijieapi.com
 DOMAIN,ads5-normal-lq.zijieapi.com
 DOMAIN,ads5-normal.zijieapi.com
 DOMAIN,bsync5-normal-lf.zijieapi.com
+DOMAIN,gecko5-lq.zijieapi.com
 DOMAIN,ma5-normal-lq.zijieapi.com
 DOMAIN,minigame3-normal.zijieapi.com
 DOMAIN,minigame5-normal-hl.zijieapi.com
@@ -1271,6 +1278,7 @@ DOMAIN,minigame5-normal.zijieapi.com
 DOMAIN,mon11-misc-lf.zijieapi.com
 DOMAIN,mssdk3-normal-hl.zijieapi.com
 DOMAIN,mssdk3-normal-lf.zijieapi.com
+DOMAIN,mssdk3-normal-lq.zijieapi.com
 DOMAIN,mssdk5-normal-lf.zijieapi.com
 DOMAIN,mssdk5-normal.zijieapi.com
 DOMAIN,polaris3-normal-hl.zijieapi.com
