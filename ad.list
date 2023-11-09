@@ -1,4 +1,4 @@
-# Update > 13:27 2023/11/9
+# Update > 13:32 2023/11/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -1366,8 +1366,8 @@ DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
-DOMAIN,p.l.qq.com
-DOMAIN,us.l.qq.com
+DOMAIN,ios.rqd.qq.com
+DOMAIN,analytics.map.qq.com
 #DOMAIN-SUFFIX,mdt.qq.com
 DOMAIN,ad.browser.qq.com
 DOMAIN,dp3.qq.com
@@ -1376,6 +1376,7 @@ DOMAIN,hc.tdm.qq.com
 DOMAIN,jpush.html5.qq.com
 DOMAIN,logsdk.qq.com
 DOMAIN,mazu.m.qq.com
+DOMAIN,tmfmazu.m.qq.com
 DOMAIN,masdkv6.3g.qq.com
 DOMAIN,report.qqweb.qq.com
 DOMAIN,tdid.m.qq.com
@@ -1401,7 +1402,6 @@ DOMAIN,othstr.beacon.qq.com
 DOMAIN,pingma.qq.com
 DOMAIN,qqdata.ab.qq.com
 DOMAIN,tpstelemetry.tencent.com
-#腾讯移动推送 ios有系统级别推送不需要
 DOMAIN-SUFFIX,tpns.tencent.com
 #Tencent-gdt
 DOMAIN,adsmind.ugdtimg.com
