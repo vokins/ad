@@ -1,4 +1,4 @@
-# Update > 13:32 2023/11/9
+# Update > 13:40 2023/11/9
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -188,8 +188,9 @@ DOMAIN,adim.pinduoduo.com
 DOMAIN,t-dsp.pinduoduo.com
 DOMAIN,video-dsp.pddpic.com
 #Buy-美团
-DOMAIN,analytics.meituan.net
 DOMAIN,adgame.waimai.meituan.com
+DOMAIN,analytics.meituan.net
+DOMAIN,appsec-mobile.meituan.com
 DOMAIN,mtvod.meituan.net
 DOMAIN-SUFFIX,d.meituan.net
 DOMAIN-SUFFIX,dreport.meituan.net
@@ -198,6 +199,7 @@ DOMAIN-SUFFIX,report.meituan.com
 DOMAIN-KEYWORD,-flv.meituan.net
 DOMAIN-KEYWORD,-hls.meituan.net
 DOMAIN-KEYWORD,-rtmp.meituan.net
+DOMAIN,shark.dianping.com
 #Finance-95516
 DOMAIN,ads.95516.com
 #Finance-建设银行
