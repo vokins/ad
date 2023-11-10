@@ -1,4 +1,4 @@
-# Update > 18:10 2023/11/9
+# Update > 22:23 2023/11/10
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -1025,6 +1025,7 @@ DOMAIN,applogios.uc.cn
 DOMAIN,feedback.uc.cn
 DOMAIN,hcadv.video.ums.uc.cn
 DOMAIN,track.uc.cn
+DOMAIN,px.ucweb.com
 DOMAIN,c.sm.cn
 DOMAIN,huichuan.sm.cn
 DOMAIN,huichuan-mc.sm.cn
@@ -1152,6 +1153,7 @@ DOMAIN-SUFFIX,dm.bytedance.com
 DOMAIN-SUFFIX,mssdk.bytedance.com
 DOMAIN,mssdk-bu.bytedance.com
 DOMAIN,tnc3-alisc1.bytedance.com
+DOMAIN,tnc3-aliec2.bytedance.com
 DOMAIN,tnc3-bjlgy.bytedance.com
 DOMAIN-KEYWORD,adbrand.byteimg.com
 DOMAIN-KEYWORD,ad-sign.byteimg.com
