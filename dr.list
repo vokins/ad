@@ -1,16 +1,28 @@
-# Update > 23:52 2023/11/8
+# Update > 22:22 2023/11/10
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
 # 白名单
+#youku
+DOMAIN,valipl10.cp31.ott.cibntv.net
 
 #芒果TV
 DOMAIN,dc2.bz.mgtv.com
+
 #影响什么值得买跳转到京东app
 DOMAIN,dg.k.jd.com
+
+#凤凰网图片加载不全
+DOMAIN,x0.ifengimg.com
+
+#豆瓣精选无法加载
+DOMAIN,frodo.douban.com
+
+#番茄小说
+DOMAIN,ug.snssdk.com
+
 DOMAIN,b.zhuishushenqi.com
 DOMAIN,shared.ydstatic.com
-DOMAIN,ug.snssdk.com
 DOMAIN,g3.letv.com
 DOMAIN,n.mark.letv.com
 DOMAIN,lf1-cdn-tos.bytegoofy.com
@@ -50,9 +62,7 @@ DOMAIN,i.snssdk.com
 DOMAIN,ib-hl.snssdk.com
 DOMAIN,liangcang-material.alicdn.com
 DOMAIN,log.kuwo.cn
-DOMAIN,log.snssdk.com
 DOMAIN,mgxhtj.kuwo.cn
-DOMAIN,sf3-ttcdn-tos.pstatp.com
 DOMAIN,sf6-ttcdn-tos.pstatp.com
 DOMAIN,tpstelemetry.tencent.com
 DOMAIN,w1.hoopchina.com.cn
@@ -63,6 +73,7 @@ DOMAIN-SUFFIX,manmeng168.com
 # 微信
 DOMAIN-SUFFIX,weixin.qq.com.cn
 DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,weixinbridge.com
 # WeChat
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,wechat.com
