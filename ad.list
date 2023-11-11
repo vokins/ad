@@ -1,4 +1,4 @@
-# Update > 11:58 2023/11/11
+# Update > 20:31 2023/11/11
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -262,8 +262,12 @@ DOMAIN,adx.yiche.com
 DOMAIN,applog.yiche.com
 DOMAIN,applogm.yiche.com
 DOMAIN,log.ycapp.yiche.com
+DOMAIN,ptyw.yiche.com
 DOMAIN,rc-logc.yiche.com
 DOMAIN,tracker.yiche.com
+DOMAIN,umdg-tencent.yiche.com
+DOMAIN,ya.yiche.com
+DOMAIN,wraksbepjv-1.bitautoimg.com
 DOMAIN,log.yccdn.com
 #Car-Xcar
 DOMAIN,dw.xcar.com.cn
@@ -830,8 +834,11 @@ DOMAIN,gdfp.gifshow.com
 DOMAIN,gdfpsec.gifshow.com
 DOMAIN,log-sdk.gifshow.com
 DOMAIN,ulog-sdk.gifshow.com
+DOMAIN,ulogs1.gifshow.com
+DOMAIN,ulogs2.gifshow.com
 DOMAIN,wlog.kuaishou.com
 DOMAIN,log-sdk.ksapisrv.com
+DOMAIN,ulogs2.ksapisrv.com
 DOMAIN-SUFFIX,push.yximgs.com
 DOMAIN,ali-ad.a.yximgs.com
 DOMAIN,bd-adaptive.pull.yximgs.com
@@ -918,6 +925,7 @@ DOMAIN,api.installer.xiaomi.com
 #OS-MicroSoft
 DOMAIN-SUFFIX,events.data.microsoft.com
 DOMAIN-SUFFIX,telemetry.microsoft.com
+DOMAIN-SUFFIX,dsp.mp.microsoft.com
 DOMAIN,telemetry.api.swiftkey.com
 #OS-Oppo
 DOMAIN-SUFFIX,ads.oppomobile.com
@@ -1502,7 +1510,6 @@ DOMAIN-SUFFIX,71360.com
 DOMAIN-SUFFIX,77nnv9.xyz
 DOMAIN-SUFFIX,7box.vip
 DOMAIN-SUFFIX,7clink.com
-DOMAIN-SUFFIX,HOSTanalyticsapi.com
 DOMAIN-SUFFIX,a-mx.com
 DOMAIN-SUFFIX,a2tw6yoodsag.com
 DOMAIN-SUFFIX,aaliyaheartha.com
@@ -1583,6 +1590,7 @@ DOMAIN-SUFFIX,appboy.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,appcha.net
 DOMAIN-SUFFIX,appier.net
+DOMAIN-SUFFIX,applk.cn
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,appsflyer.com
@@ -1691,7 +1699,6 @@ DOMAIN-SUFFIX,dui88.com
 DOMAIN-SUFFIX,duiba.com.cn
 DOMAIN-SUFFIX,duomai.com
 DOMAIN-SUFFIX,duomeng.cn
-DOMAIN-SUFFIX,dutils.com
 DOMAIN-SUFFIX,dxpmedia.com
 DOMAIN-SUFFIX,ehuangjiao.com
 DOMAIN-SUFFIX,elmahulda.com
@@ -1743,6 +1750,7 @@ DOMAIN-SUFFIX,histats.com
 DOMAIN-SUFFIX,hitslink.com
 DOMAIN-SUFFIX,hjikv.cc
 DOMAIN-SUFFIX,hokeyness.top
+DOMAIN-SUFFIX,hostanalyticsapi.com
 DOMAIN-SUFFIX,hot-mob.com
 DOMAIN-SUFFIX,hotjar.com
 DOMAIN-SUFFIX,httpool.com
