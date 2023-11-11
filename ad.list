@@ -1,4 +1,4 @@
-# Update > 10:58 2023/11/11
+# Update > 11:58 2023/11/11
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -1155,6 +1155,7 @@ DOMAIN,mssdk-bu.bytedance.com
 DOMAIN,tnc3-alisc1.bytedance.com
 DOMAIN,tnc3-aliec2.bytedance.com
 DOMAIN,tnc3-bjlgy.bytedance.com
+DOMAIN,pitaya.bytedance.com
 DOMAIN-KEYWORD,adbrand.byteimg.com
 DOMAIN-KEYWORD,ad-sign.byteimg.com
 DOMAIN,p1-dpa.byteimg.com
@@ -1172,7 +1173,6 @@ DOMAIN,mon11-misc-lq.amemv.com
 #Bytedance-Others
 DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN,lf1-cdn-tos.bytegoofy.com
-DOMAIN,mssdk.volces.com
 #Bytedance-TikTok
 DOMAIN,pangolin16.sgsnssdk.com
 DOMAIN,tnc16-alisg.isnssdk.com
@@ -1187,6 +1187,8 @@ DOMAIN-SUFFIX,s3a.pstatp.com
 DOMAIN-SUFFIX,sf1-scmcdn-tos.pstatp.com
 DOMAIN-SUFFIX,sf1-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com
+DOMAIN,sf1-pitaya-tos.pstatp.com
+DOMAIN,sf3-pitaya-tos.pstatp.com
 #Bytedance-今日头条
 DOMAIN-SUFFIX,pangolin-dsp-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
@@ -1264,17 +1266,23 @@ DOMAIN,mon.zijieapi.com
 DOMAIN,mssdk.zijieapi.com
 DOMAIN,polaris.zijieapi.com
 DOMAIN,starkgame.zijieapi.com
-DOMAIN,view.zijieapi.com
+DOMAIN,timon.zijieapi.com
 DOMAIN,vcs.zijieapi.com
+DOMAIN,view.zijieapi.com
 DOMAIN,abtest3-misc-lq.zijieapi.com
 DOMAIN,abtest5-misc-hl.zijieapi.com
+DOMAIN,abtest5-misc.zijieapi.com
 DOMAIN,ads3-normal-hl.zijieapi.com
+DOMAIN,ads3-normal-lq.zijieapi.com
 DOMAIN,ads3-normal.zijieapi.com
 DOMAIN,ads5-normal-hl.zijieapi.com
 DOMAIN,ads5-normal-lq.zijieapi.com
 DOMAIN,ads5-normal.zijieapi.com
+DOMAIN,bsync3-normal-lq.zijieapi.com
 DOMAIN,bsync5-normal-lf.zijieapi.com
+DOMAIN,gecko3-lq.zijieapi.com
 DOMAIN,gecko5-lq.zijieapi.com
+DOMAIN,gecko5.zijieapi.com
 DOMAIN,ma5-normal-lq.zijieapi.com
 DOMAIN,minigame3-normal.zijieapi.com
 DOMAIN,minigame5-normal-hl.zijieapi.com
@@ -1284,10 +1292,12 @@ DOMAIN,mon11-misc-lf.zijieapi.com
 DOMAIN,mssdk3-normal-hl.zijieapi.com
 DOMAIN,mssdk3-normal-lf.zijieapi.com
 DOMAIN,mssdk3-normal-lq.zijieapi.com
+DOMAIN,mssdk3-normal.zijieapi.com
 DOMAIN,mssdk5-normal-lf.zijieapi.com
 DOMAIN,mssdk5-normal.zijieapi.com
 DOMAIN,polaris3-normal-hl.zijieapi.com
 DOMAIN,polaris3-normal-lq.zijieapi.com
+DOMAIN,saveu5-normal-lq.zijieapi.com
 DOMAIN,tnc1-bjlgy.zijieapi.com
 DOMAIN,tnc11-aliec2.zijieapi.com
 DOMAIN,tnc11-alisc1.zijieapi.com
@@ -2169,3 +2179,10 @@ DOMAIN,integralwall.baidu.com
 DOMAIN,yongche.baidu.com
 DOMAIN,staticsns.cdn.bcebos.com
 DOMAIN,huiduapi.nuomi.com
+---
+DOMAIN,i.snssdk.com
+DOMAIN,is.snssdk.com
+DOMAIN,ichannel.snssdk.com
+DOMAIN,effect.snssdk.com
+DOMAIN,is-lq.snssdk.com
+DOMAIN,reading-lq.snssdk.com
