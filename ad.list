@@ -1,4 +1,4 @@
-# Update > 20:31 2023/11/11
+# Update > 20:35 2023/11/12
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于Loon，QX请使用下面的文件
@@ -97,6 +97,8 @@ DOMAIN,push.mobile.kugou.com
 DOMAIN,splashimgbssdl.yun.kugou.com
 DOMAIN,tracker.kugou.com
 DOMAIN,trackercdnbj.kugou.com
+DOMAIN,rt-m.kugou.com
+DOMAIN,nbcollectretry.kugou.com
 #Audio-考拉听
 DOMAIN,track.audiobuy.cc
 DOMAIN,engine.audiobuy.cc
@@ -123,7 +125,6 @@ DOMAIN,adlaunch.qingting.fm
 DOMAIN,adlog.qingting.fm
 DOMAIN,ad-cdn.qtfm.cn
 DOMAIN,adlaunch.qtfm.cn
-DOMAIN,api-zhibo.qtfm.cn
 DOMAIN,upload-up.qtfm.cn
 #Audio-FM-阿基米德
 DOMAIN,stat.ajmide.com
@@ -187,6 +188,8 @@ DOMAIN,logs.manmeng168.com
 DOMAIN,marauder.zongheng.com
 #Book-飞卢
 DOMAIN,flux.faloo.com
+#Book-动漫之家
+DOMAIN,adsdk.idmzj.com
 #Buy-拼多多
 DOMAIN,adim.pinduoduo.com
 DOMAIN,t-dsp.pinduoduo.com
@@ -204,11 +207,8 @@ DOMAIN-KEYWORD,-flv.meituan.net
 DOMAIN-KEYWORD,-hls.meituan.net
 DOMAIN-KEYWORD,-rtmp.meituan.net
 DOMAIN,shark.dianping.com
-#Finance-95516
-DOMAIN,ads.95516.com
-#Finance-建设银行
-DOMAIN,adv.ccb.com
-DOMAIN,imageadv.ccb.com
+#Buy-51信用卡
+DOMAIN,click.51zhangdan.com
 #Buy-什么值得买
 DOMAIN,analytics-api-01.smzdm.com
 DOMAIN,analytics-api.smzdm.com
@@ -289,6 +289,11 @@ DOMAIN,track.cnki.net
 #EDU-古诗文网
 DOMAIN,enennsa.gushiwen.cn
 DOMAIN,enennsb.gushiwen.cn
+#Finance-95516
+DOMAIN,ads.95516.com
+#Finance-建设银行
+DOMAIN,adv.ccb.com
+DOMAIN,imageadv.ccb.com
 #Game-HILL CLIMB RACING
 DOMAIN,ads3.fingersoft.net
 #Game-UNO!
@@ -344,6 +349,7 @@ DOMAIN,qcvf.ifeng.com
 DOMAIN,stadig.ifeng.com
 DOMAIN,stadig0.ifeng.com
 DOMAIN,ztyumn.ifeng.com
+DOMAIN,support.iclient.ifeng.com
 DOMAIN,bdfpbimg.ifengimg.com
 DOMAIN,c0.ifengimg.com
 DOMAIN,c1.ifengimg.com
@@ -519,12 +525,14 @@ DOMAIN,spider-tracker.xiaohongshu.com
 DOMAIN,ad.rhinox.cn
 #SNS-最右/皮皮搞笑
 DOMAIN,adapi.izuiyou.com
-DOMAIN,stat.izuiyou.com
+DOMAIN,adstat.izuiyou.com
 DOMAIN,diagnosis.izuiyou.com
+DOMAIN,stat.izuiyou.com
 DOMAIN,stat.ippzone.com
 DOMAIN,adsdk.9imobi.com
 DOMAIN,advertising.youyizhidao.com
 DOMAIN,live.yuanbobo.com
+DOMAIN,zxid-m.mobileservice.cn
 #SNS-Twitter
 DOMAIN-SUFFIX,ads-api-sandbox.twitter.com
 DOMAIN-SUFFIX,ads-api.twitter.com
@@ -829,6 +837,7 @@ DOMAIN,p2splog.yingshidq.com.cn
 DOMAIN,ad.aggrx.com
 DOMAIN,hm.codepojo.com
 #Video-快手
+DOMAIN-SUFFIX,u.kuaishou.com
 DOMAIN,ad.partner.gifshow.com
 DOMAIN,gdfp.gifshow.com
 DOMAIN,gdfpsec.gifshow.com
@@ -838,6 +847,7 @@ DOMAIN,ulogs1.gifshow.com
 DOMAIN,ulogs2.gifshow.com
 DOMAIN,wlog.kuaishou.com
 DOMAIN,log-sdk.ksapisrv.com
+DOMAIN,ulogjs.ksapisrv.com
 DOMAIN,ulogs2.ksapisrv.com
 DOMAIN-SUFFIX,push.yximgs.com
 DOMAIN,ali-ad.a.yximgs.com
@@ -944,6 +954,7 @@ DOMAIN,clientlog3.music.163.com
 DOMAIN,crash.163.com
 DOMAIN,crashlytics.163.com
 DOMAIN,nex.163.com
+DOMAIN-SUFFIX,corp.163.com
 DOMAIN-SUFFIX,g.163.com
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,ads.music.126.net
@@ -1043,7 +1054,9 @@ DOMAIN,px.effirst.com
 #Baidu
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,tongji.baidu.com
 DOMAIN-SUFFIX,tuisong.baidu.com
+DOMAIN-SUFFIX,union.baidu.com
 #DOMAIN,dlswbr.baidu.com
 DOMAIN,a.baidu.com
 DOMAIN,ada.baidu.com
@@ -1425,6 +1438,7 @@ DOMAIN,ad.qq.com
 DOMAIN,ads.privacy.qq.com
 DOMAIN,analytics.map.qq.com
 DOMAIN,dp3.qq.com
+DOMAIN,btrace.qq.com
 DOMAIN,h.trace.qq.com
 DOMAIN,hc.tdm.qq.com
 DOMAIN,ios.rqd.qq.com
@@ -1569,6 +1583,7 @@ DOMAIN-SUFFIX,adtaily.com
 DOMAIN-SUFFIX,adtechjp.com
 DOMAIN-SUFFIX,adtechus.com
 DOMAIN-SUFFIX,adthrive.com
+DOMAIN-SUFFIX,adtroop.cn
 DOMAIN-SUFFIX,adukwai.com
 DOMAIN-SUFFIX,adultfriendfinder.com
 DOMAIN-SUFFIX,adutp.com
@@ -1755,6 +1770,7 @@ DOMAIN-SUFFIX,hot-mob.com
 DOMAIN-SUFFIX,hotjar.com
 DOMAIN-SUFFIX,httpool.com
 DOMAIN-SUFFIX,huagoustar.com
+DOMAIN-SUFFIX,huazirc.com
 DOMAIN-SUFFIX,hubcloud.com.cn
 DOMAIN-SUFFIX,huodonghezi.com
 DOMAIN-SUFFIX,huoxingtan66.com
@@ -1802,6 +1818,7 @@ DOMAIN-SUFFIX,kluvcc.com
 DOMAIN-SUFFIX,krxd.net
 DOMAIN-SUFFIX,kuyun.com
 DOMAIN-SUFFIX,ladsp.com
+DOMAIN-SUFFIX,ldfengyun.cn
 DOMAIN-SUFFIX,ldpsfa.com
 DOMAIN-SUFFIX,leadbolt.net
 DOMAIN-SUFFIX,leadboltads.net
@@ -1824,6 +1841,7 @@ DOMAIN-SUFFIX,mainroll.com
 DOMAIN-SUFFIX,manduhu.com
 DOMAIN-SUFFIX,mathtag.com
 DOMAIN-SUFFIX,mchnad.com
+DOMAIN-SUFFIX,mddlsa.com
 DOMAIN-SUFFIX,mediav.com
 DOMAIN-SUFFIX,meihu56.cn
 DOMAIN-SUFFIX,metheny.cn
@@ -1849,6 +1867,7 @@ DOMAIN-SUFFIX,mobilegamestats.com
 DOMAIN-SUFFIX,mobvista.com
 DOMAIN-SUFFIX,modela.cn
 DOMAIN-SUFFIX,mopub.com
+DOMAIN-SUFFIX,moreyun.cn
 DOMAIN-SUFFIX,morningds.com
 DOMAIN-SUFFIX,mtadver.com
 DOMAIN-SUFFIX,mtk.pub
@@ -2075,6 +2094,7 @@ DOMAIN-SUFFIX,zhiziyun.com
 DOMAIN-SUFFIX,ziyuanyinhang.wang
 DOMAIN-SUFFIX,zl168.xyz
 DOMAIN-SUFFIX,zontta.cn
+DOMAIN-SUFFIX,zsmobi.com
 DOMAIN-SUFFIX,zxrtb.com
 DOMAIN-SUFFIX,zygaoshou888.cn
 #Union-BD-Site
@@ -2187,7 +2207,6 @@ DOMAIN,integralwall.baidu.com
 DOMAIN,yongche.baidu.com
 DOMAIN,staticsns.cdn.bcebos.com
 DOMAIN,huiduapi.nuomi.com
----
 DOMAIN,i.snssdk.com
 DOMAIN,is.snssdk.com
 DOMAIN,ichannel.snssdk.com
