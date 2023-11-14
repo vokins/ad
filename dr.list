@@ -1,116 +1,128 @@
-# Update > 22:22 2023/11/10
+# Update > 22:38 2023/11/14
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/dr.list
 
+# 防止自己忘记，重新加入黑名单，尽量填写功效等
 # 白名单
 #youku
-DOMAIN,valipl10.cp31.ott.cibntv.net
+HOST, valipl10.cp31.ott.cibntv.net
 
 #芒果TV
-DOMAIN,dc2.bz.mgtv.com
+HOST, dc2.bz.mgtv.com
 
 #影响什么值得买跳转到京东app
-DOMAIN,dg.k.jd.com
+HOST, dg.k.jd.com
 
 #凤凰网图片加载不全
-DOMAIN,x0.ifengimg.com
+HOST, x0.ifengimg.com
 
 #豆瓣精选无法加载
-DOMAIN,frodo.douban.com
+HOST, frodo.douban.com
+
+#蜻蜓fm
+HOST, api-zhibo.qtfm.cn
+
+#极验SDK	用于提供识别与拦截机器程序批量自动化操作
+HOST, geetest.com
 
 #番茄小说
-DOMAIN,ug.snssdk.com
+HOST, ug.snssdk.com
+#番茄小说安卓版
+HOST-KEYWORD, applog.fqnovel.com
+HOST-KEYWORD, applog.novelfm.com
+HOST, log5-applog.fqnovel.com
 
-DOMAIN,b.zhuishushenqi.com
-DOMAIN,shared.ydstatic.com
-DOMAIN,g3.letv.com
-DOMAIN,n.mark.letv.com
-DOMAIN,lf1-cdn-tos.bytegoofy.com
-DOMAIN,acs.m.taobao.com
-DOMAIN,acs4baichuan.m.taobao.com
-DOMAIN,h-adashx.ut.taobao.com
-DOMAIN,jadeite.migu.cn
-DOMAIN,ac.mmstat.com
-DOMAIN,gm.mmstat.com
-DOMAIN,wgo.mmstat.com
-DOMAIN,cdn.bookimg.html5.qq.com
-DOMAIN,fairplay.l.qq.com
-DOMAIN,gameeve.beacon.qq.com
-DOMAIN,gamestr.beacon.qq.com
-DOMAIN,hippy.imtt.qq.com
-DOMAIN,ios.bugly.qq.com
-DOMAIN,mtrace.qq.com
-DOMAIN,novel.html5.qq.com
-DOMAIN,pingma.qq.com
-DOMAIN,res.imtt.qq.com
-DOMAIN,srchstatic.imtt.qq.com
-DOMAIN,today.imtt.qq.com
-DOMAIN,wspeed.qq.com
-DOMAIN-SUFFIX,beacon.qq.com
-DOMAIN,aip.baidubce.com
-DOMAIN,dlswbr.baidu.com
-DOMAIN,hpd.baidu.com
-DOMAIN,mbd.baidu.com
-DOMAIN,sofire.baidu.com
-DOMAIN,mipcache.bdstatic.com
-DOMAIN,sofire.bdstatic.com
-DOMAIN,dfp.suning.com
-DOMAIN,dlweb.sogoucdn.com
-DOMAIN,dns.jd.com
-DOMAIN,f3.video.weibocdn.com
-DOMAIN,i.snssdk.com
-DOMAIN,ib-hl.snssdk.com
-DOMAIN,liangcang-material.alicdn.com
-DOMAIN,log.kuwo.cn
-DOMAIN,mgxhtj.kuwo.cn
-DOMAIN,sf6-ttcdn-tos.pstatp.com
-DOMAIN,tpstelemetry.tencent.com
-DOMAIN,w1.hoopchina.com.cn
-DOMAIN-SUFFIX,cztv.com
-DOMAIN-SUFFIX,easemob.com
-DOMAIN-SUFFIX,manmeng168.com
+#其他暂未分类
+HOST, b.zhuishushenqi.com
+HOST, shared.ydstatic.com
+HOST, g3.letv.com
+HOST, n.mark.letv.com
+HOST, lf1-cdn-tos.bytegoofy.com
+HOST, acs.m.taobao.com
+HOST, acs4baichuan.m.taobao.com
+HOST, h-adashx.ut.taobao.com
+HOST, jadeite.migu.cn
+HOST, ac.mmstat.com
+HOST, gm.mmstat.com
+HOST, wgo.mmstat.com
+HOST, cdn.bookimg.html5.qq.com
+HOST, fairplay.l.qq.com
+HOST, gameeve.beacon.qq.com
+HOST, gamestr.beacon.qq.com
+HOST, hippy.imtt.qq.com
+HOST, ios.bugly.qq.com
+HOST, mtrace.qq.com
+HOST, novel.html5.qq.com
+HOST, pingma.qq.com
+HOST, res.imtt.qq.com
+HOST, srchstatic.imtt.qq.com
+HOST, today.imtt.qq.com
+HOST, wspeed.qq.com
+HOST-SUFFIX, beacon.qq.com
+HOST, aip.baidubce.com
+HOST, dlswbr.baidu.com
+HOST, hpd.baidu.com
+HOST, mbd.baidu.com
+HOST, sofire.baidu.com
+HOST, mipcache.bdstatic.com
+HOST, sofire.bdstatic.com
+HOST, dfp.suning.com
+HOST, dlweb.sogoucdn.com
+HOST, dns.jd.com
+HOST, f3.video.weibocdn.com
+HOST, i.snssdk.com
+HOST, ib-hl.snssdk.com
+HOST, liangcang-material.alicdn.com
+HOST, log.kuwo.cn
+HOST, mgxhtj.kuwo.cn
+HOST, sf6-ttcdn-tos.pstatp.com
+HOST, tpstelemetry.tencent.com
+HOST, w1.hoopchina.com.cn
+HOST-SUFFIX, cztv.com
+HOST-SUFFIX, easemob.com
+HOST-SUFFIX, manmeng168.com
 # https://paste.ubuntu.com/p/KYnTf7qmgm/
 # 微信
-DOMAIN-SUFFIX,weixin.qq.com.cn
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,weixinbridge.com
+HOST-SUFFIX, weixin.qq.com.cn
+HOST-SUFFIX, weixin.qq.com
+HOST-SUFFIX, weixinbridge.com
 # WeChat
-DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-SUFFIX,wechat.com
-USER-AGENT,MicroMessenger Client
-User-Agent,MicroMessenger*
-User-Agent,QQ*
-User-Agent,TIM*
-User-Agent,qqlive4iphone*
-User-Agent,QQ%E9%9F%B3%E4%B9%90
-User-Agent,WeChat*
+HOST-SUFFIX, servicewechat.com
+HOST-SUFFIX, wechat.com
+USER-AGENT, MicroMessenger Client
+USER-AGENT, MicroMessenger*
+USER-AGENT, QQ*
+USER-AGENT, TIM*
+USER-AGENT, qqlive4iphone*
+USER-AGENT, QQ%E9%9F%B3%E4%B9%90
+USER-AGENT, WeChat*
 # Bilibili
-USER-AGENT,bili-universal*
-USER-AGENT,Bilibili*
+USER-AGENT, bili-universal*
+USER-AGENT, Bilibili*
 #影视 分流修正 https://t.me/Aa28413761
-DOMAIN,ain.bgm.tv
-DOMAIN,cdn.jsdelivr.net
-DOMAIN,deo.shopeemobile.com
-DOMAIN,image.maimn.com
-DOMAIN,img.bfzypic.com
-DOMAIN,img.ffzypic.com
-DOMAIN,img.kuaikanzy.net
-DOMAIN,img.liangzipic.com
-DOMAIN,lain.bgm.tv
-DOMAIN,m3u8.255tv.tk
-DOMAIN,m3u8.mstopq.com
-DOMAIN,ok.zuidapic.com
-DOMAIN,sdk.alibaba.com.ailbaba.me
-DOMAIN,static.jssp.tv
-DOMAIN,tiao.cjkypo.com
-DOMAIN,ts.thefilehosting.com
-DOMAIN,vip.ffzyread.com
-DOMAIN,vip.imgffzy.com
-DOMAIN-KEYWORD,ax1x.com
-DOMAIN-KEYWORD,bfzycdn.com
-DOMAIN-KEYWORD,o.lencr.org
-DOMAIN-KEYWORD,ttcdn-tos.kkimg.cc
-DOMAIN-KEYWORD,vip.ffzy-online
-DOMAIN-KEYWORD,vip.ffzy-play
-DOMAIN-KEYWORD,vip.kuaikan-cdn
-DOMAIN-KEYWORD,vip.lz-cdn
+HOST, ain.bgm.tv
+HOST, cdn.jsdelivr.net
+HOST, deo.shopeemobile.com
+HOST, image.maimn.com
+HOST, img.bfzypic.com
+HOST, img.ffzypic.com
+HOST, img.kuaikanzy.net
+HOST, img.liangzipic.com
+HOST, lain.bgm.tv
+HOST, m3u8.255tv.tk
+HOST, m3u8.mstopq.com
+HOST, ok.zuidapic.com
+HOST, sdk.alibaba.com.ailbaba.me
+HOST, static.jssp.tv
+HOST, tiao.cjkypo.com
+HOST, ts.thefilehosting.com
+HOST, vip.ffzyread.com
+HOST, vip.imgffzy.com
+HOST-KEYWORD, ax1x.com
+HOST-KEYWORD, bfzycdn.com
+HOST-KEYWORD, o.lencr.org
+HOST-KEYWORD, ttcdn-tos.kkimg.cc
+HOST-KEYWORD, vip.ffzy-online
+HOST-KEYWORD, vip.ffzy-play
+HOST-KEYWORD, vip.kuaikan-cdn
+HOST-KEYWORD, vip.lz-cdn
