@@ -1,4 +1,4 @@
-# Update > 22:27 2023/11/14
+# Update > 22:48 2023/11/14
 # https://raw.githubusercontent.com/vokins/ad/main/dr.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX，Loon请使用下面的文件
@@ -14,7 +14,7 @@ HOST-SUFFIX, iadsdk.apple.com, REJECT
 HOST, safebrowsing.googleapis.com, REJECT
 HOST, safebrowsing.googleapis-cn.com, REJECT
 #https://anquan.baidu.com/article/281
-HOST, lookup.api.bsb.baidu.com
+HOST, lookup.api.bsb.baidu.com, REJECT
 #https://opensource.apple.com/source/WebKit2/WebKit2-7607.2.6.1.1/UIProcess/Cocoa/SafeBrowsingWarningCocoa.mm.auto.html
 HOST-SUFFIX, urlsec.qq.com, REJECT
 HOST, safebrowsing.urlsec.qq.com, REJECT
