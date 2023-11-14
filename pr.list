@@ -4,7 +4,7 @@
 
 #My
 User-Agent, com.google.ios.youtube*, PROXY
-User-Agent, pascalswager, PROXY, PROXY
+User-Agent, pascalswager, PROXY
 HOST-SUFFIX, google.com, PROXY
 HOST-SUFFIX, googleapis.com, PROXY
 HOST-SUFFIX, googleusercontent.com, PROXY
