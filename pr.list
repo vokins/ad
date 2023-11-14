@@ -1,4 +1,4 @@
-# Update > 22:37 2023/11/14
+# Update > 22:53 2023/11/14
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -55,20 +55,20 @@ HOST-SUFFIX, quiz.directory, PROXY
 HOST-SUFFIX, usercontent.dev, PROXY
 #Telegram-cidr https://core.telegram.org/resources/cidr.txt, PROXY
 User-Agent, telegram, PROXY
-IP-CIDR,91.108.56.0/22, PROXY
-IP-CIDR,91.108.4.0/22, PROXY
-IP-CIDR,91.108.8.0/22, PROXY
-IP-CIDR,91.108.16.0/22, PROXY
-IP-CIDR,91.108.12.0/22, PROXY
-IP-CIDR,149.154.160.0/20, PROXY
-IP-CIDR,91.105.192.0/23, PROXY
-IP-CIDR,91.108.20.0/22, PROXY
-IP-CIDR,185.76.151.0/24, PROXY
-IP-CIDR6,2001:b28:f23d::/48, PROXY
-IP-CIDR6,2001:b28:f23f::/48, PROXY
-IP-CIDR6,2001:67c:4e8::/48, PROXY
-IP-CIDR6,2001:b28:f23c::/48, PROXY
-IP-CIDR6,2a0a:f280::/32, PROXY
+ip-cidr, 91.108.56.0/22, PROXY
+ip-cidr, 91.108.4.0/22, PROXY
+ip-cidr, 91.108.8.0/22, PROXY
+ip-cidr, 91.108.16.0/22, PROXY
+ip-cidr, 91.108.12.0/22, PROXY
+ip-cidr, 149.154.160.0/20, PROXY
+ip-cidr, 91.105.192.0/23, PROXY
+ip-cidr, 91.108.20.0/22, PROXY
+ip-cidr, 185.76.151.0/24, PROXY
+ip-cidr6, 2001:b28:f23d::/48, PROXY
+ip-cidr6, 2001:b28:f23f::/48, PROXY
+ip-cidr6, 2001:67c:4e8::/48, PROXY
+ip-cidr6, 2001:b28:f23c::/48, PROXY
+ip-cidr6, 2a0a:f280::/32, PROXY
 # 基于关键词后缀判断走代理（Proxy）, PROXY
 HOST-KEYWORD, akamai, PROXY
 HOST-KEYWORD, blogspot, PROXY
