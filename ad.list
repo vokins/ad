@@ -1,4 +1,4 @@
-# Update > 10:59 2023/11/18
+# Update > 11:23 2023/11/18
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon请使用下面的文件
@@ -74,6 +74,7 @@ HOST-SUFFIX, xiaoying.com, REJECT
 HOST-SUFFIX, xystatic.com, REJECT
 HOST-SUFFIX, yangqianguan.com, REJECT
 HOST-SUFFIX, yixin.com, REJECT
+HOST-SUFFIX, yqg.mobi, REJECT
 HOST-SUFFIX, yxh3.cn, REJECT
 #Audio-QQ音乐
 HOST, ad.tencentmusic.com, REJECT
