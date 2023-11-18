@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.30
+! Version: 1.31
 ! Title: adfilter
-! Last modified: 10:05 2023/11/15 Expires: 7 days (update frequency)
+! Last modified: 10:52 2023/11/18 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/ab.txt
@@ -431,12 +431,21 @@ czzy.art##.mikd
 ||ituibei.cn^
 ||iyoubei.cn^
 ||api.nx-perf.cn^
+||51hicard.com^
 ||andaike.com^
+||dgbei.com^
+||f7h.cn^
 ||fenqile.com^
+||haiercash.com^
 ||jjhuigou.com^
+||k3q.cn^
 ||qufenqi.com^
 ||rong360.com^
 ||smyfinancial.com^
+||volccdn.com^
+||xiaoying.com^
+||xystatic.com^
+||yangqianguan.com^
 ||ad.tencentmusic.com^
 ||adcdn.tencentmusic.com^
 ||adclick.tencentmusic.com^
@@ -2371,4 +2380,3 @@ HOST-KEYWORD,variety.tc.qq.com^
 ||effect.snssdk.com^
 ||is-lq.snssdk.com^
 ||reading-lq.snssdk.com^
-
