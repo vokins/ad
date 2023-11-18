@@ -53,6 +53,7 @@ DOMAIN-SUFFIX,xiaoying.com,REJECT
 DOMAIN-SUFFIX,xystatic.com,REJECT
 DOMAIN-SUFFIX,yangqianguan.com,REJECT
 DOMAIN-SUFFIX,yixin.com,REJECT
+DOMAIN-SUFFIX,yqg.mobi,REJECT
 DOMAIN-SUFFIX,yxh3.cn,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adcdn.tencentmusic.com,REJECT
