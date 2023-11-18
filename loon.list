@@ -37,6 +37,7 @@ DOMAIN-SUFFIX,ituibei.cn,REJECT
 DOMAIN-SUFFIX,iyoubei.cn,REJECT
 DOMAIN,api.nx-perf.cn,REJECT
 DOMAIN-SUFFIX,51hicard.com,REJECT
+DOMAIN-SUFFIX,9tp.cn,REJECT
 DOMAIN-SUFFIX,andaike.com,REJECT
 DOMAIN-SUFFIX,dgbei.com,REJECT
 DOMAIN-SUFFIX,f7h.cn,REJECT
@@ -51,6 +52,8 @@ DOMAIN-SUFFIX,volccdn.com,REJECT
 DOMAIN-SUFFIX,xiaoying.com,REJECT
 DOMAIN-SUFFIX,xystatic.com,REJECT
 DOMAIN-SUFFIX,yangqianguan.com,REJECT
+DOMAIN-SUFFIX,yixin.com,REJECT
+DOMAIN-SUFFIX,yxh3.cn,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adcdn.tencentmusic.com,REJECT
 DOMAIN,adclick.tencentmusic.com,REJECT
