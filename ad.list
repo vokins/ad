@@ -1,4 +1,4 @@
-# Update > 11:23 2023/11/18
+# Update > 11:46 2023/11/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon请使用下面的文件
@@ -56,26 +56,36 @@ HOST-SUFFIX, ituibei.cn, REJECT
 HOST-SUFFIX, iyoubei.cn, REJECT
 #3rdPage-页面插入-页面赚钱收益-http://www.nianxiang.net.cn/
 HOST, api.nx-perf.cn, REJECT
-#3rdPage-各种贷款
-HOST-SUFFIX, 51hicard.com, REJECT
+#3rdPage-垃圾短信-短链接
+HOST-SUFFIX, 8ar.cn, REJECT
 HOST-SUFFIX, 9tp.cn, REJECT
-HOST-SUFFIX, andaike.com, REJECT
-HOST-SUFFIX, dgbei.com, REJECT
 HOST-SUFFIX, f7h.cn, REJECT
+HOST-SUFFIX, j0v.cn, REJECT
+HOST-SUFFIX, k0j.cn, REJECT
+HOST-SUFFIX, k3q.cn, REJECT
+HOST-SUFFIX, yqg.mobi, REJECT
+HOST-SUFFIX, zhelibao.com, REJECT
+#3rdPage-垃圾短信-贷款
+HOST-SUFFIX, 51hicard.com, REJECT
+HOST-SUFFIX, andaike.com, REJECT
+HOST-SUFFIX, bountech.com, REJECT
+HOST-SUFFIX, dgbei.com, REJECT
 HOST-SUFFIX, fenqile.com, REJECT
 HOST-SUFFIX, haiercash.com, REJECT
+HOST-SUFFIX, iyb.tm, REJECT
 HOST-SUFFIX, jjhuigou.com, REJECT
-HOST-SUFFIX, k3q.cn, REJECT
+HOST-SUFFIX, jpushoa.com, REJECT
 HOST-SUFFIX, qufenqi.com, REJECT
 HOST-SUFFIX, rong360.com, REJECT
+HOST-SUFFIX, shanghaihagai.com, REJECT
 HOST-SUFFIX, smyfinancial.com, REJECT
 HOST-SUFFIX, volccdn.com, REJECT
 HOST-SUFFIX, xiaoying.com, REJECT
 HOST-SUFFIX, xystatic.com, REJECT
 HOST-SUFFIX, yangqianguan.com, REJECT
 HOST-SUFFIX, yixin.com, REJECT
-HOST-SUFFIX, yqg.mobi, REJECT
 HOST-SUFFIX, yxh3.cn, REJECT
+HOST-SUFFIX, zaxdcredit.com, REJECT
 #Audio-QQ音乐
 HOST, ad.tencentmusic.com, REJECT
 HOST, adcdn.tencentmusic.com, REJECT
