@@ -1,4 +1,4 @@
-# Update > 11:46 2023/11/26
+# Update > 11:26 2023/12/2
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon请使用下面的文件
@@ -56,13 +56,19 @@ HOST-SUFFIX, ituibei.cn, REJECT
 HOST-SUFFIX, iyoubei.cn, REJECT
 #3rdPage-页面插入-页面赚钱收益-http://www.nianxiang.net.cn/
 HOST, api.nx-perf.cn, REJECT
+#3rdPage-获取手机号
+#https://www.cmpassport.com/NumberAbility/jssdk_vlm/jssdk.min.js
+#https://static.e.189.cn/open/login/js/wap/js-sdk/EAccountSDK-fjs-1.4.2.min.js
+#https://opencloud.wostore.cn/authz/resource/js/jssdk/auth-ujssdk.min.js
 #3rdPage-垃圾短信-短链接
 HOST-SUFFIX, 8ar.cn, REJECT
+HOST-SUFFIX, 8lz.cn, REJECT
 HOST-SUFFIX, 9tp.cn, REJECT
 HOST-SUFFIX, f7h.cn, REJECT
 HOST-SUFFIX, j0v.cn, REJECT
 HOST-SUFFIX, k0j.cn, REJECT
 HOST-SUFFIX, k3q.cn, REJECT
+HOST-SUFFIX, w8dx.cn, REJECT
 HOST-SUFFIX, yqg.mobi, REJECT
 HOST-SUFFIX, zhelibao.com, REJECT
 #3rdPage-垃圾短信-贷款
@@ -86,6 +92,7 @@ HOST-SUFFIX, yangqianguan.com, REJECT
 HOST-SUFFIX, yixin.com, REJECT
 HOST-SUFFIX, yxh3.cn, REJECT
 HOST-SUFFIX, zaxdcredit.com, REJECT
+HOST-SUFFIX, zhongan.io, REJECT
 #Audio-QQ音乐
 HOST, ad.tencentmusic.com, REJECT
 HOST, adcdn.tencentmusic.com, REJECT
