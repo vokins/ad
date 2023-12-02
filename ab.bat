@@ -1,17 +1,17 @@
 @echo off
 del /f b.txt ab.txt >nul
 copy /y ad.list b.txt
-sed -i "s/HOST, /||/g" b.txt
-sed -i "s/HOST-KEYWORD, /||/g" b.txt
-sed -i "s/HOST-SUFFIX, /||/g" b.txt
-sed -i "s/, REJECT/^/g" b.txt
-rem É¾³ýÇ°xÐÐ×¢ÊÍÄÚÈÝ
+sed -i "s/host, /||/g" b.txt
+sed -i "s/host-keyword, /||/g" b.txt
+sed -i "s/host-suffix, /||/g" b.txt
+sed -i "s/, reject/^/g" b.txt
+rem åˆ é™¤å‰xè¡Œæ³¨é‡Šå†…å®¹
 sed -i "1,6d" b.txt
-rem É¾³ý¿ÕÐÐ
+rem åˆ é™¤ç©ºè¡Œ
 sed -i "/^$/d" b.txt
-rem É¾³ýËùÓÐ#×¢ÊÍÐÐ
+rem åˆ é™¤æ‰€æœ‰#æ³¨é‡Šè¡Œ
 sed -i "/^#/d" b.txt
-rem ºÏ²¢
+rem åˆå¹¶
 copy /y a.txt + b.txt ab.txt
 del /f b.txt >nul
 echo OK
