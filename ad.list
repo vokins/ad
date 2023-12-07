@@ -1,4 +1,4 @@
-# Update > 22:08 2023/12/2
+# Update > 3:01 2023/12/8
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon请使用下面的文件
@@ -109,26 +109,28 @@ host, mobilead.kuwo.cn, reject
 host, rich.kuwo.cn, reject
 host, g.koowo.com, reject
 #Audio-酷狗
-host, ads.service.kugou.com, reject
-host, adservice.kugou.com, reject
-host, adserviceretry.kugou.com, reject
-host, adsfile.bssdlbig.kugou.com, reject
-host, adsfilebssdlbig.ali.kugou.com, reject
+host-suffix, ads.service.kugou.com, reject
+host-suffix, adservice.kugou.com, reject
+host-suffix, adserviceretry.kugou.com, reject
+host-suffix, adsfile.bssdlbig.kugou.com, reject
+host-suffix, adsfilebssdlbig.ali.kugou.com, reject
+host-suffix, d.kugou.com, reject
+host-suffix, log.stat.kugou.com, reject
+host-suffix, log.web.kugou.com, reject
 host, collect.kugou.com, reject
 host, install2.kugou.com, reject
 host, kgipadstat.kugou.com, reject
 host, kgipadstatbak.kugou.com, reject
-host, log.web.kugou.com, reject
 host, logwebs.kugou.com, reject
 host, mobilelog.kugou.com, reject
 host, msg.mobile.kugou.com, reject
 host, nbcollect.kugou.com, reject
+host, nbcollectretry.kugou.com, reject
 host, push.mobile.kugou.com, reject
+host, rt-m.kugou.com, reject
 host, splashimgbssdl.yun.kugou.com, reject
 host, tracker.kugou.com, reject
 host, trackercdnbj.kugou.com, reject
-host, rt-m.kugou.com, reject
-host, nbcollectretry.kugou.com, reject
 #Audio-考拉听
 host, track.audiobuy.cc, reject
 host, engine.audiobuy.cc, reject
@@ -1285,10 +1287,13 @@ host-suffix, volceapplog.com, reject
 host-suffix, f-cashloan.snssdk.com, reject
 host-suffix, f-cpay.snssdk.com, reject
 host-suffix, bytefae.com, reject
+host-suffix, doupay.com, reject
 host-keyword, -pay.bytefae.com, reject
 host-keyword, -static.bytefae.com, reject
 host-keyword, -infras.bytetos.com, reject
 host-keyword, -insurance.byteimg.com, reject
+host-keyword, -infras.byteimg.com, reject
+host-suffix, baohuaxia.com, reject
 host, klink.amemv.com, reject
 host-suffix, volcsirius.com, reject
 host, lf-webcast-gr-sourcecdn.bytegecko.com, reject
