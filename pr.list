@@ -1,4 +1,4 @@
-# Update > 22:35 2023/12/7
+# Update > 22:39 2023/12/7
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -36,7 +36,7 @@ host-suffix, githubusercontent.com, proxy
 host-suffix, twitter.com, proxy
 host-suffix, twimg.com, proxy
 host-suffix, t.co, proxy
-#Telegram
+#Telegram https://core.telegram.org/resources/cidr.txt
 host-suffix, t.me, proxy
 host-suffix, tdesktop.com, proxy
 host-suffix, telega.one, proxy
@@ -53,24 +53,23 @@ host-suffix, contest.com, proxy
 host-suffix, graph.org, proxy
 host-suffix, quiz.directory, proxy
 host-suffix, usercontent.dev, proxy
-#Telegram-cidr https://core.telegram.org/resources/cidr.txt
 User-Agent, telegram, proxy
 # 基于关键词后缀判断走代理（Proxy）
-HOST-KEYWORD, akamai, proxy
-HOST-KEYWORD, blogspot, proxy
-HOST-KEYWORD, dropbox, proxy
-HOST-KEYWORD, facebook, proxy
-HOST-KEYWORD, gmail, proxy
-HOST-KEYWORD, instagram, proxy
-HOST-KEYWORD, pixiv, proxy
-HOST-KEYWORD, porn, proxy
-HOST-KEYWORD, spotify, proxy
-HOST-KEYWORD, telegram, proxy
-HOST-KEYWORD, twitter, proxy
-HOST-KEYWORD, wikipedia, proxy
-HOST-KEYWORD, yahoo, proxy
-HOST-KEYWORD, youtube, proxy
-HOST-KEYWORD, twvideo, proxy
+host-keyword, akamai, proxy
+host-keyword, blogspot, proxy
+host-keyword, dropbox, proxy
+host-keyword, facebook, proxy
+host-keyword, gmail, proxy
+host-keyword, instagram, proxy
+host-keyword, pixiv, proxy
+host-keyword, porn, proxy
+host-keyword, spotify, proxy
+host-keyword, telegram, proxy
+host-keyword, twitter, proxy
+host-keyword, wikipedia, proxy
+host-keyword, yahoo, proxy
+host-keyword, youtube, proxy
+host-keyword, twvideo, proxy
 # 基于域名后缀判断走代理（Proxy）
 # LINE
 host-suffix, scdn.co, proxy
