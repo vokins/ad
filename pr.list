@@ -1,4 +1,4 @@
-# Update > 18:10 2023/12/9
+# Update > 23:52 2023/12/9
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -30,18 +30,20 @@ host-suffix, urhtbooks.com, proxy
 host-suffix, hatena.ne.jp, proxy
 host-suffix, st-hatena.com, proxy
 #LY Corporation-Line
+host-suffix, bitmax.me, proxy
 host-suffix, line-apps.com, proxy
+host-suffix, line-fx.com, proxy
 host-suffix, line-scdn.net, proxy
 host-suffix, line-sec.co.jp, proxy
 host-suffix, line.me, proxy
+host-suffix, linecorp.com, proxy
+host-suffix, linecreditcorp.com, proxy
+host-suffix, linefinancialcorp.com, proxy
 host-suffix, linefriends.jp, proxy
 host-suffix, linerecords.me, proxy
 host-suffix, lycbiz.com, proxy
-host-suffix, linefinancialcorp.com, proxy
-host-suffix, linecreditcorp.com, proxy
-host-suffix, line-fx.com, proxy
-host-suffix, bitmax.me, proxy
 host-suffix, naver.com, proxy
+host-suffix, naver.jp, proxy
 host-suffix, naverblogwidget.com, proxy
 host-suffix, navercorp.com, proxy
 host-suffix, pstatic.net, proxy
@@ -72,8 +74,8 @@ host-suffix, ggpht.com, proxy
 host-suffix, googleapis.com, proxy
 host-suffix, googleusercontent.com, proxy
 host-suffix, gstatic.com, proxy
-host-suffix, googletagmanager.com, proxy
-host-suffix, google-analytics.com, proxy
+;host-suffix, googletagmanager.com, proxy
+;host-suffix, google-analytics.com, proxy
 #Alphabet-Google
 host-suffix, blog.google, proxy
 host-suffix, google.com, proxy
@@ -98,6 +100,7 @@ host-suffix, fbcdn.net, proxy
 host-suffix, fbsbx.com, proxy
 host-suffix, oculuscdn.com, proxy
 #Meta-Facebook
+host-suffix, fb.com, proxy
 host-suffix, facebook.com, proxy
 #Meta-Instagram
 host-suffix, instagram.com, proxy
@@ -111,6 +114,8 @@ host-suffix, github.com, proxy
 host-suffix, github.io, proxy
 host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
+#Snapchat
+host-suffix, snapchat.com, proxy
 #Telegram https://core.telegram.org/resources/cidr.txt
 host-suffix, cdn-telegram.org, proxy
 host-suffix, t.me, proxy
