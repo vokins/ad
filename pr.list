@@ -1,244 +1,149 @@
-# Update > 22:39 2023/12/7
+# Update > 18:10 2023/12/9
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
-#My
-User-Agent, com.google.ios.youtube*, proxy
-User-Agent, pascalswager, proxy
-host-suffix, amplitude.com, proxy
-host-suffix, cnbeta.com.tw, proxy
-host-suffix, google.com, proxy
-host-suffix, googleapis.com, proxy
-host-suffix, googleusercontent.com, proxy
-host-suffix, techcrunch.com, proxy
-host-suffix, unlock-music.dev, proxy
-host-suffix, v2ex.com, proxy
-host-suffix, vivaldi.com, proxy
-host-suffix, workers.dev, proxy
-host-suffix, ycombinator.com, proxy
+###Adult
+#shuaito
+host-suffix, shuaito.one, proxy
+#soutong
+host-suffix, soutong.men, proxy
+host-suffix, stboy.net, proxy
 #海棠文化
-host-suffix, haitbook.com, proxy
 host-suffix, htwhbook.com, proxy
-host-suffix, lmbooks.com, proxy
 host-suffix, lmebooks.com, proxy
+host-suffix, lmbooks.com, proxy
+#海棠文化(限)
+host-suffix, haitbook.com, proxy
+host-suffix, htlvbooks.com, proxy
+host-suffix, htnewbooks.com, proxy
 host-suffix, longmabook.com, proxy
 host-suffix, longmabookcn.com, proxy
 host-suffix, lovehtbooks.com, proxy
+host-suffix, lvhtebook.com, proxy
 host-suffix, myhtebook.com, proxy
 host-suffix, myhtebooks.com, proxy
 host-suffix, myhtlmebook.com, proxy
+host-suffix, newhtbook.com, proxy
+host-suffix, urhtbooks.com, proxy
+###Asia
+#Hatena
+host-suffix, hatena.ne.jp, proxy
+host-suffix, st-hatena.com, proxy
+#LY Corporation-Line
+host-suffix, line-apps.com, proxy
+host-suffix, line-scdn.net, proxy
+host-suffix, line-sec.co.jp, proxy
+host-suffix, line.me, proxy
+host-suffix, linefriends.jp, proxy
+host-suffix, linerecords.me, proxy
+host-suffix, lycbiz.com, proxy
+host-suffix, linefinancialcorp.com, proxy
+host-suffix, linecreditcorp.com, proxy
+host-suffix, line-fx.com, proxy
+host-suffix, bitmax.me, proxy
+host-suffix, naver.com, proxy
+host-suffix, naverblogwidget.com, proxy
+host-suffix, navercorp.com, proxy
+host-suffix, pstatic.net, proxy
+host-suffix, worksmobile.com, proxy
+#LY Corporation-yahoo.co.jp
+host-suffix, yahoo-net.jp, proxy
+host-suffix, yahoo.co.jp, proxy
+host-suffix, yimg.jp, proxy
+host-suffix, blogimg.jp, proxy
+host-suffix, blog.jp, proxy
+###CN-Sites
+#tw网站
+host-suffix, com.tw, proxy
+#CNbeta
+host-suffix, cnbeta.com.tw, proxy
+host-suffix, static.cnbetacdn.com, proxy
+#Unlock Music-音乐解锁
+host, demo.unlock-music.dev, proxy
+#V2EX
+host-suffix, v2ex.com, proxy
+###US-Sites
+#Alphabet-3rd
+host, accounts.google.com, proxy
+host, fonts.gstatic.com, proxy
+host, fonts.googleapis.com, proxy
+host-suffix, ampproject.org, proxy
+host-suffix, ggpht.com, proxy
+host-suffix, googleapis.com, proxy
+host-suffix, googleusercontent.com, proxy
+host-suffix, gstatic.com, proxy
+host-suffix, googletagmanager.com, proxy
+host-suffix, google-analytics.com, proxy
+#Alphabet-Google
+host-suffix, blog.google, proxy
+host-suffix, google.com, proxy
+host-suffix, www.google.co.jp, proxy
+#Alphabet-YouTube
+host-suffix, youtube.com, proxy
+host-suffix, ytimg.com, proxy
+host-suffix, youtu.be, proxy
+host-suffix, yt.be, proxy
+#Alphabet-other
+host-suffix, android.com, proxy
+host-suffix, appspot.com, proxy
+host-suffix, blogger.com, proxy
+host-suffix, googleblog.com, proxy
+host-suffix, g.co, proxy
+#Cloudflare
+host-suffix, cloudflare.com, proxy
+#Meta
+host-suffix, meta.com, proxy
+host-suffix, metacareers.com, proxy
+host-suffix, fbcdn.net, proxy
+host-suffix, fbsbx.com, proxy
+host-suffix, oculuscdn.com, proxy
+#Meta-Facebook
+host-suffix, facebook.com, proxy
+#Meta-Instagram
+host-suffix, instagram.com, proxy
+host-suffix, cdninstagram.com, proxy
+#Meta-Messenger
+host-suffix, messenger.com, proxy
+#Meta-Threads
+host-suffix, threads.net, proxy
 #Github
 host-suffix, github.com, proxy
 host-suffix, github.io, proxy
 host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
+#Telegram https://core.telegram.org/resources/cidr.txt
+host-suffix, cdn-telegram.org, proxy
+host-suffix, t.me, proxy
+host-suffix, telegram.org, proxy
 #Twitter
 host-suffix, twitter.com, proxy
 host-suffix, twimg.com, proxy
 host-suffix, t.co, proxy
-#Telegram https://core.telegram.org/resources/cidr.txt
-host-suffix, t.me, proxy
-host-suffix, tdesktop.com, proxy
-host-suffix, telega.one, proxy
-host-suffix, telegra.ph, proxy
-host-suffix, telegram.dog, proxy
-host-suffix, telegram.me, proxy
-host-suffix, telegram.org, proxy
-host-suffix, telegram.space, proxy
-host-suffix, telesco.pe, proxy
-host-suffix, tg.dev, proxy
-host-suffix, tx.me, proxy
-host-suffix, comments.app, proxy
-host-suffix, contest.com, proxy
-host-suffix, graph.org, proxy
-host-suffix, quiz.directory, proxy
-host-suffix, usercontent.dev, proxy
-User-Agent, telegram, proxy
-# 基于关键词后缀判断走代理（Proxy）
-host-keyword, akamai, proxy
-host-keyword, blogspot, proxy
-host-keyword, dropbox, proxy
-host-keyword, facebook, proxy
-host-keyword, gmail, proxy
-host-keyword, instagram, proxy
-host-keyword, pixiv, proxy
-host-keyword, porn, proxy
-host-keyword, spotify, proxy
-host-keyword, telegram, proxy
-host-keyword, twitter, proxy
-host-keyword, wikipedia, proxy
-host-keyword, yahoo, proxy
-host-keyword, youtube, proxy
-host-keyword, twvideo, proxy
-# 基于域名后缀判断走代理（Proxy）
-# LINE
-host-suffix, scdn.co, proxy
-host-suffix, line.naver.jp, proxy
-host-suffix, line.me, proxy
-host-suffix, line-apps.com, proxy
-host-suffix, line-cdn.net, proxy
-host-suffix, line-scdn.net, proxy
-User-Agent, Line*, proxy
-# Google
-host-suffix, abc.xyz, proxy
-host-suffix, admin.recaptcha.net, proxy
-host-suffix, ampproject.org, proxy
-host-suffix, android.com, proxy
-host-suffix, androidify.com, proxy
-host-suffix, appspot.com, proxy
-host-suffix, autodraw.com, proxy
-host-suffix, blogger.com, proxy
-host-suffix, capitalg.com, proxy
-host-suffix, certificate-transparency.org, proxy
-host-suffix, chrome.com, proxy
-host-suffix, chromeexperiments.com, proxy
-host-suffix, chromestatus.com, proxy
-host-suffix, chromium.org, proxy
-host-suffix, creativelab5.com, proxy
-host-suffix, debug.com, proxy
-host-suffix, deepmind.com, proxy
-host-suffix, dialogflow.com, proxy
-host-suffix, firebaseio.com, proxy
-host-suffix, getmdl.io, proxy
-host-suffix, getoutline.org, proxy
-host-suffix, ggpht.com, proxy
-host-suffix, gmail.com, proxy
-host-suffix, gmodules.com, proxy
-host-suffix, godoc.org, proxy
-host-suffix, golang.org, proxy
-host-suffix, gstatic.com, proxy
-host-suffix, gv.com, proxy
-host-suffix, gvt0.com, proxy
-host-suffix, gvt1.com, proxy
-host-suffix, gvt3.com, proxy
-host-suffix, gwtproject.org, proxy
-host-suffix, itasoftware.com, proxy
-host-suffix, madewithcode.com, proxy
-host-suffix, material.io, proxy
-host-suffix, polymer-project.org, proxy
-host-suffix, recaptcha.net, proxy
-host-suffix, shattered.io, proxy
-host-suffix, synergyse.com, proxy
-host-suffix, telephony.goog, proxy
-host-suffix, tensorflow.org, proxy
-host-suffix, tfhub.dev, proxy
-host-suffix, tiltbrush.com, proxy
-host-suffix, waveprotocol.org, proxy
-host-suffix, waymo.com, proxy
-host-suffix, webmproject.org, proxy
-host-suffix, webrtc.org, proxy
-host-suffix, whatbrowser.org, proxy
-host-suffix, widevine.com, proxy
-host-suffix, x.company, proxy
-host-suffix, xn--ngstr-lra8j.com, proxy
-host-suffix, youtu.be, proxy
-host-suffix, yt.be, proxy
-host-suffix, ytimg.com, proxy
-# Clubhouse
-host-suffix, clubhouseapi.com, proxy
-host-suffix, clubhouse.pubnub.com, proxy
-host-suffix, joinclubhouse.com, proxy
-host-suffix, ap3.agora.io, proxy
-# SoundCloud
-host-suffix, soundcloud.com, proxy
-host-suffix, sndcdn.com, proxy
-# Top blocked sites
-host-suffix, fb.com, proxy
-host-suffix, meta.com, proxy
-host-suffix, kenengba.com, proxy
-host-suffix, akamai.net, proxy
-host-suffix, whatsapp.net, proxy
-host-suffix, whatsapp.com, proxy
-host-suffix, snapchat.com, proxy
-host-suffix, amazonaws.com, proxy
-host-suffix, angularjs.org, proxy
-host-suffix, akamaihd.net, proxy
-host-suffix, amazon.com, proxy
-host-suffix, bit.ly, proxy
-host-suffix, bitbucket.org, proxy
-host-suffix, blog.com, proxy
-host-suffix, blogcdn.com, proxy
-host-suffix, blogsmithmedia.com, proxy
-host-suffix, box.net, proxy
-host-suffix, bloomberg.com, proxy
-host-suffix, cl.ly, proxy
-host-suffix, cloudfront.net, proxy
-host-suffix, cloudflare.com, proxy
-host-suffix, cocoapods.org, proxy
-host-suffix, dribbble.com, proxy
-host-suffix, dropbox.com, proxy
-host-suffix, dropboxstatic.com, proxy
-host-suffix, dropboxusercontent.com, proxy
-host-suffix, docker.com, proxy
-host-suffix, duckduckgo.com, proxy
-host-suffix, digicert.com, proxy
-host-suffix, dnsimple.com, proxy
-host-suffix, edgecastcdn.net, proxy
-host-suffix, engadget.com, proxy
-host-suffix, eurekavpt.com, proxy
-host-suffix, fb.me, proxy
-host-suffix, fbcdn.net, proxy
-host-suffix, fc2.com, proxy
-host-suffix, feedburner.com, proxy
-host-suffix, fabric.io, proxy
-host-suffix, flickr.com, proxy
-host-suffix, fastly.net, proxy
-host-suffix, goo.gl, proxy
-host-suffix, godaddy.com, proxy
-host-suffix, gravatar.com, proxy
-host-suffix, imageshack.us, proxy
-host-suffix, imgur.com, proxy
-host-suffix, jshint.com, proxy
-host-suffix, ift.tt, proxy
-host-suffix, j.mp, proxy
-host-suffix, kat.cr, proxy
-host-suffix, linode.com, proxy
-host-suffix, lithium.com, proxy
-host-suffix, megaupload.com, proxy
-host-suffix, mobile01.com, proxy
-host-suffix, modmyi.com, proxy
-host-suffix, nytimes.com, proxy
-host-suffix, name.com, proxy
-host-suffix, openvpn.net, proxy
-host-suffix, openwrt.org, proxy
-host-suffix, ow.ly, proxy
-host-suffix, pinboard.in, proxy
-host-suffix, ssl-images-amazon.com, proxy
-host-suffix, sstatic.net, proxy
-host-suffix, stackoverflow.com, proxy
-host-suffix, staticflickr.com, proxy
-host-suffix, squarespace.com, proxy
-host-suffix, symcd.com, proxy
-host-suffix, symcb.com, proxy
-host-suffix, symauth.com, proxy
-host-suffix, ubnt.com, proxy
-host-suffix, thepiratebay.org, proxy
-host-suffix, tumblr.com, proxy
-host-suffix, twitch.tv, proxy
-host-suffix, wikipedia.com, proxy
-host-suffix, wikipedia.org, proxy
+#Vivaldi
+host-suffix, vivaldi.com, proxy
+host-suffix, vivaldi.net, proxy
+host-suffix, vivaldistatus.com, proxy
+#WikipediA
 host-suffix, wikimedia.org, proxy
-host-suffix, wordpress.com, proxy
-host-suffix, wsj.com, proxy
-host-suffix, wsj.net, proxy
-host-suffix, wp.com, proxy
-host-suffix, vimeo.com, proxy
-host-suffix, tapbots.com, proxy
-host-suffix, medium.com, proxy
-host-suffix, fast.com, proxy
-host-suffix, nflxvideo.net, proxy
-host-suffix, linkedin.com, proxy
-host-suffix, licdn.com, proxy
-# DNS Leak
-host-suffix, dnsleaktest.com, proxy
-host-suffix, dnsleak.com, proxy
-host-suffix, expressvpn.com, proxy
-host-suffix, nordvpn.com, proxy
-host-suffix, surfshark.com, proxy
-host-suffix, ipleak.net, proxy
-host-suffix, perfect-privacy.com, proxy
-host-suffix, browserleaks.com, proxy
-host-suffix, browserleaks.org, proxy
-host-suffix, vpnunlimited.com, proxy
-host-suffix, whoer.net, proxy
-host-suffix, whrq.net, proxy
+host-suffix, wikipedia.org, proxy
+host-suffix, mediawiki.org, proxy
+host-suffix, wikibooks.org, proxy
+host-suffix, wikidata.org, proxy
+host-suffix, wikinews.org, proxy
+host-suffix, wikiquote.org, proxy
+host-suffix, wikisource.org, proxy
+host-suffix, wikiversity.org, proxy
+host-suffix, wikivoyage.org, proxy
+host-suffix, wiktionary.org, proxy
+#yahoo
+host-suffix, yimg.com, proxy
+host-suffix, yahoo.com, proxy
+host-suffix, yahoo.net, proxy
+host-suffix, yahoo.com.hk, proxy
+host-suffix, yahoo.com.tw, proxy
+host-suffix, aol.co.uk, proxy
+host-suffix, aol.com, proxy
+host-suffix, aol.de, proxy
+host-suffix, autoblog.com, proxy
+host-suffix, engadget.com, proxy
+host-suffix, sportz.io, proxy
