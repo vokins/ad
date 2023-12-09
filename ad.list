@@ -1,4 +1,4 @@
-# Update > 3:01 2023/12/8
+# Update > 23:53 2023/12/9
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon请使用下面的文件
@@ -11,8 +11,8 @@ host, api-adservices.apple.com, reject
 host-suffix, iadsdk.apple.com, reject
 #3rdPage-页面插入-欺诈性网站警告
 #https://developers.google.com/safe-browsing/
-host, safebrowsing.googleapis.com, reject
-host, safebrowsing.googleapis-cn.com, reject
+host-suffix, safebrowsing.googleapis.com, reject
+host-suffix, safebrowsing.googleapis-cn.com, reject
 #https://anquan.baidu.com/article/281
 host, lookup.api.bsb.baidu.com, reject
 #https://opensource.apple.com/source/WebKit2/WebKit2-7607.2.6.1.1/UIProcess/Cocoa/SafeBrowsingWarningCocoa.mm.auto.html
@@ -571,6 +571,8 @@ host, adsdk.9imobi.com, reject
 host, advertising.youyizhidao.com, reject
 host, live.yuanbobo.com, reject
 host, zxid-m.mobileservice.cn, reject
+#SNS-Snapchat
+host, app-analytics-v2.snapchat.com, reject
 #SNS-Twitter
 host-suffix, ads-api-sandbox.twitter.com, reject
 host-suffix, ads-api.twitter.com, reject
@@ -1555,6 +1557,7 @@ host-suffix, analytics.yahoo.com, reject
 host-suffix, advertising.com, reject
 host, analytics.query.yahoo.com, reject
 host, beap.gemini.yahoo.com, reject
+host, yads.c.yimg.jp, reject
 #Others
 host, dn-growing.qbox.me, reject
 host, lkme.cc, reject
@@ -1806,11 +1809,14 @@ host-suffix, govhebie.cn, reject
 host-suffix, govhenan.cn, reject
 host-suffix, govlaibing.cn, reject
 host-suffix, govshenzhen.cn, reject
+host-suffix, gozendata.com, reject
 host-suffix, gridsumdissector.com, reject
 host-suffix, growingio.com, reject
 host-suffix, gssprt.jp, reject
 host-suffix, gtags.net, reject
 host-suffix, gtcxawq.com, reject
+host-suffix, gz-data.com, reject
+host-suffix, gzads.com, reject
 host-suffix, haohuisheng555.cn, reject
 host-suffix, hapying.com, reject
 host-suffix, hdazs.xyz, reject
