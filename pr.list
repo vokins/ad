@@ -1,4 +1,4 @@
-# Update > 23:52 2023/12/9
+# Update > 17:24 2023/12/13
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -93,6 +93,10 @@ host-suffix, googleblog.com, proxy
 host-suffix, g.co, proxy
 #Cloudflare
 host-suffix, cloudflare.com, proxy
+#dropbox
+host-suffix, dropbox.com, proxy
+host-suffix, dropboxstatic.com, proxy
+host-suffix, dropboxforum.com, proxy
 #Meta
 host-suffix, meta.com, proxy
 host-suffix, metacareers.com, proxy
@@ -152,3 +156,178 @@ host-suffix, aol.de, proxy
 host-suffix, autoblog.com, proxy
 host-suffix, engadget.com, proxy
 host-suffix, sportz.io, proxy
+#My
+# 基于  域名  后缀判断走代理（Proxy）
+host-suffix, usercontent.dev, proxy
+# 基于 关键词 后缀判断走代理（Proxy）
+host-keyword, porn, proxy
+# 基于 客户端 后缀判断走代理（Proxy）
+User-Agent, com.google.ios.youtube*, proxy
+User-Agent, pascalswager, proxy
+
+## based on Shadowrocket default.conf
+# LINE
+host-suffix, scdn.co, proxy
+host-suffix, line.naver.jp, proxy
+host-suffix, line-cdn.net, proxy
+USER-AGENT,Line*, proxy
+# Google
+host-keyword, blogspot, proxy
+host-keyword, google, proxy
+host-suffix, abc.xyz, proxy
+host-suffix, admin.recaptcha.net, proxy
+host-suffix, androidify.com, proxy
+host-suffix, autodraw.com, proxy
+host-suffix, capitalg.com, proxy
+host-suffix, certificate-transparency.org, proxy
+host-suffix, chrome.com, proxy
+host-suffix, chromeexperiments.com, proxy
+host-suffix, chromestatus.com, proxy
+host-suffix, chromium.org, proxy
+host-suffix, creativelab5.com, proxy
+host-suffix, debug.com, proxy
+host-suffix, deepmind.com, proxy
+host-suffix, dialogflow.com, proxy
+host-suffix, firebaseio.com, proxy
+host-suffix, getmdl.io, proxy
+host-suffix, getoutline.org, proxy
+host-suffix, gmail.com, proxy
+host-suffix, gmodules.com, proxy
+host-suffix, godoc.org, proxy
+host-suffix, golang.org, proxy
+host-suffix, gv.com, proxy
+host-suffix, gvt0.com, proxy
+host-suffix, gvt1.com, proxy
+host-suffix, gvt3.com, proxy
+host-suffix, gwtproject.org, proxy
+host-suffix, itasoftware.com, proxy
+host-suffix, madewithcode.com, proxy
+host-suffix, material.io, proxy
+host-suffix, polymer-project.org, proxy
+host-suffix, recaptcha.net, proxy
+host-suffix, shattered.io, proxy
+host-suffix, synergyse.com, proxy
+host-suffix, telephony.goog, proxy
+host-suffix, tensorflow.org, proxy
+host-suffix, tfhub.dev, proxy
+host-suffix, tiltbrush.com, proxy
+host-suffix, waveprotocol.org, proxy
+host-suffix, waymo.com, proxy
+host-suffix, webmproject.org, proxy
+host-suffix, webrtc.org, proxy
+host-suffix, whatbrowser.org, proxy
+host-suffix, widevine.com, proxy
+host-suffix, x.company, proxy
+host-suffix, xn--ngstr-lra8j.com, proxy
+# Clubhouse
+host-suffix, clubhouseapi.com, proxy
+host-suffix, clubhouse.pubnub.com, proxy
+host-suffix, joinclubhouse.com, proxy
+host-suffix, ap3.agora.io, proxy
+# Top blocked sites
+host-keyword, aka, proxy
+host-keyword, facebook, proxy
+host-keyword, youtube, proxy
+host-keyword, twitter, proxy
+host-keyword, instagram, proxy
+host-keyword, gmail, proxy
+host-keyword, pixiv, proxy
+host-suffix, kenengba.com, proxy
+host-suffix, akamai.net, proxy
+host-suffix, whatsapp.net, proxy
+host-suffix, whatsapp.com, proxy
+host-suffix, amazonaws.com, proxy
+host-suffix, angularjs.org, proxy
+host-suffix, akamaihd.net, proxy
+host-suffix, amazon.com, proxy
+host-suffix, bit.ly, proxy
+host-suffix, bitbucket.org, proxy
+host-suffix, blog.com, proxy
+host-suffix, blogcdn.com, proxy
+host-suffix, blogsmithmedia.com, proxy
+host-suffix, box.net, proxy
+host-suffix, bloomberg.com, proxy
+host-suffix, cl.ly, proxy
+host-suffix, cloudfront.net, proxy
+host-suffix, cocoapods.org, proxy
+host-suffix, dribbble.com, proxy
+host-suffix, dropboxusercontent.com, proxy
+host-suffix, docker.com, proxy
+host-suffix, duckduckgo.com, proxy
+host-suffix, digicert.com, proxy
+host-suffix, dnsimple.com, proxy
+host-suffix, edgecastcdn.net, proxy
+host-suffix, eurekavpt.com, proxy
+host-suffix, fb.me, proxy
+host-suffix, fc2.com, proxy
+host-suffix, feedburner.com, proxy
+host-suffix, fabric.io, proxy
+host-suffix, flickr.com, proxy
+host-suffix, fastly.net, proxy
+host-suffix, goo.gl, proxy
+host-suffix, godaddy.com, proxy
+host-suffix, gravatar.com, proxy
+host-suffix, imageshack.us, proxy
+host-suffix, imgur.com, proxy
+host-suffix, jshint.com, proxy
+host-suffix, ift.tt, proxy
+host-suffix, j.mp, proxy
+host-suffix, kat.cr, proxy
+host-suffix, linode.com, proxy
+host-suffix, lithium.com, proxy
+host-suffix, megaupload.com, proxy
+host-suffix, mobile01.com, proxy
+host-suffix, modmyi.com, proxy
+host-suffix, nytimes.com, proxy
+host-suffix, name.com, proxy
+host-suffix, openvpn.net, proxy
+host-suffix, openwrt.org, proxy
+host-suffix, ow.ly, proxy
+host-suffix, pinboard.in, proxy
+host-suffix, ssl-images-amazon.com, proxy
+host-suffix, sstatic.net, proxy
+host-suffix, stackoverflow.com, proxy
+host-suffix, staticflickr.com, proxy
+host-suffix, squarespace.com, proxy
+host-suffix, symcd.com, proxy
+host-suffix, symcb.com, proxy
+host-suffix, symauth.com, proxy
+host-suffix, ubnt.com, proxy
+host-suffix, thepiratebay.org, proxy
+host-suffix, tumblr.com, proxy
+host-suffix, twitch.tv, proxy
+host-suffix, wikipedia.com, proxy
+host-suffix, wordpress.com, proxy
+host-suffix, wsj.com, proxy
+host-suffix, wsj.net, proxy
+host-suffix, wp.com, proxy
+host-suffix, vimeo.com, proxy
+host-suffix, tapbots.com, proxy
+host-suffix, ykimg.com,DIRECT
+host-suffix, medium.com, proxy
+host-suffix, fast.com, proxy
+host-suffix, nflxvideo.net, proxy
+host-suffix, linkedin.com, proxy
+host-suffix, licdn.com, proxy
+host-suffix, bing.com, proxy
+# SoundCloud
+host-suffix, soundcloud.com, proxy
+host-suffix, sndcdn.com, proxy
+# Telegram
+host-suffix, tdesktop.com, proxy
+host-suffix, telegra.ph, proxy
+host-suffix, telegram.me, proxy
+host-suffix, telesco.pe, proxy
+# DNS Leak
+host-suffix, dnsleaktest.com, proxy
+host-suffix, dnsleak.com, proxy
+host-suffix, expressvpn.com, proxy
+host-suffix, nordvpn.com, proxy
+host-suffix, surfshark.com, proxy
+host-suffix, ipleak.net, proxy
+host-suffix, perfect-privacy.com, proxy
+host-suffix, browserleaks.com, proxy
+host-suffix, browserleaks.org, proxy
+host-suffix, vpnunlimited.com, proxy
+host-suffix, whoer.net, proxy
+host-suffix, whrq.net, proxy
