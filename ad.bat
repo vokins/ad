@@ -21,6 +21,7 @@ sed -i "s/host-keyword, /DOMAIN-KEYWORD,/g" prls.list
 sed -i "s/host-suffix, /DOMAIN-SUFFIX,/g" prls.list
 sed -i "s/User-Agent, /USER-AGENT,/g" prls.list
 sed -i "s/, proxy/,PROXY/g" prls.list
+sed -i "s/pr.list/prls.list/g" prls.list
 rem 删除空行
 sed -i "/^$/d" prls.list
 echo OK
