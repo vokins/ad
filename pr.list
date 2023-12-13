@@ -1,4 +1,4 @@
-# Update > 17:24 2023/12/13
+# Update > 22:38 2023/12/13
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -170,7 +170,7 @@ User-Agent, pascalswager, proxy
 host-suffix, scdn.co, proxy
 host-suffix, line.naver.jp, proxy
 host-suffix, line-cdn.net, proxy
-USER-AGENT,Line*, proxy
+User-Agent, Line*, proxy
 # Google
 host-keyword, blogspot, proxy
 host-keyword, google, proxy
