@@ -1,15 +1,19 @@
-# Update > 23:53 2023/12/9
+# Update > 22:37 2023/12/13
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon请使用下面的文件
-# https://raw.githubusercontent.com/vokins/ad/main/loon.list
+# https://raw.githubusercontent.com/vokins/ad/main/adls.list
 # 策略建议使用特定域名走Pr.list，白名单域名dr.list
 
-#Apple
-host, advertising.apple.com, reject
-host, api-adservices.apple.com, reject
+#Apple Ads
+host-suffix, advertising.apple.com, reject
 host-suffix, iadsdk.apple.com, reject
+#https://developer.apple.com/documentation/adservices/aaattribution/attributiontoken()
+host-suffix, api-adservices.apple.com, reject
+#https://developer.apple.com/documentation/apple_search_ads/get_all_ads
+host-suffix, searchads.apple.com, reject
 #3rdPage-页面插入-欺诈性网站警告
+host-keyword, safebrowsing., reject
 #https://developers.google.com/safe-browsing/
 host-suffix, safebrowsing.googleapis.com, reject
 host-suffix, safebrowsing.googleapis-cn.com, reject
@@ -24,7 +28,7 @@ host, get.sogou.com, reject
 host, safe.sogou.com, reject
 host, cronus.ie.sogou.com, reject
 host, vinci.ie.sogou.com, reject
-#UCWEB
+#UCWeb
 host, adtrack.ucweb.com, reject
 host, safe.ucweb.com, reject
 host-suffix, u3.ucweb.com, reject
@@ -222,6 +226,10 @@ host, marauder.zongheng.com, reject
 host, flux.faloo.com, reject
 #Book-动漫之家
 host, adsdk.idmzj.com, reject
+#Book-哔咔漫画 https://www.picacomic.com/
+host, ad-channel.diwodiwo.xyz, reject
+host, ad-channel.wikawika.xyz, reject
+host, ad-display.diwodiwo.xyz, reject
 #Buy-拼多多
 host, adim.pinduoduo.com, reject
 host, t-dsp.pinduoduo.com, reject
@@ -549,7 +557,10 @@ host, erebor.douban.com, reject
 host, qnmob3.doubanio.com, reject
 #SNS-知乎
 host, apm.zhihu.com, reject
+host, appcloud.zhihu.com, reject
+host, appcloud2.in.zhihu.com, reject
 host, crash2.zhihu.com, reject
+host, mqtt.zhihu.com, reject
 host, sugar.zhihu.com, reject
 host, zhihu-web-analytics.zhihu.com, reject
 #SNS-小红书
@@ -1223,6 +1234,12 @@ host, tnc3-bjlgy.bytedance.com, reject
 host, pitaya.bytedance.com, reject
 host-keyword, adbrand.byteimg.com, reject
 host-keyword, ad-sign.byteimg.com, reject
+host-keyword, asiad.byteactivity, reject
+host-keyword, -tos.pstatp.com, reject
+host-keyword, pangolin-sdk-toutiao, reject
+host-keyword, pangolin.snssdk.com, reject
+host-keyword, pglstatp-toutiao, reject
+host-keyword, video-cn.snssdk.com, reject
 host, p1-dpa.byteimg.com, reject
 host-keyword, analytics.bytescm.com, reject
 host, lf-cdn-tos.bytescm.com, reject
@@ -2054,6 +2071,7 @@ host-suffix, tenjin.com, reject
 host-suffix, testplus.cn, reject
 host-suffix, tewtwt.top, reject
 host-suffix, thefatherofsalmon.com, reject
+host-suffix, thubanoa.com, reject
 host-suffix, tianmidian.com, reject
 host-suffix, tianmu.mobi, reject
 host-suffix, tidaltv.com, reject
