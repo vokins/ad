@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.33
+! Version: 1.35
 ! Title: adfilter
-! Last modified: 11:27 2023/12/2 Expires: 7 days (update frequency)
+! Last modified: 22:36 2023/12/13 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/ab.txt
@@ -394,8 +394,10 @@ jrkan2023.com##+js(acis, disp_prompt)
 czzy.art##.mikd
 
 ||advertising.apple.com^
-||api-adservices.apple.com^
 ||iadsdk.apple.com^
+||api-adservices.apple.com^
+||searchads.apple.com^
+||safebrowsing.^
 ||safebrowsing.googleapis.com^
 ||safebrowsing.googleapis-cn.com^
 ||lookup.api.bsb.baidu.com^
@@ -480,21 +482,23 @@ czzy.art##.mikd
 ||adserviceretry.kugou.com^
 ||adsfile.bssdlbig.kugou.com^
 ||adsfilebssdlbig.ali.kugou.com^
+||d.kugou.com^
+||log.stat.kugou.com^
+||log.web.kugou.com^
 ||collect.kugou.com^
 ||install2.kugou.com^
 ||kgipadstat.kugou.com^
 ||kgipadstatbak.kugou.com^
-||log.web.kugou.com^
 ||logwebs.kugou.com^
 ||mobilelog.kugou.com^
 ||msg.mobile.kugou.com^
 ||nbcollect.kugou.com^
+||nbcollectretry.kugou.com^
 ||push.mobile.kugou.com^
+||rt-m.kugou.com^
 ||splashimgbssdl.yun.kugou.com^
 ||tracker.kugou.com^
 ||trackercdnbj.kugou.com^
-||rt-m.kugou.com^
-||nbcollectretry.kugou.com^
 ||track.audiobuy.cc^
 ||engine.audiobuy.cc^
 ||log.ergediandian.com^
@@ -556,6 +560,9 @@ czzy.art##.mikd
 ||marauder.zongheng.com^
 ||flux.faloo.com^
 ||adsdk.idmzj.com^
+||ad-channel.diwodiwo.xyz^
+||ad-channel.wikawika.xyz^
+||ad-display.diwodiwo.xyz^
 ||adim.pinduoduo.com^
 ||t-dsp.pinduoduo.com^
 ||video-dsp.pddpic.com^
@@ -819,7 +826,10 @@ czzy.art##.mikd
 ||erebor.douban.com^
 ||qnmob3.doubanio.com^
 ||apm.zhihu.com^
+||appcloud.zhihu.com^
+||appcloud2.in.zhihu.com^
 ||crash2.zhihu.com^
+||mqtt.zhihu.com^
 ||sugar.zhihu.com^
 ||zhihu-web-analytics.zhihu.com^
 ||ads-img-al.xhscdn.com^
@@ -838,6 +848,7 @@ czzy.art##.mikd
 ||advertising.youyizhidao.com^
 ||live.yuanbobo.com^
 ||zxid-m.mobileservice.cn^
+||app-analytics-v2.snapchat.com^
 ||ads-api-sandbox.twitter.com^
 ||ads-api.twitter.com^
 ||ads-twitter.com^
@@ -1404,6 +1415,12 @@ czzy.art##.mikd
 ||pitaya.bytedance.com^
 ||adbrand.byteimg.com^
 ||ad-sign.byteimg.com^
+||asiad.byteactivity^
+||-tos.pstatp.com^
+||pangolin-sdk-toutiao^
+||pangolin.snssdk.com^
+||pglstatp-toutiao^
+||video-cn.snssdk.com^
 ||p1-dpa.byteimg.com^
 ||analytics.bytescm.com^
 ||lf-cdn-tos.bytescm.com^
@@ -1460,10 +1477,13 @@ czzy.art##.mikd
 ||f-cashloan.snssdk.com^
 ||f-cpay.snssdk.com^
 ||bytefae.com^
+||doupay.com^
 ||-pay.bytefae.com^
 ||-static.bytefae.com^
 ||-infras.bytetos.com^
 ||-insurance.byteimg.com^
+||-infras.byteimg.com^
+||baohuaxia.com^
 ||klink.amemv.com^
 ||volcsirius.com^
 ||lf-webcast-gr-sourcecdn.bytegecko.com^
@@ -1710,6 +1730,7 @@ czzy.art##.mikd
 ||advertising.com^
 ||analytics.query.yahoo.com^
 ||beap.gemini.yahoo.com^
+||yads.c.yimg.jp^
 ||dn-growing.qbox.me^
 ||lkme.cc^
 ||051091.com^
@@ -1959,11 +1980,14 @@ czzy.art##.mikd
 ||govhenan.cn^
 ||govlaibing.cn^
 ||govshenzhen.cn^
+||gozendata.com^
 ||gridsumdissector.com^
 ||growingio.com^
 ||gssprt.jp^
 ||gtags.net^
 ||gtcxawq.com^
+||gz-data.com^
+||gzads.com^
 ||haohuisheng555.cn^
 ||hapying.com^
 ||hdazs.xyz^
@@ -2201,6 +2225,7 @@ czzy.art##.mikd
 ||testplus.cn^
 ||tewtwt.top^
 ||thefatherofsalmon.com^
+||thubanoa.com^
 ||tianmidian.com^
 ||tianmu.mobi^
 ||tidaltv.com^
