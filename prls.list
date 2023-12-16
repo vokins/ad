@@ -1,4 +1,4 @@
-# Update > 22:38 2023/12/13
+# Update > 21:56 2023/12/16
 # https://raw.githubusercontent.com/vokins/ad/main/prls.list
 # https://github.com/vokins/ad/blob/main/prls.list
 ###Adult
@@ -155,9 +155,17 @@ DOMAIN-SUFFIX,aol.de,PROXY
 DOMAIN-SUFFIX,autoblog.com,PROXY
 DOMAIN-SUFFIX,engadget.com,PROXY
 DOMAIN-SUFFIX,sportz.io,PROXY
+###Tools
+DOMAIN-SUFFIX,boxjs.com,PROXY
+DOMAIN-SUFFIX,script.hub,PROXY
+DOMAIN-SUFFIX,sub.store,PROXY
+DOMAIN-SUFFIX,vercel.app,PROXY
+DOMAIN,scripthub.vercel.app,PROXY
+DOMAIN,sub-store.vercel.app,PROXY
 #My
 # 基于  域名  后缀判断走代理（Proxy）
 DOMAIN-SUFFIX,usercontent.dev,PROXY
+DOMAIN-SUFFIX,workers.dev,PROXY
 # 基于 关键词 后缀判断走代理（Proxy）
 DOMAIN-KEYWORD,porn,PROXY
 # 基于 客户端 后缀判断走代理（Proxy）
