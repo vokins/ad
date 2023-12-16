@@ -1,4 +1,4 @@
-# Update > 22:52 2023/12/13
+# Update > 21:57 2023/12/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -734,6 +734,7 @@ host, h-adashx.ut.fliggy.com, reject
 #Trip-滴滴
 host, adtrack.xiaojukeji.com, reject
 host, doraemon.xiaojukeji.com, reject
+host-suffix, gwp.xiaojukeji.com, reject
 #Trip-携程旅行
 host, ma-adx.ctrip.com, reject
 host, s.c-ctrip.com, reject
