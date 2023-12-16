@@ -973,6 +973,7 @@ czzy.art##.mikd
 ||h-adashx.ut.fliggy.com^
 ||adtrack.xiaojukeji.com^
 ||doraemon.xiaojukeji.com^
+||gwp.xiaojukeji.com^
 ||ma-adx.ctrip.com^
 ||s.c-ctrip.com^
 ||ad.chelaile.net.cn^
