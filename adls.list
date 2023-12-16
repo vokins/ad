@@ -578,6 +578,7 @@ DOMAIN,adashx.ut.fliggy.com,REJECT
 DOMAIN,h-adashx.ut.fliggy.com,REJECT
 DOMAIN,adtrack.xiaojukeji.com,REJECT
 DOMAIN,doraemon.xiaojukeji.com,REJECT
+DOMAIN-SUFFIX,gwp.xiaojukeji.com,REJECT
 DOMAIN,ma-adx.ctrip.com,REJECT
 DOMAIN,s.c-ctrip.com,REJECT
 DOMAIN,ad.chelaile.net.cn,REJECT
