@@ -1,4 +1,4 @@
-# Update > 22:38 2023/12/13
+# Update > 21:56 2023/12/16
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -156,9 +156,17 @@ host-suffix, aol.de, proxy
 host-suffix, autoblog.com, proxy
 host-suffix, engadget.com, proxy
 host-suffix, sportz.io, proxy
+###Tools
+host-suffix, boxjs.com, proxy
+host-suffix, script.hub, proxy
+host-suffix, sub.store, proxy
+host-suffix, vercel.app, proxy
+host, scripthub.vercel.app, proxy
+host, sub-store.vercel.app, proxy
 #My
 # 基于  域名  后缀判断走代理（Proxy）
 host-suffix, usercontent.dev, proxy
+host-suffix, workers.dev, proxy
 # 基于 关键词 后缀判断走代理（Proxy）
 host-keyword, porn, proxy
 # 基于 客户端 后缀判断走代理（Proxy）
