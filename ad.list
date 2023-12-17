@@ -1,4 +1,4 @@
-# Update > 21:57 2023/12/16
+# Update > 17:02 2023/12/17
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -1561,6 +1561,8 @@ host, report.idqqimg.com, reject
 host, apd-pcdnvodstat.teg.tencent-cloud.net, reject
 host, apd-vodp2preport.teg.tencent-cloud.net, reject
 #Unity
+host-suffix, ads.internal.unity3d.com, reject
+host-suffix, ads.prd.ie.internal.unity3d.com, reject
 host-suffix, unityads.unity3d.com, reject
 host-suffix, unityads.unitychina.cn, reject
 #Yandex
@@ -1919,6 +1921,7 @@ host-suffix, lwmbc.cn, reject
 host-suffix, lywdoo.cn, reject
 host-suffix, madhouse.cn, reject
 host-suffix, madserving.com, reject
+host-suffix, magsrv.com, reject
 host-suffix, mainroll.com, reject
 host-suffix, manduhu.com, reject
 host-suffix, mathtag.com, reject
@@ -1975,6 +1978,7 @@ host-suffix, openmediation.com, reject
 host-suffix, openx.net, reject
 host-suffix, optaim.com, reject
 host-suffix, optimix.cn, reject
+host-suffix, orbsrv.com, reject
 host-suffix, outin.cn, reject
 host-suffix, owtlra.xyz, reject
 host-suffix, pagechoice.net, reject
@@ -2116,6 +2120,8 @@ host-suffix, verizonmedia.com, reject
 host-suffix, videojj.com, reject
 host-suffix, vidoomy.com, reject
 host-suffix, viglink.com, reject
+host-suffix, vipads.cc, reject
+host-suffix, vipads.live, reject
 host-suffix, vipwm.cc, reject
 host-suffix, vlion.cn, reject
 host-suffix, voiceads.cn, reject
