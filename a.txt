@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.35
+! Version: 1.36
 ! Title: adfilter
-! Last modified: 22:36 2023/12/13 Expires: 7 days (update frequency)
+! Last modified: 20:32 2023/12/17 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/ab.txt
