@@ -1,9 +1,9 @@
-# Update > 21:56 2023/12/16
+# Update > 20:33 2023/12/17
 # https://raw.githubusercontent.com/vokins/ad/main/prls.list
 # https://github.com/vokins/ad/blob/main/prls.list
 ###Adult
 #shuaito
-DOMAIN-SUFFIX,shuaito.one,PROXY
+#DOMAIN-SUFFIX,shuaito.one,PROXY
 #soutong
 DOMAIN-SUFFIX,soutong.men,PROXY
 DOMAIN-SUFFIX,stboy.net,PROXY
