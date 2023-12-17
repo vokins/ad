@@ -1324,6 +1324,8 @@ DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,report.idqqimg.com,REJECT
 DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net,REJECT
 DOMAIN,apd-vodp2preport.teg.tencent-cloud.net,REJECT
+DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
 DOMAIN,yandexmetrica.com,REJECT
@@ -1678,6 +1680,7 @@ DOMAIN-SUFFIX,lwmbc.cn,REJECT
 DOMAIN-SUFFIX,lywdoo.cn,REJECT
 DOMAIN-SUFFIX,madhouse.cn,REJECT
 DOMAIN-SUFFIX,madserving.com,REJECT
+DOMAIN-SUFFIX,magsrv.com,REJECT
 DOMAIN-SUFFIX,mainroll.com,REJECT
 DOMAIN-SUFFIX,manduhu.com,REJECT
 DOMAIN-SUFFIX,mathtag.com,REJECT
@@ -1734,6 +1737,7 @@ DOMAIN-SUFFIX,openmediation.com,REJECT
 DOMAIN-SUFFIX,openx.net,REJECT
 DOMAIN-SUFFIX,optaim.com,REJECT
 DOMAIN-SUFFIX,optimix.cn,REJECT
+DOMAIN-SUFFIX,orbsrv.com,REJECT
 DOMAIN-SUFFIX,outin.cn,REJECT
 DOMAIN-SUFFIX,owtlra.xyz,REJECT
 DOMAIN-SUFFIX,pagechoice.net,REJECT
@@ -1875,6 +1879,8 @@ DOMAIN-SUFFIX,verizonmedia.com,REJECT
 DOMAIN-SUFFIX,videojj.com,REJECT
 DOMAIN-SUFFIX,vidoomy.com,REJECT
 DOMAIN-SUFFIX,viglink.com,REJECT
+DOMAIN-SUFFIX,vipads.cc,REJECT
+DOMAIN-SUFFIX,vipads.live,REJECT
 DOMAIN-SUFFIX,vipwm.cc,REJECT
 DOMAIN-SUFFIX,vlion.cn,REJECT
 DOMAIN-SUFFIX,voiceads.cn,REJECT
