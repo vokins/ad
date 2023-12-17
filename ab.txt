@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.35
+! Version: 1.36
 ! Title: adfilter
-! Last modified: 22:36 2023/12/13 Expires: 7 days (update frequency)
+! Last modified: 20:32 2023/12/17 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/ab.txt
@@ -1719,6 +1719,8 @@ czzy.art##.mikd
 ||report.idqqimg.com^
 ||apd-pcdnvodstat.teg.tencent-cloud.net^
 ||apd-vodp2preport.teg.tencent-cloud.net^
+||ads.internal.unity3d.com^
+||ads.prd.ie.internal.unity3d.com^
 ||unityads.unity3d.com^
 ||unityads.unitychina.cn^
 ||yandexmetrica.com^
@@ -2073,6 +2075,7 @@ czzy.art##.mikd
 ||lywdoo.cn^
 ||madhouse.cn^
 ||madserving.com^
+||magsrv.com^
 ||mainroll.com^
 ||manduhu.com^
 ||mathtag.com^
@@ -2129,6 +2132,7 @@ czzy.art##.mikd
 ||openx.net^
 ||optaim.com^
 ||optimix.cn^
+||orbsrv.com^
 ||outin.cn^
 ||owtlra.xyz^
 ||pagechoice.net^
@@ -2270,6 +2274,8 @@ czzy.art##.mikd
 ||videojj.com^
 ||vidoomy.com^
 ||viglink.com^
+||vipads.cc^
+||vipads.live^
 ||vipwm.cc^
 ||vlion.cn^
 ||voiceads.cn^
