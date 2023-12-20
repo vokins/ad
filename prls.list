@@ -1,4 +1,4 @@
-# Update > 20:33 2023/12/17
+# Update > 1:22 2023/12/21
 # https://raw.githubusercontent.com/vokins/ad/main/prls.list
 # https://github.com/vokins/ad/blob/main/prls.list
 ###Adult
@@ -63,7 +63,7 @@ DOMAIN-SUFFIX,static.cnbetacdn.com,PROXY
 DOMAIN,demo.unlock-music.dev,PROXY
 #V2EX
 DOMAIN-SUFFIX,v2ex.com,PROXY
-###US-Sites
+###Sites
 #Alphabet-3rd
 DOMAIN,accounts.google.com,PROXY
 DOMAIN,fonts.gstatic.com,PROXY
@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,gstatic.com,PROXY
 #Alphabet-Google
 DOMAIN-SUFFIX,blog.google,PROXY
 DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-KEYWORD,.google.,PROXY
 DOMAIN-SUFFIX,www.google.co.jp,PROXY
 #Alphabet-YouTube
 DOMAIN-SUFFIX,youtube.com,PROXY
@@ -90,12 +91,28 @@ DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,googleblog.com,PROXY
 DOMAIN-SUFFIX,g.co,PROXY
+#Amazon-AWS
+DOMAIN-SUFFIX,awswaf.com,PROXY
+DOMAIN-SUFFIX,cloudfront.net,PROXY
 #Cloudflare
 DOMAIN-SUFFIX,cloudflare.com,PROXY
+DOMAIN-SUFFIX,cloudflare.net,PROXY
+DOMAIN-SUFFIX,cloudflare.tv,PROXY
 #dropbox
 DOMAIN-SUFFIX,dropbox.com,PROXY
 DOMAIN-SUFFIX,dropboxstatic.com,PROXY
 DOMAIN-SUFFIX,dropboxforum.com,PROXY
+#Epic Games https://dev.epicgames.com/zh-CN/services/terms/subprocessors
+DOMAIN-SUFFIX,artstation.com,PROXY
+DOMAIN-SUFFIX,fab.com,PROXY
+DOMAIN-SUFFIX,fallguys.com,PROXY
+DOMAIN-SUFFIX,fortnite.com,PROXY
+DOMAIN-SUFFIX,rocketleague.com,PROXY
+DOMAIN-SUFFIX,epicgames.com,PROXY
+DOMAIN-SUFFIX,quixel.com,PROXY
+DOMAIN-SUFFIX,radgametools.com,PROXY
+DOMAIN-SUFFIX,twinmotion.com,PROXY
+DOMAIN-SUFFIX,unrealengine.com,PROXY
 #Meta
 DOMAIN-SUFFIX,meta.com,PROXY
 DOMAIN-SUFFIX,metacareers.com,PROXY
@@ -117,7 +134,12 @@ DOMAIN-SUFFIX,github.com,PROXY
 DOMAIN-SUFFIX,github.io,PROXY
 DOMAIN-SUFFIX,githubassets.com,PROXY
 DOMAIN-SUFFIX,githubusercontent.com,PROXY
+#Gumroad
+DOMAIN-SUFFIX,gumroad.com,PROXY
+#hCaptcha
+DOMAIN-SUFFIX,hcaptcha.com,PROXY
 #Snapchat
+DOMAIN-SUFFIX,sc-cdn.net,PROXY
 DOMAIN-SUFFIX,snapchat.com,PROXY
 #Telegram https://core.telegram.org/resources/cidr.txt
 DOMAIN-SUFFIX,cdn-telegram.org,PROXY
@@ -162,6 +184,8 @@ DOMAIN-SUFFIX,sub.store,PROXY
 DOMAIN-SUFFIX,vercel.app,PROXY
 DOMAIN,scripthub.vercel.app,PROXY
 DOMAIN,sub-store.vercel.app,PROXY
+#web-foundry.co.uk
+DOMAIN-SUFFIX,website-files.com,PROXY
 #My
 # 基于  域名  后缀判断走代理（Proxy）
 DOMAIN-SUFFIX,usercontent.dev,PROXY
@@ -254,7 +278,6 @@ DOMAIN-SUFFIX,blogsmithmedia.com,PROXY
 DOMAIN-SUFFIX,box.net,PROXY
 DOMAIN-SUFFIX,bloomberg.com,PROXY
 DOMAIN-SUFFIX,cl.ly,PROXY
-DOMAIN-SUFFIX,cloudfront.net,PROXY
 DOMAIN-SUFFIX,cocoapods.org,PROXY
 DOMAIN-SUFFIX,dribbble.com,PROXY
 DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
