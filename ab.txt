@@ -474,6 +474,7 @@ czzy.art##.mikd
 ||stat.y.qq.com^
 ||tmead.y.qq.com^
 ||tmeadcomm.y.qq.com^
+||gdc.kg.qq.com^
 ||mobilead.kuwo.cn^
 ||rich.kuwo.cn^
 ||g.koowo.com^
@@ -902,6 +903,7 @@ czzy.art##.mikd
 ||choujiang.19ego.cn^
 ||abody.39.net^
 ||bamboo.39health.com^
+||ntb.lanjie100.com^
 ||adlaunch.moji.com^
 ||ffds.api.moji.com^
 ||logb.moji.com^
