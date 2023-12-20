@@ -1,4 +1,4 @@
-# Update > 17:02 2023/12/17
+# Update > 1:22 2023/12/21
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -108,6 +108,8 @@ host, monitor.music.qq.com, reject
 host, stat.y.qq.com, reject
 host, tmead.y.qq.com, reject
 host, tmeadcomm.y.qq.com, reject
+#Audio-QQ音乐-全民K歌
+host-suffix, gdc.kg.qq.com, reject
 #Audio-酷我
 host, mobilead.kuwo.cn, reject
 host, rich.kuwo.cn, reject
@@ -644,6 +646,8 @@ host, choujiang.19ego.cn, reject
 #Tool-39
 host, abody.39.net, reject
 host, bamboo.39health.com, reject
+#Tool-拦截100
+host, ntb.lanjie100.com, reject
 #Tool-墨迹天气
 host, adlaunch.moji.com, reject
 host, ffds.api.moji.com, reject
