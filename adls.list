@@ -79,6 +79,7 @@ DOMAIN,monitor.music.qq.com,REJECT
 DOMAIN,stat.y.qq.com,REJECT
 DOMAIN,tmead.y.qq.com,REJECT
 DOMAIN,tmeadcomm.y.qq.com,REJECT
+DOMAIN-SUFFIX,gdc.kg.qq.com,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
 DOMAIN,g.koowo.com,REJECT
@@ -507,6 +508,7 @@ DOMAIN,market.21cn.com,REJECT
 DOMAIN,choujiang.19ego.cn,REJECT
 DOMAIN,abody.39.net,REJECT
 DOMAIN,bamboo.39health.com,REJECT
+DOMAIN,ntb.lanjie100.com,REJECT
 DOMAIN,adlaunch.moji.com,REJECT
 DOMAIN,ffds.api.moji.com,REJECT
 DOMAIN,logb.moji.com,REJECT
