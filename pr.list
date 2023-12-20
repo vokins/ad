@@ -1,4 +1,4 @@
-# Update > 20:33 2023/12/17
+# Update > 1:22 2023/12/21
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -64,7 +64,7 @@ host-suffix, static.cnbetacdn.com, proxy
 host, demo.unlock-music.dev, proxy
 #V2EX
 host-suffix, v2ex.com, proxy
-###US-Sites
+###Sites
 #Alphabet-3rd
 host, accounts.google.com, proxy
 host, fonts.gstatic.com, proxy
@@ -79,6 +79,7 @@ host-suffix, gstatic.com, proxy
 #Alphabet-Google
 host-suffix, blog.google, proxy
 host-suffix, google.com, proxy
+host-keyword, .google., proxy
 host-suffix, www.google.co.jp, proxy
 #Alphabet-YouTube
 host-suffix, youtube.com, proxy
@@ -91,12 +92,28 @@ host-suffix, appspot.com, proxy
 host-suffix, blogger.com, proxy
 host-suffix, googleblog.com, proxy
 host-suffix, g.co, proxy
+#Amazon-AWS
+host-suffix, awswaf.com, proxy
+host-suffix, cloudfront.net, proxy
 #Cloudflare
 host-suffix, cloudflare.com, proxy
+host-suffix, cloudflare.net, proxy
+host-suffix, cloudflare.tv, proxy
 #dropbox
 host-suffix, dropbox.com, proxy
 host-suffix, dropboxstatic.com, proxy
 host-suffix, dropboxforum.com, proxy
+#Epic Games https://dev.epicgames.com/zh-CN/services/terms/subprocessors
+host-suffix, artstation.com, proxy
+host-suffix, fab.com, proxy
+host-suffix, fallguys.com, proxy
+host-suffix, fortnite.com, proxy
+host-suffix, rocketleague.com, proxy
+host-suffix, epicgames.com, proxy
+host-suffix, quixel.com, proxy
+host-suffix, radgametools.com, proxy
+host-suffix, twinmotion.com, proxy
+host-suffix, unrealengine.com, proxy
 #Meta
 host-suffix, meta.com, proxy
 host-suffix, metacareers.com, proxy
@@ -118,7 +135,12 @@ host-suffix, github.com, proxy
 host-suffix, github.io, proxy
 host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
+#Gumroad
+host-suffix, gumroad.com, proxy
+#hCaptcha
+host-suffix, hcaptcha.com, proxy
 #Snapchat
+host-suffix, sc-cdn.net, proxy
 host-suffix, snapchat.com, proxy
 #Telegram https://core.telegram.org/resources/cidr.txt
 host-suffix, cdn-telegram.org, proxy
@@ -163,6 +185,8 @@ host-suffix, sub.store, proxy
 host-suffix, vercel.app, proxy
 host, scripthub.vercel.app, proxy
 host, sub-store.vercel.app, proxy
+#web-foundry.co.uk
+host-suffix, website-files.com, proxy
 #My
 # 基于  域名  后缀判断走代理（Proxy）
 host-suffix, usercontent.dev, proxy
@@ -172,7 +196,6 @@ host-keyword, porn, proxy
 # 基于 客户端 后缀判断走代理（Proxy）
 User-Agent, com.google.ios.youtube*, proxy
 User-Agent, pascalswager, proxy
-
 ## based on Shadowrocket default.conf
 # LINE
 host-suffix, scdn.co, proxy
@@ -256,7 +279,6 @@ host-suffix, blogsmithmedia.com, proxy
 host-suffix, box.net, proxy
 host-suffix, bloomberg.com, proxy
 host-suffix, cl.ly, proxy
-host-suffix, cloudfront.net, proxy
 host-suffix, cocoapods.org, proxy
 host-suffix, dribbble.com, proxy
 host-suffix, dropboxusercontent.com, proxy
