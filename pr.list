@@ -1,30 +1,55 @@
-# Update > 1:22 2023/12/21
+# Update > 16:09 2023/12/23
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
-###Adult
-#shuaito
-#host-suffix, shuaito.one, proxy
-#soutong
-host-suffix, soutong.men, proxy
-host-suffix, stboy.net, proxy
-#海棠文化
-host-suffix, htwhbook.com, proxy
-host-suffix, lmebooks.com, proxy
-host-suffix, lmbooks.com, proxy
-#海棠文化(限)
-host-suffix, haitbook.com, proxy
-host-suffix, htlvbooks.com, proxy
-host-suffix, htnewbooks.com, proxy
-host-suffix, longmabook.com, proxy
-host-suffix, longmabookcn.com, proxy
-host-suffix, lovehtbooks.com, proxy
-host-suffix, lvhtebook.com, proxy
-host-suffix, myhtebook.com, proxy
-host-suffix, myhtebooks.com, proxy
-host-suffix, myhtlmebook.com, proxy
-host-suffix, newhtbook.com, proxy
-host-suffix, urhtbooks.com, proxy
+###APP
+#dropbox
+host-suffix, dropbox.com, proxy
+host-suffix, dropboxstatic.com, proxy
+host-suffix, dropboxforum.com, proxy
+#Github
+host-suffix, github.com, proxy
+host-suffix, github.io, proxy
+host-suffix, githubassets.com, proxy
+host-suffix, githubusercontent.com, proxy
+#hashphotos
+host-suffix, hashphotos.app, proxy
+#shottr
+host-suffix, shottr.cc, proxy
+#Snapchat
+host-suffix, sc-cdn.net, proxy
+host-suffix, snapchat.com, proxy
+#Telegram https://core.telegram.org/resources/cidr.txt
+host-suffix, cdn-telegram.org, proxy
+host-suffix, t.me, proxy
+host-suffix, telegram.org, proxy
+#Twitter
+host-suffix, twitter.com, proxy
+host-suffix, twimg.com, proxy
+host-suffix, t.co, proxy
+#Vivaldi
+host-suffix, vivaldi.com, proxy
+host-suffix, vivaldi.net, proxy
+host-suffix, vivaldistatus.com, proxy
+#WikipediA
+host-suffix, wikimedia.org, proxy
+host-suffix, wikipedia.org, proxy
+host-suffix, mediawiki.org, proxy
+host-suffix, wikibooks.org, proxy
+host-suffix, wikidata.org, proxy
+host-suffix, wikinews.org, proxy
+host-suffix, wikiquote.org, proxy
+host-suffix, wikisource.org, proxy
+host-suffix, wikiversity.org, proxy
+host-suffix, wikivoyage.org, proxy
+host-suffix, wiktionary.org, proxy
+#Tools
+host-suffix, boxjs.com, proxy
+host-suffix, script.hub, proxy
+host-suffix, sub.store, proxy
+host-suffix, vercel.app, proxy
+host, scripthub.vercel.app, proxy
+host, sub-store.vercel.app, proxy
 ###Asia
 #Hatena
 host-suffix, hatena.ne.jp, proxy
@@ -54,7 +79,30 @@ host-suffix, yahoo.co.jp, proxy
 host-suffix, yimg.jp, proxy
 host-suffix, blogimg.jp, proxy
 host-suffix, blog.jp, proxy
-###CN-Sites
+###Sites-Adult
+#shuaito
+#host-suffix, shuaito.one, proxy
+#soutong
+host-suffix, soutong.men, proxy
+host-suffix, stboy.net, proxy
+#海棠文化
+host-suffix, htwhbook.com, proxy
+host-suffix, lmebooks.com, proxy
+host-suffix, lmbooks.com, proxy
+#海棠文化(限)
+host-suffix, haitbook.com, proxy
+host-suffix, htlvbooks.com, proxy
+host-suffix, htnewbooks.com, proxy
+host-suffix, longmabook.com, proxy
+host-suffix, longmabookcn.com, proxy
+host-suffix, lovehtbooks.com, proxy
+host-suffix, lvhtebook.com, proxy
+host-suffix, myhtebook.com, proxy
+host-suffix, myhtebooks.com, proxy
+host-suffix, myhtlmebook.com, proxy
+host-suffix, newhtbook.com, proxy
+host-suffix, urhtbooks.com, proxy
+###Sites-CN
 #tw网站
 host-suffix, com.tw, proxy
 #CNbeta
@@ -64,7 +112,7 @@ host-suffix, static.cnbetacdn.com, proxy
 host, demo.unlock-music.dev, proxy
 #V2EX
 host-suffix, v2ex.com, proxy
-###Sites
+###Sites-US
 #Alphabet-3rd
 host, accounts.google.com, proxy
 host, fonts.gstatic.com, proxy
@@ -99,10 +147,6 @@ host-suffix, cloudfront.net, proxy
 host-suffix, cloudflare.com, proxy
 host-suffix, cloudflare.net, proxy
 host-suffix, cloudflare.tv, proxy
-#dropbox
-host-suffix, dropbox.com, proxy
-host-suffix, dropboxstatic.com, proxy
-host-suffix, dropboxforum.com, proxy
 #Epic Games https://dev.epicgames.com/zh-CN/services/terms/subprocessors
 host-suffix, artstation.com, proxy
 host-suffix, fab.com, proxy
@@ -130,42 +174,12 @@ host-suffix, cdninstagram.com, proxy
 host-suffix, messenger.com, proxy
 #Meta-Threads
 host-suffix, threads.net, proxy
-#Github
-host-suffix, github.com, proxy
-host-suffix, github.io, proxy
-host-suffix, githubassets.com, proxy
-host-suffix, githubusercontent.com, proxy
 #Gumroad
 host-suffix, gumroad.com, proxy
 #hCaptcha
 host-suffix, hcaptcha.com, proxy
-#Snapchat
-host-suffix, sc-cdn.net, proxy
-host-suffix, snapchat.com, proxy
-#Telegram https://core.telegram.org/resources/cidr.txt
-host-suffix, cdn-telegram.org, proxy
-host-suffix, t.me, proxy
-host-suffix, telegram.org, proxy
-#Twitter
-host-suffix, twitter.com, proxy
-host-suffix, twimg.com, proxy
-host-suffix, t.co, proxy
-#Vivaldi
-host-suffix, vivaldi.com, proxy
-host-suffix, vivaldi.net, proxy
-host-suffix, vivaldistatus.com, proxy
-#WikipediA
-host-suffix, wikimedia.org, proxy
-host-suffix, wikipedia.org, proxy
-host-suffix, mediawiki.org, proxy
-host-suffix, wikibooks.org, proxy
-host-suffix, wikidata.org, proxy
-host-suffix, wikinews.org, proxy
-host-suffix, wikiquote.org, proxy
-host-suffix, wikisource.org, proxy
-host-suffix, wikiversity.org, proxy
-host-suffix, wikivoyage.org, proxy
-host-suffix, wiktionary.org, proxy
+#imgur
+host-suffix, imgur.com, proxy
 #yahoo
 host-suffix, yimg.com, proxy
 host-suffix, yahoo.com, proxy
@@ -178,13 +192,6 @@ host-suffix, aol.de, proxy
 host-suffix, autoblog.com, proxy
 host-suffix, engadget.com, proxy
 host-suffix, sportz.io, proxy
-###Tools
-host-suffix, boxjs.com, proxy
-host-suffix, script.hub, proxy
-host-suffix, sub.store, proxy
-host-suffix, vercel.app, proxy
-host, scripthub.vercel.app, proxy
-host, sub-store.vercel.app, proxy
 #web-foundry.co.uk
 host-suffix, website-files.com, proxy
 #My
@@ -298,7 +305,6 @@ host-suffix, goo.gl, proxy
 host-suffix, godaddy.com, proxy
 host-suffix, gravatar.com, proxy
 host-suffix, imageshack.us, proxy
-host-suffix, imgur.com, proxy
 host-suffix, jshint.com, proxy
 host-suffix, ift.tt, proxy
 host-suffix, j.mp, proxy
