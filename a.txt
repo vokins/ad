@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 1.36
+! Version: 1.37
 ! Title: adfilter
-! Last modified: 20:32 2023/12/17 Expires: 7 days (update frequency)
+! Last modified: 22:52 2023/12/26 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
-! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/ab.txt
-! Homepage: https://github.com/vokins/ad/blob/main/ab.txt
+! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/a.txt
+! Homepage: https://github.com/vokins/ad/blob/main/a.txt
 !
 
 */ad-img/*
@@ -392,4 +392,3 @@ jrkan2023.com##+js(acis, disp_prompt)
 |https://yastatic.net/partner-code-bundles/*.js
 |https://yandex.ru/an/tracking/*
 czzy.art##.mikd
-
