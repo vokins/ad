@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.36
+! Version: 1.37
 ! Title: adfilter
-! Last modified: 20:32 2023/12/17 Expires: 7 days (update frequency)
+! Last modified: 22:52 2023/12/26 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/ab.txt
@@ -411,6 +411,7 @@ czzy.art##.mikd
 ||adtrack.ucweb.com^
 ||safe.ucweb.com^
 ||u3.ucweb.com^
+||sensorsdata.^
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
 ||open.kwaizt.com^
@@ -440,7 +441,9 @@ czzy.art##.mikd
 ||j0v.cn^
 ||k0j.cn^
 ||k3q.cn^
+||r7w.cn^
 ||w8dx.cn^
+||x1g.cn^
 ||yqg.mobi^
 ||zhelibao.com^
 ||51hicard.com^
@@ -449,14 +452,23 @@ czzy.art##.mikd
 ||dgbei.com^
 ||fenqile.com^
 ||haiercash.com^
+||huanbeiadall.com^
+||huanbeiloan.cn^
+||huanbeiloan.com^
+||huanbeipic.com^
 ||iyb.tm^
 ||jjhuigou.com^
 ||jpushoa.com^
+||lattebank.com^
+||msxf.com^
+||new253.com^
+||ppdai.com^
+||ppdaicdn.com^
 ||qufenqi.com^
 ||rong360.com^
+||rrxplatform.com^
 ||shanghaihagai.com^
 ||smyfinancial.com^
-||volccdn.com^
 ||xiaoying.com^
 ||xystatic.com^
 ||yangqianguan.com^
@@ -464,6 +476,9 @@ czzy.art##.mikd
 ||yxh3.cn^
 ||zaxdcredit.com^
 ||zhongan.io^
+||zxaxtech.com^
+||jr.ctrip.com^
+||jr.qunar.com^
 ||ad.tencentmusic.com^
 ||adcdn.tencentmusic.com^
 ||adclick.tencentmusic.com^
@@ -2047,6 +2062,7 @@ czzy.art##.mikd
 ||jiguang.cn^
 ||jizzads.com^
 ||jkzj120.com^
+||jpush-ipv6.cn^
 ||jpush.cn^
 ||jpush.io^
 ||juicyads.com^
