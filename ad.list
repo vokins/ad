@@ -1,4 +1,4 @@
-# Update > 1:22 2023/12/21
+# Update > 22:51 2023/12/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -32,6 +32,8 @@ host, vinci.ie.sogou.com, reject
 host, adtrack.ucweb.com, reject
 host, safe.ucweb.com, reject
 host-suffix, u3.ucweb.com, reject
+#3rdPage-host-keyword
+host-keyword, sensorsdata., reject
 #3rdPage-页面插入-第三方APP调用嵌入刷视频:快手 抖音
 host-suffix, open.e.kuaishou.cn, reject
 host-suffix, open.e.kuaishou.com, reject
@@ -72,7 +74,9 @@ host-suffix, f7h.cn, reject
 host-suffix, j0v.cn, reject
 host-suffix, k0j.cn, reject
 host-suffix, k3q.cn, reject
+host-suffix, r7w.cn, reject
 host-suffix, w8dx.cn, reject
+host-suffix, x1g.cn, reject
 host-suffix, yqg.mobi, reject
 host-suffix, zhelibao.com, reject
 #3rdPage-垃圾短信-贷款
@@ -82,14 +86,23 @@ host-suffix, bountech.com, reject
 host-suffix, dgbei.com, reject
 host-suffix, fenqile.com, reject
 host-suffix, haiercash.com, reject
+host-suffix, huanbeiadall.com, reject
+host-suffix, huanbeiloan.cn, reject
+host-suffix, huanbeiloan.com, reject
+host-suffix, huanbeipic.com, reject
 host-suffix, iyb.tm, reject
 host-suffix, jjhuigou.com, reject
 host-suffix, jpushoa.com, reject
+host-suffix, lattebank.com, reject
+host-suffix, msxf.com, reject
+host-suffix, new253.com, reject
+host-suffix, ppdai.com, reject
+host-suffix, ppdaicdn.com, reject
 host-suffix, qufenqi.com, reject
 host-suffix, rong360.com, reject
+host-suffix, rrxplatform.com, reject
 host-suffix, shanghaihagai.com, reject
 host-suffix, smyfinancial.com, reject
-host-suffix, volccdn.com, reject
 host-suffix, xiaoying.com, reject
 host-suffix, xystatic.com, reject
 host-suffix, yangqianguan.com, reject
@@ -97,6 +110,9 @@ host-suffix, yixin.com, reject
 host-suffix, yxh3.cn, reject
 host-suffix, zaxdcredit.com, reject
 host-suffix, zhongan.io, reject
+host-suffix, zxaxtech.com, reject
+host-suffix, jr.ctrip.com, reject
+host-suffix, jr.qunar.com, reject
 #Audio-QQ音乐
 host, ad.tencentmusic.com, reject
 host, adcdn.tencentmusic.com, reject
@@ -1895,6 +1911,7 @@ host-suffix, jazdoxthxiv.com, reject
 host-suffix, jiguang.cn, reject
 host-suffix, jizzads.com, reject
 host-suffix, jkzj120.com, reject
+host-suffix, jpush-ipv6.cn, reject
 host-suffix, jpush.cn, reject
 host-suffix, jpush.io, reject
 host-suffix, juicyads.com, reject
