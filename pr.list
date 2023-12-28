@@ -1,4 +1,4 @@
-# Update > 22:23 2023/12/28
+# Update > 1:59 2023/12/29
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -34,6 +34,26 @@ host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
 #hashphotos
 host-suffix, hashphotos.app, proxy
+#Microsoft-office-outlook-skype
+host, outlook.office.com, proxy
+host, outlook.office365.com, proxy
+host-suffix, bing.com, proxy
+host-suffix, live.com, proxy
+host-suffix, microsoft.com, proxy
+host-suffix, microsoftonline.com, proxy
+host-suffix, office.com, proxy
+host-suffix, office.net, proxy
+host-suffix, skype.com, proxy
+host-suffix, windows.com, proxy
+#Microsoft-others
+host-suffix, aspnetcdn.com, proxy
+host-suffix, azure.com, proxy
+host-suffix, gfx.ms, proxy
+#host-suffix, microsoftstore.com.cn, proxy
+host-suffix, msauth.net, proxy
+host-suffix, msecnd.net, proxy
+host-suffix, s-microsoft.com, proxy
+host-suffix, xbox.com, proxy
 #shottr
 host-suffix, shottr.cc, proxy
 #Snapchat
@@ -126,6 +146,7 @@ host-suffix, urhtbooks.com, proxy
 ###Sites-CN
 #tw网站
 host-suffix, com.tw, proxy
+host-suffix, gov.tw, proxy
 #CNbeta
 host-suffix, cnbeta.com.tw, proxy
 host-suffix, static.cnbetacdn.com, proxy
@@ -141,14 +162,22 @@ host-suffix, pao-pao.net, proxy
 host, demo.unlock-music.dev, proxy
 #V2EX
 host-suffix, v2ex.com, proxy
+###Sites-JP
+host-suffix, co.jp, proxy
+###Sites-UK
+host-suffix, co.uk, proxy
+#BBC
+host-suffix, bbc.com, proxy
 ###Sites-US
 #Adobe-fonts
 host-suffix, assets.adobedtm.com, proxy
 host-suffix, fonts.adobe.com, proxy
 host-suffix, typekit.com, proxy
 host-suffix, typekit.net, proxy
+#Akamai
+host-suffix, akamaized.net, proxy
 #archive.org
-host, archive.org, proxy
+host-suffix, archive.org, proxy
 #Alphabet-3rd
 host, ajax.googleapis.com, proxy
 host, fonts.googleapis.com, proxy
@@ -213,10 +242,15 @@ host-suffix, g.co, proxy
 host-suffix, goo.gl, proxy
 host-suffix, go.dev, proxy
 host-suffix, web.dev, proxy
+#Aol
+host-keyword, .aol.c, proxy
 #Amazon-AWS
 host-suffix, amazonaws.com, proxy
 host-suffix, awswaf.com, proxy
 host-suffix, cloudfront.net, proxy
+#Bloomberg
+host-suffix, bwbx.io, proxy
+host-keyword, .bloomberg, proxy
 #box
 host-suffix, box.com, proxy
 host-suffix, box.net, proxy
@@ -309,6 +343,11 @@ host-suffix, soundcloud.com, proxy
 host-suffix, sndcdn.com, proxy
 #Startpage
 host-suffix, startpage.com, proxy
+#Steam
+host-suffix, steampowered.com, proxy
+host-suffix, steamcommunity.com, proxy
+host-suffix, steamstatic.com, proxy
+host-suffix, valvesoftware.com, proxy
 #Tor Browser
 host-suffix, torproject.org, proxy
 #Tumblr
@@ -464,7 +503,6 @@ host-suffix, tapbots.com, proxy
 host-suffix, medium.com, proxy
 host-suffix, fast.com, proxy
 host-suffix, nflxvideo.net, proxy
-host-suffix, bing.com, proxy
 # Telegram
 host-suffix, tdesktop.com, proxy
 host-suffix, telegra.ph, proxy
