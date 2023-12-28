@@ -1,4 +1,4 @@
-# Update > 22:51 2023/12/26
+# Update > 1:58 2023/12/29
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -600,6 +600,8 @@ host, adsdk.9imobi.com, reject
 host, advertising.youyizhidao.com, reject
 host, live.yuanbobo.com, reject
 host, zxid-m.mobileservice.cn, reject
+#SNS-Linkedin
+host-suffix, ads.linkedin.com, reject
 #SNS-Snapchat
 host, app-analytics-v2.snapchat.com, reject
 #SNS-Twitter
@@ -1274,7 +1276,7 @@ host, log3-misc-lq.amemv.com, reject
 host, log5-misc-lq.amemv.com, reject
 host, mon11-misc-lq.amemv.com, reject
 #Bytedance-Others
-host-suffix, dig.bdurl.net, reject
+#host-suffix, dig.bdurl.net, reject
 host, lf1-cdn-tos.bytegoofy.com, reject
 #Bytedance-TikTok
 host, pangolin16.sgsnssdk.com, reject
@@ -1336,7 +1338,7 @@ host-keyword, -infras.byteimg.com, reject
 host-suffix, baohuaxia.com, reject
 host, klink.amemv.com, reject
 host-suffix, volcsirius.com, reject
-host, lf-webcast-gr-sourcecdn.bytegecko.com, reject
+#host, lf-webcast-gr-sourcecdn.bytegecko.com, reject
 host, repayment.jishitailai.com, reject
 host, webcast5-normal-lf.amemv.com, reject
 #Bytedance-snssdk
