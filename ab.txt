@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 1.37
+! Version: 1.38
 ! Title: adfilter
-! Last modified: 22:52 2023/12/26 Expires: 7 days (update frequency)
+! Last modified: 1:59 2023/12/29 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
-! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/ab.txt
-! Homepage: https://github.com/vokins/ad/blob/main/ab.txt
+! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/a.txt
+! Homepage: https://github.com/vokins/ad/blob/main/a.txt
 !
 
 */ad-img/*
@@ -864,6 +864,7 @@ czzy.art##.mikd
 ||advertising.youyizhidao.com^
 ||live.yuanbobo.com^
 ||zxid-m.mobileservice.cn^
+||ads.linkedin.com^
 ||app-analytics-v2.snapchat.com^
 ||ads-api-sandbox.twitter.com^
 ||ads-api.twitter.com^
@@ -1450,7 +1451,6 @@ czzy.art##.mikd
 ||log3-misc-lq.amemv.com^
 ||log5-misc-lq.amemv.com^
 ||mon11-misc-lq.amemv.com^
-||dig.bdurl.net^
 ||lf1-cdn-tos.bytegoofy.com^
 ||pangolin16.sgsnssdk.com^
 ||tnc16-alisg.isnssdk.com^
@@ -1504,7 +1504,6 @@ czzy.art##.mikd
 ||baohuaxia.com^
 ||klink.amemv.com^
 ||volcsirius.com^
-||lf-webcast-gr-sourcecdn.bytegecko.com^
 ||repayment.jishitailai.com^
 ||webcast5-normal-lf.amemv.com^
 ||applog.snssdk.com^
