@@ -1,4 +1,4 @@
-# Update > 1:59 2023/12/29
+# Update > 2:06 2023/12/29
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -263,19 +263,6 @@ host-suffix, cloudflare.net, proxy
 host-suffix, cloudflare.tv, proxy
 #DigiCert
 host-suffix, digicert.com, proxy
-#EA
-host-suffix, cdn.ea.com, proxy
-#Epic Games https://dev.epicgames.com/zh-CN/services/terms/subprocessors
-host-suffix, artstation.com, proxy
-host-suffix, fab.com, proxy
-host-suffix, fallguys.com, proxy
-host-suffix, fortnite.com, proxy
-host-suffix, rocketleague.com, proxy
-host-suffix, epicgames.com, proxy
-host-suffix, quixel.com, proxy
-host-suffix, radgametools.com, proxy
-host-suffix, twinmotion.com, proxy
-host-suffix, unrealengine.com, proxy
 #DEVIANT ART
 host-suffix, deviantart.com, proxy
 host-suffix, deviantart.net, proxy
@@ -296,6 +283,24 @@ host-suffix, foursquare.com, proxy
 host-suffix, 4sqi.net, proxy
 host-suffix, mapbox.com, proxy
 host-suffix, swarmapp.com, proxy
+#Game-EA
+host-suffix, cdn.ea.com, proxy
+#Game-Epic Games https://dev.epicgames.com/zh-CN/services/terms/subprocessors
+host-suffix, artstation.com, proxy
+host-suffix, fab.com, proxy
+host-suffix, fallguys.com, proxy
+host-suffix, fortnite.com, proxy
+host-suffix, rocketleague.com, proxy
+host-suffix, epicgames.com, proxy
+host-suffix, quixel.com, proxy
+host-suffix, radgametools.com, proxy
+host-suffix, twinmotion.com, proxy
+host-suffix, unrealengine.com, proxy
+#Game-Ubisoft
+host-suffix, ubi.com, proxy
+host-suffix, ubi.li, proxy
+host-suffix, ubisoft.com, proxy
+host-suffix, ubisoftconnect.com, proxy
 #Linkedin
 host-suffix, linkedin.com, proxy
 host-suffix, licdn.com, proxy
