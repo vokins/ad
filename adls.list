@@ -16,6 +16,7 @@ DOMAIN,vinci.ie.sogou.com,REJECT
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,safe.ucweb.com,REJECT
 DOMAIN-SUFFIX,u3.ucweb.com,REJECT
+DOMAIN-KEYWORD,sensorsdata.,REJECT
 DOMAIN-SUFFIX,open.e.kuaishou.cn,REJECT
 DOMAIN-SUFFIX,open.e.kuaishou.com,REJECT
 DOMAIN-SUFFIX,open.kwaizt.com,REJECT
@@ -45,7 +46,9 @@ DOMAIN-SUFFIX,f7h.cn,REJECT
 DOMAIN-SUFFIX,j0v.cn,REJECT
 DOMAIN-SUFFIX,k0j.cn,REJECT
 DOMAIN-SUFFIX,k3q.cn,REJECT
+DOMAIN-SUFFIX,r7w.cn,REJECT
 DOMAIN-SUFFIX,w8dx.cn,REJECT
+DOMAIN-SUFFIX,x1g.cn,REJECT
 DOMAIN-SUFFIX,yqg.mobi,REJECT
 DOMAIN-SUFFIX,zhelibao.com,REJECT
 DOMAIN-SUFFIX,51hicard.com,REJECT
@@ -54,14 +57,23 @@ DOMAIN-SUFFIX,bountech.com,REJECT
 DOMAIN-SUFFIX,dgbei.com,REJECT
 DOMAIN-SUFFIX,fenqile.com,REJECT
 DOMAIN-SUFFIX,haiercash.com,REJECT
+DOMAIN-SUFFIX,huanbeiadall.com,REJECT
+DOMAIN-SUFFIX,huanbeiloan.cn,REJECT
+DOMAIN-SUFFIX,huanbeiloan.com,REJECT
+DOMAIN-SUFFIX,huanbeipic.com,REJECT
 DOMAIN-SUFFIX,iyb.tm,REJECT
 DOMAIN-SUFFIX,jjhuigou.com,REJECT
 DOMAIN-SUFFIX,jpushoa.com,REJECT
+DOMAIN-SUFFIX,lattebank.com,REJECT
+DOMAIN-SUFFIX,msxf.com,REJECT
+DOMAIN-SUFFIX,new253.com,REJECT
+DOMAIN-SUFFIX,ppdai.com,REJECT
+DOMAIN-SUFFIX,ppdaicdn.com,REJECT
 DOMAIN-SUFFIX,qufenqi.com,REJECT
 DOMAIN-SUFFIX,rong360.com,REJECT
+DOMAIN-SUFFIX,rrxplatform.com,REJECT
 DOMAIN-SUFFIX,shanghaihagai.com,REJECT
 DOMAIN-SUFFIX,smyfinancial.com,REJECT
-DOMAIN-SUFFIX,volccdn.com,REJECT
 DOMAIN-SUFFIX,xiaoying.com,REJECT
 DOMAIN-SUFFIX,xystatic.com,REJECT
 DOMAIN-SUFFIX,yangqianguan.com,REJECT
@@ -69,6 +81,9 @@ DOMAIN-SUFFIX,yixin.com,REJECT
 DOMAIN-SUFFIX,yxh3.cn,REJECT
 DOMAIN-SUFFIX,zaxdcredit.com,REJECT
 DOMAIN-SUFFIX,zhongan.io,REJECT
+DOMAIN-SUFFIX,zxaxtech.com,REJECT
+DOMAIN-SUFFIX,jr.ctrip.com,REJECT
+DOMAIN-SUFFIX,jr.qunar.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adcdn.tencentmusic.com,REJECT
 DOMAIN,adclick.tencentmusic.com,REJECT
@@ -454,6 +469,7 @@ DOMAIN,adsdk.9imobi.com,REJECT
 DOMAIN,advertising.youyizhidao.com,REJECT
 DOMAIN,live.yuanbobo.com,REJECT
 DOMAIN,zxid-m.mobileservice.cn,REJECT
+DOMAIN-SUFFIX,ads.linkedin.com,REJECT
 DOMAIN,app-analytics-v2.snapchat.com,REJECT
 DOMAIN-SUFFIX,ads-api-sandbox.twitter.com,REJECT
 DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
@@ -1040,7 +1056,6 @@ DOMAIN,log0-misc-alinc2.amemv.com,REJECT
 DOMAIN,log3-misc-lq.amemv.com,REJECT
 DOMAIN,log5-misc-lq.amemv.com,REJECT
 DOMAIN,mon11-misc-lq.amemv.com,REJECT
-DOMAIN-SUFFIX,dig.bdurl.net,REJECT
 DOMAIN,lf1-cdn-tos.bytegoofy.com,REJECT
 DOMAIN,pangolin16.sgsnssdk.com,REJECT
 DOMAIN,tnc16-alisg.isnssdk.com,REJECT
@@ -1094,7 +1109,6 @@ DOMAIN-KEYWORD,-infras.byteimg.com,REJECT
 DOMAIN-SUFFIX,baohuaxia.com,REJECT
 DOMAIN,klink.amemv.com,REJECT
 DOMAIN-SUFFIX,volcsirius.com,REJECT
-DOMAIN,lf-webcast-gr-sourcecdn.bytegecko.com,REJECT
 DOMAIN,repayment.jishitailai.com,REJECT
 DOMAIN,webcast5-normal-lf.amemv.com,REJECT
 DOMAIN-SUFFIX,applog.snssdk.com,REJECT
@@ -1652,6 +1666,7 @@ DOMAIN-SUFFIX,jazdoxthxiv.com,REJECT
 DOMAIN-SUFFIX,jiguang.cn,REJECT
 DOMAIN-SUFFIX,jizzads.com,REJECT
 DOMAIN-SUFFIX,jkzj120.com,REJECT
+DOMAIN-SUFFIX,jpush-ipv6.cn,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
