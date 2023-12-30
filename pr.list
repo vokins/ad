@@ -1,4 +1,4 @@
-# Update > 21:58 2023/12/30
+# Update > 22:00 2023/12/30
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -43,7 +43,6 @@ host-suffix, lgthinq.com, proxy
 #Microsoft-office-outlook-skype
 host, outlook.office.com, proxy
 host, outlook.office365.com, proxy
-host-suffix, bing.com, proxy
 host-suffix, live.com, proxy
 host-suffix, microsoft.com, proxy
 host-suffix, microsoftonline.com, proxy
@@ -52,6 +51,7 @@ host-suffix, office.net, proxy
 host-suffix, skype.com, proxy
 host-suffix, windows.com, proxy
 #Microsoft-Copilot
+host-suffix, bing.com, proxy
 host-suffix, bingapis.com, proxy
 host-suffix, microsoft-falcon.io, proxy
 host-suffix, microsoftapp.net, proxy
