@@ -1,4 +1,4 @@
-# Update > 13:07 2023/12/30
+# Update > 21:58 2023/12/30
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -38,6 +38,8 @@ host-suffix, hashphotos.app, proxy
 host-suffix, jsdelivr.com, proxy
 host-suffix, jsdelivr.net, proxy
 host-suffix, esm.run, proxy
+#LG ThinQ
+host-suffix, lgthinq.com, proxy
 #Microsoft-office-outlook-skype
 host, outlook.office.com, proxy
 host, outlook.office365.com, proxy
