@@ -1,4 +1,4 @@
-# Update > 2:06 2023/12/29
+# Update > 13:07 2023/12/30
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -34,6 +34,10 @@ host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
 #hashphotos
 host-suffix, hashphotos.app, proxy
+#jsDelivr
+host-suffix, jsdelivr.com, proxy
+host-suffix, jsdelivr.net, proxy
+host-suffix, esm.run, proxy
 #Microsoft-office-outlook-skype
 host, outlook.office.com, proxy
 host, outlook.office365.com, proxy
@@ -45,6 +49,11 @@ host-suffix, office.com, proxy
 host-suffix, office.net, proxy
 host-suffix, skype.com, proxy
 host-suffix, windows.com, proxy
+#Microsoft-Copilot
+host-suffix, bingapis.com, proxy
+host-suffix, microsoft-falcon.io, proxy
+host-suffix, microsoftapp.net, proxy
+host-suffix, msn.com, proxy
 #Microsoft-others
 host-suffix, aspnetcdn.com, proxy
 host-suffix, azure.com, proxy
