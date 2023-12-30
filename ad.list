@@ -1,4 +1,4 @@
-# Update > 1:58 2023/12/29
+# Update > 13:07 2023/12/30
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -655,6 +655,7 @@ host, m1.ad.10010.com, reject
 host, pushservice.10010.com, reject
 host, unilog.wostore.cn, reject
 #Tool-189-21cn
+host, ad.21cn.com, reject
 host, ad.k.21cn.com, reject
 host, adshows.21cn.com, reject
 host, afp.21cn.com, reject
@@ -1275,10 +1276,13 @@ host, log0-misc-alinc2.amemv.com, reject
 host, log3-misc-lq.amemv.com, reject
 host, log5-misc-lq.amemv.com, reject
 host, mon11-misc-lq.amemv.com, reject
+#Bytedance-Douyin
+host-keyword, -litea.douyinvod.com, reject
 #Bytedance-Others
 #host-suffix, dig.bdurl.net, reject
 host, lf1-cdn-tos.bytegoofy.com, reject
 #Bytedance-TikTok
+host, analytics.tiktok.com, reject
 host, pangolin16.sgsnssdk.com, reject
 host, tnc16-alisg.isnssdk.com, reject
 host, toblog.tobsnssdk.com, reject
@@ -1609,6 +1613,7 @@ host-suffix, 123zn.cn, reject
 host-suffix, 186078.com, reject
 host-suffix, 1nmob.com, reject
 host-suffix, 1rx.io, reject
+host-suffix, 1sdyc.com, reject
 host-suffix, 2345.com, reject
 host-suffix, 23873645.com, reject
 host-suffix, 25ku.com, reject
