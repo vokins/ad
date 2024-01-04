@@ -1,4 +1,4 @@
-# Update > 22:00 2023/12/30
+# Update > 20:56 2024/1/4
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -47,7 +47,9 @@ host-suffix, live.com, proxy
 host-suffix, microsoft.com, proxy
 host-suffix, microsoftonline.com, proxy
 host-suffix, office.com, proxy
+host-suffix, office365.com, proxy
 host-suffix, office.net, proxy
+host-suffix, outlookmobile.com, proxy
 host-suffix, skype.com, proxy
 host-suffix, windows.com, proxy
 #Microsoft-Copilot
@@ -57,14 +59,16 @@ host-suffix, microsoft-falcon.io, proxy
 host-suffix, microsoftapp.net, proxy
 host-suffix, msn.com, proxy
 #Microsoft-others
+#host-suffix, microsoftstore.com.cn, proxy
 host-suffix, aspnetcdn.com, proxy
 host-suffix, azure.com, proxy
 host-suffix, gfx.ms, proxy
-#host-suffix, microsoftstore.com.cn, proxy
 host-suffix, msauth.net, proxy
 host-suffix, msecnd.net, proxy
+host-suffix, msftauth.net, proxy
 host-suffix, s-microsoft.com, proxy
 host-suffix, xbox.com, proxy
+
 #shottr
 host-suffix, shottr.cc, proxy
 #Snapchat
@@ -180,6 +184,9 @@ host-suffix, co.uk, proxy
 #BBC
 host-suffix, bbc.com, proxy
 ###Sites-US
+#Accor
+host-suffix, accor.com, proxy
+host-suffix, accorhotels.com, proxy
 #Adobe-fonts
 host-suffix, assets.adobedtm.com, proxy
 host-suffix, fonts.adobe.com, proxy
@@ -257,6 +264,7 @@ host-suffix, web.dev, proxy
 host-keyword, .aol.c, proxy
 #Amazon-AWS
 host-suffix, amazonaws.com, proxy
+host-suffix, amazontrust.com, proxy
 host-suffix, awswaf.com, proxy
 host-suffix, cloudfront.net, proxy
 #Bloomberg
@@ -307,11 +315,16 @@ host-suffix, quixel.com, proxy
 host-suffix, radgametools.com, proxy
 host-suffix, twinmotion.com, proxy
 host-suffix, unrealengine.com, proxy
+#Game-Sony-PlayStation
+host-suffix, playstion.com, proxy
+host-suffix, sony.com, proxy
 #Game-Ubisoft
 host-suffix, ubi.com, proxy
 host-suffix, ubi.li, proxy
 host-suffix, ubisoft.com, proxy
 host-suffix, ubisoftconnect.com, proxy
+#iOS Guide
+host-suffix, cfw.guid, proxy
 #Linkedin
 host-suffix, linkedin.com, proxy
 host-suffix, licdn.com, proxy
@@ -354,6 +367,9 @@ host-suffix, q4app.com, proxy
 host-suffix, q4blog.com, proxy
 host-suffix, q4cdn.com, proxy
 host-suffix, q4web.com, proxy
+#Reddit
+host-suffix, reddit.com, proxy
+host-suffix, redditstatic.com, proxy
 #SoundCloud
 host-suffix, soundcloud.com, proxy
 host-suffix, sndcdn.com, proxy
@@ -402,6 +418,8 @@ host-suffix, aol.de, proxy
 host-suffix, autoblog.com, proxy
 host-suffix, engadget.com, proxy
 host-suffix, sportz.io, proxy
+#Yubico
+host-suffix, yubico.com, proxy
 #web-foundry.co.uk
 host-suffix, website-files.com, proxy
 #My
