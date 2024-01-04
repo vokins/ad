@@ -1,4 +1,4 @@
-# Update > 1:59 2023/12/29
+# Update > 20:56 2024/1/4
 # https://raw.githubusercontent.com/vokins/ad/main/prls.list
 # https://github.com/vokins/ad/blob/main/prls.list
 ###APP
@@ -33,24 +33,38 @@ DOMAIN-SUFFIX,githubassets.com,PROXY
 DOMAIN-SUFFIX,githubusercontent.com,PROXY
 #hashphotos
 DOMAIN-SUFFIX,hashphotos.app,PROXY
+#jsDelivr
+DOMAIN-SUFFIX,jsdelivr.com,PROXY
+DOMAIN-SUFFIX,jsdelivr.net,PROXY
+DOMAIN-SUFFIX,esm.run,PROXY
+#LG ThinQ
+DOMAIN-SUFFIX,lgthinq.com,PROXY
 #Microsoft-office-outlook-skype
 DOMAIN,outlook.office.com,PROXY
 DOMAIN,outlook.office365.com,PROXY
-DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,live.com,PROXY
 DOMAIN-SUFFIX,microsoft.com,PROXY
 DOMAIN-SUFFIX,microsoftonline.com,PROXY
 DOMAIN-SUFFIX,office.com,PROXY
+DOMAIN-SUFFIX,office365.com,PROXY
 DOMAIN-SUFFIX,office.net,PROXY
+DOMAIN-SUFFIX,outlookmobile.com,PROXY
 DOMAIN-SUFFIX,skype.com,PROXY
 DOMAIN-SUFFIX,windows.com,PROXY
+#Microsoft-Copilot
+DOMAIN-SUFFIX,bing.com,PROXY
+DOMAIN-SUFFIX,bingapis.com,PROXY
+DOMAIN-SUFFIX,microsoft-falcon.io,PROXY
+DOMAIN-SUFFIX,microsoftapp.net,PROXY
+DOMAIN-SUFFIX,msn.com,PROXY
 #Microsoft-others
+#DOMAIN-SUFFIX,microsoftstore.com.cn,PROXY
 DOMAIN-SUFFIX,aspnetcdn.com,PROXY
 DOMAIN-SUFFIX,azure.com,PROXY
 DOMAIN-SUFFIX,gfx.ms,PROXY
-#DOMAIN-SUFFIX,microsoftstore.com.cn,PROXY
 DOMAIN-SUFFIX,msauth.net,PROXY
 DOMAIN-SUFFIX,msecnd.net,PROXY
+DOMAIN-SUFFIX,msftauth.net,PROXY
 DOMAIN-SUFFIX,s-microsoft.com,PROXY
 DOMAIN-SUFFIX,xbox.com,PROXY
 #shottr
@@ -168,6 +182,9 @@ DOMAIN-SUFFIX,co.uk,PROXY
 #BBC
 DOMAIN-SUFFIX,bbc.com,PROXY
 ###Sites-US
+#Accor
+DOMAIN-SUFFIX,accor.com,PROXY
+DOMAIN-SUFFIX,accorhotels.com,PROXY
 #Adobe-fonts
 DOMAIN-SUFFIX,assets.adobedtm.com,PROXY
 DOMAIN-SUFFIX,fonts.adobe.com,PROXY
@@ -245,6 +262,7 @@ DOMAIN-SUFFIX,web.dev,PROXY
 DOMAIN-KEYWORD,.aol.c,PROXY
 #Amazon-AWS
 DOMAIN-SUFFIX,amazonaws.com,PROXY
+DOMAIN-SUFFIX,amazontrust.com,PROXY
 DOMAIN-SUFFIX,awswaf.com,PROXY
 DOMAIN-SUFFIX,cloudfront.net,PROXY
 #Bloomberg
@@ -262,19 +280,6 @@ DOMAIN-SUFFIX,cloudflare.net,PROXY
 DOMAIN-SUFFIX,cloudflare.tv,PROXY
 #DigiCert
 DOMAIN-SUFFIX,digicert.com,PROXY
-#EA
-DOMAIN-SUFFIX,cdn.ea.com,PROXY
-#Epic Games https://dev.epicgames.com/zh-CN/services/terms/subprocessors
-DOMAIN-SUFFIX,artstation.com,PROXY
-DOMAIN-SUFFIX,fab.com,PROXY
-DOMAIN-SUFFIX,fallguys.com,PROXY
-DOMAIN-SUFFIX,fortnite.com,PROXY
-DOMAIN-SUFFIX,rocketleague.com,PROXY
-DOMAIN-SUFFIX,epicgames.com,PROXY
-DOMAIN-SUFFIX,quixel.com,PROXY
-DOMAIN-SUFFIX,radgametools.com,PROXY
-DOMAIN-SUFFIX,twinmotion.com,PROXY
-DOMAIN-SUFFIX,unrealengine.com,PROXY
 #DEVIANT ART
 DOMAIN-SUFFIX,deviantart.com,PROXY
 DOMAIN-SUFFIX,deviantart.net,PROXY
@@ -295,6 +300,29 @@ DOMAIN-SUFFIX,foursquare.com,PROXY
 DOMAIN-SUFFIX,4sqi.net,PROXY
 DOMAIN-SUFFIX,mapbox.com,PROXY
 DOMAIN-SUFFIX,swarmapp.com,PROXY
+#Game-EA
+DOMAIN-SUFFIX,cdn.ea.com,PROXY
+#Game-Epic Games https://dev.epicgames.com/zh-CN/services/terms/subprocessors
+DOMAIN-SUFFIX,artstation.com,PROXY
+DOMAIN-SUFFIX,fab.com,PROXY
+DOMAIN-SUFFIX,fallguys.com,PROXY
+DOMAIN-SUFFIX,fortnite.com,PROXY
+DOMAIN-SUFFIX,rocketleague.com,PROXY
+DOMAIN-SUFFIX,epicgames.com,PROXY
+DOMAIN-SUFFIX,quixel.com,PROXY
+DOMAIN-SUFFIX,radgametools.com,PROXY
+DOMAIN-SUFFIX,twinmotion.com,PROXY
+DOMAIN-SUFFIX,unrealengine.com,PROXY
+#Game-Sony-PlayStation
+DOMAIN-SUFFIX,playstion.com,PROXY
+DOMAIN-SUFFIX,sony.com,PROXY
+#Game-Ubisoft
+DOMAIN-SUFFIX,ubi.com,PROXY
+DOMAIN-SUFFIX,ubi.li,PROXY
+DOMAIN-SUFFIX,ubisoft.com,PROXY
+DOMAIN-SUFFIX,ubisoftconnect.com,PROXY
+#iOS Guide
+DOMAIN-SUFFIX,cfw.guid,PROXY
 #Linkedin
 DOMAIN-SUFFIX,linkedin.com,PROXY
 DOMAIN-SUFFIX,licdn.com,PROXY
@@ -337,6 +365,9 @@ DOMAIN-SUFFIX,q4app.com,PROXY
 DOMAIN-SUFFIX,q4blog.com,PROXY
 DOMAIN-SUFFIX,q4cdn.com,PROXY
 DOMAIN-SUFFIX,q4web.com,PROXY
+#Reddit
+DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redditstatic.com,PROXY
 #SoundCloud
 DOMAIN-SUFFIX,soundcloud.com,PROXY
 DOMAIN-SUFFIX,sndcdn.com,PROXY
@@ -385,6 +416,8 @@ DOMAIN-SUFFIX,aol.de,PROXY
 DOMAIN-SUFFIX,autoblog.com,PROXY
 DOMAIN-SUFFIX,engadget.com,PROXY
 DOMAIN-SUFFIX,sportz.io,PROXY
+#Yubico
+DOMAIN-SUFFIX,yubico.com,PROXY
 #web-foundry.co.uk
 DOMAIN-SUFFIX,website-files.com,PROXY
 #My
