@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.38
+! Version: 1.39
 ! Title: adfilter
-! Last modified: 1:59 2023/12/29 Expires: 7 days (update frequency)
+! Last modified: 20:57 2024/1/4 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/a.txt
@@ -418,6 +418,7 @@ czzy.art##.mikd
 ||open.kuaishouzt.com^
 ||promotion-partner.kuaishou.com^
 ||mercury-sdk.snssdk.com^
+||stream-sdk.feedcoopapi.com^
 ||imp-toutiao-data.37.com.cn^
 ||adctrlpre-def.tt.cn^
 ||clipwap.dfxwdc.com^
@@ -911,6 +912,7 @@ czzy.art##.mikd
 ||m1.ad.10010.com^
 ||pushservice.10010.com^
 ||unilog.wostore.cn^
+||ad.21cn.com^
 ||ad.k.21cn.com^
 ||adshows.21cn.com^
 ||afp.21cn.com^
@@ -1263,6 +1265,7 @@ czzy.art##.mikd
 ||shujupie.com^
 ||alipaylog.com^
 ||ssp-partner.alibaba.com^
+||hudong.alicdn.com, direct
 ||afpmm.alicdn.com^
 ||alimama.alicdn.com^
 ||atanx.alicdn.com^
@@ -1451,7 +1454,9 @@ czzy.art##.mikd
 ||log3-misc-lq.amemv.com^
 ||log5-misc-lq.amemv.com^
 ||mon11-misc-lq.amemv.com^
+||-litea.douyinvod.com^
 ||lf1-cdn-tos.bytegoofy.com^
+||analytics.tiktok.com^
 ||pangolin16.sgsnssdk.com^
 ||tnc16-alisg.isnssdk.com^
 ||toblog.tobsnssdk.com^
@@ -1757,6 +1762,7 @@ czzy.art##.mikd
 ||186078.com^
 ||1nmob.com^
 ||1rx.io^
+||1sdyc.com^
 ||2345.com^
 ||23873645.com^
 ||25ku.com^
@@ -2053,7 +2059,6 @@ czzy.art##.mikd
 ||irs03.com^
 ||iscrv.com^
 ||iterable.com^
-||iyoudui.cn^
 ||iyoudui.com^
 ||iyunzk.com^
 ||jads.co^
@@ -2464,3 +2469,7 @@ czzy.art##.mikd
 ||effect.snssdk.com^
 ||is-lq.snssdk.com^
 ||reading-lq.snssdk.com^
+||-cold.douyinvod.com^
+||-coldb.douyinvod.com^
+||-lite-a.douyinvod.com^
+||-lite.douyinvod.com^
