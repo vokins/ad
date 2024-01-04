@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,open.kwaizt.com,REJECT
 DOMAIN-SUFFIX,open.kuaishouzt.com,REJECT
 DOMAIN-SUFFIX,promotion-partner.kuaishou.com,REJECT
 DOMAIN-SUFFIX,mercury-sdk.snssdk.com,REJECT
+DOMAIN-SUFFIX,stream-sdk.feedcoopapi.com,REJECT
 DOMAIN-SUFFIX,imp-toutiao-data.37.com.cn,REJECT
 DOMAIN,adctrlpre-def.tt.cn,REJECT
 DOMAIN,clipwap.dfxwdc.com,REJECT
@@ -516,6 +517,7 @@ DOMAIN,smartad.10010.com,REJECT
 DOMAIN,m1.ad.10010.com,REJECT
 DOMAIN,pushservice.10010.com,REJECT
 DOMAIN,unilog.wostore.cn,REJECT
+DOMAIN,ad.21cn.com,REJECT
 DOMAIN,ad.k.21cn.com,REJECT
 DOMAIN,adshows.21cn.com,REJECT
 DOMAIN,afp.21cn.com,REJECT
@@ -868,6 +870,7 @@ DOMAIN-SUFFIX,umenglog.com,REJECT
 DOMAIN-SUFFIX,shujupie.com,REJECT
 DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN,ssp-partner.alibaba.com,REJECT
+DOMAIN,hudong.alicdn.com, direct
 DOMAIN,afpmm.alicdn.com,REJECT
 DOMAIN,alimama.alicdn.com,REJECT
 DOMAIN,atanx.alicdn.com,REJECT
@@ -1056,7 +1059,9 @@ DOMAIN,log0-misc-alinc2.amemv.com,REJECT
 DOMAIN,log3-misc-lq.amemv.com,REJECT
 DOMAIN,log5-misc-lq.amemv.com,REJECT
 DOMAIN,mon11-misc-lq.amemv.com,REJECT
+DOMAIN-KEYWORD,-litea.douyinvod.com,REJECT
 DOMAIN,lf1-cdn-tos.bytegoofy.com,REJECT
+DOMAIN,analytics.tiktok.com,REJECT
 DOMAIN,pangolin16.sgsnssdk.com,REJECT
 DOMAIN,tnc16-alisg.isnssdk.com,REJECT
 DOMAIN,toblog.tobsnssdk.com,REJECT
@@ -1362,6 +1367,7 @@ DOMAIN-SUFFIX,123zn.cn,REJECT
 DOMAIN-SUFFIX,186078.com,REJECT
 DOMAIN-SUFFIX,1nmob.com,REJECT
 DOMAIN-SUFFIX,1rx.io,REJECT
+DOMAIN-SUFFIX,1sdyc.com,REJECT
 DOMAIN-SUFFIX,2345.com,REJECT
 DOMAIN-SUFFIX,23873645.com,REJECT
 DOMAIN-SUFFIX,25ku.com,REJECT
@@ -1658,7 +1664,6 @@ DOMAIN-SUFFIX,irs01.com,REJECT
 DOMAIN-SUFFIX,irs03.com,REJECT
 DOMAIN-SUFFIX,iscrv.com,REJECT
 DOMAIN-SUFFIX,iterable.com,REJECT
-DOMAIN-SUFFIX,iyoudui.cn,REJECT
 DOMAIN-SUFFIX,iyoudui.com,REJECT
 DOMAIN-SUFFIX,iyunzk.com,REJECT
 DOMAIN-SUFFIX,jads.co,REJECT
@@ -2069,3 +2074,7 @@ DOMAIN,ichannel.snssdk.com,REJECT
 DOMAIN,effect.snssdk.com,REJECT
 DOMAIN,is-lq.snssdk.com,REJECT
 DOMAIN,reading-lq.snssdk.com,REJECT
+DOMAIN-KEYWORD,-cold.douyinvod.com,REJECT
+DOMAIN-KEYWORD,-coldb.douyinvod.com,REJECT
+DOMAIN-KEYWORD,-lite-a.douyinvod.com,REJECT
+DOMAIN-KEYWORD,-lite.douyinvod.com,REJECT
