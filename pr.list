@@ -1,4 +1,4 @@
-# Update > 20:56 2024/1/4
+# Update > 21:32 2024/1/8
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -65,10 +65,13 @@ host-suffix, azure.com, proxy
 host-suffix, gfx.ms, proxy
 host-suffix, msauth.net, proxy
 host-suffix, msecnd.net, proxy
+host-suffix, msedge.net, proxy
 host-suffix, msftauth.net, proxy
 host-suffix, s-microsoft.com, proxy
 host-suffix, xbox.com, proxy
-
+#PayPal
+host-suffix, paypal.com, proxy
+host-suffix, paypalobjects.com, proxy
 #shottr
 host-suffix, shottr.cc, proxy
 #Snapchat
@@ -79,9 +82,13 @@ host-suffix, cdn-telegram.org, proxy
 host-suffix, t.me, proxy
 host-suffix, telegram.org, proxy
 #Twitter
-host-suffix, twitter.com, proxy
-host-suffix, twimg.com, proxy
+host-suffix, cms-twdigitalassets.com, proxy
 host-suffix, t.co, proxy
+host-suffix, twimg.com, proxy
+host-suffix, twitter.com, proxy
+host-suffix, x.com, proxy
+#UpNote
+host-suffix, getupnote.com, proxy
 #Vivaldi
 host-suffix, vivaldi.com, proxy
 host-suffix, vivaldi.net, proxy
