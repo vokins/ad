@@ -1,4 +1,4 @@
-# Update > 20:56 2024/1/4
+# Update > 12:10 2024/1/10
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -72,6 +72,8 @@ host-suffix, 8ar.cn, reject
 host-suffix, 8lz.cn, reject
 host-suffix, 9tp.cn, reject
 host-suffix, f7h.cn, reject
+host-suffix, fx7.cn, reject
+host-suffix, h8w.cn, reject
 host-suffix, j0v.cn, reject
 host-suffix, k0j.cn, reject
 host-suffix, k3q.cn, reject
@@ -87,13 +89,13 @@ host-suffix, bountech.com, reject
 host-suffix, dgbei.com, reject
 host-suffix, fenqile.com, reject
 host-suffix, haiercash.com, reject
+host-suffix, haohuan.com, reject
 host-suffix, huanbeiadall.com, reject
 host-suffix, huanbeiloan.cn, reject
 host-suffix, huanbeiloan.com, reject
 host-suffix, huanbeipic.com, reject
 host-suffix, iyb.tm, reject
 host-suffix, jjhuigou.com, reject
-host-suffix, jpushoa.com, reject
 host-suffix, lattebank.com, reject
 host-suffix, msxf.com, reject
 host-suffix, new253.com, reject
@@ -1923,6 +1925,7 @@ host-suffix, jkzj120.com, reject
 host-suffix, jpush-ipv6.cn, reject
 host-suffix, jpush.cn, reject
 host-suffix, jpush.io, reject
+host-suffix, jpushoa.com, reject
 host-suffix, juicyads.com, reject
 host-suffix, jutuike.com, reject
 host-suffix, kejet.com, reject
