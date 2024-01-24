@@ -1,4 +1,4 @@
-# Update > 9:17 2024/1/24
+# Update > 9:21 2024/1/24
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -213,6 +213,10 @@ host-suffix, pao-pao.net, proxy
 host, demo.unlock-music.dev, proxy
 #V2EX
 host-suffix, v2ex.com, proxy
+#杜比高清影视
+#host-suffix, dubi.tk, proxy
+#喵公子Studio
+#host-suffix, miaogongzi.cc, proxy
 ###Sites-JP
 host-suffix, co.jp, proxy
 #Hatena
