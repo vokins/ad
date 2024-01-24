@@ -1,14 +1,19 @@
-# Update > 21:32 2024/1/8
+# Update > 9:17 2024/1/24
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
 ###APP
+#Discord
+host, discordapp.page.link, proxy
+host-suffix, discord.com, proxy
+host-suffix, discord.gg, proxy
+host-suffix, discord.media, proxy
+host-suffix, discordapp.com, proxy
 #dropbox https://help.dropbox.com/zh-cn/security/official-domains
 host-suffix, dropbox.com, proxy
 host-suffix, dropboxstatic.com, proxy
 host-suffix, dropboxforum.com, proxy
 host-suffix, dropboxusercontent.com, proxy
-host-suffix, addtodropbox.com, proxy
 host-suffix, db.tt, proxy
 host-suffix, docsend.com, proxy
 host-suffix, dropbox-dns.com, proxy
@@ -22,6 +27,7 @@ host-suffix, dropboxlegal.com, proxy
 host-suffix, dropboxmail.com, proxy
 host-suffix, dropboxpartners.com, proxy
 host-suffix, dropboxteam.com, proxy
+host-suffix, addtodropbox.com, proxy
 host-suffix, getdropbox.com, proxy
 #DuckDuckGo
 host-suffix, duck.co, proxy
@@ -34,10 +40,6 @@ host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
 #hashphotos
 host-suffix, hashphotos.app, proxy
-#jsDelivr
-host-suffix, jsdelivr.com, proxy
-host-suffix, jsdelivr.net, proxy
-host-suffix, esm.run, proxy
 #LG ThinQ
 host-suffix, lgthinq.com, proxy
 #Microsoft-office-outlook-skype
@@ -69,9 +71,15 @@ host-suffix, msedge.net, proxy
 host-suffix, msftauth.net, proxy
 host-suffix, s-microsoft.com, proxy
 host-suffix, xbox.com, proxy
+#Notion
+host-suffix, notion.so, proxy
+host-suffix, notion.site, proxy
 #PayPal
 host-suffix, paypal.com, proxy
 host-suffix, paypalobjects.com, proxy
+#Proton
+host-suffix, proton.me, proxy
+host-suffix, protonvpn.com, proxy
 #shottr
 host-suffix, shottr.cc, proxy
 #Snapchat
@@ -106,6 +114,10 @@ host-suffix, wikisource.org, proxy
 host-suffix, wikiversity.org, proxy
 host-suffix, wikivoyage.org, proxy
 host-suffix, wiktionary.org, proxy
+#Tools-Email.ML
+host-suffix, email.ml, proxy
+#Tools-IPADDRESS.COM
+host-suffix, ipaddress.com, proxy
 #Tools
 host-suffix, boxjs.com, proxy
 host-suffix, script.hub, proxy
@@ -113,35 +125,52 @@ host-suffix, sub.store, proxy
 host-suffix, vercel.app, proxy
 host, scripthub.vercel.app, proxy
 host, sub-store.vercel.app, proxy
-###Asia
-#Hatena
-host-suffix, hatena.ne.jp, proxy
-host-suffix, st-hatena.com, proxy
-#LY Corporation-Line
-host-suffix, bitmax.me, proxy
-host-suffix, line-apps.com, proxy
-host-suffix, line-fx.com, proxy
-host-suffix, line-scdn.net, proxy
-host-suffix, line-sec.co.jp, proxy
-host-suffix, line.me, proxy
-host-suffix, linecorp.com, proxy
-host-suffix, linecreditcorp.com, proxy
-host-suffix, linefinancialcorp.com, proxy
-host-suffix, linefriends.jp, proxy
-host-suffix, linerecords.me, proxy
-host-suffix, lycbiz.com, proxy
-host-suffix, naver.com, proxy
-host-suffix, naver.jp, proxy
-host-suffix, naverblogwidget.com, proxy
-host-suffix, navercorp.com, proxy
-host-suffix, pstatic.net, proxy
-host-suffix, worksmobile.com, proxy
-#LY Corporation-yahoo.co.jp
-host-suffix, yahoo-net.jp, proxy
-host-suffix, yahoo.co.jp, proxy
-host-suffix, yimg.jp, proxy
-host-suffix, blogimg.jp, proxy
-host-suffix, blog.jp, proxy
+###Web
+#Adobe-fonts
+host-suffix, assets.adobedtm.com, proxy
+host-suffix, fonts.adobe.com, proxy
+host-suffix, typekit.com, proxy
+host-suffix, typekit.net, proxy
+#Akamai
+host-suffix, akamaized.net, proxy
+#Amazon-AWS
+host-suffix, amazonaws.com, proxy
+host-suffix, amazontrust.com, proxy
+host-suffix, awswaf.com, proxy
+host-suffix, cloudfront.net, proxy
+#Cloudflare
+host-suffix, cloudflare.com, proxy
+host-suffix, cloudflare.net, proxy
+host-suffix, cloudflare.tv, proxy
+host-suffix, workers.dev, proxy
+#Cloudinary
+host-suffix, cloudinary.com, proxy
+#DigiCert
+host-suffix, digicert.com, proxy
+#GG
+host, ajax.googleapis.com, proxy
+host, fonts.googleapis.com, proxy
+host, fonts.gstatic.com, proxy
+host, www.gstatic.com, proxy
+#hCaptcha
+host-suffix, hcaptcha.com, proxy
+#jsDelivr
+host-suffix, jsdelivr.com, proxy
+host-suffix, jsdelivr.net, proxy
+host-suffix, esm.run, proxy
+#prismic
+host-suffix, prismic.io, proxy
+#Usercentrics
+host-suffix, usercentrics.com, proxy
+host-suffix, usercentrics.eu, proxy
+#Wix CDN
+host-suffix, wix.com, proxy
+host-suffix, wix-code.com, proxy
+host-suffix, wixstatic.com, proxy
+host-suffix, wixstudio.com, proxy
+host-suffix, parastorage.com, proxy
+#web-foundry.co.uk
+host-suffix, website-files.com, proxy
 ###Sites-Adult
 #shuaito
 #host-suffix, shuaito.one, proxy
@@ -186,6 +215,34 @@ host, demo.unlock-music.dev, proxy
 host-suffix, v2ex.com, proxy
 ###Sites-JP
 host-suffix, co.jp, proxy
+#Hatena
+host-suffix, hatena.ne.jp, proxy
+host-suffix, st-hatena.com, proxy
+#LY Corporation-Line
+host-suffix, bitmax.me, proxy
+host-suffix, line-apps.com, proxy
+host-suffix, line-fx.com, proxy
+host-suffix, line-scdn.net, proxy
+host-suffix, line-sec.co.jp, proxy
+host-suffix, line.me, proxy
+host-suffix, linecorp.com, proxy
+host-suffix, linecreditcorp.com, proxy
+host-suffix, linefinancialcorp.com, proxy
+host-suffix, linefriends.jp, proxy
+host-suffix, linerecords.me, proxy
+host-suffix, lycbiz.com, proxy
+host-suffix, naver.com, proxy
+host-suffix, naver.jp, proxy
+host-suffix, naverblogwidget.com, proxy
+host-suffix, navercorp.com, proxy
+host-suffix, pstatic.net, proxy
+host-suffix, worksmobile.com, proxy
+#LY Corporation-yahoo.co.jp
+host-suffix, yahoo-net.jp, proxy
+host-suffix, yahoo.co.jp, proxy
+host-suffix, yimg.jp, proxy
+host-suffix, blogimg.jp, proxy
+host-suffix, blog.jp, proxy
 ###Sites-UK
 host-suffix, co.uk, proxy
 #BBC
@@ -194,20 +251,9 @@ host-suffix, bbc.com, proxy
 #Accor
 host-suffix, accor.com, proxy
 host-suffix, accorhotels.com, proxy
-#Adobe-fonts
-host-suffix, assets.adobedtm.com, proxy
-host-suffix, fonts.adobe.com, proxy
-host-suffix, typekit.com, proxy
-host-suffix, typekit.net, proxy
-#Akamai
-host-suffix, akamaized.net, proxy
 #archive.org
 host-suffix, archive.org, proxy
 #Alphabet-3rd
-host, ajax.googleapis.com, proxy
-host, fonts.googleapis.com, proxy
-host, fonts.gstatic.com, proxy
-host, www.gstatic.com, proxy
 host, accounts.google.com, proxy
 host, apis.google.com, proxy
 host, www.google.com, proxy
@@ -254,6 +300,7 @@ host-suffix, googleblog.com, proxy
 host-suffix, googlecode.com, proxy
 host-suffix, googlehosted.com, proxy
 host-suffix, googlelabs.com, proxy
+host-suffix, page.link, proxy
 #https://transparencyreport.google.com/copyright/domains/googlevideo.com
 host-suffix, googlevideo.com, proxy
 host-suffix, gvt0.com, proxy
@@ -269,11 +316,6 @@ host-suffix, go.dev, proxy
 host-suffix, web.dev, proxy
 #Aol
 host-keyword, .aol.c, proxy
-#Amazon-AWS
-host-suffix, amazonaws.com, proxy
-host-suffix, amazontrust.com, proxy
-host-suffix, awswaf.com, proxy
-host-suffix, cloudfront.net, proxy
 #Bloomberg
 host-suffix, bwbx.io, proxy
 host-keyword, .bloomberg, proxy
@@ -283,12 +325,6 @@ host-suffix, box.net, proxy
 host-suffix, box.org, proxy
 host-suffix, boxcdn.net, proxy
 host-suffix, segment-box.com, proxy
-#Cloudflare
-host-suffix, cloudflare.com, proxy
-host-suffix, cloudflare.net, proxy
-host-suffix, cloudflare.tv, proxy
-#DigiCert
-host-suffix, digicert.com, proxy
 #DEVIANT ART
 host-suffix, deviantart.com, proxy
 host-suffix, deviantart.net, proxy
@@ -325,6 +361,11 @@ host-suffix, unrealengine.com, proxy
 #Game-Sony-PlayStation
 host-suffix, playstion.com, proxy
 host-suffix, sony.com, proxy
+#Game-Steam
+host-suffix, steampowered.com, proxy
+host-suffix, steamcommunity.com, proxy
+host-suffix, steamstatic.com, proxy
+host-suffix, valvesoftware.com, proxy
 #Game-Ubisoft
 host-suffix, ubi.com, proxy
 host-suffix, ubi.li, proxy
@@ -348,6 +389,7 @@ host-suffix, fb.me, proxy
 host-suffix, fb.com, proxy
 host-suffix, fbcdn.net, proxy
 host-suffix, facebook.com, proxy
+host-suffix, facebook.net, proxy
 #Meta-Instagram
 host-suffix, instagram.com, proxy
 host-suffix, cdninstagram.com, proxy
@@ -355,14 +397,13 @@ host-suffix, cdninstagram.com, proxy
 host-suffix, messenger.com, proxy
 #Meta-Threads
 host-suffix, threads.net, proxy
+host-suffix, wa.me, proxy
 host-suffix, whatsapp.com, proxy
 host-suffix, whatsapp.net, proxy
 #Guardian Project
 host-suffix, guardianproject.info, proxy
 #Gumroad
 host-suffix, gumroad.com, proxy
-#hCaptcha
-host-suffix, hcaptcha.com, proxy
 #imgur
 host-suffix, imgur.com, proxy
 #[pixiv]
@@ -382,23 +423,12 @@ host-suffix, soundcloud.com, proxy
 host-suffix, sndcdn.com, proxy
 #Startpage
 host-suffix, startpage.com, proxy
-#Steam
-host-suffix, steampowered.com, proxy
-host-suffix, steamcommunity.com, proxy
-host-suffix, steamstatic.com, proxy
-host-suffix, valvesoftware.com, proxy
 #Tor Browser
 host-suffix, torproject.org, proxy
 #Tumblr
 host-suffix, tumblr.com, proxy
 #Userstyles.org | Stylish
 host-suffix, userstyles.org, proxy
-#Wix CDN
-host-suffix, wix.com, proxy
-host-suffix, wix-code.com, proxy
-host-suffix, wixstatic.com, proxy
-host-suffix, wixstudio.com, proxy
-host-suffix, parastorage.com, proxy
 #WordPress.com
 host-suffix, automattic.com, proxy
 host-suffix, builtbywp.com, proxy
@@ -427,12 +457,9 @@ host-suffix, engadget.com, proxy
 host-suffix, sportz.io, proxy
 #Yubico
 host-suffix, yubico.com, proxy
-#web-foundry.co.uk
-host-suffix, website-files.com, proxy
 #My
 # 基于  域名  后缀判断走代理（Proxy）
 host-suffix, usercontent.dev, proxy
-host-suffix, workers.dev, proxy
 # 基于 关键词 后缀判断走代理（Proxy）
 host-keyword, porn, proxy
 # 基于 客户端 后缀判断走代理（Proxy）
