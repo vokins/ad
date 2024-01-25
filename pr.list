@@ -1,4 +1,4 @@
-# Update > 9:21 2024/1/24
+# Update > 18:57 2024/1/25
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -9,6 +9,7 @@ host-suffix, discord.com, proxy
 host-suffix, discord.gg, proxy
 host-suffix, discord.media, proxy
 host-suffix, discordapp.com, proxy
+host-suffix, discordapp.net, proxy
 #dropbox https://help.dropbox.com/zh-cn/security/official-domains
 host-suffix, dropbox.com, proxy
 host-suffix, dropboxstatic.com, proxy
@@ -125,6 +126,16 @@ host-suffix, sub.store, proxy
 host-suffix, vercel.app, proxy
 host, scripthub.vercel.app, proxy
 host, sub-store.vercel.app, proxy
+###Domain
+#uk网站
+host-suffix, co.uk, proxy
+#jp网站
+host-suffix, co.jp, proxy
+#hk网站
+host-suffix, com.hk, proxy
+#tw网站
+host-suffix, com.tw, proxy
+host-suffix, gov.tw, proxy
 ###Web
 #Adobe-fonts
 host-suffix, assets.adobedtm.com, proxy
@@ -173,7 +184,7 @@ host-suffix, parastorage.com, proxy
 host-suffix, website-files.com, proxy
 ###Sites-Adult
 #shuaito
-#host-suffix, shuaito.one, proxy
+host-suffix, shuaito.one, proxy
 #soutong
 host-suffix, soutong.men, proxy
 host-suffix, stboy.net, proxy
@@ -195,9 +206,6 @@ host-suffix, myhtlmebook.com, proxy
 host-suffix, newhtbook.com, proxy
 host-suffix, urhtbooks.com, proxy
 ###Sites-CN
-#tw网站
-host-suffix, com.tw, proxy
-host-suffix, gov.tw, proxy
 #CNbeta
 host-suffix, cnbeta.com.tw, proxy
 host-suffix, static.cnbetacdn.com, proxy
@@ -218,7 +226,6 @@ host-suffix, v2ex.com, proxy
 #喵公子Studio
 #host-suffix, miaogongzi.cc, proxy
 ###Sites-JP
-host-suffix, co.jp, proxy
 #Hatena
 host-suffix, hatena.ne.jp, proxy
 host-suffix, st-hatena.com, proxy
@@ -248,7 +255,6 @@ host-suffix, yimg.jp, proxy
 host-suffix, blogimg.jp, proxy
 host-suffix, blog.jp, proxy
 ###Sites-UK
-host-suffix, co.uk, proxy
 #BBC
 host-suffix, bbc.com, proxy
 ###Sites-US
