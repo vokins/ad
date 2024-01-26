@@ -1,4 +1,4 @@
-# Update > 19:39 2024/1/26
+# Update > 19:44 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -36,31 +36,6 @@ host-suffix, youtube-nocookie.com, proxy
 host-suffix, youtu.be, proxy
 host-suffix, yt.be, proxy
 host-suffix, ytimg.com, proxy
-#Alphabet-Other
-host-suffix, ampproject.org, proxy
-host-suffix, android.com, proxy
-host-suffix, appspot.com, proxy
-host-suffix, blogger.com, proxy
-host-suffix, blogspot.com, proxy
-host-suffix, chrome.com, proxy
-host-suffix, chromium.org, proxy
-host-suffix, feedburner.com, proxy
-host-suffix, g.cn, proxy
-host-suffix, g.co, proxy
-host-suffix, gmodules.com, proxy
-host-suffix, go.dev, proxy
-host-suffix, goo.gl, proxy
-host-suffix, googleblog.com, proxy
-host-suffix, googlecode.com, proxy
-host-suffix, googlehosted.com, proxy
-host-suffix, googlelabs.com, proxy
-host-suffix, gvt0.cn, proxy
-host-suffix, gvt0.com, proxy
-host-suffix, gvt1.com, proxy
-host-suffix, gvt2.com, proxy
-host-suffix, gvt3.com, proxy
-host-suffix, page.link, proxy
-host-suffix, web.dev, proxy
 #APP - Amazon-Prime Video
 host-suffix, a2z.com, proxy
 host-suffix, aiv-delivery.net, proxy
