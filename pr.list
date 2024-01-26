@@ -1,4 +1,4 @@
-# Update > 21:07 2024/1/26
+# Update > 22:46 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -28,6 +28,7 @@ host-suffix, recaptcha.net, proxy
 host-suffix, ggpht.com, proxy
 host-suffix, googleusercontent.com, proxy
 host-suffix, googlevideo.com, proxy
+host-suffix, gvt1.com, proxy
 #Alphabet-Gmail
 host-suffix, gmail.com, proxy
 host-suffix, googlemail.com, proxy
@@ -181,6 +182,7 @@ host-suffix, whatsapp.net, proxy
 #APP - Microsoft
 host-suffix, aspnetcdn.com, proxy
 host-suffix, azure.com, proxy
+host-suffix, azureedge.net, proxy
 host-suffix, gfx.ms, proxy
 host-suffix, microsoft-falcon.io, proxy
 host-suffix, microsoft.com, proxy
@@ -231,6 +233,8 @@ host-suffix, reddit.com, proxy
 host-suffix, redditstatic.com, proxy
 #APP - shottr
 host-suffix, shottr.cc, proxy
+#APP - Signal
+host-suffix, signal.org, proxy
 #APP - Snapchat
 host-suffix, sc-cdn.net, proxy
 host-suffix, snapchat.com, proxy
