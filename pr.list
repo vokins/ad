@@ -1,4 +1,4 @@
-# Update > 17:19 2024/1/26
+# Update > 19:18 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -12,7 +12,6 @@ host-suffix, com.hk, proxy
 #Domain - TW网站
 host-suffix, com.tw, proxy
 host-suffix, gov.tw, proxy
-#Web-3rd
 #APP - Accor
 host-suffix, accor.com, proxy
 host-suffix, accorhotels.com, proxy
@@ -66,8 +65,10 @@ host-suffix, web.dev, proxy
 host-suffix, a2z.com, proxy
 host-suffix, aiv-delivery.net, proxy
 host-suffix, amazon.com, proxy
+host-suffix, amazon.dev, proxy
 host-suffix, amazonvideo.com, proxy
 host-suffix, media-amazon.com, proxy
+host-suffix, ssl-images-amazon.com, proxy
 #APP - BBC
 host-suffix, bbc.com, proxy
 host-suffix, bbc.co.uk, proxy
@@ -135,6 +136,9 @@ host-suffix, github.com, proxy
 host-suffix, github.io, proxy
 host-suffix, githubassets.com, proxy
 host-suffix, githubusercontent.com, proxy
+#APP - GoDaddy
+host-suffix, godaddy.com, proxy
+host-suffix, wsimg.com, proxy
 #APP - Gumroad
 host-suffix, gumroad.com, proxy
 #APP - HashPhotos
@@ -361,13 +365,13 @@ host-suffix, workers.dev, proxy
 host-suffix, cloudinary.com, proxy
 #Web - DigiCert
 host-suffix, digicert.com, proxy
-#Web - Google
-host, ajax.googleapis.com, proxy
-host, www.gstatic.com, proxy
-host, apis.google.com, proxy
-host, www.google.com, proxy
+#Web - Fastly
+host-suffix, fastly.com, proxy
+host-suffix, fastly.net, proxy
 #Web - hCaptcha
 host-suffix, hcaptcha.com, proxy
+#Web - HUMAN-PerimeterX
+host-suffix, perimeterx.net, proxy
 #Web - jsDelivr
 host-suffix, jsdelivr.com, proxy
 host-suffix, jsdelivr.net, proxy
