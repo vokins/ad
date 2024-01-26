@@ -1,4 +1,4 @@
-# Update > 21:06 2024/1/26
+# Update > 21:07 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -23,6 +23,7 @@ host-suffix, googleapis.com, proxy
 host-suffix, googletagmanager.com, proxy
 host-suffix, gstatic.cn, proxy
 host-suffix, gstatic.com, proxy
+host-suffix, pki.goog, proxy
 host-suffix, recaptcha.net, proxy
 host-suffix, ggpht.com, proxy
 host-suffix, googleusercontent.com, proxy
