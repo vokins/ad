@@ -1,4 +1,4 @@
-# Update > 19:44 2024/1/26
+# Update > 21:06 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -24,18 +24,18 @@ host-suffix, googletagmanager.com, proxy
 host-suffix, gstatic.cn, proxy
 host-suffix, gstatic.com, proxy
 host-suffix, recaptcha.net, proxy
+host-suffix, ggpht.com, proxy
 host-suffix, googleusercontent.com, proxy
 host-suffix, googlevideo.com, proxy
-host-suffix, ggpht.com, proxy
 #Alphabet-Gmail
 host-suffix, gmail.com, proxy
 host-suffix, googlemail.com, proxy
 #Alphabet-YouTube
-host-suffix, youtube.com, proxy
-host-suffix, youtube-nocookie.com, proxy
-host-suffix, youtu.be, proxy
-host-suffix, yt.be, proxy
 host-suffix, ytimg.com, proxy
+host-suffix, youtube.com, proxy
+host-suffix, yt.be, proxy
+host-suffix, youtu.be, proxy
+host-suffix, youtube-nocookie.com, proxy
 #APP - Amazon-Prime Video
 host-suffix, a2z.com, proxy
 host-suffix, aiv-delivery.net, proxy
