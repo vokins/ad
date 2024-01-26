@@ -1,4 +1,4 @@
-# Update > 16:24 2024/1/26
+# Update > 17:19 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -12,12 +12,19 @@ host-suffix, com.hk, proxy
 #Domain - TW网站
 host-suffix, com.tw, proxy
 host-suffix, gov.tw, proxy
+#Web-3rd
 #APP - Accor
 host-suffix, accor.com, proxy
 host-suffix, accorhotels.com, proxy
 #Alphabet-Google
 host-keyword, .google, proxy
 host-keyword, google., proxy
+host-suffix, google.com, proxy
+host-suffix, googleapis.com, proxy
+host-suffix, googletagmanager.com, proxy
+host-suffix, gstatic.cn, proxy
+host-suffix, gstatic.com, proxy
+host-suffix, recaptcha.net, proxy
 #Alphabet-Gmail
 host-suffix, gmail.com, proxy
 host-suffix, googlemail.com, proxy
@@ -42,25 +49,23 @@ host-suffix, ggpht.com, proxy
 host-suffix, gmodules.com, proxy
 host-suffix, go.dev, proxy
 host-suffix, goo.gl, proxy
-host-suffix, googleapis.com, proxy
 host-suffix, googleblog.com, proxy
 host-suffix, googlecode.com, proxy
 host-suffix, googlehosted.com, proxy
 host-suffix, googlelabs.com, proxy
 host-suffix, googleusercontent.com, proxy
 host-suffix, googlevideo.com, proxy
-host-suffix, gstatic.cn, proxy
-host-suffix, gstatic.com, proxy
 host-suffix, gvt0.cn, proxy
 host-suffix, gvt0.com, proxy
 host-suffix, gvt1.com, proxy
 host-suffix, gvt2.com, proxy
 host-suffix, gvt3.com, proxy
 host-suffix, page.link, proxy
-host-suffix, recaptcha.net, proxy
 host-suffix, web.dev, proxy
 #APP - Amazon-Prime Video
 host-suffix, a2z.com, proxy
+host-suffix, aiv-delivery.net, proxy
+host-suffix, amazon.com, proxy
 host-suffix, amazonvideo.com, proxy
 host-suffix, media-amazon.com, proxy
 #APP - BBC
@@ -134,6 +139,8 @@ host-suffix, githubusercontent.com, proxy
 host-suffix, gumroad.com, proxy
 #APP - HashPhotos
 host-suffix, hashphotos.app, proxy
+#APP - Hulu
+host-suffix, hulu.com, proxy
 #APP - imgur
 host-suffix, imgur.com, proxy
 #APP - LG ThinQ
@@ -229,12 +236,18 @@ host-suffix, notion.site, proxy
 #APP - PayPal
 host-suffix, paypal.com, proxy
 host-suffix, paypalobjects.com, proxy
+#APP - Pinterest
+host-suffix, pinimg.com, proxy
+host-suffix, pinterest.com, proxy
 #APP - pixiv
 host-suffix, pixiv.net, proxy
 host-suffix, pximg.net, proxy
 #APP - Proton
 host-suffix, proton.me, proxy
 host-suffix, protonvpn.com, proxy
+#APP - Reddit
+host-suffix, reddit.com, proxy
+host-suffix, redditstatic.com, proxy
 #APP - shottr
 host-suffix, shottr.cc, proxy
 #APP - Snapchat
@@ -330,6 +343,7 @@ host-suffix, fonts.adobe.com, proxy
 host-suffix, typekit.com, proxy
 host-suffix, typekit.net, proxy
 #Web - Akamai
+host-suffix, akamaihd.net, proxy
 host-suffix, akamaized.net, proxy
 #Web - Amazon-AWS
 host-suffix, amazonaws.com, proxy
@@ -349,10 +363,7 @@ host-suffix, cloudinary.com, proxy
 host-suffix, digicert.com, proxy
 #Web - Google
 host, ajax.googleapis.com, proxy
-host, fonts.googleapis.com, proxy
-host, fonts.gstatic.com, proxy
 host, www.gstatic.com, proxy
-host, accounts.google.com, proxy
 host, apis.google.com, proxy
 host, www.google.com, proxy
 #Web - hCaptcha
@@ -428,9 +439,6 @@ host-suffix, st-hatena.com, proxy
 host-suffix, cfw.guide, proxy
 #IPADDRESS
 host-suffix, ipaddress.com, proxy
-#Reddit
-host-suffix, reddit.com, proxy
-host-suffix, redditstatic.com, proxy
 #SoundCloud
 host-suffix, soundcloud.com, proxy
 host-suffix, sndcdn.com, proxy
