@@ -1,4 +1,4 @@
-# Update > 22:47 2024/1/26
+# Update > 22:56 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -1495,7 +1495,6 @@ host-suffix, googleadsserving.cn, reject
 host-suffix, googleanalytics.com, reject
 host-suffix, googleoptimize.com, reject
 host-suffix, googlesyndication.com, reject
-host-suffix, googletagmanager.com, reject
 host-suffix, googletagservices.com, reject
 host-suffix, googletraveladservices.com, reject
 host-suffix, urchin.com, reject
