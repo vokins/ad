@@ -1,4 +1,4 @@
-# Update > 22:57 2024/1/26
+# Update > 23:52 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -31,7 +31,11 @@ host-suffix, blogger.com, proxy
 host-suffix, blogspot.com, proxy
 host-suffix, chrome.com, proxy
 host-suffix, chromium.org, proxy
+host-suffix, gvt0.cn, proxy
+host-suffix, gvt0.com, proxy
 host-suffix, gvt1.com, proxy
+host-suffix, gvt2.com, proxy
+host-suffix, gvt3.com, proxy
 host-suffix, g.cn, proxy
 host-suffix, g.co, proxy
 host-suffix, goo.gl, proxy
@@ -136,6 +140,8 @@ host-suffix, gumroad.com, proxy
 host-suffix, hashphotos.app, proxy
 #APP - Hulu
 host-suffix, hulu.com, proxy
+#APP - IMDb
+host-suffix, imdb.com, proxy
 #APP - imgur
 host-suffix, imgur.com, proxy
 #APP - LG ThinQ
@@ -412,6 +418,9 @@ host-suffix, myhtebooks.com, proxy
 host-suffix, myhtlmebook.com, proxy
 host-suffix, newhtbook.com, proxy
 host-suffix, urhtbooks.com, proxy
+#bitly
+host-suffix, bit.ly, proxy
+host-suffix, bitly.com, proxy
 #CNbeta
 host-suffix, cnbeta.com.tw, proxy
 host-suffix, cnbetacdn.com, proxy
@@ -443,6 +452,8 @@ host-suffix, soundcloud.com, proxy
 host-suffix, sndcdn.com, proxy
 #Startpage
 host-suffix, startpage.com, proxy
+#TMDB
+host-suffix, themoviedb.org, proxy
 #Tools
 host-suffix, boxjs.com, proxy
 host-suffix, script.hub, proxy
