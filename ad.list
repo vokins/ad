@@ -1,4 +1,4 @@
-# Update > 19:21 2024/1/26
+# Update > 22:47 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -15,6 +15,7 @@ host-suffix, searchads.apple.com, reject
 #3rdPage-页面插入-欺诈性网站警告
 host-keyword, safebrowsing., reject
 #https://developers.google.com/safe-browsing/
+host-suffix, safebrowsing.google.com, reject
 host-suffix, safebrowsing.googleapis.com, reject
 host-suffix, safebrowsing.googleapis-cn.com, reject
 #https://anquan.baidu.com/article/281
@@ -23,6 +24,7 @@ host, lookup.api.bsb.baidu.com, reject
 host-suffix, urlsec.qq.com, reject
 host, safebrowsing.urlsec.qq.com, reject
 host, www.urlsec.qq.com, reject
+host, kde.qq.com, reject
 #https://ie.sogou.com
 host, get.sogou.com, reject
 host, safe.sogou.com, reject
@@ -1136,6 +1138,7 @@ host, video-ad.sm.cn, reject
 host, px.effirst.com, reject
 #Baidu
 host-suffix, cpro.baidu.com, reject
+host-suffix, mssp.baidu.com, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, tongji.baidu.com, reject
 host-suffix, tuisong.baidu.com, reject
@@ -1156,6 +1159,7 @@ host, caclick.baidu.com, reject
 host, cbjs.baidu.com, reject
 host, cm.baidu.com, reject
 host, cpu.baidu.com, reject
+host, cpu-openapi.baidu.com, reject
 host, cpucdn.baidu.com, reject
 host, datax.baidu.com, reject
 host, dss3.baidu.com, reject
@@ -1453,6 +1457,7 @@ host, tnc3-bjlgy.zijieapi.com, reject
 host, tnc4-bjlgy.zijieapi.com, reject
 host, tnc5-bjlgy.zijieapi.com, reject
 #Google
+host, analyticsmobile-pa.googleapis.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
 host, device-provisioning.googleapis.com, reject
 host, firebasedynamiclinks.googleapis.com, reject
@@ -1605,6 +1610,7 @@ host, report.idqqimg.com, reject
 #Tencent-cloud
 host, apd-pcdnvodstat.teg.tencent-cloud.net, reject
 host, apd-vodp2preport.teg.tencent-cloud.net, reject
+host, publiclog.zhiyan.tencent-cloud.net, reject
 #Unity
 host-suffix, ads.internal.unity3d.com, reject
 host-suffix, ads.prd.ie.internal.unity3d.com, reject
@@ -1839,6 +1845,7 @@ host-suffix, applk.cn, reject
 host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
 host-suffix, appsflyer.com, reject
+host-suffix, appsflyersdk.com, reject
 host-suffix, aralego.com, reject
 host-suffix, aralego.net, reject
 host-suffix, atdmt.com, reject
@@ -1886,6 +1893,7 @@ host-suffix, busydata.cn, reject
 host-suffix, buysellads.com, reject
 host-suffix, cacafly.com, reject
 host-suffix, caidangdang.cn, reject
+host-suffix, carbonads.com, reject
 host-suffix, casalemedia.com, reject
 host-suffix, castplatform.com, reject
 host-suffix, cdnmaster.cn, reject
