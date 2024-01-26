@@ -1,4 +1,4 @@
-# Update > 19:18 2024/1/26
+# Update > 19:39 2024/1/26
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -24,6 +24,9 @@ host-suffix, googletagmanager.com, proxy
 host-suffix, gstatic.cn, proxy
 host-suffix, gstatic.com, proxy
 host-suffix, recaptcha.net, proxy
+host-suffix, googleusercontent.com, proxy
+host-suffix, googlevideo.com, proxy
+host-suffix, ggpht.com, proxy
 #Alphabet-Gmail
 host-suffix, gmail.com, proxy
 host-suffix, googlemail.com, proxy
@@ -44,7 +47,6 @@ host-suffix, chromium.org, proxy
 host-suffix, feedburner.com, proxy
 host-suffix, g.cn, proxy
 host-suffix, g.co, proxy
-host-suffix, ggpht.com, proxy
 host-suffix, gmodules.com, proxy
 host-suffix, go.dev, proxy
 host-suffix, goo.gl, proxy
@@ -52,8 +54,6 @@ host-suffix, googleblog.com, proxy
 host-suffix, googlecode.com, proxy
 host-suffix, googlehosted.com, proxy
 host-suffix, googlelabs.com, proxy
-host-suffix, googleusercontent.com, proxy
-host-suffix, googlevideo.com, proxy
 host-suffix, gvt0.cn, proxy
 host-suffix, gvt0.com, proxy
 host-suffix, gvt1.com, proxy
@@ -225,6 +225,7 @@ host-suffix, microsoft365.com, proxy
 host-suffix, office.com, proxy
 host-suffix, office.net, proxy
 host-suffix, office365.com, proxy
+host-suffix, onenote.com, proxy
 #APP - Microsoft-Outlook
 host-suffix, live.com, proxy
 host-suffix, microsoftemail.com, proxy
