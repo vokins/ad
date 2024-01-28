@@ -1,4 +1,4 @@
-# Update > 23:52 2024/1/26
+# Update > 22:40 2024/1/28
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -1432,6 +1432,7 @@ host, bsync5-normal-lf.zijieapi.com, reject
 host, gecko3-lq.zijieapi.com, reject
 host, gecko5-lq.zijieapi.com, reject
 host, gecko5.zijieapi.com, reject
+host, ma3-normal-lf.zijieapi.com, reject
 host, ma5-normal-lq.zijieapi.com, reject
 host, minigame3-normal.zijieapi.com, reject
 host, minigame5-normal-hl.zijieapi.com, reject
@@ -2354,3 +2355,8 @@ host-suffix, zxrtb.com, reject
 host-suffix, zygaoshou888.cn, reject
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
+host, frontier100-aweme-lf.amemv.com, reject
+host, klink5-lf.amemv.com, reject
+host, sf6-cdn-tos.douyinstatic.com, reject
+host, tp-pay.snssdk.com, reject
+host, sq.bls.mdt.qq.com, reject
