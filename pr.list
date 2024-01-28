@@ -1,4 +1,4 @@
-# Update > 23:52 2024/1/26
+# Update > 22:38 2024/1/28
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -12,6 +12,8 @@ host-suffix, com.hk, proxy
 #Domain - TW网站
 host-suffix, com.tw, proxy
 host-suffix, gov.tw, proxy
+#Apple -Mail
+host-suffix, mail.me.com, proxy
 #APP - Accor
 host-suffix, accor.com, proxy
 host-suffix, accorhotels.com, proxy
@@ -373,6 +375,11 @@ host-suffix, fastly.net, proxy
 host-suffix, hcaptcha.com, proxy
 #Web - HUMAN-PerimeterX
 host-suffix, perimeterx.net, proxy
+#Web - jQuery
+host-suffix, jquery.com, proxy
+host-suffix, jquerymobile.com, proxy
+host-suffix, jqueryui.com, proxy
+host-suffix, qunitjs.com, proxy
 #Web - jsDelivr
 host-suffix, jsdelivr.com, proxy
 host-suffix, jsdelivr.net, proxy
