@@ -1,4 +1,4 @@
-# Update > 22:38 2024/1/28
+# Update > 22:54 2024/2/2
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -262,8 +262,9 @@ host-suffix, sc-cdn.net, proxy
 host-suffix, snapchat.com, proxy
 #APP - Telegram https://core.telegram.org/resources/cidr.txt
 host-suffix, cdn-telegram.org, proxy
-host-suffix, t.me, proxy
 host-suffix, telegram.org, proxy
+host-suffix, t.me, proxy
+host-suffix, telegra.ph, proxy
 #APP - Tumblr
 host-suffix, tumblr.com, proxy
 #APP - Twitter
@@ -437,6 +438,8 @@ host-suffix, deviantart.net, proxy
 host-suffix, deviantartsupport.com, proxy
 #Email.ML
 host-suffix, email.ml, proxy
+#ESET
+host-suffix, eset.com, proxy
 #GreatFire
 host-suffix, greatfire.org, proxy
 host-suffix, freewechat.com, proxy
@@ -450,6 +453,8 @@ host-suffix, guardianproject.info, proxy
 #Hatena
 host-suffix, hatena.ne.jp, proxy
 host-suffix, st-hatena.com, proxy
+#histar.tv
+host-suffix, histar.tv, proxy
 #iOS Guide
 host-suffix, cfw.guide, proxy
 #IPADDRESS
