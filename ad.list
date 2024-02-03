@@ -1,4 +1,4 @@
-# Update > 22:40 2024/1/28
+# Update > 15:27 2024/2/3
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -1290,12 +1290,25 @@ host, webcast3-normal-c-lf.amemv.com, reject
 host, webcast5-normal-lf.amemv.com, reject
 #Bytedance-抖音
 host-keyword, -cold.douyinvod.com, reject
+host-keyword, -cold1.douyinvod.com, reject
+host-keyword, -cold2.douyinvod.com, reject
+host-keyword, -cold3.douyinvod.com, reject
+host-keyword, -cold4.douyinvod.com, reject
+host-keyword, -colda.douyinvod.com, reject
 host-keyword, -coldb.douyinvod.com, reject
+host-keyword, -coldd.douyinvod.com, reject
+host-keyword, -coldf.douyinvod.com, reject
+host-keyword, -coldx.douyinvod.com, reject
+host-keyword, -coldy.douyinvod.com, reject
 host-keyword, -lite-a.douyinvod.com, reject
 host-keyword, -lite-b.douyinvod.com, reject
 host-keyword, -lite-c.douyinvod.com, reject
 host-keyword, -lite.douyinvod.com, reject
 host-keyword, -litea.douyinvod.com, reject
+host-keyword, -liteb.douyinvod.com, reject
+host-keyword, tt.x.bsgslb.cn, reject
+host-keyword, free-lbv3.idouyinvod.com, reject
+host, tr.byteurl.cn, reject
 host-suffix, volcsirius.com, reject
 host-suffix, volcsiriusbd.com, reject
 #Bytedance-Others
