@@ -1,4 +1,4 @@
-# Update > 15:27 2024/2/3
+# Update > 16:28 2024/2/5
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -1281,6 +1281,10 @@ host-suffix, tosv.byted.org, reject
 host-suffix, csjplatform.com, reject
 host-suffix, oceanengine.com, reject
 #Bytedance-amemv
+host, api3-normal-c-lf.amemv.com, reject
+host, log0-misc-lf.amemv.com, reject
+host, frontier100-aweme-lf.amemv.com, reject
+host, klink5-lf.amemv.com, reject
 host, log0-misc-alinc2.amemv.com, reject
 host, log3-misc-lq.amemv.com, reject
 host, log5-misc-lq.amemv.com, reject
@@ -1308,7 +1312,10 @@ host-keyword, -litea.douyinvod.com, reject
 host-keyword, -liteb.douyinvod.com, reject
 host-keyword, tt.x.bsgslb.cn, reject
 host-keyword, free-lbv3.idouyinvod.com, reject
+host, sf5-hl-cdn-tos.douyinstatic.com, reject
+host, sf6-cdn-tos.douyinstatic.com, reject
 host, tr.byteurl.cn, reject
+host, mssdk.volces.com, reject
 host-suffix, volcsirius.com, reject
 host-suffix, volcsiriusbd.com, reject
 #Bytedance-Others
@@ -1365,6 +1372,7 @@ host-suffix, volceapplog.com, reject
 #Bytedance-抖音月付/随心借
 host-suffix, f-cashloan.snssdk.com, reject
 host-suffix, f-cpay.snssdk.com, reject
+host-suffix, tp-pay.snssdk.com, reject
 host-suffix, bytefae.com, reject
 host-suffix, doupay.com, reject
 host-keyword, -pay.bytefae.com, reject
@@ -1460,6 +1468,7 @@ host, mssdk5-normal-lf.zijieapi.com, reject
 host, mssdk5-normal.zijieapi.com, reject
 host, polaris3-normal-hl.zijieapi.com, reject
 host, polaris3-normal-lq.zijieapi.com, reject
+host, polaris5-normal-lf.zijieapi.com, reject
 host, saveu5-normal-lq.zijieapi.com, reject
 host, tnc1-bjlgy.zijieapi.com, reject
 host, tnc11-aliec2.zijieapi.com, reject
@@ -1862,6 +1871,7 @@ host-suffix, appsflyer.com, reject
 host-suffix, appsflyersdk.com, reject
 host-suffix, aralego.com, reject
 host-suffix, aralego.net, reject
+host-suffix, assemblyexchange.com, reject
 host-suffix, atdmt.com, reject
 host-suffix, atom-data.io, reject
 host-suffix, atomhike.com, reject
@@ -1977,6 +1987,7 @@ host-suffix, emogi.com, reject
 host-suffix, enlightent.cn, reject
 host-suffix, envac-china.com, reject
 host-suffix, ero-advertising.com, reject
+host-suffix, etrack07.com, reject
 host-suffix, everesttech.net, reject
 host-suffix, exdynsrv.com, reject
 host-suffix, exoclick.com, reject
@@ -2209,6 +2220,7 @@ host-suffix, sigmob.cn, reject
 host-suffix, simonayean.com, reject
 host-suffix, sinawap.com, reject
 host-suffix, sitescout.com, reject
+host-suffix, smaato.net, reject
 host-suffix, smadex.com, reject
 host-suffix, smartadserver.com, reject
 host-suffix, smvm.cn, reject
@@ -2368,8 +2380,5 @@ host-suffix, zxrtb.com, reject
 host-suffix, zygaoshou888.cn, reject
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
-host, frontier100-aweme-lf.amemv.com, reject
-host, klink5-lf.amemv.com, reject
-host, sf6-cdn-tos.douyinstatic.com, reject
-host, tp-pay.snssdk.com, reject
 host, sq.bls.mdt.qq.com, reject
+host, lf3-static.bytednsdoc.com, reject
