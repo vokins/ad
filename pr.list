@@ -1,4 +1,4 @@
-# Update > 22:54 2024/2/2
+# Update > 16:28 2024/2/5
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -372,6 +372,8 @@ host-suffix, digicert.com, proxy
 #Web - Fastly
 host-suffix, fastly.com, proxy
 host-suffix, fastly.net, proxy
+#Web - foundry.co.uk
+host-suffix, website-files.com, proxy
 #Web - hCaptcha
 host-suffix, hcaptcha.com, proxy
 #Web - HUMAN-PerimeterX
@@ -393,6 +395,9 @@ host-suffix, q4app.com, proxy
 host-suffix, q4blog.com, proxy
 host-suffix, q4cdn.com, proxy
 host-suffix, q4web.com, proxy
+#Web - Sentry
+host-suffix, sentry-cdn.com, proxy
+host-suffix, sentry.io, proxy
 #Web - Usercentrics
 host-suffix, usercentrics.com, proxy
 host-suffix, usercentrics.eu, proxy
@@ -402,10 +407,13 @@ host-suffix, wix-code.com, proxy
 host-suffix, wixstatic.com, proxy
 host-suffix, wixstudio.com, proxy
 host-suffix, parastorage.com, proxy
-#Web - foundry.co.uk
-host-suffix, website-files.com, proxy
+#Web - Zendesk
+host-keyword, .zendesk, proxy
+host-suffix, zdassets.com, proxy
+host-suffix, zendesk.com, proxy
 #Sites - Adult-shuaito
 host-suffix, shuaito.one, proxy
+host-suffix, shuaito.cc, proxy
 #Sites - Adult-soutong
 host-suffix, soutong.men, proxy
 host-suffix, stboy.net, proxy
@@ -440,6 +448,9 @@ host-suffix, deviantartsupport.com, proxy
 host-suffix, email.ml, proxy
 #ESET
 host-suffix, eset.com, proxy
+#FengShows
+host-suffix, fengshows.cn, proxy
+host-suffix, fengshows.com, proxy
 #GreatFire
 host-suffix, greatfire.org, proxy
 host-suffix, freewechat.com, proxy
