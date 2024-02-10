@@ -1,4 +1,4 @@
-# Update > 16:28 2024/2/5
+# Update > 0:01 2024/2/11
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -434,6 +434,43 @@ host-suffix, myhtebooks.com, proxy
 host-suffix, myhtlmebook.com, proxy
 host-suffix, newhtbook.com, proxy
 host-suffix, urhtbooks.com, proxy
+#Sites - Adult-@X CDN
+host-suffix, bootstrapcdn.com, proxy
+host-suffix, hwcdn.net, proxy
+host-suffix, mylfcdn.net, proxy
+host-suffix, psmcdn.net, proxy
+host-suffix, sucdn.net, proxy
+host-suffix, zencdn.net, proxy
+#Sites - Adult-@X
+host-suffix, affenhance.com, proxy
+host-suffix, badpuppy.com, proxy
+host-suffix, barebackmedaddy.com, proxy
+host-suffix, bearfilms.com, proxy
+host-suffix, carnalplus.com, proxy
+host-suffix, clubamateurusa.com, proxy
+host-suffix, czechgayfantasy.com, proxy
+host-suffix, doctortapes.com, proxy
+host-suffix, gaycest.com, proxy
+host-suffix, gaysexdates.co, proxy
+host-suffix, gaywirenetwork.com, proxy
+host-suffix, guysinsweatpants.com, proxy
+host-suffix, helixstudios.com, proxy
+host-suffix, helixstudios.net, proxy
+host-suffix, iconmale.com, proxy
+host-suffix, latinleche.com, proxy
+host-suffix, launchdarkly.com, proxy
+host-suffix, mennetwork.com, proxy
+host-suffix, moderndaysins.com, proxy
+host-suffix, onlinesurveyresearch.com, proxy
+host-suffix, onlyfans.com, proxy
+host-suffix, programme-tv.net, proxy
+host-suffix, project1content.com, proxy
+host-suffix, sayuncle.com, proxy
+host-suffix, thebronetwork.com, proxy
+host-suffix, timtales.com, proxy
+host-suffix, transangelsnetwork.com, proxy
+host-suffix, voyr.com, proxy
+host-suffix, williamhiggins.com, proxy
 #bitly
 host-suffix, bit.ly, proxy
 host-suffix, bitly.com, proxy
