@@ -1,4 +1,4 @@
-# Update > 16:28 2024/2/5
+# Update > 0:02 2024/2/11
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -2382,3 +2382,11 @@ host-suffix, zygaoshou888.cn, reject
 #New-Test-一个月没发现问题会并入
 host, sq.bls.mdt.qq.com, reject
 host, lf3-static.bytednsdoc.com, reject
+host, finderhy.video.qq.com, reject
+host, lf6-effectcdn-tos.byteeffecttos.com, reject
+host, lf3-short.bytegoofy.com, reject
+host, ipolyfill.edge-byted.com, reject
+host-suffix, avlm1.com, reject
+host-suffix, cmvrclicks000.com, reject
+host-suffix, sloffer1.com, reject
+host-suffix, vfgtg.com, reject
