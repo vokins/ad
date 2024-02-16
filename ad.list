@@ -1,4 +1,4 @@
-# Update > 0:02 2024/2/11
+# Update > 12:16 2024/2/16
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # https://github.com/vokins/ad/blob/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -1491,10 +1491,12 @@ host, firebaselogging.googleapis.com, reject
 host, firebaseremoteconfig.googleapis.com, reject
 host, adservice.google.co.jp, reject
 host, googleads.g.doubleclick.net, reject
+host, securepubads.g.doubleclick.net, reject
 host, pagead2.googlesyndication.com, reject
 host, tpc.googlesyndication.com, reject
 host, partner.googleadservices.com, reject
 host, www.googleadservices.com, reject
+host, imasdk.googleapis.com, reject
 host-suffix, 2mdn.net, reject
 host-suffix, admob.com, reject
 host-suffix, ads.youtube.com, reject
@@ -1649,6 +1651,8 @@ host-suffix, ads.yahoo.com, reject
 host-suffix, adserver.yahoo.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, advertising.com, reject
+host-suffix, sitemaji.com, reject
+host, ad.sitemaji.com, reject
 host, analytics.query.yahoo.com, reject
 host, beap.gemini.yahoo.com, reject
 host, yads.c.yimg.jp, reject
@@ -1811,6 +1815,7 @@ host-suffix, adinplay.com, reject
 host-suffix, adjust.com, reject
 host-suffix, adjust.net.in, reject
 host-suffix, adjust.world, reject
+host-suffix, adkernel.com, reject
 host-suffix, adkwai.com, reject
 host-suffix, adlefee.com, reject
 host-suffix, adlocus.com, reject
@@ -1894,6 +1899,7 @@ host-suffix, beintoo.com, reject
 host-suffix, beizi.biz, reject
 host-suffix, bianxianniu.com, reject
 host-suffix, biddingx.com, reject
+host-suffix, bidmyqps.xyz, reject
 host-suffix, bidswitch.net, reject
 host-suffix, bidvertiser.com, reject
 host-suffix, binfenhui.top, reject
