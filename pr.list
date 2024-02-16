@@ -1,4 +1,4 @@
-# Update > 0:01 2024/2/11
+# Update > 12:17 2024/2/16
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -12,7 +12,8 @@ host-suffix, com.hk, proxy
 #Domain - TW网站
 host-suffix, com.tw, proxy
 host-suffix, gov.tw, proxy
-#Apple -Mail
+#Apple - Mail
+host-suffix, mail.icloud.com.cn, proxy
 host-suffix, mail.me.com, proxy
 #APP - Accor
 host-suffix, accor.com, proxy
@@ -148,6 +149,10 @@ host-suffix, imdb.com, proxy
 host-suffix, imgur.com, proxy
 #APP - LG ThinQ
 host-suffix, lgthinq.com, proxy
+#APP - LIHKG
+host-suffix, lih.kg, proxy
+host-suffix, lihkg.com, proxy
+host, adv.lihkg.com, reject
 #APP - LinkedIn
 host-suffix, linkedin.com, proxy
 host-suffix, licdn.com, proxy
@@ -471,6 +476,16 @@ host-suffix, timtales.com, proxy
 host-suffix, transangelsnetwork.com, proxy
 host-suffix, voyr.com, proxy
 host-suffix, williamhiggins.com, proxy
+#Sites - Movie-欧乐影院
+host-suffix, olevod.com, proxy
+host-suffix, olelive.com, proxy
+#Sites - Movie-海外看
+host-suffix, haiwaikan.com, proxy
+#Sites - Movie-厂长资源
+host-suffix, czzy.site, proxy
+host-suffix, czzy.tv, proxy
+host-suffix, cz01.tv, proxy
+host-suffix, cz01.vip, proxy
 #bitly
 host-suffix, bit.ly, proxy
 host-suffix, bitly.com, proxy
@@ -505,8 +520,16 @@ host-suffix, st-hatena.com, proxy
 host-suffix, histar.tv, proxy
 #iOS Guide
 host-suffix, cfw.guide, proxy
+#ImgBB
+host-suffix, imgbb.com, proxy
+host-suffix, simgbb.com, proxy
+host-suffix, ibb.co, proxy
 #IPADDRESS
 host-suffix, ipaddress.com, proxy
+#Lorem Picsum
+host-suffix, picsum.photos, proxy
+#Saif Al Falah
+host-suffix, saif.dev, proxy
 #SoundCloud
 host-suffix, soundcloud.com, proxy
 host-suffix, sndcdn.com, proxy
@@ -514,11 +537,15 @@ host-suffix, sndcdn.com, proxy
 host-suffix, startpage.com, proxy
 #TMDB
 host-suffix, themoviedb.org, proxy
+host-suffix, tmdb.org, proxy
+#TVDB
+host-suffix, thetvdb.com, proxy
 #Tools
 host-suffix, boxjs.com, proxy
 host-suffix, script.hub, proxy
 host-suffix, sub.store, proxy
 host-suffix, vercel.app, proxy
+host-suffix, v1.mk, proxy
 host, scripthub.vercel.app, proxy
 host, sub-store.vercel.app, proxy
 #Tor Browser
