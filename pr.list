@@ -1,4 +1,4 @@
-# Update > 12:17 2024/2/16
+# Update > 23:19 2024/2/17
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -446,7 +446,19 @@ host-suffix, mylfcdn.net, proxy
 host-suffix, psmcdn.net, proxy
 host-suffix, sucdn.net, proxy
 host-suffix, zencdn.net, proxy
-#Sites - Adult-@X
+#Sites - Adult-@X.A
+host-suffix, beeg.com, proxy
+host-suffix, eporner.com, proxy
+host-suffix, hqporner.com, proxy
+host-suffix, missav.com, proxy
+host-suffix, pornhub.com, proxy
+host-suffix, porntrex.com, proxy
+host-suffix, spankbang.com, proxy
+host-suffix, xhamster.com, proxy
+host-suffix, xnxx.com, proxy
+host-suffix, xvideos.com, proxy
+host-suffix, youporn.com, proxy
+#Sites - Adult-@X.B
 host-suffix, affenhance.com, proxy
 host-suffix, badpuppy.com, proxy
 host-suffix, barebackmedaddy.com, proxy
