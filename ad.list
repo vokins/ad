@@ -1,4 +1,5 @@
-# Update > 21:53 2024/4/9
+# Update > 22:13 2024/4/9
+# https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
 # https://raw.githubusercontent.com/vokins/ad/main/adls.list
@@ -1250,7 +1251,6 @@ host, mbdp02.bdstatic.com, reject
 host, ms.bdstatic.com, reject
 host, nspt.bdstatic.com, reject
 host, s.bdstatic.com, reject
-#host, sofire.bdstatic.com, reject
 host, su.bdstatic.com, reject
 host, zz.bdstatic.com, reject
 #Baidu-度小满
@@ -1285,46 +1285,15 @@ host-suffix, tosv.byted.org, reject
 host-suffix, csjplatform.com, reject
 host-suffix, oceanengine.com, reject
 #Bytedance-amemv
-#host, api3-normal-c-lf.amemv.com, reject
 host, log0-misc-lf.amemv.com, reject
-#host, frontier100-aweme-lf.amemv.com, reject
-#host, klink5-lf.amemv.com, reject
 host, log0-misc-alinc2.amemv.com, reject
 host, log3-misc-lq.amemv.com, reject
 host, log5-misc-lq.amemv.com, reject
-host, mon11-misc-lq.amemv.com, reject
-#host, webcast3-core-c-lf.amemv.com, reject
-#host, webcast3-normal-c-lf.amemv.com, reject
-#host, webcast5-normal-lf.amemv.com, reject
 #Bytedance-抖音
-#host-keyword, -cold.douyinvod.com, reject
-#host-keyword, -cold1.douyinvod.com, reject
-#host-keyword, -cold2.douyinvod.com, reject
-#host-keyword, -cold3.douyinvod.com, reject
-#host-keyword, -cold4.douyinvod.com, reject
-#host-keyword, -colda.douyinvod.com, reject
-#host-keyword, -coldb.douyinvod.com, reject
-#host-keyword, -coldd.douyinvod.com, reject
-#host-keyword, -coldf.douyinvod.com, reject
-#host-keyword, -coldx.douyinvod.com, reject
-#host-keyword, -coldy.douyinvod.com, reject
-#host-keyword, -lite-a.douyinvod.com, reject
-#host-keyword, -lite-b.douyinvod.com, reject
-#host-keyword, -lite-c.douyinvod.com, reject
-#host-keyword, -lite.douyinvod.com, reject
-#host-keyword, -litea.douyinvod.com, reject
-#host-keyword, -liteb.douyinvod.com, reject
 host-keyword, tt.x.bsgslb.cn, reject
-#host-keyword, free-lbv3.idouyinvod.com, reject
-#host, sf5-hl-cdn-tos.douyinstatic.com, reject
-#host, sf6-cdn-tos.douyinstatic.com, reject
-host, tr.byteurl.cn, reject
 host, mssdk.volces.com, reject
 host-suffix, volcsirius.com, reject
 host-suffix, volcsiriusbd.com, reject
-#Bytedance-Others
-#host-suffix, dig.bdurl.net, reject
-host, lf1-cdn-tos.bytegoofy.com, reject
 #Bytedance-TikTok
 host, analytics.tiktok.com, reject
 host, pangolin16.sgsnssdk.com, reject
@@ -1367,33 +1336,21 @@ host-keyword, applog-hl.novelfm.com, reject
 #Bytedance-西瓜视频
 host-keyword, applog-lf.ixigua.com, reject
 host-keyword, applog-lq.ixigua.com, reject
-#Bytedance-ecombdapi抖音商城
-#host-suffix, ecombdapi.com, reject
-#host-suffix, ecombdimg.com, reject
-#host-suffix, ecombdstatic.com, reject
-#host-suffix, jinritemai.com, reject
-#host-suffix, volceapplog.com, reject
 #Bytedance-抖音月付/随心借
 host-suffix, f-cashloan.snssdk.com, reject
 host-suffix, f-cpay.snssdk.com, reject
 host-suffix, tp-pay.snssdk.com, reject
 host-suffix, bytefae.com, reject
 host-suffix, doupay.com, reject
-host-keyword, -pay.bytefae.com, reject
-host-keyword, -static.bytefae.com, reject
 host-keyword, -infras.bytetos.com, reject
 host-keyword, -insurance.byteimg.com, reject
 host-keyword, -infras.byteimg.com, reject
 host-suffix, baohuaxia.com, reject
-host, klink.amemv.com, reject
-#host, lf-webcast-gr-sourcecdn.bytegecko.com, reject
-host, repayment.jishitailai.com, reject
 #Bytedance-snssdk
 host-suffix, applog.snssdk.com, reject
 host-suffix, bds.snssdk.com, reject
 host-suffix, ctobsnssdk.com, reject
 host-suffix, extlog.snssdk.com, reject
-host-suffix, is.snssdk.com, reject
 host-suffix, pangolin.snssdk.com, reject
 host-suffix, sdfp.snssdk.com, reject
 host-suffix, toblog.snssdk.com, reject
@@ -1401,7 +1358,6 @@ host, analytics.snssdk.com, reject
 host, aweme.snssdk.com, reject
 host, haohuo.snssdk.com, reject
 host, i-lq.snssdk.com, reject
-host, ib.snssdk.com, reject
 host, lf.snssdk.com, reject
 host, log.snssdk.com, reject
 host, mcs.snssdk.com, reject
@@ -1441,7 +1397,6 @@ host, mssdk.zijieapi.com, reject
 host, polaris.zijieapi.com, reject
 host, starkgame.zijieapi.com, reject
 host, timon.zijieapi.com, reject
-#host, vcs.zijieapi.com, reject
 host, view.zijieapi.com, reject
 host, abtest3-misc-lq.zijieapi.com, reject
 host, abtest5-misc-hl.zijieapi.com, reject
@@ -1520,8 +1475,6 @@ host-suffix, googlesyndication.com, reject
 host-suffix, googletagservices.com, reject
 host-suffix, googletraveladservices.com, reject
 host-suffix, urchin.com, reject
-#host-suffix, googleoptimize.com, reject
-#host, imasdk.googleapis.com, reject
 #GoogleCN
 host-suffix, ads.google.cn, reject
 host-suffix, adsense.google.cn, reject
@@ -1537,7 +1490,6 @@ host, dgstatic.jd.com, reject
 host, janapi.jd.com, reject
 host, wqs11.jd.com, reject
 host, xlog.jd.com, reject
-#host, dg.k.jd.com, reject
 host, uranus.jd.com, reject
 #Sohu
 host, fpb0.sohu.com, reject
@@ -1760,7 +1712,6 @@ host, s.u7u9.com, reject
 host, pb1.jiayongluyou.com, reject
 host, pb2.jiayongluyou.com, reject
 #Union-Ads
-#支付宝部分充值页面误杀host-suffix, iyoudui.cn, reject
 host-suffix, 051091.com, reject
 host-suffix, 123zn.cn, reject
 host-suffix, 186078.com, reject
@@ -2008,7 +1959,6 @@ host-suffix, gameanalytics.com, reject
 host-suffix, gbitcoin.cn, reject
 host-suffix, gentags.com, reject
 host-suffix, gentags.net, reject
-host-suffix, gepush.com, reject
 host-suffix, getui.com, reject
 host-suffix, getui.net, reject
 host-suffix, gfnormal01ae.com, reject
@@ -2388,11 +2338,7 @@ host-suffix, zygaoshou888.cn, reject
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
 host, sq.bls.mdt.qq.com, reject
-host, lf3-static.bytednsdoc.com, reject
 host, finderhy.video.qq.com, reject
-host, lf6-effectcdn-tos.byteeffecttos.com, reject
-host, lf3-short.bytegoofy.com, reject
-host, ipolyfill.edge-byted.com, reject
 host-suffix, avlm1.com, reject
 host-suffix, cmvrclicks000.com, reject
 host-suffix, sloffer1.com, reject
