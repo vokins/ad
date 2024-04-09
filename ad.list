@@ -1,4 +1,4 @@
-# Update > 16:38 2024/4/5
+# Update > 21:53 2024/4/9
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
 # https://raw.githubusercontent.com/vokins/ad/main/adls.list
@@ -1022,6 +1022,11 @@ host-suffix, events.data.microsoft.com, reject
 host-suffix, telemetry.microsoft.com, reject
 host-suffix, dsp.mp.microsoft.com, reject
 host, telemetry.api.swiftkey.com, reject
+#OS-MicroSoft-Bing
+host, c.bing.com, reject
+host, c.msn.cn, reject
+host, srtb.msn.com, reject
+host-suffix, pr-bh.ybp.yahoo.com, reject
 #OS-Oppo
 host-suffix, ads.oppomobile.com, reject
 host-suffix, bdapi-in-ads.realmemobile.com, reject
@@ -1064,11 +1069,10 @@ host-suffix, union.youdao.com, reject
 host, oimagea7.ydstatic.com, reject
 host, oimageb8.ydstatic.com, reject
 #360So
-host, api.so.lianmeng.360.cn, reject
+host-suffix, daikuan.360.cn, reject
+host-suffix, lianmeng.360.cn, reject
 host, papi.look.360.cn, reject
 host, socm.dmp.360.cn, reject
-host, stat.lianmeng.360.cn, reject
-host-suffix, daikuan.360.cn, reject
 host, e.so.com, reject
 host, p.sug.so.com, reject
 host, s.qhupdate.com, reject
@@ -1490,13 +1494,6 @@ host, firebaselogging-pa.googleapis.com, reject
 host, firebaselogging.googleapis.com, reject
 host, firebaseremoteconfig.googleapis.com, reject
 host, adservice.google.co.jp, reject
-host, googleads.g.doubleclick.net, reject
-host, securepubads.g.doubleclick.net, reject
-host, pagead2.googlesyndication.com, reject
-host, tpc.googlesyndication.com, reject
-host, partner.googleadservices.com, reject
-host, www.googleadservices.com, reject
-host, imasdk.googleapis.com, reject
 host-suffix, 2mdn.net, reject
 host-suffix, admob.com, reject
 host-suffix, ads.youtube.com, reject
@@ -1511,19 +1508,20 @@ host-suffix, adwords-community.com, reject
 host-suffix, adwords.com, reject
 host-suffix, adwordsexpress.com, reject
 host-suffix, app-measurement.com, reject
-host-suffix, clickserver.googleads.com, reject
 host-suffix, doubleclick.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, google-analytics.com, reject
 host-suffix, googleadapis.com, reject
+host-suffix, googleads.com, reject
 host-suffix, googleadservices.com, reject
 host-suffix, googleadsserving.cn, reject
 host-suffix, googleanalytics.com, reject
-host-suffix, googleoptimize.com, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, googletagservices.com, reject
 host-suffix, googletraveladservices.com, reject
 host-suffix, urchin.com, reject
+#host-suffix, googleoptimize.com, reject
+#host, imasdk.googleapis.com, reject
 #GoogleCN
 host-suffix, ads.google.cn, reject
 host-suffix, adsense.google.cn, reject
@@ -1819,6 +1817,7 @@ host-suffix, adkernel.com, reject
 host-suffix, adkwai.com, reject
 host-suffix, adlefee.com, reject
 host-suffix, adlocus.com, reject
+host-suffix, admama.com, reject
 host-suffix, admamax.com, reject
 host-suffix, admarvel.com, reject
 host-suffix, admaster.com.cn, reject
@@ -2119,6 +2118,7 @@ host-suffix, manduhu.com, reject
 host-suffix, mathtag.com, reject
 host-suffix, mchnad.com, reject
 host-suffix, mddlsa.com, reject
+host-suffix, mdvdns.com, reject
 host-suffix, mediav.com, reject
 host-suffix, meihu56.cn, reject
 host-suffix, metheny.cn, reject
@@ -2230,6 +2230,7 @@ host-suffix, smaato.net, reject
 host-suffix, smadex.com, reject
 host-suffix, smartadserver.com, reject
 host-suffix, smvm.cn, reject
+host-suffix, sndo.com, reject
 host-suffix, socdm.com, reject
 host-suffix, social-touch.com, reject
 host-suffix, sogowan.com, reject
