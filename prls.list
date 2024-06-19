@@ -1,4 +1,4 @@
-# Update > 22:54 2024/2/2
+# Update > 15:59 2024/6/19
 # https://raw.githubusercontent.com/vokins/ad/main/prls.list
 # https://github.com/vokins/ad/blob/main/prls.list
 # **Prooxy**
@@ -11,7 +11,8 @@ DOMAIN-SUFFIX,com.hk,PROXY
 #Domain - TW网站
 DOMAIN-SUFFIX,com.tw,PROXY
 DOMAIN-SUFFIX,gov.tw,PROXY
-#Apple -Mail
+#Apple - Mail
+DOMAIN-SUFFIX,mail.icloud.com.cn,PROXY
 DOMAIN-SUFFIX,mail.me.com,PROXY
 #APP - Accor
 DOMAIN-SUFFIX,accor.com,PROXY
@@ -57,6 +58,8 @@ DOMAIN-SUFFIX,youtube.com,PROXY
 DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
+#APP - Afterlight
+DOMAIN-SUFFIX,afterlight.co,PROXY
 #APP - Amazon-Prime Video
 DOMAIN-SUFFIX,a2z.com,PROXY
 DOMAIN-SUFFIX,aiv-delivery.net,PROXY
@@ -65,6 +68,8 @@ DOMAIN-SUFFIX,amazon.dev,PROXY
 DOMAIN-SUFFIX,amazonvideo.com,PROXY
 DOMAIN-SUFFIX,media-amazon.com,PROXY
 DOMAIN-SUFFIX,ssl-images-amazon.com,PROXY
+#APP - AppRaven
+DOMAIN-SUFFIX,appraven.net,PROXY
 #APP - BBC
 DOMAIN-SUFFIX,bbc.com,PROXY
 DOMAIN-SUFFIX,bbc.co.uk,PROXY
@@ -80,6 +85,8 @@ DOMAIN-SUFFIX,boxcdn.net,PROXY
 DOMAIN-SUFFIX,segment-box.com,PROXY
 #APP - Cash
 DOMAIN-SUFFIX,cashappapi.com,PROXY
+#APP - DesignLab
+DOMAIN-SUFFIX,onelightapps.io,PROXY
 #APP - Discord
 DOMAIN,discordapp.page.link,PROXY
 DOMAIN-SUFFIX,discord.com,PROXY
@@ -147,6 +154,10 @@ DOMAIN-SUFFIX,imdb.com,PROXY
 DOMAIN-SUFFIX,imgur.com,PROXY
 #APP - LG ThinQ
 DOMAIN-SUFFIX,lgthinq.com,PROXY
+#APP - LIHKG
+DOMAIN-SUFFIX,lih.kg,PROXY
+DOMAIN-SUFFIX,lihkg.com,PROXY
+DOMAIN,adv.lihkg.com, reject
 #APP - LinkedIn
 DOMAIN-SUFFIX,linkedin.com,PROXY
 DOMAIN-SUFFIX,licdn.com,PROXY
@@ -219,6 +230,9 @@ DOMAIN-SUFFIX,windows.net,PROXY
 #APP - Microsoft-Bing-Copilot
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,bingapis.com,PROXY
+#APP - Microsoft-ChatGPT
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
 #APP - Microsoft-Office
 DOMAIN-SUFFIX,microsoft365.com,PROXY
 DOMAIN-SUFFIX,office.com,PROXY
@@ -278,6 +292,8 @@ DOMAIN-SUFFIX,getupnote.com,PROXY
 DOMAIN-SUFFIX,vivaldi.com,PROXY
 DOMAIN-SUFFIX,vivaldi.net,PROXY
 DOMAIN-SUFFIX,vivaldistatus.com,PROXY
+#APP - VSCO
+DOMAIN-SUFFIX,vsco.co,PROXY
 #APP - WikipediA
 DOMAIN-SUFFIX,wikipedia.com,PROXY
 DOMAIN-SUFFIX,wikimedia.org,PROXY
@@ -371,6 +387,8 @@ DOMAIN-SUFFIX,digicert.com,PROXY
 #Web - Fastly
 DOMAIN-SUFFIX,fastly.com,PROXY
 DOMAIN-SUFFIX,fastly.net,PROXY
+#Web - foundry.co.uk
+DOMAIN-SUFFIX,website-files.com,PROXY
 #Web - hCaptcha
 DOMAIN-SUFFIX,hcaptcha.com,PROXY
 #Web - HUMAN-PerimeterX
@@ -384,6 +402,8 @@ DOMAIN-SUFFIX,qunitjs.com,PROXY
 DOMAIN-SUFFIX,jsdelivr.com,PROXY
 DOMAIN-SUFFIX,jsdelivr.net,PROXY
 DOMAIN-SUFFIX,esm.run,PROXY
+#Web - OneTrust
+DOMAIN-SUFFIX,onetrust.com,PROXY
 #Web - prismic
 DOMAIN-SUFFIX,prismic.io,PROXY
 #Web - Q4inc.com
@@ -392,6 +412,9 @@ DOMAIN-SUFFIX,q4app.com,PROXY
 DOMAIN-SUFFIX,q4blog.com,PROXY
 DOMAIN-SUFFIX,q4cdn.com,PROXY
 DOMAIN-SUFFIX,q4web.com,PROXY
+#Web - Sentry
+DOMAIN-SUFFIX,sentry-cdn.com,PROXY
+DOMAIN-SUFFIX,sentry.io,PROXY
 #Web - Usercentrics
 DOMAIN-SUFFIX,usercentrics.com,PROXY
 DOMAIN-SUFFIX,usercentrics.eu,PROXY
@@ -401,10 +424,13 @@ DOMAIN-SUFFIX,wix-code.com,PROXY
 DOMAIN-SUFFIX,wixstatic.com,PROXY
 DOMAIN-SUFFIX,wixstudio.com,PROXY
 DOMAIN-SUFFIX,parastorage.com,PROXY
-#Web - foundry.co.uk
-DOMAIN-SUFFIX,website-files.com,PROXY
+#Web - Zendesk
+DOMAIN-KEYWORD,.zendesk,PROXY
+DOMAIN-SUFFIX,zdassets.com,PROXY
+DOMAIN-SUFFIX,zendesk.com,PROXY
 #Sites - Adult-shuaito
 DOMAIN-SUFFIX,shuaito.one,PROXY
+DOMAIN-SUFFIX,shuaito.cc,PROXY
 #Sites - Adult-soutong
 DOMAIN-SUFFIX,soutong.men,PROXY
 DOMAIN-SUFFIX,stboy.net,PROXY
@@ -425,6 +451,65 @@ DOMAIN-SUFFIX,myhtebooks.com,PROXY
 DOMAIN-SUFFIX,myhtlmebook.com,PROXY
 DOMAIN-SUFFIX,newhtbook.com,PROXY
 DOMAIN-SUFFIX,urhtbooks.com,PROXY
+#Sites - Adult-@X CDN
+DOMAIN-SUFFIX,bootstrapcdn.com,PROXY
+DOMAIN-SUFFIX,hwcdn.net,PROXY
+DOMAIN-SUFFIX,mylfcdn.net,PROXY
+DOMAIN-SUFFIX,psmcdn.net,PROXY
+DOMAIN-SUFFIX,sucdn.net,PROXY
+DOMAIN-SUFFIX,zencdn.net,PROXY
+#Sites - Adult-@X.A
+DOMAIN-SUFFIX,beeg.com,PROXY
+DOMAIN-SUFFIX,eporner.com,PROXY
+DOMAIN-SUFFIX,hqporner.com,PROXY
+DOMAIN-SUFFIX,missav.com,PROXY
+DOMAIN-SUFFIX,pornhub.com,PROXY
+DOMAIN-SUFFIX,porntrex.com,PROXY
+DOMAIN-SUFFIX,spankbang.com,PROXY
+DOMAIN-SUFFIX,xhamster.com,PROXY
+DOMAIN-SUFFIX,xnxx.com,PROXY
+DOMAIN-SUFFIX,xvideos.com,PROXY
+DOMAIN-SUFFIX,youporn.com,PROXY
+#Sites - Adult-@X.B
+DOMAIN-SUFFIX,affenhance.com,PROXY
+DOMAIN-SUFFIX,badpuppy.com,PROXY
+DOMAIN-SUFFIX,barebackmedaddy.com,PROXY
+DOMAIN-SUFFIX,bearfilms.com,PROXY
+DOMAIN-SUFFIX,carnalplus.com,PROXY
+DOMAIN-SUFFIX,clubamateurusa.com,PROXY
+DOMAIN-SUFFIX,czechgayfantasy.com,PROXY
+DOMAIN-SUFFIX,doctortapes.com,PROXY
+DOMAIN-SUFFIX,gaycest.com,PROXY
+DOMAIN-SUFFIX,gaysexdates.co,PROXY
+DOMAIN-SUFFIX,gaywirenetwork.com,PROXY
+DOMAIN-SUFFIX,guysinsweatpants.com,PROXY
+DOMAIN-SUFFIX,helixstudios.com,PROXY
+DOMAIN-SUFFIX,helixstudios.net,PROXY
+DOMAIN-SUFFIX,iconmale.com,PROXY
+DOMAIN-SUFFIX,latinleche.com,PROXY
+DOMAIN-SUFFIX,launchdarkly.com,PROXY
+DOMAIN-SUFFIX,mennetwork.com,PROXY
+DOMAIN-SUFFIX,moderndaysins.com,PROXY
+DOMAIN-SUFFIX,onlinesurveyresearch.com,PROXY
+DOMAIN-SUFFIX,onlyfans.com,PROXY
+DOMAIN-SUFFIX,programme-tv.net,PROXY
+DOMAIN-SUFFIX,project1content.com,PROXY
+DOMAIN-SUFFIX,sayuncle.com,PROXY
+DOMAIN-SUFFIX,thebronetwork.com,PROXY
+DOMAIN-SUFFIX,timtales.com,PROXY
+DOMAIN-SUFFIX,transangelsnetwork.com,PROXY
+DOMAIN-SUFFIX,voyr.com,PROXY
+DOMAIN-SUFFIX,williamhiggins.com,PROXY
+#Sites - Movie-欧乐影院
+DOMAIN-SUFFIX,olevod.com,PROXY
+DOMAIN-SUFFIX,olelive.com,PROXY
+#Sites - Movie-海外看
+DOMAIN-SUFFIX,haiwaikan.com,PROXY
+#Sites - Movie-厂长资源
+DOMAIN-SUFFIX,czzy.site,PROXY
+DOMAIN-SUFFIX,czzy.tv,PROXY
+DOMAIN-SUFFIX,cz01.tv,PROXY
+DOMAIN-SUFFIX,cz01.vip,PROXY
 #bitly
 DOMAIN-SUFFIX,bit.ly,PROXY
 DOMAIN-SUFFIX,bitly.com,PROXY
@@ -439,6 +524,9 @@ DOMAIN-SUFFIX,deviantartsupport.com,PROXY
 DOMAIN-SUFFIX,email.ml,PROXY
 #ESET
 DOMAIN-SUFFIX,eset.com,PROXY
+#FengShows
+DOMAIN-SUFFIX,fengshows.cn,PROXY
+DOMAIN-SUFFIX,fengshows.com,PROXY
 #GreatFire
 DOMAIN-SUFFIX,greatfire.org,PROXY
 DOMAIN-SUFFIX,freewechat.com,PROXY
@@ -456,24 +544,46 @@ DOMAIN-SUFFIX,st-hatena.com,PROXY
 DOMAIN-SUFFIX,histar.tv,PROXY
 #iOS Guide
 DOMAIN-SUFFIX,cfw.guide,PROXY
+#ImgBB
+DOMAIN-SUFFIX,imgbb.com,PROXY
+DOMAIN-SUFFIX,simgbb.com,PROXY
+DOMAIN-SUFFIX,ibb.co,PROXY
 #IPADDRESS
 DOMAIN-SUFFIX,ipaddress.com,PROXY
+#Lorem Picsum
+DOMAIN-SUFFIX,picsum.photos,PROXY
+#Pixabay
+DOMAIN-SUFFIX,pixabay.com,PROXY
+#Saif Al Falah
+DOMAIN-SUFFIX,saif.dev,PROXY
+#Stripe
+DOMAIN-SUFFIX,stripe.com,PROXY
+DOMAIN-SUFFIX,stripecdn.com,PROXY
 #SoundCloud
 DOMAIN-SUFFIX,soundcloud.com,PROXY
 DOMAIN-SUFFIX,sndcdn.com,PROXY
 #Startpage
 DOMAIN-SUFFIX,startpage.com,PROXY
+#TinyURL
+DOMAIN-SUFFIX,tinyurl.com,PROXY
+DOMAIN-SUFFIX,viglink.com,PROXY
 #TMDB
 DOMAIN-SUFFIX,themoviedb.org,PROXY
+DOMAIN-SUFFIX,tmdb.org,PROXY
 #Tools
 DOMAIN-SUFFIX,boxjs.com,PROXY
 DOMAIN-SUFFIX,script.hub,PROXY
 DOMAIN-SUFFIX,sub.store,PROXY
 DOMAIN-SUFFIX,vercel.app,PROXY
+DOMAIN-SUFFIX,v1.mk,PROXY
 DOMAIN,scripthub.vercel.app,PROXY
 DOMAIN,sub-store.vercel.app,PROXY
 #Tor Browser
 DOMAIN-SUFFIX,torproject.org,PROXY
+#TVDB
+DOMAIN-SUFFIX,thetvdb.com,PROXY
+#Twirrl.app(TVDL)
+DOMAIN-SUFFIX,twirrl.app,PROXY
 #Unlock Music-音乐解锁
 DOMAIN,demo.unlock-music.dev,PROXY
 #Userstyles.org | Stylish
