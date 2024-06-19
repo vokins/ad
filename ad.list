@@ -1,4 +1,4 @@
-# Update > 20:11 2024/5/21
+# Update > 15:58 2024/6/19
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -9,6 +9,8 @@
 #Apple Ads
 host-suffix, advertising.apple.com, reject
 host-suffix, iadsdk.apple.com, reject
+host, securemetrics.apple.com, reject
+host, metrics.icloud.com, reject
 #https://developer.apple.com/documentation/adservices/aaattribution/attributiontoken()
 host-suffix, api-adservices.apple.com, reject
 #https://developer.apple.com/documentation/apple_search_ads/get_all_ads
@@ -93,6 +95,7 @@ host-suffix, dgbei.com, reject
 host-suffix, fenqile.com, reject
 host-suffix, haiercash.com, reject
 host-suffix, haohuan.com, reject
+host-suffix, hhdfinance.com.cn, reject
 host-suffix, huanbeiadall.com, reject
 host-suffix, huanbeiloan.cn, reject
 host-suffix, huanbeiloan.com, reject
@@ -110,6 +113,7 @@ host-suffix, rrxplatform.com, reject
 host-suffix, shanghaihagai.com, reject
 host-suffix, smyfinancial.com, reject
 host-suffix, xiaoying.com, reject
+host-suffix, xjietiao.com, reject
 host-suffix, xystatic.com, reject
 host-suffix, yangqianguan.com, reject
 host-suffix, yixin.com, reject
@@ -1717,6 +1721,7 @@ host-suffix, adeaz.com, reject
 host-suffix, adentifi.com, reject
 host-suffix, adexplain.com, reject
 host-suffix, adform.net, reject
+host-suffix, adfunlink.com, reject
 host-suffix, adfurikun.jp, reject
 host-suffix, adgeek.com.tw, reject
 host-suffix, adinall.com, reject
@@ -1774,6 +1779,7 @@ host-suffix, alo15.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, analytics-data.io, reject
 host-suffix, anythinktech.com, reject
+host-suffix, app-analytics-services.com, reject
 host-suffix, appadhoc.com, reject
 host-suffix, appboy.com, reject
 host-suffix, appcenter.ms, reject
