@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1.391
+! Version: 1.40
 ! Title: adfilter
-! Last modified: 15:29 2024/2/3 Expires: 7 days (update frequency)
+! Last modified: 16:01 2024/6/19 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/a.txt
@@ -395,6 +395,8 @@ czzy.art##.mikd
 
 ||advertising.apple.com^
 ||iadsdk.apple.com^
+||securemetrics.apple.com^
+||metrics.icloud.com^
 ||api-adservices.apple.com^
 ||searchads.apple.com^
 ||safebrowsing.^
@@ -458,6 +460,7 @@ czzy.art##.mikd
 ||fenqile.com^
 ||haiercash.com^
 ||haohuan.com^
+||hhdfinance.com.cn^
 ||huanbeiadall.com^
 ||huanbeiloan.cn^
 ||huanbeiloan.com^
@@ -475,6 +478,7 @@ czzy.art##.mikd
 ||shanghaihagai.com^
 ||smyfinancial.com^
 ||xiaoying.com^
+||xjietiao.com^
 ||xystatic.com^
 ||yangqianguan.com^
 ||yixin.com^
@@ -997,6 +1001,7 @@ czzy.art##.mikd
 ||h-adashx.ut.fliggy.com^
 ||adtrack.xiaojukeji.com^
 ||doraemon.xiaojukeji.com^
+||dsp.xiaojukeji.com^
 ||gwp.xiaojukeji.com^
 ||ma-adx.ctrip.com^
 ||s.c-ctrip.com^
@@ -1216,6 +1221,10 @@ czzy.art##.mikd
 ||telemetry.microsoft.com^
 ||dsp.mp.microsoft.com^
 ||telemetry.api.swiftkey.com^
+||c.bing.com^
+||c.msn.cn^
+||srtb.msn.com^
+||pr-bh.ybp.yahoo.com^
 ||ads.oppomobile.com^
 ||bdapi-in-ads.realmemobile.com^
 ||ads.heytapmobi.com^
@@ -1252,11 +1261,10 @@ czzy.art##.mikd
 ||union.youdao.com^
 ||oimagea7.ydstatic.com^
 ||oimageb8.ydstatic.com^
-||api.so.lianmeng.360.cn^
+||daikuan.360.cn^
+||lianmeng.360.cn^
 ||papi.look.360.cn^
 ||socm.dmp.360.cn^
-||stat.lianmeng.360.cn^
-||daikuan.360.cn^
 ||e.so.com^
 ||p.sug.so.com^
 ||s.qhupdate.com^
@@ -1289,8 +1297,6 @@ czzy.art##.mikd
 ||log.mmstat.com^
 ||wgo.mmstat.com^
 ||yt.mmstat.com^
-||umdc.aliapp.org^
-||ynuf.aliapp.org^
 ||h-adashx.ut.taobao.com^
 ||acs.m.taobao.com^
 ||trade-acs.m.taobao.com^
@@ -1397,8 +1403,6 @@ czzy.art##.mikd
 ||wangmeng.baidu.com^
 ||wkctj.baidu.com^
 ||wn.pos.baidu.com^
-||mbd.baidu.com^
-||msite.baidu.com^
 ||ecma.bdimg.com^
 ||ecmb.bdimg.com^
 ||ecmc.bdimg.com^
@@ -1436,11 +1440,6 @@ czzy.art##.mikd
 ||paydxm.com^
 ||dm.bytedance.com^
 ||mssdk.bytedance.com^
-||mssdk-bu.bytedance.com^
-||tnc3-alisc1.bytedance.com^
-||tnc3-aliec2.bytedance.com^
-||tnc3-bjlgy.bytedance.com^
-||pitaya.bytedance.com^
 ||adbrand.byteimg.com^
 ||ad-sign.byteimg.com^
 ||asiad.byteactivity^
@@ -1456,36 +1455,10 @@ czzy.art##.mikd
 ||tosv.byted.org^
 ||csjplatform.com^
 ||oceanengine.com^
-||log0-misc-alinc2.amemv.com^
-||log3-misc-lq.amemv.com^
-||log5-misc-lq.amemv.com^
-||mon11-misc-lq.amemv.com^
-||webcast3-core-c-lf.amemv.com^
-||webcast3-normal-c-lf.amemv.com^
-||webcast5-normal-lf.amemv.com^
-||-cold.douyinvod.com^
-||-cold1.douyinvod.com^
-||-cold2.douyinvod.com^
-||-cold3.douyinvod.com^
-||-cold4.douyinvod.com^
-||-colda.douyinvod.com^
-||-coldb.douyinvod.com^
-||-coldd.douyinvod.com^
-||-coldf.douyinvod.com^
-||-coldx.douyinvod.com^
-||-coldy.douyinvod.com^
-||-lite-a.douyinvod.com^
-||-lite-b.douyinvod.com^
-||-lite-c.douyinvod.com^
-||-lite.douyinvod.com^
-||-litea.douyinvod.com^
-||-liteb.douyinvod.com^
 ||tt.x.bsgslb.cn^
-||free-lbv3.idouyinvod.com^
-||tr.byteurl.cn^
+||mssdk.volces.com^
 ||volcsirius.com^
 ||volcsiriusbd.com^
-||lf1-cdn-tos.bytegoofy.com^
 ||analytics.tiktok.com^
 ||pangolin16.sgsnssdk.com^
 ||tnc16-alisg.isnssdk.com^
@@ -1522,28 +1495,19 @@ czzy.art##.mikd
 ||applog-hl.novelfm.com^
 ||applog-lf.ixigua.com^
 ||applog-lq.ixigua.com^
-||ecombdapi.com^
-||ecombdimg.com^
-||ecombdstatic.com^
-||jinritemai.com^
-||volceapplog.com^
 ||f-cashloan.snssdk.com^
 ||f-cpay.snssdk.com^
+||tp-pay.snssdk.com^
 ||bytefae.com^
 ||doupay.com^
-||-pay.bytefae.com^
-||-static.bytefae.com^
 ||-infras.bytetos.com^
 ||-insurance.byteimg.com^
 ||-infras.byteimg.com^
 ||baohuaxia.com^
-||klink.amemv.com^
-||repayment.jishitailai.com^
 ||applog.snssdk.com^
 ||bds.snssdk.com^
 ||ctobsnssdk.com^
 ||extlog.snssdk.com^
-||is.snssdk.com^
 ||pangolin.snssdk.com^
 ||sdfp.snssdk.com^
 ||toblog.snssdk.com^
@@ -1551,7 +1515,6 @@ czzy.art##.mikd
 ||aweme.snssdk.com^
 ||haohuo.snssdk.com^
 ||i-lq.snssdk.com^
-||ib.snssdk.com^
 ||lf.snssdk.com^
 ||log.snssdk.com^
 ||mcs.snssdk.com^
@@ -1590,48 +1553,20 @@ czzy.art##.mikd
 ||polaris.zijieapi.com^
 ||starkgame.zijieapi.com^
 ||timon.zijieapi.com^
-||vcs.zijieapi.com^
 ||view.zijieapi.com^
-||abtest3-misc-lq.zijieapi.com^
-||abtest5-misc-hl.zijieapi.com^
-||abtest5-misc.zijieapi.com^
 ||ads3-normal-hl.zijieapi.com^
 ||ads3-normal-lq.zijieapi.com^
 ||ads3-normal.zijieapi.com^
 ||ads5-normal-hl.zijieapi.com^
 ||ads5-normal-lq.zijieapi.com^
 ||ads5-normal.zijieapi.com^
-||bsync3-normal-lq.zijieapi.com^
-||bsync5-normal-lf.zijieapi.com^
-||gecko3-lq.zijieapi.com^
-||gecko5-lq.zijieapi.com^
-||gecko5.zijieapi.com^
-||ma3-normal-lf.zijieapi.com^
-||ma5-normal-lq.zijieapi.com^
 ||minigame3-normal.zijieapi.com^
 ||minigame5-normal-hl.zijieapi.com^
 ||minigame5-normal-lq.zijieapi.com^
 ||minigame5-normal.zijieapi.com^
-||mon11-misc-lf.zijieapi.com^
-||mssdk3-normal-hl.zijieapi.com^
-||mssdk3-normal-lf.zijieapi.com^
-||mssdk3-normal-lq.zijieapi.com^
-||mssdk3-normal.zijieapi.com^
-||mssdk5-normal-lf.zijieapi.com^
-||mssdk5-normal.zijieapi.com^
 ||polaris3-normal-hl.zijieapi.com^
 ||polaris3-normal-lq.zijieapi.com^
-||saveu5-normal-lq.zijieapi.com^
-||tnc1-bjlgy.zijieapi.com^
-||tnc11-aliec2.zijieapi.com^
-||tnc11-alisc1.zijieapi.com^
-||tnc11-bjlgy.zijieapi.com^
-||tnc2-bjlgy.zijieapi.com^
-||tnc3-aliec2.zijieapi.com^
-||tnc3-alisc1.zijieapi.com^
-||tnc3-bjlgy.zijieapi.com^
-||tnc4-bjlgy.zijieapi.com^
-||tnc5-bjlgy.zijieapi.com^
+||polaris5-normal-lf.zijieapi.com^
 ||analyticsmobile-pa.googleapis.com^
 ||crashlyticsreports-pa.googleapis.com^
 ||device-provisioning.googleapis.com^
@@ -1641,11 +1576,6 @@ czzy.art##.mikd
 ||firebaselogging.googleapis.com^
 ||firebaseremoteconfig.googleapis.com^
 ||adservice.google.co.jp^
-||googleads.g.doubleclick.net^
-||pagead2.googlesyndication.com^
-||tpc.googlesyndication.com^
-||partner.googleadservices.com^
-||www.googleadservices.com^
 ||2mdn.net^
 ||admob.com^
 ||ads.youtube.com^
@@ -1660,15 +1590,14 @@ czzy.art##.mikd
 ||adwords.com^
 ||adwordsexpress.com^
 ||app-measurement.com^
-||clickserver.googleads.com^
 ||doubleclick.com^
 ||doubleclick.net^
 ||google-analytics.com^
 ||googleadapis.com^
+||googleads.com^
 ||googleadservices.com^
 ||googleadsserving.cn^
 ||googleanalytics.com^
-||googleoptimize.com^
 ||googlesyndication.com^
 ||googletagservices.com^
 ||googletraveladservices.com^
@@ -1788,6 +1717,8 @@ czzy.art##.mikd
 ||adserver.yahoo.com^
 ||analytics.yahoo.com^
 ||advertising.com^
+||sitemaji.com^
+||ad.sitemaji.com^
 ||analytics.query.yahoo.com^
 ||beap.gemini.yahoo.com^
 ||yads.c.yimg.jp^
@@ -1939,6 +1870,7 @@ czzy.art##.mikd
 ||adentifi.com^
 ||adexplain.com^
 ||adform.net^
+||adfunlink.com^
 ||adfurikun.jp^
 ||adgeek.com.tw^
 ||adinall.com^
@@ -1946,9 +1878,11 @@ czzy.art##.mikd
 ||adjust.com^
 ||adjust.net.in^
 ||adjust.world^
+||adkernel.com^
 ||adkwai.com^
 ||adlefee.com^
 ||adlocus.com^
+||admama.com^
 ||admamax.com^
 ||admarvel.com^
 ||admaster.com.cn^
@@ -1994,6 +1928,7 @@ czzy.art##.mikd
 ||amazon-adsystem.com^
 ||analytics-data.io^
 ||anythinktech.com^
+||app-analytics-services.com^
 ||appadhoc.com^
 ||appboy.com^
 ||appcenter.ms^
@@ -2006,6 +1941,7 @@ czzy.art##.mikd
 ||appsflyersdk.com^
 ||aralego.com^
 ||aralego.net^
+||assemblyexchange.com^
 ||atdmt.com^
 ||atom-data.io^
 ||atomhike.com^
@@ -2028,6 +1964,7 @@ czzy.art##.mikd
 ||beizi.biz^
 ||bianxianniu.com^
 ||biddingx.com^
+||bidmyqps.xyz^
 ||bidswitch.net^
 ||bidvertiser.com^
 ||binfenhui.top^
@@ -2121,6 +2058,7 @@ czzy.art##.mikd
 ||enlightent.cn^
 ||envac-china.com^
 ||ero-advertising.com^
+||etrack07.com^
 ||everesttech.net^
 ||exdynsrv.com^
 ||exoclick.com^
@@ -2136,7 +2074,6 @@ czzy.art##.mikd
 ||gbitcoin.cn^
 ||gentags.com^
 ||gentags.net^
-||gepush.com^
 ||getui.com^
 ||getui.net^
 ||gfnormal01ae.com^
@@ -2246,6 +2183,7 @@ czzy.art##.mikd
 ||mathtag.com^
 ||mchnad.com^
 ||mddlsa.com^
+||mdvdns.com^
 ||mediav.com^
 ||meihu56.cn^
 ||metheny.cn^
@@ -2353,9 +2291,11 @@ czzy.art##.mikd
 ||simonayean.com^
 ||sinawap.com^
 ||sitescout.com^
+||smaato.net^
 ||smadex.com^
 ||smartadserver.com^
 ||smvm.cn^
+||sndo.com^
 ||socdm.com^
 ||social-touch.com^
 ||sogowan.com^
@@ -2510,8 +2450,11 @@ czzy.art##.mikd
 ||zsmobi.com^
 ||zxrtb.com^
 ||zygaoshou888.cn^
-||frontier100-aweme-lf.amemv.com^
-||klink5-lf.amemv.com^
-||sf6-cdn-tos.douyinstatic.com^
-||tp-pay.snssdk.com^
 ||sq.bls.mdt.qq.com^
+||finderhy.video.qq.com^
+||avlm1.com^
+||cmvrclicks000.com^
+||sloffer1.com^
+||vfgtg.com^
+||ubixioe.com^
+||ranfenghd.com^
