@@ -1,4 +1,4 @@
-# Update > 23:19 2024/2/17
+# Update > 15:59 2024/6/19
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -59,6 +59,8 @@ host-suffix, youtube.com, proxy
 host-suffix, yt.be, proxy
 host-suffix, youtu.be, proxy
 host-suffix, youtube-nocookie.com, proxy
+#APP - Afterlight
+host-suffix, afterlight.co, proxy
 #APP - Amazon-Prime Video
 host-suffix, a2z.com, proxy
 host-suffix, aiv-delivery.net, proxy
@@ -67,6 +69,8 @@ host-suffix, amazon.dev, proxy
 host-suffix, amazonvideo.com, proxy
 host-suffix, media-amazon.com, proxy
 host-suffix, ssl-images-amazon.com, proxy
+#APP - AppRaven
+host-suffix, appraven.net, proxy
 #APP - BBC
 host-suffix, bbc.com, proxy
 host-suffix, bbc.co.uk, proxy
@@ -82,6 +86,8 @@ host-suffix, boxcdn.net, proxy
 host-suffix, segment-box.com, proxy
 #APP - Cash
 host-suffix, cashappapi.com, proxy
+#APP - DesignLab
+host-suffix, onelightapps.io, proxy
 #APP - Discord
 host, discordapp.page.link, proxy
 host-suffix, discord.com, proxy
@@ -225,6 +231,9 @@ host-suffix, windows.net, proxy
 #APP - Microsoft-Bing-Copilot
 host-suffix, bing.com, proxy
 host-suffix, bingapis.com, proxy
+#APP - Microsoft-ChatGPT
+host-suffix, openai.com, proxy
+host-suffix, chatgpt.com, proxy
 #APP - Microsoft-Office
 host-suffix, microsoft365.com, proxy
 host-suffix, office.com, proxy
@@ -284,6 +293,8 @@ host-suffix, getupnote.com, proxy
 host-suffix, vivaldi.com, proxy
 host-suffix, vivaldi.net, proxy
 host-suffix, vivaldistatus.com, proxy
+#APP - VSCO
+host-suffix, vsco.co, proxy
 #APP - WikipediA
 host-suffix, wikipedia.com, proxy
 host-suffix, wikimedia.org, proxy
@@ -392,6 +403,8 @@ host-suffix, qunitjs.com, proxy
 host-suffix, jsdelivr.com, proxy
 host-suffix, jsdelivr.net, proxy
 host-suffix, esm.run, proxy
+#Web - OneTrust
+host-suffix, onetrust.com, proxy
 #Web - prismic
 host-suffix, prismic.io, proxy
 #Web - Q4inc.com
@@ -540,18 +553,24 @@ host-suffix, ibb.co, proxy
 host-suffix, ipaddress.com, proxy
 #Lorem Picsum
 host-suffix, picsum.photos, proxy
+#Pixabay
+host-suffix, pixabay.com, proxy
 #Saif Al Falah
 host-suffix, saif.dev, proxy
+#Stripe
+host-suffix, stripe.com, proxy
+host-suffix, stripecdn.com, proxy
 #SoundCloud
 host-suffix, soundcloud.com, proxy
 host-suffix, sndcdn.com, proxy
 #Startpage
 host-suffix, startpage.com, proxy
+#TinyURL
+host-suffix, tinyurl.com, proxy
+host-suffix, viglink.com, proxy
 #TMDB
 host-suffix, themoviedb.org, proxy
 host-suffix, tmdb.org, proxy
-#TVDB
-host-suffix, thetvdb.com, proxy
 #Tools
 host-suffix, boxjs.com, proxy
 host-suffix, script.hub, proxy
@@ -562,6 +581,10 @@ host, scripthub.vercel.app, proxy
 host, sub-store.vercel.app, proxy
 #Tor Browser
 host-suffix, torproject.org, proxy
+#TVDB
+host-suffix, thetvdb.com, proxy
+#Twirrl.app(TVDL)
+host-suffix, twirrl.app, proxy
 #Unlock Music-音乐解锁
 host, demo.unlock-music.dev, proxy
 #Userstyles.org | Stylish
