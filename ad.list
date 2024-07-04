@@ -1,4 +1,4 @@
-# Update > 15:58 2024/6/19
+# Update > 21:28 2024/7/4
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -129,10 +129,11 @@ host, adcdn.tencentmusic.com, reject
 host, adclick.tencentmusic.com, reject
 host, adexpo.tencentmusic.com, reject
 host, adstats.tencentmusic.com, reject
-host, report.tencentmusic.com, reject
 host, monitor.music.qq.com, reject
+host, report.tencentmusic.com, reject
 host, stat.y.qq.com, reject
 host, tmead.y.qq.com, reject
+host, tmeadbak.y.qq.com, reject
 host, tmeadcomm.y.qq.com, reject
 #Audio-QQ音乐-全民K歌
 host-suffix, gdc.kg.qq.com, reject
@@ -365,6 +366,7 @@ host, enennsa.gushiwen.cn, reject
 host, enennsb.gushiwen.cn, reject
 #Finance-95516
 host, ads.95516.com, reject
+host, ads.cup.com.cn, reject
 #Finance-建设银行
 host, adv.ccb.com, reject
 host, imageadv.ccb.com, reject
@@ -660,13 +662,15 @@ host, ivy.pchouse.com.cn, reject
 host, jwz.3conline.com, reject
 host, icons.mydrivers.com, reject
 #Tool-10010
-host, smartad.10010.com, reject
+host-suffix, ad.10010.com, reject
 host, m1.ad.10010.com, reject
 host, pushservice.10010.com, reject
+host, smartad.10010.com, reject
 host, unilog.wostore.cn, reject
 #Tool-189-21cn
 host, ad.21cn.com, reject
 host, ad.k.21cn.com, reject
+host, admarket.21cn.com, reject
 host, adshows.21cn.com, reject
 host, afp.21cn.com, reject
 host, analytics.21cn.com, reject
@@ -1012,8 +1016,9 @@ host, data.sec.miui.com, reject
 host, feedback.miui.com, reject
 host, port.sec.miui.com, reject
 host, report.sp.miui.com, reject
+host, tracking.intl.miui.com, reject
 host, tracking.miui.com, reject
-host, update.miui.com, reject
+#host, update.miui.com, reject
 host, site.e.mi.com, reject
 #OS-Mi/小米跟踪API
 host, a0.app.xiaomi.com, reject
@@ -1091,12 +1096,13 @@ host-suffix, umenglog.com, reject
 host-suffix, shujupie.com, reject
 host-suffix, alipaylog.com, reject
 host, ssp-partner.alibaba.com, reject
-host, hudong.alicdn.com, direct
 host, afpmm.alicdn.com, reject
 host, alimama.alicdn.com, reject
 host, atanx.alicdn.com, reject
 host, baichuan-sdk.alicdn.com, reject
+host, hudong.alicdn.com, reject
 host, nbsdk-baichuan.alicdn.com, reject
+host, ossgw.alicdn.com, reject
 host, unidesk.alicdn.com, reject
 host, userlink.alicdn.com, reject
 host, admobile.oss-cn-hangzhou.aliyuncs.com, reject
@@ -1113,7 +1119,7 @@ host, wgo.mmstat.com, reject
 host, yt.mmstat.com, reject
 #Ali-淘宝
 host, h-adashx.ut.taobao.com, reject
-host, acs.m.taobao.com, reject
+#host, acs.m.taobao.com, reject
 host, trade-acs.m.taobao.com, reject
 host, adashx.m.taobao.com, reject
 host, acs4baichuan.m.taobao.com, reject
@@ -1250,9 +1256,9 @@ host, code.bdstatic.com, reject
 host, dss2.bdstatic.com, reject
 host, fex.bdstatic.com, reject
 host, mbdp02.bdstatic.com, reject
-host, ms.bdstatic.com, reject
+#host, ms.bdstatic.com, reject
 host, nspt.bdstatic.com, reject
-host, s.bdstatic.com, reject
+#host, s.bdstatic.com, reject
 host, su.bdstatic.com, reject
 host, zz.bdstatic.com, reject
 #Baidu-度小满
@@ -1264,6 +1270,7 @@ host-suffix, dxmpay.com, reject
 host-suffix, dxmstatic.com, reject
 host-suffix, paydxm.com, reject
 #Bytedance
+host, mssdk-bu.bytedance.com, reject
 host-suffix, dm.bytedance.com, reject
 host-suffix, mssdk.bytedance.com, reject
 host-keyword, adbrand.byteimg.com, reject
@@ -1504,8 +1511,8 @@ host, ad.browser.qq.com, reject
 host, ad.qq.com, reject
 host, ads.privacy.qq.com, reject
 host, analytics.map.qq.com, reject
-host, dp3.qq.com, reject
 host, btrace.qq.com, reject
+host, dp3.qq.com, reject
 host, h.trace.qq.com, reject
 host, hc.tdm.qq.com, reject
 host, ios.rqd.qq.com, reject
@@ -1513,6 +1520,7 @@ host, jpush.html5.qq.com, reject
 host, logsdk.qq.com, reject
 host, masdkv6.3g.qq.com, reject
 host, mazu.m.qq.com, reject
+host, mi.gdt.qq.com, reject
 host, rdelivery.qq.com, reject
 host, report.qqweb.qq.com, reject
 host, tdid.m.qq.com, reject
@@ -1538,13 +1546,11 @@ host, qqdata.ab.qq.com, reject
 host, tpstelemetry.tencent.com, reject
 host-suffix, tpns.tencent.com, reject
 #Tencent-gdt
-host, adsmind.ugdtimg.com, reject
-host, pgdt.ugdtimg.com, reject
-host, pgdt.gtimg.cn, reject
+host-suffix, ugdtimg.com, reject
+host-suffix, gdtimg.com, reject
+host-suffix, gtimg.cn, reject
 host, ra.gtimg.com, reject
 host, wa.gtimg.com, reject
-host, adsmind.gdtimg.com, reject
-host, qzs.gdtimg.com, reject
 host, report.idqqimg.com, reject
 #Tencent-cloud
 host, apd-pcdnvodstat.teg.tencent-cloud.net, reject
@@ -1909,6 +1915,7 @@ host-suffix, emogi.com, reject
 host-suffix, enlightent.cn, reject
 host-suffix, envac-china.com, reject
 host-suffix, ero-advertising.com, reject
+host-suffix, ethicalads.io, reject
 host-suffix, etrack07.com, reject
 host-suffix, everesttech.net, reject
 host-suffix, exdynsrv.com, reject
