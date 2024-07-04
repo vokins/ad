@@ -1,4 +1,4 @@
-# Update > 15:59 2024/6/19
+# Update > 21:29 2024/7/4
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -349,8 +349,9 @@ host-suffix, radgametools.com, proxy
 host-suffix, twinmotion.com, proxy
 host-suffix, unrealengine.com, proxy
 #Game - Sony-PlayStation
-host-suffix, playstion.com, proxy
+host-suffix, playstation.com, proxy
 host-suffix, sony.com, proxy
+host-suffix, sonyentertainmentnetwork.com, proxy
 #Game - Steam
 host-suffix, steampowered.com, proxy
 host-suffix, steamcommunity.com, proxy
