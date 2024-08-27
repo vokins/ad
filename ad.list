@@ -1,4 +1,4 @@
-# Update > 21:28 2024/7/4
+# Update > 16:21 2024/8/27
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -266,7 +266,6 @@ host, video-dsp.pddpic.com, reject
 #Buy-美团
 host, adgame.waimai.meituan.com, reject
 host, analytics.meituan.net, reject
-host, appsec-mobile.meituan.com, reject
 host, mtvod.meituan.net, reject
 host-suffix, d.meituan.net, reject
 host-suffix, dreport.meituan.net, reject
@@ -806,7 +805,7 @@ host, nsclickvideo.xiaodutv.com, reject
 host, xda.xiaodutv.com, reject
 #Video-优酷
 host-suffix, atm.youku.com, reject
-host, acs.youku.com, reject
+host-suffix, ad.youku.com, reject
 host, adashx.ut.tudou.com, reject
 host, adashx.ut.youku.com, reject
 host, adx-open-service.youku.com, reject
@@ -815,10 +814,8 @@ host, cad.youku.com, reject
 host, ems.youku.com, reject
 host, h-adashx.ut.youku.com, reject
 host, iyes.youku.com, reject
-host, push.m.youku.com, reject
 host, rhdc-acs.youku.com, reject
 host, un-acs.youku.com, reject
-host, yk-ssp.ad.youku.com, reject
 host, ykad-data.youku.com, reject
 host, f-vali.cp31.ott.cibntv.net, reject
 host, m-vali.cp31.ott.cibntv.net, reject
@@ -1100,7 +1097,7 @@ host, afpmm.alicdn.com, reject
 host, alimama.alicdn.com, reject
 host, atanx.alicdn.com, reject
 host, baichuan-sdk.alicdn.com, reject
-host, hudong.alicdn.com, reject
+#host, hudong.alicdn.com, reject
 host, nbsdk-baichuan.alicdn.com, reject
 host, ossgw.alicdn.com, reject
 host, unidesk.alicdn.com, reject
@@ -1118,6 +1115,7 @@ host, log.mmstat.com, reject
 host, wgo.mmstat.com, reject
 host, yt.mmstat.com, reject
 #Ali-淘宝
+host, ifs.tanx.com, direct
 host, h-adashx.ut.taobao.com, reject
 #host, acs.m.taobao.com, reject
 host, trade-acs.m.taobao.com, reject
@@ -1135,7 +1133,7 @@ host, umengjmacs.m.taobao.com, reject
 host, youku-acs.m.taobao.com, reject
 host, mamasearchad.cloudvideocdn.taobao.com, reject
 host, guangguang.cloudvideocdn.taobao.com, reject
-host-suffix, simba.taobao.com, reject
+#host-suffix, simba.taobao.com, reject
 #Ali-UC
 host, applog-perf.uc.cn, reject
 host, applog.uc.cn, reject
@@ -1548,7 +1546,8 @@ host-suffix, tpns.tencent.com, reject
 #Tencent-gdt
 host-suffix, ugdtimg.com, reject
 host-suffix, gdtimg.com, reject
-host-suffix, gtimg.cn, reject
+#host-suffix, gtimg.cn, reject
+host, pgdt.gtimg.cn, reject
 host, ra.gtimg.com, reject
 host, wa.gtimg.com, reject
 host, report.idqqimg.com, reject
@@ -1768,6 +1767,7 @@ host-suffix, adtaily.com, reject
 host-suffix, adtechjp.com, reject
 host-suffix, adtechus.com, reject
 host-suffix, adthrive.com, reject
+host-suffix, adtng.com, reject
 host-suffix, adtroop.cn, reject
 host-suffix, adukwai.com, reject
 host-suffix, adultfriendfinder.com, reject
@@ -1805,6 +1805,7 @@ host-suffix, atomhike.com, reject
 host-suffix, atwola.com, reject
 host-suffix, audiobuy.cc, reject
 host-suffix, autumnone.cn, reject
+host-suffix, avlm1.com, reject
 host-suffix, awaliwa.com, reject
 host-suffix, awempire.com, reject
 host-suffix, baichuanhd.com, reject
@@ -1853,6 +1854,7 @@ host-suffix, cdnmaster.com, reject
 host-suffix, chanet.com.cn, reject
 host-suffix, channeladvisor.com, reject
 host-suffix, chartbeat.com, reject
+host-suffix, chaturbate.com, reject
 host-suffix, chinese-blog.org, reject
 host-suffix, chushoushijian.cn, reject
 host-suffix, cjgcedu.com, reject
@@ -1863,6 +1865,7 @@ host-suffix, clearbitjs.com, reject
 host-suffix, clicki.cn, reject
 host-suffix, cloudmobi.net, reject
 host-suffix, cmgadx.com, reject
+host-suffix, cmvrclicks000.com, reject
 host-suffix, cn.miaozhen.com, reject
 host-suffix, cnzz.com, reject
 host-suffix, cocounion.com, reject
@@ -1897,6 +1900,7 @@ host-suffix, dlads.cn, reject
 host-suffix, dncvj.cn, reject
 host-suffix, domob.cn, reject
 host-suffix, domobcdn.com, reject
+host-suffix, doppiocdn.live, reject
 host-suffix, dotmore.com.tw, reject
 host-suffix, dots-services.com, reject
 host-suffix, doumob.com, reject
@@ -1921,6 +1925,7 @@ host-suffix, everesttech.net, reject
 host-suffix, exdynsrv.com, reject
 host-suffix, exoclick.com, reject
 host-suffix, fanli.com, reject
+host-suffix, faphouse.com, reject
 host-suffix, fastclick.net, reject
 host-suffix, fengkongcloud.com, reject
 host-suffix, ffllff.com, reject
@@ -2057,6 +2062,7 @@ host-suffix, mintegral.com, reject
 host-suffix, miptoo.cn, reject
 host-suffix, mixpanel.com, reject
 host-suffix, mktyhr.xyz, reject
+host-suffix, mnaspm.com, reject
 host-suffix, mnknrt.xyz, reject
 host-suffix, moatads.com, reject
 host-suffix, mob.com, reject
@@ -2122,6 +2128,7 @@ host-suffix, quandangdang.net, reject
 host-suffix, quanfeng.net, reject
 host-suffix, quantserve.com, reject
 host-suffix, qumi.com, reject
+host-suffix, ranfenghd.com, reject
 host-suffix, rayjump.com, reject
 host-suffix, reachmax.cn, reject
 host-suffix, realsrv.com, reject
@@ -2149,6 +2156,7 @@ host-suffix, sigmob.cn, reject
 host-suffix, simonayean.com, reject
 host-suffix, sinawap.com, reject
 host-suffix, sitescout.com, reject
+host-suffix, sloffer1.com, reject
 host-suffix, smaato.net, reject
 host-suffix, smadex.com, reject
 host-suffix, smartadserver.com, reject
@@ -2174,6 +2182,8 @@ host-suffix, stg8.com, reject
 host-suffix, stgowan.com, reject
 host-suffix, stickyadstv.com, reject
 host-suffix, stnts.com, reject
+host-suffix, stripchat.com, reject
+host-suffix, stripchat.ooo, reject
 host-suffix, suisuihu.com, reject
 host-suffix, supersonicads.com, reject
 host-suffix, survata.com, reject
@@ -2210,11 +2220,13 @@ host-suffix, toboads.com, reject
 host-suffix, toponad.com, reject
 host-suffix, trackingio.com, reject
 host-suffix, trafficjam.cn, reject
+host-suffix, trafficjunky.com, reject
 host-suffix, trafficjunky.net, reject
 host-suffix, tremorhub.com, reject
 host-suffix, tribalfusion.com, reject
 host-suffix, trwl1.com, reject
 host-suffix, tsquan.cn, reject
+host-suffix, tsyndicate.com, reject
 host-suffix, tubemogul.com, reject
 host-suffix, tuenhai.com, reject
 host-suffix, tuisnake.com, reject
@@ -2223,6 +2235,7 @@ host-suffix, twdjn.cn, reject
 host-suffix, twlxyx.cn, reject
 host-suffix, tydouke.com, reject
 host-suffix, u7u9.com, reject
+host-suffix, ubixioe.com, reject
 host-suffix, ujian.cc, reject
 host-suffix, ulink.cc, reject
 host-suffix, umsns.com, reject
@@ -2239,6 +2252,7 @@ host-suffix, valueke.com, reject
 host-suffix, vamaker.com, reject
 host-suffix, veda.top, reject
 host-suffix, verizonmedia.com, reject
+host-suffix, vfgtg.com, reject
 host-suffix, videojj.com, reject
 host-suffix, vidoomy.com, reject
 host-suffix, viglink.com, reject
@@ -2312,9 +2326,3 @@ host-suffix, zygaoshou888.cn, reject
 #New-Test-一个月没发现问题会并入
 host, sq.bls.mdt.qq.com, reject
 host, finderhy.video.qq.com, reject
-host-suffix, avlm1.com, reject
-host-suffix, cmvrclicks000.com, reject
-host-suffix, sloffer1.com, reject
-host-suffix, vfgtg.com, reject
-host-suffix, ubixioe.com, reject
-host-suffix, ranfenghd.com, reject
