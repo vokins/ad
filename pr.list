@@ -1,4 +1,4 @@
-# Update > 21:29 2024/7/4
+# Update > 16:22 2024/8/27
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -376,6 +376,7 @@ host-suffix, amazontrust.com, proxy
 host-suffix, awswaf.com, proxy
 host-suffix, cloudfront.net, proxy
 #Web - archive.org
+host-suffix, archive.is, proxy
 host-suffix, archive.org, proxy
 #Web - Cloudflare
 host-suffix, cloudflare.com, proxy
@@ -566,6 +567,8 @@ host-suffix, soundcloud.com, proxy
 host-suffix, sndcdn.com, proxy
 #Startpage
 host-suffix, startpage.com, proxy
+#Substack
+host-suffix, substack.com, proxy
 #TinyURL
 host-suffix, tinyurl.com, proxy
 host-suffix, viglink.com, proxy
