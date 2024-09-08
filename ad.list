@@ -1,4 +1,4 @@
-# Update > 16:21 2024/8/27
+# Update > 20:22 2024/9/8
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于QX。Loon Shadowrocket Surge 请使用下面的文件
@@ -300,6 +300,7 @@ host, log.suning.com, reject
 #Cam-美人相机
 host, a-m-s.adnonstop.com.cn, reject
 #Cam-美图秀秀
+host, adui.tg.meitu.com, reject
 host-suffix, tg.meitu.com, reject
 host-suffix, meitustat.com, reject
 host, mea.meitudata.com, reject
@@ -1221,6 +1222,7 @@ host, sp1.baidu.com, reject
 host, tcbox.baidu.com, reject
 host, ucstat.baidu.com, reject
 host, ug.baidu.com, reject
+host, union.baidu.cn, reject
 host, union.baidu.com, reject
 host, wangmeng.baidu.com, reject
 host, wkctj.baidu.com, reject
@@ -1248,6 +1250,7 @@ host, search-operate.cdn.bcebos.com, reject
 host, lupic.cdn.bcebos.com, reject
 host, render-server.cdn.bcebos.com, reject
 #Baidu-baidustatic
+host, cpro.baidustatic.com, reject
 host-suffix, baidustatic.com, reject
 host, ae.bdstatic.com, reject
 host, code.bdstatic.com, reject
@@ -1274,6 +1277,7 @@ host-suffix, mssdk.bytedance.com, reject
 host-keyword, adbrand.byteimg.com, reject
 host-keyword, ad-sign.byteimg.com, reject
 host-keyword, asiad.byteactivity, reject
+host-keyword, -ad.byteoversea.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, pangolin-sdk-toutiao, reject
 host-keyword, pangolin.snssdk.com, reject
@@ -1309,9 +1313,13 @@ host-suffix, sf3-ttcdn-tos.pstatp.com, reject
 host, sf1-pitaya-tos.pstatp.com, reject
 host, sf3-pitaya-tos.pstatp.com, reject
 #Bytedance-今日头条
+host, log-api.pangolin-sdk-toutiao-b.com, reject
+host, log-api.pangolin-sdk-toutiao.com, reject
 host-suffix, pangolin-dsp-toutiao.com, reject
 host-suffix, pangolin-sdk-toutiao-b.com, reject
 host-suffix, pangolin-sdk-toutiao.com, reject
+host, gromore.pangolin-sdk-toutiao.com, reject
+host-keyword, api-access.pangolin-sdk-toutiao, reject
 host-suffix, pangolin-sdk-toutiao1.com, reject
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, ad.toutiao.com, reject
@@ -1347,6 +1355,7 @@ host-suffix, baohuaxia.com, reject
 host-suffix, applog.snssdk.com, reject
 host-suffix, bds.snssdk.com, reject
 host-suffix, ctobsnssdk.com, reject
+host, toblog.ctobsnssdk.com, reject
 host-suffix, extlog.snssdk.com, reject
 host-suffix, pangolin.snssdk.com, reject
 host-suffix, sdfp.snssdk.com, reject
@@ -1511,19 +1520,24 @@ host, ads.privacy.qq.com, reject
 host, analytics.map.qq.com, reject
 host, btrace.qq.com, reject
 host, dp3.qq.com, reject
-host, h.trace.qq.com, reject
+#host, h.trace.qq.com, reject
 host, hc.tdm.qq.com, reject
 host, ios.rqd.qq.com, reject
 host, jpush.html5.qq.com, reject
 host, logsdk.qq.com, reject
 host, masdkv6.3g.qq.com, reject
-host, mazu.m.qq.com, reject
+#host, mazu.m.qq.com, reject
+host, c2.gdt.qq.com, reject
 host, mi.gdt.qq.com, reject
+host, t.gdt.qq.com, reject
+host, v.gdt.qq.com, reject
+host, v2.gdt.qq.com, reject
+host, win.gdt.qq.com, reject
 host, rdelivery.qq.com, reject
 host, report.qqweb.qq.com, reject
 host, tdid.m.qq.com, reject
-host, tmfmazu.m.qq.com, reject
-host, tpush.html5.qq.com, reject
+#host, tmfmazu.m.qq.com, reject
+#host, tpush.html5.qq.com, reject
 host, wxa.wxs.qq.com, reject
 host, wxsnsdy.tc.qq.com, reject
 host, wxsnsdy.video.qq.com, reject
@@ -1546,6 +1560,9 @@ host-suffix, tpns.tencent.com, reject
 #Tencent-gdt
 host-suffix, ugdtimg.com, reject
 host-suffix, gdtimg.com, reject
+host, adsmind.gdtimg.com, reject
+host, adsmind.ugdtimg.com, reject
+host, pgdt.ugdtimg.com, reject
 #host-suffix, gtimg.cn, reject
 host, pgdt.gtimg.cn, reject
 host, ra.gtimg.com, reject
@@ -1866,7 +1883,6 @@ host-suffix, clicki.cn, reject
 host-suffix, cloudmobi.net, reject
 host-suffix, cmgadx.com, reject
 host-suffix, cmvrclicks000.com, reject
-host-suffix, cn.miaozhen.com, reject
 host-suffix, cnzz.com, reject
 host-suffix, cocounion.com, reject
 host-suffix, codenow.cn, reject
@@ -1929,6 +1945,7 @@ host-suffix, faphouse.com, reject
 host-suffix, fastclick.net, reject
 host-suffix, fengkongcloud.com, reject
 host-suffix, ffllff.com, reject
+host-suffix, flnet.com, reject
 host-suffix, flurry.com, reject
 host-suffix, fout.jp, reject
 host-suffix, fraudmetrix.cn, reject
@@ -2070,11 +2087,13 @@ host-suffix, mobadme.jp, reject
 host-suffix, mobfox.com, reject
 host-suffix, mobgi.com, reject
 host-suffix, mobilegamestats.com, reject
+host-suffix, mobileservice.cn, reject
 host-suffix, mobvista.com, reject
 host-suffix, modela.cn, reject
 host-suffix, mopub.com, reject
 host-suffix, moreyun.cn, reject
 host-suffix, morningds.com, reject
+host-suffix, mosspf.com, reject
 host-suffix, mparticle.com, reject
 host-suffix, mtadver.com, reject
 host-suffix, mtk.pub, reject
