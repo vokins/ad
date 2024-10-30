@@ -1,4 +1,4 @@
-# Update > 21:29 2024/10/30/周三
+# Update > 21:34 2024/10/30/周三
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -615,6 +615,8 @@ DOMAIN,live.yuanbobo.com,REJECT
 DOMAIN,zxid-m.mobileservice.cn,REJECT
 #SNS-Linkedin
 DOMAIN-SUFFIX,ads.linkedin.com,REJECT
+#SNS-LIHKG
+DOMAIN,adv.lihkg.com,REJECT
 #SNS-Snapchat
 DOMAIN,app-analytics-v2.snapchat.com,REJECT
 #SNS-Twitter
