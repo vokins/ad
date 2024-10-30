@@ -1,4 +1,4 @@
-# Update > 21:30 2024/10/30/周三
+# Update > 21:34 2024/10/30/周三
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -16,8 +16,8 @@ DOMAIN-SUFFIX,gov.tw,proxy
 DOMAIN-SUFFIX,mail.icloud.com.cn,proxy
 DOMAIN-SUFFIX,mail.me.com,proxy
 #Alphabet-Google
-host-keyword, .google,proxy
-host-keyword, google.,proxy
+host-keyword,.google,proxy
+host-keyword,google.,proxy
 DOMAIN-SUFFIX,google.com,proxy
 DOMAIN-SUFFIX,googleapis.com,proxy
 DOMAIN-SUFFIX,googletagmanager.com,proxy
@@ -161,7 +161,6 @@ DOMAIN-SUFFIX,lgthinq.com,proxy
 #APP - LIHKG
 DOMAIN-SUFFIX,lih.kg,proxy
 DOMAIN-SUFFIX,lihkg.com,proxy
-DOMAIN,adv.lihkg.com, reject
 #APP - LinkedIn
 DOMAIN-SUFFIX,linkedin.com,proxy
 DOMAIN-SUFFIX,licdn.com,proxy
