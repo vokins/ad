@@ -1,599 +1,602 @@
-# Update > 16:22 2024/8/27
+# Update > 21:24 2024/10/30/周三
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
 # **Prooxy**
 #Domain - JP网站
-host-suffix, co.jp, proxy
+DOMAIN-SUFFIX,co.jp,proxy
 #Domain - UK网站
-host-suffix, co.uk, proxy
+DOMAIN-SUFFIX,co.uk,proxy
 #Domain - HK网站
-host-suffix, com.hk, proxy
+DOMAIN-SUFFIX,com.hk,proxy
 #Domain - TW网站
-host-suffix, com.tw, proxy
-host-suffix, gov.tw, proxy
+DOMAIN-SUFFIX,com.tw,proxy
+DOMAIN-SUFFIX,gov.tw,proxy
 #Apple - Mail
-host-suffix, mail.icloud.com.cn, proxy
-host-suffix, mail.me.com, proxy
+DOMAIN-SUFFIX,mail.icloud.com.cn,proxy
+DOMAIN-SUFFIX,mail.me.com,proxy
 #APP - Accor
-host-suffix, accor.com, proxy
-host-suffix, accorhotels.com, proxy
+DOMAIN-SUFFIX,accor.com,proxy
+DOMAIN-SUFFIX,accorhotels.com,proxy
+#App - Bluesky
+DOMAIN-SUFFIX,bsky.app,proxy
+DOMAIN-SUFFIX,bsky.social,proxy
 #Alphabet-Google
-host-keyword, .google, proxy
-host-keyword, google., proxy
-host-suffix, google.com, proxy
-host-suffix, googleapis.com, proxy
-host-suffix, googletagmanager.com, proxy
-host-suffix, gstatic.cn, proxy
-host-suffix, gstatic.com, proxy
-host-suffix, pki.goog, proxy
-host-suffix, recaptcha.net, proxy
+host-keyword, .google,proxy
+host-keyword, google.,proxy
+DOMAIN-SUFFIX,google.com,proxy
+DOMAIN-SUFFIX,googleapis.com,proxy
+DOMAIN-SUFFIX,googletagmanager.com,proxy
+DOMAIN-SUFFIX,gstatic.cn,proxy
+DOMAIN-SUFFIX,gstatic.com,proxy
+DOMAIN-SUFFIX,pki.goog,proxy
+DOMAIN-SUFFIX,recaptcha.net,proxy
 #Alphabet-Google-3rd
-host-suffix, android.com, proxy
-host-suffix, blogger.com, proxy
-host-suffix, blogspot.com, proxy
-host-suffix, chrome.com, proxy
-host-suffix, chromium.org, proxy
-host-suffix, gvt0.cn, proxy
-host-suffix, gvt0.com, proxy
-host-suffix, gvt1.com, proxy
-host-suffix, gvt2.com, proxy
-host-suffix, gvt3.com, proxy
-host-suffix, g.cn, proxy
-host-suffix, g.co, proxy
-host-suffix, goo.gl, proxy
-host-suffix, googleblog.com, proxy
-host-suffix, page.link, proxy
-host-suffix, amp.dev, proxy
-host-suffix, go.dev, proxy
-host-suffix, web.dev, proxy
+DOMAIN-SUFFIX,android.com,proxy
+DOMAIN-SUFFIX,blogger.com,proxy
+DOMAIN-SUFFIX,blogspot.com,proxy
+DOMAIN-SUFFIX,chrome.com,proxy
+DOMAIN-SUFFIX,chromium.org,proxy
+DOMAIN-SUFFIX,gvt0.cn,proxy
+DOMAIN-SUFFIX,gvt0.com,proxy
+DOMAIN-SUFFIX,gvt1.com,proxy
+DOMAIN-SUFFIX,gvt2.com,proxy
+DOMAIN-SUFFIX,gvt3.com,proxy
+DOMAIN-SUFFIX,g.cn,proxy
+DOMAIN-SUFFIX,g.co,proxy
+DOMAIN-SUFFIX,goo.gl,proxy
+DOMAIN-SUFFIX,googleblog.com,proxy
+DOMAIN-SUFFIX,page.link,proxy
+DOMAIN-SUFFIX,amp.dev,proxy
+DOMAIN-SUFFIX,go.dev,proxy
+DOMAIN-SUFFIX,web.dev,proxy
 #Alphabet-Gmail
-host-suffix, gmail.com, proxy
-host-suffix, googlemail.com, proxy
+DOMAIN-SUFFIX,gmail.com,proxy
+DOMAIN-SUFFIX,googlemail.com,proxy
 #Alphabet-YouTube
-host-suffix, ggpht.com, proxy
-host-suffix, googleusercontent.com, proxy
-host-suffix, googlevideo.com, proxy
-host-suffix, ytimg.com, proxy
-host-suffix, youtube.com, proxy
-host-suffix, yt.be, proxy
-host-suffix, youtu.be, proxy
-host-suffix, youtube-nocookie.com, proxy
+DOMAIN-SUFFIX,ggpht.com,proxy
+DOMAIN-SUFFIX,googleusercontent.com,proxy
+DOMAIN-SUFFIX,googlevideo.com,proxy
+DOMAIN-SUFFIX,ytimg.com,proxy
+DOMAIN-SUFFIX,youtube.com,proxy
+DOMAIN-SUFFIX,yt.be,proxy
+DOMAIN-SUFFIX,youtu.be,proxy
+DOMAIN-SUFFIX,youtube-nocookie.com,proxy
 #APP - Afterlight
-host-suffix, afterlight.co, proxy
+DOMAIN-SUFFIX,afterlight.co,proxy
 #APP - Amazon-Prime Video
-host-suffix, a2z.com, proxy
-host-suffix, aiv-delivery.net, proxy
-host-suffix, amazon.com, proxy
-host-suffix, amazon.dev, proxy
-host-suffix, amazonvideo.com, proxy
-host-suffix, media-amazon.com, proxy
-host-suffix, ssl-images-amazon.com, proxy
+DOMAIN-SUFFIX,a2z.com,proxy
+DOMAIN-SUFFIX,aiv-delivery.net,proxy
+DOMAIN-SUFFIX,amazon.com,proxy
+DOMAIN-SUFFIX,amazon.dev,proxy
+DOMAIN-SUFFIX,amazonvideo.com,proxy
+DOMAIN-SUFFIX,media-amazon.com,proxy
+DOMAIN-SUFFIX,ssl-images-amazon.com,proxy
 #APP - AppRaven
-host-suffix, appraven.net, proxy
+DOMAIN-SUFFIX,appraven.net,proxy
 #APP - BBC
-host-suffix, bbc.com, proxy
-host-suffix, bbc.co.uk, proxy
-host-suffix, bbci.co.uk, proxy
+DOMAIN-SUFFIX,bbc.com,proxy
+DOMAIN-SUFFIX,bbc.co.uk,proxy
+DOMAIN-SUFFIX,bbci.co.uk,proxy
 #APP - Bloomberg
-host-suffix, bwbx.io, proxy
-host-keyword, .bloomberg, proxy
+DOMAIN-SUFFIX,bwbx.io,proxy
+host-keyword, .bloomberg,proxy
 #APP - box
-host-suffix, box.com, proxy
-host-suffix, box.net, proxy
-host-suffix, box.org, proxy
-host-suffix, boxcdn.net, proxy
-host-suffix, segment-box.com, proxy
+DOMAIN-SUFFIX,box.com,proxy
+DOMAIN-SUFFIX,box.net,proxy
+DOMAIN-SUFFIX,box.org,proxy
+DOMAIN-SUFFIX,boxcdn.net,proxy
+DOMAIN-SUFFIX,segment-box.com,proxy
 #APP - Cash
-host-suffix, cashappapi.com, proxy
+DOMAIN-SUFFIX,cashappapi.com,proxy
 #APP - DesignLab
-host-suffix, onelightapps.io, proxy
+DOMAIN-SUFFIX,onelightapps.io,proxy
 #APP - Discord
-host, discordapp.page.link, proxy
-host-suffix, discord.com, proxy
-host-suffix, discord.gg, proxy
-host-suffix, discord.media, proxy
-host-suffix, discordapp.com, proxy
-host-suffix, discordapp.net, proxy
+DOMAIN,discordapp.page.link,proxy
+DOMAIN-SUFFIX,discord.com,proxy
+DOMAIN-SUFFIX,discord.gg,proxy
+DOMAIN-SUFFIX,discord.media,proxy
+DOMAIN-SUFFIX,discordapp.com,proxy
+DOMAIN-SUFFIX,discordapp.net,proxy
 #APP - Dropbox https://help.dropbox.com/zh-cn/security/official-domains
-host-suffix, dropbox.com, proxy
-host-suffix, dropboxstatic.com, proxy
-host-suffix, dropboxforum.com, proxy
-host-suffix, dropboxusercontent.com, proxy
-host-suffix, db.tt, proxy
-host-suffix, docsend.com, proxy
-host-suffix, dropbox-dns.com, proxy
-host-suffix, dropbox.tech, proxy
-host-suffix, dropboxapi.com, proxy
-host-suffix, dropboxbusiness.com, proxy
-host-suffix, dropboxcaptcha.com, proxy
-host-suffix, dropboxforums.com, proxy
-host-suffix, dropboxinsiders.com, proxy
-host-suffix, dropboxlegal.com, proxy
-host-suffix, dropboxmail.com, proxy
-host-suffix, dropboxpartners.com, proxy
-host-suffix, dropboxteam.com, proxy
-host-suffix, addtodropbox.com, proxy
-host-suffix, getdropbox.com, proxy
+DOMAIN-SUFFIX,dropbox.com,proxy
+DOMAIN-SUFFIX,dropboxstatic.com,proxy
+DOMAIN-SUFFIX,dropboxforum.com,proxy
+DOMAIN-SUFFIX,dropboxusercontent.com,proxy
+DOMAIN-SUFFIX,db.tt,proxy
+DOMAIN-SUFFIX,docsend.com,proxy
+DOMAIN-SUFFIX,dropbox-dns.com,proxy
+DOMAIN-SUFFIX,dropbox.tech,proxy
+DOMAIN-SUFFIX,dropboxapi.com,proxy
+DOMAIN-SUFFIX,dropboxbusiness.com,proxy
+DOMAIN-SUFFIX,dropboxcaptcha.com,proxy
+DOMAIN-SUFFIX,dropboxforums.com,proxy
+DOMAIN-SUFFIX,dropboxinsiders.com,proxy
+DOMAIN-SUFFIX,dropboxlegal.com,proxy
+DOMAIN-SUFFIX,dropboxmail.com,proxy
+DOMAIN-SUFFIX,dropboxpartners.com,proxy
+DOMAIN-SUFFIX,dropboxteam.com,proxy
+DOMAIN-SUFFIX,addtodropbox.com,proxy
+DOMAIN-SUFFIX,getdropbox.com,proxy
 #APP - DuckDuckGo
-host-suffix, duck.co, proxy
-host-suffix, duck.com, proxy
-host-suffix, duckduckgo.com, proxy
+DOMAIN-SUFFIX,duck.co,proxy
+DOMAIN-SUFFIX,duck.com,proxy
+DOMAIN-SUFFIX,duckduckgo.com,proxy
 #APP - feedly
-host-suffix, feedly.com, proxy
+DOMAIN-SUFFIX,feedly.com,proxy
 #APP - FireFox moz://a
-host-suffix, mozilla.org, proxy
-host-suffix, mozilla.net, proxy
-host-suffix, mozgcp.net, proxy
+DOMAIN-SUFFIX,mozilla.org,proxy
+DOMAIN-SUFFIX,mozilla.net,proxy
+DOMAIN-SUFFIX,mozgcp.net,proxy
 #APP - Flickr
-host-suffix, flickr.com, proxy
-host-suffix, staticflickr.com, proxy
+DOMAIN-SUFFIX,flickr.com,proxy
+DOMAIN-SUFFIX,staticflickr.com,proxy
 #APP - FLIPBOARD
-host-suffix, flipboard.com, proxy
+DOMAIN-SUFFIX,flipboard.com,proxy
 #APP - Foursquare
-host-suffix, foursquare.com, proxy
-host-suffix, 4sqi.net, proxy
-host-suffix, mapbox.com, proxy
-host-suffix, swarmapp.com, proxy
+DOMAIN-SUFFIX,foursquare.com,proxy
+DOMAIN-SUFFIX,4sqi.net,proxy
+DOMAIN-SUFFIX,mapbox.com,proxy
+DOMAIN-SUFFIX,swarmapp.com,proxy
 #APP - GitHub
-host-suffix, github.com, proxy
-host-suffix, github.io, proxy
-host-suffix, githubassets.com, proxy
-host-suffix, githubusercontent.com, proxy
+DOMAIN-SUFFIX,github.com,proxy
+DOMAIN-SUFFIX,github.io,proxy
+DOMAIN-SUFFIX,githubassets.com,proxy
+DOMAIN-SUFFIX,githubusercontent.com,proxy
 #APP - GoDaddy
-host-suffix, godaddy.com, proxy
-host-suffix, wsimg.com, proxy
+DOMAIN-SUFFIX,godaddy.com,proxy
+DOMAIN-SUFFIX,wsimg.com,proxy
 #APP - Gumroad
-host-suffix, gumroad.com, proxy
+DOMAIN-SUFFIX,gumroad.com,proxy
 #APP - HashPhotos
-host-suffix, hashphotos.app, proxy
+DOMAIN-SUFFIX,hashphotos.app,proxy
 #APP - Hulu
-host-suffix, hulu.com, proxy
+DOMAIN-SUFFIX,hulu.com,proxy
 #APP - IMDb
-host-suffix, imdb.com, proxy
+DOMAIN-SUFFIX,imdb.com,proxy
 #APP - imgur
-host-suffix, imgur.com, proxy
+DOMAIN-SUFFIX,imgur.com,proxy
 #APP - LG ThinQ
-host-suffix, lgthinq.com, proxy
+DOMAIN-SUFFIX,lgthinq.com,proxy
 #APP - LIHKG
-host-suffix, lih.kg, proxy
-host-suffix, lihkg.com, proxy
-host, adv.lihkg.com, reject
+DOMAIN-SUFFIX,lih.kg,proxy
+DOMAIN-SUFFIX,lihkg.com,proxy
+DOMAIN,adv.lihkg.com, reject
 #APP - LinkedIn
-host-suffix, linkedin.com, proxy
-host-suffix, licdn.com, proxy
+DOMAIN-SUFFIX,linkedin.com,proxy
+DOMAIN-SUFFIX,licdn.com,proxy
 #APP - LY Corporation-Line
-host-suffix, bitmax.me, proxy
-host-suffix, line-apps.com, proxy
-host-suffix, line-fx.com, proxy
-host-suffix, line-scdn.net, proxy
-host-suffix, line-sec.co.jp, proxy
-host-suffix, line.me, proxy
-host-suffix, linecorp.com, proxy
-host-suffix, linecreditcorp.com, proxy
-host-suffix, linefinancialcorp.com, proxy
-host-suffix, linefriends.jp, proxy
-host-suffix, linerecords.me, proxy
-host-suffix, lycbiz.com, proxy
-host-suffix, naver.com, proxy
-host-suffix, naver.jp, proxy
-host-suffix, naverblogwidget.com, proxy
-host-suffix, navercorp.com, proxy
-host-suffix, pstatic.net, proxy
-host-suffix, worksmobile.com, proxy
+DOMAIN-SUFFIX,bitmax.me,proxy
+DOMAIN-SUFFIX,line-apps.com,proxy
+DOMAIN-SUFFIX,line-fx.com,proxy
+DOMAIN-SUFFIX,line-scdn.net,proxy
+DOMAIN-SUFFIX,line-sec.co.jp,proxy
+DOMAIN-SUFFIX,line.me,proxy
+DOMAIN-SUFFIX,linecorp.com,proxy
+DOMAIN-SUFFIX,linecreditcorp.com,proxy
+DOMAIN-SUFFIX,linefinancialcorp.com,proxy
+DOMAIN-SUFFIX,linefriends.jp,proxy
+DOMAIN-SUFFIX,linerecords.me,proxy
+DOMAIN-SUFFIX,lycbiz.com,proxy
+DOMAIN-SUFFIX,naver.com,proxy
+DOMAIN-SUFFIX,naver.jp,proxy
+DOMAIN-SUFFIX,naverblogwidget.com,proxy
+DOMAIN-SUFFIX,navercorp.com,proxy
+DOMAIN-SUFFIX,pstatic.net,proxy
+DOMAIN-SUFFIX,worksmobile.com,proxy
 #APP - LY Corporation-Yahoo.co.jp
-host-suffix, yahoo-net.jp, proxy
-host-suffix, yahoo.co.jp, proxy
-host-suffix, yimg.jp, proxy
-host-suffix, blogimg.jp, proxy
-host-suffix, blog.jp, proxy
+DOMAIN-SUFFIX,yahoo-net.jp,proxy
+DOMAIN-SUFFIX,yahoo.co.jp,proxy
+DOMAIN-SUFFIX,yimg.jp,proxy
+DOMAIN-SUFFIX,blogimg.jp,proxy
+DOMAIN-SUFFIX,blog.jp,proxy
 #APP - MediaFire
-host-suffix, mediafire.com, proxy
+DOMAIN-SUFFIX,mediafire.com,proxy
 #APP - Meta
-host-suffix, meta.com, proxy
-host-suffix, metacareers.com, proxy
-host-suffix, fbsbx.com, proxy
-host-suffix, oculus.com, proxy
-host-suffix, oculuscdn.com, proxy
+DOMAIN-SUFFIX,meta.com,proxy
+DOMAIN-SUFFIX,metacareers.com,proxy
+DOMAIN-SUFFIX,fbsbx.com,proxy
+DOMAIN-SUFFIX,oculus.com,proxy
+DOMAIN-SUFFIX,oculuscdn.com,proxy
 #APP - Meta-Facebook
-host-suffix, fb.me, proxy
-host-suffix, fb.com, proxy
-host-suffix, fbcdn.net, proxy
-host-suffix, facebook.com, proxy
-host-suffix, facebook.net, proxy
+DOMAIN-SUFFIX,fb.me,proxy
+DOMAIN-SUFFIX,fb.com,proxy
+DOMAIN-SUFFIX,fbcdn.net,proxy
+DOMAIN-SUFFIX,facebook.com,proxy
+DOMAIN-SUFFIX,facebook.net,proxy
 #APP - Meta-Instagram
-host-suffix, instagram.com, proxy
-host-suffix, cdninstagram.com, proxy
+DOMAIN-SUFFIX,instagram.com,proxy
+DOMAIN-SUFFIX,cdninstagram.com,proxy
 #APP - Meta-Messenger
-host-suffix, messenger.com, proxy
+DOMAIN-SUFFIX,messenger.com,proxy
 #APP - Meta-Threads
-host-suffix, threads.net, proxy
+DOMAIN-SUFFIX,threads.net,proxy
 #APP - Meta-WhatsApp
-host-suffix, wa.me, proxy
-host-suffix, whatsapp.com, proxy
-host-suffix, whatsapp.net, proxy
+DOMAIN-SUFFIX,wa.me,proxy
+DOMAIN-SUFFIX,whatsapp.com,proxy
+DOMAIN-SUFFIX,whatsapp.net,proxy
 #APP - Microsoft
-host-suffix, aspnetcdn.com, proxy
-host-suffix, azure.com, proxy
-host-suffix, azureedge.net, proxy
-host-suffix, gfx.ms, proxy
-host-suffix, microsoft-falcon.io, proxy
-host-suffix, microsoft.com, proxy
-host-suffix, microsoftapp.net, proxy
-host-suffix, microsoftonline.com, proxy
-host-suffix, msauth.net, proxy
-host-suffix, msecnd.net, proxy
-host-suffix, msedge.net, proxy
-host-suffix, msftauth.net, proxy
-host-suffix, s-microsoft.com, proxy
-host-suffix, windows.com, proxy
-host-suffix, windows.net, proxy
+DOMAIN-SUFFIX,aspnetcdn.com,proxy
+DOMAIN-SUFFIX,azure.com,proxy
+DOMAIN-SUFFIX,azureedge.net,proxy
+DOMAIN-SUFFIX,gfx.ms,proxy
+DOMAIN-SUFFIX,microsoft-falcon.io,proxy
+DOMAIN-SUFFIX,microsoft.com,proxy
+DOMAIN-SUFFIX,microsoftapp.net,proxy
+DOMAIN-SUFFIX,microsoftonline.com,proxy
+DOMAIN-SUFFIX,msauth.net,proxy
+DOMAIN-SUFFIX,msecnd.net,proxy
+DOMAIN-SUFFIX,msedge.net,proxy
+DOMAIN-SUFFIX,msftauth.net,proxy
+DOMAIN-SUFFIX,s-microsoft.com,proxy
+DOMAIN-SUFFIX,windows.com,proxy
+DOMAIN-SUFFIX,windows.net,proxy
 #APP - Microsoft-Bing-Copilot
-host-suffix, bing.com, proxy
-host-suffix, bingapis.com, proxy
+DOMAIN-SUFFIX,bing.com,proxy
+DOMAIN-SUFFIX,bingapis.com,proxy
 #APP - Microsoft-ChatGPT
-host-suffix, openai.com, proxy
-host-suffix, chatgpt.com, proxy
+DOMAIN-SUFFIX,openai.com,proxy
+DOMAIN-SUFFIX,chatgpt.com,proxy
 #APP - Microsoft-Office
-host-suffix, microsoft365.com, proxy
-host-suffix, office.com, proxy
-host-suffix, office.net, proxy
-host-suffix, office365.com, proxy
-host-suffix, onenote.com, proxy
+DOMAIN-SUFFIX,microsoft365.com,proxy
+DOMAIN-SUFFIX,office.com,proxy
+DOMAIN-SUFFIX,office.net,proxy
+DOMAIN-SUFFIX,office365.com,proxy
+DOMAIN-SUFFIX,onenote.com,proxy
 #APP - Microsoft-Outlook
-host-suffix, live.com, proxy
-host-suffix, microsoftemail.com, proxy
-host-suffix, msn.com, proxy
-host-suffix, outlookmobile.com, proxy
+DOMAIN-SUFFIX,live.com,proxy
+DOMAIN-SUFFIX,microsoftemail.com,proxy
+DOMAIN-SUFFIX,msn.com,proxy
+DOMAIN-SUFFIX,outlookmobile.com,proxy
 #APP - Microsoft-Skype
-host-suffix, skype.com, proxy
+DOMAIN-SUFFIX,skype.com,proxy
 #APP - Microsoft-Xbox
-host-suffix, xbox.com, proxy
+DOMAIN-SUFFIX,xbox.com,proxy
 #APP - Notion
-host-suffix, notion.so, proxy
-host-suffix, notion.site, proxy
+DOMAIN-SUFFIX,notion.so,proxy
+DOMAIN-SUFFIX,notion.site,proxy
 #APP - PayPal
-host-suffix, paypal.com, proxy
-host-suffix, paypalobjects.com, proxy
+DOMAIN-SUFFIX,paypal.com,proxy
+DOMAIN-SUFFIX,paypalobjects.com,proxy
 #APP - Pinterest
-host-suffix, pinimg.com, proxy
-host-suffix, pinterest.com, proxy
+DOMAIN-SUFFIX,pinimg.com,proxy
+DOMAIN-SUFFIX,pinterest.com,proxy
 #APP - pixiv
-host-suffix, pixiv.net, proxy
-host-suffix, pximg.net, proxy
+DOMAIN-SUFFIX,pixiv.net,proxy
+DOMAIN-SUFFIX,pximg.net,proxy
 #APP - Proton
-host-suffix, proton.me, proxy
-host-suffix, protonvpn.com, proxy
+DOMAIN-SUFFIX,proton.me,proxy
+DOMAIN-SUFFIX,protonvpn.com,proxy
 #APP - Reddit
-host-suffix, reddit.com, proxy
-host-suffix, redditstatic.com, proxy
+DOMAIN-SUFFIX,reddit.com,proxy
+DOMAIN-SUFFIX,redditstatic.com,proxy
 #APP - shottr
-host-suffix, shottr.cc, proxy
+DOMAIN-SUFFIX,shottr.cc,proxy
 #APP - Signal
-host-suffix, signal.org, proxy
+DOMAIN-SUFFIX,signal.org,proxy
 #APP - Snapchat
-host-suffix, sc-cdn.net, proxy
-host-suffix, snapchat.com, proxy
+DOMAIN-SUFFIX,sc-cdn.net,proxy
+DOMAIN-SUFFIX,snapchat.com,proxy
 #APP - Telegram https://core.telegram.org/resources/cidr.txt
-host-suffix, cdn-telegram.org, proxy
-host-suffix, telegram.org, proxy
-host-suffix, t.me, proxy
-host-suffix, telegra.ph, proxy
+DOMAIN-SUFFIX,cdn-telegram.org,proxy
+DOMAIN-SUFFIX,telegram.org,proxy
+DOMAIN-SUFFIX,t.me,proxy
+DOMAIN-SUFFIX,telegra.ph,proxy
 #APP - Tumblr
-host-suffix, tumblr.com, proxy
+DOMAIN-SUFFIX,tumblr.com,proxy
 #APP - Twitter
-host-suffix, cms-twdigitalassets.com, proxy
-host-suffix, t.co, proxy
-host-suffix, twimg.com, proxy
-host-suffix, twitter.com, proxy
-host-suffix, x.com, proxy
+DOMAIN-SUFFIX,cms-twdigitalassets.com,proxy
+DOMAIN-SUFFIX,t.co,proxy
+DOMAIN-SUFFIX,twimg.com,proxy
+DOMAIN-SUFFIX,twitter.com,proxy
+DOMAIN-SUFFIX,x.com,proxy
 #APP - UpNote
-host-suffix, getupnote.com, proxy
+DOMAIN-SUFFIX,getupnote.com,proxy
 #APP - Vivaldi
-host-suffix, vivaldi.com, proxy
-host-suffix, vivaldi.net, proxy
-host-suffix, vivaldistatus.com, proxy
+DOMAIN-SUFFIX,vivaldi.com,proxy
+DOMAIN-SUFFIX,vivaldi.net,proxy
+DOMAIN-SUFFIX,vivaldistatus.com,proxy
 #APP - VSCO
-host-suffix, vsco.co, proxy
+DOMAIN-SUFFIX,vsco.co,proxy
 #APP - WikipediA
-host-suffix, wikipedia.com, proxy
-host-suffix, wikimedia.org, proxy
-host-suffix, wikipedia.org, proxy
-host-suffix, mediawiki.org, proxy
-host-suffix, wikibooks.org, proxy
-host-suffix, wikidata.org, proxy
-host-suffix, wikinews.org, proxy
-host-suffix, wikiquote.org, proxy
-host-suffix, wikisource.org, proxy
-host-suffix, wikiversity.org, proxy
-host-suffix, wikivoyage.org, proxy
-host-suffix, wiktionary.org, proxy
+DOMAIN-SUFFIX,wikipedia.com,proxy
+DOMAIN-SUFFIX,wikimedia.org,proxy
+DOMAIN-SUFFIX,wikipedia.org,proxy
+DOMAIN-SUFFIX,mediawiki.org,proxy
+DOMAIN-SUFFIX,wikibooks.org,proxy
+DOMAIN-SUFFIX,wikidata.org,proxy
+DOMAIN-SUFFIX,wikinews.org,proxy
+DOMAIN-SUFFIX,wikiquote.org,proxy
+DOMAIN-SUFFIX,wikisource.org,proxy
+DOMAIN-SUFFIX,wikiversity.org,proxy
+DOMAIN-SUFFIX,wikivoyage.org,proxy
+DOMAIN-SUFFIX,wiktionary.org,proxy
 #APP - WordPress.com
-host-suffix, automattic.com, proxy
-host-suffix, builtbywp.com, proxy
-host-suffix, gravatar.com, proxy
-host-suffix, wordpress.com, proxy
-host-suffix, wp.com, proxy
-host-suffix, wpvip.com, proxy
+DOMAIN-SUFFIX,automattic.com,proxy
+DOMAIN-SUFFIX,builtbywp.com,proxy
+DOMAIN-SUFFIX,gravatar.com,proxy
+DOMAIN-SUFFIX,wordpress.com,proxy
+DOMAIN-SUFFIX,wp.com,proxy
+DOMAIN-SUFFIX,wpvip.com,proxy
 #APP - WordPress.org
-host-suffix, w.org, proxy
-host-suffix, wordpress.org, proxy
-host-suffix, wordpressfoundation.org, proxy
-host-suffix, bbpress.org, proxy
-host-suffix, buddypress.org, proxy
-host-suffix, ma.tt, proxy
+DOMAIN-SUFFIX,w.org,proxy
+DOMAIN-SUFFIX,wordpress.org,proxy
+DOMAIN-SUFFIX,wordpressfoundation.org,proxy
+DOMAIN-SUFFIX,bbpress.org,proxy
+DOMAIN-SUFFIX,buddypress.org,proxy
+DOMAIN-SUFFIX,ma.tt,proxy
 #APP - Yahoo
-host-suffix, yimg.com, proxy
-host-suffix, yahoo.com, proxy
-host-suffix, yahoo.net, proxy
-host-suffix, yahoo.com.hk, proxy
-host-suffix, yahoo.com.tw, proxy
-host-suffix, autoblog.com, proxy
-host-suffix, engadget.com, proxy
-host-suffix, sportz.io, proxy
+DOMAIN-SUFFIX,yimg.com,proxy
+DOMAIN-SUFFIX,yahoo.com,proxy
+DOMAIN-SUFFIX,yahoo.net,proxy
+DOMAIN-SUFFIX,yahoo.com.hk,proxy
+DOMAIN-SUFFIX,yahoo.com.tw,proxy
+DOMAIN-SUFFIX,autoblog.com,proxy
+DOMAIN-SUFFIX,engadget.com,proxy
+DOMAIN-SUFFIX,sportz.io,proxy
 #APP - Yahoo-Aol
-host-suffix, aol.co.uk, proxy
-host-suffix, aol.com, proxy
-host-suffix, aol.de, proxy
+DOMAIN-SUFFIX,aol.co.uk,proxy
+DOMAIN-SUFFIX,aol.com,proxy
+DOMAIN-SUFFIX,aol.de,proxy
 #Game - EA
-host-suffix, cdn.ea.com, proxy
+DOMAIN-SUFFIX,cdn.ea.com,proxy
 #Game - Epic Games https://dev.epicgames.com/zh-CN/services/terms/subprocessors
-host-suffix, artstation.com, proxy
-host-suffix, fab.com, proxy
-host-suffix, fallguys.com, proxy
-host-suffix, fortnite.com, proxy
-host-suffix, rocketleague.com, proxy
-host-suffix, epicgames.com, proxy
-host-suffix, quixel.com, proxy
-host-suffix, radgametools.com, proxy
-host-suffix, twinmotion.com, proxy
-host-suffix, unrealengine.com, proxy
+DOMAIN-SUFFIX,artstation.com,proxy
+DOMAIN-SUFFIX,fab.com,proxy
+DOMAIN-SUFFIX,fallguys.com,proxy
+DOMAIN-SUFFIX,fortnite.com,proxy
+DOMAIN-SUFFIX,rocketleague.com,proxy
+DOMAIN-SUFFIX,epicgames.com,proxy
+DOMAIN-SUFFIX,quixel.com,proxy
+DOMAIN-SUFFIX,radgametools.com,proxy
+DOMAIN-SUFFIX,twinmotion.com,proxy
+DOMAIN-SUFFIX,unrealengine.com,proxy
 #Game - Sony-PlayStation
-host-suffix, playstation.com, proxy
-host-suffix, sony.com, proxy
-host-suffix, sonyentertainmentnetwork.com, proxy
+DOMAIN-SUFFIX,playstation.com,proxy
+DOMAIN-SUFFIX,sony.com,proxy
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com,proxy
 #Game - Steam
-host-suffix, steampowered.com, proxy
-host-suffix, steamcommunity.com, proxy
-host-suffix, steamstatic.com, proxy
-host-suffix, valvesoftware.com, proxy
+DOMAIN-SUFFIX,steampowered.com,proxy
+DOMAIN-SUFFIX,steamcommunity.com,proxy
+DOMAIN-SUFFIX,steamstatic.com,proxy
+DOMAIN-SUFFIX,valvesoftware.com,proxy
 #Game - Ubisoft
-host-suffix, ubi.com, proxy
-host-suffix, ubi.li, proxy
-host-suffix, ubisoft.com, proxy
-host-suffix, ubisoftconnect.com, proxy
+DOMAIN-SUFFIX,ubi.com,proxy
+DOMAIN-SUFFIX,ubi.li,proxy
+DOMAIN-SUFFIX,ubisoft.com,proxy
+DOMAIN-SUFFIX,ubisoftconnect.com,proxy
 #Web - Adobe-fonts
-host-suffix, assets.adobedtm.com, proxy
-host-suffix, fonts.adobe.com, proxy
-host-suffix, typekit.com, proxy
-host-suffix, typekit.net, proxy
+DOMAIN-SUFFIX,assets.adobedtm.com,proxy
+DOMAIN-SUFFIX,fonts.adobe.com,proxy
+DOMAIN-SUFFIX,typekit.com,proxy
+DOMAIN-SUFFIX,typekit.net,proxy
 #Web - Akamai
-host-suffix, akamaihd.net, proxy
-host-suffix, akamaized.net, proxy
+DOMAIN-SUFFIX,akamaihd.net,proxy
+DOMAIN-SUFFIX,akamaized.net,proxy
 #Web - Amazon-AWS
-host-suffix, amazonaws.com, proxy
-host-suffix, amazontrust.com, proxy
-host-suffix, awswaf.com, proxy
-host-suffix, cloudfront.net, proxy
+DOMAIN-SUFFIX,amazonaws.com,proxy
+DOMAIN-SUFFIX,amazontrust.com,proxy
+DOMAIN-SUFFIX,awswaf.com,proxy
+DOMAIN-SUFFIX,cloudfront.net,proxy
 #Web - archive.org
-host-suffix, archive.is, proxy
-host-suffix, archive.org, proxy
+DOMAIN-SUFFIX,archive.is,proxy
+DOMAIN-SUFFIX,archive.org,proxy
 #Web - Cloudflare
-host-suffix, cloudflare.com, proxy
-host-suffix, cloudflare.net, proxy
-host-suffix, cloudflare.tv, proxy
-host-suffix, workers.dev, proxy
+DOMAIN-SUFFIX,cloudflare.com,proxy
+DOMAIN-SUFFIX,cloudflare.net,proxy
+DOMAIN-SUFFIX,cloudflare.tv,proxy
+DOMAIN-SUFFIX,workers.dev,proxy
 #Web - Cloudinary
-host-suffix, cloudinary.com, proxy
+DOMAIN-SUFFIX,cloudinary.com,proxy
 #Web - DigiCert
-host-suffix, digicert.com, proxy
+DOMAIN-SUFFIX,digicert.com,proxy
 #Web - Fastly
-host-suffix, fastly.com, proxy
-host-suffix, fastly.net, proxy
+DOMAIN-SUFFIX,fastly.com,proxy
+DOMAIN-SUFFIX,fastly.net,proxy
 #Web - foundry.co.uk
-host-suffix, website-files.com, proxy
+DOMAIN-SUFFIX,website-files.com,proxy
 #Web - hCaptcha
-host-suffix, hcaptcha.com, proxy
+DOMAIN-SUFFIX,hcaptcha.com,proxy
 #Web - HUMAN-PerimeterX
-host-suffix, perimeterx.net, proxy
+DOMAIN-SUFFIX,perimeterx.net,proxy
 #Web - jQuery
-host-suffix, jquery.com, proxy
-host-suffix, jquerymobile.com, proxy
-host-suffix, jqueryui.com, proxy
-host-suffix, qunitjs.com, proxy
+DOMAIN-SUFFIX,jquery.com,proxy
+DOMAIN-SUFFIX,jquerymobile.com,proxy
+DOMAIN-SUFFIX,jqueryui.com,proxy
+DOMAIN-SUFFIX,qunitjs.com,proxy
 #Web - jsDelivr
-host-suffix, jsdelivr.com, proxy
-host-suffix, jsdelivr.net, proxy
-host-suffix, esm.run, proxy
+DOMAIN-SUFFIX,jsdelivr.com,proxy
+DOMAIN-SUFFIX,jsdelivr.net,proxy
+DOMAIN-SUFFIX,esm.run,proxy
 #Web - OneTrust
-host-suffix, onetrust.com, proxy
+DOMAIN-SUFFIX,onetrust.com,proxy
 #Web - prismic
-host-suffix, prismic.io, proxy
+DOMAIN-SUFFIX,prismic.io,proxy
 #Web - Q4inc.com
-host-suffix, q4inc.com, proxy
-host-suffix, q4app.com, proxy
-host-suffix, q4blog.com, proxy
-host-suffix, q4cdn.com, proxy
-host-suffix, q4web.com, proxy
+DOMAIN-SUFFIX,q4inc.com,proxy
+DOMAIN-SUFFIX,q4app.com,proxy
+DOMAIN-SUFFIX,q4blog.com,proxy
+DOMAIN-SUFFIX,q4cdn.com,proxy
+DOMAIN-SUFFIX,q4web.com,proxy
 #Web - Sentry
-host-suffix, sentry-cdn.com, proxy
-host-suffix, sentry.io, proxy
+DOMAIN-SUFFIX,sentry-cdn.com,proxy
+DOMAIN-SUFFIX,sentry.io,proxy
 #Web - Usercentrics
-host-suffix, usercentrics.com, proxy
-host-suffix, usercentrics.eu, proxy
+DOMAIN-SUFFIX,usercentrics.com,proxy
+DOMAIN-SUFFIX,usercentrics.eu,proxy
 #Web - Wix CDN
-host-suffix, wix.com, proxy
-host-suffix, wix-code.com, proxy
-host-suffix, wixstatic.com, proxy
-host-suffix, wixstudio.com, proxy
-host-suffix, parastorage.com, proxy
+DOMAIN-SUFFIX,wix.com,proxy
+DOMAIN-SUFFIX,wix-code.com,proxy
+DOMAIN-SUFFIX,wixstatic.com,proxy
+DOMAIN-SUFFIX,wixstudio.com,proxy
+DOMAIN-SUFFIX,parastorage.com,proxy
 #Web - Zendesk
-host-keyword, .zendesk, proxy
-host-suffix, zdassets.com, proxy
-host-suffix, zendesk.com, proxy
+host-keyword, .zendesk,proxy
+DOMAIN-SUFFIX,zdassets.com,proxy
+DOMAIN-SUFFIX,zendesk.com,proxy
 #Sites - Adult-shuaito
-host-suffix, shuaito.one, proxy
-host-suffix, shuaito.cc, proxy
+DOMAIN-SUFFIX,shuaito.one,proxy
+DOMAIN-SUFFIX,shuaito.cc,proxy
 #Sites - Adult-soutong
-host-suffix, soutong.men, proxy
-host-suffix, stboy.net, proxy
+DOMAIN-SUFFIX,soutong.men,proxy
+DOMAIN-SUFFIX,stboy.net,proxy
 #Sites - Adult-海棠文化
-host-suffix, htwhbook.com, proxy
-host-suffix, lmbooks.com, proxy
-host-suffix, lmebooks.com, proxy
+DOMAIN-SUFFIX,htwhbook.com,proxy
+DOMAIN-SUFFIX,lmbooks.com,proxy
+DOMAIN-SUFFIX,lmebooks.com,proxy
 #Sites - Adult-海棠文化(限)
-host-suffix, haitbook.com, proxy
-host-suffix, htlvbooks.com, proxy
-host-suffix, htnewbooks.com, proxy
-host-suffix, longmabook.com, proxy
-host-suffix, longmabookcn.com, proxy
-host-suffix, lovehtbooks.com, proxy
-host-suffix, lvhtebook.com, proxy
-host-suffix, myhtebook.com, proxy
-host-suffix, myhtebooks.com, proxy
-host-suffix, myhtlmebook.com, proxy
-host-suffix, newhtbook.com, proxy
-host-suffix, urhtbooks.com, proxy
+DOMAIN-SUFFIX,haitbook.com,proxy
+DOMAIN-SUFFIX,htlvbooks.com,proxy
+DOMAIN-SUFFIX,htnewbooks.com,proxy
+DOMAIN-SUFFIX,longmabook.com,proxy
+DOMAIN-SUFFIX,longmabookcn.com,proxy
+DOMAIN-SUFFIX,lovehtbooks.com,proxy
+DOMAIN-SUFFIX,lvhtebook.com,proxy
+DOMAIN-SUFFIX,myhtebook.com,proxy
+DOMAIN-SUFFIX,myhtebooks.com,proxy
+DOMAIN-SUFFIX,myhtlmebook.com,proxy
+DOMAIN-SUFFIX,newhtbook.com,proxy
+DOMAIN-SUFFIX,urhtbooks.com,proxy
 #Sites - Adult-@X CDN
-host-suffix, bootstrapcdn.com, proxy
-host-suffix, hwcdn.net, proxy
-host-suffix, mylfcdn.net, proxy
-host-suffix, psmcdn.net, proxy
-host-suffix, sucdn.net, proxy
-host-suffix, zencdn.net, proxy
+DOMAIN-SUFFIX,bootstrapcdn.com,proxy
+DOMAIN-SUFFIX,hwcdn.net,proxy
+DOMAIN-SUFFIX,mylfcdn.net,proxy
+DOMAIN-SUFFIX,psmcdn.net,proxy
+DOMAIN-SUFFIX,sucdn.net,proxy
+DOMAIN-SUFFIX,zencdn.net,proxy
 #Sites - Adult-@X.A
-host-suffix, beeg.com, proxy
-host-suffix, eporner.com, proxy
-host-suffix, hqporner.com, proxy
-host-suffix, missav.com, proxy
-host-suffix, pornhub.com, proxy
-host-suffix, porntrex.com, proxy
-host-suffix, spankbang.com, proxy
-host-suffix, xhamster.com, proxy
-host-suffix, xnxx.com, proxy
-host-suffix, xvideos.com, proxy
-host-suffix, youporn.com, proxy
+DOMAIN-SUFFIX,beeg.com,proxy
+DOMAIN-SUFFIX,eporner.com,proxy
+DOMAIN-SUFFIX,hqporner.com,proxy
+DOMAIN-SUFFIX,missav.com,proxy
+DOMAIN-SUFFIX,pornhub.com,proxy
+DOMAIN-SUFFIX,porntrex.com,proxy
+DOMAIN-SUFFIX,spankbang.com,proxy
+DOMAIN-SUFFIX,xhamster.com,proxy
+DOMAIN-SUFFIX,xnxx.com,proxy
+DOMAIN-SUFFIX,xvideos.com,proxy
+DOMAIN-SUFFIX,youporn.com,proxy
 #Sites - Adult-@X.B
-host-suffix, affenhance.com, proxy
-host-suffix, badpuppy.com, proxy
-host-suffix, barebackmedaddy.com, proxy
-host-suffix, bearfilms.com, proxy
-host-suffix, carnalplus.com, proxy
-host-suffix, clubamateurusa.com, proxy
-host-suffix, czechgayfantasy.com, proxy
-host-suffix, doctortapes.com, proxy
-host-suffix, gaycest.com, proxy
-host-suffix, gaysexdates.co, proxy
-host-suffix, gaywirenetwork.com, proxy
-host-suffix, guysinsweatpants.com, proxy
-host-suffix, helixstudios.com, proxy
-host-suffix, helixstudios.net, proxy
-host-suffix, iconmale.com, proxy
-host-suffix, latinleche.com, proxy
-host-suffix, launchdarkly.com, proxy
-host-suffix, mennetwork.com, proxy
-host-suffix, moderndaysins.com, proxy
-host-suffix, onlinesurveyresearch.com, proxy
-host-suffix, onlyfans.com, proxy
-host-suffix, programme-tv.net, proxy
-host-suffix, project1content.com, proxy
-host-suffix, sayuncle.com, proxy
-host-suffix, thebronetwork.com, proxy
-host-suffix, timtales.com, proxy
-host-suffix, transangelsnetwork.com, proxy
-host-suffix, voyr.com, proxy
-host-suffix, williamhiggins.com, proxy
+DOMAIN-SUFFIX,affenhance.com,proxy
+DOMAIN-SUFFIX,badpuppy.com,proxy
+DOMAIN-SUFFIX,barebackmedaddy.com,proxy
+DOMAIN-SUFFIX,bearfilms.com,proxy
+DOMAIN-SUFFIX,carnalplus.com,proxy
+DOMAIN-SUFFIX,clubamateurusa.com,proxy
+DOMAIN-SUFFIX,czechgayfantasy.com,proxy
+DOMAIN-SUFFIX,doctortapes.com,proxy
+DOMAIN-SUFFIX,gaycest.com,proxy
+DOMAIN-SUFFIX,gaysexdates.co,proxy
+DOMAIN-SUFFIX,gaywirenetwork.com,proxy
+DOMAIN-SUFFIX,guysinsweatpants.com,proxy
+DOMAIN-SUFFIX,helixstudios.com,proxy
+DOMAIN-SUFFIX,helixstudios.net,proxy
+DOMAIN-SUFFIX,iconmale.com,proxy
+DOMAIN-SUFFIX,latinleche.com,proxy
+DOMAIN-SUFFIX,launchdarkly.com,proxy
+DOMAIN-SUFFIX,mennetwork.com,proxy
+DOMAIN-SUFFIX,moderndaysins.com,proxy
+DOMAIN-SUFFIX,onlinesurveyresearch.com,proxy
+DOMAIN-SUFFIX,onlyfans.com,proxy
+DOMAIN-SUFFIX,programme-tv.net,proxy
+DOMAIN-SUFFIX,project1content.com,proxy
+DOMAIN-SUFFIX,sayuncle.com,proxy
+DOMAIN-SUFFIX,thebronetwork.com,proxy
+DOMAIN-SUFFIX,timtales.com,proxy
+DOMAIN-SUFFIX,transangelsnetwork.com,proxy
+DOMAIN-SUFFIX,voyr.com,proxy
+DOMAIN-SUFFIX,williamhiggins.com,proxy
 #Sites - Movie-欧乐影院
-host-suffix, olevod.com, proxy
-host-suffix, olelive.com, proxy
+DOMAIN-SUFFIX,olevod.com,proxy
+DOMAIN-SUFFIX,olelive.com,proxy
 #Sites - Movie-海外看
-host-suffix, haiwaikan.com, proxy
+DOMAIN-SUFFIX,haiwaikan.com,proxy
 #Sites - Movie-厂长资源
-host-suffix, czzy.site, proxy
-host-suffix, czzy.tv, proxy
-host-suffix, cz01.tv, proxy
-host-suffix, cz01.vip, proxy
+DOMAIN-SUFFIX,czzy.site,proxy
+DOMAIN-SUFFIX,czzy.tv,proxy
+DOMAIN-SUFFIX,cz01.tv,proxy
+DOMAIN-SUFFIX,cz01.vip,proxy
 #bitly
-host-suffix, bit.ly, proxy
-host-suffix, bitly.com, proxy
+DOMAIN-SUFFIX,bit.ly,proxy
+DOMAIN-SUFFIX,bitly.com,proxy
 #CNbeta
-host-suffix, cnbeta.com.tw, proxy
-host-suffix, cnbetacdn.com, proxy
+DOMAIN-SUFFIX,cnbeta.com.tw,proxy
+DOMAIN-SUFFIX,cnbetacdn.com,proxy
 #DeviantArt
-host-suffix, deviantart.com, proxy
-host-suffix, deviantart.net, proxy
-host-suffix, deviantartsupport.com, proxy
+DOMAIN-SUFFIX,deviantart.com,proxy
+DOMAIN-SUFFIX,deviantart.net,proxy
+DOMAIN-SUFFIX,deviantartsupport.com,proxy
 #Email.ML
-host-suffix, email.ml, proxy
+DOMAIN-SUFFIX,email.ml,proxy
 #ESET
-host-suffix, eset.com, proxy
+DOMAIN-SUFFIX,eset.com,proxy
 #FengShows
-host-suffix, fengshows.cn, proxy
-host-suffix, fengshows.com, proxy
+DOMAIN-SUFFIX,fengshows.cn,proxy
+DOMAIN-SUFFIX,fengshows.com,proxy
 #GreatFire
-host-suffix, greatfire.org, proxy
-host-suffix, freewechat.com, proxy
-host-suffix, freebrowser.org, proxy
-host-suffix, freezhihu.org, proxy
-host-suffix, freeweibo.com, proxy
-host-suffix, wikiunblocked.org, proxy
-host-suffix, pao-pao.net, proxy
+DOMAIN-SUFFIX,greatfire.org,proxy
+DOMAIN-SUFFIX,freewechat.com,proxy
+DOMAIN-SUFFIX,freebrowser.org,proxy
+DOMAIN-SUFFIX,freezhihu.org,proxy
+DOMAIN-SUFFIX,freeweibo.com,proxy
+DOMAIN-SUFFIX,wikiunblocked.org,proxy
+DOMAIN-SUFFIX,pao-pao.net,proxy
 #Guardian Project
-host-suffix, guardianproject.info, proxy
+DOMAIN-SUFFIX,guardianproject.info,proxy
 #Hatena
-host-suffix, hatena.ne.jp, proxy
-host-suffix, st-hatena.com, proxy
+DOMAIN-SUFFIX,hatena.ne.jp,proxy
+DOMAIN-SUFFIX,st-hatena.com,proxy
 #histar.tv
-host-suffix, histar.tv, proxy
+DOMAIN-SUFFIX,histar.tv,proxy
 #iOS Guide
-host-suffix, cfw.guide, proxy
+DOMAIN-SUFFIX,cfw.guide,proxy
 #ImgBB
-host-suffix, imgbb.com, proxy
-host-suffix, simgbb.com, proxy
-host-suffix, ibb.co, proxy
+DOMAIN-SUFFIX,imgbb.com,proxy
+DOMAIN-SUFFIX,simgbb.com,proxy
+DOMAIN-SUFFIX,ibb.co,proxy
 #IPADDRESS
-host-suffix, ipaddress.com, proxy
+DOMAIN-SUFFIX,ipaddress.com,proxy
 #Lorem Picsum
-host-suffix, picsum.photos, proxy
+DOMAIN-SUFFIX,picsum.photos,proxy
 #Pixabay
-host-suffix, pixabay.com, proxy
+DOMAIN-SUFFIX,pixabay.com,proxy
 #Saif Al Falah
-host-suffix, saif.dev, proxy
+DOMAIN-SUFFIX,saif.dev,proxy
 #Stripe
-host-suffix, stripe.com, proxy
-host-suffix, stripecdn.com, proxy
+DOMAIN-SUFFIX,stripe.com,proxy
+DOMAIN-SUFFIX,stripecdn.com,proxy
 #SoundCloud
-host-suffix, soundcloud.com, proxy
-host-suffix, sndcdn.com, proxy
+DOMAIN-SUFFIX,soundcloud.com,proxy
+DOMAIN-SUFFIX,sndcdn.com,proxy
 #Startpage
-host-suffix, startpage.com, proxy
+DOMAIN-SUFFIX,startpage.com,proxy
 #Substack
-host-suffix, substack.com, proxy
+DOMAIN-SUFFIX,substack.com,proxy
 #TinyURL
-host-suffix, tinyurl.com, proxy
-host-suffix, viglink.com, proxy
+DOMAIN-SUFFIX,tinyurl.com,proxy
+DOMAIN-SUFFIX,viglink.com,proxy
 #TMDB
-host-suffix, themoviedb.org, proxy
-host-suffix, tmdb.org, proxy
+DOMAIN-SUFFIX,themoviedb.org,proxy
+DOMAIN-SUFFIX,tmdb.org,proxy
 #Tools
-host-suffix, boxjs.com, proxy
-host-suffix, script.hub, proxy
-host-suffix, sub.store, proxy
-host-suffix, vercel.app, proxy
-host-suffix, v1.mk, proxy
-host, scripthub.vercel.app, proxy
-host, sub-store.vercel.app, proxy
+DOMAIN-SUFFIX,boxjs.com,proxy
+DOMAIN-SUFFIX,script.hub,proxy
+DOMAIN-SUFFIX,sub.store,proxy
+DOMAIN-SUFFIX,vercel.app,proxy
+DOMAIN-SUFFIX,v1.mk,proxy
+DOMAIN,scripthub.vercel.app,proxy
+DOMAIN,sub-store.vercel.app,proxy
 #Tor Browser
-host-suffix, torproject.org, proxy
+DOMAIN-SUFFIX,torproject.org,proxy
 #TVDB
-host-suffix, thetvdb.com, proxy
+DOMAIN-SUFFIX,thetvdb.com,proxy
 #Twirrl.app(TVDL)
-host-suffix, twirrl.app, proxy
+DOMAIN-SUFFIX,twirrl.app,proxy
 #Unlock Music-音乐解锁
-host, demo.unlock-music.dev, proxy
+DOMAIN,demo.unlock-music.dev,proxy
 #Userstyles.org | Stylish
-host-suffix, userstyles.org, proxy
+DOMAIN-SUFFIX,userstyles.org,proxy
 #V2EX
-host-suffix, v2ex.com, proxy
+DOMAIN-SUFFIX,v2ex.com,proxy
 #Yubico
-host-suffix, yubico.com, proxy
+DOMAIN-SUFFIX,yubico.com,proxy
