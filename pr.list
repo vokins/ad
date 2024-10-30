@@ -1,4 +1,4 @@
-# Update > 21:24 2024/10/30/周三
+# Update > 21:30 2024/10/30/周三
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -15,12 +15,6 @@ DOMAIN-SUFFIX,gov.tw,proxy
 #Apple - Mail
 DOMAIN-SUFFIX,mail.icloud.com.cn,proxy
 DOMAIN-SUFFIX,mail.me.com,proxy
-#APP - Accor
-DOMAIN-SUFFIX,accor.com,proxy
-DOMAIN-SUFFIX,accorhotels.com,proxy
-#App - Bluesky
-DOMAIN-SUFFIX,bsky.app,proxy
-DOMAIN-SUFFIX,bsky.social,proxy
 #Alphabet-Google
 host-keyword, .google,proxy
 host-keyword, google.,proxy
@@ -62,6 +56,9 @@ DOMAIN-SUFFIX,youtube.com,proxy
 DOMAIN-SUFFIX,yt.be,proxy
 DOMAIN-SUFFIX,youtu.be,proxy
 DOMAIN-SUFFIX,youtube-nocookie.com,proxy
+#APP - Accor
+DOMAIN-SUFFIX,accor.com,proxy
+DOMAIN-SUFFIX,accorhotels.com,proxy
 #APP - Afterlight
 DOMAIN-SUFFIX,afterlight.co,proxy
 #APP - Amazon-Prime Video
@@ -81,6 +78,9 @@ DOMAIN-SUFFIX,bbci.co.uk,proxy
 #APP - Bloomberg
 DOMAIN-SUFFIX,bwbx.io,proxy
 host-keyword, .bloomberg,proxy
+#App - Bluesky
+DOMAIN-SUFFIX,bsky.app,proxy
+DOMAIN-SUFFIX,bsky.social,proxy
 #APP - box
 DOMAIN-SUFFIX,box.com,proxy
 DOMAIN-SUFFIX,box.net,proxy
