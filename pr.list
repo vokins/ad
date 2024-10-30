@@ -1,4 +1,4 @@
-# Update > 21:34 2024/10/30/周三
+# Update > 21:52 2024/10/30/周三
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -80,6 +80,7 @@ DOMAIN-SUFFIX,bwbx.io,proxy
 host-keyword, .bloomberg,proxy
 #App - Bluesky
 DOMAIN-SUFFIX,bsky.app,proxy
+DOMAIN-SUFFIX,bsky.network,proxy
 DOMAIN-SUFFIX,bsky.social,proxy
 #APP - box
 DOMAIN-SUFFIX,box.com,proxy
