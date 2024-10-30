@@ -1,4 +1,4 @@
-# Update > 21:14 2024/10/30/周三
+# Update > 21:29 2024/10/30/周三
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -378,6 +378,8 @@ DOMAIN,ads-cloud.rovio.com,REJECT
 DOMAIN,videoads-cloud.rovio.com,REJECT
 #Game-地铁跑酷
 DOMAIN,subway.prod.sybo.net,REJECT
+#Game-XX荣耀人机鉴别 拦截人机头像库，显示不出头像的就是人机
+DOMAIN,sgameicon.ecology.smoba.qq.com,REJECT
 #News-人民网
 DOMAIN,adstatic.peopleapp.com,REJECT
 DOMAIN,stat.peopleapp.com,REJECT
