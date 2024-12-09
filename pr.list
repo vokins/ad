@@ -1,4 +1,4 @@
-# Update > 21:52 2024/10/30/周三
+# Update > 16:05 2024/12/9
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -12,9 +12,6 @@ DOMAIN-SUFFIX,com.hk,proxy
 #Domain - TW网站
 DOMAIN-SUFFIX,com.tw,proxy
 DOMAIN-SUFFIX,gov.tw,proxy
-#Apple - Mail
-DOMAIN-SUFFIX,mail.icloud.com.cn,proxy
-DOMAIN-SUFFIX,mail.me.com,proxy
 #Alphabet-Google
 host-keyword,.google,proxy
 host-keyword,google.,proxy
@@ -90,6 +87,9 @@ DOMAIN-SUFFIX,boxcdn.net,proxy
 DOMAIN-SUFFIX,segment-box.com,proxy
 #APP - Cash
 DOMAIN-SUFFIX,cashappapi.com,proxy
+#APP - Cash
+DOMAIN-SUFFIX,clubhouse.com,proxy
+DOMAIN-SUFFIX,clubhouseapi.com,proxy
 #APP - DesignLab
 DOMAIN-SUFFIX,onelightapps.io,proxy
 #APP - Discord
@@ -140,6 +140,7 @@ DOMAIN-SUFFIX,4sqi.net,proxy
 DOMAIN-SUFFIX,mapbox.com,proxy
 DOMAIN-SUFFIX,swarmapp.com,proxy
 #APP - GitHub
+DOMAIN-SUFFIX,git.io,proxy
 DOMAIN-SUFFIX,github.com,proxy
 DOMAIN-SUFFIX,github.io,proxy
 DOMAIN-SUFFIX,githubassets.com,proxy
@@ -434,6 +435,29 @@ DOMAIN-SUFFIX,parastorage.com,proxy
 host-keyword, .zendesk,proxy
 DOMAIN-SUFFIX,zdassets.com,proxy
 DOMAIN-SUFFIX,zendesk.com,proxy
+#Sites - Adult-comic
+host-keyword,.hentai,proxy
+host-keyword,hentai.,proxy
+host-keyword,.comic,proxy
+host-keyword,comic.,proxy
+DOMAIN-SUFFIX,177picyy.com,proxy
+DOMAIN-SUFFIX,18hlw.com,proxy
+DOMAIN-SUFFIX,animezilla.com,proxy
+DOMAIN-SUFFIX,asiacomics.com,proxy
+DOMAIN-SUFFIX,cartoon18.com,proxy
+DOMAIN-SUFFIX,doujins.com,proxy
+DOMAIN-SUFFIX,h-webtoon.com,proxy
+DOMAIN-SUFFIX,hentai2read.com,proxy
+DOMAIN-SUFFIX,hentaifox.com,proxy
+DOMAIN-SUFFIX,hentaihere.com,proxy
+DOMAIN-SUFFIX,hentairox.com,proxy
+DOMAIN-SUFFIX,hitomi.la,proxy
+DOMAIN-SUFFIX,ho5ho.com,proxy
+DOMAIN-SUFFIX,jmcomic1.me,proxy
+DOMAIN-SUFFIX,mm-cg.com,proxy
+DOMAIN-SUFFIX,multporn.net,proxy
+DOMAIN-SUFFIX,nicecat.cc,proxy
+DOMAIN-SUFFIX,wnacg.com,proxy
 #Sites - Adult-shuaito
 DOMAIN-SUFFIX,shuaito.one,proxy
 DOMAIN-SUFFIX,shuaito.cc,proxy
@@ -506,16 +530,18 @@ DOMAIN-SUFFIX,timtales.com,proxy
 DOMAIN-SUFFIX,transangelsnetwork.com,proxy
 DOMAIN-SUFFIX,voyr.com,proxy
 DOMAIN-SUFFIX,williamhiggins.com,proxy
-#Sites - Movie-欧乐影院
-DOMAIN-SUFFIX,olevod.com,proxy
-DOMAIN-SUFFIX,olelive.com,proxy
-#Sites - Movie-海外看
-DOMAIN-SUFFIX,haiwaikan.com,proxy
-#Sites - Movie-厂长资源
-DOMAIN-SUFFIX,czzy.site,proxy
-DOMAIN-SUFFIX,czzy.tv,proxy
-DOMAIN-SUFFIX,cz01.tv,proxy
-DOMAIN-SUFFIX,cz01.vip,proxy
+#Sites - VPN
+##EMO VPN
+DOMAIN-SUFFIX,emovpn.top,proxy
+##GOOSE VPN
+DOMAIN-SUFFIX,goosevpn.com,proxy
+##三分机场
+DOMAIN-SUFFIX,sanfen.co,proxy
+##极速机场
+DOMAIN-SUFFIX,xn--mes358acgm99l.com,proxy
+#Sites - Torrent
+DOMAIN-SUFFIX,qbittorrent.org,proxy
+DOMAIN-SUFFIX,utorrent.com,proxy
 #bitly
 DOMAIN-SUFFIX,bit.ly,proxy
 DOMAIN-SUFFIX,bitly.com,proxy
