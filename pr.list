@@ -1,4 +1,4 @@
-# Update > 16:05 2024/12/9
+# Update > 23:31 2024/12/25
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -258,6 +258,7 @@ DOMAIN-SUFFIX,notion.so,proxy
 DOMAIN-SUFFIX,notion.site,proxy
 #APP - PayPal
 DOMAIN-SUFFIX,paypal.com,proxy
+DOMAIN-SUFFIX,paypal.me,proxy
 DOMAIN-SUFFIX,paypalobjects.com,proxy
 #APP - Pinterest
 DOMAIN-SUFFIX,pinimg.com,proxy
@@ -574,6 +575,8 @@ DOMAIN-SUFFIX,hatena.ne.jp,proxy
 DOMAIN-SUFFIX,st-hatena.com,proxy
 #histar.tv
 DOMAIN-SUFFIX,histar.tv,proxy
+#hysteria.network
+DOMAIN-SUFFIX,hysteria.network,proxy
 #iOS Guide
 DOMAIN-SUFFIX,cfw.guide,proxy
 #ImgBB
