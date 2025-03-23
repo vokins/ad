@@ -1,4 +1,4 @@
-# Update > 21:34 2024/10/30/周三
+# Update > 0:34 2025/3/24
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -753,9 +753,6 @@ DOMAIN,cdn3-live-ssl.a.88cdn.com,REJECT
 DOMAIN,evt.mxplay.com,REJECT
 #Trip-12306
 DOMAIN,ad.12306.cn,REJECT
-DOMAIN,app-tech-tracker.ccrgt.com,REJECT
-DOMAIN,app-tracker.ccrgt.com,REJECT
-DOMAIN,web-tracker.ccrgt.com,REJECT
 DOMAIN,shop43210511.m.youzan.com,REJECT
 DOMAIN,probe.youzan.com,REJECT
 DOMAIN,tj1.youzan.com,REJECT
@@ -1029,7 +1026,6 @@ DOMAIN,miui-fxcse.avlyun.com,REJECT
 #OS-Mi/应用包扫描API
 DOMAIN,api.installer.xiaomi.com,REJECT
 #OS-MicroSoft
-DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
 DOMAIN-SUFFIX,dsp.mp.microsoft.com,REJECT
 DOMAIN,telemetry.api.swiftkey.com,REJECT
