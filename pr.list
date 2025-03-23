@@ -1,4 +1,4 @@
-# Update > 0:03 2025/3/24
+# Update > 0:52 2025/3/24
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -89,7 +89,7 @@ DOMAIN-SUFFIX,segment-box.com,PROXY
 DOMAIN-SUFFIX,brightchat.com,PROXY
 #APP - Cash
 DOMAIN-SUFFIX,cashappapi.com,PROXY
-#APP - Cash
+#APP - Clubhouse
 DOMAIN-SUFFIX,clubhouse.com,PROXY
 DOMAIN-SUFFIX,clubhouseapi.com,PROXY
 #APP - DesignLab
@@ -113,6 +113,7 @@ DOMAIN-SUFFIX,dropbox.tech,PROXY
 DOMAIN-SUFFIX,dropboxapi.com,PROXY
 DOMAIN-SUFFIX,dropboxbusiness.com,PROXY
 DOMAIN-SUFFIX,dropboxcaptcha.com,PROXY
+DOMAIN-SUFFIX,dropboxexperiment.com,PROXY
 DOMAIN-SUFFIX,dropboxforums.com,PROXY
 DOMAIN-SUFFIX,dropboxinsiders.com,PROXY
 DOMAIN-SUFFIX,dropboxlegal.com,PROXY
@@ -121,6 +122,7 @@ DOMAIN-SUFFIX,dropboxpartners.com,PROXY
 DOMAIN-SUFFIX,dropboxteam.com,PROXY
 DOMAIN-SUFFIX,addtodropbox.com,PROXY
 DOMAIN-SUFFIX,getdropbox.com,PROXY
+DOMAIN-SUFFIX,hellosign.com,PROXY
 #APP - DuckDuckGo
 DOMAIN-SUFFIX,duck.co,PROXY
 DOMAIN-SUFFIX,duck.com,PROXY
