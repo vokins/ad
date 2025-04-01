@@ -1,4 +1,4 @@
-# Update > 0:52 2025/3/24
+# Update > 21:19 2025/4/1
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -12,6 +12,11 @@ DOMAIN-SUFFIX,com.hk,PROXY
 #Domain - TW网站
 DOMAIN-SUFFIX,com.tw,PROXY
 DOMAIN-SUFFIX,gov.tw,PROXY
+#API
+DOMAIN-SUFFIX,revenuecat.com,PROXY
+#Apple-AI
+DOMAIN,apple-relay.apple.com,PROXY
+DOMAIN,apple-relay.cloudflare.com,PROXY
 #Alphabet-Google
 DOMAIN-KEYWORD,.google,PROXY
 DOMAIN-KEYWORD,google.,PROXY
@@ -243,9 +248,14 @@ DOMAIN-SUFFIX,windows.net,PROXY
 #APP - Microsoft-Bing-Copilot
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,bingapis.com,PROXY
-#APP - Microsoft-ChatGPT
-DOMAIN-SUFFIX,openai.com,PROXY
+#APP - Microsoft-ChatGPT https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps
 DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,featureassets.org,PROXY
+DOMAIN-SUFFIX,featuregates.org,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,prodregistryv2.org,PROXY
 #APP - Microsoft-Office
 DOMAIN-SUFFIX,microsoft365.com,PROXY
 DOMAIN-SUFFIX,office.com,PROXY
@@ -296,6 +306,8 @@ DOMAIN-SUFFIX,redditstatic.com,PROXY
 DOMAIN-SUFFIX,shottr.cc,PROXY
 #APP - Signal
 DOMAIN-SUFFIX,signal.org,PROXY
+#APP - Sketchar
+DOMAIN-SUFFIX,sketchar.io,PROXY
 #APP - Spotify
 DOMAIN-SUFFIX,scdn.co,PROXY
 DOMAIN-SUFFIX,spotifycdn.com,PROXY
@@ -413,6 +425,9 @@ DOMAIN-SUFFIX,archive.org,PROXY
 #Web - Bunny CDN
 DOMAIN-SUFFIX,bunny.net,PROXY
 DOMAIN-SUFFIX,b-cdn.net,PROXY
+#Web - Embedly
+DOMAIN-SUFFIX,embed.ly,PROXY
+DOMAIN-SUFFIX,embedly.com,PROXY
 #Web - Intercom
 DOMAIN-SUFFIX,ctfassets.net,PROXY
 DOMAIN-SUFFIX,intercom.com,PROXY
@@ -449,6 +464,9 @@ DOMAIN-SUFFIX,qunitjs.com,PROXY
 DOMAIN-SUFFIX,jsdelivr.com,PROXY
 DOMAIN-SUFFIX,jsdelivr.net,PROXY
 DOMAIN-SUFFIX,esm.run,PROXY
+#Web - LiveKit
+DOMAIN-SUFFIX,livekit.io,PROXY
+DOMAIN-SUFFIX,livekit.cloud,PROXY
 #Web - OneTrust
 DOMAIN-SUFFIX,onetrust.com,PROXY
 #Web - prismic
@@ -464,6 +482,9 @@ DOMAIN-SUFFIX,sentry-cdn.com,PROXY
 DOMAIN-SUFFIX,sentry.io,PROXY
 #Web - shields.io
 DOMAIN-SUFFIX,shields.io,PROXY
+#Web - Statsig
+DOMAIN-SUFFIX,statsig.com,PROXY
+DOMAIN-SUFFIX,statsigapi.net,PROXY
 #Web - Superwall
 DOMAIN-SUFFIX,superwall.com,PROXY
 DOMAIN-SUFFIX,superwall.me,PROXY
@@ -617,6 +638,8 @@ DOMAIN-SUFFIX,eset.com,PROXY
 #FengShows
 DOMAIN-SUFFIX,fengshows.cn,PROXY
 DOMAIN-SUFFIX,fengshows.com,PROXY
+#Greasy Fork
+DOMAIN-SUFFIX,greasyfork.org,PROXY
 #GreatFire
 DOMAIN-SUFFIX,greatfire.org,PROXY
 DOMAIN-SUFFIX,freewechat.com,PROXY
