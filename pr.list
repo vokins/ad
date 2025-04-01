@@ -1,4 +1,4 @@
-# Update > 21:19 2025/4/1
+# Update > 22:16 2025/4/1
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -29,9 +29,11 @@ DOMAIN-SUFFIX,pki.goog,PROXY
 DOMAIN-SUFFIX,recaptcha.net,PROXY
 #Alphabet-Google-3rd
 DOMAIN-SUFFIX,android.com,PROXY
+DOMAIN-SUFFIX,appsheet.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,blogspot.com,PROXY
 DOMAIN-SUFFIX,chrome.com,PROXY
+DOMAIN-SUFFIX,chromebook.com,PROXY
 DOMAIN-SUFFIX,chromium.org,PROXY
 DOMAIN-SUFFIX,gvt0.cn,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
@@ -41,10 +43,12 @@ DOMAIN-SUFFIX,gvt3.com,PROXY
 DOMAIN-SUFFIX,g.cn,PROXY
 DOMAIN-SUFFIX,g.co,PROXY
 DOMAIN-SUFFIX,goo.gl,PROXY
+DOMAIN-SUFFIX,forms.gle,PROXY
 DOMAIN-SUFFIX,googleblog.com,PROXY
-DOMAIN-SUFFIX,page.link,PROXY
 DOMAIN-SUFFIX,amp.dev,PROXY
 DOMAIN-SUFFIX,go.dev,PROXY
+DOMAIN-SUFFIX,google.dev,PROXY
+DOMAIN-SUFFIX,page.link,PROXY
 DOMAIN-SUFFIX,web.dev,PROXY
 #Alphabet-Gmail
 DOMAIN-SUFFIX,gmail.com,PROXY
@@ -93,7 +97,11 @@ DOMAIN-SUFFIX,segment-box.com,PROXY
 #APP - BrightChat
 DOMAIN-SUFFIX,brightchat.com,PROXY
 #APP - Cash
+DOMAIN-SUFFIX,cash.app,PROXY
 DOMAIN-SUFFIX,cashappapi.com,PROXY
+#APP - Claude
+DOMAIN-SUFFIX,claude.ai,PROXY
+DOMAIN-SUFFIX,anthropic.com,PROXY
 #APP - Clubhouse
 DOMAIN-SUFFIX,clubhouse.com,PROXY
 DOMAIN-SUFFIX,clubhouseapi.com,PROXY
@@ -232,6 +240,7 @@ DOMAIN-SUFFIX,whatsapp.net,PROXY
 #APP - Microsoft
 DOMAIN-SUFFIX,aspnetcdn.com,PROXY
 DOMAIN-SUFFIX,azure.com,PROXY
+DOMAIN-SUFFIX,azurefd.net,PROXY
 DOMAIN-SUFFIX,azureedge.net,PROXY
 DOMAIN-SUFFIX,gfx.ms,PROXY
 DOMAIN-SUFFIX,microsoft-falcon.io,PROXY
@@ -249,6 +258,7 @@ DOMAIN-SUFFIX,windows.net,PROXY
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,bingapis.com,PROXY
 #APP - Microsoft-ChatGPT https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps
+DOMAIN-SUFFIX,chat.com,PROXY
 DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,featureassets.org,PROXY
@@ -256,6 +266,7 @@ DOMAIN-SUFFIX,featuregates.org,PROXY
 DOMAIN-SUFFIX,oaistatic.com,PROXY
 DOMAIN-SUFFIX,oaiusercontent.com,PROXY
 DOMAIN-SUFFIX,prodregistryv2.org,PROXY
+DOMAIN-SUFFIX,sora.com,PROXY
 #APP - Microsoft-Office
 DOMAIN-SUFFIX,microsoft365.com,PROXY
 DOMAIN-SUFFIX,office.com,PROXY
