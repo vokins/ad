@@ -1,4 +1,4 @@
-# Update > 22:16 2025/4/1
+# Update > 2:56 2025/6/27
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -79,8 +79,6 @@ DOMAIN-SUFFIX,ssl-images-amazon.com,PROXY
 DOMAIN-SUFFIX,appraven.net,PROXY
 #APP - BBC
 DOMAIN-SUFFIX,bbc.com,PROXY
-DOMAIN-SUFFIX,bbc.co.uk,PROXY
-DOMAIN-SUFFIX,bbci.co.uk,PROXY
 #APP - Bloomberg
 DOMAIN-SUFFIX,bwbx.io,PROXY
 DOMAIN-KEYWORD, .bloomberg,PROXY
@@ -192,7 +190,6 @@ DOMAIN-SUFFIX,bitmax.me,PROXY
 DOMAIN-SUFFIX,line-apps.com,PROXY
 DOMAIN-SUFFIX,line-fx.com,PROXY
 DOMAIN-SUFFIX,line-scdn.net,PROXY
-DOMAIN-SUFFIX,line-sec.co.jp,PROXY
 DOMAIN-SUFFIX,line.me,PROXY
 DOMAIN-SUFFIX,linecorp.com,PROXY
 DOMAIN-SUFFIX,linecreditcorp.com,PROXY
@@ -208,7 +205,6 @@ DOMAIN-SUFFIX,pstatic.net,PROXY
 DOMAIN-SUFFIX,worksmobile.com,PROXY
 #APP - LY Corporation-Yahoo.co.jp
 DOMAIN-SUFFIX,yahoo-net.jp,PROXY
-DOMAIN-SUFFIX,yahoo.co.jp,PROXY
 DOMAIN-SUFFIX,yimg.jp,PROXY
 DOMAIN-SUFFIX,blogimg.jp,PROXY
 DOMAIN-SUFFIX,blog.jp,PROXY
@@ -285,8 +281,9 @@ DOMAIN-SUFFIX,xbox.com,PROXY
 #APP - Nike
 DOMAIN-SUFFIX,nike.com,PROXY
 #APP - Notion
-DOMAIN-SUFFIX,notion.so,PROXY
+DOMAIN-SUFFIX,notion.com,PROXY
 DOMAIN-SUFFIX,notion.site,PROXY
+DOMAIN-SUFFIX,notion.so,PROXY
 #APP - PayPal
 DOMAIN-SUFFIX,paypal.com,PROXY
 DOMAIN-SUFFIX,paypal.me,PROXY
@@ -381,13 +378,10 @@ DOMAIN-SUFFIX,ma.tt,PROXY
 DOMAIN-SUFFIX,yimg.com,PROXY
 DOMAIN-SUFFIX,yahoo.com,PROXY
 DOMAIN-SUFFIX,yahoo.net,PROXY
-DOMAIN-SUFFIX,yahoo.com.hk,PROXY
-DOMAIN-SUFFIX,yahoo.com.tw,PROXY
 DOMAIN-SUFFIX,autoblog.com,PROXY
 DOMAIN-SUFFIX,engadget.com,PROXY
 DOMAIN-SUFFIX,sportz.io,PROXY
 #APP - Yahoo-Aol
-DOMAIN-SUFFIX,aol.co.uk,PROXY
 DOMAIN-SUFFIX,aol.com,PROXY
 DOMAIN-SUFFIX,aol.de,PROXY
 #Game - EA
@@ -436,15 +430,6 @@ DOMAIN-SUFFIX,archive.org,PROXY
 #Web - Bunny CDN
 DOMAIN-SUFFIX,bunny.net,PROXY
 DOMAIN-SUFFIX,b-cdn.net,PROXY
-#Web - Embedly
-DOMAIN-SUFFIX,embed.ly,PROXY
-DOMAIN-SUFFIX,embedly.com,PROXY
-#Web - Intercom
-DOMAIN-SUFFIX,ctfassets.net,PROXY
-DOMAIN-SUFFIX,intercom.com,PROXY
-DOMAIN-SUFFIX,intercom.io,PROXY
-DOMAIN-SUFFIX,intercomcdn.com,PROXY
-DOMAIN-SUFFIX,cloudfunctions.net,PROXY
 #Web - Cloudflare
 DOMAIN-SUFFIX,cloudflare.com,PROXY
 DOMAIN-SUFFIX,cloudflare.net,PROXY
@@ -457,6 +442,9 @@ DOMAIN-SUFFIX,canny.io,PROXY
 DOMAIN-SUFFIX,canny-assets.io,PROXY
 #Web - DigiCert
 DOMAIN-SUFFIX,digicert.com,PROXY
+#Web - Embedly
+DOMAIN-SUFFIX,embed.ly,PROXY
+DOMAIN-SUFFIX,embedly.com,PROXY
 #Web - Fastly
 DOMAIN-SUFFIX,fastly.com,PROXY
 DOMAIN-SUFFIX,fastly.net,PROXY
@@ -466,6 +454,17 @@ DOMAIN-SUFFIX,website-files.com,PROXY
 DOMAIN-SUFFIX,hcaptcha.com,PROXY
 #Web - HUMAN-PerimeterX
 DOMAIN-SUFFIX,perimeterx.net,PROXY
+#Web - Image hosting
+DOMAIN-SUFFIX,mjj.today,PROXY
+DOMAIN-SUFFIX,freeimage.host,PROXY
+DOMAIN-SUFFIX,iili.io,PROXY
+DOMAIN-SUFFIX,imghippo.com,PROXY
+#Web - Intercom
+DOMAIN-SUFFIX,ctfassets.net,PROXY
+DOMAIN-SUFFIX,intercom.com,PROXY
+DOMAIN-SUFFIX,intercom.io,PROXY
+DOMAIN-SUFFIX,intercomcdn.com,PROXY
+DOMAIN-SUFFIX,cloudfunctions.net,PROXY
 #Web - jQuery
 DOMAIN-SUFFIX,jquery.com,PROXY
 DOMAIN-SUFFIX,jquerymobile.com,PROXY
@@ -582,6 +581,7 @@ DOMAIN-SUFFIX,affenhance.com,PROXY
 DOMAIN-SUFFIX,badpuppy.com,PROXY
 DOMAIN-SUFFIX,barebackmedaddy.com,PROXY
 DOMAIN-SUFFIX,bearfilms.com,PROXY
+DOMAIN-SUFFIX,bromonetwork.com,PROXY
 DOMAIN-SUFFIX,carnalplus.com,PROXY
 DOMAIN-SUFFIX,clubamateurusa.com,PROXY
 DOMAIN-SUFFIX,czechgayfantasy.com,PROXY
@@ -636,7 +636,6 @@ DOMAIN-SUFFIX,utorrent.com,PROXY
 DOMAIN-SUFFIX,bit.ly,PROXY
 DOMAIN-SUFFIX,bitly.com,PROXY
 #CNbeta
-DOMAIN-SUFFIX,cnbeta.com.tw,PROXY
 DOMAIN-SUFFIX,cnbetacdn.com,PROXY
 #DeviantArt
 DOMAIN-SUFFIX,deviantart.com,PROXY
@@ -704,8 +703,8 @@ DOMAIN-SUFFIX,script.hub,PROXY
 DOMAIN-SUFFIX,sub.store,PROXY
 DOMAIN-SUFFIX,vercel.app,PROXY
 DOMAIN-SUFFIX,v1.mk,PROXY
-DOMAIN,scripthub.vercel.app,PROXY
-DOMAIN,sub-store.vercel.app,PROXY
+DOMAIN-SUFFIX,abra.halu.ca,PROXY
+DOMAIN-SUFFIX,goodsoul.live,PROXY
 #Tor Browser
 DOMAIN-SUFFIX,torproject.org,PROXY
 #TVDB
@@ -718,5 +717,7 @@ DOMAIN,demo.unlock-music.dev,PROXY
 DOMAIN-SUFFIX,userstyles.org,PROXY
 #V2EX
 DOMAIN-SUFFIX,v2ex.com,PROXY
+#WenXueCity
+DOMAIN-SUFFIX,wenxuecity.com,PROXY
 #Yubico
 DOMAIN-SUFFIX,yubico.com,PROXY
