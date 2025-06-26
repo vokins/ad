@@ -1,4 +1,4 @@
-# Update > 0:34 2025/3/24
+# Update > 3:24 2025/6/27
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -8,6 +8,7 @@
 #Apple Ads
 DOMAIN-SUFFIX,advertising.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+DOMAIN-SUFFIX,safebrowsing.apple,REJECT
 DOMAIN,securemetrics.apple.com,REJECT
 DOMAIN,metrics.icloud.com,REJECT
 #https://developer.apple.com/documentation/adservices/aaattribution/attributiontoken()
@@ -258,6 +259,8 @@ DOMAIN,adsdk.idmzj.com,REJECT
 DOMAIN,ad-channel.diwodiwo.xyz,REJECT
 DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.diwodiwo.xyz,REJECT
+#Book-wenxuecity
+DOMAIN,adserver.wenxuecity.com,REJECT
 #Buy-拼多多
 DOMAIN,adim.pinduoduo.com,REJECT
 DOMAIN,t-dsp.pinduoduo.com,REJECT
@@ -617,6 +620,10 @@ DOMAIN,zxid-m.mobileservice.cn,REJECT
 DOMAIN-SUFFIX,ads.linkedin.com,REJECT
 #SNS-LIHKG
 DOMAIN,adv.lihkg.com,REJECT
+#SNS-pixiv
+DOMAIN,pixon.ads-pixiv.net,REJECT
+DOMAIN,ad2.fivecdm.com,REJECT
+DOMAIN,adchk.fivecdm.com,REJECT
 #SNS-Snapchat
 DOMAIN,app-analytics-v2.snapchat.com,REJECT
 #SNS-Twitter
@@ -1537,11 +1544,6 @@ DOMAIN,report.qqweb.qq.com,REJECT
 DOMAIN,tdid.m.qq.com,REJECT
 #DOMAIN,tmfmazu.m.qq.com,REJECT
 #DOMAIN,tpush.html5.qq.com,REJECT
-DOMAIN,wxa.wxs.qq.com,REJECT
-DOMAIN,wxsnsdy.tc.qq.com,REJECT
-DOMAIN,wxsnsdy.video.qq.com,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 #Tencent-QQ-Upload
 DOMAIN,aeventlog.beacon.qq.com,REJECT
 DOMAIN,android.bugly.qq.com,REJECT
@@ -1571,6 +1573,14 @@ DOMAIN,report.idqqimg.com,REJECT
 DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net,REJECT
 DOMAIN,apd-vodp2preport.teg.tencent-cloud.net,REJECT
 DOMAIN,publiclog.zhiyan.tencent-cloud.net,REJECT
+#Tencent-WeChat微信朋友圈公众号广告
+DOMAIN,wxa.wxs.qq.com,REJECT
+DOMAIN,wximg.wxs.qq.com,REJECT
+DOMAIN,wxsmw.wxs.qq.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN,wxsnsdy.tc.qq.com,REJECT
+DOMAIN,wxsnsdy.video.qq.com,REJECT
 #Unity
 DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
@@ -1798,6 +1808,7 @@ DOMAIN-SUFFIX,agrantsem.com,REJECT
 DOMAIN-SUFFIX,aiclk.com,REJECT
 DOMAIN-SUFFIX,alexanberton.com,REJECT
 DOMAIN-SUFFIX,alo15.com,REJECT
+DOMAIN-SUFFIX,amplitude.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,analytics-data.io,REJECT
 DOMAIN-SUFFIX,anythinktech.com,REJECT
@@ -2184,6 +2195,7 @@ DOMAIN-SUFFIX,socdm.com,REJECT
 DOMAIN-SUFFIX,social-touch.com,REJECT
 DOMAIN-SUFFIX,sogowan.com,REJECT
 DOMAIN-SUFFIX,solvemedia.com,REJECT
+DOMAIN-SUFFIX,spadsync.com,REJECT
 DOMAIN-SUFFIX,spotxchange.com,REJECT
 DOMAIN-SUFFIX,springserve.com,REJECT
 DOMAIN-SUFFIX,spush.com,REJECT
