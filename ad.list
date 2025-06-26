@@ -1,4 +1,4 @@
-# Update > 3:24 2025/6/27
+# Update > 5:15 2025/6/27
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -418,9 +418,11 @@ DOMAIN,bd2-china.xsfaya.com,REJECT
 #News-鳳凰網
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN-SUFFIX,newad.ifeng.com,REJECT
+DOMAIN,9fum.ifeng.com,REJECT
 DOMAIN,ax.ifeng.com,REJECT
 DOMAIN,bd3rd.ifeng.com,REJECT
 DOMAIN,bdmap1.ifeng.com,REJECT
+DOMAIN,bm7c.ifeng.com,REJECT
 DOMAIN,cvf.ifeng.com,REJECT
 DOMAIN,err.ifengcloud.ifeng.com,REJECT
 DOMAIN,ifengad.3g.ifeng.com,REJECT
@@ -428,11 +430,12 @@ DOMAIN,noscreenplz2.ifeng.com,REJECT
 DOMAIN,qcvf.ifeng.com,REJECT
 DOMAIN,stadig.ifeng.com,REJECT
 DOMAIN,stadig0.ifeng.com,REJECT
+DOMAIN,uww6.ifeng.com,REJECT
 DOMAIN,ztyumn.ifeng.com,REJECT
-DOMAIN,support.iclient.ifeng.com,REJECT
 DOMAIN,bdfpbimg.ifengimg.com,REJECT
 DOMAIN,c0.ifengimg.com,REJECT
 DOMAIN,c1.ifengimg.com,REJECT
+DOMAIN,y1.ifengimg.com,REJECT
 #News-ETtoday新聞雲
 DOMAIN,ad.ettoday.net,REJECT
 DOMAIN,ad1.ettoday.net,REJECT
@@ -1064,12 +1067,14 @@ DOMAIN,iadmat.nosdn.127.net,REJECT
 DOMAIN,ads.music.126.net,REJECT
 DOMAIN,h5.analytics.126.net,REJECT
 DOMAIN,iadmusicmat.music.126.net,REJECT
+DOMAIN,cms-bucket.ws.126.net,REJECT
 DOMAIN,pg-ad-b1.ws.126.net,REJECT
 DOMAIN,webstat.ws.126.net,REJECT
 DOMAIN,yp.ws.126.net,REJECT
 DOMAIN,yt-adp.ws.126.net,REJECT
 DOMAIN-SUFFIX,da.netease.com,REJECT
 DOMAIN,vmonitor.ws.netease.com,REJECT
+DOMAIN,engine.tuifish.com,REJECT
 #163-有道
 DOMAIN,ad-sdk-config.youdao.com,REJECT
 DOMAIN,conv.youdao.com,REJECT
@@ -1332,6 +1337,7 @@ DOMAIN-SUFFIX,ad.toutiao.com,REJECT
 DOMAIN-SUFFIX,dm.toutiao.com,REJECT
 DOMAIN-SUFFIX,dsp.toutiao.com,REJECT
 DOMAIN-SUFFIX,mon.toutiao.com,REJECT
+DOMAIN,lf1-cdn-tos.bytegoofy.com,REJECT
 DOMAIN,zhanzhang.toutiao.com,REJECT
 DOMAIN,mon.toutiaocloud.com,REJECT
 DOMAIN,mon.toutiaocloud.net,REJECT
@@ -1433,6 +1439,7 @@ DOMAIN,firebaselogging-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN,firebaseremoteconfig.googleapis.com,REJECT
 DOMAIN,adservice.google.co.jp,REJECT
+DOMAIN,fundingchoicesmessages.google.com,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
@@ -1484,6 +1491,7 @@ DOMAIN,qpb1.sohu.com,REJECT
 DOMAIN,mb.hd.sohu.com.cn,REJECT
 DOMAIN,vstat.v.blog.sohu.com,REJECT
 DOMAIN,z.m.tv.sohu.com,REJECT
+DOMAIN,vbng.at.sohu.com,REJECT
 DOMAIN-SUFFIX,pv.sohu.com,REJECT
 DOMAIN-SUFFIX,ads.sohu.com,REJECT
 DOMAIN-SUFFIX,aty.sohu.com,REJECT
@@ -1492,6 +1500,7 @@ DOMAIN-SUFFIX,go.sohu.com,REJECT
 DOMAIN-SUFFIX,images.sohu.com,REJECT
 DOMAIN-SUFFIX,qpb.sohu.com,REJECT
 DOMAIN-SUFFIX,track.sohu.com,REJECT
+DOMAIN,adv-sv-show.focus.cn,REJECT
 #Sogou
 DOMAIN,apt2k.sogou.com,REJECT
 DOMAIN,conv.k.sogou.com,REJECT
