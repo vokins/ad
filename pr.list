@@ -1,4 +1,4 @@
-# Update > 2:56 2025/6/27
+# Update > 3:23 2025/6/27
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -67,6 +67,8 @@ DOMAIN-SUFFIX,accor.com,PROXY
 DOMAIN-SUFFIX,accorhotels.com,PROXY
 #APP - Afterlight
 DOMAIN-SUFFIX,afterlight.co,PROXY
+#APP - AI Wallpapers Pro
+DOMAIN-SUFFIX,ai-wallpaper.pro,PROXY
 #APP - Amazon-Prime Video
 DOMAIN-SUFFIX,a2z.com,PROXY
 DOMAIN-SUFFIX,aiv-delivery.net,PROXY
@@ -210,6 +212,8 @@ DOMAIN-SUFFIX,blogimg.jp,PROXY
 DOMAIN-SUFFIX,blog.jp,PROXY
 #APP - MediaFire
 DOMAIN-SUFFIX,mediafire.com,PROXY
+#APP - MediBang
+DOMAIN-SUFFIX,medibang.com,PROXY
 #APP - Meta
 DOMAIN-SUFFIX,meta.com,PROXY
 DOMAIN-SUFFIX,metacareers.com,PROXY
@@ -284,6 +288,10 @@ DOMAIN-SUFFIX,nike.com,PROXY
 DOMAIN-SUFFIX,notion.com,PROXY
 DOMAIN-SUFFIX,notion.site,PROXY
 DOMAIN-SUFFIX,notion.so,PROXY
+#APP - NubCal
+DOMAIN-SUFFIX,nubcal.com,PROXY
+#APP - ON Lock Screen on.technology
+DOMAIN-SUFFIX,on.technology,PROXY
 #APP - PayPal
 DOMAIN-SUFFIX,paypal.com,PROXY
 DOMAIN-SUFFIX,paypal.me,PROXY
@@ -620,6 +628,7 @@ DOMAIN-SUFFIX,bannedbook.org,PROXY
 DOMAIN-SUFFIX,epochtimes.com,PROXY
 DOMAIN-SUFFIX,ntdtv.com,PROXY
 DOMAIN-SUFFIX,secretchina.com,PROXY
+DOMAIN-SUFFIX,theinitium.com,PROXY
 #Sites - VPN
 ##EMO VPN
 DOMAIN-SUFFIX,emovpn.top,PROXY
@@ -679,6 +688,8 @@ DOMAIN-SUFFIX,ipaddress.com,PROXY
 DOMAIN-SUFFIX,picsum.photos,PROXY
 #Pixabay
 DOMAIN-SUFFIX,pixabay.com,PROXY
+#Retouch4me
+DOMAIN-SUFFIX,retouch4.me,PROXY
 #Saif Al Falah
 DOMAIN-SUFFIX,saif.dev,PROXY
 #Stripe
