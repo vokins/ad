@@ -1,4 +1,4 @@
-# Update > 3:23 2025/6/27
+# Update > 11:48 2025/7/18
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -489,6 +489,9 @@ DOMAIN-SUFFIX,livekit.cloud,PROXY
 DOMAIN-SUFFIX,onetrust.com,PROXY
 #Web - prismic
 DOMAIN-SUFFIX,prismic.io,PROXY
+#Web - PubNub
+DOMAIN-SUFFIX,pubnub.com,PROXY
+DOMAIN-SUFFIX,pubnubapi.com,PROXY
 #Web - Q4inc.com
 DOMAIN-SUFFIX,q4inc.com,PROXY
 DOMAIN-SUFFIX,q4app.com,PROXY
