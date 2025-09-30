@@ -1,4 +1,4 @@
-# Update > 11:48 2025/7/18
+# Update > 19:08 2025/9/30
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
@@ -316,8 +316,16 @@ DOMAIN-SUFFIX,online-radio.hu,PROXY
 DOMAIN-SUFFIX,radio-browser.info,PROXY
 DOMAIN-SUFFIX,rey.fm,PROXY
 #APP - Reddit
+DOMAIN-SUFFIX,redd.it,PROXY
 DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redditmedia.com,PROXY
+DOMAIN-SUFFIX,redditspace.com,PROXY
 DOMAIN-SUFFIX,redditstatic.com,PROXY
+#APP - Twitch
+DOMAIN-SUFFIX,twitch.tv,PROXY
+DOMAIN-SUFFIX,jtvnw.net,PROXY
+DOMAIN-SUFFIX,ttvnw.net,PROXY
+DOMAIN-SUFFIX,twitchcdn.net,PROXY
 #APP - shottr
 DOMAIN-SUFFIX,shottr.cc,PROXY
 #APP - Signal
