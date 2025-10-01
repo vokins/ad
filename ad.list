@@ -1,4 +1,4 @@
-# Update > 19:08 2025/9/30
+# Update > 0:13 2025/10/2
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -357,6 +357,8 @@ DOMAIN,growth-tracker.guazi.com,REJECT
 #EDU-百词斩
 DOMAIN,advertise.baicizhan.com,REJECT
 DOMAIN,advertise.baicizhan.org,REJECT
+DOMAIN,advertise.bczeducation.cn,REJECT
+DOMAIN,ad.bczcdn.com,REJECT
 #EDU-hujiang.com
 DOMAIN,track.hujiang.com,REJECT
 DOMAIN,trackcommon.hujiang.com,REJECT
