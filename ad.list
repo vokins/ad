@@ -1,4 +1,4 @@
-# Update > 0:13 2025/10/2
+# Update > 1:57 2025/11/3
 # https://github.com/vokins/ad/blob/main/ad.list
 # https://raw.githubusercontent.com/vokins/ad/main/ad.list
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -972,6 +972,8 @@ DOMAIN,tx-kmpaudio.pull.yximgs.com,REJECT
 DOMAIN,v1-ad.video.yximgs.com,REJECT
 DOMAIN,v2-ad.video.yximgs.com,REJECT
 DOMAIN,v3-ad.video.yximgs.com,REJECT
+#Pic-lensa
+DOMAIN,telemetry.lensa.paltabrain.com,REJECT
 #Site-https://www.lanzou.com/
 DOMAIN,d.woozooo.com,REJECT
 DOMAIN,hm.woozooo.com,REJECT
@@ -1131,7 +1133,6 @@ DOMAIN,log.mmstat.com,REJECT
 DOMAIN,wgo.mmstat.com,REJECT
 DOMAIN,yt.mmstat.com,REJECT
 #Ali-淘宝
-DOMAIN,ifs.tanx.com, direct
 #DOMAIN,h-adashx.ut.taobao.com,REJECT
 #DOMAIN,acs.m.taobao.com,REJECT
 DOMAIN,trade-acs.m.taobao.com,REJECT
@@ -1385,6 +1386,7 @@ DOMAIN,polaris3-normal-hl.zijieapi.com,REJECT
 DOMAIN,polaris3-normal-lq.zijieapi.com,REJECT
 DOMAIN,polaris5-normal-lf.zijieapi.com,REJECT
 #Google
+DOMAIN-KEYWORD,adservice.google,REJECT
 DOMAIN,analyticsmobile-pa.googleapis.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
 DOMAIN,device-provisioning.googleapis.com,REJECT
@@ -1393,15 +1395,14 @@ DOMAIN,firebaseinstallations.googleapis.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN,firebaseremoteconfig.googleapis.com,REJECT
-DOMAIN,adservice.google.co.jp,REJECT
 DOMAIN,fundingchoicesmessages.google.com,REJECT
+DOMAIN-SUFFIX,2mdn-cn.net,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
 DOMAIN-SUFFIX,adsense.com,REJECT
 DOMAIN-SUFFIX,adsensecustomsearchads.com,REJECT
 DOMAIN-SUFFIX,adsenseformobileapps.com,REJECT
-DOMAIN-SUFFIX,adservice.google.com,REJECT
 DOMAIN-SUFFIX,analytics.google.com,REJECT
 DOMAIN-SUFFIX,advertisercommunity.com,REJECT
 DOMAIN-SUFFIX,advertiserscommunity.com,REJECT
@@ -1411,6 +1412,7 @@ DOMAIN-SUFFIX,adwordsexpress.com,REJECT
 DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,doubleclick.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN-SUFFIX,googleadapis.com,REJECT
 DOMAIN-SUFFIX,googleads.com,REJECT
@@ -1424,7 +1426,6 @@ DOMAIN-SUFFIX,urchin.com,REJECT
 #GoogleCN
 DOMAIN-SUFFIX,ads.google.cn,REJECT
 DOMAIN-SUFFIX,adsense.google.cn,REJECT
-DOMAIN-SUFFIX,adservice.google.cn,REJECT
 DOMAIN-SUFFIX,doubleclick-cn.net,REJECT
 DOMAIN-SUFFIX,googleadservices-cn.com,REJECT
 DOMAIN-SUFFIX,googletagservices-cn.com,REJECT
@@ -1552,7 +1553,9 @@ DOMAIN,finderhy.video.qq.com,REJECT
 DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN-SUFFIX,mediation.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
+DOMAIN-SUFFIX,iads.unitychina.cn,REJECT
 #Yandex
 DOMAIN,yandexmetrica.com,REJECT
 DOMAIN,mc.yandex.com,REJECT
@@ -1573,6 +1576,9 @@ DOMAIN,ads.reddit.com,REJECT
 #Others
 DOMAIN,dn-growing.qbox.me,REJECT
 DOMAIN,lkme.cc,REJECT
+#ETtoday
+DOMAIN,ad.ettoday.net,REJECT
+DOMAIN,ad2.ettoday.net,REJECT
 #Union-BD-Site
 DOMAIN,b1.027art.com,REJECT
 DOMAIN,b2.027art.com,REJECT
@@ -1676,7 +1682,6 @@ DOMAIN,s.u7u9.com,REJECT
 DOMAIN,pb1.jiayongluyou.com,REJECT
 DOMAIN,pb2.jiayongluyou.com,REJECT
 #Union-Ads
-
 DOMAIN-SUFFIX,051091.com,REJECT
 DOMAIN-SUFFIX,123zn.cn,REJECT
 DOMAIN-SUFFIX,186078.com,REJECT
@@ -1716,6 +1721,7 @@ DOMAIN-SUFFIX,ad-stir.com,REJECT
 DOMAIN-SUFFIX,ad-survey.com,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
 DOMAIN-SUFFIX,ad4game.com,REJECT
+DOMAIN-SUFFIX,adapty.io,REJECT
 DOMAIN-SUFFIX,adblockanalytics.com,REJECT
 DOMAIN-SUFFIX,adcolony.com,REJECT
 DOMAIN-SUFFIX,adeaz.com,REJECT
@@ -1771,6 +1777,7 @@ DOMAIN-SUFFIX,adutp.com,REJECT
 DOMAIN-SUFFIX,advertserve.com,REJECT
 DOMAIN-SUFFIX,adview.cn,REJECT
 DOMAIN-SUFFIX,advlion.com,REJECT
+DOMAIN-SUFFIX,adwangmai.com,REJECT
 DOMAIN-SUFFIX,adwo.com,REJECT
 DOMAIN-SUFFIX,adxadserv.com,REJECT
 DOMAIN-SUFFIX,adxadtracker.com,REJECT
@@ -1783,6 +1790,7 @@ DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,amplitude.com,REJECT
 DOMAIN-SUFFIX,analytics-data.io,REJECT
 DOMAIN-SUFFIX,anythinktech.com,REJECT
+DOMAIN-SUFFIX,app-ads-services.com,REJECT
 DOMAIN-SUFFIX,app-analytics-services.com,REJECT
 DOMAIN-SUFFIX,appadhoc.com,REJECT
 DOMAIN-SUFFIX,appboy.com,REJECT
@@ -2118,6 +2126,7 @@ DOMAIN-SUFFIX,propellerads.com,REJECT
 DOMAIN-SUFFIX,ptengine.cn,REJECT
 DOMAIN-SUFFIX,puata.info,REJECT
 DOMAIN-SUFFIX,pubmatic.com,REJECT
+DOMAIN-SUFFIX,qa-analytics.com,REJECT
 DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,qchannel03.cn,REJECT
 DOMAIN-SUFFIX,qchannel04.cn,REJECT
@@ -2327,4 +2336,3 @@ DOMAIN-SUFFIX,zxrtb.com,REJECT
 DOMAIN-SUFFIX,zygaoshou888.cn,REJECT
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
-
