@@ -1,64 +1,127 @@
-# Update > 19:08 2025/9/30
+# Update > 1:56 2025/11/3
 # https://raw.githubusercontent.com/vokins/ad/main/pr.list
 # https://github.com/vokins/ad/blob/main/pr.list
 
 # **Prooxy**
-#Domain - JP网站
-DOMAIN-SUFFIX,co.jp,PROXY
-#Domain - UK网站
-DOMAIN-SUFFIX,co.uk,PROXY
 #Domain - HK网站
 DOMAIN-SUFFIX,com.hk,PROXY
+DOMAIN-SUFFIX,gov.hk,PROXY
+DOMAIN-SUFFIX,aastocks.com,PROXY
+DOMAIN-SUFFIX,hk01.com,PROXY
+DOMAIN-SUFFIX,hkjc.com,PROXY
+DOMAIN-SUFFIX,htx.com,PROXY
+DOMAIN-SUFFIX,mingpao.com,PROXY
+DOMAIN-SUFFIX,on.cc,PROXY
+DOMAIN-SUFFIX,stheadline.com,PROXY
 #Domain - TW网站
 DOMAIN-SUFFIX,com.tw,PROXY
 DOMAIN-SUFFIX,gov.tw,PROXY
+DOMAIN-SUFFIX,69shuba.com,PROXY
+DOMAIN-SUFFIX,banxia.la,PROXY
+DOMAIN-SUFFIX,book543.net,PROXY
+DOMAIN-SUFFIX,czbooks.net,PROXY
+DOMAIN-SUFFIX,gimy.ai,PROXY
+DOMAIN-SUFFIX,hanime1.me,PROXY
+DOMAIN-SUFFIX,happymh.com,PROXY
+DOMAIN-SUFFIX,ixdzs.com,PROXY
+DOMAIN-SUFFIX,ixdzs.tw,PROXY
+DOMAIN-SUFFIX,manhuagui.com,PROXY
+DOMAIN-SUFFIX,mhgui.com,PROXY
+DOMAIN-SUFFIX,thisiscm.com,PROXY
+DOMAIN-SUFFIX,twkan.com,PROXY
+DOMAIN-SUFFIX,chinatimes.com,PROXY
+DOMAIN-SUFFIX,dcard.tw,PROXY
+DOMAIN-SUFFIX,ettoday.net,PROXY
+DOMAIN-SUFFIX,mobile01.com,PROXY
+DOMAIN-SUFFIX,ptt.cc,PROXY
+DOMAIN-SUFFIX,ptt2.cc,PROXY
+DOMAIN-SUFFIX,setn.com,PROXY
+DOMAIN-SUFFIX,techbang.com,PROXY
+DOMAIN-SUFFIX,udn.com,PROXY
+DOMAIN-SUFFIX,wantgoo.com,PROXY
+#Domain - co网站
+DOMAIN-SUFFIX,co.ao,PROXY
+DOMAIN-SUFFIX,co.bw,PROXY
+DOMAIN-SUFFIX,co.ck,PROXY
+DOMAIN-SUFFIX,co.cr,PROXY
+DOMAIN-SUFFIX,co.id,PROXY
+DOMAIN-SUFFIX,co.il,PROXY
+DOMAIN-SUFFIX,co.in,PROXY
+DOMAIN-SUFFIX,co.jp,PROXY
+DOMAIN-SUFFIX,co.ke,PROXY
+DOMAIN-SUFFIX,co.kr,PROXY
+DOMAIN-SUFFIX,co.ls,PROXY
+DOMAIN-SUFFIX,co.ma,PROXY
+DOMAIN-SUFFIX,co.mz,PROXY
+DOMAIN-SUFFIX,co.nz,PROXY
+DOMAIN-SUFFIX,co.th,PROXY
+DOMAIN-SUFFIX,co.tz,PROXY
+DOMAIN-SUFFIX,co.ug,PROXY
+DOMAIN-SUFFIX,co.uk,PROXY
+DOMAIN-SUFFIX,co.uz,PROXY
+DOMAIN-SUFFIX,co.ve,PROXY
+DOMAIN-SUFFIX,co.vi,PROXY
+DOMAIN-SUFFIX,co.za,PROXY
+DOMAIN-SUFFIX,co.zm,PROXY
+DOMAIN-SUFFIX,co.zw,PROXY
 #API
 DOMAIN-SUFFIX,revenuecat.com,PROXY
-#Apple-AI
+#Apple-AI https://support.apple.com/zh-cn/101555
 DOMAIN,apple-relay.apple.com,PROXY
-DOMAIN,apple-relay.cloudflare.com,PROXY
-#Alphabet-Google
+DOMAIN,apple-relay.fastly-edge.com,PROXY
+#Alphabet-Google https://www.gstatic.com/ipranges/goog.json
 DOMAIN-KEYWORD,.google,PROXY
 DOMAIN-KEYWORD,google.,PROXY
 DOMAIN-SUFFIX,google.com,PROXY
 DOMAIN-SUFFIX,googleapis.com,PROXY
-DOMAIN-SUFFIX,googletagmanager.com,PROXY
-DOMAIN-SUFFIX,gstatic.cn,PROXY
+DOMAIN-SUFFIX,googleusercontent.com,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
 DOMAIN-SUFFIX,gstatic.com,PROXY
-DOMAIN-SUFFIX,pki.goog,PROXY
-DOMAIN-SUFFIX,recaptcha.net,PROXY
-#Alphabet-Google-3rd
+DOMAIN-SUFFIX,ytimg.com,PROXY
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-KEYWORD,youtube.,PROXY
+DOMAIN-KEYWORD,.youtube,PROXY
+DOMAIN-SUFFIX,abc.xyz,PROXY
+DOMAIN-SUFFIX,amp.dev,PROXY
 DOMAIN-SUFFIX,android.com,PROXY
 DOMAIN-SUFFIX,appsheet.com,PROXY
+DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,blogspot.com,PROXY
 DOMAIN-SUFFIX,chrome.com,PROXY
-DOMAIN-SUFFIX,chromebook.com,PROXY
 DOMAIN-SUFFIX,chromium.org,PROXY
-DOMAIN-SUFFIX,gvt0.cn,PROXY
+DOMAIN-SUFFIX,devpost.com,PROXY
+DOMAIN-SUFFIX,firebase.blog,PROXY
+DOMAIN-SUFFIX,firebaseapp.com,PROXY
+DOMAIN-SUFFIX,firebaseio.com,PROXY
+DOMAIN-SUFFIX,fitbit.com,PROXY
+DOMAIN-SUFFIX,g.cn,PROXY
+DOMAIN-SUFFIX,g.co,PROXY
+DOMAIN-SUFFIX,go.dev,PROXY
+DOMAIN-SUFFIX,goo.gl,PROXY
+DOMAIN-SUFFIX,goo.gle,PROXY
+DOMAIN-SUFFIX,google.dev,PROXY
+DOMAIN-SUFFIX,googleblog.com,PROXY
+DOMAIN-SUFFIX,googlecode.com,PROXY
+DOMAIN-SUFFIX,googlegroups.com,PROXY
+DOMAIN-SUFFIX,googlesource.com,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
 DOMAIN-SUFFIX,gvt1.com,PROXY
 DOMAIN-SUFFIX,gvt2.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
-DOMAIN-SUFFIX,g.cn,PROXY
-DOMAIN-SUFFIX,g.co,PROXY
-DOMAIN-SUFFIX,goo.gl,PROXY
-DOMAIN-SUFFIX,forms.gle,PROXY
-DOMAIN-SUFFIX,googleblog.com,PROXY
-DOMAIN-SUFFIX,amp.dev,PROXY
-DOMAIN-SUFFIX,go.dev,PROXY
-DOMAIN-SUFFIX,google.dev,PROXY
+DOMAIN-SUFFIX,nest.com,PROXY
 DOMAIN-SUFFIX,page.link,PROXY
+DOMAIN-SUFFIX,pki.goog,PROXY
+DOMAIN-SUFFIX,recaptcha.net,PROXY
 DOMAIN-SUFFIX,web.dev,PROXY
+#Alphabet-Google-3rd
+DOMAIN-SUFFIX,gvt0.cn,PROXY
+DOMAIN-SUFFIX,gstatic.cn,PROXY
 #Alphabet-Gmail
 DOMAIN-SUFFIX,gmail.com,PROXY
 DOMAIN-SUFFIX,googlemail.com,PROXY
 #Alphabet-YouTube
-DOMAIN-SUFFIX,ggpht.com,PROXY
-DOMAIN-SUFFIX,googleusercontent.com,PROXY
 DOMAIN-SUFFIX,googlevideo.com,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
-DOMAIN-SUFFIX,youtube.com,PROXY
 DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
@@ -99,6 +162,8 @@ DOMAIN-SUFFIX,brightchat.com,PROXY
 #APP - Cash
 DOMAIN-SUFFIX,cash.app,PROXY
 DOMAIN-SUFFIX,cashappapi.com,PROXY
+#APP - Canva
+DOMAIN-SUFFIX,canva.com,PROXY
 #APP - Claude
 DOMAIN-SUFFIX,claude.ai,PROXY
 DOMAIN-SUFFIX,anthropic.com,PROXY
@@ -179,6 +244,8 @@ DOMAIN-SUFFIX,hulu.com,PROXY
 DOMAIN-SUFFIX,imdb.com,PROXY
 #APP - imgur
 DOMAIN-SUFFIX,imgur.com,PROXY
+#APP - kaspersky
+DOMAIN-SUFFIX,kaspersky.com,PROXY
 #APP - LG ThinQ
 DOMAIN-SUFFIX,lgthinq.com,PROXY
 #APP - LIHKG
@@ -216,25 +283,38 @@ DOMAIN-SUFFIX,mediafire.com,PROXY
 DOMAIN-SUFFIX,medibang.com,PROXY
 #APP - Meta
 DOMAIN-SUFFIX,meta.com,PROXY
+DOMAIN-SUFFIX,metamail.com,PROXY
 DOMAIN-SUFFIX,metacareers.com,PROXY
 DOMAIN-SUFFIX,fbsbx.com,PROXY
 DOMAIN-SUFFIX,oculus.com,PROXY
 DOMAIN-SUFFIX,oculuscdn.com,PROXY
-#APP - Meta-Facebook
+#APP - Meta-Facebook https://www.facebook.com/help/1634546593478660
 DOMAIN-SUFFIX,fb.me,PROXY
 DOMAIN-SUFFIX,fb.com,PROXY
 DOMAIN-SUFFIX,fbcdn.net,PROXY
 DOMAIN-SUFFIX,facebook.com,PROXY
 DOMAIN-SUFFIX,facebook.net,PROXY
+DOMAIN-SUFFIX,facebookmail.com,PROXY
+DOMAIN-SUFFIX,fb.gg,PROXY
+DOMAIN-SUFFIX,fb.watch,PROXY
+DOMAIN-SUFFIX,fbwat.ch,PROXY
 #APP - Meta-Instagram
-DOMAIN-SUFFIX,instagram.com,PROXY
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
+DOMAIN-SUFFIX,instagram.com,PROXY
+DOMAIN-SUFFIX,instagr.am,PROXY
+DOMAIN-SUFFIX,ig.me,PROXY
+DOMAIN-SUFFIX,igsonar.com,PROXY
 #APP - Meta-Messenger
+DOMAIN-SUFFIX,m.me,PROXY
 DOMAIN-SUFFIX,messenger.com,PROXY
+DOMAIN-SUFFIX,msngr.com,PROXY
 #APP - Meta-Threads
+DOMAIN-SUFFIX,threads.com,PROXY
 DOMAIN-SUFFIX,threads.net,PROXY
-#APP - Meta-WhatsApp
+DOMAIN-SUFFIX,threadsapp.net,PROXY
+#APP - Meta-WhatsApp https://developers.facebook.com/docs/whatsapp/guides/network-requirements/
 DOMAIN-SUFFIX,wa.me,PROXY
+DOMAIN-SUFFIX,whatsapp.biz,PROXY
 DOMAIN-SUFFIX,whatsapp.com,PROXY
 DOMAIN-SUFFIX,whatsapp.net,PROXY
 #APP - Microsoft
@@ -267,6 +347,7 @@ DOMAIN-SUFFIX,oaistatic.com,PROXY
 DOMAIN-SUFFIX,oaiusercontent.com,PROXY
 DOMAIN-SUFFIX,prodregistryv2.org,PROXY
 DOMAIN-SUFFIX,sora.com,PROXY
+DOMAIN-SUFFIX,sendgrid.net,PROXY
 #APP - Microsoft-Office
 DOMAIN-SUFFIX,microsoft365.com,PROXY
 DOMAIN-SUFFIX,office.com,PROXY
@@ -302,10 +383,14 @@ DOMAIN-SUFFIX,pinterest.com,PROXY
 #APP - pixiv
 DOMAIN-SUFFIX,pixiv.net,PROXY
 DOMAIN-SUFFIX,pximg.net,PROXY
+#APP - plex
+DOMAIN-SUFFIX,plex.tv,PROXY
 #APP - Proton
 DOMAIN-SUFFIX,proton.me,PROXY
 DOMAIN-SUFFIX,protonvpn.com,PROXY
 #APP - Quora
+DOMAIN-SUFFIX,poe.com,PROXY
+DOMAIN-SUFFIX,poecdn.net,PROXY
 DOMAIN-SUFFIX,quoracdn.net,PROXY
 DOMAIN-SUFFIX,quora.com,PROXY
 #App - Radddio
@@ -328,6 +413,12 @@ DOMAIN-SUFFIX,ttvnw.net,PROXY
 DOMAIN-SUFFIX,twitchcdn.net,PROXY
 #APP - shottr
 DOMAIN-SUFFIX,shottr.cc,PROXY
+#APP - Stripchat
+DOMAIN-SUFFIX,doppiocdn.org,PROXY
+DOMAIN-SUFFIX,striiiipst.com,PROXY
+DOMAIN-SUFFIX,strpssts-ana.com,PROXY
+DOMAIN-SUFFIX,strpst.com,PROXY
+DOMAIN-SUFFIX,stripchat.com,PROXY
 #APP - Signal
 DOMAIN-SUFFIX,signal.org,PROXY
 #APP - Sketchar
@@ -339,11 +430,17 @@ DOMAIN-SUFFIX,spotify.com,PROXY
 #APP - Snapchat
 DOMAIN-SUFFIX,sc-cdn.net,PROXY
 DOMAIN-SUFFIX,snapchat.com,PROXY
-#APP - Telegram https://core.telegram.org/resources/cidr.txt
+#APP - Telegram https://core.telegram.org/bug-bounty https://core.telegram.org/resources/cidr.txt
 DOMAIN-SUFFIX,cdn-telegram.org,PROXY
-DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,contest.com,PROXY
+DOMAIN-SUFFIX,quiz.directory,PROXY
+DOMAIN-SUFFIX,stel.com,PROXY
 DOMAIN-SUFFIX,t.me,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
+DOMAIN-SUFFIX,telegram.me,PROXY
+DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,telesco.pe,PROXY
+DOMAIN-SUFFIX,tg.dev,PROXY
 #APP - Tumblr
 DOMAIN-SUFFIX,tumblr.com,PROXY
 #APP - Twitter
@@ -456,6 +553,9 @@ DOMAIN-SUFFIX,cloudinary.com,PROXY
 #Web - canny
 DOMAIN-SUFFIX,canny.io,PROXY
 DOMAIN-SUFFIX,canny-assets.io,PROXY
+#Web - Datadog https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/
+DOMAIN-SUFFIX,browser-intake-datadoghq.com,PROXY
+DOMAIN-SUFFIX,datadoghq.com,PROXY
 #Web - DigiCert
 DOMAIN-SUFFIX,digicert.com,PROXY
 #Web - Embedly
@@ -475,6 +575,8 @@ DOMAIN-SUFFIX,mjj.today,PROXY
 DOMAIN-SUFFIX,freeimage.host,PROXY
 DOMAIN-SUFFIX,iili.io,PROXY
 DOMAIN-SUFFIX,imghippo.com,PROXY
+#Web - imgix
+DOMAIN-SUFFIX,imgix.net,PROXY
 #Web - Intercom
 DOMAIN-SUFFIX,ctfassets.net,PROXY
 DOMAIN-SUFFIX,intercom.com,PROXY
@@ -486,6 +588,10 @@ DOMAIN-SUFFIX,jquery.com,PROXY
 DOMAIN-SUFFIX,jquerymobile.com,PROXY
 DOMAIN-SUFFIX,jqueryui.com,PROXY
 DOMAIN-SUFFIX,qunitjs.com,PROXY
+#Web - jfrog
+DOMAIN-SUFFIX,jfrog.com,PROXY
+DOMAIN-SUFFIX,jfrog.info,PROXY
+DOMAIN-SUFFIX,bintray.com,PROXY
 #Web - jsDelivr
 DOMAIN-SUFFIX,jsdelivr.com,PROXY
 DOMAIN-SUFFIX,jsdelivr.net,PROXY
@@ -493,6 +599,8 @@ DOMAIN-SUFFIX,esm.run,PROXY
 #Web - LiveKit
 DOMAIN-SUFFIX,livekit.io,PROXY
 DOMAIN-SUFFIX,livekit.cloud,PROXY
+#Web - OneSignal
+DOMAIN-SUFFIX,onesignal.com,PROXY
 #Web - OneTrust
 DOMAIN-SUFFIX,onetrust.com,PROXY
 #Web - prismic
@@ -511,13 +619,23 @@ DOMAIN-SUFFIX,sentry-cdn.com,PROXY
 DOMAIN-SUFFIX,sentry.io,PROXY
 #Web - shields.io
 DOMAIN-SUFFIX,shields.io,PROXY
-#Web - Statsig
+#Web - Statsig https://docs.statsig.com/infrastructure/statsig_domains
+DOMAIN-SUFFIX,assetsconfigcdn.org,PROXY
+DOMAIN-SUFFIX,beyondwickedmapping.org,PROXY
+DOMAIN-SUFFIX,cloudflare-dns.com,PROXY
+DOMAIN-SUFFIX,featureassets.org,PROXY
+DOMAIN-SUFFIX,featuregates.org,PROXY
+DOMAIN-SUFFIX,prodregistryv2.org,PROXY
 DOMAIN-SUFFIX,statsig.com,PROXY
 DOMAIN-SUFFIX,statsigapi.net,PROXY
+DOMAIN-SUFFIX,statsigcdn.com,PROXY
 #Web - Superwall
 DOMAIN-SUFFIX,superwall.com,PROXY
 DOMAIN-SUFFIX,superwall.me,PROXY
 DOMAIN-SUFFIX,superwalleditor.com,PROXY
+#Web - tenor
+DOMAIN-SUFFIX,tenor.co,PROXY
+DOMAIN-SUFFIX,tenor.com,PROXY
 #Web - Usercentrics
 DOMAIN-SUFFIX,usercentrics.com,PROXY
 DOMAIN-SUFFIX,usercentrics.eu,PROXY
@@ -527,6 +645,9 @@ DOMAIN-SUFFIX,wix-code.com,PROXY
 DOMAIN-SUFFIX,wixstatic.com,PROXY
 DOMAIN-SUFFIX,wixstudio.com,PROXY
 DOMAIN-SUFFIX,parastorage.com,PROXY
+#Web - WorkOS
+DOMAIN-SUFFIX,workos.com,PROXY
+DOMAIN-SUFFIX,workoscdn.com,PROXY
 #Web - Zendesk
 DOMAIN-KEYWORD, .zendesk,PROXY
 DOMAIN-SUFFIX,zdassets.com,PROXY
@@ -587,7 +708,9 @@ DOMAIN-SUFFIX,zencdn.net,PROXY
 DOMAIN-SUFFIX,beeg.com,PROXY
 DOMAIN-SUFFIX,eporner.com,PROXY
 DOMAIN-SUFFIX,hqporner.com,PROXY
+DOMAIN-SUFFIX,jable.tv,PROXY
 DOMAIN-SUFFIX,missav.com,PROXY
+DOMAIN-SUFFIX,missav.ws,PROXY
 DOMAIN-SUFFIX,pornhub.com,PROXY
 DOMAIN-SUFFIX,porntrex.com,PROXY
 DOMAIN-SUFFIX,spankbang.com,PROXY
@@ -727,6 +850,8 @@ DOMAIN-SUFFIX,vercel.app,PROXY
 DOMAIN-SUFFIX,v1.mk,PROXY
 DOMAIN-SUFFIX,abra.halu.ca,PROXY
 DOMAIN-SUFFIX,goodsoul.live,PROXY
+#Tool -XSaveNow
+DOMAIN-SUFFIX,xsavenow.com,PROXY
 #Tor Browser
 DOMAIN-SUFFIX,torproject.org,PROXY
 #TVDB
@@ -743,3 +868,25 @@ DOMAIN-SUFFIX,v2ex.com,PROXY
 DOMAIN-SUFFIX,wenxuecity.com,PROXY
 #Yubico
 DOMAIN-SUFFIX,yubico.com,PROXY
+#OUC
+DOMAIN-SUFFIX,outsightchina.com,PROXY
+#anue-cnyes
+DOMAIN-SUFFIX,cnyes.com,PROXY
+DOMAIN-SUFFIX,cnyes.cool,PROXY
+#PIXNET
+DOMAIN-SUFFIX,pimg.tw,PROXY
+DOMAIN-SUFFIX,pixfs.net,PROXY
+DOMAIN-SUFFIX,pixnet.cc,PROXY
+DOMAIN-SUFFIX,pixnet.net,PROXY
+DOMAIN-SUFFIX,pixnet.pro,PROXY
+DOMAIN-SUFFIX,popo.tw,PROXY
+#shopee.tw
+DOMAIN-SUFFIX,shopee.tw,PROXY
+DOMAIN-SUFFIX,susercontent.com,PROXY
+DOMAIN-SUFFIX,shopeemobile.com,PROXY
+#OpenRice
+DOMAIN-SUFFIX,openrice.com,PROXY
+DOMAIN-SUFFIX,orstatic.com.cn,PROXY
+#rumors
+DOMAIN-KEYWORD,rumors.net,PROXY
+DOMAIN-KEYWORD,rumors.com,PROXY
