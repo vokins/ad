@@ -1,6 +1,6 @@
-# Update > 1:56 2025/11/3
-# https://raw.githubusercontent.com/vokins/ad/main/pr.list
-# https://github.com/vokins/ad/blob/main/pr.list
+# Update > 23:27 2025/11/28
+# https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
+# https://github.com/vokins/ad/blob/main/pr.lsr
 
 # **Prooxy**
 #Domain - HK网站
@@ -88,6 +88,7 @@ DOMAIN-SUFFIX,appsheet.com,PROXY
 DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,blogspot.com,PROXY
+DOMAIN-SUFFIX,c.gle,PROXY
 DOMAIN-SUFFIX,chrome.com,PROXY
 DOMAIN-SUFFIX,chromium.org,PROXY
 DOMAIN-SUFFIX,devpost.com,PROXY
@@ -216,6 +217,10 @@ DOMAIN-SUFFIX,flickr.com,PROXY
 DOMAIN-SUFFIX,staticflickr.com,PROXY
 #APP - FLIPBOARD
 DOMAIN-SUFFIX,flipboard.com,PROXY
+#APP - Folo
+DOMAIN-SUFFIX,folo.is,PROXY
+DOMAIN-SUFFIX,follow.is,PROXY
+DOMAIN-SUFFIX,rsshub.app,PROXY
 #APP - Foursquare
 DOMAIN-SUFFIX,foursquare.com,PROXY
 DOMAIN-SUFFIX,4sqi.net,PROXY
@@ -232,6 +237,9 @@ DOMAIN-SUFFIX,giffgaff.com,PROXY
 #APP - GoDaddy
 DOMAIN-SUFFIX,godaddy.com,PROXY
 DOMAIN-SUFFIX,wsimg.com,PROXY
+#GoodShort
+DOMAIN-SUFFIX,good-short.com,PROXY
+DOMAIN-SUFFIX,goodreels.com,PROXY
 #APP - Gumroad
 DOMAIN-SUFFIX,gumroad.com,PROXY
 #APP - HashPhotos
@@ -373,6 +381,8 @@ DOMAIN-SUFFIX,notion.so,PROXY
 DOMAIN-SUFFIX,nubcal.com,PROXY
 #APP - ON Lock Screen on.technology
 DOMAIN-SUFFIX,on.technology,PROXY
+#APP - Pass2U
+DOMAIN-SUFFIX,pass2u.net,PROXY
 #APP - PayPal
 DOMAIN-SUFFIX,paypal.com,PROXY
 DOMAIN-SUFFIX,paypal.me,PROXY
@@ -430,6 +440,8 @@ DOMAIN-SUFFIX,spotify.com,PROXY
 #APP - Snapchat
 DOMAIN-SUFFIX,sc-cdn.net,PROXY
 DOMAIN-SUFFIX,snapchat.com,PROXY
+DOMAIN-SUFFIX,snapkit.com,PROXY
+DOMAIN-SUFFIX,snap.com,PROXY
 #APP - Telegram https://core.telegram.org/bug-bounty https://core.telegram.org/resources/cidr.txt
 DOMAIN-SUFFIX,cdn-telegram.org,PROXY
 DOMAIN-SUFFIX,contest.com,PROXY
@@ -862,6 +874,8 @@ DOMAIN-SUFFIX,twirrl.app,PROXY
 DOMAIN,demo.unlock-music.dev,PROXY
 #Userstyles.org | Stylish
 DOMAIN-SUFFIX,userstyles.org,PROXY
+#linux.do
+DOMAIN-SUFFIX,linux.do,PROXY
 #V2EX
 DOMAIN-SUFFIX,v2ex.com,PROXY
 #WenXueCity
