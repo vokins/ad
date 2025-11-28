@@ -1,0 +1,44 @@
+# Update > 19:29 2025/11/2
+# https://raw.githubusercontent.com/vokins/ad/main/dr.lsr
+# https://github.com/vokins/ad/blob/main/dr.lsr
+
+# **DIRECT**
+
+#Router
+DOMAIN,cudy.net,DIRECT
+DOMAIN,fritz.box,DIRECT
+DOMAIN,linksyssmartwifi.com,DIRECT
+DOMAIN,melogin.cn,DIRECT
+DOMAIN,miwifi.com,DIRECT
+DOMAIN,router.optimum.net,DIRECT
+DOMAIN,tplinkwifi.net,DIRECT
+DOMAIN,tplogin.cn,DIRECT
+DOMAIN-SUFFIX,routerlogin.com,DIRECT
+DOMAIN-SUFFIX,routerlogin.net,DIRECT
+
+# LAN
+DOMAIN-SUFFIX,.local,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+
+IP-CIDR,17.0.0.0/8,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
+
+#Domain - CN Sites https://domain.miit.gov.cn
+DOMAIN-SUFFIX,edu.cn,DIRECT
+DOMAIN-SUFFIX,gov.cn,DIRECT
+DOMAIN-SUFFIX,mil.cn,DIRECT
+DOMAIN-SUFFIX,ac.cn,DIRECT
+DOMAIN-SUFFIX,com.cn,DIRECT
+DOMAIN-SUFFIX,net.cn,DIRECT
+DOMAIN-SUFFIX,org.cn,DIRECT
+
+#WeiXin
+DOMAIN,dns.weixin.qq.com,DIRECT
+DOMAIN,dns.weixin.qq.com.cn,DIRECT
+DOMAIN,wximg.wxs.qq.com,DIRECT
+
+# DETECT LOCAL NETWORK
+GEOIP,CN,DIRECT
