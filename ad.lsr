@@ -1,13 +1,13 @@
-# Update > 1:57 2025/11/3
-# https://github.com/vokins/ad/blob/main/ad.list
-# https://raw.githubusercontent.com/vokins/ad/main/ad.list
+# Update > 23:26 2025/11/28
+# https://github.com/vokins/ad/blob/main/ad.lsr
+# https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
-# 策略建议使用特定域名走Pr.list，白名单域名dr.list
+# 策略建议使用特定域名走Pr.lsr，白名单域名dr.lsr
 
 # **Reject**
 #Apple Ads
 DOMAIN-SUFFIX,advertising.apple.com,REJECT
-DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+#DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,safebrowsing.apple,REJECT
 DOMAIN,securemetrics.apple.com,REJECT
 DOMAIN,metrics.icloud.com,REJECT
@@ -129,6 +129,7 @@ DOMAIN,adcdn.tencentmusic.com,REJECT
 DOMAIN,adclick.tencentmusic.com,REJECT
 DOMAIN,adexpo.tencentmusic.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,adcdn6.tencentmusic.com,REJECT
 DOMAIN,monitor.music.qq.com,REJECT
 DOMAIN,report.tencentmusic.com,REJECT
 DOMAIN,stat.y.qq.com,REJECT
@@ -138,6 +139,7 @@ DOMAIN,tmeadcomm.y.qq.com,REJECT
 #Audio-QQ音乐-全民K歌
 DOMAIN-SUFFIX,gdc.kg.qq.com,REJECT
 #Audio-酷我
+DOMAIN,log.kuwo.cn,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
 DOMAIN,g.koowo.com,REJECT
@@ -261,6 +263,8 @@ DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.diwodiwo.xyz,REJECT
 #Book-wenxuecity
 DOMAIN,adserver.wenxuecity.com,REJECT
+#Bank-农行防代理检测
+DOMAIN,msmp.abchina.com.cn,REJECT
 #Buy-拼多多
 DOMAIN,adim.pinduoduo.com,REJECT
 DOMAIN,t-dsp.pinduoduo.com,REJECT
@@ -268,8 +272,6 @@ DOMAIN,video-dsp.pddpic.com,REJECT
 #Buy-美团
 DOMAIN,adgame.waimai.meituan.com,REJECT
 DOMAIN,analytics.meituan.net,REJECT
-DOMAIN,mtvod.meituan.net,REJECT
-DOMAIN-SUFFIX,d.meituan.net,REJECT
 DOMAIN-SUFFIX,dreport.meituan.net,REJECT
 DOMAIN-SUFFIX,hreport.meituan.com,REJECT
 DOMAIN-SUFFIX,report.meituan.com,REJECT
@@ -607,8 +609,13 @@ DOMAIN,ads-img-al.xhscdn.com,REJECT
 DOMAIN,ads-img-qc.xhscdn.com,REJECT
 DOMAIN,ads-video-al.xhscdn.com,REJECT
 DOMAIN,ads-video-qc.xhscdn.com,REJECT
+DOMAIN,ros-upload-d4.xhscdn.com,REJECT
 DOMAIN,crash.xiaohongshu.com,REJECT
 DOMAIN,spider-tracker.xiaohongshu.com,REJECT
+DOMAIN,ros-upload.xiaohongshu.com,REJECT
+DOMAIN,ros-upload-ali.xiaohongshu.com,REJECT
+DOMAIN,ros-upload-ak.xiaohongshu.com,REJECT
+DOMAIN,ros-upload-akorign-al.xiaohongshu.com,REJECT
 #SNS-搞笑段子
 DOMAIN,ad.rhinox.cn,REJECT
 #SNS-最右/皮皮搞笑
@@ -708,7 +715,9 @@ DOMAIN,ad.cyapi.cn,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
 DOMAIN,bcd.caiyunapp.com,REJECT
 #Tool-华风爱科
+DOMAIN,log-stats.weathercn.com,REJECT
 DOMAIN,stqt.weathercn.com,REJECT
+DOMAIN,zgzxs.weathercn.com,REJECT
 #Tool-万年历
 DOMAIN,ad.51wnl-cq.com,REJECT
 DOMAIN,adextra.51wnl-cq.com,REJECT
@@ -896,6 +905,8 @@ DOMAIN,mpartner.funshion.com,REJECT
 DOMAIN,vs.funshion.com,REJECT
 DOMAIN,stat.funshion.net,REJECT
 #Video-CNTV
+DOMAIN-SUFFIX,ads.cctv.com,REJECT
+DOMAIN,sspapi.ads.cctv.com,REJECT
 DOMAIN,tracker.ads.cctv.com,REJECT
 DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
 DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
@@ -1396,6 +1407,7 @@ DOMAIN,firebaselogging-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN,firebaseremoteconfig.googleapis.com,REJECT
 DOMAIN,fundingchoicesmessages.google.com,REJECT
+DOMAIN,ogads-pa.clients6.google.com,REJECT
 DOMAIN-SUFFIX,2mdn-cn.net,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
@@ -1499,6 +1511,7 @@ DOMAIN,logsdk.qq.com,REJECT
 DOMAIN,masdkv6.3g.qq.com,REJECT
 #DOMAIN,mazu.m.qq.com,REJECT
 DOMAIN,c2.gdt.qq.com,REJECT
+DOMAIN,ii.gdt.qq.com,REJECT
 DOMAIN,mi.gdt.qq.com,REJECT
 DOMAIN,t.gdt.qq.com,REJECT
 DOMAIN,v.gdt.qq.com,REJECT
@@ -1576,9 +1589,6 @@ DOMAIN,ads.reddit.com,REJECT
 #Others
 DOMAIN,dn-growing.qbox.me,REJECT
 DOMAIN,lkme.cc,REJECT
-#ETtoday
-DOMAIN,ad.ettoday.net,REJECT
-DOMAIN,ad2.ettoday.net,REJECT
 #Union-BD-Site
 DOMAIN,b1.027art.com,REJECT
 DOMAIN,b2.027art.com,REJECT
@@ -2336,3 +2346,4 @@ DOMAIN-SUFFIX,zxrtb.com,REJECT
 DOMAIN-SUFFIX,zygaoshou888.cn,REJECT
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
+
