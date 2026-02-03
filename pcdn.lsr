@@ -1,0 +1,73 @@
+# Update > 16:43 2026/2/3
+# https://github.com/vokins/ad/blob/main/pcdn.lsr
+# https://raw.githubusercontent.com/vokins/ad/main/pcdn.lsr
+
+# https://github.com/privacy-protection-tools/anti-AD/blob/master/discretion/pcdn.txt
+# https://cdn.jsdelivr.net/gh/susetao/PCDNFilter-CHN-@main/PCDNFilter.txt
+# https://thhbdd.github.io/Block-pcdn-domains/ban.txt
+# https://raw.githubusercontent.com/Womsxd/MyAdBlockRules/refs/heads/master/p2pcdnblock.txt
+# https://loon.103516.xyz/Rule/PCDN.lsr
+# https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt
+#IQIYI
+DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com,REJECT
+#bilibili
+DOMAIN-SUFFIX,v1d.szbdyd.com,REJECT
+DOMAIN-SUFFIX,mcdn.bilivideo.cn,REJECT
+#QQ 音乐
+DOMAIN-SUFFIX,musicstun.p2p.qq.com,REJECT
+DOMAIN-SUFFIX,p2ptun.qq.com,REJECT
+DOMAIN-SUFFIX,tp2p.kg.qq.com,REJECT
+#腾讯
+DOMAIN-SUFFIX,p2p.qq.com,REJECT
+DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com,REJECT
+DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com,REJECT
+DOMAIN-SUFFIX,stun-a1.qq.com,REJECT
+DOMAIN-SUFFIX,stun.qqlive.qq.com,REJECT
+DOMAIN-SUFFIX,signal.qvb.qcloud.com,REJECT
+#虎牙
+DOMAIN-SUFFIX,p2p.huya.com,REJECT
+#芒果tv
+DOMAIN-SUFFIX,stun.hitv.com,REJECT
+#56网/搜狐视频
+DOMAIN-SUFFIX,p2p.tracker.tv.sohu.com,REJECT
+#金山云
+DOMAIN-SUFFIX,stun.yfp2p.net,REJECT
+#斗鱼
+DOMAIN-SUFFIX,dyp2p-ali.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,dyp2p-hw.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2p-ali.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2pchunk-hw.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2pchunk-table.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2pchunk-ws.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2plog.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,p2pvod-ws.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,stun.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,stun1.douyucdn.cn,REJECT
+! 星域云/网心
+DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com,REJECT
+DOMAIN-SUFFIX,conf-darwin.xycdn.com,REJECT
+DOMAIN-SUFFIX,seeds-open.xycdn.com,REJECT
+DOMAIN-SUFFIX,sd-gl.xycdn.com,REJECT
+#其他
+DOMAIN-SUFFIX,bsccdn.net,REJECT
+DOMAIN-SUFFIX,cdnnodedns.cn,REJECT
+DOMAIN-SUFFIX,gjfzpt.cn,REJECT
+DOMAIN-SUFFIX,ietheivaicai.com,REJECT
+DOMAIN-SUFFIX,jomodns.cn,REJECT
+DOMAIN-SUFFIX,kuiniuca.com,REJECT
+DOMAIN-SUFFIX,nexusedgeio.com,REJECT
+DOMAIN-SUFFIX,onethingpcs.com,REJECT
+DOMAIN-SUFFIX,p2cdn.com,REJECT
+DOMAIN-SUFFIX,pcdn.xmcdn.com,REJECT
+DOMAIN-SUFFIX,pcdn.yximgs.com,REJECT
+DOMAIN-SUFFIX,pkoplink.com,REJECT
+DOMAIN-SUFFIX,ppio.cloud,REJECT
+DOMAIN-SUFFIX,saxysec.com,REJECT
+DOMAIN-SUFFIX,szbdyd.com,REJECT
+DOMAIN-SUFFIX,tianwenca.com,REJECT
+DOMAIN-SUFFIX,uhabo.com,REJECT
+DOMAIN-SUFFIX,yfcdn.net,REJECT
+DOMAIN-SUFFIX,yfcloud.com,REJECT
