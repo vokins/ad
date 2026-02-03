@@ -1,4 +1,4 @@
-# Update > 23:27 2025/11/28
+# Update > 14:19 2026/2/3
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 # https://github.com/vokins/ad/blob/main/pr.lsr
 
@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,thisiscm.com,PROXY
 DOMAIN-SUFFIX,twkan.com,PROXY
 DOMAIN-SUFFIX,chinatimes.com,PROXY
 DOMAIN-SUFFIX,dcard.tw,PROXY
-DOMAIN-SUFFIX,ettoday.net,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
 DOMAIN-SUFFIX,ptt.cc,PROXY
 DOMAIN-SUFFIX,ptt2.cc,PROXY
@@ -64,6 +63,9 @@ DOMAIN-SUFFIX,co.vi,PROXY
 DOMAIN-SUFFIX,co.za,PROXY
 DOMAIN-SUFFIX,co.zm,PROXY
 DOMAIN-SUFFIX,co.zw,PROXY
+#Domain - 其他网站
+DOMAIN-SUFFIX,or.jp,PROXY
+DOMAIN-SUFFIX,com.sg,PROXY
 #API
 DOMAIN-SUFFIX,revenuecat.com,PROXY
 #Apple-AI https://support.apple.com/zh-cn/101555
@@ -556,6 +558,7 @@ DOMAIN-SUFFIX,archive.org,PROXY
 DOMAIN-SUFFIX,bunny.net,PROXY
 DOMAIN-SUFFIX,b-cdn.net,PROXY
 #Web - Cloudflare
+DOMAIN-SUFFIX,cloudflare-dns.com,PROXY
 DOMAIN-SUFFIX,cloudflare.com,PROXY
 DOMAIN-SUFFIX,cloudflare.net,PROXY
 DOMAIN-SUFFIX,cloudflare.tv,PROXY
@@ -634,10 +637,6 @@ DOMAIN-SUFFIX,shields.io,PROXY
 #Web - Statsig https://docs.statsig.com/infrastructure/statsig_domains
 DOMAIN-SUFFIX,assetsconfigcdn.org,PROXY
 DOMAIN-SUFFIX,beyondwickedmapping.org,PROXY
-DOMAIN-SUFFIX,cloudflare-dns.com,PROXY
-DOMAIN-SUFFIX,featureassets.org,PROXY
-DOMAIN-SUFFIX,featuregates.org,PROXY
-DOMAIN-SUFFIX,prodregistryv2.org,PROXY
 DOMAIN-SUFFIX,statsig.com,PROXY
 DOMAIN-SUFFIX,statsigapi.net,PROXY
 DOMAIN-SUFFIX,statsigcdn.com,PROXY
@@ -761,6 +760,25 @@ DOMAIN-SUFFIX,timtales.com,PROXY
 DOMAIN-SUFFIX,transangelsnetwork.com,PROXY
 DOMAIN-SUFFIX,voyr.com,PROXY
 DOMAIN-SUFFIX,williamhiggins.com,PROXY
+#Sites - NewsT
+DOMAIN-SUFFIX,dw.com,PROXY
+DOMAIN-SUFFIX,nytimes.com,PROXY
+DOMAIN-SUFFIX,reuters.com,PROXY
+DOMAIN-SUFFIX,rfi.fr,PROXY
+DOMAIN-SUFFIX,upi.com,PROXY
+DOMAIN-SUFFIX,voachinese.com,PROXY
+DOMAIN-SUFFIX,voanews.com,PROXY
+DOMAIN-SUFFIX,aljazeera.com,PROXY
+DOMAIN-SUFFIX,channelnewsasia.com,PROXY
+DOMAIN-SUFFIX,ettoday.net,PROXY
+DOMAIN-SUFFIX,ft.com,PROXY
+DOMAIN-SUFFIX,ftchinese.com,PROXY
+DOMAIN-SUFFIX,nikkei.com,PROXY
+DOMAIN-SUFFIX,nownews.com,PROXY
+DOMAIN-SUFFIX,radio-canada.ca,PROXY
+DOMAIN-SUFFIX,rsf.org,PROXY
+DOMAIN-SUFFIX,straitstimes.com,PROXY
+DOMAIN-SUFFIX,theguardian.com,PROXY
 #Sites - News
 DOMAIN-SUFFIX,botanwang.com,PROXY
 DOMAIN-SUFFIX,creaders.net,PROXY
