@@ -1,4 +1,4 @@
-# Update > 19:29 2025/11/2
+# Update > 14:20 2026/2/3
 # https://raw.githubusercontent.com/vokins/ad/main/dr.lsr
 # https://github.com/vokins/ad/blob/main/dr.lsr
 
@@ -39,6 +39,10 @@ DOMAIN-SUFFIX,org.cn,DIRECT
 DOMAIN,dns.weixin.qq.com,DIRECT
 DOMAIN,dns.weixin.qq.com.cn,DIRECT
 DOMAIN,wximg.wxs.qq.com,DIRECT
+
+#Fix
+##Cloudflare
+DOMAIN,challenges.cloudflare.com,DIRECT
 
 # DETECT LOCAL NETWORK
 GEOIP,CN,DIRECT
