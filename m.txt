@@ -1,1 +1,74 @@
+[Adblock Plus 2.0]
+! Version: 0.1
+! Title: adfilter
+! Last modified: 3:33 2026/2/12 Expires: 7 days (update frequency)
+! Author:Kim
+! Description:adfilter
+! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/m.txt
+! Homepage: https://github.com/vokins/ad/blob/main/m.txt
+!
+
+ifeng.com##iframe[src*="pos.baidu.com/"]
+ithome.com##iframe[src*="/zuihuimai/static/"]
+m.10jqka.com.cn##img#backBanner
+m.163.com##div.floatMenu-backflow
+m.163.com##div.js-open-app
+m.163.com##div.m-linkCard
+m.163.com##section.main-openApp.js-open-app
+m.163.com##span.s-openApp
+m.baidu.com##div.wrapper
+m.bilibili.com##m-open-app
+m.douyu.com##button
+m.douyu.com##div[class^="OpenAppBtn"]
+m.hupu.com##div.hupu-footer-btn
+m.hupu.com##div.open-hupu
+m.iqiyi.com##.open_app_iframe
+m.ithome.com##button.open-app
+m.liepin.com##div.download-center-box-bg
+m.smzdm.com##a.damo-footer-open-app__fixed-logo
+m.smzdm.com##a[href^="https://post.m.smzdm.com/"]
+m.sohu.com##div[data-v-286d18ca]
+m.thepaper.cn###moblink_header
+m.thepaper.cn##div[class^="footer_banner"]
+m.toutiao.com##div.arco-masking-mask
+m.toutiao.com##div.modal-content
+map.baidu.com##div.bottom-banner-float
+map.baidu.com##div.innerBox.row
+map.baidu.com##div.message-box
+pinpai.smzdm.com##div.changwen-card-container
+pinpai.smzdm.com##div.shaiwu-card-container
+pinpai.smzdm.com##div.zhuanzai-card-container
+sina.cn##iframe[marginwidth][marginheight]
+sina.cn##iframe[src*="pos.baidu.com/"]
+sohu.com##div[data-spm-content="ad"]
+sohu.com##div[data-spm="add-desk"]
+t.cj.sina.cn##a.client-down.js-nav-client-down
+t.cj.sina.cn##a.module-footer
+t.cj.sina.cn##div.module-article-end-callup
+t.cj.sina.cn##div.unfold-words
+t.cj.sina.cn##span.flag_sf
+wap.eastmoney.com##div.yingyongtuijian
+wiki.smzdm.com###dianping
+wiki.smzdm.com##div#yuanchuang
+www.shuaito.baby##div.mb_ad
+www.smzdm.com##div.ad-container
+www.smzdm.com##div.baoliao-box
+www.smzdm.com##div.category-article-title
+www.smzdm.com##div.category-zhongce-container
+www.smzdm.com##div.changwen-card-container
+www.smzdm.com##div.shaiwu-card-container
+www.smzdm.com##div.shaiwu-module.J_shaiwu
+www.smzdm.com##div.share_app_icon
+www.smzdm.com##div.side-article.J_side_article
+www.smzdm.com##div.side-combination-shequ
+www.smzdm.com##div.side-haowu-zhongce
+www.smzdm.com##div.side-hot-yuanchuang.side-single-slick
+www.smzdm.com##div.side-stuff
+www.smzdm.com##div.similar-container
+www.smzdm.com##div.zhuanzai-card-container
+www.smzdm.com##li.feed-row-wide.J_feed_za.feed-article
+www.smzdm.com##li.feed-row-wide.J_feed_za.feed-zhuanzai
+www.youku.com##div.callEnd_box
+www.zhihu.com##button
+xw.qq.com##div[class^="ad_ssp"]
 
