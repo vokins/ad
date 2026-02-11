@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.11
+! Version: 0.12
 ! Title: adfilter
-! Last modified: 5:33 2026/2/12 Expires: 7 days (update frequency)
+! Last modified: 5:46 2026/2/12 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -26,8 +26,18 @@ m.iqiyi.com##.open_app_iframe
 m.ithome.com##button.open-app
 m.liepin.com##div.download-center-box-bg
 m.smzdm.com##a.damo-footer-open-app__fixed-logo
-m.smzdm.com##a[href^="https://post.m.smzdm.com/"]
+m.smzdm.com##a.to-link-new
+m.smzdm.com##a[href*="https://u.jd.com/"]
 m.smzdm.com##a[href*="wiki.smzdm.com/p/"]
+m.smzdm.com##a[href^="https://post.m.smzdm.com/"]
+m.smzdm.com##div.article-selection.article-selection__test-c
+m.smzdm.com##div.comment-hot-no-comments
+m.smzdm.com##div.hot-price
+m.smzdm.com##div.like-selection
+m.smzdm.com##div.logo-download
+m.smzdm.com##div.phb-selection
+m.smzdm.com##div.related-wike-selection.related-wiki-card-bg
+m.smzdm.com##div.tag-selection
 m.sohu.com##div[data-v-286d18ca]
 m.thepaper.cn###moblink_header
 m.thepaper.cn##div[class^="footer_banner"]
