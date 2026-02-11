@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 0.1
+! Version: 0.11
 ! Title: adfilter
-! Last modified: 3:33 2026/2/12 Expires: 7 days (update frequency)
+! Last modified: 5:33 2026/2/12 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
-! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/m.txt
+! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
 ! Homepage: https://github.com/vokins/ad/blob/main/m.txt
 !
 
@@ -27,6 +27,7 @@ m.ithome.com##button.open-app
 m.liepin.com##div.download-center-box-bg
 m.smzdm.com##a.damo-footer-open-app__fixed-logo
 m.smzdm.com##a[href^="https://post.m.smzdm.com/"]
+m.smzdm.com##a[href*="wiki.smzdm.com/p/"]
 m.sohu.com##div[data-v-286d18ca]
 m.thepaper.cn###moblink_header
 m.thepaper.cn##div[class^="footer_banner"]
@@ -71,4 +72,3 @@ www.smzdm.com##li.feed-row-wide.J_feed_za.feed-zhuanzai
 www.youku.com##div.callEnd_box
 www.zhihu.com##button
 xw.qq.com##div[class^="ad_ssp"]
-
