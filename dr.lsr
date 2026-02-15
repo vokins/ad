@@ -1,4 +1,4 @@
-# Update > 14:20 2026/2/3
+# Update > 22:44 2026/2/15
 # https://raw.githubusercontent.com/vokins/ad/main/dr.lsr
 # https://github.com/vokins/ad/blob/main/dr.lsr
 
@@ -18,13 +18,17 @@ DOMAIN-SUFFIX,routerlogin.net,DIRECT
 
 # LAN
 DOMAIN-SUFFIX,.local,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,192.0.0.0/24,DIRECT
 IP-CIDR,192.168.0.0/16,DIRECT
-IP-CIDR,10.0.0.0/8,DIRECT
-
-IP-CIDR,17.0.0.0/8,DIRECT
-IP-CIDR,100.64.0.0/10,DIRECT
+IP-CIDR,198.18.0.0/15,DIRECT
+IP-CIDR,224.0.0.0/4,DIRECT
+IP-CIDR6,::1/128,DIRECT
+IP-CIDR6,fc00::/7,DIRECT
+IP-CIDR6,fe80::/10,DIRECT
 
 #Domain - CN Sites https://domain.miit.gov.cn
 DOMAIN-SUFFIX,edu.cn,DIRECT
