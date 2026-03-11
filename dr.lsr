@@ -1,4 +1,4 @@
-# Update > 22:44 2026/2/15
+# Update > 19:28 2026/3/11
 # https://raw.githubusercontent.com/vokins/ad/main/dr.lsr
 # https://github.com/vokins/ad/blob/main/dr.lsr
 
@@ -47,6 +47,16 @@ DOMAIN,wximg.wxs.qq.com,DIRECT
 #Fix
 ##Cloudflare
 DOMAIN,challenges.cloudflare.com,DIRECT
+
+##Movie
+DOMAIN-SUFFIX,cz4k.com,DIRECT
+DOMAIN-SUFFIX,czzymovie.com,DIRECT
+DOMAIN-SUFFIX,libvio.in,DIRECT
+DOMAIN-SUFFIX,libvio.la,DIRECT
+DOMAIN-SUFFIX,libvio.mov,DIRECT
+DOMAIN-SUFFIX,vidhub.tv,DIRECT
+##Site
+DOMAIN-SUFFIX,apphot.cc,DIRECT
 
 # DETECT LOCAL NETWORK
 GEOIP,CN,DIRECT
