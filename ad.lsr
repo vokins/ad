@@ -1,4 +1,4 @@
-# Update > 19:27 2026/3/11
+# Update > 0:11 2026/3/12
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -606,9 +606,11 @@ DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
 #SNS-小红书
 DOMAIN,ads-img-al.xhscdn.com,REJECT
+DOMAIN,ads-img-bak.xhscdn.com,REJECT
 DOMAIN,ads-img-qc.xhscdn.com,REJECT
 DOMAIN,ads-video-al.xhscdn.com,REJECT
 DOMAIN,ads-video-qc.xhscdn.com,REJECT
+DOMAIN,ads-vp5.xhscdn.com,REJECT
 DOMAIN,ros-upload-d4.xhscdn.com,REJECT
 DOMAIN,crash.xiaohongshu.com,REJECT
 DOMAIN,spider-tracker.xiaohongshu.com,REJECT
