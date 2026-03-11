@@ -1,8 +1,10 @@
-# Update > 14:19 2026/2/3
+# Update > 19:27 2026/3/11
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 # https://github.com/vokins/ad/blob/main/pr.lsr
 
 # **Prooxy**
+#Domain - eu
+DOMAIN-SUFFIX,eu.org,PROXY
 #Domain - HK网站
 DOMAIN-SUFFIX,com.hk,PROXY
 DOMAIN-SUFFIX,gov.hk,PROXY
@@ -13,10 +15,12 @@ DOMAIN-SUFFIX,htx.com,PROXY
 DOMAIN-SUFFIX,mingpao.com,PROXY
 DOMAIN-SUFFIX,on.cc,PROXY
 DOMAIN-SUFFIX,stheadline.com,PROXY
+DOMAIN-SUFFIX,pulsehknews.com,PROXY
 #Domain - TW网站
 DOMAIN-SUFFIX,com.tw,PROXY
 DOMAIN-SUFFIX,gov.tw,PROXY
 DOMAIN-SUFFIX,69shuba.com,PROXY
+DOMAIN-SUFFIX,91app.com,PROXY
 DOMAIN-SUFFIX,banxia.la,PROXY
 DOMAIN-SUFFIX,book543.net,PROXY
 DOMAIN-SUFFIX,czbooks.net,PROXY
@@ -38,6 +42,9 @@ DOMAIN-SUFFIX,setn.com,PROXY
 DOMAIN-SUFFIX,techbang.com,PROXY
 DOMAIN-SUFFIX,udn.com,PROXY
 DOMAIN-SUFFIX,wantgoo.com,PROXY
+DOMAIN-SUFFIX,newtalk.tw,PROXY
+DOMAIN-SUFFIX,technews.tw,PROXY
+DOMAIN-SUFFIX,thenewslens.com,PROXY
 #Domain - co网站
 DOMAIN-SUFFIX,co.ao,PROXY
 DOMAIN-SUFFIX,co.bw,PROXY
@@ -67,7 +74,7 @@ DOMAIN-SUFFIX,co.zw,PROXY
 DOMAIN-SUFFIX,or.jp,PROXY
 DOMAIN-SUFFIX,com.sg,PROXY
 #API
-DOMAIN-SUFFIX,revenuecat.com,PROXY
+#DOMAIN-SUFFIX,revenuecat.com,PROXY
 #Apple-AI https://support.apple.com/zh-cn/101555
 DOMAIN,apple-relay.apple.com,PROXY
 DOMAIN,apple-relay.fastly-edge.com,PROXY
@@ -137,12 +144,14 @@ DOMAIN-SUFFIX,afterlight.co,PROXY
 DOMAIN-SUFFIX,ai-wallpaper.pro,PROXY
 #APP - Amazon-Prime Video
 DOMAIN-SUFFIX,a2z.com,PROXY
+DOMAIN-SUFFIX,aiv-cdn.net,PROXY
 DOMAIN-SUFFIX,aiv-delivery.net,PROXY
 DOMAIN-SUFFIX,amazon.com,PROXY
 DOMAIN-SUFFIX,amazon.dev,PROXY
 DOMAIN-SUFFIX,amazonvideo.com,PROXY
 DOMAIN-SUFFIX,media-amazon.com,PROXY
 DOMAIN-SUFFIX,ssl-images-amazon.com,PROXY
+DOMAIN-SUFFIX,primevideo.com,PROXY
 #APP - AppRaven
 DOMAIN-SUFFIX,appraven.net,PROXY
 #APP - BBC
@@ -258,12 +267,16 @@ DOMAIN-SUFFIX,imgur.com,PROXY
 DOMAIN-SUFFIX,kaspersky.com,PROXY
 #APP - LG ThinQ
 DOMAIN-SUFFIX,lgthinq.com,PROXY
+DOMAIN-SUFFIX,lgthinq.com.cn,PROXY
+DOMAIN-SUFFIX,lgemembers.com.cn,PROXY
 #APP - LIHKG
 DOMAIN-SUFFIX,lih.kg,PROXY
 DOMAIN-SUFFIX,lihkg.com,PROXY
 #APP - LinkedIn
 DOMAIN-SUFFIX,linkedin.com,PROXY
 DOMAIN-SUFFIX,licdn.com,PROXY
+#APP - ‎Linktree
+DOMAIN-SUFFIX,linktr.ee,PROXY
 #APP - LY Corporation-Line
 DOMAIN-SUFFIX,bitmax.me,PROXY
 DOMAIN-SUFFIX,line-apps.com,PROXY
@@ -614,6 +627,10 @@ DOMAIN-SUFFIX,esm.run,PROXY
 #Web - LiveKit
 DOMAIN-SUFFIX,livekit.io,PROXY
 DOMAIN-SUFFIX,livekit.cloud,PROXY
+#Web - Mastercard Dynamic Yield
+DOMAIN-SUFFIX,dynamicyield.com,PROXY
+#Web - Maze
+DOMAIN-SUFFIX,maze.co,PROXY
 #Web - OneSignal
 DOMAIN-SUFFIX,onesignal.com,PROXY
 #Web - OneTrust
@@ -629,6 +646,8 @@ DOMAIN-SUFFIX,q4app.com,PROXY
 DOMAIN-SUFFIX,q4blog.com,PROXY
 DOMAIN-SUFFIX,q4cdn.com,PROXY
 DOMAIN-SUFFIX,q4web.com,PROXY
+#Web - Qualtrics
+DOMAIN-SUFFIX,qualtrics.com,PROXY
 #Web - Sentry
 DOMAIN-SUFFIX,sentry-cdn.com,PROXY
 DOMAIN-SUFFIX,sentry.io,PROXY
@@ -761,30 +780,34 @@ DOMAIN-SUFFIX,transangelsnetwork.com,PROXY
 DOMAIN-SUFFIX,voyr.com,PROXY
 DOMAIN-SUFFIX,williamhiggins.com,PROXY
 #Sites - NewsT
-DOMAIN-SUFFIX,dw.com,PROXY
-DOMAIN-SUFFIX,nytimes.com,PROXY
-DOMAIN-SUFFIX,reuters.com,PROXY
-DOMAIN-SUFFIX,rfi.fr,PROXY
-DOMAIN-SUFFIX,upi.com,PROXY
-DOMAIN-SUFFIX,voachinese.com,PROXY
-DOMAIN-SUFFIX,voanews.com,PROXY
 DOMAIN-SUFFIX,aljazeera.com,PROXY
 DOMAIN-SUFFIX,channelnewsasia.com,PROXY
+DOMAIN-SUFFIX,dw.com,PROXY
 DOMAIN-SUFFIX,ettoday.net,PROXY
 DOMAIN-SUFFIX,ft.com,PROXY
 DOMAIN-SUFFIX,ftchinese.com,PROXY
 DOMAIN-SUFFIX,nikkei.com,PROXY
 DOMAIN-SUFFIX,nownews.com,PROXY
+DOMAIN-SUFFIX,nytimes.com,PROXY
 DOMAIN-SUFFIX,radio-canada.ca,PROXY
+DOMAIN-SUFFIX,reuters.com,PROXY
+DOMAIN-SUFFIX,rfi.fr,PROXY
 DOMAIN-SUFFIX,rsf.org,PROXY
 DOMAIN-SUFFIX,straitstimes.com,PROXY
 DOMAIN-SUFFIX,theguardian.com,PROXY
+DOMAIN-SUFFIX,upi.com,PROXY
+DOMAIN-SUFFIX,voachinese.com,PROXY
+DOMAIN-SUFFIX,voanews.com,PROXY
+DOMAIN-SUFFIX,wsj.com,PROXY
+DOMAIN-SUFFIX,wsj.net,PROXY
 #Sites - News
 DOMAIN-SUFFIX,botanwang.com,PROXY
 DOMAIN-SUFFIX,creaders.net,PROXY
 DOMAIN-SUFFIX,kanzhongguo.eu,PROXY
 DOMAIN-SUFFIX,newmitbbs.com,PROXY
+DOMAIN-SUFFIX,ngocn2.org,PROXY
 DOMAIN-SUFFIX,rssing.com,PROXY
+DOMAIN-SUFFIX,tsb2blog.com,PROXY
 DOMAIN-SUFFIX,westca.com,PROXY
 #Sites - NewsF
 DOMAIN-SUFFIX,aboluowang.com,PROXY
@@ -818,6 +841,8 @@ DOMAIN-SUFFIX,deviantartsupport.com,PROXY
 DOMAIN-SUFFIX,email.ml,PROXY
 #ESET
 DOMAIN-SUFFIX,eset.com,PROXY
+#FeedX
+DOMAIN-SUFFIX,feedx.net,PROXY
 #FengShows
 DOMAIN-SUFFIX,fengshows.cn,PROXY
 DOMAIN-SUFFIX,fengshows.com,PROXY
@@ -848,22 +873,29 @@ DOMAIN-SUFFIX,simgbb.com,PROXY
 DOMAIN-SUFFIX,ibb.co,PROXY
 #IPADDRESS
 DOMAIN-SUFFIX,ipaddress.com,PROXY
+#is.gd
+DOMAIN,is.gd,PROXY
+DOMAIN,v.gd,PROXY
 #Lorem Picsum
 DOMAIN-SUFFIX,picsum.photos,PROXY
 #Pixabay
 DOMAIN-SUFFIX,pixabay.com,PROXY
+#PostHog
+DOMAIN-SUFFIX,posthog.com,PROXY
 #Retouch4me
 DOMAIN-SUFFIX,retouch4.me,PROXY
 #Saif Al Falah
 DOMAIN-SUFFIX,saif.dev,PROXY
-#Stripe
-DOMAIN-SUFFIX,stripe.com,PROXY
-DOMAIN-SUFFIX,stripecdn.com,PROXY
+#Simon AI
+DOMAIN-SUFFIX,simonsignal.com,PROXY
 #SoundCloud
 DOMAIN-SUFFIX,soundcloud.com,PROXY
 DOMAIN-SUFFIX,sndcdn.com,PROXY
 #Startpage
 DOMAIN-SUFFIX,startpage.com,PROXY
+#Stripe
+DOMAIN-SUFFIX,stripe.com,PROXY
+DOMAIN-SUFFIX,stripecdn.com,PROXY
 #Substack
 DOMAIN-SUFFIX,substack.com,PROXY
 #TinyURL
@@ -888,7 +920,7 @@ DOMAIN-SUFFIX,torproject.org,PROXY
 DOMAIN-SUFFIX,thetvdb.com,PROXY
 #Twirrl.app(TVDL)
 DOMAIN-SUFFIX,twirrl.app,PROXY
-#Unlock Music-音乐解锁
+#Unlock Music
 DOMAIN,demo.unlock-music.dev,PROXY
 #Userstyles.org | Stylish
 DOMAIN-SUFFIX,userstyles.org,PROXY
@@ -896,6 +928,9 @@ DOMAIN-SUFFIX,userstyles.org,PROXY
 DOMAIN-SUFFIX,linux.do,PROXY
 #V2EX
 DOMAIN-SUFFIX,v2ex.com,PROXY
+#NodeSeek
+DOMAIN-SUFFIX,nodeseek.com,PROXY
+DOMAIN-SUFFIX,nodeimage.com,PROXY
 #WenXueCity
 DOMAIN-SUFFIX,wenxuecity.com,PROXY
 #Yubico
@@ -912,6 +947,12 @@ DOMAIN-SUFFIX,pixnet.cc,PROXY
 DOMAIN-SUFFIX,pixnet.net,PROXY
 DOMAIN-SUFFIX,pixnet.pro,PROXY
 DOMAIN-SUFFIX,popo.tw,PROXY
+#S.EE
+DOMAIN-SUFFIX,s.ee,PROXY
+DOMAIN-SUFFIX,see.you,PROXY
+DOMAIN-SUFFIX,seecdn.com,PROXY
+DOMAIN-SUFFIX,seecdn.net,PROXY
+DOMAIN-SUFFIX,seeusercontent.com,PROXY
 #shopee.tw
 DOMAIN-SUFFIX,shopee.tw,PROXY
 DOMAIN-SUFFIX,susercontent.com,PROXY
