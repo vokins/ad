@@ -1,4 +1,4 @@
-# Update > 23:26 2025/11/28
+# Update > 19:27 2026/3/11
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -1211,8 +1211,10 @@ DOMAIN,em.baidu.com,REJECT
 DOMAIN,entry.baidu.com,REJECT
 DOMAIN,ext.baidu.com,REJECT
 DOMAIN,fc1tn.baidu.com,REJECT
+DOMAIN,fc2tn.baidu.com,REJECT
 DOMAIN,fc4tn.baidu.com,REJECT
 DOMAIN,fc5tn.baidu.com,REJECT
+DOMAIN,fc6tn.baidu.com,REJECT
 DOMAIN,fclick.baidu.com,REJECT
 DOMAIN,fclog.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
@@ -1396,8 +1398,7 @@ DOMAIN,minigame5-normal.zijieapi.com,REJECT
 DOMAIN,polaris3-normal-hl.zijieapi.com,REJECT
 DOMAIN,polaris3-normal-lq.zijieapi.com,REJECT
 DOMAIN,polaris5-normal-lf.zijieapi.com,REJECT
-#Google
-DOMAIN-KEYWORD,adservice.google,REJECT
+#Google-apis
 DOMAIN,analyticsmobile-pa.googleapis.com,REJECT
 DOMAIN,crashlyticsreports-pa.googleapis.com,REJECT
 DOMAIN,device-provisioning.googleapis.com,REJECT
@@ -1406,6 +1407,10 @@ DOMAIN,firebaseinstallations.googleapis.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN,firebaseremoteconfig.googleapis.com,REJECT
+DOMAIN,ogads-pa.googleapis.com,REJECT
+#Google
+DOMAIN-KEYWORD,adservice.google,REJECT
+DOMAIN,adssettings.google.com,REJECT
 DOMAIN,fundingchoicesmessages.google.com,REJECT
 DOMAIN,ogads-pa.clients6.google.com,REJECT
 DOMAIN-SUFFIX,2mdn-cn.net,REJECT
@@ -1503,6 +1508,7 @@ DOMAIN,ads.privacy.qq.com,REJECT
 DOMAIN,analytics.map.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,dp3.qq.com,REJECT
+DOMAIN,gatherer.m.qq.com,REJECT
 #DOMAIN,h.trace.qq.com,REJECT
 DOMAIN,hc.tdm.qq.com,REJECT
 DOMAIN,ios.rqd.qq.com,REJECT
@@ -1730,6 +1736,7 @@ DOMAIN-SUFFIX,ad-scope.com.cn,REJECT
 DOMAIN-SUFFIX,ad-stir.com,REJECT
 DOMAIN-SUFFIX,ad-survey.com,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
+DOMAIN-SUFFIX,ad2iction.com,REJECT
 DOMAIN-SUFFIX,ad4game.com,REJECT
 DOMAIN-SUFFIX,adapty.io,REJECT
 DOMAIN-SUFFIX,adblockanalytics.com,REJECT
@@ -1763,6 +1770,7 @@ DOMAIN-SUFFIX,adnxs-simple.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,adperium.com,REJECT
 DOMAIN-SUFFIX,adpolestar.net,REJECT
+DOMAIN-SUFFIX,adpushup.com,REJECT
 DOMAIN-SUFFIX,adrecover.com,REJECT
 DOMAIN-SUFFIX,adriver.ru,REJECT
 DOMAIN-SUFFIX,adroll.com,REJECT
@@ -1959,6 +1967,7 @@ DOMAIN-SUFFIX,getui.net,REJECT
 DOMAIN-SUFFIX,gfnormal01ae.com,REJECT
 DOMAIN-SUFFIX,gmossp-sp.jp,REJECT
 DOMAIN-SUFFIX,gnlunbii.rest,REJECT
+DOMAIN-SUFFIX,go-mpulse.net,REJECT
 DOMAIN-SUFFIX,govchengdu.cn,REJECT
 DOMAIN-SUFFIX,govhebie.cn,REJECT
 DOMAIN-SUFFIX,govhenan.cn,REJECT
@@ -2221,6 +2230,7 @@ DOMAIN-SUFFIX,tapad.com,REJECT
 DOMAIN-SUFFIX,tapjoy.cn,REJECT
 DOMAIN-SUFFIX,tapjoy.com,REJECT
 DOMAIN-SUFFIX,tapjoyads.com,REJECT
+DOMAIN-SUFFIX,tganalytics.xyz,REJECT
 DOMAIN-SUFFIX,tddmp.com,REJECT
 DOMAIN-SUFFIX,teads.com,REJECT
 DOMAIN-SUFFIX,teads.tv,REJECT
@@ -2346,4 +2356,3 @@ DOMAIN-SUFFIX,zxrtb.com,REJECT
 DOMAIN-SUFFIX,zygaoshou888.cn,REJECT
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
-
