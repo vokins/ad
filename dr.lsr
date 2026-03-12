@@ -1,4 +1,4 @@
-# Update > 19:28 2026/3/11
+# Update > 16:38 2026/3/12
 # https://raw.githubusercontent.com/vokins/ad/main/dr.lsr
 # https://github.com/vokins/ad/blob/main/dr.lsr
 
@@ -59,4 +59,4 @@ DOMAIN-SUFFIX,vidhub.tv,DIRECT
 DOMAIN-SUFFIX,apphot.cc,DIRECT
 
 # DETECT LOCAL NETWORK
-GEOIP,CN,DIRECT
+# GEOIP,CN,DIRECT
