@@ -1,4 +1,4 @@
-# Update > 0:11 2026/3/12
+# Update > 15:59 2026/3/12
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -139,6 +139,7 @@ DOMAIN,tmeadcomm.y.qq.com,REJECT
 #Audio-QQ音乐-全民K歌
 DOMAIN-SUFFIX,gdc.kg.qq.com,REJECT
 #Audio-酷我
+DOMAIN,deliver.kuwo.cn,REJECT
 DOMAIN,log.kuwo.cn,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
@@ -241,6 +242,7 @@ DOMAIN,cdn-new-ad.wtzw.com,REJECT
 DOMAIN,a-qmad.qimao.com,REJECT
 DOMAIN,a-qmad.qm989.com,REJECT
 DOMAIN,t-qmad.qm989.com,REJECT
+DOMAIN,a6-remad.qm989.com,REJECT
 #Book-畅读书城
 DOMAIN,log.51changdu.com,REJECT
 #Book-网易云阅读
@@ -259,19 +261,28 @@ DOMAIN,flux.faloo.com,REJECT
 DOMAIN,adsdk.idmzj.com,REJECT
 #Book-哔咔漫画 https://www.picacomic.com/
 DOMAIN,ad-channel.diwodiwo.xyz,REJECT
-DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.diwodiwo.xyz,REJECT
+DOMAIN,pica-ad-api.diwodiwo.xyz,REJECT
+DOMAIN,ad-channel.wikawika.xyz,REJECT
 #Book-wenxuecity
 DOMAIN,adserver.wenxuecity.com,REJECT
 #Bank-农行防代理检测
 DOMAIN,msmp.abchina.com.cn,REJECT
 #Buy-拼多多
+DOMAIN,apm-a.pinduoduo.com,REJECT
+DOMAIN,at-ipv6.pinduoduo.com,REJECT
+DOMAIN,images.pinduoduo.com,REJECT
+DOMAIN,lp.pinduoduo.com,REJECT
+DOMAIN,lpcdn.pinduoduo.com,REJECT
+DOMAIN,otk.pinduoduo.com,REJECT
+DOMAIN,pds.pinduoduo.com,REJECT
+DOMAIN,xg.pinduoduo.com,REJECT
+DOMAIN,video-dsp.pddpic.com,REJECT
 DOMAIN,adim.pinduoduo.com,REJECT
 DOMAIN,t-dsp.pinduoduo.com,REJECT
-DOMAIN,video-dsp.pddpic.com,REJECT
 #Buy-美团
 DOMAIN,adgame.waimai.meituan.com,REJECT
-DOMAIN,analytics.meituan.net,REJECT
+#美团兑换券页面会无法完全打开DOMAIN,analytics.meituan.net,REJECT
 DOMAIN-SUFFIX,dreport.meituan.net,REJECT
 DOMAIN-SUFFIX,hreport.meituan.com,REJECT
 DOMAIN-SUFFIX,report.meituan.com,REJECT
@@ -1171,7 +1182,7 @@ DOMAIN,applogios.uc.cn,REJECT
 DOMAIN,feedback.uc.cn,REJECT
 DOMAIN,hcadv.video.ums.uc.cn,REJECT
 DOMAIN,track.uc.cn,REJECT
-DOMAIN,px.ucweb.com,REJECT
+#导致闲鱼持续满载 DOMAIN,px.ucweb.com,REJECT
 DOMAIN,c.sm.cn,REJECT
 DOMAIN,huichuan.sm.cn,REJECT
 DOMAIN,huichuan-mc.sm.cn,REJECT
@@ -1752,6 +1763,7 @@ DOMAIN-SUFFIX,adfurikun.jp,REJECT
 DOMAIN-SUFFIX,adgeek.com.tw,REJECT
 DOMAIN-SUFFIX,adinall.com,REJECT
 DOMAIN-SUFFIX,adinplay.com,REJECT
+DOMAIN-SUFFIX,adintl.cn,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adjust.net.in,REJECT
 DOMAIN-SUFFIX,adjust.world,REJECT
@@ -1850,6 +1862,7 @@ DOMAIN-SUFFIX,bianxianniu.com,REJECT
 DOMAIN-SUFFIX,biddingx.com,REJECT
 DOMAIN-SUFFIX,bidmyqps.xyz,REJECT
 DOMAIN-SUFFIX,bidswitch.net,REJECT
+DOMAIN-SUFFIX,bidtoolads.com,REJECT
 DOMAIN-SUFFIX,bidvertiser.com,REJECT
 DOMAIN-SUFFIX,binfenhui.top,REJECT
 DOMAIN-SUFFIX,bixinlive.com,REJECT
@@ -1983,6 +1996,7 @@ DOMAIN-SUFFIX,gtags.net,REJECT
 DOMAIN-SUFFIX,gtcxawq.com,REJECT
 DOMAIN-SUFFIX,gz-data.com,REJECT
 DOMAIN-SUFFIX,gzads.com,REJECT
+DOMAIN-SUFFIX,hanlanad.com,REJECT
 DOMAIN-SUFFIX,haohuisheng555.cn,REJECT
 DOMAIN-SUFFIX,hapying.com,REJECT
 DOMAIN-SUFFIX,hdazs.xyz,REJECT
@@ -2152,6 +2166,7 @@ DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,qchannel03.cn,REJECT
 DOMAIN-SUFFIX,qchannel04.cn,REJECT
 DOMAIN-SUFFIX,qdwght.com,REJECT
+DOMAIN-SUFFIX,qidianad.com,REJECT
 DOMAIN-SUFFIX,qkdk.com,REJECT
 DOMAIN-SUFFIX,qlspx.com,REJECT
 DOMAIN-SUFFIX,qtmojo.com,REJECT
@@ -2181,6 +2196,7 @@ DOMAIN-SUFFIX,serving-sys.com,REJECT
 DOMAIN-SUFFIX,sglyd.cn,REJECT
 DOMAIN-SUFFIX,sh-qiruizx.com,REJECT
 DOMAIN-SUFFIX,shareclick.top,REJECT
+DOMAIN-SUFFIX,shenshiads.com,REJECT
 DOMAIN-SUFFIX,showmylife.com,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,shyjll.cn,REJECT
@@ -2225,6 +2241,7 @@ DOMAIN-SUFFIX,sxpjn.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,taboola.com.cn,REJECT
 DOMAIN-SUFFIX,taboolasyndication.com,REJECT
+DOMAIN-SUFFIX,takuad.com,REJECT
 DOMAIN-SUFFIX,talkingdata.com,REJECT
 DOMAIN-SUFFIX,talkingdata.net,REJECT
 DOMAIN-SUFFIX,tanx.com,REJECT
@@ -2232,7 +2249,6 @@ DOMAIN-SUFFIX,tapad.com,REJECT
 DOMAIN-SUFFIX,tapjoy.cn,REJECT
 DOMAIN-SUFFIX,tapjoy.com,REJECT
 DOMAIN-SUFFIX,tapjoyads.com,REJECT
-DOMAIN-SUFFIX,tganalytics.xyz,REJECT
 DOMAIN-SUFFIX,tddmp.com,REJECT
 DOMAIN-SUFFIX,teads.com,REJECT
 DOMAIN-SUFFIX,teads.tv,REJECT
@@ -2241,6 +2257,7 @@ DOMAIN-SUFFIX,tencentbs.cn,REJECT
 DOMAIN-SUFFIX,tenjin.com,REJECT
 DOMAIN-SUFFIX,testplus.cn,REJECT
 DOMAIN-SUFFIX,tewtwt.top,REJECT
+DOMAIN-SUFFIX,tganalytics.xyz,REJECT
 DOMAIN-SUFFIX,thefatherofsalmon.com,REJECT
 DOMAIN-SUFFIX,thubanoa.com,REJECT
 DOMAIN-SUFFIX,tianmidian.com,REJECT
@@ -2250,9 +2267,11 @@ DOMAIN-SUFFIX,tingyun.com,REJECT
 DOMAIN-SUFFIX,tinytapgame.com,REJECT
 DOMAIN-SUFFIX,tjhwjm.cn,REJECT
 DOMAIN-SUFFIX,tmsdk.cn,REJECT
+DOMAIN-SUFFIX,tobidad.com,REJECT
 DOMAIN-SUFFIX,toboads.com,REJECT
 DOMAIN-SUFFIX,toponad.com,REJECT
 DOMAIN-SUFFIX,trackingio.com,REJECT
+DOMAIN-SUFFIX,tradplusad.com,REJECT
 DOMAIN-SUFFIX,trafficjam.cn,REJECT
 DOMAIN-SUFFIX,trafficjunky.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
