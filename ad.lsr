@@ -1,4 +1,4 @@
-# Update > 20:24 2026/3/12
+# Update > 21:49 2026/3/12
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -145,6 +145,7 @@ DOMAIN,tmead.y.qq.com,REJECT
 DOMAIN,tmeadbak.y.qq.com,REJECT
 DOMAIN,tmeadcomm.y.qq.com,REJECT
 DOMAIN,tmeadkg.y.qq.com,REJECT
+DOMAIN,tmeadkgquic.y.qq.com,REJECT
 DOMAIN,report.kg.qq.com,REJECT
 DOMAIN-SUFFIX,gdc.kg.qq.com,REJECT
 #Audio-酷我
@@ -152,6 +153,7 @@ DOMAIN,deliver.kuwo.cn,REJECT
 DOMAIN,log.kuwo.cn,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
+DOMAIN,g.kuwo.cn,REJECT
 DOMAIN,g.koowo.com,REJECT
 #Audio-酷狗
 DOMAIN-SUFFIX,ads.service.kugou.com,REJECT
@@ -291,6 +293,9 @@ DOMAIN,xg.pinduoduo.com,REJECT
 DOMAIN,video-dsp.pddpic.com,REJECT
 DOMAIN,adim.pinduoduo.com,REJECT
 DOMAIN,t-dsp.pinduoduo.com,REJECT
+#Buy-KFC
+DOMAIN,adttrackingprd.hwwt8.com,REJECT
+DOMAIN,trackingprd.hwwt8.com,REJECT
 #Buy-美团
 DOMAIN,adgame.waimai.meituan.com,REJECT
 DOMAIN,msp.meituan.com,REJECT
@@ -819,6 +824,15 @@ DOMAIN,tj1.youzan.com,REJECT
 DOMAIN,tj.youzanyun.com,REJECT
 #Trip-航旅纵横
 DOMAIN,analytics.umetrip.com,REJECT
+DOMAIN,bda.umetrip.com,REJECT
+DOMAIN,startup.umetrip.com,REJECT
+DOMAIN,umepay.umetrip.com,REJECT
+DOMAIN,umerp.umetrip.com,REJECT
+DOMAIN,bkclient.umetrip.com.cn,REJECT
+DOMAIN,sensors.umetrip.com.cn,REJECT
+
+DOMAIN,home.umetrip.com,REJECT
+DOMAIN,umerp.umetrip.com.cn,REJECT
 #Trip-同程旅行
 DOMAIN,vstlog.17usoft.com,REJECT
 #Trip-高德地图
@@ -941,22 +955,27 @@ DOMAIN,analytics.plex.tv,REJECT
 DOMAIN,ad.mcloud.139.com,REJECT
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN,ggc.cmvideo.cn,REJECT
+DOMAIN,ggc.miguvideo.com,REJECT
 DOMAIN,ggic.cmvideo.cn,REJECT
-DOMAIN,ggtagcache.cmvideo.cn,REJECT
-DOMAIN,ggv.cmvideo.cn,REJECT
-DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,ggic03.miguvideo.com,REJECT
 DOMAIN,ggic05.miguvideo.com,REJECT
+DOMAIN,ggic08.miguvideo.com,REJECT
 DOMAIN,ggic09.miguvideo.com,REJECT
 DOMAIN,ggicaqz.miguvideo.com,REJECT
 DOMAIN,ggmk.miguvideo.com,REJECT
+DOMAIN,ggtagcache.cmvideo.cn,REJECT
+DOMAIN,ggv.cmvideo.cn,REJECT
+DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,ggx02.miguvideo.com,REJECT
 DOMAIN,ggx03.miguvideo.com,REJECT
 DOMAIN,ggx05.miguvideo.com,REJECT
+DOMAIN,ggx08.miguvideo.com,REJECT
 DOMAIN,ggx09.miguvideo.com,REJECT
+DOMAIN,jadeite.migu.cn,REJECT
+DOMAIN,log001.cmpassport.com,REJECT
 DOMAIN,log1.cmpassport.com,REJECT
 DOMAIN,log2.cmpassport.com,REJECT
-DOMAIN,log001.cmpassport.com,REJECT
+DOMAIN,public-deliver6.miguvideo.com,REJECT
 #Video-咪咕音乐
 DOMAIN,report.migufun.com,REJECT
 DOMAIN,app.log.nf.migu.cn,REJECT
@@ -1206,6 +1225,7 @@ DOMAIN,als.baidu.com,REJECT
 DOMAIN,aod-image.baidu.com,REJECT
 DOMAIN,api-sao.baidu.com,REJECT
 DOMAIN,api.share.baidu.com,REJECT
+DOMAIN,banti.baidu.com,REJECT
 DOMAIN,bdimg.share.baidu.com,REJECT
 DOMAIN,bgg.baidu.com,REJECT
 DOMAIN,browserkernel.baidu.com,REJECT
@@ -1213,14 +1233,15 @@ DOMAIN,bz-ipdx.baidu.com,REJECT
 DOMAIN,caclick.baidu.com,REJECT
 DOMAIN,cbjs.baidu.com,REJECT
 DOMAIN,cm.baidu.com,REJECT
-DOMAIN,cpu.baidu.com,REJECT
 DOMAIN,cpu-openapi.baidu.com,REJECT
+DOMAIN,cpu.baidu.com,REJECT
 DOMAIN,cpucdn.baidu.com,REJECT
 DOMAIN,datax.baidu.com,REJECT
 DOMAIN,dss3.baidu.com,REJECT
 DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,dxp.baidu.com,REJECT
 DOMAIN,eclick.baidu.com,REJECT
+DOMAIN,ecom.map.baidu.com,REJECT
 DOMAIN,eiv.baidu.com,REJECT
 DOMAIN,em.baidu.com,REJECT
 DOMAIN,entry.baidu.com,REJECT
@@ -1246,6 +1267,7 @@ DOMAIN,imageplus.baidu.com,REJECT
 DOMAIN,jzapi.baidu.com,REJECT
 DOMAIN,leads.baidu.com,REJECT
 DOMAIN,miao.baidu.com,REJECT
+DOMAIN,miaowu.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mountain.zhidao.baidu.com,REJECT
@@ -1314,6 +1336,11 @@ DOMAIN-SUFFIX,dxmbaoxian.com,REJECT
 DOMAIN-SUFFIX,dxmpay.com,REJECT
 DOMAIN-SUFFIX,dxmstatic.com,REJECT
 DOMAIN-SUFFIX,paydxm.com,REJECT
+#Bytedance-amemv
+DOMAIN,api5-normal-c-lq.amemv.com,REJECT
+DOMAIN,bytelink100-ws.amemv.com,REJECT
+DOMAIN,log.amemv.com,REJECT
+DOMAIN,mon11-misc.amemv.com,REJECT
 #Bytedance
 DOMAIN,mssdk-bu.bytedance.com,REJECT
 DOMAIN-SUFFIX,dm.bytedance.com,REJECT
@@ -1324,9 +1351,10 @@ DOMAIN-KEYWORD,asiad.byteactivity,REJECT
 DOMAIN-KEYWORD,-ad.byteoversea.com,REJECT
 DOMAIN-KEYWORD,-tos.pstatp.com,REJECT
 DOMAIN-KEYWORD,pangolin-sdk-toutiao,REJECT
-DOMAIN-KEYWORD,pangolin.snssdk.com,REJECT
 DOMAIN-KEYWORD,pglstatp-toutiao,REJECT
+DOMAIN-KEYWORD,pangolin.snssdk.com,REJECT
 DOMAIN-KEYWORD,video-cn.snssdk.com,REJECT
+DOMAIN,ecomuser.snssdk.com,REJECT
 DOMAIN-KEYWORD,analytics.bytescm.com,REJECT
 DOMAIN-SUFFIX,tosv.boe.byted.org,REJECT
 DOMAIN-SUFFIX,tosv.byted.org,REJECT
@@ -1564,11 +1592,13 @@ DOMAIN,astrategy.beacon.qq.com,REJECT
 DOMAIN,otheve.beacon.qq.com,REJECT
 DOMAIN,othstr.beacon.qq.com,REJECT
 DOMAIN,log.tbs.qq.com,REJECT
+DOMAIN,oth.bls.mdt.qq.com,REJECT
 DOMAIN,oth.eve.mdt.qq.com,REJECT
 DOMAIN,oth.str.mdt.qq.com,REJECT
 DOMAIN,news.ssp.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,qqdata.ab.qq.com,REJECT
+DOMAIN,galileotelemetry.tencent.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 #Tencent-gdt
@@ -1737,6 +1767,7 @@ DOMAIN-SUFFIX,2345.com,REJECT
 DOMAIN-SUFFIX,23873645.com,REJECT
 DOMAIN-SUFFIX,25ku.com,REJECT
 DOMAIN-SUFFIX,34283078.com,REJECT
+DOMAIN-SUFFIX,360yield.com,REJECT
 DOMAIN-SUFFIX,37cs.com,REJECT
 DOMAIN-SUFFIX,37wan.com,REJECT
 DOMAIN-SUFFIX,3lift.com,REJECT
@@ -1747,6 +1778,7 @@ DOMAIN-SUFFIX,51.la,REJECT
 DOMAIN-SUFFIX,51fanli.net,REJECT
 DOMAIN-SUFFIX,51link.com,REJECT
 DOMAIN-SUFFIX,5336767ccc.com,REJECT
+DOMAIN-SUFFIX,58iclick.com,REJECT
 DOMAIN-SUFFIX,71360.com,REJECT
 DOMAIN-SUFFIX,77nnv9.xyz,REJECT
 DOMAIN-SUFFIX,7box.vip,REJECT
@@ -1991,6 +2023,7 @@ DOMAIN-SUFFIX,gameanalytics.com,REJECT
 DOMAIN-SUFFIX,gbitcoin.cn,REJECT
 DOMAIN-SUFFIX,gentags.com,REJECT
 DOMAIN-SUFFIX,gentags.net,REJECT
+DOMAIN-SUFFIX,gepush.com,REJECT
 DOMAIN-SUFFIX,getui.com,REJECT
 DOMAIN-SUFFIX,getui.net,REJECT
 DOMAIN-SUFFIX,gfnormal01ae.com,REJECT
@@ -2091,6 +2124,7 @@ DOMAIN-SUFFIX,lijit.com,REJECT
 DOMAIN-SUFFIX,linezing.com,REJECT
 DOMAIN-SUFFIX,lkhihfkds.cn,REJECT
 DOMAIN-SUFFIX,lkqd.net,REJECT
+DOMAIN-SUFFIX,loopme.me,REJECT
 DOMAIN-SUFFIX,luoaxw.com,REJECT
 DOMAIN-SUFFIX,lwmbc.cn,REJECT
 DOMAIN-SUFFIX,lywdoo.cn,REJECT
@@ -2210,6 +2244,7 @@ DOMAIN-SUFFIX,serving-sys.com,REJECT
 DOMAIN-SUFFIX,sglyd.cn,REJECT
 DOMAIN-SUFFIX,sh-qiruizx.com,REJECT
 DOMAIN-SUFFIX,shareclick.top,REJECT
+DOMAIN-SUFFIX,sharethrough.com,REJECT
 DOMAIN-SUFFIX,shenshiads.com,REJECT
 DOMAIN-SUFFIX,showmylife.com,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
@@ -2252,6 +2287,7 @@ DOMAIN-SUFFIX,supersonicads.com,REJECT
 DOMAIN-SUFFIX,survata.com,REJECT
 DOMAIN-SUFFIX,sxhjty.cn,REJECT
 DOMAIN-SUFFIX,sxpjn.com,REJECT
+DOMAIN-SUFFIX,t4m.cn,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,taboola.com.cn,REJECT
 DOMAIN-SUFFIX,taboolasyndication.com,REJECT
@@ -2373,6 +2409,7 @@ DOMAIN-SUFFIX,youmi.net,REJECT
 DOMAIN-SUFFIX,youxiaoad.com,REJECT
 DOMAIN-SUFFIX,yoyi.com.cn,REJECT
 DOMAIN-SUFFIX,yoyi.tv,REJECT
+DOMAIN-SUFFIX,yunxish.com,REJECT
 DOMAIN-SUFFIX,yuxiangjiaozi.com,REJECT
 DOMAIN-SUFFIX,yuyuetui.com,REJECT
 DOMAIN-SUFFIX,yynetwk.com,REJECT
@@ -2389,10 +2426,6 @@ DOMAIN-SUFFIX,zontta.cn,REJECT
 DOMAIN-SUFFIX,zsmobi.com,REJECT
 DOMAIN-SUFFIX,zxrtb.com,REJECT
 DOMAIN-SUFFIX,zygaoshou888.cn,REJECT
-DOMAIN-SUFFIX,t4m.cn,REJECT
-DOMAIN-SUFFIX,360yield.com,REJECT
-DOMAIN-SUFFIX,sharethrough.com,REJECT
-DOMAIN-SUFFIX,loopme.me,REJECT
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
 DOMAIN-SUFFIX,cnxos.com,REJECT
