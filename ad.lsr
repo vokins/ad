@@ -1,4 +1,4 @@
-# Update > 19:17 2026/3/12
+# Update > 20:24 2026/3/12
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -37,6 +37,14 @@ DOMAIN,vinci.ie.sogou.com,REJECT
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,safe.ucweb.com,REJECT
 DOMAIN-SUFFIX,u3.ucweb.com,REJECT
+#3rd-快应用
+DOMAIN-SUFFIX,h5kuai.com,REJECT
+DOMAIN-SUFFIX,hapjs.org,REJECT
+DOMAIN-SUFFIX,kuaih5.com,REJECT
+DOMAIN-SUFFIX,quickapp.cn,REJECT
+DOMAIN-SUFFIX,so-quick.cn,REJECT
+DOMAIN-SUFFIX,thefatherofsalmon.com,REJECT
+DOMAIN-SUFFIX,hybrid.vivo.com,REJECT
 #3rdPage-host-keyword
 DOMAIN-KEYWORD,sensorsdata.,REJECT
 #3rdPage-页面插入-第三方APP调用嵌入刷视频:快手 抖音
@@ -265,6 +273,8 @@ DOMAIN,ad-channel.diwodiwo.xyz,REJECT
 DOMAIN,ad-display.diwodiwo.xyz,REJECT
 DOMAIN,pica-ad-api.diwodiwo.xyz,REJECT
 DOMAIN,ad-channel.wikawika.xyz,REJECT
+#Book-小说吧
+DOMAIN,qdp.xs8.cn,REJECT
 #Book-wenxuecity
 DOMAIN,adserver.wenxuecity.com,REJECT
 #Bank-农行防代理检测
@@ -283,14 +293,18 @@ DOMAIN,adim.pinduoduo.com,REJECT
 DOMAIN,t-dsp.pinduoduo.com,REJECT
 #Buy-美团
 DOMAIN,adgame.waimai.meituan.com,REJECT
+DOMAIN,msp.meituan.com,REJECT
+DOMAIN,mars.meituan.com,REJECT
 #美团兑换券页面会无法完全打开DOMAIN,analytics.meituan.net,REJECT
-DOMAIN-SUFFIX,dreport.meituan.net,REJECT
 DOMAIN-SUFFIX,hreport.meituan.com,REJECT
 DOMAIN-SUFFIX,report.meituan.com,REJECT
+DOMAIN-SUFFIX,dreport.meituan.net,REJECT
 DOMAIN-KEYWORD,-flv.meituan.net,REJECT
 DOMAIN-KEYWORD,-hls.meituan.net,REJECT
 DOMAIN-KEYWORD,-rtmp.meituan.net,REJECT
+DOMAIN,catfront.dianping.com,REJECT
 DOMAIN,shark.dianping.com,REJECT
+DOMAIN,logan.sankuai.com,REJECT
 #Buy-美团/放心借/先用后还
 DOMAIN-SUFFIX,expenses-fe.meituan.com,REJECT
 DOMAIN-SUFFIX,creditpay.meituan.com,REJECT
@@ -407,6 +421,7 @@ DOMAIN,pmm.people.com.cn,REJECT
 #News-新华网
 DOMAIN,a2.xinhuanet.com,REJECT
 DOMAIN,a3.xinhuanet.com,REJECT
+DOMAIN,trace.xinhuaxmt.com,REJECT
 DOMAIN,webd.home.news.cn,REJECT
 #News-中国日报
 DOMAIN,adpic.chinadaily.com.cn,REJECT
@@ -420,6 +435,7 @@ DOMAIN,motions.gmw.cn,REJECT
 DOMAIN,adpai.thepaper.cn,REJECT
 DOMAIN,applog.thepaper.cn,REJECT
 DOMAIN,applogs.thepaper.cn,REJECT
+DOMAIN,pclog.thepaper.cn,REJECT
 #News-观察者
 DOMAIN,sc.guancha.cn,REJECT
 #News-环球网
@@ -618,6 +634,7 @@ DOMAIN,apm.zhihu.com,REJECT
 DOMAIN,appcloud.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,crash2.zhihu.com,REJECT
+DOMAIN,datahub.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
@@ -679,6 +696,8 @@ DOMAIN,pvm.zol.com.cn,REJECT
 DOMAIN,pvnpc.zol.com.cn,REJECT
 DOMAIN,stat.zol.com.cn,REJECT
 DOMAIN,zdw.w8.com.cn,REJECT
+#Tech-PcHome
+DOMAIN,tongji.pchome.net,REJECT
 #Tech-太平洋-pconline
 DOMAIN,countad.pconline.com.cn,REJECT
 DOMAIN,count5.pconline.com.cn,REJECT
@@ -911,6 +930,8 @@ DOMAIN,stat.funshion.net,REJECT
 DOMAIN-SUFFIX,ads.cctv.com,REJECT
 DOMAIN,sspapi.ads.cctv.com,REJECT
 DOMAIN,tracker.ads.cctv.com,REJECT
+DOMAIN,p.data.cctv.com,REJECT
+DOMAIN,galaxy.bjcathay.com,REJECT
 DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
 DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
 DOMAIN,midas.yangshipin.cn,REJECT
@@ -1132,11 +1153,11 @@ DOMAIN,768guanggao.oss-cn-shenzhen.aliyuncs.com,REJECT
 DOMAIN,max-admaster-public.oss-cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN,beacon-api.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
-DOMAIN,cnzz.mmstat.com,REJECT
-DOMAIN,gm.mmstat.com,REJECT
-DOMAIN,log.mmstat.com,REJECT
-DOMAIN,wgo.mmstat.com,REJECT
-DOMAIN,yt.mmstat.com,REJECT
+#DOMAIN,cnzz.mmstat.com,REJECT
+#DOMAIN,gm.mmstat.com,REJECT
+#DOMAIN,log.mmstat.com,REJECT
+#DOMAIN,wgo.mmstat.com,REJECT
+#DOMAIN,yt.mmstat.com,REJECT
 #Ali-淘宝
 #DOMAIN,h-adashx.ut.taobao.com,REJECT
 #DOMAIN,acs.m.taobao.com,REJECT
@@ -1322,6 +1343,7 @@ DOMAIN,pangolin16.sgsnssdk.com,REJECT
 #Bytedance-pstatp
 DOMAIN-SUFFIX,dm.pstatp.com,REJECT
 DOMAIN-SUFFIX,pb3.pstatp.com,REJECT
+DOMAIN-SUFFIX,s3.pstatp.com,REJECT
 DOMAIN-SUFFIX,s3a.pstatp.com,REJECT
 DOMAIN-SUFFIX,sf1-scmcdn-tos.pstatp.com,REJECT
 DOMAIN-SUFFIX,sf1-ttcdn-tos.pstatp.com,REJECT
@@ -1480,6 +1502,7 @@ DOMAIN-SUFFIX,images.sohu.com,REJECT
 DOMAIN-SUFFIX,qpb.sohu.com,REJECT
 DOMAIN-SUFFIX,track.sohu.com,REJECT
 DOMAIN,adv-sv-show.focus.cn,REJECT
+DOMAIN,sp.qf.56.com,REJECT
 #Sogou
 DOMAIN,apt2k.sogou.com,REJECT
 DOMAIN,conv.k.sogou.com,REJECT
@@ -1511,8 +1534,14 @@ DOMAIN-SUFFIX,gdtimg.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,p.l.qq.com,REJECT
 #Tencent-QQ
+DOMAIN,vd6.l.qq.com,REJECT
+DOMAIN,vi.l.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN-KEYWORD,variety.tc.qq.com,REJECT
+#DOMAIN,h.trace.qq.com,REJECT
+#DOMAIN,mazu.m.qq.com,REJECT
+#DOMAIN,tmfmazu.m.qq.com,REJECT
+#DOMAIN,tpush.html5.qq.com,REJECT
 DOMAIN,ad.browser.qq.com,REJECT
 DOMAIN,ad.qq.com,REJECT
 DOMAIN,ads.privacy.qq.com,REJECT
@@ -1520,18 +1549,15 @@ DOMAIN,analytics.map.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,dp3.qq.com,REJECT
 DOMAIN,gatherer.m.qq.com,REJECT
-#DOMAIN,h.trace.qq.com,REJECT
 DOMAIN,hc.tdm.qq.com,REJECT
 DOMAIN,ios.rqd.qq.com,REJECT
 DOMAIN,jpush.html5.qq.com,REJECT
 DOMAIN,logsdk.qq.com,REJECT
 DOMAIN,masdkv6.3g.qq.com,REJECT
-#DOMAIN,mazu.m.qq.com,REJECT
+DOMAIN,pingtas.qq.com,REJECT
 DOMAIN,rdelivery.qq.com,REJECT
 DOMAIN,report.qqweb.qq.com,REJECT
 DOMAIN,tdid.m.qq.com,REJECT
-#DOMAIN,tmfmazu.m.qq.com,REJECT
-#DOMAIN,tpush.html5.qq.com,REJECT
 #Tencent-QQ-Upload
 DOMAIN,aeventlog.beacon.qq.com,REJECT
 DOMAIN,astrategy.beacon.qq.com,REJECT
@@ -1540,12 +1566,15 @@ DOMAIN,othstr.beacon.qq.com,REJECT
 DOMAIN,log.tbs.qq.com,REJECT
 DOMAIN,oth.eve.mdt.qq.com,REJECT
 DOMAIN,oth.str.mdt.qq.com,REJECT
+DOMAIN,news.ssp.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,qqdata.ab.qq.com,REJECT
 DOMAIN,tpstelemetry.tencent.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 #Tencent-gdt
+#DOMAIN,snowflake.qq.com,REJECT
 #DOMAIN-SUFFIX,gtimg.cn,REJECT
+DOMAIN,ltshsy.gtimg.com,REJECT
 DOMAIN,ra.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,report.idqqimg.com,REJECT
@@ -1693,6 +1722,10 @@ DOMAIN,api.tdp.u7u9.com,REJECT
 DOMAIN,s.u7u9.com,REJECT
 DOMAIN,pb1.jiayongluyou.com,REJECT
 DOMAIN,pb2.jiayongluyou.com,REJECT
+DOMAIN,xla.gongkaohao.cn,REJECT
+DOMAIN,xls.gongkaohao.cn,REJECT
+DOMAIN,zcdj.gongweiwang.cn,REJECT
+DOMAIN,zcsj.gongweiwang.cn,REJECT
 #Union-Ads
 DOMAIN-SUFFIX,051091.com,REJECT
 DOMAIN-SUFFIX,123zn.cn,REJECT
@@ -2239,7 +2272,6 @@ DOMAIN-SUFFIX,tenjin.com,REJECT
 DOMAIN-SUFFIX,testplus.cn,REJECT
 DOMAIN-SUFFIX,tewtwt.top,REJECT
 DOMAIN-SUFFIX,tganalytics.xyz,REJECT
-DOMAIN-SUFFIX,thefatherofsalmon.com,REJECT
 DOMAIN-SUFFIX,thubanoa.com,REJECT
 DOMAIN-SUFFIX,tianmidian.com,REJECT
 DOMAIN-SUFFIX,tianmu.mobi,REJECT
@@ -2329,6 +2361,7 @@ DOMAIN-SUFFIX,xys.org,REJECT
 DOMAIN-SUFFIX,ycdywl.com,REJECT
 DOMAIN-SUFFIX,ydwhgs.com,REJECT
 DOMAIN-SUFFIX,yengo.com,REJECT
+DOMAIN-SUFFIX,yhcplatform.com,REJECT
 DOMAIN-SUFFIX,yieldmo.com,REJECT
 DOMAIN-SUFFIX,yingtekeji.com,REJECT
 DOMAIN-SUFFIX,yitushuke.cn,REJECT
@@ -2356,5 +2389,18 @@ DOMAIN-SUFFIX,zontta.cn,REJECT
 DOMAIN-SUFFIX,zsmobi.com,REJECT
 DOMAIN-SUFFIX,zxrtb.com,REJECT
 DOMAIN-SUFFIX,zygaoshou888.cn,REJECT
+DOMAIN-SUFFIX,t4m.cn,REJECT
+DOMAIN-SUFFIX,360yield.com,REJECT
+DOMAIN-SUFFIX,sharethrough.com,REJECT
+DOMAIN-SUFFIX,loopme.me,REJECT
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
+DOMAIN-SUFFIX,cnxos.com,REJECT
+DOMAIN-SUFFIX,company-target.com,REJECT
+DOMAIN-SUFFIX,disqus.com,REJECT
+DOMAIN-SUFFIX,iggrowth.cn,REJECT
+DOMAIN-SUFFIX,inping.com,REJECT
+DOMAIN-SUFFIX,onetag-sys.com,REJECT
+DOMAIN-SUFFIX,tzujian.com,REJECT
+DOMAIN-SUFFIX,yunyousj.com,REJECT
+DOMAIN-SUFFIX,zujiant.com,REJECT
