@@ -1,4 +1,4 @@
-# Update > 17:05 2026/3/12
+# Update > 22:35 2026/3/19
 # https://raw.githubusercontent.com/vokins/ad/main/dr.lsr
 # https://github.com/vokins/ad/blob/main/dr.lsr
 
@@ -47,6 +47,8 @@ DOMAIN,wximg.wxs.qq.com,DIRECT
 #Fix
 ##Cloudflare
 DOMAIN,challenges.cloudflare.com,DIRECT
+#QianWen
+DOMAIN-SUFFIX,qianwen.com,DIRECT
 
 ##Movie
 DOMAIN-SUFFIX,cz4k.com,DIRECT
