@@ -1,4 +1,4 @@
-# Update > 19:27 2026/3/11
+# Update > 22:34 2026/3/19
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 # https://github.com/vokins/ad/blob/main/pr.lsr
 
@@ -963,3 +963,5 @@ DOMAIN-SUFFIX,orstatic.com.cn,PROXY
 #rumors
 DOMAIN-KEYWORD,rumors.net,PROXY
 DOMAIN-KEYWORD,rumors.com,PROXY
+#haitunt.org
+DOMAIN-SUFFIX,haitunt.org,PROXY
