@@ -1,4 +1,4 @@
-# Update > 23:48 2026/3/12
+# Update > 22:33 2026/3/19
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -650,13 +650,23 @@ DOMAIN,ads-img-qc.xhscdn.com,REJECT
 DOMAIN,ads-video-al.xhscdn.com,REJECT
 DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,ads-vp5.xhscdn.com,REJECT
+DOMAIN,fe-static.xhscdn.com,REJECT
 DOMAIN,ros-upload-d4.xhscdn.com,REJECT
+DOMAIN,apm-native.xiaohongshu.com,REJECT
 DOMAIN,crash.xiaohongshu.com,REJECT
-DOMAIN,spider-tracker.xiaohongshu.com,REJECT
-DOMAIN,ros-upload.xiaohongshu.com,REJECT
-DOMAIN,ros-upload-ali.xiaohongshu.com,REJECT
+DOMAIN,fe-resource-app.xiaohongshu.com,REJECT
+DOMAIN,fe.xiaohongshu.com,REJECT
+DOMAIN,lng.xiaohongshu.com,REJECT
+DOMAIN,referee.xiaohongshu.com,REJECT
 DOMAIN,ros-upload-ak.xiaohongshu.com,REJECT
 DOMAIN,ros-upload-akorign-al.xiaohongshu.com,REJECT
+DOMAIN,ros-upload-ali.xiaohongshu.com,REJECT
+DOMAIN,ros-upload.xiaohongshu.com,REJECT
+DOMAIN,spider-tracker.xiaohongshu.com,REJECT
+DOMAIN,t2.xiaohongshu.com,REJECT
+DOMAIN,t3.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,cf-gl.qiezibenpao.com,REJECT
+DOMAIN-SUFFIX,ipip-gl1.qiezibenpao.com,REJECT
 #SNS-搞笑段子
 DOMAIN,ad.rhinox.cn,REJECT
 #SNS-最右/皮皮搞笑
@@ -1005,7 +1015,6 @@ DOMAIN-SUFFIX,hdns.ksyun.com,REJECT
 DOMAIN-SUFFIX,kuaishou.httpdns.pro,REJECT
 DOMAIN-SUFFIX,kuaishouzt.com,REJECT
 DOMAIN-SUFFIX,pcdn.yximgs.com,REJECT
-DOMAIN-SUFFIX,pcdn.yximgs.com,REJECT
 DOMAIN,pcdn-pxy-crc.xxpkg.com,REJECT
 DOMAIN,pcdn-pxy-tracker.xxpkg.com,REJECT
 DOMAIN,p2p-punch.xxpkg.com,REJECT
@@ -1018,8 +1027,6 @@ DOMAIN,promotion-partner.kuaishou.com,REJECT
 DOMAIN,sixinpic.kuaishou.com,REJECT
 DOMAIN,wlog.kuaishou.com,REJECT
 DOMAIN,api.kuaishouzt.com,REJECT
-DOMAIN-SUFFIX,open.kuaishouzt.com,REJECT
-DOMAIN-SUFFIX,open.e.kuaishou.cn,REJECT
 #Video-快手-gifshow
 DOMAIN-SUFFIX,gdfp.gifshow.com,REJECT
 DOMAIN,ad.partner.gifshow.com,REJECT
@@ -1048,7 +1055,7 @@ DOMAIN-SUFFIX,adkwai.com,REJECT
 DOMAIN-SUFFIX,adukwai.com,REJECT
 DOMAIN-SUFFIX,kskwai.com,REJECT
 DOMAIN-SUFFIX,kwaizt.com,REJECT
-DOMAIN-SUFFIX,wsukwai.com,REJECT
+#DOMAIN-SUFFIX,wsukwai.com,REJECT
 #Video-快手-yximgs
 DOMAIN,bd.a.yximgs.com,REJECT
 DOMAIN,bdmov.a.yximgs.com,REJECT
@@ -1402,6 +1409,7 @@ DOMAIN-SUFFIX,tosv.boe.byted.org,REJECT
 DOMAIN-SUFFIX,tosv.byted.org,REJECT
 DOMAIN-SUFFIX,csjplatform.com,REJECT
 DOMAIN-SUFFIX,oceanengine.com,REJECT
+DOMAIN,lf-leads-fe-scm.bytecdn.com,REJECT
 #Bytedance-抖音
 DOMAIN-KEYWORD,tt.x.bsgslb.cn,REJECT
 DOMAIN,apmplus.volces.com,REJECT
@@ -2481,3 +2489,5 @@ DOMAIN-SUFFIX,onetag-sys.com,REJECT
 DOMAIN-SUFFIX,tzujian.com,REJECT
 DOMAIN-SUFFIX,yunyousj.com,REJECT
 DOMAIN-SUFFIX,zujiant.com,REJECT
+DOMAIN-SUFFIX,xinqiucc.com,REJECT
+DOMAIN-SUFFIX,tianwenca.com,REJECT
