@@ -1,4 +1,4 @@
-# Update > 22:33 2026/3/19
+# Update > 23:39 2026/3/20
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -2491,3 +2491,12 @@ DOMAIN-SUFFIX,yunyousj.com,REJECT
 DOMAIN-SUFFIX,zujiant.com,REJECT
 DOMAIN-SUFFIX,xinqiucc.com,REJECT
 DOMAIN-SUFFIX,tianwenca.com,REJECT
+DOMAIN-SUFFIX,miguku.com,REJECT
+DOMAIN-SUFFIX,admanmedia.com,REJECT
+DOMAIN-SUFFIX,di7.org,REJECT
+DOMAIN-SUFFIX,gongkaohao.cn,REJECT
+DOMAIN-SUFFIX,gongweiwang.cn,REJECT
+DOMAIN-SUFFIX,metricslinks.com,REJECT
+DOMAIN-SUFFIX,qttunion.com,REJECT
+DOMAIN-SUFFIX,statisticslinks.com,REJECT
+DOMAIN-SUFFIX,visx.net,REJECT
