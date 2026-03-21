@@ -1,4 +1,4 @@
-# Update > 16:48 2026/3/21
+# Update > 1:46 2026/3/22
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -1235,7 +1235,7 @@ DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
 #Ali-淘宝
 #DOMAIN,h-adashx.ut.taobao.com,REJECT
 #DOMAIN,acs.m.taobao.com,REJECT
-DOMAIN,trade-acs.m.taobao.com,REJECT
+#DOMAIN,trade-acs.m.taobao.com,REJECT 盒马购物车显示出错不更新
 DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,acs4baichuan.m.taobao.com,REJECT
 DOMAIN,baichuan-sdk.taobao.com,REJECT
