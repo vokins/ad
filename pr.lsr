@@ -1,50 +1,8 @@
-# Update > 22:34 2026/3/19
-# https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
+# Update > 16:49 2026/3/21
 # https://github.com/vokins/ad/blob/main/pr.lsr
+# https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
 # **Prooxy**
-#Domain - eu
-DOMAIN-SUFFIX,eu.org,PROXY
-#Domain - HK网站
-DOMAIN-SUFFIX,com.hk,PROXY
-DOMAIN-SUFFIX,gov.hk,PROXY
-DOMAIN-SUFFIX,aastocks.com,PROXY
-DOMAIN-SUFFIX,hk01.com,PROXY
-DOMAIN-SUFFIX,hkjc.com,PROXY
-DOMAIN-SUFFIX,htx.com,PROXY
-DOMAIN-SUFFIX,mingpao.com,PROXY
-DOMAIN-SUFFIX,on.cc,PROXY
-DOMAIN-SUFFIX,stheadline.com,PROXY
-DOMAIN-SUFFIX,pulsehknews.com,PROXY
-#Domain - TW网站
-DOMAIN-SUFFIX,com.tw,PROXY
-DOMAIN-SUFFIX,gov.tw,PROXY
-DOMAIN-SUFFIX,69shuba.com,PROXY
-DOMAIN-SUFFIX,91app.com,PROXY
-DOMAIN-SUFFIX,banxia.la,PROXY
-DOMAIN-SUFFIX,book543.net,PROXY
-DOMAIN-SUFFIX,czbooks.net,PROXY
-DOMAIN-SUFFIX,gimy.ai,PROXY
-DOMAIN-SUFFIX,hanime1.me,PROXY
-DOMAIN-SUFFIX,happymh.com,PROXY
-DOMAIN-SUFFIX,ixdzs.com,PROXY
-DOMAIN-SUFFIX,ixdzs.tw,PROXY
-DOMAIN-SUFFIX,manhuagui.com,PROXY
-DOMAIN-SUFFIX,mhgui.com,PROXY
-DOMAIN-SUFFIX,thisiscm.com,PROXY
-DOMAIN-SUFFIX,twkan.com,PROXY
-DOMAIN-SUFFIX,chinatimes.com,PROXY
-DOMAIN-SUFFIX,dcard.tw,PROXY
-DOMAIN-SUFFIX,mobile01.com,PROXY
-DOMAIN-SUFFIX,ptt.cc,PROXY
-DOMAIN-SUFFIX,ptt2.cc,PROXY
-DOMAIN-SUFFIX,setn.com,PROXY
-DOMAIN-SUFFIX,techbang.com,PROXY
-DOMAIN-SUFFIX,udn.com,PROXY
-DOMAIN-SUFFIX,wantgoo.com,PROXY
-DOMAIN-SUFFIX,newtalk.tw,PROXY
-DOMAIN-SUFFIX,technews.tw,PROXY
-DOMAIN-SUFFIX,thenewslens.com,PROXY
 #Domain - co网站
 DOMAIN-SUFFIX,co.ao,PROXY
 DOMAIN-SUFFIX,co.bw,PROXY
@@ -71,30 +29,71 @@ DOMAIN-SUFFIX,co.za,PROXY
 DOMAIN-SUFFIX,co.zm,PROXY
 DOMAIN-SUFFIX,co.zw,PROXY
 #Domain - 其他网站
+DOMAIN-SUFFIX,eu.org,PROXY
+DOMAIN-SUFFIX,gov.hk,PROXY
+DOMAIN-SUFFIX,gov.tw,PROXY
 DOMAIN-SUFFIX,or.jp,PROXY
+DOMAIN-SUFFIX,com.ar,PROXY
+DOMAIN-SUFFIX,com.au,PROXY
+DOMAIN-SUFFIX,com.br,PROXY
+DOMAIN-SUFFIX,com.co,PROXY
+DOMAIN-SUFFIX,com.hk,PROXY
+DOMAIN-SUFFIX,com.mx,PROXY
 DOMAIN-SUFFIX,com.sg,PROXY
+DOMAIN-SUFFIX,com.tr,PROXY
+DOMAIN-SUFFIX,com.tw,PROXY
+DOMAIN-SUFFIX,com.vn,PROXY
+#Domain - HK网站
+DOMAIN-SUFFIX,aastocks.com,PROXY
+DOMAIN-SUFFIX,hk01.com,PROXY
+DOMAIN-SUFFIX,hkjc.com,PROXY
+DOMAIN-SUFFIX,htx.com,PROXY
+DOMAIN-SUFFIX,mingpao.com,PROXY
+DOMAIN-SUFFIX,on.cc,PROXY
+DOMAIN-SUFFIX,stheadline.com,PROXY
+DOMAIN-SUFFIX,pulsehknews.com,PROXY
+#Domain - TW网站
+DOMAIN-SUFFIX,69shuba.com,PROXY
+DOMAIN-SUFFIX,91app.com,PROXY
+DOMAIN-SUFFIX,banxia.la,PROXY
+DOMAIN-SUFFIX,book543.net,PROXY
+DOMAIN-SUFFIX,czbooks.net,PROXY
+DOMAIN-SUFFIX,gimy.ai,PROXY
+DOMAIN-SUFFIX,hanime1.me,PROXY
+DOMAIN-SUFFIX,happymh.com,PROXY
+DOMAIN-SUFFIX,ixdzs.com,PROXY
+DOMAIN-SUFFIX,ixdzs.tw,PROXY
+DOMAIN-SUFFIX,manhuagui.com,PROXY
+DOMAIN-SUFFIX,mhgui.com,PROXY
+DOMAIN-SUFFIX,thisiscm.com,PROXY
+DOMAIN-SUFFIX,twkan.com,PROXY
+DOMAIN-SUFFIX,chinatimes.com,PROXY
+DOMAIN-SUFFIX,dcard.tw,PROXY
+DOMAIN-SUFFIX,mobile01.com,PROXY
+DOMAIN-SUFFIX,ptt.cc,PROXY
+DOMAIN-SUFFIX,ptt2.cc,PROXY
+DOMAIN-SUFFIX,setn.com,PROXY
+DOMAIN-SUFFIX,techbang.com,PROXY
+DOMAIN-SUFFIX,udn.com,PROXY
+DOMAIN-SUFFIX,wantgoo.com,PROXY
+DOMAIN-SUFFIX,newtalk.tw,PROXY
+DOMAIN-SUFFIX,technews.tw,PROXY
+DOMAIN-SUFFIX,thenewslens.com,PROXY
 #API
 #DOMAIN-SUFFIX,revenuecat.com,PROXY
 #Apple-AI https://support.apple.com/zh-cn/101555
 DOMAIN,apple-relay.apple.com,PROXY
 DOMAIN,apple-relay.fastly-edge.com,PROXY
 #Alphabet-Google https://www.gstatic.com/ipranges/goog.json
-DOMAIN-KEYWORD,.google,PROXY
-DOMAIN-KEYWORD,google.,PROXY
+#DOMAIN-KEYWORD,.google,PROXY
+DOMAIN-KEYWORD,.google.,PROXY
 DOMAIN-SUFFIX,google.com,PROXY
-DOMAIN-SUFFIX,googleapis.com,PROXY
-DOMAIN-SUFFIX,googleusercontent.com,PROXY
-DOMAIN-SUFFIX,ggpht.com,PROXY
-DOMAIN-SUFFIX,gstatic.com,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
-DOMAIN-SUFFIX,youtube.com,PROXY
-DOMAIN-KEYWORD,youtube.,PROXY
-DOMAIN-KEYWORD,.youtube,PROXY
 DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,amp.dev,PROXY
 DOMAIN-SUFFIX,android.com,PROXY
 DOMAIN-SUFFIX,appsheet.com,PROXY
 DOMAIN-SUFFIX,appspot.com,PROXY
+DOMAIN-SUFFIX,bdn.dev,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,blogspot.com,PROXY
 DOMAIN-SUFFIX,c.gle,PROXY
@@ -107,14 +106,20 @@ DOMAIN-SUFFIX,firebaseio.com,PROXY
 DOMAIN-SUFFIX,fitbit.com,PROXY
 DOMAIN-SUFFIX,g.cn,PROXY
 DOMAIN-SUFFIX,g.co,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
 DOMAIN-SUFFIX,go.dev,PROXY
 DOMAIN-SUFFIX,goo.gl,PROXY
 DOMAIN-SUFFIX,goo.gle,PROXY
 DOMAIN-SUFFIX,google.dev,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
 DOMAIN-SUFFIX,googleblog.com,PROXY
 DOMAIN-SUFFIX,googlecode.com,PROXY
+DOMAIN-SUFFIX,googlecommerce.com,PROXY
 DOMAIN-SUFFIX,googlegroups.com,PROXY
 DOMAIN-SUFFIX,googlesource.com,PROXY
+DOMAIN-SUFFIX,googleusercontent.com,PROXY
+DOMAIN-SUFFIX,googlezip.net,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
 DOMAIN-SUFFIX,gvt1.com,PROXY
 DOMAIN-SUFFIX,gvt2.com,PROXY
@@ -123,18 +128,45 @@ DOMAIN-SUFFIX,nest.com,PROXY
 DOMAIN-SUFFIX,page.link,PROXY
 DOMAIN-SUFFIX,pki.goog,PROXY
 DOMAIN-SUFFIX,recaptcha.net,PROXY
+DOMAIN-SUFFIX,urchin.com,PROXY
 DOMAIN-SUFFIX,web.dev,PROXY
-#Alphabet-Google-3rd
-DOMAIN-SUFFIX,gvt0.cn,PROXY
+#Alphabet-Google-cn
+DOMAIN-SUFFIX,ampproject.net.cn,PROXY
+DOMAIN-SUFFIX,ampproject.org.cn,PROXY
+DOMAIN-SUFFIX,dartsearch-cn.net,PROXY
+DOMAIN-SUFFIX,g.cn,PROXY
+DOMAIN-SUFFIX,ggpht.cn,PROXY
+DOMAIN-SUFFIX,gkecnapps.cn,PROXY
+DOMAIN-SUFFIX,google.cn,PROXY
+DOMAIN-SUFFIX,googleapis-cn.com,PROXY
+DOMAIN-SUFFIX,googleapis.cn,PROXY
+DOMAIN-SUFFIX,googleapps-cn.com,PROXY
+DOMAIN-SUFFIX,googlecnapps.cn,PROXY
+DOMAIN-SUFFIX,googledownloads.cn,PROXY
+DOMAIN-SUFFIX,googleflights-cn.net,PROXY
+DOMAIN-SUFFIX,googleoptimize-cn.com,PROXY
+DOMAIN-SUFFIX,googlesandbox-cn.com,PROXY
+DOMAIN-SUFFIX,gstatic-cn.com,PROXY
 DOMAIN-SUFFIX,gstatic.cn,PROXY
+DOMAIN-SUFFIX,gvt0.cn,PROXY
+DOMAIN-SUFFIX,gvt1-cn.com,PROXY
+DOMAIN-SUFFIX,gvt2-cn.com,PROXY
+DOMAIN-SUFFIX,recaptcha-cn.net,PROXY
+DOMAIN-SUFFIX,recaptcha.net.cn,PROXY
+DOMAIN-SUFFIX,widevine.cn,PROXY
 #Alphabet-Gmail
 DOMAIN-SUFFIX,gmail.com,PROXY
 DOMAIN-SUFFIX,googlemail.com,PROXY
 #Alphabet-YouTube
+#DOMAIN-KEYWORD,youtube.,PROXY #DOMAIN-KEYWORD,.youtube,PROXY
 DOMAIN-SUFFIX,googlevideo.com,PROXY
-DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,youtubeeducation.com,PROXY
+DOMAIN-SUFFIX,youtubekids.com,PROXY
+DOMAIN-SUFFIX,yt.be,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
 #APP - Accor
 DOMAIN-SUFFIX,accor.com,PROXY
 DOMAIN-SUFFIX,accorhotels.com,PROXY
