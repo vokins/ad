@@ -1,4 +1,4 @@
-# Update > 23:39 2026/3/20
+# Update > 16:48 2026/3/21
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -13,7 +13,7 @@ DOMAIN,securemetrics.apple.com,REJECT
 DOMAIN,metrics.icloud.com,REJECT
 #https://developer.apple.com/documentation/adservices/aaattribution/attributiontoken()
 DOMAIN-SUFFIX,api-adservices.apple.com,REJECT
-#https://developer.apple.com/documentation/apple_search_ads/get_all_ads
+#https://developer.apple.com/documentation/apple_ads/get-all-ads
 DOMAIN-SUFFIX,searchads.apple.com,REJECT
 #3rdPage-页面插入-欺诈性网站警告
 DOMAIN-KEYWORD,safebrowsing.,REJECT
@@ -890,6 +890,7 @@ DOMAIN,xda.xiaodutv.com,REJECT
 #Video-优酷
 DOMAIN-SUFFIX,ad.youku.com,REJECT
 DOMAIN-SUFFIX,atm.youku.com,REJECT
+DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net,REJECT
 DOMAIN,adashx.ut.tudou.com,REJECT
 DOMAIN,adashx.ut.youku.com,REJECT
 DOMAIN,adx-open-service.youku.com,REJECT
@@ -1135,7 +1136,13 @@ DOMAIN,miui-fxcse.avlyun.com,REJECT
 #OS-Mi/应用包扫描API
 DOMAIN,api.installer.xiaomi.com,REJECT
 #OS-MicroSoft
+DOMAIN,oca.microsoft.com,REJECT
+DOMAIN,watson.microsoft.com,REJECT
+DOMAIN,oca.microsoft.us,REJECT
+DOMAIN,watson.microsoft.us,REJECT
+DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
+DOMAIN-SUFFIX,telemetry.microsoft.us,REJECT
 DOMAIN-SUFFIX,dsp.mp.microsoft.com,REJECT
 DOMAIN,telemetry.api.swiftkey.com,REJECT
 #OS-MicroSoft-Bing
@@ -1511,7 +1518,6 @@ DOMAIN-KEYWORD,adservice.google,REJECT
 DOMAIN,adssettings.google.com,REJECT
 DOMAIN,fundingchoicesmessages.google.com,REJECT
 DOMAIN,ogads-pa.clients6.google.com,REJECT
-DOMAIN-SUFFIX,2mdn-cn.net,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
@@ -1528,7 +1534,6 @@ DOMAIN-SUFFIX,analytics.google.com,REJECT
 DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,doubleclick.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN-SUFFIX,googleadapis.com,REJECT
 DOMAIN-SUFFIX,googleads.com,REJECT
@@ -1536,15 +1541,25 @@ DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googleanalytics.com,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletraveladservices.com,REJECT
 DOMAIN-SUFFIX,urchin.com,REJECT
 #GoogleCN
 DOMAIN-SUFFIX,ads.google.cn,REJECT
 DOMAIN-SUFFIX,adsense.google.cn,REJECT
+DOMAIN-SUFFIX,2mdn-cn.net,REJECT
+DOMAIN-SUFFIX,admob-cn.com,REJECT
+DOMAIN-SUFFIX,app-measurement-cn.com,REJECT
 DOMAIN-SUFFIX,doubleclick-cn.net,REJECT
+DOMAIN-SUFFIX,doubleclick.cn,REJECT
+DOMAIN-SUFFIX,google-analytics-cn.com,REJECT
 DOMAIN-SUFFIX,googleadservices-cn.com,REJECT
+DOMAIN-SUFFIX,googlesyndication-cn.com,REJECT
+DOMAIN-SUFFIX,googletagmanager-cn.com,REJECT
 DOMAIN-SUFFIX,googletagservices-cn.com,REJECT
+DOMAIN-SUFFIX,googletraveladservices-cn.com,REJECT
+DOMAIN-SUFFIX,googlevads-cn.com,REJECT
 #JD
 DOMAIN,dsp-x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
@@ -1611,6 +1626,7 @@ DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,ugdtimg.com,REJECT
 DOMAIN-SUFFIX,gdtimg.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,midas.gtimg.cn,REJECT
 DOMAIN,p.l.qq.com,REJECT
 #Tencent-QQ
 DOMAIN,vd6.l.qq.com,REJECT
@@ -2500,3 +2516,5 @@ DOMAIN-SUFFIX,metricslinks.com,REJECT
 DOMAIN-SUFFIX,qttunion.com,REJECT
 DOMAIN-SUFFIX,statisticslinks.com,REJECT
 DOMAIN-SUFFIX,visx.net,REJECT
+DOMAIN-SUFFIX,trs.cn,REJECT
+DOMAIN-SUFFIX,appmobile.cn,REJECT
