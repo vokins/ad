@@ -1,4 +1,4 @@
-# Update > 16:49 2026/3/21
+# Update > 21:35 2026/3/24
 # https://github.com/vokins/ad/blob/main/pr.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
@@ -131,9 +131,9 @@ DOMAIN-SUFFIX,recaptcha.net,PROXY
 DOMAIN-SUFFIX,urchin.com,PROXY
 DOMAIN-SUFFIX,web.dev,PROXY
 #Alphabet-Google-cn
-DOMAIN-SUFFIX,ampproject.net.cn,PROXY
-DOMAIN-SUFFIX,ampproject.org.cn,PROXY
-DOMAIN-SUFFIX,dartsearch-cn.net,PROXY
+#DOMAIN-SUFFIX,ampproject.net.cn,PROXY
+#DOMAIN-SUFFIX,ampproject.org.cn,PROXY
+#DOMAIN-SUFFIX,dartsearch-cn.net,PROXY
 DOMAIN-SUFFIX,g.cn,PROXY
 DOMAIN-SUFFIX,ggpht.cn,PROXY
 DOMAIN-SUFFIX,gkecnapps.cn,PROXY
