@@ -1,4 +1,4 @@
-# Update > 23:11 2026/3/29
+# Update > 23:43 2026/3/29
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -50,9 +50,9 @@ DOMAIN-KEYWORD,sensorsdata.,REJECT
 #3rdPage-页面插入-第三方APP调用嵌入刷视频:快手 抖音
 DOMAIN-SUFFIX,open.e.kuaishou.cn,REJECT
 DOMAIN-SUFFIX,open.e.kuaishou.com,REJECT
-DOMAIN-SUFFIX,open.kwaizt.com,REJECT
-DOMAIN-SUFFIX,open.kuaishouzt.com,REJECT
 DOMAIN-SUFFIX,promotion-partner.kuaishou.com,REJECT
+DOMAIN-SUFFIX,open.kuaishouzt.com,REJECT
+DOMAIN-SUFFIX,open.kwaizt.com,REJECT
 DOMAIN-SUFFIX,mercury-sdk.snssdk.com,REJECT
 DOMAIN-SUFFIX,stream-sdk.feedcoopapi.com,REJECT
 #3rdPage-页面插入
@@ -159,6 +159,7 @@ DOMAIN,mobilefhtj.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
 DOMAIN,g.koowo.com,REJECT
 #Audio-酷狗
+DOMAIN-SUFFIX,adserviceretry.kglink.cn,REJECT
 DOMAIN-SUFFIX,ads.service.kugou.com,REJECT
 DOMAIN-SUFFIX,adservice.kugou.com,REJECT
 DOMAIN-SUFFIX,adserviceretry.kugou.com,REJECT
@@ -717,8 +718,6 @@ DOMAIN,stat.ippzone.com,REJECT
 DOMAIN,adsdk.9imobi.com,REJECT
 DOMAIN,advertising.youyizhidao.com,REJECT
 DOMAIN,live.yuanbobo.com,REJECT
-DOMAIN,zxid-m.mobileservice.cn,REJECT
-DOMAIN,zxid-api.mobileservice.cn,REJECT
 #SNS-Linkedin
 DOMAIN-SUFFIX,ads.linkedin.com,REJECT
 DOMAIN,ponf.linkedin.com,REJECT
@@ -905,6 +904,8 @@ DOMAIN,vstlog.17usoft.com,REJECT
 DOMAIN,dualstack-logs.amap.com,REJECT
 DOMAIN,logs.amap.com,REJECT
 DOMAIN,optimus-ads.amap.com,REJECT
+DOMAIN,adashx.ut.amap.com,REJECT
+DOMAIN,v6-adashx.ut.amap.com,REJECT
 #Trip-飞猪
 DOMAIN,adashx.ut.fliggy.com,REJECT
 DOMAIN,h-adashx.ut.fliggy.com,REJECT
@@ -999,7 +1000,10 @@ DOMAIN-SUFFIX,log.mgtv.com,REJECT
 DOMAIN-SUFFIX,titan.mgtv.com,REJECT
 DOMAIN-SUFFIX,log.hunantv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
+DOMAIN,click.hunantv.com,REJECT
 DOMAIN,guid.hunantv.com,REJECT
+DOMAIN,log.v2.hunantv.com,REJECT
+DOMAIN,res.hunantv.com,REJECT
 #Video-暴风影音
 DOMAIN,action.logger.baofeng.com,REJECT
 DOMAIN,active.baofeng.com,REJECT
@@ -1023,6 +1027,8 @@ DOMAIN,dplog.mddcloud.com.cn,REJECT
 DOMAIN,tj.qiumibao.com,REJECT
 DOMAIN,up.qiumibao.com,REJECT
 #Video-乐播投屏
+DOMAIN,ad.hpplay.cn,REJECT
+DOMAIN,adc.hpplay.cn,REJECT
 DOMAIN,adeng.hpplay.cn,REJECT
 DOMAIN,rp.hpplay.cn,REJECT
 #Video-PP视频
@@ -1050,8 +1056,10 @@ DOMAIN,stat.le.com,REJECT
 DOMAIN,vstat-api.le.com,REJECT
 DOMAIN,apple.www.letv.com,REJECT
 DOMAIN,ark.letv.com,REJECT
+DOMAIN,dc.letv.com,REJECT
 DOMAIN,dynamic.app.m.letv.com,REJECT
 DOMAIN,fe-go.letv.com,REJECT
+DOMAIN,g3.letv.com,REJECT
 #Video-迅雷/影音
 DOMAIN,analysis-acc-ssl.xunlei.com,REJECT
 DOMAIN,stat.download.xunlei.com,REJECT
@@ -1155,12 +1163,14 @@ DOMAIN,pcdn-pxy-tracker.xxpkg.com,REJECT
 DOMAIN,p2p-punch.xxpkg.com,REJECT
 DOMAIN,tx.a.kspkg.com,REJECT
 #Video-快手
+DOMAIN-SUFFIX,e.kuaishou.cn,REJECT
 DOMAIN-SUFFIX,e.kuaishou.com,REJECT
 DOMAIN-SUFFIX,u.kuaishou.com,REJECT
 DOMAIN-SUFFIX,kuaishouzt.com,REJECT
 DOMAIN-SUFFIX,gdfp.ksapisrv.com,REJECT
 DOMAIN-SUFFIX,log-sdk.ksapisrv.com,REJECT
 DOMAIN-SUFFIX,gdfp.gifshow.com,REJECT
+DOMAIN-SUFFIX,adbkwai.com,REJECT
 DOMAIN-SUFFIX,adkwai.com,REJECT
 DOMAIN-SUFFIX,adukwai.com,REJECT
 DOMAIN-SUFFIX,kskwai.com,REJECT
@@ -1723,9 +1733,19 @@ DOMAIN,imasdk.googleapis.com,REJECT
 DOMAIN,ogads-pa.googleapis.com,REJECT
 #Google
 DOMAIN-KEYWORD,adservice.google,REJECT
+DOMAIN,adservice.google.com,REJECT
 DOMAIN,adssettings.google.com,REJECT
+DOMAIN,analytics-alv.google.com,REJECT
+DOMAIN,fcmatch.google.com,REJECT
 DOMAIN,fundingchoicesmessages.google.com,REJECT
+DOMAIN,googleadapis.l.google.com,REJECT
+DOMAIN,mail-ads.google.com,REJECT
+DOMAIN,marketingplatform.google.com,REJECT
+DOMAIN,mobileads.google.com,REJECT
 DOMAIN,ogads-pa.clients6.google.com,REJECT
+DOMAIN,pagead.l.google.com,REJECT
+DOMAIN,partnerad.l.google.com,REJECT
+DOMAIN,app-analytics-services-att.com,REJECT
 DOMAIN,cdn.ampproject.org,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
@@ -1769,6 +1789,7 @@ DOMAIN-SUFFIX,googletagmanager-cn.com,REJECT
 DOMAIN-SUFFIX,googletagservices-cn.com,REJECT
 DOMAIN-SUFFIX,googletraveladservices-cn.com,REJECT
 DOMAIN-SUFFIX,googlevads-cn.com,REJECT
+DOMAIN-SUFFIX,googleads-cn.com,REJECT
 #JD
 DOMAIN,dsp-x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
@@ -1955,6 +1976,7 @@ DOMAIN,a1.api.bbc.co.uk,REJECT
 DOMAIN,gn-web-assets.api.bbc.com,REJECT
 #Github
 DOMAIN,collector.github.com,REJECT
+DOMAIN,copilot-telemetry.githubusercontent.com,REJECT
 #xhamster
 DOMAIN,collector.xhamster.co,REJECT
 DOMAIN,collector.xhamster.com,REJECT
@@ -2417,6 +2439,7 @@ DOMAIN-SUFFIX,innovid.com,REJECT
 DOMAIN-SUFFIX,inping.com,REJECT
 DOMAIN-SUFFIX,instabug.com,REJECT
 DOMAIN-SUFFIX,ipinyou.com,REJECT
+DOMAIN-SUFFIX,ipinyou.com.cn,REJECT
 DOMAIN-SUFFIX,ipredictive.com,REJECT
 DOMAIN-SUFFIX,ironbeast.io,REJECT
 DOMAIN-SUFFIX,irs01.com,REJECT
@@ -2783,3 +2806,6 @@ DOMAIN-SUFFIX,zygaoshou888.cn,REJECT
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
 DOMAIN-SUFFIX,seedtag.com,REJECT
+DOMAIN-SUFFIX,sigmob.com,REJECT
+DOMAIN-SUFFIX,telecome.cn,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
