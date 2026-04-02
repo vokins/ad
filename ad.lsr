@@ -1,4 +1,4 @@
-# Update > 17:36 2026/4/2
+# Update > 20:10 2026/4/2
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -672,7 +672,7 @@ DOMAIN,yes1.feng.com,REJECT
 #SNS-豆瓣
 DOMAIN,at3.doubanio.com,REJECT
 DOMAIN,at4.doubanio.com,REJECT
-#DOMAIN,erebor.douban.com,REJECT
+DOMAIN,erebor.douban.com,REJECT
 DOMAIN,qnmob3.doubanio.com,REJECT
 #SNS-知乎
 DOMAIN,apm.zhihu.com,REJECT
@@ -823,6 +823,7 @@ DOMAIN,v1.log.moji.com,REJECT
 #Tool-彩云
 DOMAIN,ad.cyapi.cn,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
+DOMAIN,abc.caiyunapp.com,REJECT
 DOMAIN,bcd.caiyunapp.com,REJECT
 #Tool-华风爱科
 DOMAIN,log-stats.weathercn.com,REJECT
