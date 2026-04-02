@@ -1,4 +1,4 @@
-# Update > 21:42 2026/4/2
+# Update > 0:19 2026/4/3
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -539,7 +539,6 @@ DOMAIN,hc.sogoubaidusm.cn,REJECT
 DOMAIN,baichuan-api.jrj.com.cn,REJECT
 DOMAIN,st.jrj.com.cn,REJECT
 #News-东方财富
-DOMAIN,g1.dfcfw.com,REJECT
 DOMAIN,bddtlog.eastmoney.com,REJECT
 DOMAIN,bdstatics.eastmoney.com,REJECT
 DOMAIN,bdwblog.eastmoney.com,REJECT
@@ -547,11 +546,10 @@ DOMAIN,emdcadvertise-wap.eastmoney.com,REJECT
 DOMAIN,emdcadvertise.eastmoney.com,REJECT
 DOMAIN,huaxiang.eastmoney.com,REJECT
 DOMAIN,mobappconfig.securities.eastmoney.com,REJECT
-DOMAIN,push2.eastmoney.com,REJECT
 DOMAIN,same.eastmoney.com,REJECT
 DOMAIN,zqhd.eastmoney.com,REJECT
-DOMAIN,a2.dftzj.com,REJECT
 DOMAIN,a1.dftzj.com,REJECT
+DOMAIN,a2.dftzj.com,REJECT
 DOMAIN,zqhd.dfcfs.cn,REJECT
 #News-同花顺
 DOMAIN,ad.thsi.cn,REJECT
