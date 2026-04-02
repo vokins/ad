@@ -45,6 +45,10 @@ sina.cn##section[class="s_card hot_list"]
 sina.cn##section[class*="recommend"]
 sina.cn##div[data-routeuri*="sinanews://"]
 
+||mon.zijieapi.com^
+||mcs.zijieapi.com^
+||security.zijieapi.com^
+||privacy.zijieapi.com^
 toutiao.com##div[class*="-recommend-container"]
 toutiao.com##div[class^="arco-masking"]
 toutiao.com##div[class^="m-bottom-"]
@@ -146,17 +150,27 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 */linksubmit/push.js*$script
 ||ada.baidu.com^
 ||cbjs.baidu.com^
+||em.baidu.com^
 ||eclick.baidu.com^
 ||pos.baidu.com^
+||hm.baidu.com^
+||sp0.baidu.com^
 ||cpro.baidustatic.com^
 ||dup.baidustatic.com^
+||zz.bdstatic.com^
 m.baidu.com##div[class="tab_news"]
+
+||lupic.cdn.bcebos.com^
+||render-server.cdn.bcebos.com^
 
 ! zijie
 */goofy/ttzz/push.js*$script
 
 ! 163
 */adbox/*$script
+||adutp.com^
+||outin.cn^
+||nex.163.com^
 ||h5.analytics.126.net^
 ||webstat.ws.126.net^
 ||yt-adp.ws.126.net^
@@ -193,14 +207,23 @@ m.baidu.com##div[class="tab_news"]
 ||log2.sina.cn^
 ||mixer.sina.cn^
 ||mixern.sina.cn^
+||newsapp.sina.cn^
 ||pluto.sina.cn^
 ||sax.sina.cn^
 ||9ibbcq2d.sina.cn^
 ||l6urqh27.sina.cn^
 ||qgnu18wo.sina.cn^
 ||biz.weibo.com^
-
+sina.cn###module_info
 !sina.cn##div[class^="sw_c"]
+sina.cn##*[class^="client-down"]
+sina.cn##*[class^="m-sentiment-"] 
+sina.cn##*[class*="bottom-callup"]
+sina.cn##div[style="bottom: 0px;"]
+sina.cn##div[class^="m-guss-caijing"]
+sina.cn##div[class="unfold-words"]
+sina.cn##div[class="broadcast js-voice show"]
+sina.cn##section[class^="module-extend"]
 sina.com.cn##div[class$="-ad"]
 sina.com.cn##div[id^="ad_" ]
 sina.com.cn##div[class^="top-banner"]
@@ -209,12 +232,12 @@ sina.com.cn###tab_related
 
 ! Sohu
 ||ads.sohu.com^
-||at.sohu.com^
-||go.sohu.com^
+||*.at.sohu.com^
+||*.go.sohu.com^
 ||pv.sohu.com^
 ||qpb1.sohu.com^
 ||track.sohu.com^
-
+||odin.sohu.com^
 ||aty.sohu.com^
 ||hd.sohu.com.cn^
 ||count.vrs.sohu.com^
@@ -230,7 +253,7 @@ sina.com.cn###tab_related
 ||qpb.sohu.com^
 ||qpb0.sohu.com^
 ||qpb1.sohu.com^
-
+||optaim.com^
 ||adv-sv-show.focus.cn^
 ||bealge.sogou.com^
 ||brand.sogou.com^
@@ -256,6 +279,7 @@ sohu.com##div[class="modAdv"]
 sohu.com##div[data-role^="god"]
 sohu.com##div[data-spm-content="ad"]
 sohu.com##div[data-spm^="ad"]
+m.sohu.com###CallAppContainer
 m.sohu.com##div[data-v-286d18ca]
 sohu.com##.god-head.left
 sohu.com##.godR
@@ -299,49 +323,76 @@ cnbeta.com.tw##.fc-dialog-container > .fc-dialog-overlay
 ||beacon.qq.com^
 ||bugly.qq.com^
 ||e.qq.com^
-||gdt.qq.com^
+||*.gdt.qq.com^
 ||l.qq.com^
 ||gdtimg.com^
 ||ugdtimg.com^
+||pgdt.gtimg.cn^
+||appcfg.v.qq.com^
+||beacon.cdn.qq.com^
+||otheve.beacon.qq.com^
+||h.trace.qq.com^
+||op.ssp.qq.com^
+||p.ssp.qq.com^
+||vd6.l.qq.com^
+||vi.l.qq.com^
+||h5vv6.video.qq.com^
+||bkh5vv.video.qq.com^
 
 qq.com##div[dt-eid="em_rec_app"]
 qq.com##*[dt-eid="em_download_pcapp"]
 qq.com##div[style*="gtimg.com/newsapp"]
-xw.qq.com##div[class^="ad_ssp"]
+qq.com##div[data-boss-expo^="ad"]
 news.qq.com##div[class^="ad-cell"]
 v.qq.com##div[class^="mod_ad"]
-qq.com##div[data-boss-expo^="ad"]
+xw.qq.com##div[class^="ad_ssp"]
+xw.qq.com###opeApp
 ##script[src*="beacon.cdn.qq.com"]
-##script[src*="cloudflareinsights.com/beacon"]
+
+##script[src*="cloudflareinsights.com"]
 ##img[src*="scorecardresearch.com"]
 
+!ifeng
+||9fum.ifeng.com^
+||bd3rd.ifeng.com^
+||bdmap1.ifeng.com^
+||bm7c.ifeng.com^
+||c01049em.ifeng.com^
+||err.ifengcloud.ifeng.com^
+||stadig.ifeng.com^
+||uww6.ifeng.com^
+##[href^="https://mall.ifeng.com/"]
+i.ifeng.com##div[class^="index_pageBottomBrand"]
 
-
-m.10jqka.com.cn##img#backBanner
-
-
-m.bilibili.com##m-open-app
-m.douyu.com##button
-m.douyu.com##div[class^="OpenAppBtn"]
+!hupu
+||hermes.hupu.com^
+m.hupu.com##.tabs-component-search-app
 m.hupu.com##div.hupu-footer-btn
 m.hupu.com##div.open-hupu
 m.iqiyi.com##.open_app_iframe
 
-m.liepin.com##div.download-center-box-bg
-
-m.tv.sohu.com##.banner_yunying
-m.thepaper.cn###moblink_header
-m.thepaper.cn##a[data-statclick="downloadApp"]
-m.toutiao.com##div.arco-masking-mask
-m.toutiao.com##div.modal-content
-
-
+!东方财富
+||bddtlog.eastmoney.com^
+||bdstatics.eastmoney.com^
+||bdwblog.eastmoney.com^
+||emdcadvertise-wap.eastmoney.com^
+||emdcadvertise.eastmoney.com^
+||huaxiang.eastmoney.com^
+wap.eastmoney.com###openinapp
+wap.eastmoney.com##.dl_guide_btn
+wap.eastmoney.com##.btn-comm-more
+wap.eastmoney.com##div[class^="em_handle_adv"]
+wap.eastmoney.com##a[href^="https://mlink.eastmoney.com/"]
 wap.eastmoney.com##div.yingyongtuijian
 
-shuaito.help##div.mb_ad
-
-www.youku.com##div.callEnd_box
+!zhihu
+||apm.zhihu.com^
+||zhihu-web-analytics.zhihu.com^
+||datahub.zhihu.com^
+||crash2.zhihu.com^
+||sugar.zhihu.com^
 www.zhihu.com##button
+www.zhihu.com##div[class^="MobileModal-"]
 
 ! szhk.com
 ||img.0755rc.com^
@@ -350,6 +401,19 @@ szhk.com###cbddiv
 szhk.com###h_banner
 szhk.com##.banner_dt
 szhk.com##.szgay
+
+m.liepin.com##div.download-center-box-bg
+m.tv.sohu.com##.banner_yunying
+m.thepaper.cn###moblink_header
+m.thepaper.cn##a[data-statclick="downloadApp"]
+m.toutiao.com##div.arco-masking-mask
+m.toutiao.com##div.modal-content
+m.10jqka.com.cn##img#backBanner
+m.bilibili.com##m-open-app
+m.douyu.com##button
+m.douyu.com##div[class^="OpenAppBtn"]
+shuaito.help##div.mb_ad
+www.youku.com##div.callEnd_box
 
 ! 其他union
 ||33across.com^
@@ -376,3 +440,6 @@ szhk.com##.szgay
 ||vidoomy.com^
 ||amazon-adsystem.com^
 ||crwdcntrl.net^
+||mobileservice.cn^
+||fastapi.net^
+||qchannel03.cn^
