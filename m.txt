@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.20
+! Version: 0.23
 ! Title: adfilter
-! Last modified: 0:20 2026/4/3 Expires: 7 days (update frequency)
+! Last modified: 0:56 2026/4/3 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -45,10 +45,37 @@ sina.cn##section[class="s_card hot_list"]
 sina.cn##section[class*="recommend"]
 sina.cn##div[data-routeuri*="sinanews://"]
 
+!字节
+||byteadverts.com^
+||ctobsnssdk.com^
+||pangolin-dsp-toutiao-b.com^
+||pangolin-dsp-toutiao.com^
+||pangolin-hl.snssdk.com^
+||pangolin-lf.snssdk.com^
+||pangolin-lq.snssdk.com^
+||pangolin-sdk-toutiao-b.com^
+||pangolin-sdk-toutiao.com^
+||pangolin-sdk-toutiao1.com^
+||pangolin.snssdk.com^
+||panplayable-toutiao-b.com^
+||panplayable-toutiao.com^
+||pglstatp-sdk-toutiao.com^
+||pglstatp-snssdk-toutiao.com^
+||pglstatp-toutiao-b.com^
+||pglstatp-toutiao.com^
+||shoppingads.cn^
+||ad.toutiao.com^
+||analytics.tiktok.com^
+||bds.snssdk.com^
+||extlog.snssdk.com^
+||dig.bdurl.net^
+||log.zijieapi.com^
+||sf3-ttcdn-tos.pstatp.com^
 ||mon.zijieapi.com^
 ||mcs.zijieapi.com^
 ||security.zijieapi.com^
 ||privacy.zijieapi.com^
+||lf-security.bytegoofy.com^
 toutiao.com##div[class*="-recommend-container"]
 toutiao.com##div[class^="arco-masking"]
 toutiao.com##div[class^="m-bottom-"]
@@ -76,7 +103,7 @@ speedtest.net##.result-area-ad.result-area
 speedtest.net###stnext_footer
 
 !ithome
-||m.ithome.com/js/common/jump-app.min.js$script
+||m.ithome.com/js/common/jump-app.min.js^
 ithome.com##[class*="open-app"] 
 ithome.com##div[class="hot-app"]
 ithome.com##*[class="ad"]
@@ -158,10 +185,20 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ||cpro.baidustatic.com^
 ||dup.baidustatic.com^
 ||zz.bdstatic.com^
-m.baidu.com##div[class="tab_news"]
-
+! 百度贴吧
+||banti.baidu.com^
+||dlswbr.baidu.com^
+||gsp0.baidu.com^
+||h2tcbox.baidu.com^
+||miao.baidu.com^
+||miaowu.baidu.com^
+||banti-static.cdn.bcebos.com^
+||dmpstatic.cdn.bcebos.com^
+||efe-h2.cdn.bcebos.com^
+||tieba-fe.gz.bcebos.com^
 ||lupic.cdn.bcebos.com^
 ||render-server.cdn.bcebos.com^
+m.baidu.com##div[class="tab_news"]
 
 ! zijie
 */goofy/ttzz/push.js*$script
@@ -232,8 +269,9 @@ sina.com.cn###tab_related
 
 ! Sohu
 ||ads.sohu.com^
-||*.at.sohu.com^
-||*.go.sohu.com^
+||i.go.sohu.com^
+||reke.at.sohu.com^
+||vbng.at.sohu.com^
 ||pv.sohu.com^
 ||qpb1.sohu.com^
 ||track.sohu.com^
@@ -372,6 +410,8 @@ m.hupu.com##div.open-hupu
 m.iqiyi.com##.open_app_iframe
 
 !东方财富
+||a1.dftzj.com^
+||a2.dftzj.com^
 ||bddtlog.eastmoney.com^
 ||bdstatics.eastmoney.com^
 ||bdwblog.eastmoney.com^
