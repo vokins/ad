@@ -1,4 +1,4 @@
-# Update > 23:43 2026/3/29
+# Update > 17:36 2026/4/2
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -498,7 +498,7 @@ DOMAIN,i.flive.ifeng.com,REJECT
 DOMAIN,stadig.ifeng.com,REJECT
 DOMAIN,survey.news.ifeng.com,REJECT
 DOMAIN,uww6.ifeng.com,REJECT
-DOMAIN,x0.ifengimg.com,REJECT
+#DOMAIN,x0.ifengimg.com,REJECT
 DOMAIN,bdfpbimg.ifengimg.com,REJECT
 DOMAIN,c0.ifengimg.com,REJECT
 DOMAIN,c1.ifengimg.com,REJECT
@@ -1331,6 +1331,7 @@ DOMAIN,cms-bucket.ws.126.net,REJECT
 DOMAIN,pg-ad-b1.ws.126.net,REJECT
 DOMAIN,webstat.ws.126.net,REJECT
 DOMAIN,yp.ws.126.net,REJECT
+#DOMAIN,nimg.ws.126.net,REJECT
 DOMAIN,yt-adp.ws.126.net,REJECT
 DOMAIN,iadmat.nosdn.127.net,REJECT
 DOMAIN-SUFFIX,da.netease.com,REJECT
@@ -1929,6 +1930,9 @@ DOMAIN,localhost.weixin.qq.com,REJECT
 DOMAIN,badjs.weixinbridge.com,REJECT
 DOMAIN,cube.weixinbridge.com,REJECT
 #Tencent-腾讯视频
+DOMAIN,ad.tencentvideo.com,REJECT
+DOMAIN,adstats.tencentvideo.com,REJECT
+DOMAIN,info6.video.qq.com,REJECT
 DOMAIN,sq.bls.mdt.qq.com,REJECT
 DOMAIN,finderhy.video.qq.com,REJECT
 DOMAIN-KEYWORD,variety.tc.qq.com,REJECT
@@ -2089,6 +2093,8 @@ DOMAIN,xls.gongkaohao.cn,REJECT
 DOMAIN,zcdj.gongweiwang.cn,REJECT
 DOMAIN,zcdk.gongweiwang.cn,REJECT
 DOMAIN,zcsj.gongweiwang.cn,REJECT
+DOMAIN,img.0755rc.com,REJECT
+DOMAIN,new.0755rc.com,REJECT
 #Union-Ads
 DOMAIN-SUFFIX,051091.com,REJECT
 DOMAIN-SUFFIX,123zn.cn,REJECT
