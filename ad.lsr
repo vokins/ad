@@ -1,4 +1,4 @@
-# Update > 20:10 2026/4/2
+# Update > 21:42 2026/4/2
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -2816,3 +2816,17 @@ DOMAIN-SUFFIX,seedtag.com,REJECT
 DOMAIN-SUFFIX,sigmob.com,REJECT
 DOMAIN-SUFFIX,telecome.cn,REJECT
 DOMAIN-SUFFIX,adjust.io,REJECT
+DOMAIN-SUFFIX,adserver.org,REJECT
+DOMAIN-SUFFIX,audigent.com,REJECT
+DOMAIN-SUFFIX,epsilon.com,REJECT
+DOMAIN-SUFFIX,first-id.fr,REJECT
+DOMAIN-SUFFIX,pubcid.org,REJECT
+DOMAIN-SUFFIX,uidapi.com,REJECT
+DOMAIN-SUFFIX,liveintent.com,REJECT
+DOMAIN-SUFFIX,hadronid.net,REJECT
+DOMAIN-SUFFIX,indexexchange.com,REJECT
+DOMAIN-SUFFIX,sovrn.com,REJECT
+DOMAIN-SUFFIX,triplelift.com,REJECT
+DOMAIN-SUFFIX,unrulymedia.com,REJECT
+DOMAIN-SUFFIX,vidazoo.com,REJECT
+DOMAIN-SUFFIX,liveramp.com,REJECT
