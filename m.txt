@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.18
+! Version: 0.191
 ! Title: adfilter
-! Last modified: 20:19 2026/4/2 Expires: 7 days (update frequency)
+! Last modified: 21:49 2026/4/2 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -58,9 +58,18 @@ people.cn##a[class^="openApp "]
 people.cn##div[class^="app-bot-wrap"]
 people.cn##div[class*="relevant-news"]
 people.cn##div[class="voice-wrap"]
-m.people.cn##div[class="m-page-tip"]
+people.cn##div[class="m-page-tip"]
+
 guancha.cn##div[class="g_swiper_container"]
 guancha.cn##div[class*=" go-to-app"] 
+
+! speedtest.net
+speedtest.net##.modal-in-place.modal.mobile-pretest-new
+speedtest.net##.modal-overlay-dark.modal-overlay
+speedtest.net##.mobile-eot-banner
+speedtest.net##.mobile-during-test-banner > .mobile-banner-container
+speedtest.net##.result-area-ad.result-area
+speedtest.net###stnext_footer
 
 !ithome
 ||m.ithome.com/js/common/jump-app.min.js$script
@@ -343,14 +352,27 @@ szhk.com##.banner_dt
 szhk.com##.szgay
 
 ! 其他union
+||33across.com^
 ||360yield.com^
 ||3lift.com^
+||ad.gt^
 ||adform.net^
 ||adnxs.com^
+||adsrvr.org^
 ||cloudflareinsights.com^
 ||criteo.com^
 ||ethicalads.io^
 ||fenxi.com^
+||hadronid.net^
 ||id5-sync.com^
+||indexexchange.com^
+||liveintent.com^
+||liveramp.com^
 ||mdvdns.com^
+||sovrn.com^
+||triplelift.com^
+||unrulymedia.com^
+||vidazoo.com^
 ||vidoomy.com^
+||amazon-adsystem.com^
+||crwdcntrl.net^
