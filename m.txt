@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.23
+! Version: 0.25
 ! Title: adfilter
-! Last modified: 0:56 2026/4/3 Expires: 7 days (update frequency)
+! Last modified: 13:29 2026/4/3 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -16,13 +16,26 @@
 ##div[class="ad-content"]
 ##[id="ad-container"]
 ##[class="ad-container"]
+##div[class*="-ad-image"]
+
 */galileo/*$script
 */taboola/*$script
 ##div[class^="ad_8"]
 ##div[class="adm-image"]
+##div[class*="_ad_box_"]
 
 ##[src*="/www/delivery/ajs.php"]
 ||*/www/delivery/^
+##script[src*="cloudflareinsights.com"]
+##img[src*="scorecardresearch.com"]
+##img[src*="/admgr/"]
+||*/admgr/*$image
+
+||*/adsense/*$script
+##script[src*="/adsense/"]
+
+||*/js/ad.js^
+##script[src*="/js/ad.js"]
 
 !bbs
 ##font[class="jammer"]
@@ -36,6 +49,9 @@
 163.com##div[class="floatMenu-backflow"]
 163.com##[class*="-openApp"]
 163.com##[class*="-open-app"]
+m.163.com##.confirm-content
+m.163.com##.js-dialog-confirm
+
 cctv.com##div[class*="relate-recommend"]
 cctv.com##div[class="rmt-mobile-comment-more"]
 cctv.com##.container-img.hnUDnt.sc-fqkvVR > .com-img
@@ -75,7 +91,10 @@ sina.cn##div[data-routeuri*="sinanews://"]
 ||mcs.zijieapi.com^
 ||security.zijieapi.com^
 ||privacy.zijieapi.com^
+||zhanzhang.toutiao.com^
+||zlink.toutiao.com^
 ||lf-security.bytegoofy.com^
+||sf1-scmcdn-tos.pstatp.com^
 toutiao.com##div[class*="-recommend-container"]
 toutiao.com##div[class^="arco-masking"]
 toutiao.com##div[class^="m-bottom-"]
@@ -132,11 +151,14 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 */advertisement/*$script
 */pagead/*$script
 */simgad/*$script
+##div[class="c-ad"]
+##div[id*="div-gpt-ad-"]
 ##[class*="adsbygoogle"]
 ##[class*="adsense-cont"]
 ##[id="goog_plcm_frame"]
 ##[id="google-anno-sa"] 
 ##[id="google_esf"]
+##[id*="google_ads_iframe"]
 ##[name^="googlefc"]
 ##[src*="/googleads."] 
 ##[src*="/pagead/html/"] 
@@ -147,6 +169,7 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ##[src*="googlesyndication.com"]
 ##[src*="fundingchoicesmessages.google.com"]
 ##[src*="googletagmanager.com/gtag/js"]
+
 ||adtrafficquality.google^
 ||doubleclick.net^
 ||google-analytics.com^
@@ -185,6 +208,9 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ||cpro.baidustatic.com^
 ||dup.baidustatic.com^
 ||zz.bdstatic.com^
+||wkctj.baidu.com^
+||sp1.baidu.com^
+||entry.baidu.com^
 ! 百度贴吧
 ||banti.baidu.com^
 ||dlswbr.baidu.com^
@@ -207,10 +233,13 @@ m.baidu.com##div[class="tab_news"]
 */adbox/*$script
 ||adutp.com^
 ||outin.cn^
+||channel.m.163.com^
 ||nex.163.com^
+||sentry.music.163.com^
 ||h5.analytics.126.net^
 ||webstat.ws.126.net^
 ||yt-adp.ws.126.net^
+||vmonitor.ws.netease.com^
 163.com##.newsapp-qrcode
 163.com##[href^="https://www.163.com/newsapp/"]
 163.com##div[class*="hp_textlink"]
@@ -283,6 +312,14 @@ sina.com.cn###tab_related
 ||vstat.v.blog.sohu.com^
 ||z.m.tv.sohu.com^
 ||z2.m.tv.sohu.com^
+||act5.sohu.com^
+||js.sohu.com^
+||nielsen.js.sohu.com^
+||s.go.sohu.com^
+||scalink.sohu.com^
+||sohu.lead2.com.cn^
+||track.auto.sohu.com^
+||www.sol.sohu.com^
 
 ||fpb.sohu.com^
 ||fpb0.sohu.com^
@@ -357,6 +394,11 @@ cnbeta.com.tw##.fc-dialog-container > .fc-dialog-overlay
 ||abc.caiyunapp.com^
 ||bcd.caiyunapp.com^
 
+!jd
+||cactus.jd.com^
+||hermes.jd.com^
+||uranus.jd.com^
+
 ! QQ
 ||beacon.qq.com^
 ||bugly.qq.com^
@@ -370,12 +412,23 @@ cnbeta.com.tw##.fc-dialog-container > .fc-dialog-overlay
 ||beacon.cdn.qq.com^
 ||otheve.beacon.qq.com^
 ||h.trace.qq.com^
+||news.ssp.qq.com^
 ||op.ssp.qq.com^
 ||p.ssp.qq.com^
 ||vd6.l.qq.com^
 ||vi.l.qq.com^
 ||h5vv6.video.qq.com^
 ||bkh5vv.video.qq.com^
+||api.aida.qq.com^
+||browsertdidticket.m.qq.com^
+||gatherer.m.qq.com^
+||pr.map.qq.com^
+||ipv4.gdt.qq.com^
+||aegis.qq.com^
+||report.idqqimg.com^
+||galileotelemetry.tencent.com^
+||at.idqqimg.com^
+||sor.html5.qq.com^
 
 qq.com##div[dt-eid="em_rec_app"]
 qq.com##*[dt-eid="em_download_pcapp"]
@@ -387,8 +440,26 @@ xw.qq.com##div[class^="ad_ssp"]
 xw.qq.com###opeApp
 ##script[src*="beacon.cdn.qq.com"]
 
-##script[src*="cloudflareinsights.com"]
-##img[src*="scorecardresearch.com"]
+!360
+||api.ssl.so.com^
+||e.so.com^
+||ipv6.www.so.com^
+||s.qhupdate.com^
+||ss.360tres.com^
+||lianmeng.360.cn
+||fenxi.com
+||mdvdns.com
+
+!ali
+||fourier.alibaba.com^
+||fourier.taobao.com^
+||px.effirst.com^
+||log.m.sm.cn^
+||track.uc.cn^
+||render.uc.cn^
+
+!cctv
+||p.data.cctv.com^
 
 !ifeng
 ||9fum.ifeng.com^
@@ -401,6 +472,26 @@ xw.qq.com###opeApp
 ||uww6.ifeng.com^
 ##[href^="https://mall.ifeng.com/"]
 i.ifeng.com##div[class^="index_pageBottomBrand"]
+ifeng.com##div[class^="index_hot_box"]
+
+!3conline
+||*/adpuba/*$script
+||ivy.pconline.com.cn^
+||countad.pconline.com.cn^
+||count5.pconline.com.cn^
+||pcauto-c-front-logs.cn-shanghai.log.aliyuncs.com^
+||cmt.pcauto.com.cn^
+||count.pcauto.com.cn^
+||ivy.pcauto.com.cn^
+||jzz.pcauto.com.cn^
+||qdfront.pcauto.com.cn^
+||count.pchouse.com.cn^
+g.pconline.com.cn###art-float-open-app
+g.pconline.com.cn###art-first-screen
+g.pconline.com.cn##.best-pros
+g.pconline.com.cn###art-bottom-nq
+g.pconline.com.cn##.bottom-half-dialog-content
+g.pconline.com.cn###home-bottom-half-dialog
 
 !hupu
 ||hermes.hupu.com^
@@ -433,6 +524,33 @@ wap.eastmoney.com##div.yingyongtuijian
 ||sugar.zhihu.com^
 www.zhihu.com##button
 www.zhihu.com##div[class^="MobileModal-"]
+www.zhihu.com##.zhihuAdvert-MBanner-wordDownload
+www.zhihu.com##.AnswerRecommendReading
+
+!lvhtebook.com
+||adcenter.conn.tw^
+||img.oeya.com^
+lvhtebook.com##.uk-grid.uk-grid-match.uk-grid-small.uk-child-width-1-4\@m
+
+#bing
+||ads.linkedin.com^
+||bat.bing.com^
+
+#yahoo
+||analytics.yahoo.com^
+||fc.yahoo.com^
+||fp.yahoo.com^
+||gemini.yahoo.com^
+||geo.yahoo.com^
+||pbd.yahoo.com^
+||pbs.yahoo.com^
+||ssp.yahoo.com^
+||udc.yahoo.com^
+
+#News-ETtoday新聞雲
+||ad.ettoday.net^
+||ad1.ettoday.net^
+||ad2.ettoday.net^
 
 ! szhk.com
 ||img.0755rc.com^
@@ -1189,4 +1307,18 @@ www.youku.com##div.callEnd_box
 ||zujiant.com^
 ||zxrtb.com^
 ||zygaoshou888.cn^
-
+||a-ads.com^
+||pubadx.one^
+||cashooshut.com^
+||holmesmind.com^
+||ay.delivery^
+||popin.cc^
+||tagtoo.co^
+||degeneratebasket.com^
+||withoutandwhich.com^
+||pubfuture.com^
+||pubfuture-ad.com^
+||yakunitfall.com^
+||lkme.cc^
+||sharethis.com^
+||onevision.com.tw^
