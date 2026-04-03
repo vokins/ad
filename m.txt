@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.27
+! Version: 0.28
 ! Title: adfilter
-! Last modified: 13:48 2026/4/3 Expires: 7 days (update frequency)
+! Last modified: 14:09 2026/4/3 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -17,6 +17,7 @@
 ##[id="ad-container"]
 ##[class="ad-container"]
 ##div[class*="-ad-image"]
+##div[class="ad"] 
 
 */galileo/*$script
 */taboola/*$script
@@ -180,7 +181,7 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ||googletagservices.com^
 ||fundingchoicesmessages.google.com^
 ||googleadsserving.cn^
-
+||imasdk.googleapis.com^
 
 ! Baidu
 ##[href^="http://www.baidu.com/baidu.php?url="]
@@ -441,6 +442,9 @@ xw.qq.com##div[class^="ad_ssp"]
 xw.qq.com###opeApp
 ##script[src*="beacon.cdn.qq.com"]
 
+!x
+||syndication.twitter.com^
+
 !360
 ||api.ssl.so.com^
 ||e.so.com^
@@ -448,6 +452,7 @@ xw.qq.com###opeApp
 ||s.qhupdate.com^
 ||ss.360tres.com^
 ||lianmeng.360.cn
+||qapm.360.cn^
 ||fenxi.com
 ||mdvdns.com
 
@@ -501,6 +506,11 @@ g.pconline.com.cn##.ico-downLoad
 ||kdcl.pchome.com.tw^
 ||kdpic.pchome.com.tw^
 ||w6.pchome.com.tw^
+
+!三立新聞網 SETN.com
+||ad.setn.com^
+!LiTV立視
+||adsv.svc.litv.tv^
 
 !hupu
 ||hermes.hupu.com^
@@ -1336,6 +1346,7 @@ www.youku.com##div.callEnd_box
 ||lkme.cc^
 ||sharethis.com^
 ||onevision.com.tw^
+||guoshipartners.com^
 ||vm5apis.com^
 ||mlytics.com^
 ||likr.tw^
@@ -1343,3 +1354,6 @@ www.youku.com##div.callEnd_box
 ||avividai.com^
 ||advividnetwork.com^
 ||91app.io^
+||91app.com^
+||logly.co.jp^
+||openwebmp.com^
