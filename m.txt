@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.33
+! Version: 0.35
 ! Title: adfilter
-! Last modified: 16:57 2026/4/3 Expires: 7 days (update frequency)
+! Last modified: 17:29 2026/4/3 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -18,6 +18,7 @@
 ##[class="ad-container"]
 ##div[class*="-ad-image"]
 ##div[class="ad"] 
+##div[class="ad-banner"]
 
 */admax/*$script
 */galileo/*$script
@@ -520,8 +521,13 @@ g.pconline.com.cn##.ico-downLoad
 
 !三立新聞網 SETN.com
 ||ad.setn.com^
+
 !LiTV立視
 ||adsv.svc.litv.tv^
+
+!udn
+udn.com##div[class^="udn-ads"] 
+udn.com##div[id="ads-"]
 
 !hupu
 ||hermes.hupu.com^
@@ -1401,3 +1407,8 @@ www.youku.com##div.callEnd_box
 ||logly.co.jp^
 ||openwebmp.com^
 ||indexww.com^
+||sitemaji.com^
+||clean.gg^
+||techsolutions.com.tw^
+||newaddiscover.com^
+||ductilevoider.com^
