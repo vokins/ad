@@ -585,7 +585,7 @@ lvhtebook.com##.uk-grid.uk-grid-match.uk-grid-small.uk-child-width-1-4\@m
 ##div[class^="PromotionBanner"]
 tw.yahoo.com##div[class^="Bgc($bg-Ad)"]
 tw.yahoo.com##div[class="Px(16px) Py(8px) Bgc($bg-1) Mih(88px)"]
-tw.news.yahoo.com##div[class^="mx-auto"]div[id^="sda-"]
+tw.news.yahoo.com##div[class^="mx-auto"][id^="sda-"]
 
 #News-ETtoday新聞雲
 ||ad.ettoday.net^
