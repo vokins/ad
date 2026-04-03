@@ -1,4 +1,4 @@
-# Update > 0:19 2026/4/3
+# Update > 14:10 2026/4/3
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -793,6 +793,17 @@ DOMAIN,count.pchouse.com.cn,REJECT
 DOMAIN,ivy.pchouse.com.cn,REJECT
 DOMAIN,count.mydrivers.com,REJECT
 DOMAIN,icons.mydrivers.com,REJECT
+#Tw-pchome.com.tw
+DOMAIN,kdcl.pchome.com.tw,REJECT
+DOMAIN,kdpic.pchome.com.tw,REJECT
+DOMAIN,w6.pchome.com.tw,REJECT
+#Tw-104.com.tw
+DOMAIN,uts.104.com.tw,REJECT
+DOMAIN-SUFFIX,adsmart.104.com.tw,REJECT
+#Tw-三立新聞網 SETN.com
+DOMAIN,ad.setn.com,REJECT
+#Tw-LiTV立視
+DOMAIN,adsv.svc.litv.tv,REJECT
 #Tool-10010
 DOMAIN-SUFFIX,ad.10010.com,REJECT
 DOMAIN,m1.ad.10010.com,REJECT
@@ -1747,6 +1758,8 @@ DOMAIN,pagead.l.google.com,REJECT
 DOMAIN,partnerad.l.google.com,REJECT
 DOMAIN,app-analytics-services-att.com,REJECT
 DOMAIN,cdn.ampproject.org,REJECT
+DOMAIN-SUFFIX,cse.google.com,REJECT
+DOMAIN-SUFFIX,syndicatedsearch.goog,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
@@ -2828,3 +2841,28 @@ DOMAIN-SUFFIX,triplelift.com,REJECT
 DOMAIN-SUFFIX,unrulymedia.com,REJECT
 DOMAIN-SUFFIX,vidazoo.com,REJECT
 DOMAIN-SUFFIX,liveramp.com,REJECT
+DOMAIN-SUFFIX,a-ads.com,REJECT
+DOMAIN-SUFFIX,ay.delivery,REJECT
+DOMAIN-SUFFIX,cashooshut.com,REJECT
+DOMAIN-SUFFIX,holmesmind.com,REJECT
+DOMAIN-SUFFIX,pubadx.one,REJECT
+DOMAIN-SUFFIX,popin.cc,REJECT
+DOMAIN-SUFFIX,tagtoo.co,REJECT
+DOMAIN-SUFFIX,degeneratebasket.com,REJECT
+DOMAIN-SUFFIX,withoutandwhich.com,REJECT
+DOMAIN-SUFFIX,pubfuture.com,REJECT
+DOMAIN-SUFFIX,pubfuture-ad.com,REJECT
+DOMAIN-SUFFIX,yakunitfall.com,REJECT
+DOMAIN-SUFFIX,tenmax.io,REJECT
+DOMAIN-SUFFIX,sharethis.com,REJECT
+DOMAIN-SUFFIX,onevision.com.tw,REJECT
+DOMAIN-SUFFIX,vm5apis.com,REJECT
+DOMAIN-SUFFIX,mlytics.com,REJECT
+DOMAIN-SUFFIX,likr.tw,REJECT
+DOMAIN-SUFFIX,likr.com.tw,REJECT
+DOMAIN-SUFFIX,avividai.com,REJECT
+DOMAIN-SUFFIX,advividnetwork.com,REJECT
+DOMAIN-SUFFIX,91app.io,REJECT
+DOMAIN-SUFFIX,logly.co.jp,REJECT
+DOMAIN-SUFFIX,91app.com,REJECT
+DOMAIN-SUFFIX,openwebmp.com,REJECT
