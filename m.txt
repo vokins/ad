@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.25
+! Version: 0.27
 ! Title: adfilter
-! Last modified: 13:29 2026/4/3 Expires: 7 days (update frequency)
+! Last modified: 13:48 2026/4/3 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -169,7 +169,8 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ##[src*="googlesyndication.com"]
 ##[src*="fundingchoicesmessages.google.com"]
 ##[src*="googletagmanager.com/gtag/js"]
-
+||cse.google.com^
+||syndicatedsearch.goog^
 ||adtrafficquality.google^
 ||doubleclick.net^
 ||google-analytics.com^
@@ -486,12 +487,20 @@ ifeng.com##div[class^="index_hot_box"]
 ||jzz.pcauto.com.cn^
 ||qdfront.pcauto.com.cn^
 ||count.pchouse.com.cn^
+||jwz.3conline.com^
 g.pconline.com.cn###art-float-open-app
 g.pconline.com.cn###art-first-screen
 g.pconline.com.cn##.best-pros
 g.pconline.com.cn###art-bottom-nq
+g.pconline.com.cn##div[id="home-float"]
 g.pconline.com.cn##.bottom-half-dialog-content
 g.pconline.com.cn###home-bottom-half-dialog
+g.pconline.com.cn##.ico-downLoad
+
+!pchome
+||kdcl.pchome.com.tw^
+||kdpic.pchome.com.tw^
+||w6.pchome.com.tw^
 
 !hupu
 ||hermes.hupu.com^
@@ -551,6 +560,11 @@ lvhtebook.com##.uk-grid.uk-grid-match.uk-grid-small.uk-child-width-1-4\@m
 ||ad.ettoday.net^
 ||ad1.ettoday.net^
 ||ad2.ettoday.net^
+
+!自由时报
+||pv.ltn.com.tw^
+||pv6.ltn.com.tw^
+ltn.com.tw##div[id^="ad-"]
 
 ! szhk.com
 ||img.0755rc.com^
@@ -1322,3 +1336,10 @@ www.youku.com##div.callEnd_box
 ||lkme.cc^
 ||sharethis.com^
 ||onevision.com.tw^
+||vm5apis.com^
+||mlytics.com^
+||likr.tw^
+||likr.com.tw^
+||avividai.com^
+||advividnetwork.com^
+||91app.io^
