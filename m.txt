@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.28
+! Version: 0.29
 ! Title: adfilter
-! Last modified: 14:09 2026/4/3 Expires: 7 days (update frequency)
+! Last modified: 16:10 2026/4/3 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -19,6 +19,7 @@
 ##div[class*="-ad-image"]
 ##div[class="ad"] 
 
+*/admax/*$script
 */galileo/*$script
 */taboola/*$script
 ##div[class^="ad_8"]
@@ -52,6 +53,7 @@
 163.com##[class*="-open-app"]
 m.163.com##.confirm-content
 m.163.com##.js-dialog-confirm
+
 
 cctv.com##div[class*="relate-recommend"]
 cctv.com##div[class="rmt-mobile-comment-more"]
@@ -101,6 +103,8 @@ toutiao.com##div[class^="arco-masking"]
 toutiao.com##div[class^="m-bottom-"]
 toutiao.com##div[id="flow-area"]
 toutiao.com##div[role="button"]
+m.toutiao.com##.listen-bar
+m.toutiao.com##.pgc-img-caption
 
 thepaper.cn##div[class^="wraper__"]
 thepaper.cn##footer[class^="footer__"] 
@@ -248,6 +252,7 @@ m.baidu.com##div[class="tab_news"]
 163.com##div[class*="mod_js_ad"]
 163.com##div[class*="top_ad"]
 163.com##div[class^="blank2"]
+163.com##.fixedOpenNewsapp
 
 ! Sina
 */sinaads.js$script
@@ -348,6 +353,8 @@ sina.com.cn###tab_related
 ||inte.sogoucdn.com^
 ||lu.sogoucdn.com^
 ||theta.sogoucdn.com^
+||badjs.weixinbridge.com^
+||cube.weixinbridge.com^
 sohu.com###recommendApp
 sohu.com###report
 sohu.com##a[class^="qihoo-new-feed-container"]
@@ -431,7 +438,7 @@ cnbeta.com.tw##.fc-dialog-container > .fc-dialog-overlay
 ||galileotelemetry.tencent.com^
 ||at.idqqimg.com^
 ||sor.html5.qq.com^
-
+||rumt-zh.com^
 qq.com##div[dt-eid="em_rec_app"]
 qq.com##*[dt-eid="em_download_pcapp"]
 qq.com##div[style*="gtimg.com/newsapp"]
@@ -440,6 +447,8 @@ news.qq.com##div[class^="ad-cell"]
 v.qq.com##div[class^="mod_ad"]
 xw.qq.com##div[class^="ad_ssp"]
 xw.qq.com###opeApp
+view.inews.qq.com##*[class*="-right-btn"]
+view.inews.qq.com##div[class^="bottom-btn"]
 ##script[src*="beacon.cdn.qq.com"]
 
 !x
@@ -466,6 +475,8 @@ xw.qq.com###opeApp
 
 !cctv
 ||p.data.cctv.com^
+!||videocloud-sh.cn-shanghai.log.aliyuncs.com^
+||log.aliyuncs.com^
 
 !ifeng
 ||9fum.ifeng.com^
@@ -554,17 +565,27 @@ lvhtebook.com##.uk-grid.uk-grid-match.uk-grid-small.uk-child-width-1-4\@m
 #bing
 ||ads.linkedin.com^
 ||bat.bing.com^
+||browser.events.data.msn.cn^
 
 #yahoo
 ||analytics.yahoo.com^
+||c2shb-oao.ssp.yahoo.com^
 ||fc.yahoo.com^
 ||fp.yahoo.com^
 ||gemini.yahoo.com^
 ||geo.yahoo.com^
+||guce.yahoo.com^
+||opus.analytics.yahoo.com^
 ||pbd.yahoo.com^
 ||pbs.yahoo.com^
 ||ssp.yahoo.com^
 ||udc.yahoo.com^
+||qsearch-a.akamaihd.net^
+##div[id="promote-banner"]
+##div[class^="PromotionBanner"]
+tw.yahoo.com##div[class^="Bgc($bg-Ad)"]
+tw.yahoo.com##div[class="Px(16px) Py(8px) Bgc($bg-1) Mih(88px)"]
+tw.news.yahoo.com##div[id="sda-top-center-iframe"]
 
 #News-ETtoday新聞雲
 ||ad.ettoday.net^
@@ -1357,3 +1378,4 @@ www.youku.com##div.callEnd_box
 ||91app.com^
 ||logly.co.jp^
 ||openwebmp.com^
+||indexww.com^
