@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.30
+! Version: 0.31
 ! Title: adfilter
-! Last modified: 16:16 2026/4/3 Expires: 7 days (update frequency)
+! Last modified: 16:27 2026/4/3 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -593,11 +593,16 @@ tw.news.yahoo.com##div[class^="mx-auto"][id^="sda-"]
 ||ad2.ettoday.net^
 ||dcs.ettoday.net^
 ||meritvainlydarn.com^
+ettoday.net##a[class="btn_go gtmclick"]
 
 !自由时报
 ||pv.ltn.com.tw^
 ||pv6.ltn.com.tw^
+##div[class^="ob-dynamic-rec"]
+##[href*="outbrain.com"]
+##[href^="https://pv6.ltn.com.tw/click"]
 ltn.com.tw##div[id^="ad-"]
+news.ltn.com.tw##.v_container
 
 ! szhk.com
 ||img.0755rc.com^
