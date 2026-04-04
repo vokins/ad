@@ -1,4 +1,4 @@
-# Update > 17:29 2026/4/3
+# Update > 22:32 2026/4/4
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -427,6 +427,8 @@ DOMAIN,ads.cup.com.cn,REJECT
 #Finance-建设银行
 DOMAIN,adv.ccb.com,REJECT
 DOMAIN,imageadv.ccb.com,REJECT
+#Game-3dmgame
+DOMAIN,fc.3dmgame.com,REJECT
 #Game-HILL CLIMB RACING
 DOMAIN,ads3.fingersoft.net,REJECT
 #Game-UNO!
