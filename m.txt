@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.35
+! Version: 0.36
 ! Title: adfilter
-! Last modified: 17:29 2026/4/3 Expires: 7 days (update frequency)
+! Last modified: 22:31 2026/4/4 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -513,6 +513,10 @@ g.pconline.com.cn##div[id="home-float"]
 g.pconline.com.cn##.bottom-half-dialog-content
 g.pconline.com.cn###home-bottom-half-dialog
 g.pconline.com.cn##.ico-downLoad
+
+||fc.3dmgame.com^
+
+v2ex.com##div[id="pro-campaign-container"]
 
 !pchome
 ||kdcl.pchome.com.tw^
