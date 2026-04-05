@@ -1,4 +1,4 @@
-# Update > 22:32 2026/4/4
+# Update > 14:48 2026/4/5
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -1550,7 +1550,7 @@ DOMAIN,banti-static.cdn.bcebos.com,REJECT
 DOMAIN,dmpstatic.cdn.bcebos.com,REJECT
 DOMAIN,dsp-idea.cdn.bcebos.com,REJECT
 DOMAIN,edu-ad-test-cdn.cdn.bcebos.com,REJECT
-DOMAIN,efe-h2.cdn.bcebos.com,REJECT
+#百度新闻DOMAIN,efe-h2.cdn.bcebos.com,REJECT
 DOMAIN,fc-feed.cdn.bcebos.com,REJECT
 DOMAIN,gamedelivery.cdn.bcebos.com,REJECT
 DOMAIN,internal-amis-res.cdn.bcebos.com,REJECT
@@ -1571,7 +1571,7 @@ DOMAIN,ae.bdstatic.com,REJECT
 DOMAIN,code.bdstatic.com,REJECT
 DOMAIN,dss2.bdstatic.com,REJECT
 DOMAIN,fex.bdstatic.com,REJECT
-DOMAIN,mbdp02.bdstatic.com,REJECT
+#百度新闻DOMAIN,mbdp02.bdstatic.com,REJECT
 DOMAIN,nspt.bdstatic.com,REJECT
 DOMAIN,pms-zeus-xcdn.bdstatic.com,REJECT
 DOMAIN,sofire.bdstatic.com,REJECT
