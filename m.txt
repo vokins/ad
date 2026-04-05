@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.36
+! Version: 0.37
 ! Title: adfilter
-! Last modified: 22:31 2026/4/4 Expires: 7 days (update frequency)
+! Last modified: 14:49 2026/4/5 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -31,6 +31,7 @@
 ||*/www/delivery/^
 ##script[src*="cloudflareinsights.com"]
 ##img[src*="scorecardresearch.com"]
+##*[src="getadmiral.com"]
 ##img[src*="/admgr/"]
 ||*/admgr/*$image
 
@@ -227,7 +228,7 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ||miaowu.baidu.com^
 ||banti-static.cdn.bcebos.com^
 ||dmpstatic.cdn.bcebos.com^
-||efe-h2.cdn.bcebos.com^
+! 百度新闻||efe-h2.cdn.bcebos.com^
 ||tieba-fe.gz.bcebos.com^
 ||lupic.cdn.bcebos.com^
 ||render-server.cdn.bcebos.com^
