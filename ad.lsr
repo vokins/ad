@@ -1,4 +1,4 @@
-# Update > 18:34 2026/4/9
+# Update > 18:41 2026/4/9
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -1808,6 +1808,7 @@ DOMAIN-SUFFIX,googleads-cn.com,REJECT
 #JD
 DOMAIN,ads-union.jd.com,REJECT
 DOMAIN,u-x.jd.com,REJECT
+DOMAIN,mllog.jd.com,REJECT
 #
 DOMAIN,dsp-x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
