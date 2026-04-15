@@ -1,4 +1,4 @@
-# Update > 18:41 2026/4/9
+# Update > 1:40 2026/4/16
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -34,9 +34,10 @@ DOMAIN,safe.sogou.com,REJECT
 DOMAIN,cronus.ie.sogou.com,REJECT
 DOMAIN,vinci.ie.sogou.com,REJECT
 #UCWeb
-DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,safe.ucweb.com,REJECT
 DOMAIN-SUFFIX,u3.ucweb.com,REJECT
+DOMAIN-SUFFIX,adtrack.ucweb.com,REJECT
+DOMAIN-SUFFIX,adtrack.quark.cn,REJECT
 #3rd-快应用
 DOMAIN-SUFFIX,h5kuai.com,REJECT
 DOMAIN-SUFFIX,hapjs.org,REJECT
@@ -322,6 +323,7 @@ DOMAIN-SUFFIX,report.meituan.com,REJECT
 DOMAIN-KEYWORD,-flv.meituan.net,REJECT
 DOMAIN-KEYWORD,-hls.meituan.net,REJECT
 DOMAIN-KEYWORD,-rtmp.meituan.net,REJECT
+DOMAIN-KEYWORD,-log.d.meituan.net,REJECT
 DOMAIN,catfront.dianping.com,REJECT
 DOMAIN,shark.dianping.com,REJECT
 DOMAIN,logan.sankuai.com,REJECT
@@ -366,6 +368,8 @@ DOMAIN,admaster-public.51downapp.cn,REJECT
 DOMAIN,marketingapi.hellobike.com,REJECT
 #Car-车来了
 DOMAIN,adx.sogaha.cn,REJECT
+#Car-途虎养车
+DOMAIN,mkt-advertisement.tuhu.cn,REJECT
 #Car-汽车之家
 DOMAIN,adm2.autoimg.cn,REJECT
 DOMAIN,adm3.autoimg.cn,REJECT
@@ -565,11 +569,6 @@ DOMAIN,logs.douguo.net,REJECT
 #Food-下厨房
 DOMAIN,track.xiachufang.com,REJECT
 #Sina-微博
-DOMAIN,api.im.weibo.cn,REJECT
-DOMAIN,dp.im.weibo.cn,REJECT
-DOMAIN,gw.im.weibo.cn,REJECT
-DOMAIN,storage.wax.weibo.com,REJECT
-DOMAIN,vip.storage.weibo.com,REJECT
 DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN-SUFFIX,uve.weibo.com,REJECT
 DOMAIN,dm.video.weibocdn.com,REJECT
@@ -659,6 +658,8 @@ DOMAIN,deviceid.tantanapp.com,REJECT
 DOMAIN,report.tantanapp.com,REJECT
 DOMAIN,sc-report.tantanapp.com,REJECT
 #SNS-虎扑
+DOMAIN,goblin-sit.hupu.com,REJECT
+DOMAIN,goblin-stg.hupu.com,REJECT
 DOMAIN,goblin.hupu.com,REJECT
 DOMAIN,hermes.hupu.com,REJECT
 DOMAIN,sentry.hupu.com,REJECT
@@ -684,6 +685,9 @@ DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
 #SNS-小红书
+DOMAIN-SUFFIX,ads-i1.xhscdn.com,REJECT
+DOMAIN-SUFFIX,ads-i2.xhscdn.com,REJECT
+DOMAIN-SUFFIX,ads-i3.xhscdn.com,REJECT
 DOMAIN,ads-img-al.xhscdn.com,REJECT
 DOMAIN,ads-img-bak.xhscdn.com,REJECT
 DOMAIN,ads-img-qc.xhscdn.com,REJECT
@@ -725,6 +729,7 @@ DOMAIN,ponf.linkedin.com,REJECT
 DOMAIN,adv.lihkg.com,REJECT
 #SNS-pixiv
 DOMAIN,pixon.ads-pixiv.net,REJECT
+DOMAIN,lc-event.pixiv.net,REJECT
 DOMAIN,ad2.fivecdm.com,REJECT
 DOMAIN,adchk.fivecdm.com,REJECT
 #SNS-Snapchat
@@ -2878,3 +2883,9 @@ DOMAIN-SUFFIX,clean.gg,REJECT
 DOMAIN-SUFFIX,techsolutions.com.tw,REJECT
 DOMAIN-SUFFIX,newaddiscover.com,REJECT
 DOMAIN-SUFFIX,ductilevoider.com,REJECT
+DOMAIN-SUFFIX,bance.jp,REJECT
+DOMAIN-SUFFIX,lmadps.jp,REJECT
+DOMAIN-SUFFIX,genieesspv.jp,REJECT
+DOMAIN-SUFFIX,gsspcln.jp,REJECT
+DOMAIN-SUFFIX,adpon.jp,REJECT
+DOMAIN-SUFFIX,intothebid.com,REJECT
