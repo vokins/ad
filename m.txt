@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.37
+! Version: 0.56
 ! Title: adfilter
-! Last modified: 14:49 2026/4/5 Expires: 7 days (update frequency)
+! Last modified: 1:37 2026/4/16 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -19,6 +19,7 @@
 ##div[class*="-ad-image"]
 ##div[class="ad"] 
 ##div[class="ad-banner"]
+##div[id$="adbox"]
 
 */admax/*$script
 */galileo/*$script
@@ -38,12 +39,16 @@
 ||*/adsense/*$script
 ##script[src*="/adsense/"]
 
+||*/ad_unblock.js$script
+
 ||*/js/ad.js^
 ##script[src*="/js/ad.js"]
 
 !bbs
 ##font[class="jammer"]
 ##span[style="display:none"]
+##header>div[class="wp a_f"]
+##img[src*="/aimobile.gif"]
 
 ! 热门推荐 打开app
 ##[class="openApp"]
@@ -56,7 +61,7 @@
 m.163.com##.confirm-content
 m.163.com##.js-dialog-confirm
 
-
+||galaxy.bjcathay.com^
 cctv.com##div[class*="relate-recommend"]
 cctv.com##div[class="rmt-mobile-comment-more"]
 cctv.com##.container-img.hnUDnt.sc-fqkvVR > .com-img
@@ -100,6 +105,7 @@ sina.cn##div[data-routeuri*="sinanews://"]
 ||zlink.toutiao.com^
 ||lf-security.bytegoofy.com^
 ||sf1-scmcdn-tos.pstatp.com^
+||s3.pstatp.com^
 toutiao.com##div[class*="-recommend-container"]
 toutiao.com##div[class^="arco-masking"]
 toutiao.com##div[class^="m-bottom-"]
@@ -153,6 +159,8 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ##[href^="https://s.click.taobao.com/"]
 
 ! Google
+||analytics.google.com^
+||google.co.jp/ads/*
 */adcreatives/*$script
 */adsid/*$script
 */advertisement/*$script
@@ -209,12 +217,10 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ||ada.baidu.com^
 ||cbjs.baidu.com^
 ||em.baidu.com^
-||eclick.baidu.com^
 ||pos.baidu.com^
 ||hm.baidu.com^
 ||sp0.baidu.com^
-||cpro.baidustatic.com^
-||dup.baidustatic.com^
+||baidustatic.com^$all
 ||zz.bdstatic.com^
 ||wkctj.baidu.com^
 ||sp1.baidu.com^
@@ -233,6 +239,9 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ||lupic.cdn.bcebos.com^
 ||render-server.cdn.bcebos.com^
 m.baidu.com##div[class="tab_news"]
+||downpack.baidu.com^
+||ug.baidu.com^
+
 
 ! zijie
 */goofy/ttzz/push.js*$script
@@ -311,7 +320,6 @@ sina.com.cn###tab_related
 ||reke.at.sohu.com^
 ||vbng.at.sohu.com^
 ||pv.sohu.com^
-||qpb1.sohu.com^
 ||track.sohu.com^
 ||odin.sohu.com^
 ||aty.sohu.com^
@@ -406,6 +414,8 @@ cnbeta.com.tw##.fc-dialog-container > .fc-dialog-overlay
 ||bcd.caiyunapp.com^
 
 !jd
+||u-x.jd.com
+||ads-union.jd.com
 ||cactus.jd.com^
 ||hermes.jd.com^
 ||uranus.jd.com^
@@ -489,6 +499,7 @@ view.inews.qq.com##div[class^="bottom-btn"]
 ||err.ifengcloud.ifeng.com^
 ||stadig.ifeng.com^
 ||uww6.ifeng.com^
+||ifengimg.com/*/sta_collection_*.js$script
 ##[href^="https://mall.ifeng.com/"]
 i.ifeng.com##div[class^="index_pageBottomBrand"]
 ifeng.com##div[class^="index_hot_box"]
@@ -529,6 +540,10 @@ v2ex.com##div[id="pro-campaign-container"]
 
 !LiTV立視
 ||adsv.svc.litv.tv^
+
+!104.com.tw
+||adsmart.104.com.tw^
+||uts.104.com.tw^
 
 !udn
 udn.com##div[class^="udn-ads"] 
@@ -579,14 +594,21 @@ lvhtebook.com##.uk-grid.uk-grid-match.uk-grid-small.uk-child-width-1-4\@m
 ||browser.events.data.msn.cn^
 
 #yahoo
+||3p-geo.yahoo.com^
+||3p-udc.yahoo.com^
 ||analytics.yahoo.com^
-||c2shb-oao.ssp.yahoo.com^
+||bats.video.yahoo.com^
+||bcn.fp.yahoo.com^
+||edge-mcdn.secure.yahoo.com^
 ||fc.yahoo.com^
 ||fp.yahoo.com^
+||fsbcn.fp.yahoo.com^
 ||gemini.yahoo.com^
 ||geo.yahoo.com^
 ||guce.yahoo.com^
-||opus.analytics.yahoo.com^
+||n.gemini.yahoo.com^
+||nexus-gateway-prod.media.yahoo.com^
+||noa.yahoo.com^
 ||pbd.yahoo.com^
 ||pbs.yahoo.com^
 ||ssp.yahoo.com^
@@ -601,6 +623,11 @@ www.yahoo.com##div[id$="j564noqdb_"]
 finance.yahoo.com##div[class^="sdaContainer"]
 news.yahoo.com##div[class^="mx-auto"][id^="sda-"]
 news.yahoo.com##div[class^="bg-toast-background"]>div[class^="text-px"]
+news.yahoo.com##div[id$="-Ad-Proxy"]
+news.yahoo.com##.bg-toast-background
+news.yahoo.com##div[id^="sda-top-center"]
+news.yahoo.com##div[id^="sda-mid-center"]
+news.yahoo.com##div[id*="-native-ad-"]
 
 ||apm.yahoo.co.jp^
 ||flashtalking.com^
@@ -686,7 +713,6 @@ www.youku.com##div.callEnd_box
 ||aaliyahzanna.com^
 ||activemetering.com^
 ||ad-cloud.jp^
-||ad-delivery.net^
 ||ad-locus.com^
 ||ad-plus.cn^
 ||ad-scope.com.cn^
@@ -752,7 +778,6 @@ www.youku.com##div.callEnd_box
 ||adtng.com^
 ||adtroop.cn^
 ||adultfriendfinder.com^
-||adutp.com^
 ||advertserve.com^
 ||adview.cn^
 ||advlion.com^
@@ -1125,11 +1150,9 @@ www.youku.com##div.callEnd_box
 ||openinstall.io^
 ||openmediation.com^
 ||openx.net^
-||optaim.com^
 ||optimix.cn^
 ||optimizely.com^
 ||orbsrv.com^
-||outin.cn^
 ||owtlra.xyz^
 ||pagechoice.net^
 ||pairmb.com^
@@ -1227,7 +1250,6 @@ www.youku.com##div.callEnd_box
 ||stripchat.com^
 ||stripchat.ooo^
 ||suisuihu.com^
-||supersonicads.com^
 ||survata.com^
 ||sxhjty.cn^
 ||sxpjn.com^
@@ -1417,3 +1439,10 @@ www.youku.com##div.callEnd_box
 ||techsolutions.com.tw^
 ||newaddiscover.com^
 ||ductilevoider.com^
+||supersonicads.com^
+||bance.jp^
+||lmadps.jp^
+||genieesspv.jp^
+||gsspcln.jp^
+||adpon.jp^
+||intothebid.com^
