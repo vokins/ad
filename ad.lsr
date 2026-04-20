@@ -1,4 +1,4 @@
-# Update > 1:40 2026/4/16
+# Update > 19:37 2026/4/20
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -7,7 +7,7 @@
 # **Reject**
 #Apple Ads
 DOMAIN-SUFFIX,advertising.apple.com,REJECT
-#DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,safebrowsing.apple,REJECT
 DOMAIN,securemetrics.apple.com,REJECT
 DOMAIN,metrics.icloud.com,REJECT
@@ -370,6 +370,9 @@ DOMAIN,marketingapi.hellobike.com,REJECT
 DOMAIN,adx.sogaha.cn,REJECT
 #Car-途虎养车
 DOMAIN,mkt-advertisement.tuhu.cn,REJECT
+#Car-掌上公交
+DOMAIN,gamebox-cp-api.mygolbs.com,REJECT
+DOMAIN,sentry.ccops.net,REJECT
 #Car-汽车之家
 DOMAIN,adm2.autoimg.cn,REJECT
 DOMAIN,adm3.autoimg.cn,REJECT
@@ -685,9 +688,11 @@ DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
 #SNS-小红书
-DOMAIN-SUFFIX,ads-i1.xhscdn.com,REJECT
-DOMAIN-SUFFIX,ads-i2.xhscdn.com,REJECT
-DOMAIN-SUFFIX,ads-i3.xhscdn.com,REJECT
+DOMAIN,gslb.xiaohongshu.com,REJECT
+DOMAIN,ads-i1.xhscdn.com,REJECT
+DOMAIN,ads-i2.xhscdn.com,REJECT
+DOMAIN,ads-i3.xhscdn.com,REJECT
+DOMAIN,ads-i10.xhscdn.com,REJECT
 DOMAIN,ads-img-al.xhscdn.com,REJECT
 DOMAIN,ads-img-bak.xhscdn.com,REJECT
 DOMAIN,ads-img-qc.xhscdn.com,REJECT
@@ -696,6 +701,9 @@ DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,ads-vp5.xhscdn.com,REJECT
 DOMAIN,fe-static.xhscdn.com,REJECT
 DOMAIN,ros-upload-d4.xhscdn.com,REJECT
+DOMAIN,sns-video-qc.xhscdn.com,REJECT
+DOMAIN,as.xiaohongshu.com,REJECT
+DOMAIN,mediacloud.xiaohongshu.com,REJECT
 DOMAIN,apm-native.xiaohongshu.com,REJECT
 DOMAIN,crash.xiaohongshu.com,REJECT
 DOMAIN,fe-resource-app.xiaohongshu.com,REJECT
@@ -709,8 +717,8 @@ DOMAIN,ros-upload.xiaohongshu.com,REJECT
 DOMAIN,spider-tracker.xiaohongshu.com,REJECT
 DOMAIN,t2.xiaohongshu.com,REJECT
 DOMAIN,t3.xiaohongshu.com,REJECT
-DOMAIN-SUFFIX,cf-gl.qiezibenpao.com,REJECT
-DOMAIN-SUFFIX,ipip-gl1.qiezibenpao.com,REJECT
+DOMAIN-SUFFIX,qiezibenpao.com,REJECT
+DOMAIN-SUFFIX,askdiandian.com,REJECT
 #SNS-搞笑段子
 DOMAIN,ad.rhinox.cn,REJECT
 #SNS-最右/皮皮搞笑
@@ -824,6 +832,9 @@ DOMAIN,afp.21cn.com,REJECT
 DOMAIN,analytics.21cn.com,REJECT
 DOMAIN,market.21cn.com,REJECT
 DOMAIN,choujiang.19ego.cn,REJECT
+DOMAIN,appgoadhd.189.cn,REJECT
+DOMAIN,appgoadsz.189.cn,REJECT
+DOMAIN,reportappgo.189.cn,REJECT
 #Tool-39
 DOMAIN,abody.39.net,REJECT
 DOMAIN,bamboo.39health.com,REJECT
@@ -841,6 +852,7 @@ DOMAIN,ad.cyapi.cn,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
 DOMAIN,abc.caiyunapp.com,REJECT
 DOMAIN,bcd.caiyunapp.com,REJECT
+DOMAIN,gather.colorfulclouds.net,REJECT
 #Tool-华风爱科
 DOMAIN,log-stats.weathercn.com,REJECT
 DOMAIN,stqt.weathercn.com,REJECT
@@ -881,6 +893,7 @@ DOMAIN,honeycomb.wpscdn.cn,REJECT
 DOMAIN,momsg.wps.cn,REJECT
 DOMAIN,honeycomb.wps.cn,REJECT
 #Tool-Xunlei
+DOMAIN,admark-x.xunlei.com,REJECT
 DOMAIN,advertpay-vip-ssl.xunlei.com,REJECT
 DOMAIN,advertpay.vip.xunlei.com,REJECT
 DOMAIN,common-act-live.xunlei.com,REJECT
@@ -1174,6 +1187,7 @@ DOMAIN,probe.xiaoyoureliao.cn,REJECT
 DOMAIN-KEYWORD,dns.kwd.inkuai.com,REJECT
 DOMAIN-SUFFIX,hdns.ksyun.com,REJECT
 DOMAIN-SUFFIX,kuaishou.httpdns.pro,REJECT
+DOMAIN-SUFFIX,hdns.k-dyn.com,REJECT
 DOMAIN-SUFFIX,pcdn.yximgs.com,REJECT
 DOMAIN,pcdn-pxy-crc.xxpkg.com,REJECT
 DOMAIN,pcdn-pxy-tracker.xxpkg.com,REJECT
@@ -1442,6 +1456,8 @@ DOMAIN,applogios.uc.cn,REJECT
 DOMAIN,bigsubs-api.uc.cn,REJECT
 DOMAIN,feedback.uc.cn,REJECT
 DOMAIN,hcadv.video.ums.uc.cn,REJECT
+DOMAIN,partner.uc.cn,REJECT
+DOMAIN,s-adashx.ut.uc.cn,REJECT
 DOMAIN,track.uc.cn,REJECT
 DOMAIN,wmedia-track.uc.cn,REJECT
 DOMAIN,utp.ucweb.com,REJECT
@@ -1455,6 +1471,9 @@ DOMAIN,log.m.sm.cn,REJECT
 DOMAIN,sdk-log.partner.sm.cn,REJECT
 DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,px.effirst.com,REJECT
+DOMAIN,mum.alibabachengdun.com,REJECT
+#DOMAIN,fapi.xdrun.com,REJECT
+DOMAIN-SUFFIX,xdrun.com,REJECT
 #Baidu
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,mssp.baidu.com,REJECT
@@ -1500,6 +1519,7 @@ DOMAIN,fc6tn.baidu.com,REJECT
 DOMAIN,fclick.baidu.com,REJECT
 DOMAIN,fclog.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
+DOMAIN,gips0.baidu.com,REJECT
 DOMAIN,gips1.baidu.com,REJECT
 DOMAIN,gips2.baidu.com,REJECT
 DOMAIN,gips3.baidu.com,REJECT
@@ -1888,8 +1908,8 @@ DOMAIN,ios.bugly.cros.wr.pvp.net,REJECT
 DOMAIN,ios.bugly.qcloud.com,REJECT
 #DOMAIN-SUFFIX,gtimg.cn,REJECT
 #DOMAIN,mazu.m.qq.com,REJECT
-#DOMAIN,snowflake.qq.com,REJECT
-#DOMAIN,tdid.m.qq.com,REJECT
+DOMAIN,snowflake.qq.com,REJECT
+DOMAIN,tdid.m.qq.com,REJECT
 #DOMAIN,tmfmazu.m.qq.com,REJECT
 #DOMAIN,tpush.html5.qq.com,REJECT
 #DOMAIN,ltshsy.gtimg.com,REJECT
@@ -1941,6 +1961,7 @@ DOMAIN,apd-vodp2preport.teg.tencent-cloud.net,REJECT
 DOMAIN,edge.log.zhiyan.tencent-cloud.net,REJECT
 DOMAIN,publiclog.zhiyan.tencent-cloud.net,REJECT
 #Tencent-WeChat微信朋友圈公众号广告
+DOMAIN-SUFFIX,wxs.qq.com,REJECT
 DOMAIN,wxa.wxs.qq.com,REJECT
 DOMAIN,wximg.wxs.qq.com,REJECT
 DOMAIN,wxsmw.wxs.qq.com,REJECT
@@ -1952,6 +1973,7 @@ DOMAIN,wxsnsdy.video.qq.com,REJECT
 DOMAIN,localhost.weixin.qq.com,REJECT
 DOMAIN,badjs.weixinbridge.com,REJECT
 DOMAIN,cube.weixinbridge.com,REJECT
+DOMAIN-SUFFIX,yidianlingyi.cn,REJECT
 #Tencent-腾讯视频
 DOMAIN,ad.tencentvideo.com,REJECT
 DOMAIN,adstats.tencentvideo.com,REJECT
@@ -2889,3 +2911,4 @@ DOMAIN-SUFFIX,genieesspv.jp,REJECT
 DOMAIN-SUFFIX,gsspcln.jp,REJECT
 DOMAIN-SUFFIX,adpon.jp,REJECT
 DOMAIN-SUFFIX,intothebid.com,REJECT
+DOMAIN-SUFFIX,tobidad.cn,REJECT
