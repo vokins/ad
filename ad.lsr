@@ -1,4 +1,4 @@
-# Update > 19:37 2026/4/20
+# Update > 15:00 2026/4/22
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -692,6 +692,7 @@ DOMAIN,gslb.xiaohongshu.com,REJECT
 DOMAIN,ads-i1.xhscdn.com,REJECT
 DOMAIN,ads-i2.xhscdn.com,REJECT
 DOMAIN,ads-i3.xhscdn.com,REJECT
+DOMAIN,ads-i4.xhscdn.com,REJECT
 DOMAIN,ads-i10.xhscdn.com,REJECT
 DOMAIN,ads-img-al.xhscdn.com,REJECT
 DOMAIN,ads-img-bak.xhscdn.com,REJECT
@@ -832,8 +833,13 @@ DOMAIN,afp.21cn.com,REJECT
 DOMAIN,analytics.21cn.com,REJECT
 DOMAIN,market.21cn.com,REJECT
 DOMAIN,choujiang.19ego.cn,REJECT
-DOMAIN,appgoadhd.189.cn,REJECT
+#DOMAIN,appgoadhd.189.cn,REJECT
 DOMAIN,appgoadsz.189.cn,REJECT
+DOMAIN,bigdata-behaviordata.189.cn,REJECT
+DOMAIN,res-behaviordata-app.189.cn,REJECT
+DOMAIN,livepull.189.cn,REJECT
+DOMAIN,xbk.189.cn,REJECT
+DOMAIN,xbkvideo.189.cn,REJECT
 DOMAIN,reportappgo.189.cn,REJECT
 #Tool-39
 DOMAIN,abody.39.net,REJECT
@@ -1649,6 +1655,8 @@ DOMAIN-SUFFIX,mssdk.bytedance.com,REJECT
 #DOMAIN,tnc3-aliec2.bytedance.com,REJECT
 #DOMAIN,tnc3-alisc1.bytedance.com,REJECT
 #DOMAIN,tnc3-bjlgy.bytedance.com,REJECT
+DOMAIN,log-report.rtc.volcvideo.com,REJECT
+DOMAIN,rtc-log-report.bytedance.com,REJECT
 DOMAIN-KEYWORD,adbrand.byteimg.com,REJECT
 DOMAIN-KEYWORD,ad-sign.byteimg.com,REJECT
 DOMAIN-KEYWORD,asiad.byteactivity,REJECT
