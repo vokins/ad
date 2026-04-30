@@ -1,4 +1,4 @@
-# Update > 21:35 2026/3/24
+# Update > 15:30 2026/4/30
 # https://github.com/vokins/ad/blob/main/pr.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
@@ -539,6 +539,8 @@ DOMAIN-SUFFIX,gravatar.com,PROXY
 DOMAIN-SUFFIX,wordpress.com,PROXY
 DOMAIN-SUFFIX,wp.com,PROXY
 DOMAIN-SUFFIX,wpvip.com,PROXY
+#APP - WorldMonitor
+DOMAIN-SUFFIX,worldmonitor.app,PROXY
 #APP - WordPress.org
 DOMAIN-SUFFIX,w.org,PROXY
 DOMAIN-SUFFIX,wordpress.org,PROXY
@@ -871,6 +873,8 @@ DOMAIN-SUFFIX,deviantart.net,PROXY
 DOMAIN-SUFFIX,deviantartsupport.com,PROXY
 #Email.ML
 DOMAIN-SUFFIX,email.ml,PROXY
+#tinkmail
+DOMAIN-SUFFIX,tinkmail.me,PROXY
 #ESET
 DOMAIN-SUFFIX,eset.com,PROXY
 #FeedX
@@ -948,6 +952,8 @@ DOMAIN-SUFFIX,goodsoul.live,PROXY
 DOMAIN-SUFFIX,xsavenow.com,PROXY
 #Tor Browser
 DOMAIN-SUFFIX,torproject.org,PROXY
+#Tool -telegramhub
+DOMAIN-SUFFIX,telegramhub.app,PROXY
 #TVDB
 DOMAIN-SUFFIX,thetvdb.com,PROXY
 #Twirrl.app(TVDL)
