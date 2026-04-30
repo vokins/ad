@@ -1,4 +1,4 @@
-# Update > 15:00 2026/4/22
+# Update > 15:30 2026/4/30
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -440,6 +440,8 @@ DOMAIN,fc.3dmgame.com,REJECT
 DOMAIN,ads3.fingersoft.net,REJECT
 #Game-UNO!
 DOMAIN,ads-sdk.mattel163.com,REJECT
+#Game-完美世界
+DOMAIN,ads.games.laohu.com,REJECT
 #Game-愤怒的小鸟
 DOMAIN,ads-cloud.rovio.com,REJECT
 DOMAIN,videoads-cloud.rovio.com,REJECT
@@ -693,6 +695,7 @@ DOMAIN,ads-i1.xhscdn.com,REJECT
 DOMAIN,ads-i2.xhscdn.com,REJECT
 DOMAIN,ads-i3.xhscdn.com,REJECT
 DOMAIN,ads-i4.xhscdn.com,REJECT
+DOMAIN,ads-i8.xhscdn.com,REJECT
 DOMAIN,ads-i10.xhscdn.com,REJECT
 DOMAIN,ads-img-al.xhscdn.com,REJECT
 DOMAIN,ads-img-bak.xhscdn.com,REJECT
@@ -834,13 +837,13 @@ DOMAIN,analytics.21cn.com,REJECT
 DOMAIN,market.21cn.com,REJECT
 DOMAIN,choujiang.19ego.cn,REJECT
 #DOMAIN,appgoadhd.189.cn,REJECT
-DOMAIN,appgoadsz.189.cn,REJECT
-DOMAIN,bigdata-behaviordata.189.cn,REJECT
-DOMAIN,res-behaviordata-app.189.cn,REJECT
+#DOMAIN,appgoadsz.189.cn,REJECT
+#DOMAIN,bigdata-behaviordata.189.cn,REJECT
+#DOMAIN,res-behaviordata-app.189.cn,REJECT
+#DOMAIN,reportappgo.189.cn,REJECT
 DOMAIN,livepull.189.cn,REJECT
 DOMAIN,xbk.189.cn,REJECT
 DOMAIN,xbkvideo.189.cn,REJECT
-DOMAIN,reportappgo.189.cn,REJECT
 #Tool-39
 DOMAIN,abody.39.net,REJECT
 DOMAIN,bamboo.39health.com,REJECT
@@ -937,10 +940,11 @@ DOMAIN,umerp.umetrip.com.cn,REJECT
 #Trip-同程旅行
 DOMAIN,vstlog.17usoft.com,REJECT
 #Trip-高德地图
+DOMAIN,adashx.ut.amap.com,REJECT
 DOMAIN,dualstack-logs.amap.com,REJECT
 DOMAIN,logs.amap.com,REJECT
+DOMAIN,optimus-ads-ykx.amap.com,REJECT
 DOMAIN,optimus-ads.amap.com,REJECT
-DOMAIN,adashx.ut.amap.com,REJECT
 DOMAIN,v6-adashx.ut.amap.com,REJECT
 #Trip-飞猪
 DOMAIN,adashx.ut.fliggy.com,REJECT
@@ -1149,22 +1153,28 @@ DOMAIN,ggic.cmvideo.cn,REJECT
 DOMAIN,ggtagcache.cmvideo.cn,REJECT
 DOMAIN,ggv.cmvideo.cn,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
+DOMAIN,feedback.migu.cn,REJECT
 DOMAIN,jadeite.migu.cn,REJECT
+DOMAIN,jadeiteapp.migu.cn,REJECT
 DOMAIN,ggadoffline.miguvideo.com,REJECT
 DOMAIN,ggc.miguvideo.com,REJECT
 DOMAIN,ggic03.miguvideo.com,REJECT
 DOMAIN,ggic05.miguvideo.com,REJECT
 DOMAIN,ggic08.miguvideo.com,REJECT
 DOMAIN,ggic09.miguvideo.com,REJECT
+DOMAIN,ggic10.miguvideo.com,REJECT
 DOMAIN,ggicaqz.miguvideo.com,REJECT
 DOMAIN,gginvasdk.miguvideo.com,REJECT
 DOMAIN,ggmk.miguvideo.com,REJECT
 DOMAIN,ggstaticcache.miguvideo.com,REJECT
+DOMAIN,ggv.miguvideo.com,REJECT
 DOMAIN,ggx02.miguvideo.com,REJECT
 DOMAIN,ggx03.miguvideo.com,REJECT
 DOMAIN,ggx05.miguvideo.com,REJECT
 DOMAIN,ggx08.miguvideo.com,REJECT
 DOMAIN,ggx09.miguvideo.com,REJECT
+DOMAIN,ggx10.miguvideo.com,REJECT
+DOMAIN,public-deliver10.miguvideo.com,REJECT
 DOMAIN,public-deliver6.miguvideo.com,REJECT
 DOMAIN,log001.cmpassport.com,REJECT
 DOMAIN,log1.cmpassport.com,REJECT
