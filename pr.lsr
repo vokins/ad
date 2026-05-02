@@ -1,4 +1,4 @@
-# Update > 13:42 2026/5/2
+# Update > 14:22 2026/5/2
 # https://github.com/vokins/ad/blob/main/pr.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
@@ -81,10 +81,15 @@ DOMAIN-SUFFIX,technews.tw,PROXY
 DOMAIN-SUFFIX,thenewslens.com,PROXY
 #API
 #DOMAIN-SUFFIX,revenuecat.com,PROXY
-#Apple-AI https://support.apple.com/zh-cn/101555
-DOMAIN,apple-relay.apple.com,PROXY
+# **Apple Intelligence、Siri 和搜索**
+#私有云计算
+DOMAIN,apple-relay.cloudflare.com,PROXY
 DOMAIN,apple-relay.fastly-edge.com,PROXY
-#Apple-APNS https://support.apple.com/zh-cn/102266 https://support.apple.com/zh-cn/101555
+DOMAIN,cp4.cloudflare.com,PROXY
+#Apple 智能扩展
+DOMAIN,apple-relay.apple.com,PROXY
+# **Apple-APNS** https://support.apple.com/zh-cn/102266
+#推送通知
 DOMAIN-SUFFIX,push.apple.com,PROXY
 IP-CIDR,17.0.0.0/8,PROXY,no-resolve
 IP-CIDR,17.249.0.0/16,no-resolve
@@ -96,6 +101,8 @@ IP-CIDR6,2620:149:a44::/48,no-resolve
 IP-CIDR6,2403:300:a42::/48,no-resolve
 IP-CIDR6,2403:300:a51::/48,no-resolve
 IP-CIDR6,2a01:b740:a42::/48,no-resolve
+#APNs 证书请求门户
+DOMAIN,identity.apple.com,PROXY
 #Alphabet-Google https://www.gstatic.com/ipranges/goog.json
 #DOMAIN-KEYWORD,.google,PROXY
 DOMAIN-KEYWORD,.google.,PROXY
