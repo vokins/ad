@@ -1,0 +1,142 @@
+# Update > 14:21 2026/5/2
+# https://github.com/vokins/ad/blob/main/Apple.lsr
+# https://raw.githubusercontent.com/vokins/ad/main/Apple.lsr
+# https://support.apple.com/zh-cn/101555 发布日期： 2026 年 02 月 16 日
+
+# **设备设置**
+#设备激活
+DOMAIN,albert.apple.com
+#针对使用强制门户的网络进行互联网连接验证
+DOMAIN,captive.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,humb.apple.com
+DOMAIN,static.ips.apple.com
+DOMAIN,tbsc.apple.com
+
+# **Apple-APNS** https://support.apple.com/zh-cn/102266
+#推送通知
+DOMAIN-SUFFIX,push.apple.com
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,17.249.0.0/16,no-resolve
+IP-CIDR,17.252.0.0/16,no-resolve
+IP-CIDR,17.57.144.0/22,no-resolve
+IP-CIDR,17.188.128.0/18,no-resolve
+IP-CIDR,17.188.20.0/23,no-resolve
+IP-CIDR6,2620:149:a44::/48,no-resolve
+IP-CIDR6,2403:300:a42::/48,no-resolve
+IP-CIDR6,2403:300:a51::/48,no-resolve
+IP-CIDR6,2a01:b740:a42::/48,no-resolve
+#APNs 证书请求门户
+DOMAIN,identity.apple.com
+
+# **设备管理**
+#供 MDM 服务器用来识别使用“被管理的软件更新”的设备有哪些可用的软件更新
+DOMAIN,gdmf.apple.com
+#托管当设备通过设备注册过程在 Apple 校园教务管理或 Apple 商务管理中注册时使用的注册描述文件
+DOMAIN,iprofiles.apple.com
+#当客户端通过设备注册过程在 Apple 校园教务管理或 Apple 商务管理中注册时，供 MDM 服务器用来上传客户端使用的注册描述文件，还可用来查找设备和账户
+DOMAIN,mdmenrollment.apple.com
+#供 MDM 服务器用来执行与“App 和图书”有关的操作，例如在设备上分配或撤销许可证
+DOMAIN,vpp.itunes.apple.com
+
+# **Apple 商务管理和 Apple 校园教务管理**
+#登录认证
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,idmsa.apple.com
+#App 和图书
+#DOMAIN-SUFFIX,itunes.apple.com
+#SFTP 上传
+DOMAIN,upload.appleschoolcontent.com
+
+# **软件更新**
+#iOS、iPadOS、Apple tvOS、watchOS 和 macOS 更新
+DOMAIN,gg.apple.com
+#DOMAIN,gs.apple.com
+#macOS 更新
+DOMAIN,ig.apple.com
+DOMAIN,swdownload.apple.com
+
+DOMAIN,xp.apple.com
+
+#附加组件的软件更新目录
+DOMAIN,gdmf-ados.apple.com
+#附加组件的 OS 更新
+DOMAIN,gsra.apple.com
+#在连接的设备上安装 iOS、iPadOS 或 macOS
+DOMAIN,wkms-public.apple.com
+DOMAIN,fcs-keys-pub-prod.cdn-apple.com
+
+# **App 和附加内容**
+#商店内容，如 App、图书和音乐
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+#安装来自网站和替代市场的 App
+DOMAIN-SUFFIX,apps-marketplace.apple.com
+
+# **Beta 版更新**
+#Beta 版更新注册
+DOMAIN,bpapi.apple.com
+#供“反馈助理”用来上传文件
+DOMAIN,cssubmissions.apple.com
+#供“反馈助理”用来归档和查看反馈
+DOMAIN,fba.apple.com
+
+# **Apple 诊断**
+#供 Apple 设备用来协助检测可能的硬件问题
+DOMAIN,diagassets.apple.com
+
+# **域名系统解析**
+#用于 DNS over HTTPS (DoH)
+DOMAIN,doh.dns.apple.com
+
+# **证书验证**
+#证书验证
+DOMAIN,valid.apple.com
+
+# **Apple Account**
+#“设置”和“系统偏好设置”中的 Apple 账户认证
+DOMAIN,account.apple.com
+#DOMAIN,appleid.cdn-apple.com
+#Apple 账户认证
+#DOMAIN,idmsa.apple.com
+DOMAIN,gsa.apple.com
+
+# **iCloud**
+#iCloud 专用代理
+DOMAIN,mask-api.icloud.com
+#iCloud 连接测试
+DOMAIN,probe.icloud.com
+DOMAIN,pong.icloud.com
+#iCloud 设备诊断
+DOMAIN,metrics.icloud.com
+#RCS
+DOMAIN,apple-native-relay.apple.com
+
+# **Apple Intelligence、Siri 和搜索**
+#私有云计算
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+#Apple 智能扩展
+DOMAIN,apple-relay.apple.com
+
+# **Tap to Pay on iPhone**
+#Tap to Pay on iPhone
+DOMAIN,pos-device.apple.com
+#Tap to Pay on iPhone 设置
+#DOMAIN,humb.apple.com
+#可选的分析共享
+DOMAIN,iphonesubmissions.apple.com
+
+# **iPhone 上的证件校验器**
+#iPhone 上的证件校验器
+DOMAIN,smp-device-content.apple.com
+DOMAIN,idv.cdn-apple.com
+DOMAIN,idv-prod1.apple.com
+#DOMAIN,humb.apple.com
+
+# **防火墙**
+#IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR6,2403:300::/32,no-resolve
+IP-CIDR6,2620:149::/32,no-resolve
+IP-CIDR6,2a01:b740::/32,no-resolve
