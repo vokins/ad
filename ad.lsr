@@ -1,4 +1,4 @@
-# Update > 15:49 2026/5/6
+# Update > 15:57 2026/5/6
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -1159,12 +1159,9 @@ DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,feedback.migu.cn,REJECT
 DOMAIN,jadeite.migu.cn,REJECT
 DOMAIN,jadeiteapp.migu.cn,REJECT
-
 DOMAIN,jadeite-cdn.migu.cn,REJECT
 DOMAIN,push.migu.cn,REJECT
-
-
-
+DOMAIN,clog.miguvideo.com,REJECT
 DOMAIN,ggadoffline.miguvideo.com,REJECT
 DOMAIN,ggc.miguvideo.com,REJECT
 DOMAIN,ggic03.miguvideo.com,REJECT
@@ -1177,23 +1174,22 @@ DOMAIN,gginvasdk.miguvideo.com,REJECT
 DOMAIN,ggmk.miguvideo.com,REJECT
 DOMAIN,ggstaticcache.miguvideo.com,REJECT
 DOMAIN,ggv.miguvideo.com,REJECT
+DOMAIN,ggx01.miguvideo.com,REJECT
 DOMAIN,ggx02.miguvideo.com,REJECT
 DOMAIN,ggx03.miguvideo.com,REJECT
 DOMAIN,ggx05.miguvideo.com,REJECT
+DOMAIN,ggx06.miguvideo.com,REJECT
 DOMAIN,ggx08.miguvideo.com,REJECT
 DOMAIN,ggx09.miguvideo.com,REJECT
 DOMAIN,ggx10.miguvideo.com,REJECT
 DOMAIN,public-deliver10.miguvideo.com,REJECT
 DOMAIN,public-deliver6.miguvideo.com,REJECT
+DOMAIN,public-operbiz10.miguvideo.com,REJECT
+#DOMAIN,dnconfig.cmpassport.com,REJECT
+DOMAIN,dnlog.cmpassport.com,REJECT
 DOMAIN,log001.cmpassport.com,REJECT
 DOMAIN,log1.cmpassport.com,REJECT
 DOMAIN,log2.cmpassport.com,REJECT
-#DOMAIN,dnconfig.cmpassport.com,REJECT
-DOMAIN,dnlog.cmpassport.com,REJECT
-DOMAIN,clog.miguvideo.com,REJECT
-DOMAIN,ggx01.miguvideo.com,REJECT
-DOMAIN,ggx06.miguvideo.com,REJECT
-DOMAIN,public-operbiz10.miguvideo.com,REJECT
 #Video-咪咕音乐
 DOMAIN,report.migufun.com,REJECT
 DOMAIN,app.log.nf.migu.cn,REJECT
