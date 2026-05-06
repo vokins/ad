@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
-! Version: 0.62
+! Version: 0.65
 ! Title: adunion
-! Last modified: 18:08 2026/5/6 
+! Last modified: 21:40 2026/5/6
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adunion
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/b.txt
 ! Homepage: https://github.com/vokins/ad/blob/main/b.txt
 !
+
 ||advertising.apple.com^
 ||iadsdk.apple.com^
 ||safebrowsing.apple^
@@ -28,8 +29,6 @@
 ||cronus.ie.sogou.com^
 ||vinci.ie.sogou.com^
 ||safe.ucweb.com^
-||gjtrack.ucweb.com^
-||utp.ucweb.com^
 ||u3.ucweb.com^
 ||adtrack.ucweb.com^
 ||adtrack.quark.cn^
@@ -414,6 +413,9 @@
 ||ad.ettoday.net^
 ||ad1.ettoday.net^
 ||ad2.ettoday.net^
+||dcs.ettoday.net^
+||pv.ltn.com.tw^
+||pv6.ltn.com.tw^
 ||ad.dzwww.com^
 ||adserver.yidianzixun.com^
 ||dsp.yidianzixun.com^
@@ -491,7 +493,8 @@
 ||saxs.sina.com.cn^
 ||sbeacon.sina.com.cn^
 ||rs.sinajs.cn^
-||s3.pfp.sina.net^
+||pfp.sina.net^
+||newsapp.sina.cn^
 ||sensors.wenwo.com^
 ||dspapi.iask.com.cn^
 ||jcylrv.iask.com.cn^
@@ -979,7 +982,6 @@
 ||log2.cmpassport.com^
 ||report.migufun.com^
 ||app.log.nf.migu.cn^
-||push.migu.cn^
 ||analytics3.starschina.com^
 ||image.9xsecndns.cn^
 ||ad.yuntuds.com^
@@ -1167,7 +1169,11 @@
 ||ssl.look.360.cn^
 ||socm.dmp.360.cn^
 ||s.360.cn^
+||qapm.360.cn^
+||ss.360tres.com^
+||api.ssl.so.com^
 ||e.so.com^
+||ipv6.www.so.com^
 ||p.sug.so.com^
 ||s.qhupdate.com^
 ||res.qhupdate.com^
@@ -1221,11 +1227,14 @@
 ||feedback.uc.cn^
 ||hcadv.video.ums.uc.cn^
 ||partner.uc.cn^
+||render.uc.cn^
 ||s-adashx.ut.uc.cn^
 ||track.uc.cn^
 ||wmedia-track.uc.cn^
-||utp.ucweb.com^
+||gjtrack.ucweb.com^
+||px.ucweb.com^
 ||utp-dmp.ucweb.com^
+||utp.ucweb.com^
 ||c.sm.cn^
 ||content-understand-strategy.sm.cn^
 ||huichuan-mc.sm.cn^
@@ -1242,6 +1251,7 @@
 ||tongji.baidu.com^
 ||tuisong.baidu.com^
 ||union.baidu.com^
+||dlswbr.baidu.com^
 ||a.baidu.com^
 ||ada.baidu.com^
 ||afd.baidu.com^
@@ -1548,33 +1558,42 @@
 ||wqs11.jd.com^
 ||xlog.jd.com^
 ||uranus.jd.com^
+||act5.sohu.com^
 ||count.vrs.sohu.com^
 ||fpb0.sohu.com^
 ||fpb1.sohu.com^
+||hd.sohu.com.cn^
 ||mb.hd.sohu.com.cn^
+||nielsen.js.sohu.com^
+||odin.sohu.com^
+||pv.sohu.com^
 ||qc.hd.sohu.com.cn^
 ||qf1.hd.sohu.com.cn^
 ||qf2.hd.sohu.com.cn^
-||pv.sohu.com^
 ||qpb.sohu.com^
 ||qpb0.sohu.com^
 ||qpb1.sohu.com^
+||scalink.sohu.com^
+||track.auto.sohu.com^
 ||track.sohu.com^
 ||vstat.my.tv.sohu.com^
 ||vstat.v.blog.sohu.com^
+||www.sol.sohu.com^
 ||z.m.tv.sohu.com^
 ||z2.m.tv.sohu.com^
-||pv.sohu.com^
 ||ads.sohu.com^
 ||at.sohu.com^
 ||aty.sohu.com^
 ||fpb.sohu.com^
 ||go.sohu.com^
 ||images.sohu.com^
+||js.sohu.com^
+||pv.sohu.com^
 ||qpb.sohu.com^
 ||track.sohu.com^
 ||adv-sv-show.focus.cn^
 ||sp.qf.56.com^
+||sohu.lead2.com.cn^
 ||apt2k.sogou.com^
 ||conv.k.sogou.com^
 ||gdt2k.sogou.com^
@@ -1615,6 +1634,7 @@
 ||ads.privacy.qq.com^
 ||aegis.qq.com^
 ||analytics.map.qq.com^
+||api.aida.qq.com^
 ||browsertdidticket.m.qq.com^
 ||btrace.qq.com^
 ||dp3.qq.com^
@@ -1632,16 +1652,20 @@
 ||pingjs.qq.com^
 ||pingma.qq.com^
 ||pingtas.qq.com^
+||pr.map.qq.com^
 ||rdelivery.qq.com^
 ||report.qqweb.qq.com^
 ||rqd.uu.qq.com^
 ||searchlog.html5.qq.com^
+||sor.html5.qq.com^
 ||stat6.y.qq.com^
+||rumt-zh.com^
 ||log.tbs.qq.com^
 ||qqdata.ab.qq.com^
 ||oth.bls.mdt.qq.com^
 ||oth.eve.mdt.qq.com^
 ||oth.str.mdt.qq.com^
+||at.idqqimg.com^
 ||report.idqqimg.com^
 ||ra.gtimg.com^
 ||wa.gtimg.com^
@@ -1667,9 +1691,12 @@
 ||yidianlingyi.cn^
 ||ad.tencentvideo.com^
 ||adstats.tencentvideo.com^
-||info6.video.qq.com^
-||sq.bls.mdt.qq.com^
+||bkh5vv.video.qq.com^
 ||finderhy.video.qq.com^
+||h5vv6.video.qq.com^
+||info6.video.qq.com^
+||appcfg.v.qq.com^
+||sq.bls.mdt.qq.com^
 ||variety.tc.qq.com^
 ||ads.internal.unity3d.com^
 ||ads.prd.ie.internal.unity3d.com^
@@ -1682,25 +1709,36 @@
 ||startup.mobile.yandex.net^
 ||report.appmetrica.yandex.net^
 ||fls-na.amazon.com^
+||advertising.com^
+||flashtalking.com^
+||onlylineddisplay.com^
+||sitemaji.com^
 ||ads.yahoo.com^
 ||adserver.yahoo.com^
 ||analytics.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
-||advertising.com^
-||sitemaji.com^
+||fp.yahoo.com^
+||gemini.yahoo.com^
+||pbs.yahoo.com^
+||ssp.yahoo.com^
+||3p-geo.yahoo.com^
+||3p-udc.yahoo.com^
 ||analytics.query.yahoo.com^
 ||bats.video.yahoo.com^
-||beap.gemini.yahoo.com^
-||c2shb-oao.ssp.yahoo.com^
 ||edge-mcdn.secure.yahoo.com^
+||fc.yahoo.com^
 ||geo.yahoo.com^
+||guce.yahoo.com^
 ||nexus-gateway-prod.media.yahoo.com^
 ||noa.yahoo.com^
 ||pbd.yahoo.com^
-||pbs.yahoo.com^
 ||udc.yahoo.com^
-||yads.c.yimg.jp^
 ||jac.yahoosandbox.com^
+||qsearch-a.akamaihd.net^
+||apm.yahoo.co.jp^
+||dsb.yahoo.co.jp^
+||yads.c.yimg.jp^
+||yads.yjtag.yahoo.co.jp^
 ||pbs.www.aol.com^
 ||guce.aol.com^
 ||ads.reddit.com^
