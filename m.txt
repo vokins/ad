@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.56
+! Version: 0.61
 ! Title: adfilter
-! Last modified: 1:37 2026/4/16 Expires: 7 days (update frequency)
+! Last modified: 15:45 2026/5/6 Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
@@ -35,14 +35,12 @@
 ##*[src="getadmiral.com"]
 ##img[src*="/admgr/"]
 ||*/admgr/*$image
-
 ||*/adsense/*$script
 ##script[src*="/adsense/"]
-
 ||*/ad_unblock.js$script
-
 ||*/js/ad.js^
 ##script[src*="/js/ad.js"]
+||*/analytics/*$script
 
 !bbs
 ##font[class="jammer"]
@@ -157,6 +155,23 @@ douban.com##div[id="dale_movie_review_middle_mini"]
 ##a[href^="https://u.jd.com/"]
 ##[href*="lapin.ithome.com/"]
 ##[href^="https://s.click.taobao.com/"]
+
+!aizhan
+||node96.aizhantj.com^
+||node11.aizhantj.com^
+aizhan.com##div[class="w index_bigdata"]
+aizhan.com##div[class^="azone"]
+aizhan.com##div[class$="azone"]
+aizhan.com##.indexvip
+aizhan.com##.thumb
+||statics.aizhan.com/images/img/gotovip.gif$image
+
+boce.com##div[class^="money_"]
+
+!chinaz
+chinaz.com##.wrapperTopBtm
+chinaz.com##div[id^="AD"]
+||a2put.chinaz.com^$image
 
 ! Google
 ||analytics.google.com^
@@ -413,10 +428,9 @@ cnbeta.com.tw##.fc-dialog-container > .fc-dialog-overlay
 ||abc.caiyunapp.com^
 ||bcd.caiyunapp.com^
 
-!jd
+!jd @@||cactus.jd.com^
 ||u-x.jd.com
 ||ads-union.jd.com
-||cactus.jd.com^
 ||hermes.jd.com^
 ||uranus.jd.com^
 
@@ -620,14 +634,16 @@ yahoo.com##div[class^="Bgc($bg-Ad)"]
 yahoo.com##div[class="Px(16px) Py(8px) Bgc($bg-1) Mih(88px)"]
 ##div[id^="taboola-"]
 www.yahoo.com##div[id$="j564noqdb_"]
-finance.yahoo.com##div[class^="sdaContainer"]
-news.yahoo.com##div[class^="mx-auto"][id^="sda-"]
-news.yahoo.com##div[class^="bg-toast-background"]>div[class^="text-px"]
-news.yahoo.com##div[id$="-Ad-Proxy"]
-news.yahoo.com##.bg-toast-background
-news.yahoo.com##div[id^="sda-top-center"]
-news.yahoo.com##div[id^="sda-mid-center"]
-news.yahoo.com##div[id*="-native-ad-"]
+yahoo.com##div[class^="sdaContainer"]
+yahoo.com##div[class^="mx-auto"][id^="sda-"]
+yahoo.com##div[class^="bg-toast-background"]>div[class^="text-px"]
+yahoo.com##div[id$="-Ad-Proxy"]
+yahoo.com##.bg-toast-background
+yahoo.com##div[id*="-native-ad-"]
+yahoo.com##div[id^="sda-mid-center"]
+yahoo.com##div[id^="sda-moments-iframe"]
+yahoo.com##div[id^="sda-top-center"]
+
 
 ||apm.yahoo.co.jp^
 ||flashtalking.com^
@@ -646,6 +662,11 @@ m.yahoo.co.jp##div[class^="RichSmartAppBanner"]
 ||ad2.ettoday.net^
 ||dcs.ettoday.net^
 ||meritvainlydarn.com^
+||www.ettoday.net/amp/readmore/ad_unblock.js
+||cdn1.ettoday.net/banners/
+||cdn2.ettoday.net/ad/
+||cdn2.ettoday.net/style/video-ad/
+
 ettoday.net##a[class="btn_go gtmclick"]
 
 !自由时报
@@ -678,8 +699,8 @@ m.douyu.com##div[class^="OpenAppBtn"]
 shuaito.help##div.mb_ad
 www.youku.com##div.callEnd_box
 
-! 其他union
 
+! 其他union
 ||051091.com^
 ||123zn.cn^
 ||186078.com^
@@ -707,6 +728,9 @@ www.youku.com##div.callEnd_box
 ||77nnv9.xyz^
 ||7box.vip^
 ||7clink.com^
+||91app.com^
+||91app.io^
+||a-ads.com^
 ||a-mx.com^
 ||a2tw6yoodsag.com^
 ||aaliyaheartha.com^
@@ -757,6 +781,7 @@ www.youku.com##div.callEnd_box
 ||adnxs.com^
 ||adperium.com^
 ||adpolestar.net^
+||adpon.jp^
 ||adpushup.com^
 ||adrecover.com^
 ||adriver.ru^
@@ -780,6 +805,7 @@ www.youku.com##div.callEnd_box
 ||adultfriendfinder.com^
 ||advertserve.com^
 ||adview.cn^
+||advividnetwork.com^
 ||advlion.com^
 ||adwangmai.com^
 ||adwo.com^
@@ -817,11 +843,14 @@ www.youku.com##div.callEnd_box
 ||audigent.com^
 ||audiobuy.cc^
 ||autumnone.cn^
+||avividai.com^
 ||avlm1.com^
 ||awaliwa.com^
 ||awempire.com^
+||ay.delivery^
 ||baichuanhd.com^
 ||baminw.com.cn^
+||bance.jp^
 ||bangweihjy.com^
 ||banyunjuhe.com^
 ||baradoot.com^
@@ -864,6 +893,7 @@ www.youku.com##div.callEnd_box
 ||caidangdang.cn^
 ||carbonads.com^
 ||casalemedia.com^
+||cashooshut.com^
 ||castplatform.com^
 ||cdnmaster.cn^
 ||cdnmaster.com^
@@ -878,6 +908,7 @@ www.youku.com##div.callEnd_box
 ||cl2009.com^
 ||cl2m.cn^
 ||clarity.ms^
+||clean.gg^
 ||clearbitjs.com^
 ||clicki.cn^
 ||cloudflareinsights.com^
@@ -913,6 +944,7 @@ www.youku.com##div.callEnd_box
 ||datadoghq.com^
 ||dedcrfvdj.xyz^
 ||deecqem892bg5er.com^
+||degeneratebasket.com^
 ||demdex.net^
 ||dhsz.cn^
 ||di7.org^
@@ -930,6 +962,7 @@ www.youku.com##div.callEnd_box
 ||dragonparking.com^
 ||drrzzl.cn^
 ||dspunion.com^
+||ductilevoider.com^
 ||dui88.com^
 ||duiba.com.cn^
 ||duomai.com^
@@ -966,6 +999,7 @@ www.youku.com##div.callEnd_box
 ||gameanalytics.com^
 ||gammaplatform.com^
 ||gbitcoin.cn^
+||genieesspv.jp^
 ||gentags.com^
 ||gentags.net^
 ||gepush.com^
@@ -983,9 +1017,11 @@ www.youku.com##div.callEnd_box
 ||gozendata.com^
 ||gridsumdissector.com^
 ||growingio.com^
+||gsspcln.jp^
 ||gssprt.jp^
 ||gtags.net^
 ||gtcxawq.com^
+||guoshipartners.com^
 ||gz-data.com^
 ||gzads.com^
 ||hadronid.net^
@@ -1002,6 +1038,7 @@ www.youku.com##div.callEnd_box
 ||hitslink.com^
 ||hjikv.cc^
 ||hokeyness.top^
+||holmesmind.com^
 ||hostanalyticsapi.com^
 ||hot-mob.com^
 ||hotjar.com^
@@ -1025,6 +1062,7 @@ www.youku.com##div.callEnd_box
 ||impact-ad.jp^
 ||imrworldwide.com^
 ||indexexchange.com^
+||indexww.com^
 ||inmobi.cn^
 ||inmobi.com^
 ||inmobicdn.net^
@@ -1034,6 +1072,7 @@ www.youku.com##div.callEnd_box
 ||innovid.com^
 ||inping.com^
 ||instabug.com^
+||intothebid.com^
 ||ipinyou.com.cn^
 ||ipinyou.com^
 ||ipredictive.com^
@@ -1074,11 +1113,16 @@ www.youku.com##div.callEnd_box
 ||lenzmx.com^
 ||lgygy.cn^
 ||lijit.com^
+||likr.com.tw^
+||likr.tw^
 ||linezing.com^
 ||liveintent.com^
 ||liveramp.com^
 ||lkhihfkds.cn^
+||lkme.cc^
 ||lkqd.net^
+||lmadps.jp^
+||logly.co.jp^
 ||loopme.me^
 ||luoaxw.com^
 ||lwmbc.cn^
@@ -1110,6 +1154,7 @@ www.youku.com##div.callEnd_box
 ||miptoo.cn^
 ||mixpanel.com^
 ||mktyhr.xyz^
+||mlytics.com^
 ||mnaspm.com^
 ||mnknrt.xyz^
 ||moatads.com^
@@ -1134,6 +1179,7 @@ www.youku.com##div.callEnd_box
 ||ndcpp.com^
 ||nend.net^
 ||networkbench.com^
+||newaddiscover.com^
 ||newrelic.com^
 ||nexage.com^
 ||nfsland.com^
@@ -1147,8 +1193,10 @@ www.youku.com##div.callEnd_box
 ||onesignal.com^
 ||onetag-sys.com^
 ||onetrust.io^
+||onevision.com.tw^
 ||openinstall.io^
 ||openmediation.com^
+||openwebmp.com^
 ||openx.net^
 ||optimix.cn^
 ||optimizely.com^
@@ -1161,12 +1209,16 @@ www.youku.com##div.callEnd_box
 ||pncloudfl.com^
 ||pocoiq.cn^
 ||popads.net^
+||popin.cc^
 ||presage.io^
 ||propellerads.com^
 ||protechts.net^
 ||ptengine.cn^
 ||puata.info^
+||pubadx.one^
 ||pubcid.org^
+||pubfuture-ad.com^
+||pubfuture.com^
 ||pubmatic.com^
 ||qa-analytics.com^
 ||qchannel01.cn^
@@ -1206,6 +1258,7 @@ www.youku.com##div.callEnd_box
 ||sglyd.cn^
 ||sh-qiruizx.com^
 ||shareclick.top^
+||sharethis.com^
 ||sharethrough.com^
 ||shenshiads.com^
 ||showmylife.com^
@@ -1216,6 +1269,7 @@ www.youku.com##div.callEnd_box
 ||simonayean.com^
 ||simpli.fi^
 ||sinawap.com^
+||sitemaji.com^
 ||sitescout.com^
 ||sloffer1.com^
 ||smaato.net^
@@ -1250,6 +1304,7 @@ www.youku.com##div.callEnd_box
 ||stripchat.com^
 ||stripchat.ooo^
 ||suisuihu.com^
+||supersonicads.com^
 ||survata.com^
 ||sxhjty.cn^
 ||sxpjn.com^
@@ -1257,6 +1312,7 @@ www.youku.com##div.callEnd_box
 ||taboola.com.cn^
 ||taboola.com^
 ||taboolasyndication.com^
+||tagtoo.co^
 ||takuad.com^
 ||talkingdata.com^
 ||talkingdata.net^
@@ -1269,6 +1325,7 @@ www.youku.com##div.callEnd_box
 ||teads.com^
 ||teads.tv^
 ||tealiumiq.com^
+||techsolutions.com.tw^
 ||telecome.cn^
 ||tencentbs.cn^
 ||tenjin.com^
@@ -1338,6 +1395,7 @@ www.youku.com##div.callEnd_box
 ||vipwm.cc^
 ||visx.net^
 ||vlion.cn^
+||vm5apis.com^
 ||voiceads.cn^
 ||voodoo-ads.io^
 ||vungle.com^
@@ -1351,6 +1409,7 @@ www.youku.com##div.callEnd_box
 ||whalecloud.com^
 ||winads.cn^
 ||wisemedia.cn^
+||withoutandwhich.com^
 ||wla3ii66.top^
 ||wrating.com^
 ||wwads.cn^
@@ -1373,6 +1432,7 @@ www.youku.com##div.callEnd_box
 ||xxinhb.cn^
 ||xxxvjmp.com^
 ||xys.org^
+||yakunitfall.com^
 ||ycdywl.com^
 ||ydwhgs.com^
 ||yengo.com^
@@ -1407,42 +1467,3 @@ www.youku.com##div.callEnd_box
 ||zujiant.com^
 ||zxrtb.com^
 ||zygaoshou888.cn^
-||a-ads.com^
-||pubadx.one^
-||cashooshut.com^
-||holmesmind.com^
-||ay.delivery^
-||popin.cc^
-||tagtoo.co^
-||degeneratebasket.com^
-||withoutandwhich.com^
-||pubfuture.com^
-||pubfuture-ad.com^
-||yakunitfall.com^
-||lkme.cc^
-||sharethis.com^
-||onevision.com.tw^
-||guoshipartners.com^
-||vm5apis.com^
-||mlytics.com^
-||likr.tw^
-||likr.com.tw^
-||avividai.com^
-||advividnetwork.com^
-||91app.io^
-||91app.com^
-||logly.co.jp^
-||openwebmp.com^
-||indexww.com^
-||sitemaji.com^
-||clean.gg^
-||techsolutions.com.tw^
-||newaddiscover.com^
-||ductilevoider.com^
-||supersonicads.com^
-||bance.jp^
-||lmadps.jp^
-||genieesspv.jp^
-||gsspcln.jp^
-||adpon.jp^
-||intothebid.com^
