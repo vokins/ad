@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.65
+! Version: 0.67
 ! Title: adfilter
-! Last modified: 21:43 2026/5/6
+! Last modified: 22:04 2026/5/6
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -44,30 +44,59 @@
 ##script[src*="/js/ad.js"]
 ##script[src*="cloudflareinsights.com"]
 
-*/adbox/*$script
-*/adcreatives/*$script
-*/admax/*$script
-*/admgr/*$image
-*/adpuba/*$script
-*/adsense/*$script
-*/adsid/*$script
-*/advertisement/*$script
-*/analytics/*$script
-*/cpro/ui/*$script
-*/galileo/*$script
-*/pagead/*$script
-*/simgad/*$script
-*/sinaads/*$script
-*/taboola/*$script
-*/www/delivery/*$script
+*/ad/$image
+*/ad/$script
+*/AdvertImages/*
+*/ad-img/*
+*/ad-tetris-site/*
+*/adbox/*
+*/adcreatives/*
+*/admax/*
+*/admgr/*
+*/adpic/*
+*/adpuba/*
+*/adpuba/*
+*/ads/*
+*/adsense/*
+*/adsid/*
+*/adspace/*
+*/adver/*
+*/advertisement/*
+*/analytics/*
+*/cpro/ui/*
+*/galileo/*
+*/ggads/*
+*/guanggao/*
+*/ivy/image/*
+*/pagead/*
+*/qa_ad_card/*
+*/simgad/*
+*/sinaads/*
+*/taboola/*
+*/tuiguang/*
+*/www/delivery/*
 
 */ad_unblock.js
+*/ads.js
+*/adserv.js
+*/allads.js
+*/count.js
 */goofy/ttzz/push.js
 */hm.js
+*/js/1.js
+*/js/2.js
 */js/ad.js
+*/js/ccc.js
+*/js/m-tongji.js
+*/js/m-xuanfu.js
 */js/yads-async.js
 */linksubmit/push.js
+*/morejs/jc.js
+*/morejs/jj.js
+*/rnptco.js
 */sinaads.js
+*/tj.js
+*/tongji.js
 
 !BBS
 ##font[class="jammer"]
