@@ -1,4 +1,4 @@
-# Update > 21:38 2026/5/6
+# Update > 22:02 2026/5/6
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -2058,6 +2058,7 @@ DOMAIN-SUFFIX,iads.unitychina.cn
 #Yandex
 DOMAIN,yandexmetrica.com
 DOMAIN,mc.yandex.com
+DOMAIN,mc.yandex.ru
 DOMAIN,startup.mobile.yandex.net
 DOMAIN,report.appmetrica.yandex.net
 #amazon
@@ -3006,4 +3007,3 @@ DOMAIN-SUFFIX,zygaoshou888.cn
 #PopUps&Virus
 
 #New-Test-一个月没发现问题会并入
-
