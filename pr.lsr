@@ -1,4 +1,4 @@
-# Update > 13:54 2026/5/6
+# Update > 15:49 2026/5/6
 # https://github.com/vokins/ad/blob/main/pr.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
@@ -28,21 +28,44 @@ DOMAIN-SUFFIX,co.vi
 DOMAIN-SUFFIX,co.za
 DOMAIN-SUFFIX,co.zm
 DOMAIN-SUFFIX,co.zw
+#Domain - com网站
+DOMAIN-SUFFIX,com.ar
+DOMAIN-SUFFIX,com.au
+DOMAIN-SUFFIX,com.bd
+DOMAIN-SUFFIX,com.br
+DOMAIN-SUFFIX,com.co
+DOMAIN-SUFFIX,com.cy
+DOMAIN-SUFFIX,com.do
+DOMAIN-SUFFIX,com.ec
+DOMAIN-SUFFIX,com.eg
+DOMAIN-SUFFIX,com.et
+DOMAIN-SUFFIX,com.gh
+DOMAIN-SUFFIX,com.hk
+DOMAIN-SUFFIX,com.jm
+DOMAIN-SUFFIX,com.kw
+DOMAIN-SUFFIX,com.mx
+DOMAIN-SUFFIX,com.my
+DOMAIN-SUFFIX,com.ng
+DOMAIN-SUFFIX,com.np
+DOMAIN-SUFFIX,com.pa
+DOMAIN-SUFFIX,com.pe
+DOMAIN-SUFFIX,com.ph
+DOMAIN-SUFFIX,com.pk
+DOMAIN-SUFFIX,com.pr
+DOMAIN-SUFFIX,com.py
+DOMAIN-SUFFIX,com.sa
+DOMAIN-SUFFIX,com.sg
+DOMAIN-SUFFIX,com.sv
+DOMAIN-SUFFIX,com.tr
+DOMAIN-SUFFIX,com.tw
+DOMAIN-SUFFIX,com.ua
+DOMAIN-SUFFIX,com.uy
+DOMAIN-SUFFIX,com.vn
 #Domain - 其他网站
 DOMAIN-SUFFIX,eu.org
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.tw
 DOMAIN-SUFFIX,or.jp
-DOMAIN-SUFFIX,com.ar
-DOMAIN-SUFFIX,com.au
-DOMAIN-SUFFIX,com.br
-DOMAIN-SUFFIX,com.co
-DOMAIN-SUFFIX,com.hk
-DOMAIN-SUFFIX,com.mx
-DOMAIN-SUFFIX,com.sg
-DOMAIN-SUFFIX,com.tr
-DOMAIN-SUFFIX,com.tw
-DOMAIN-SUFFIX,com.vn
 #Domain - HK网站
 DOMAIN-SUFFIX,aastocks.com
 DOMAIN-SUFFIX,hk01.com
@@ -354,9 +377,11 @@ DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 #APP - Dropbox https://help.dropbox.com/zh-cn/security/official-domains
-DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,addtodropbox.com
+DOMAIN-SUFFIX,dash.ai
+DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,docsend.com
+DOMAIN-SUFFIX,dropbox-dns.com
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropbox.tech
 DOMAIN-SUFFIX,dropboxapi.com
@@ -371,9 +396,9 @@ DOMAIN-SUFFIX,dropboxmail.com
 DOMAIN-SUFFIX,dropboxpartners.com
 DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxteam.com
-DOMAIN-SUFFIX,getdropbox.com
 DOMAIN-SUFFIX,dropboxusercontent.com
-DOMAIN-SUFFIX,dropbox-dns.com
+DOMAIN-SUFFIX,getdropbox.com
+DOMAIN-SUFFIX,hellofax.com
 DOMAIN-SUFFIX,hellosign.com
 #APP - DuckDuckGo
 DOMAIN-SUFFIX,duck.co
@@ -747,6 +772,8 @@ DOMAIN-SUFFIX,cloudfront.net
 #Web - archive.org
 DOMAIN-SUFFIX,archive.is
 DOMAIN-SUFFIX,archive.org
+#Web - Arkose
+DOMAIN-SUFFIX,arkoselabs.com
 #Web - Bunny CDN
 DOMAIN-SUFFIX,bunny.net
 DOMAIN-SUFFIX,b-cdn.net
@@ -852,6 +879,16 @@ DOMAIN-SUFFIX,tenor.com
 #Web - Usercentrics
 DOMAIN-SUFFIX,usercentrics.com
 DOMAIN-SUFFIX,usercentrics.eu
+#Web - Vimeo
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,vimeocdn.com
+DOMAIN-SUFFIX,videoji.cn
+DOMAIN-SUFFIX,videoshipinurl.hk
+DOMAIN-SUFFIX,vimeo-work.dev
+DOMAIN-SUFFIX,vimeo.dev
+DOMAIN-SUFFIX,vimeo.work
+DOMAIN-SUFFIX,vimeows.com
+DOMAIN-SUFFIX,vimeows.work
 #Web - Wix CDN
 DOMAIN-SUFFIX,wix.com
 DOMAIN-SUFFIX,wix-code.com
