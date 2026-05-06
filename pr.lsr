@@ -1,4 +1,4 @@
-# Update > 16:05 2026/5/2
+# Update > 13:54 2026/5/6
 # https://github.com/vokins/ad/blob/main/pr.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
@@ -320,7 +320,7 @@ DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,bbc.com
 #APP - Bloomberg
 DOMAIN-SUFFIX,bwbx.io
-DOMAIN-KEYWORD, .bloomberg
+DOMAIN-SUFFIX,bloomberg.com
 #App - Bluesky
 DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
@@ -354,26 +354,26 @@ DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 #APP - Dropbox https://help.dropbox.com/zh-cn/security/official-domains
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,dropboxstatic.com
-DOMAIN-SUFFIX,dropboxforum.com
-DOMAIN-SUFFIX,dropboxusercontent.com
 DOMAIN-SUFFIX,db.tt
+DOMAIN-SUFFIX,addtodropbox.com
 DOMAIN-SUFFIX,docsend.com
-DOMAIN-SUFFIX,dropbox-dns.com
+DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropbox.tech
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxbusiness.com
 DOMAIN-SUFFIX,dropboxcaptcha.com
 DOMAIN-SUFFIX,dropboxexperiment.com
+DOMAIN-SUFFIX,dropboxforum.com
 DOMAIN-SUFFIX,dropboxforums.com
 DOMAIN-SUFFIX,dropboxinsiders.com
 DOMAIN-SUFFIX,dropboxlegal.com
 DOMAIN-SUFFIX,dropboxmail.com
 DOMAIN-SUFFIX,dropboxpartners.com
+DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxteam.com
-DOMAIN-SUFFIX,addtodropbox.com
 DOMAIN-SUFFIX,getdropbox.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+DOMAIN-SUFFIX,dropbox-dns.com
 DOMAIN-SUFFIX,hellosign.com
 #APP - DuckDuckGo
 DOMAIN-SUFFIX,duck.co
@@ -737,6 +737,8 @@ DOMAIN-SUFFIX,typekit.net
 #Web - Akamai
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,edgekey.net
 #Web - Amazon-AWS
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com
@@ -759,6 +761,9 @@ DOMAIN-SUFFIX,cloudinary.com
 #Web - canny
 DOMAIN-SUFFIX,canny.io
 DOMAIN-SUFFIX,canny-assets.io
+#Web - Crownpeak
+DOMAIN-SUFFIX,crownpeak.com
+DOMAIN-SUFFIX,evidon.com
 #Web - Datadog https://docs.datadoghq.com/real_user_monitoring/guide/proxy-rum-data/
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,datadoghq.com
@@ -857,14 +862,11 @@ DOMAIN-SUFFIX,parastorage.com
 DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,workoscdn.com
 #Web - Zendesk
-DOMAIN-KEYWORD, .zendesk
 DOMAIN-SUFFIX,zdassets.com
 DOMAIN-SUFFIX,zendesk.com
 #Sites - Adult-comic
-DOMAIN-KEYWORD,.hentai
-DOMAIN-KEYWORD,hentai.
-DOMAIN-KEYWORD,.comic
-DOMAIN-KEYWORD,comic.
+#DOMAIN-KEYWORD,.hentai
+#DOMAIN-KEYWORD,hentai.
 DOMAIN-SUFFIX,177picyy.com
 DOMAIN-SUFFIX,18hlw.com
 DOMAIN-SUFFIX,animezilla.com
@@ -1119,6 +1121,8 @@ DOMAIN-SUFFIX,wenxuecity.com
 DOMAIN-SUFFIX,yubico.com
 #OUC
 DOMAIN-SUFFIX,outsightchina.com
+#whos.tv
+DOMAIN-SUFFIX,whos.tv
 #anue-cnyes
 DOMAIN-SUFFIX,cnyes.com
 DOMAIN-SUFFIX,cnyes.cool
@@ -1142,8 +1146,17 @@ DOMAIN-SUFFIX,shopeemobile.com
 #OpenRice
 DOMAIN-SUFFIX,openrice.com
 DOMAIN-SUFFIX,orstatic.com.cn
-#rumors
-DOMAIN-KEYWORD,rumors.net
-DOMAIN-KEYWORD,rumors.com
+#*Rumors
+#DOMAIN-KEYWORD,rumors.net
+#DOMAIN-KEYWORD,rumors.com
+DOMAIN-SUFFIX,macrumors.com
+DOMAIN-SUFFIX,sonyalpharumors.com
+DOMAIN-SUFFIX,43rumors.com
+DOMAIN-SUFFIX,canonbuzz.com
+DOMAIN-SUFFIX,fujirumors.com
+DOMAIN-SUFFIX,l-rumors.com
+DOMAIN-SUFFIX,mirrorlessrumors.com
+DOMAIN-SUFFIX,nikoneye.com
+DOMAIN-SUFFIX,nikonrumors.com
 #haitunt.org
 DOMAIN-SUFFIX,haitunt.org
