@@ -1,4 +1,4 @@
-# Update > 15:57 2026/5/6
+# Update > 17:25 2026/5/6
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -561,6 +561,7 @@ DOMAIN,huaxiang.eastmoney.com,REJECT
 DOMAIN,mobappconfig.securities.eastmoney.com,REJECT
 DOMAIN,same.eastmoney.com,REJECT
 DOMAIN,zqhd.eastmoney.com,REJECT
+DOMAIN,g1.dfcfw.com,REJECT
 DOMAIN,a1.dftzj.com,REJECT
 DOMAIN,a2.dftzj.com,REJECT
 DOMAIN,zqhd.dfcfs.cn,REJECT
@@ -930,6 +931,10 @@ DOMAIN,shop43210511.m.youzan.com,REJECT
 DOMAIN,probe.youzan.com,REJECT
 DOMAIN,tj1.youzan.com,REJECT
 DOMAIN,tj.youzanyun.com,REJECT
+#Trip-国铁吉讯
+DOMAIN,app-tech-tracker.ccrgt.com,REJECT
+DOMAIN,app-tracker.ccrgt.com,REJECT
+DOMAIN,web-tracker.ccrgt.com,REJECT
 #Trip-航旅纵横
 DOMAIN,analytics.umetrip.com,REJECT
 DOMAIN,bda.umetrip.com,REJECT
@@ -1848,6 +1853,8 @@ DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletraveladservices.com,REJECT
 DOMAIN-SUFFIX,urchin.com,REJECT
 #Google-CN
+DOMAIN-SUFFIX,adservice.google.cn,REJECT
+DOMAIN-SUFFIX,adservice.google.co.jp,REJECT
 DOMAIN-SUFFIX,ads.google.cn,REJECT
 DOMAIN-SUFFIX,adsense.google.cn,REJECT
 DOMAIN-SUFFIX,2mdn-cn.net,REJECT
