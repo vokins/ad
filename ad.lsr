@@ -1,4 +1,4 @@
-# Update > 19:12 2026/5/6
+# Update > 21:38 2026/5/6
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -1525,7 +1525,7 @@ DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN-SUFFIX,tongji.baidu.com
 DOMAIN-SUFFIX,tuisong.baidu.com
 DOMAIN-SUFFIX,union.baidu.com
-#DOMAIN,dlswbr.baidu.com
+DOMAIN,dlswbr.baidu.com
 DOMAIN,a.baidu.com
 DOMAIN,ada.baidu.com
 DOMAIN,afd.baidu.com
@@ -1978,6 +1978,7 @@ DOMAIN,ad.qq.com
 DOMAIN,ads.privacy.qq.com
 DOMAIN,aegis.qq.com
 DOMAIN,analytics.map.qq.com
+DOMAIN,api.aida.qq.com
 DOMAIN,browsertdidticket.m.qq.com
 DOMAIN,btrace.qq.com
 DOMAIN,dp3.qq.com
@@ -1995,17 +1996,21 @@ DOMAIN,p.ssp.qq.com
 DOMAIN,pingjs.qq.com
 DOMAIN,pingma.qq.com
 DOMAIN,pingtas.qq.com
+DOMAIN,pr.map.qq.com
 DOMAIN,rdelivery.qq.com
 DOMAIN,report.qqweb.qq.com
 DOMAIN,rqd.uu.qq.com
 DOMAIN,searchlog.html5.qq.com
+DOMAIN,sor.html5.qq.com
 DOMAIN,stat6.y.qq.com
+DOMAIN-SUFFIX,rumt-zh.com
 #Tencent-QQ-Upload
 DOMAIN,log.tbs.qq.com
 DOMAIN,qqdata.ab.qq.com
 DOMAIN,oth.bls.mdt.qq.com
 DOMAIN,oth.eve.mdt.qq.com
 DOMAIN,oth.str.mdt.qq.com
+DOMAIN,at.idqqimg.com
 DOMAIN,report.idqqimg.com
 #Tencent-gdt
 DOMAIN,ra.gtimg.com
@@ -2036,9 +2041,12 @@ DOMAIN-SUFFIX,yidianlingyi.cn
 #Tencent-腾讯视频
 DOMAIN,ad.tencentvideo.com
 DOMAIN,adstats.tencentvideo.com
-DOMAIN,info6.video.qq.com
-DOMAIN,sq.bls.mdt.qq.com
+DOMAIN,bkh5vv.video.qq.com
 DOMAIN,finderhy.video.qq.com
+DOMAIN,h5vv6.video.qq.com
+DOMAIN,info6.video.qq.com
+DOMAIN,appcfg.v.qq.com
+DOMAIN,sq.bls.mdt.qq.com
 DOMAIN-KEYWORD,variety.tc.qq.com
 #Unity
 DOMAIN-SUFFIX,ads.internal.unity3d.com
@@ -2080,6 +2088,7 @@ DOMAIN,noa.yahoo.com
 DOMAIN,pbd.yahoo.com
 DOMAIN,udc.yahoo.com
 DOMAIN,jac.yahoosandbox.com
+DOMAIN,qsearch-a.akamaihd.net
 #yahoo.co.jp
 DOMAIN,apm.yahoo.co.jp
 DOMAIN,dsb.yahoo.co.jp
@@ -2997,3 +3006,4 @@ DOMAIN-SUFFIX,zygaoshou888.cn
 #PopUps&Virus
 
 #New-Test-一个月没发现问题会并入
+
