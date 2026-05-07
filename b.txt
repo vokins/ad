@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.66
+! Version: 0.67
 ! Title: adunion
-! Last modified: 22:03 2026/5/6
+! Last modified: 15:32 2026/5/7
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adunion
@@ -413,6 +413,8 @@
 ||ad1.ettoday.net^
 ||ad2.ettoday.net^
 ||dcs.ettoday.net^
+||e2elog.fetnet.net^
+||ssp.hinet.net^
 ||pv.ltn.com.tw^
 ||pv6.ltn.com.tw^
 ||ad.dzwww.com^
@@ -2637,3 +2639,7 @@
 ||zujiant.com^
 ||zxrtb.com^
 ||zygaoshou888.cn^
+||puzzledrally.com^
+||tamealongpast.com^
+||providedwell.com^
+||boowithout.com^
