@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.67
+! Version: 0.69
 ! Title: adfilter
-! Last modified: 22:04 2026/5/6
+! Last modified: 15:31 2026/5/7
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -44,12 +44,13 @@
 ##script[src*="/js/ad.js"]
 ##script[src*="cloudflareinsights.com"]
 
-*/ad/$image
-*/ad/$script
+*/ad/*$image
+*/ad/*$script
 */AdvertImages/*
 */ad-img/*
 */ad-tetris-site/*
 */adbox/*
+*/ad-shield/*
 */adcreatives/*
 */admax/*
 */admgr/*
@@ -108,7 +109,7 @@
 ##[class="openApp"]
 
 !Baidu
-||baidustatic.com^$all
+|https://*.baidustatic.com/*
 ##[class*="baidu-ad"]
 ##[class*="ecom-ads"]
 ##[href*="/cpro/ui/"]
@@ -124,7 +125,7 @@
 m.baidu.com##div[class="tab_news"]
 
 !Google
-||google.co.jp/ads/^
+|https://*.google.co.jp/ads/*
 ##[class*="adsbygoogle"]
 ##[class*="adsense-cont"]
 ##[id*="google_ads_iframe"]
@@ -145,9 +146,10 @@ m.baidu.com##div[class="tab_news"]
 ##div[id*="div-gpt-ad-"]
 
 !QQ
-||gdt.qq.com^$all
+|https://*.gdt.qq.com/*
 
 !163
+@@||cms-bucket.ws.126.net^
 163.com##.fixedOpenNewsapp
 163.com##.newsapp-qrcode
 163.com##[class*="-open-app"]
@@ -171,7 +173,7 @@ aizhan.com##div[class="w index_bigdata"]
 aizhan.com##div[class^="azone"]
 ||node11.aizhantj.com^
 ||node96.aizhantj.com^
-||statics.aizhan.com/images/img/gotovip.gif$image
+|https://statics.aizhan.com/images/img/gotovip.gif
 
 !boce.com
 boce.com##div[class^="money_"]
@@ -220,7 +222,7 @@ g.pconline.com.cn##div[id="home-float"]
 !News-凤凰网
 ifeng.com##div[class^="index_pageBottomBrand"]
 ifeng.com##div[class^="index_hot_box"]
-||ifengimg.com/*/sta_collection_*.js$script
+|https://*.ifengimg.com/*/sta_collection_*.js
 ##[href^="https://mall.ifeng.com/"]
 
 !News-观察者
@@ -375,7 +377,8 @@ speedtest.net##.modal-overlay-dark.modal-overlay
 speedtest.net##.result-area-ad.result-area
 
 !Yahoo
-||tw.buy.yahoo.com/smartbanner/article$subdocument
+|https://tw.buy.yahoo.com/smartbanner/article*
+|https://*.ssp.yahoo.com/admax/*
 m.yahoo.co.jp##div[class^="RichSmartAppBanner"]
 yahoo.com##.bg-toast-background
 yahoo.com##div[class="Px(16px) Py(8px) Bgc($bg-1) Mih(88px)"]
@@ -391,10 +394,11 @@ yahoo.com##div[id^="sda-top-center"]
 www.yahoo.com##div[id$="j564noqdb_"]
 
 !TW-ETtoday
-||cdn1.ettoday.net/banners/^
-||cdn2.ettoday.net/ad/^
-||cdn2.ettoday.net/style/video-ad/^
-||www.ettoday.net/amp/readmore/ad_unblock.js^$script
+|https://cdn1.ettoday.net/banners/*
+|https://cdn2.ettoday.net/ad/*
+|https://cdn2.ettoday.net/dfp/*
+|https://cdn2.ettoday.net/style/video-ad/*
+|https://www.ettoday.net/amp/readmore/ad_unblock.js
 ettoday.net##a[class="btn_go gtmclick"]
 
 !TW-udn
