@@ -1,4 +1,4 @@
-# Update > 22:02 2026/5/6
+# Update > 15:31 2026/5/7
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -526,6 +526,8 @@ DOMAIN,ad.ettoday.net
 DOMAIN,ad1.ettoday.net
 DOMAIN,ad2.ettoday.net
 DOMAIN,dcs.ettoday.net
+DOMAIN,e2elog.fetnet.net
+DOMAIN-SUFFIX,ssp.hinet.net
 #News-自由时报
 DOMAIN,pv.ltn.com.tw
 DOMAIN,pv6.ltn.com.tw
@@ -3007,3 +3009,8 @@ DOMAIN-SUFFIX,zygaoshou888.cn
 #PopUps&Virus
 
 #New-Test-一个月没发现问题会并入
+DOMAIN-SUFFIX,puzzledrally.com
+DOMAIN-SUFFIX,tamealongpast.com
+DOMAIN-SUFFIX,providedwell.com
+DOMAIN-SUFFIX,boowithout.com
+DOMAIN-SUFFIX,liadm.com
