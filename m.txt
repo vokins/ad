@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.69
+! Version: 0.70
 ! Title: adfilter
-! Last modified: 15:31 2026/5/7
+! Last modified: 20:53 2026/5/8
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -48,9 +48,9 @@
 */ad/*$script
 */AdvertImages/*
 */ad-img/*
+*/ad-shield/*
 */ad-tetris-site/*
 */adbox/*
-*/ad-shield/*
 */adcreatives/*
 */admax/*
 */admgr/*
@@ -82,6 +82,7 @@
 */adserv.js
 */allads.js
 */count.js
+*/adsbygoogle.js
 */goofy/ttzz/push.js
 */hm.js
 */js/1.js
