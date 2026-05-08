@@ -1,4 +1,4 @@
-# Update > 15:31 2026/5/7
+# Update > 17:12 2026/5/8
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -545,6 +545,18 @@ DOMAIN,ad.yicai.com
 DOMAIN,analytics.yicai.com
 #News-财新网
 DOMAIN,gg.caixin.com
+DOMAIN,pinggai0.caixin.com
+DOMAIN,pinggai1.caixin.com
+DOMAIN,pinggai2.caixin.com
+DOMAIN,pinggai3.caixin.com
+DOMAIN,pinggai4.caixin.com
+DOMAIN,pinggai5.caixin.com
+DOMAIN,pinggai6.caixin.com
+DOMAIN,pinggai7.caixin.com
+DOMAIN,pinggai8.caixin.com
+DOMAIN,pinggai9.caixin.com
+DOMAIN,promote.caixin.com
+DOMAIN,showimg.caixin.com
 #News-和讯网
 DOMAIN,alidongfeng.hexun.com
 DOMAIN,apptrace.hexun.com
