@@ -1,4 +1,4 @@
-# Update > 15:49 2026/5/6
+# Update > 12:36 2026/5/9
 # https://github.com/vokins/ad/blob/main/pr.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
@@ -1006,6 +1006,7 @@ DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,nikkei.com
 DOMAIN-SUFFIX,nownews.com
 DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,radio-canada.ca
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,rfi.fr
