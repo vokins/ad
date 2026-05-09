@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.70
+! Version: 0.77
 ! Title: adfilter
-! Last modified: 20:53 2026/5/8
+! Last modified: 12:42 2026/5/9
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -110,7 +110,6 @@
 ##[class="openApp"]
 
 !Baidu
-|https://*.baidustatic.com/*
 ##[class*="baidu-ad"]
 ##[class*="ecom-ads"]
 ##[href*="/cpro/ui/"]
@@ -126,7 +125,6 @@
 m.baidu.com##div[class="tab_news"]
 
 !Google
-|https://*.google.co.jp/ads/*
 ##[class*="adsbygoogle"]
 ##[class*="adsense-cont"]
 ##[id*="google_ads_iframe"]
@@ -147,7 +145,6 @@ m.baidu.com##div[class="tab_news"]
 ##div[id*="div-gpt-ad-"]
 
 !QQ
-|https://*.gdt.qq.com/*
 
 !163
 @@||cms-bucket.ws.126.net^
@@ -378,8 +375,7 @@ speedtest.net##.modal-overlay-dark.modal-overlay
 speedtest.net##.result-area-ad.result-area
 
 !Yahoo
-|https://tw.buy.yahoo.com/smartbanner/article*
-|https://*.ssp.yahoo.com/admax/*
+|tw.buy.yahoo.com/smartbanner/article*
 m.yahoo.co.jp##div[class^="RichSmartAppBanner"]
 yahoo.com##.bg-toast-background
 yahoo.com##div[class="Px(16px) Py(8px) Bgc($bg-1) Mih(88px)"]
