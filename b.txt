@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.76
+! Version: 0.77
 ! Title: adunion
-! Last modified: 12:34 2026/5/9
+! Last modified: 9:15 2026/5/10
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adunion
@@ -1361,10 +1361,6 @@
 ||fclog.baidu.com^
 ||feed-image.baidu.com^
 ||fxgate.baidu.com^
-||gips0.baidu.com^
-||gips1.baidu.com^
-||gips2.baidu.com^
-||gips3.baidu.com^
 ||gsp0.baidu.com^
 ||h2tcbox.baidu.com^
 ||hcl.baidu.com^
