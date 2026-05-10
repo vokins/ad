@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 0.77
 ! Title: adfilter
-! Last modified: 12:42 2026/5/9
+! Last modified: 9:15 2026/5/10
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -43,6 +43,7 @@
 ##script[src*="/adsense/"]
 ##script[src*="/js/ad.js"]
 ##script[src*="cloudflareinsights.com"]
+##iframe[frameborder="0"][border="0"]
 
 */ad/*$image
 */ad/*$script
