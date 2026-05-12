@@ -1,13 +1,16 @@
 [Adblock Plus 2.0]
-! Version: 0.77
+! Version: 0.78
 ! Title: adfilter
-! Last modified: 9:15 2026/5/10
+! Last modified: 17:10 2026/5/12
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
 ! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
 ! Homepage: https://github.com/vokins/ad/blob/main/m.txt
 !
+
+!白名单
+@@||challenges.cloudflare.com^
 
 !通配通杀
 ##[class*="sinaads"]
