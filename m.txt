@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.78
+! Version: 0.79
 ! Title: adfilter
-! Last modified: 17:10 2026/5/12
+! Last modified: 19:10 2026/5/13
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -61,7 +61,8 @@
 */adpic/*
 */adpuba/*
 */adpuba/*
-*/ads/*
+*/ads/*$image
+*/ads/*$script
 */adsense/*
 */adsid/*
 */adspace/*
@@ -194,6 +195,17 @@ cnbeta.com.tw##.cbhelp.cbv
 cnbeta.com.tw##.fc-dialog-container > .fc-dialog-overlay
 cnbeta.com.tw##.fc-dialog.fc-ab-dialog
 cnbeta.com.tw##.fr
+
+!www.jb51.net
+www.jb51.net###gaosu
+www.jb51.net###txtlink
+www.jb51.net###xzbtn
+www.jb51.net##.rjTestPos
+www.jb51.net##.tipsa_ds
+www.jb51.net##.tonglan
+www.jb51.net##div.blank5
+www.jb51.net##div.topimg
+www.jb51.net##p.gs
 
 !douban
 douban.com##a[class="talion-nav-footer"]
