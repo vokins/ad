@@ -1,4 +1,4 @@
-# Update > 19:06 2026/5/13
+# Update > 19:24 2026/5/13
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -30,7 +30,6 @@ DOMAIN,iadctest.qwapi.com
 DOMAIN,metrics.icloud.com
 DOMAIN-SUFFIX,comscoreresearch.com
 DOMAIN-SUFFIX,comscoreresearch.net
-DOMAIN-SUFFIX,iad-apple.com
 DOMAIN-SUFFIX,safebrowsing.apple
 #3rdPage-页面插入-欺诈性网站警告
 DOMAIN-KEYWORD,safebrowsing.
@@ -2356,22 +2355,20 @@ DOMAIN,zcdk.gongweiwang.cn
 DOMAIN,zcsj.gongweiwang.cn
 DOMAIN,img.0755rc.com
 DOMAIN,new.0755rc.com
+
 #Union-Ads
 DOMAIN-SUFFIX,051091.com
 DOMAIN-SUFFIX,123zn.cn
 DOMAIN-SUFFIX,152media.info
 DOMAIN-SUFFIX,17admob.com
-DOMAIN-SUFFIX,186078.com
 DOMAIN-SUFFIX,1nmob.com
 DOMAIN-SUFFIX,1rtb.com
 DOMAIN-SUFFIX,1rtb.net
 DOMAIN-SUFFIX,1rx.io
 DOMAIN-SUFFIX,1sdyc.com
 DOMAIN-SUFFIX,2345.com
-DOMAIN-SUFFIX,23873645.com
 DOMAIN-SUFFIX,25ku.com
 DOMAIN-SUFFIX,33across.com
-DOMAIN-SUFFIX,34283078.com
 DOMAIN-SUFFIX,360yield.com
 DOMAIN-SUFFIX,37cs.com
 DOMAIN-SUFFIX,37wan.com
@@ -2383,11 +2380,9 @@ DOMAIN-SUFFIX,50bang.org
 DOMAIN-SUFFIX,51.la
 DOMAIN-SUFFIX,51fanli.net
 DOMAIN-SUFFIX,51link.com
-DOMAIN-SUFFIX,5336767ccc.com
 DOMAIN-SUFFIX,58iclick.com
 DOMAIN-SUFFIX,66mobi.com
 DOMAIN-SUFFIX,71360.com
-DOMAIN-SUFFIX,77nnv9.xyz
 DOMAIN-SUFFIX,7box.vip
 DOMAIN-SUFFIX,7clink.com
 DOMAIN-SUFFIX,91app.com
@@ -2397,8 +2392,6 @@ DOMAIN-SUFFIX,a-ads.com
 DOMAIN-SUFFIX,a-mx.com
 DOMAIN-SUFFIX,a2tw6yoodsag.com
 DOMAIN-SUFFIX,a4g.com
-DOMAIN-SUFFIX,aaliyaheartha.com
-DOMAIN-SUFFIX,aaliyahzanna.com
 DOMAIN-SUFFIX,aceex.io
 DOMAIN-SUFFIX,acexchange.co.kr
 DOMAIN-SUFFIX,activemetering.com
@@ -2557,7 +2550,6 @@ DOMAIN-SUFFIX,agon.mobi
 DOMAIN-SUFFIX,agrantsem.com
 DOMAIN-SUFFIX,aishuttler.com
 DOMAIN-SUFFIX,alaska-gaming.com
-DOMAIN-SUFFIX,alexanberton.com
 DOMAIN-SUFFIX,algogear.com
 DOMAIN-SUFFIX,algorix.co
 DOMAIN-SUFFIX,alkimi.org
@@ -2585,7 +2577,6 @@ DOMAIN-SUFFIX,appaspire.com
 DOMAIN-SUFFIX,appboy.com
 DOMAIN-SUFFIX,appbroda.com
 DOMAIN-SUFFIX,appcenter.ms
-DOMAIN-SUFFIX,appcha.net
 DOMAIN-SUFFIX,appier.net
 DOMAIN-SUFFIX,applk.cn
 DOMAIN-SUFFIX,applovin.com
@@ -2666,14 +2657,12 @@ DOMAIN-SUFFIX,bidtox.com
 DOMAIN-SUFFIX,bidvertiser.com
 DOMAIN-SUFFIX,bigo.sg
 DOMAIN-SUFFIX,bildapp.net
-DOMAIN-SUFFIX,binfenhui.top
 DOMAIN-SUFFIX,birdgesdk.com
 DOMAIN-SUFFIX,bixinlive.com
 DOMAIN-SUFFIX,bizzclick.com
 DOMAIN-SUFFIX,bjsqdb.cn
 DOMAIN-SUFFIX,bjzghd.com
 DOMAIN-SUFFIX,bksn.se
-DOMAIN-SUFFIX,blankabout.com
 DOMAIN-SUFFIX,blasto.ai
 DOMAIN-SUFFIX,blis.com
 DOMAIN-SUFFIX,blismedia.com
@@ -2785,8 +2774,6 @@ DOMAIN-SUFFIX,datadoghq-browser-agent.com
 DOMAIN-SUFFIX,datadoghq.com
 DOMAIN-SUFFIX,dauup.com
 DOMAIN-SUFFIX,decenterads.com
-DOMAIN-SUFFIX,dedcrfvdj.xyz
-DOMAIN-SUFFIX,deecqem892bg5er.com
 DOMAIN-SUFFIX,deepinstall.com
 DOMAIN-SUFFIX,deepintent.com
 DOMAIN-SUFFIX,degeneratebasket.com
@@ -2800,7 +2787,6 @@ DOMAIN-SUFFIX,display.io
 DOMAIN-SUFFIX,displayio.cloud
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,districtm.io
-DOMAIN-SUFFIX,dkfxi.com
 DOMAIN-SUFFIX,dlads.cn
 DOMAIN-SUFFIX,dmixer.co.kr
 DOMAIN-SUFFIX,dncvj.cn
@@ -2829,12 +2815,9 @@ DOMAIN-SUFFIX,dyntrk.com
 DOMAIN-SUFFIX,e-planning.net
 DOMAIN-SUFFIX,e-volution.ai
 DOMAIN-SUFFIX,edigitalsurvey.com
-DOMAIN-SUFFIX,ehuangjiao.com
 DOMAIN-SUFFIX,eliteappgrade.com
 DOMAIN-SUFFIX,elixirvideo.co
 DOMAIN-SUFFIX,elixirvideo.com
-DOMAIN-SUFFIX,elmahulda.com
-DOMAIN-SUFFIX,elvaheloise.com
 DOMAIN-SUFFIX,emittenteeditoriale.it
 DOMAIN-SUFFIX,emodoinc.com
 DOMAIN-SUFFIX,emogi.com
@@ -2911,7 +2894,6 @@ DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gfnormal01ae.com
 DOMAIN-SUFFIX,gitberry.com
 DOMAIN-SUFFIX,gmossp-sp.jp
-DOMAIN-SUFFIX,gnlunbii.rest
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,gothamads.com
 DOMAIN-SUFFIX,gourmetads.com
@@ -2931,7 +2913,6 @@ DOMAIN-SUFFIX,gsspat.jp
 DOMAIN-SUFFIX,gsspcln.jp
 DOMAIN-SUFFIX,gssprt.jp
 DOMAIN-SUFFIX,gtags.net
-DOMAIN-SUFFIX,gtcxawq.com
 DOMAIN-SUFFIX,guangtuikeji.com
 DOMAIN-SUFFIX,gumgum.com
 DOMAIN-SUFFIX,gz-data.com
@@ -2944,7 +2925,6 @@ DOMAIN-SUFFIX,hapying.com
 DOMAIN-SUFFIX,hax.ortb.net
 DOMAIN-SUFFIX,haxmediapartners.com
 DOMAIN-SUFFIX,hcodemedia.com
-DOMAIN-SUFFIX,hdazs.xyz
 DOMAIN-SUFFIX,hdyxc.com
 DOMAIN-SUFFIX,heige.wang
 DOMAIN-SUFFIX,henzanapp.com
@@ -2953,10 +2933,7 @@ DOMAIN-SUFFIX,hiido.com
 DOMAIN-SUFFIX,hindsightsolutions.net
 DOMAIN-SUFFIX,histats.com
 DOMAIN-SUFFIX,hitslink.com
-DOMAIN-SUFFIX,hjikv.cc
-DOMAIN-SUFFIX,hokeyness.top
 DOMAIN-SUFFIX,holmesmind.com
-DOMAIN-SUFFIX,hostanalyticsapi.com
 DOMAIN-SUFFIX,hot-mob.com
 DOMAIN-SUFFIX,hotjar.com
 DOMAIN-SUFFIX,httpool.com
@@ -2979,7 +2956,6 @@ DOMAIN-SUFFIX,igexin.com
 DOMAIN-SUFFIX,iggrowth.cn
 DOMAIN-SUFFIX,ignitemediatech.com
 DOMAIN-SUFFIX,iion.io
-DOMAIN-SUFFIX,ilaohuyou.xyz
 DOMAIN-SUFFIX,im-apps.net
 DOMAIN-SUFFIX,imds.tv
 DOMAIN-SUFFIX,impact-ad.jp
@@ -3020,7 +2996,6 @@ DOMAIN-SUFFIX,ivs.tv
 DOMAIN-SUFFIX,iyoudui.com
 DOMAIN-SUFFIX,iyunzk.com
 DOMAIN-SUFFIX,jads.co
-DOMAIN-SUFFIX,jazdoxthxiv.com
 DOMAIN-SUFFIX,jcprog.com
 DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,jizzads.com
@@ -3056,10 +3031,8 @@ DOMAIN-SUFFIX,kuyun.com
 DOMAIN-SUFFIX,lacunads.com
 DOMAIN-SUFFIX,ladsp.com
 DOMAIN-SUFFIX,ldfengyun.cn
-DOMAIN-SUFFIX,ldpsfa.com
 DOMAIN-SUFFIX,leadbolt.net
 DOMAIN-SUFFIX,leadboltads.net
-DOMAIN-SUFFIX,leadboltapps.net
 DOMAIN-SUFFIX,leadboltmobile.net
 DOMAIN-SUFFIX,leanback.digital
 DOMAIN-SUFFIX,leanplum.com
@@ -3084,7 +3057,6 @@ DOMAIN-SUFFIX,logly.co.jp
 DOMAIN-SUFFIX,loopme.com
 DOMAIN-SUFFIX,loopme.me
 DOMAIN-SUFFIX,lunamedia.io
-DOMAIN-SUFFIX,luoaxw.com
 DOMAIN-SUFFIX,lwmbc.cn
 DOMAIN-SUFFIX,lydaas.cn
 DOMAIN-SUFFIX,lydaas.com
@@ -3151,12 +3123,10 @@ DOMAIN-SUFFIX,minute-ly.com
 DOMAIN-SUFFIX,minutemedia.com
 DOMAIN-SUFFIX,miptoo.cn
 DOMAIN-SUFFIX,mixpanel.com
-DOMAIN-SUFFIX,mktyhr.xyz
 DOMAIN-SUFFIX,mlion.io
 DOMAIN-SUFFIX,mlytics.com
 DOMAIN-SUFFIX,mman.kr
 DOMAIN-SUFFIX,mnaspm.com
-DOMAIN-SUFFIX,mnknrt.xyz
 DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,mobadme.jp
 DOMAIN-SUFFIX,mobfox.com
@@ -3177,15 +3147,12 @@ DOMAIN-SUFFIX,monetixads.com
 DOMAIN-SUFFIX,monetrix.ai
 DOMAIN-SUFFIX,mopub.com
 DOMAIN-SUFFIX,moreyun.cn
-DOMAIN-SUFFIX,morningds.com
 DOMAIN-SUFFIX,mosspf.com
 DOMAIN-SUFFIX,motionspots.com
 DOMAIN-SUFFIX,motorik.io
 DOMAIN-SUFFIX,motowoo.com
 DOMAIN-SUFFIX,movve.com
 DOMAIN-SUFFIX,mparticle.com
-DOMAIN-SUFFIX,mtadver.com
-DOMAIN-SUFFIX,mtk.pub
 DOMAIN-SUFFIX,muhoujiemi.com
 DOMAIN-SUFFIX,my-cast.tv
 DOMAIN-SUFFIX,myfeature.tv
@@ -3205,7 +3172,6 @@ DOMAIN-SUFFIX,newsusadigital.com
 DOMAIN-SUFFIX,nexage.com
 DOMAIN-SUFFIX,nextmillennium.io
 DOMAIN-SUFFIX,nexverse.ai
-DOMAIN-SUFFIX,nfsland.com
 DOMAIN-SUFFIX,ninebox.cn
 DOMAIN-SUFFIX,nineton.cn
 DOMAIN-SUFFIX,ninthdecimal.com
@@ -3257,7 +3223,6 @@ DOMAIN-SUFFIX,ottadvisors.com
 DOMAIN-SUFFIX,outbrain.com
 DOMAIN-SUFFIX,outin.cn
 DOMAIN-SUFFIX,oveeo.com
-DOMAIN-SUFFIX,owtlra.xyz
 DOMAIN-SUFFIX,p-n.io
 DOMAIN-SUFFIX,p321
 DOMAIN-SUFFIX,pagechoice.net
@@ -3268,7 +3233,6 @@ DOMAIN-SUFFIX,peak226.com
 DOMAIN-SUFFIX,penx.com
 DOMAIN-SUFFIX,perimeterx.net
 DOMAIN-SUFFIX,pgamssp.com
-DOMAIN-SUFFIX,phychashowi.com
 DOMAIN-SUFFIX,pinklion.io
 DOMAIN-SUFFIX,pixelpluses.com
 DOMAIN-SUFFIX,pixelverge.com
@@ -3323,7 +3287,6 @@ DOMAIN-SUFFIX,qchannel04.cn
 DOMAIN-SUFFIX,qdwght.com
 DOMAIN-SUFFIX,qidianad.com
 DOMAIN-SUFFIX,qkdk.com
-DOMAIN-SUFFIX,qlspx.com
 DOMAIN-SUFFIX,qntv.io
 DOMAIN-SUFFIX,qortex.ai
 DOMAIN-SUFFIX,qtmojo.com
@@ -3357,7 +3320,6 @@ DOMAIN-SUFFIX,risecodes.com
 DOMAIN-SUFFIX,rixengine.com
 DOMAIN-SUFFIX,rlcdn.com
 DOMAIN-SUFFIX,robust-apps.com
-DOMAIN-SUFFIX,ronetag.com
 DOMAIN-SUFFIX,rtb.mx
 DOMAIN-SUFFIX,rtbasia.com
 DOMAIN-SUFFIX,rtbhouse.com
@@ -3400,7 +3362,6 @@ DOMAIN-SUFFIX,sigmob.cn
 DOMAIN-SUFFIX,sigmob.com
 DOMAIN-SUFFIX,signifad.com
 DOMAIN-SUFFIX,silvermob.com
-DOMAIN-SUFFIX,simonayean.com
 DOMAIN-SUFFIX,simpli.fi
 DOMAIN-SUFFIX,sinawap.com
 DOMAIN-SUFFIX,singularads.com
@@ -3638,7 +3599,6 @@ DOMAIN-SUFFIX,vm5apis.com
 DOMAIN-SUFFIX,voiceads.cn
 DOMAIN-SUFFIX,voisetech.com
 DOMAIN-SUFFIX,volitionads.com
-DOMAIN-SUFFIX,voodoo-ads.io
 DOMAIN-SUFFIX,vrtcal.com
 DOMAIN-SUFFIX,vsdrwee.com
 DOMAIN-SUFFIX,vungle.com
@@ -3662,7 +3622,6 @@ DOMAIN-SUFFIX,winads.cn
 DOMAIN-SUFFIX,wisemedia.cn
 DOMAIN-SUFFIX,withoutandwhich.com
 DOMAIN-SUFFIX,wkanx.com
-DOMAIN-SUFFIX,wla3ii66.top
 DOMAIN-SUFFIX,wootscratch.com
 DOMAIN-SUFFIX,wrating.com
 DOMAIN-SUFFIX,wwads.cn
@@ -3684,11 +3643,9 @@ DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,xixikf.com
 DOMAIN-SUFFIX,xlkeji.net
 DOMAIN-SUFFIX,xmluren.com
-DOMAIN-SUFFIX,xsao1.cc
 DOMAIN-SUFFIX,xspadvertising.com
 DOMAIN-SUFFIX,xtgreat.com
 DOMAIN-SUFFIX,xunfuli.top
-DOMAIN-SUFFIX,xweuu.com
 DOMAIN-SUFFIX,xx123.top
 DOMAIN-SUFFIX,xxinhb.cn
 DOMAIN-SUFFIX,xxxvjmp.com
@@ -3709,7 +3666,6 @@ DOMAIN-SUFFIX,yieldlab.net
 DOMAIN-SUFFIX,yieldmo.com
 DOMAIN-SUFFIX,yieldmonk.com
 DOMAIN-SUFFIX,yieldnexus.com
-DOMAIN-SUFFIX,yingtekeji.com
 DOMAIN-SUFFIX,yitushuke.cn
 DOMAIN-SUFFIX,yksdks.com
 DOMAIN-SUFFIX,yleopg.cn
@@ -3732,11 +3688,9 @@ DOMAIN-SUFFIX,zeststack.com
 DOMAIN-SUFFIX,zeta.com
 DOMAIN-SUFFIX,zetaglobal.com
 DOMAIN-SUFFIX,zetaglobal.net
-DOMAIN-SUFFIX,zhangwanwan.online
 DOMAIN-SUFFIX,zhangyuyidong.cn
 DOMAIN-SUFFIX,zhdchb.com
 DOMAIN-SUFFIX,zhidian3g.cn
-DOMAIN-SUFFIX,zhishouztian.top
 DOMAIN-SUFFIX,zhiziyun.com
 DOMAIN-SUFFIX,ziyuanyinhang.wang
 DOMAIN-SUFFIX,zl168.xyz
