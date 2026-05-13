@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.79
+! Version: 0.791
 ! Title: adunion
-! Last modified: 19:09 2026/5/13
+! Last modified: 19:26 2026/5/13
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adunion
@@ -28,7 +28,6 @@
 ||metrics.icloud.com^
 ||*.comscoreresearch.com^
 ||*.comscoreresearch.net^
-||*.iad-apple.com^
 ||*.safebrowsing.apple^
 ||*safebrowsing.
 ||*.safebrowsing.google.com^
@@ -1974,17 +1973,14 @@
 ||*.123zn.cn^
 ||*.152media.info^
 ||*.17admob.com^
-||*.186078.com^
 ||*.1nmob.com^
 ||*.1rtb.com^
 ||*.1rtb.net^
 ||*.1rx.io^
 ||*.1sdyc.com^
 ||*.2345.com^
-||*.23873645.com^
 ||*.25ku.com^
 ||*.33across.com^
-||*.34283078.com^
 ||*.360yield.com^
 ||*.37cs.com^
 ||*.37wan.com^
@@ -1996,11 +1992,9 @@
 ||*.51.la^
 ||*.51fanli.net^
 ||*.51link.com^
-||*.5336767ccc.com^
 ||*.58iclick.com^
 ||*.66mobi.com^
 ||*.71360.com^
-||*.77nnv9.xyz^
 ||*.7box.vip^
 ||*.7clink.com^
 ||*.91app.com^
@@ -2010,8 +2004,6 @@
 ||*.a-mx.com^
 ||*.a2tw6yoodsag.com^
 ||*.a4g.com^
-||*.aaliyaheartha.com^
-||*.aaliyahzanna.com^
 ||*.aceex.io^
 ||*.acexchange.co.kr^
 ||*.activemetering.com^
@@ -2170,7 +2162,6 @@
 ||*.agrantsem.com^
 ||*.aishuttler.com^
 ||*.alaska-gaming.com^
-||*.alexanberton.com^
 ||*.algogear.com^
 ||*.algorix.co^
 ||*.alkimi.org^
@@ -2198,7 +2189,6 @@
 ||*.appboy.com^
 ||*.appbroda.com^
 ||*.appcenter.ms^
-||*.appcha.net^
 ||*.appier.net^
 ||*.applk.cn^
 ||*.applovin.com^
@@ -2279,14 +2269,12 @@
 ||*.bidvertiser.com^
 ||*.bigo.sg^
 ||*.bildapp.net^
-||*.binfenhui.top^
 ||*.birdgesdk.com^
 ||*.bixinlive.com^
 ||*.bizzclick.com^
 ||*.bjsqdb.cn^
 ||*.bjzghd.com^
 ||*.bksn.se^
-||*.blankabout.com^
 ||*.blasto.ai^
 ||*.blis.com^
 ||*.blismedia.com^
@@ -2398,8 +2386,6 @@
 ||*.datadoghq.com^
 ||*.dauup.com^
 ||*.decenterads.com^
-||*.dedcrfvdj.xyz^
-||*.deecqem892bg5er.com^
 ||*.deepinstall.com^
 ||*.deepintent.com^
 ||*.degeneratebasket.com^
@@ -2413,7 +2399,6 @@
 ||*.displayio.cloud^
 ||*.disqus.com^
 ||*.districtm.io^
-||*.dkfxi.com^
 ||*.dlads.cn^
 ||*.dmixer.co.kr^
 ||*.dncvj.cn^
@@ -2442,12 +2427,9 @@
 ||*.e-planning.net^
 ||*.e-volution.ai^
 ||*.edigitalsurvey.com^
-||*.ehuangjiao.com^
 ||*.eliteappgrade.com^
 ||*.elixirvideo.co^
 ||*.elixirvideo.com^
-||*.elmahulda.com^
-||*.elvaheloise.com^
 ||*.emittenteeditoriale.it^
 ||*.emodoinc.com^
 ||*.emogi.com^
@@ -2524,7 +2506,6 @@
 ||*.gfnormal01ae.com^
 ||*.gitberry.com^
 ||*.gmossp-sp.jp^
-||*.gnlunbii.rest^
 ||*.go-mpulse.net^
 ||*.gothamads.com^
 ||*.gourmetads.com^
@@ -2544,7 +2525,6 @@
 ||*.gsspcln.jp^
 ||*.gssprt.jp^
 ||*.gtags.net^
-||*.gtcxawq.com^
 ||*.guangtuikeji.com^
 ||*.gumgum.com^
 ||*.gz-data.com^
@@ -2557,7 +2537,6 @@
 ||*.hax.ortb.net^
 ||*.haxmediapartners.com^
 ||*.hcodemedia.com^
-||*.hdazs.xyz^
 ||*.hdyxc.com^
 ||*.heige.wang^
 ||*.henzanapp.com^
@@ -2566,10 +2545,7 @@
 ||*.hindsightsolutions.net^
 ||*.histats.com^
 ||*.hitslink.com^
-||*.hjikv.cc^
-||*.hokeyness.top^
 ||*.holmesmind.com^
-||*.hostanalyticsapi.com^
 ||*.hot-mob.com^
 ||*.hotjar.com^
 ||*.httpool.com^
@@ -2592,7 +2568,6 @@
 ||*.iggrowth.cn^
 ||*.ignitemediatech.com^
 ||*.iion.io^
-||*.ilaohuyou.xyz^
 ||*.im-apps.net^
 ||*.imds.tv^
 ||*.impact-ad.jp^
@@ -2633,7 +2608,6 @@
 ||*.iyoudui.com^
 ||*.iyunzk.com^
 ||*.jads.co^
-||*.jazdoxthxiv.com^
 ||*.jcprog.com^
 ||*.jiguang.cn^
 ||*.jizzads.com^
@@ -2669,10 +2643,8 @@
 ||*.lacunads.com^
 ||*.ladsp.com^
 ||*.ldfengyun.cn^
-||*.ldpsfa.com^
 ||*.leadbolt.net^
 ||*.leadboltads.net^
-||*.leadboltapps.net^
 ||*.leadboltmobile.net^
 ||*.leanback.digital^
 ||*.leanplum.com^
@@ -2697,7 +2669,6 @@
 ||*.loopme.com^
 ||*.loopme.me^
 ||*.lunamedia.io^
-||*.luoaxw.com^
 ||*.lwmbc.cn^
 ||*.lydaas.cn^
 ||*.lydaas.com^
@@ -2764,12 +2735,10 @@
 ||*.minutemedia.com^
 ||*.miptoo.cn^
 ||*.mixpanel.com^
-||*.mktyhr.xyz^
 ||*.mlion.io^
 ||*.mlytics.com^
 ||*.mman.kr^
 ||*.mnaspm.com^
-||*.mnknrt.xyz^
 ||*.mob.com^
 ||*.mobadme.jp^
 ||*.mobfox.com^
@@ -2790,15 +2759,12 @@
 ||*.monetrix.ai^
 ||*.mopub.com^
 ||*.moreyun.cn^
-||*.morningds.com^
 ||*.mosspf.com^
 ||*.motionspots.com^
 ||*.motorik.io^
 ||*.motowoo.com^
 ||*.movve.com^
 ||*.mparticle.com^
-||*.mtadver.com^
-||*.mtk.pub^
 ||*.muhoujiemi.com^
 ||*.my-cast.tv^
 ||*.myfeature.tv^
@@ -2818,7 +2784,6 @@
 ||*.nexage.com^
 ||*.nextmillennium.io^
 ||*.nexverse.ai^
-||*.nfsland.com^
 ||*.ninebox.cn^
 ||*.nineton.cn^
 ||*.ninthdecimal.com^
@@ -2870,7 +2835,6 @@
 ||*.outbrain.com^
 ||*.outin.cn^
 ||*.oveeo.com^
-||*.owtlra.xyz^
 ||*.p-n.io^
 ||*.p321^
 ||*.pagechoice.net^
@@ -2881,7 +2845,6 @@
 ||*.penx.com^
 ||*.perimeterx.net^
 ||*.pgamssp.com^
-||*.phychashowi.com^
 ||*.pinklion.io^
 ||*.pixelpluses.com^
 ||*.pixelverge.com^
@@ -2936,7 +2899,6 @@
 ||*.qdwght.com^
 ||*.qidianad.com^
 ||*.qkdk.com^
-||*.qlspx.com^
 ||*.qntv.io^
 ||*.qortex.ai^
 ||*.qtmojo.com^
@@ -2970,7 +2932,6 @@
 ||*.rixengine.com^
 ||*.rlcdn.com^
 ||*.robust-apps.com^
-||*.ronetag.com^
 ||*.rtb.mx^
 ||*.rtbasia.com^
 ||*.rtbhouse.com^
@@ -3011,7 +2972,6 @@
 ||*.sigmob.com^
 ||*.signifad.com^
 ||*.silvermob.com^
-||*.simonayean.com^
 ||*.simpli.fi^
 ||*.sinawap.com^
 ||*.singularads.com^
@@ -3249,7 +3209,6 @@
 ||*.voiceads.cn^
 ||*.voisetech.com^
 ||*.volitionads.com^
-||*.voodoo-ads.io^
 ||*.vrtcal.com^
 ||*.vsdrwee.com^
 ||*.vungle.com^
@@ -3273,7 +3232,6 @@
 ||*.wisemedia.cn^
 ||*.withoutandwhich.com^
 ||*.wkanx.com^
-||*.wla3ii66.top^
 ||*.wootscratch.com^
 ||*.wrating.com^
 ||*.wwads.cn^
@@ -3295,11 +3253,9 @@
 ||*.xixikf.com^
 ||*.xlkeji.net^
 ||*.xmluren.com^
-||*.xsao1.cc^
 ||*.xspadvertising.com^
 ||*.xtgreat.com^
 ||*.xunfuli.top^
-||*.xweuu.com^
 ||*.xx123.top^
 ||*.xxinhb.cn^
 ||*.xxxvjmp.com^
@@ -3320,7 +3276,6 @@
 ||*.yieldmo.com^
 ||*.yieldmonk.com^
 ||*.yieldnexus.com^
-||*.yingtekeji.com^
 ||*.yitushuke.cn^
 ||*.yksdks.com^
 ||*.yleopg.cn^
@@ -3343,11 +3298,9 @@
 ||*.zeta.com^
 ||*.zetaglobal.com^
 ||*.zetaglobal.net^
-||*.zhangwanwan.online^
 ||*.zhangyuyidong.cn^
 ||*.zhdchb.com^
 ||*.zhidian3g.cn^
-||*.zhishouztian.top^
 ||*.zhiziyun.com^
 ||*.ziyuanyinhang.wang^
 ||*.zl168.xyz^
