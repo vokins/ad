@@ -1,4 +1,4 @@
-# Update > 14:34 2026/5/13
+# Update > 17:07 2026/5/13
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -231,11 +231,11 @@ DOMAIN,xdcs-collector.ximalaya.com
 DOMAIN,apprds.lizhifm.com
 DOMAIN,httpproxy101.lizhifm.com
 DOMAIN,datasensors.lz310.com
-DOMAIN,netopt.lizhi.fm
 #Audio-FM-得到
 DOMAIN,logs.luojilab.com
 #Audio-FM-蜻蜓
 DOMAIN,ad-cdn.qingting.fm
+DOMAIN,ad.qingting.fm
 DOMAIN,adlaunch.qingting.fm
 DOMAIN,adlog.qingting.fm
 DOMAIN,cnzz.qingting.fm
@@ -409,6 +409,8 @@ DOMAIN,mkt-advertisement.tuhu.cn
 DOMAIN,gamebox-cp-api.mygolbs.com
 DOMAIN,sentry.ccops.net
 #Car-汽车之家
+DOMAIN,adm0.autoimg.cn
+DOMAIN,adm1.autoimg.cn
 DOMAIN,adm2.autoimg.cn
 DOMAIN,adm3.autoimg.cn
 DOMAIN,adproxy.autohome.com.cn
@@ -633,6 +635,8 @@ DOMAIN,track.xiachufang.com
 #Sina-微博
 DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN-SUFFIX,uve.weibo.com
+DOMAIN-SUFFIX,alitui.weibo.com
+DOMAIN,adimg.vue.weibo.com
 DOMAIN,dm.video.weibocdn.com
 #Sina-Sina.cn
 DOMAIN,9ibbcq2d.sina.cn
@@ -770,24 +774,25 @@ DOMAIN,ads-img-qc.xhscdn.com
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-video-qc.xhscdn.com
 DOMAIN,ads-vp5.xhscdn.com
-DOMAIN,fe-static.xhscdn.com
 DOMAIN,ros-upload-d4.xhscdn.com
-DOMAIN,sns-video-qc.xhscdn.com
-DOMAIN,as.xiaohongshu.com
-DOMAIN,mediacloud.xiaohongshu.com
-DOMAIN,apm-native.xiaohongshu.com
 DOMAIN,crash.xiaohongshu.com
-DOMAIN,fe-resource-app.xiaohongshu.com
-DOMAIN,fe.xiaohongshu.com
-DOMAIN,lng.xiaohongshu.com
-DOMAIN,referee.xiaohongshu.com
 DOMAIN,ros-upload-ak.xiaohongshu.com
 DOMAIN,ros-upload-akorign-al.xiaohongshu.com
 DOMAIN,ros-upload-ali.xiaohongshu.com
 DOMAIN,ros-upload.xiaohongshu.com
 DOMAIN,spider-tracker.xiaohongshu.com
-DOMAIN,t2.xiaohongshu.com
-DOMAIN,t3.xiaohongshu.com
+DOMAIN,t-ads.xiaohongshu.com
+#DOMAIN,fe-static.xhscdn.com
+#DOMAIN,sns-video-qc.xhscdn.com
+#DOMAIN,apm-native.xiaohongshu.com
+#DOMAIN,as.xiaohongshu.com
+#DOMAIN,fe-resource-app.xiaohongshu.com
+#DOMAIN,fe.xiaohongshu.com
+#DOMAIN,lng.xiaohongshu.com
+#DOMAIN,mediacloud.xiaohongshu.com
+#DOMAIN,referee.xiaohongshu.com
+#DOMAIN,t2.xiaohongshu.com
+#DOMAIN,t3.xiaohongshu.com
 DOMAIN-SUFFIX,qiezibenpao.com
 DOMAIN-SUFFIX,askdiandian.com
 #SNS-搞笑段子
@@ -812,6 +817,8 @@ DOMAIN,lc-event.pixiv.net
 DOMAIN,ad2.fivecdm.com
 DOMAIN,adchk.fivecdm.com
 #SNS-Snapchat
+DOMAIN,ads.snapchat.com
+DOMAIN,adsapi.snapchat.com
 DOMAIN,app-analytics-v2.snapchat.com
 #SNS-Twitter
 DOMAIN-SUFFIX,analytics.twitter.com
@@ -998,9 +1005,9 @@ DOMAIN,probe.youzan.com
 DOMAIN,tj1.youzan.com
 DOMAIN,tj.youzanyun.com
 #Trip-国铁吉讯
-DOMAIN,app-tech-tracker.ccrgt.com
-DOMAIN,app-tracker.ccrgt.com
-DOMAIN,web-tracker.ccrgt.com
+#影响将车票添加到钱包 DOMAIN,app-tech-tracker.ccrgt.com
+#影响将车票添加到钱包 DOMAIN,app-tracker.ccrgt.com
+#影响将车票添加到钱包 DOMAIN,web-tracker.ccrgt.com
 #Trip-航旅纵横
 DOMAIN,analytics.umetrip.com
 DOMAIN,bda.umetrip.com
@@ -1020,6 +1027,7 @@ DOMAIN,logs.amap.com
 DOMAIN,optimus-ads-ykx.amap.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,v6-adashx.ut.amap.com
+DOMAIN,optimus-ads.amap.com.w.alikunlun.com
 #Trip-飞猪
 DOMAIN,adashx.ut.fliggy.com
 DOMAIN,h-adashx.ut.fliggy.com
@@ -1070,10 +1078,14 @@ DOMAIN,nsclickvideo.xiaodutv.com
 DOMAIN,pc-videoclick.xiaodutv.com
 DOMAIN,xda.xiaodutv.com
 #Video-优酷
-DOMAIN-SUFFIX,ad.youku.com
-DOMAIN-SUFFIX,atm.youku.com
-DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net
 DOMAIN,adashx.ut.tudou.com
+DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net
+DOMAIN,adx.op.cp18.ott.cibntv.net
+DOMAIN,f-vali.cp31.ott.cibntv.net
+DOMAIN,m-vali.cp31.ott.cibntv.net
+DOMAIN,pl.cp31.ott.cibntv.net
+DOMAIN,vali-g1.cp31.ott.cibntv.net
+DOMAIN,ad.mobile.youku.com
 DOMAIN,adashx.ut.youku.com
 DOMAIN,adx-open-service.youku.com
 DOMAIN,apiv4-iyes.youku.com
@@ -1084,12 +1096,12 @@ DOMAIN,iyes.youku.com
 DOMAIN,missile.youku.com
 DOMAIN,pcapp-update.youku.com
 DOMAIN,playlog.youku.com
+#影响扫码登陆 DOMAIN,acs.youku.com
 DOMAIN,rhdc-acs.youku.com
 DOMAIN,un-acs.youku.com
 DOMAIN,ykad-data.youku.com
-DOMAIN,f-vali.cp31.ott.cibntv.net
-DOMAIN,m-vali.cp31.ott.cibntv.net
-DOMAIN,vali-g1.cp31.ott.cibntv.net
+DOMAIN-SUFFIX,ad.youku.com
+DOMAIN-SUFFIX,atm.youku.com
 #Video-芒果TV
 DOMAIN,ecompic0.hitv.com
 DOMAIN,ecompic1.hitv.com
@@ -1143,11 +1155,15 @@ DOMAIN,up.qiumibao.com
 #Video-乐播投屏
 DOMAIN,ad.hpplay.cn
 DOMAIN,adc.hpplay.cn
+DOMAIN,adcdn.hpplay.cn
 DOMAIN,adeng.hpplay.cn
+DOMAIN,pin.hpplay.cn
 DOMAIN,rp.hpplay.cn
+DOMAIN,rpt.hpplay.cn
 #Video-PP视频
 DOMAIN,dfp.suning.com
 DOMAIN,log.suning.com
+DOMAIN,mads.suning.com
 DOMAIN,mediamax.suning.com
 DOMAIN,ppgw.suning.com
 DOMAIN,simscs.suning.com
@@ -1458,18 +1474,20 @@ DOMAIN,clientlog.music.163.com
 DOMAIN,clientlog3.music.163.com
 DOMAIN,clientlogusf.music.163.com
 DOMAIN,sentry.music.163.com
-#163-126
+DOMAIN,admusicpic.music.126.net
 DOMAIN,ads.music.126.net
+DOMAIN,iadmusicmat.music.126.net
+DOMAIN,iadmusicmatvideo.music.126.net
+#163-1267
 DOMAIN,cms-bucket.ws.126.net
 DOMAIN,h5.analytics.126.net
-DOMAIN,iadmusicmat.music.126.net
 DOMAIN,pg-ad-b1.ws.126.net
 DOMAIN,webstat.ws.126.net
 DOMAIN,yp.ws.126.net
 DOMAIN,yt-adp.ws.126.net
 #DOMAIN,nimg.ws.126.net
-#163-127
 DOMAIN,iadmat.nosdn.127.net
+DOMAIN,yt-adp.nosdn.127.net
 #163-netease
 DOMAIN-SUFFIX,da.netease.com
 DOMAIN,httpdns.n.netease.com
@@ -1485,6 +1503,7 @@ DOMAIN,log-yex.youdao.com
 DOMAIN,rlogs.youdao.com
 DOMAIN-SUFFIX,clkservice.youdao.com
 DOMAIN-SUFFIX,corp.youdao.com
+DOMAIN-SUFFIX,dsp.youdao.com
 DOMAIN-SUFFIX,union.youdao.com
 #DOMAIN,oimagea7.ydstatic.com
 #DOMAIN,oimageb8.ydstatic.com
@@ -1494,6 +1513,7 @@ DOMAIN-SUFFIX,lianmeng.360.cn
 DOMAIN-SUFFIX,tf.360.cn
 DOMAIN,ad.iot.360.cn
 DOMAIN,ad.jia.360.cn
+DOMAIN,ad.life.360.cn
 DOMAIN,papi.look.360.cn
 DOMAIN,ssl.look.360.cn
 DOMAIN,socm.dmp.360.cn
@@ -1843,9 +1863,11 @@ DOMAIN,pangolin16.sgsnssdk.com
 #Bytedance-番茄小说
 DOMAIN-KEYWORD,applog-hl.fqnovel.com
 DOMAIN-KEYWORD,applog-lq.fqnovel.com
+DOMAIN-KEYWORD,applog.fqnovel.com
 DOMAIN-KEYWORD,novelapp.fqnovelvod.com
 #Bytedance-番茄畅听
 DOMAIN-KEYWORD,applog-hl.novelfm.com
+DOMAIN-KEYWORD,applog.novelfm.com
 #Bytedance-西瓜视频
 DOMAIN-KEYWORD,applog-lf.ixigua.com
 DOMAIN-KEYWORD,applog-lq.ixigua.com
@@ -1991,24 +2013,24 @@ DOMAIN,janapi.jd.com
 DOMAIN,mllog.jd.com
 DOMAIN,u-x.jd.com
 DOMAIN,xlog.jd.com
-#
+#影响什么值得买跳转到京东app DOMAIN,dg.k.jd.com
 DOMAIN,dgstatic.jd.com
 DOMAIN,uranus.jd.com
 DOMAIN,wqs11.jd.com
 DOMAIN,x.jd.com
 #Sohu
+DOMAIN,hd.sohu.com.cn
+DOMAIN,mb.hd.sohu.com.cn
+DOMAIN,qc.hd.sohu.com.cn
+DOMAIN,qf1.hd.sohu.com.cn
+DOMAIN,qf2.hd.sohu.com.cn
 DOMAIN,act5.sohu.com
 DOMAIN,count.vrs.sohu.com
 DOMAIN,fpb0.sohu.com
 DOMAIN,fpb1.sohu.com
-DOMAIN,hd.sohu.com.cn
-DOMAIN,mb.hd.sohu.com.cn
 DOMAIN,nielsen.js.sohu.com
 DOMAIN,odin.sohu.com
 DOMAIN,pv.sohu.com
-DOMAIN,qc.hd.sohu.com.cn
-DOMAIN,qf1.hd.sohu.com.cn
-DOMAIN,qf2.hd.sohu.com.cn
 DOMAIN,qpb.sohu.com
 DOMAIN,qpb0.sohu.com
 DOMAIN,qpb1.sohu.com
@@ -2124,6 +2146,7 @@ DOMAIN,report.idqqimg.com
 #Tencent-gdt
 DOMAIN,ra.gtimg.com
 DOMAIN,wa.gtimg.com
+DOMAIN,ugd.gtimg.com
 #Tencent-cloud
 DOMAIN,ad.hunyuan.tencent.com
 DOMAIN,galileotelemetry.tencent.com
