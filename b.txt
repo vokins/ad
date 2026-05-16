@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.791
+! Version: 0.792
 ! Title: adunion
-! Last modified: 19:26 2026/5/13
+! Last modified: 16:07 2026/5/16
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adunion
@@ -1159,12 +1159,6 @@
 ||miav-cse.avlyun.com^
 ||miui-fxcse.avlyun.com^
 ||api.installer.xiaomi.com^
-||oca.microsoft.com^
-||watson.microsoft.com^
-||oca.microsoft.us^
-||watson.microsoft.us^
-||*.events.data.msn.cn^
-||*.events.data.microsoft.com^
 ||*.telemetry.microsoft.com^
 ||*.telemetry.microsoft.us^
 ||*.dsp.mp.microsoft.com^
