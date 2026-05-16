@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.79
+! Version: 0.792
 ! Title: adfilter
-! Last modified: 19:10 2026/5/13
+! Last modified: 15:52 2026/5/16
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -11,6 +11,7 @@
 
 !白名单
 @@||challenges.cloudflare.com^
+@@||browser.events.data.microsoft.com^
 
 !通配通杀
 ##[class*="sinaads"]
@@ -195,6 +196,7 @@ cnbeta.com.tw##.cbhelp.cbv
 cnbeta.com.tw##.fc-dialog-container > .fc-dialog-overlay
 cnbeta.com.tw##.fc-dialog.fc-ab-dialog
 cnbeta.com.tw##.fr
+cnbeta.com.tw##[src^="https://static.cnbetacdn.com/frontend/vipics/"]
 
 !www.jb51.net
 www.jb51.net###gaosu
