@@ -1,4 +1,4 @@
-# Update > 19:24 2026/5/13
+# Update > 16:06 2026/5/16
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -1421,12 +1421,12 @@ DOMAIN,miui-fxcse.avlyun.com
 #OS-Mi/应用包扫描API
 DOMAIN,api.installer.xiaomi.com
 #OS-MicroSoft
-DOMAIN,oca.microsoft.com
-DOMAIN,watson.microsoft.com
-DOMAIN,oca.microsoft.us
-DOMAIN,watson.microsoft.us
-DOMAIN-SUFFIX,events.data.msn.cn
-DOMAIN-SUFFIX,events.data.microsoft.com
+#DOMAIN,oca.microsoft.com
+#DOMAIN,watson.microsoft.com
+#DOMAIN,oca.microsoft.us
+#DOMAIN,watson.microsoft.us
+#DOMAIN-SUFFIX,events.data.msn.cn
+#DOMAIN-SUFFIX,events.data.microsoft.com
 DOMAIN-SUFFIX,telemetry.microsoft.com
 DOMAIN-SUFFIX,telemetry.microsoft.us
 DOMAIN-SUFFIX,dsp.mp.microsoft.com
