@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.792
+! Version: 0.795
 ! Title: adfilter
-! Last modified: 15:52 2026/5/16
+! Last modified: 0:13 2026/6/19
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -14,6 +14,7 @@
 @@||browser.events.data.microsoft.com^
 
 !通配通杀
+##.textads
 ##[class*="sinaads"]
 ##[class="ad-container"]
 ##[id="ad-container"]
@@ -32,6 +33,7 @@
 ##div[id$="adbox"]
 ##div[id="float-btn"]
 ##div[id="promote-banner"]
+##div[id^="ad_index_top"]
 ##div[id^="taboola-"]
 
 ##[href*="/ads/click"]
@@ -429,3 +431,18 @@ news.ltn.com.tw##.v_container
 ||adcenter.conn.tw^
 ||img.oeya.com^
 lvhtebook.com##.uk-grid.uk-grid-match.uk-grid-small.uk-child-width-1-4\@m
+
+!mefcl
+mefcl.com##.excerpt-sticky
+
+!423down
+423down.com##.cat > a:contains(423Down):upward(li)
+
+!360so
+so.com###res_news_flow
+
+!cegesu
+cegesu.com##.flex-wrap.gap-4.justify-between.items-center.flex > [href]
+
+!caiyunapp
+h5.caiyunapp.com##.download-bar
