@@ -1,4 +1,4 @@
-# Update > 16:06 2026/5/16
+# Update > 0:14 2026/6/19
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -24,10 +24,13 @@ DOMAIN,iadmoo.apple.com
 DOMAIN,iadworkbench.apple.com
 DOMAIN,launch.apple.com
 DOMAIN,metrics.apple.com
+DOMAIN,notes-analytics-events.apple.com
 DOMAIN,qwapi.apple.com
 DOMAIN,securemetrics.apple.com
+DOMAIN,weather-analytics-events.apple.com
 DOMAIN,iadctest.qwapi.com
 DOMAIN,metrics.icloud.com
+DOMAIN,metrics.mzstatic.com
 DOMAIN-SUFFIX,comscoreresearch.com
 DOMAIN-SUFFIX,comscoreresearch.net
 DOMAIN-SUFFIX,safebrowsing.apple
@@ -808,6 +811,7 @@ DOMAIN,live.yuanbobo.com
 #SNS-Linkedin
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN,ponf.linkedin.com
+DOMAIN,analytics.pointdrive.linkedin.com
 #SNS-LIHKG
 DOMAIN,adv.lihkg.com
 #SNS-pixiv
@@ -815,6 +819,10 @@ DOMAIN-SUFFIX,ads-pixiv.net
 DOMAIN,lc-event.pixiv.net
 DOMAIN,ad2.fivecdm.com
 DOMAIN,adchk.fivecdm.com
+#SNS-Pinterest
+DOMAIN,ads.pinterest.com
+DOMAIN,log.pinterest.com
+DOMAIN,trk.pinterest.com
 #SNS-Snapchat
 DOMAIN,ads.snapchat.com
 DOMAIN,adsapi.snapchat.com
@@ -830,6 +838,8 @@ DOMAIN-SUFFIX,probe.twitter.com
 DOMAIN-SUFFIX,scribe.twitter.com
 DOMAIN-SUFFIX,syndication-o.twitter.com
 DOMAIN-SUFFIX,syndication.twitter.com
+DOMAIN-SUFFIX,ads-api.x.com
+DOMAIN-SUFFIX,analytics.x.com
 #Tech-金山打字通
 DOMAIN,teinfo.wps.cn
 #Tech-it168
@@ -1440,9 +1450,13 @@ DOMAIN,srtb.msn.com
 #OS-MicroSoft-Outlook
 DOMAIN-SUFFIX,adnxs-simple.com
 DOMAIN-SUFFIX,adnxs.com
-#OS-Oppo
+#OS-Oppo/realme
 DOMAIN-SUFFIX,ads.oppomobile.com
+DOMAIN-SUFFIX,adsfs.oppomobile.com
+DOMAIN-SUFFIX,bdapi-ads.realmemobile.com
 DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com
+DOMAIN-SUFFIX,iot-eu-logser.realme.com
+DOMAIN-SUFFIX,iot-logser.realme.com
 DOMAIN-SUFFIX,ads.heytapmobi.com
 DOMAIN,push-ads-cn.heytapmobi.com
 DOMAIN,adsfs.heytapimage.com
@@ -1451,6 +1465,10 @@ DOMAIN-KEYWORD,adnet.vivo.com.cn
 #OS-SamSung
 DOMAIN-SUFFIX,samsungadhub.com
 DOMAIN-SUFFIX,samsungads.com
+DOMAIN-SUFFIX,nmetrics.samsung.com
+DOMAIN-SUFFIX,smetrics.samsung.com
+DOMAIN-SUFFIX,samsung-com.112.2o7.net
+DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com
 #163
 DOMAIN,analytics.163.com
 DOMAIN,channel.m.163.com
@@ -1854,8 +1872,15 @@ DOMAIN,lf-ad-ies.bytecdn.cn
 DOMAIN,lf-leads-fe-scm.bytecdn.com
 DOMAIN,lf1-cdn-tos.bytegoofy.com
 #Bytedance-TikTok
-DOMAIN,analytics.tiktok.com
-DOMAIN,pangolin16.sgsnssdk.com
+DOMAIN-SUFFIX,adsintegrity.net
+DOMAIN-SUFFIX,ads-api.tiktok.com
+DOMAIN-SUFFIX,ads-sg.tiktok.com
+DOMAIN-SUFFIX,ads.tiktok.com
+DOMAIN-SUFFIX,analytics-sg.tiktok.com
+DOMAIN-SUFFIX,analytics.tiktok.com
+DOMAIN-SUFFIX,business-api.tiktok.com
+DOMAIN-SUFFIX,log.byteoversea.com
+DOMAIN-SUFFIX,pangolin16.sgsnssdk.com
 #Bytedance-番茄小说
 DOMAIN-KEYWORD,applog-hl.fqnovel.com
 DOMAIN-KEYWORD,applog-lq.fqnovel.com
@@ -1917,7 +1942,6 @@ DOMAIN,imasdk.googleapis.com
 DOMAIN,ogads-pa.googleapis.com
 #Google
 DOMAIN,app-analytics-services-att.com
-DOMAIN,cdn.ampproject.org
 DOMAIN,adssettings.google.com
 DOMAIN,analytics-alv.google.com
 DOMAIN,fcmatch.google.com
@@ -1929,6 +1953,7 @@ DOMAIN,mobileads.google.com
 DOMAIN,ogads-pa.clients6.google.com
 DOMAIN,pagead.l.google.com
 DOMAIN,partnerad.l.google.com
+DOMAIN-SUFFIX,ads.google.com
 DOMAIN-KEYWORD,adservice.google
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,2mdn.net
@@ -1944,6 +1969,7 @@ DOMAIN-SUFFIX,advertiserscommunity.com
 DOMAIN-SUFFIX,adwords-community.com
 DOMAIN-SUFFIX,adwords.com
 DOMAIN-SUFFIX,adwordsexpress.com
+DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,analytics.google.com
 DOMAIN-SUFFIX,app-ads-services.com
 DOMAIN-SUFFIX,app-analytics-services.com
@@ -2189,11 +2215,24 @@ DOMAIN-SUFFIX,iads.unitychina.cn
 #Yandex
 DOMAIN,yandexmetrica.com
 DOMAIN,mc.yandex.com
+DOMAIN,adfox.yandex.ru
+DOMAIN,adfstat.yandex.ru
+DOMAIN,appmetrica.yandex.ru
 DOMAIN,mc.yandex.ru
-DOMAIN,startup.mobile.yandex.net
+DOMAIN,metrika.yandex.ru
+DOMAIN,extmaps-api.yandex.net
+DOMAIN,offerwall.yandex.net
 DOMAIN,report.appmetrica.yandex.net
+DOMAIN,startup.mobile.yandex.net
 #amazon
 DOMAIN,fls-na.amazon.com
+DOMAIN,adtago.s3.amazonaws.com
+DOMAIN,advice-ads.s3.amazonaws.com
+DOMAIN,analytics.s3.amazonaws.com
+DOMAIN,analyticsengine.s3.amazonaws.com
+#Facebook
+DOMAIN-SUFFIX,an.facebook.com
+DOMAIN-SUFFIX,pixel.facebook.com
 #Yahoo
 DOMAIN-SUFFIX,advertising.com
 DOMAIN-SUFFIX,flashtalking.com
@@ -2215,10 +2254,14 @@ DOMAIN,edge-mcdn.secure.yahoo.com
 DOMAIN,fc.yahoo.com
 DOMAIN,geo.yahoo.com
 DOMAIN,guce.yahoo.com
+DOMAIN,log.fc.yahoo.com
 DOMAIN,nexus-gateway-prod.media.yahoo.com
 DOMAIN,noa.yahoo.com
+DOMAIN,partnerads.ysm.yahoo.com
 DOMAIN,pbd.yahoo.com
 DOMAIN,udc.yahoo.com
+DOMAIN,udcm.yahoo.com
+DOMAIN,adtech.yahooinc.com
 DOMAIN,jac.yahoosandbox.com
 DOMAIN,qsearch-a.akamaihd.net
 #yahoo.co.jp
@@ -2238,7 +2281,9 @@ DOMAIN,purr.nytimes.com
 DOMAIN,ads.reddit.com
 DOMAIN,alb.reddit.com
 DOMAIN,error-tracking.reddit.com
+DOMAIN,events.reddit.com
 DOMAIN,w3-reporting.reddit.com
+DOMAIN,events.redditmedia.com
 #BBC
 DOMAIN,a1.api.bbc.co.uk
 DOMAIN,gn-web-assets.api.bbc.com
@@ -3344,6 +3389,7 @@ DOMAIN-SUFFIX,semasio.net
 DOMAIN-SUFFIX,sensorsdata.cn
 DOMAIN-SUFFIX,sensorsdatavip.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,serpensx.com
 DOMAIN-SUFFIX,serving-sys.com
 DOMAIN-SUFFIX,setway.cn
@@ -3703,3 +3749,7 @@ DOMAIN-SUFFIX,zxrtb.com
 DOMAIN-SUFFIX,zygaoshou888.cn
 #PopUps&Virus
 #New-Test-一个月没发现问题会并入
+DOMAIN-SUFFIX,intercom-reporting.com
+DOMAIN-SUFFIX,pangle-ads.com
+DOMAIN-SUFFIX,getsentry.com
+DOMAIN-SUFFIX,bugsnag.com
