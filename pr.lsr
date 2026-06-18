@@ -1,4 +1,4 @@
-# Update > 12:36 2026/5/9
+# Update > 0:15 2026/6/19
 # https://github.com/vokins/ad/blob/main/pr.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
@@ -29,42 +29,69 @@ DOMAIN-SUFFIX,co.za
 DOMAIN-SUFFIX,co.zm
 DOMAIN-SUFFIX,co.zw
 #Domain - com网站
+DOMAIN-SUFFIX,com.af
+DOMAIN-SUFFIX,com.ag
+DOMAIN-SUFFIX,com.ai
 DOMAIN-SUFFIX,com.ar
 DOMAIN-SUFFIX,com.au
 DOMAIN-SUFFIX,com.bd
+DOMAIN-SUFFIX,com.bh
+DOMAIN-SUFFIX,com.bn
+DOMAIN-SUFFIX,com.bo
 DOMAIN-SUFFIX,com.br
+DOMAIN-SUFFIX,com.bz
 DOMAIN-SUFFIX,com.co
+DOMAIN-SUFFIX,com.cu
 DOMAIN-SUFFIX,com.cy
 DOMAIN-SUFFIX,com.do
 DOMAIN-SUFFIX,com.ec
 DOMAIN-SUFFIX,com.eg
 DOMAIN-SUFFIX,com.et
+DOMAIN-SUFFIX,com.fj
 DOMAIN-SUFFIX,com.gh
+DOMAIN-SUFFIX,com.gi
+DOMAIN-SUFFIX,com.gt
 DOMAIN-SUFFIX,com.hk
 DOMAIN-SUFFIX,com.jm
+DOMAIN-SUFFIX,com.kh
 DOMAIN-SUFFIX,com.kw
+DOMAIN-SUFFIX,com.lb
+DOMAIN-SUFFIX,com.ly
+DOMAIN-SUFFIX,com.mm
+DOMAIN-SUFFIX,com.mt
 DOMAIN-SUFFIX,com.mx
 DOMAIN-SUFFIX,com.my
+DOMAIN-SUFFIX,com.na
+DOMAIN-SUFFIX,com.nf
 DOMAIN-SUFFIX,com.ng
+DOMAIN-SUFFIX,com.ni
 DOMAIN-SUFFIX,com.np
+DOMAIN-SUFFIX,com.om
 DOMAIN-SUFFIX,com.pa
 DOMAIN-SUFFIX,com.pe
+DOMAIN-SUFFIX,com.pg
 DOMAIN-SUFFIX,com.ph
 DOMAIN-SUFFIX,com.pk
 DOMAIN-SUFFIX,com.pr
 DOMAIN-SUFFIX,com.py
+DOMAIN-SUFFIX,com.qa
 DOMAIN-SUFFIX,com.sa
+DOMAIN-SUFFIX,com.sb
 DOMAIN-SUFFIX,com.sg
+DOMAIN-SUFFIX,com.sl
 DOMAIN-SUFFIX,com.sv
+DOMAIN-SUFFIX,com.tj
 DOMAIN-SUFFIX,com.tr
 DOMAIN-SUFFIX,com.tw
 DOMAIN-SUFFIX,com.ua
 DOMAIN-SUFFIX,com.uy
+DOMAIN-SUFFIX,com.vc
 DOMAIN-SUFFIX,com.vn
 #Domain - 其他网站
 DOMAIN-SUFFIX,eu.org
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.tw
+DOMAIN-SUFFIX,twgov.tw
 DOMAIN-SUFFIX,or.jp
 #Domain - HK网站
 DOMAIN-SUFFIX,aastocks.com
@@ -623,6 +650,60 @@ DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,twitchcdn.net
+#Tiktok
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,bytedgame.com
+DOMAIN-SUFFIX,bytehwm-row.com
+DOMAIN-SUFFIX,byteicdn.com
+DOMAIN-SUFFIX,byteintl.com
+DOMAIN-SUFFIX,byteintl.net
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteintlstatic.com
+DOMAIN-SUFFIX,bytelemon.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteoversea.net
+DOMAIN-SUFFIX,bytevcloudapi.com
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,tikitoks.com
+DOMAIN-SUFFIX,tiktok-row.net
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktok.ru
+DOMAIN-SUFFIX,tiktok.ua
+DOMAIN-SUFFIX,tiktok.vn
+DOMAIN-SUFFIX,tiktokapis.com
+DOMAIN-SUFFIX,tiktokcdn-eu.com
+DOMAIN-SUFFIX,tiktokcdn-in.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcreativeone.com
+DOMAIN-SUFFIX,tiktokfollowersfree.com
+DOMAIN-SUFFIX,tiktokforbusinessoutbound.com
+DOMAIN-SUFFIX,tiktokglobalshop.com
+DOMAIN-SUFFIX,tiktokmusic.me
+DOMAIN-SUFFIX,tiktokrow-cdn.com
+DOMAIN-SUFFIX,tiktokshop.com
+DOMAIN-SUFFIX,tiktokshops.eu
+DOMAIN-SUFFIX,tiktokstaticb.com
+DOMAIN-SUFFIX,tiktokus.info
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.com 
+DOMAIN-SUFFIX,tiktokv.eu
+DOMAIN-SUFFIX,tiktokv.eu
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokvapp.com
+DOMAIN-SUFFIX,tiktokw.eu
+DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,ttlstatic.com
+DOMAIN-SUFFIX,ttwstatic.com
 #APP - shottr
 DOMAIN-SUFFIX,shottr.cc
 #APP - Stripchat
@@ -680,6 +761,8 @@ DOMAIN-SUFFIX,x.com
 #APP - X
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,mouseion.dev
 #APP - UpNote
 DOMAIN-SUFFIX,getupnote.com
 #APP - Vivaldi
@@ -688,35 +771,48 @@ DOMAIN-SUFFIX,vivaldi.net
 DOMAIN-SUFFIX,vivaldistatus.com
 #APP - VSCO
 DOMAIN-SUFFIX,vsco.co
-#APP - WikipediA
-DOMAIN-SUFFIX,wikipedia.com
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikipedia.org
+#APP - WikiLeaks
+DOMAIN-SUFFIX,wikileaks.org
+#APP - WikipediA https://wikitech.wikimedia.org/wiki/Domains
+DOMAIN-SUFFIX,enwp.org
 DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,toolforge.org
+DOMAIN-SUFFIX,w.wiki
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikifunctions.org
+DOMAIN-SUFFIX,wikimedia.community
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikimediacloud.org
+DOMAIN-SUFFIX,wikimediafoundation.org
 DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.com
+DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiquote.org
 DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
-#APP - WordPress.com
+DOMAIN-SUFFIX,wmcloud.org
+DOMAIN-SUFFIX,wmflabs.org
+DOMAIN-SUFFIX,wmfusercontent.org
+#APP - WordPress https://wordpress.org/about/domains/
 DOMAIN-SUFFIX,automattic.com
+DOMAIN-SUFFIX,bbpress.org
+DOMAIN-SUFFIX,buddypress.org
 DOMAIN-SUFFIX,builtbywp.com
 DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,ma.tt
+DOMAIN-SUFFIX,w.org
 DOMAIN-SUFFIX,wordpress.com
+DOMAIN-SUFFIX,wordpress.net
+DOMAIN-SUFFIX,wordpress.org
+DOMAIN-SUFFIX,wordpress.tv
+DOMAIN-SUFFIX,wordpressfoundation.org
 DOMAIN-SUFFIX,wp.com
 DOMAIN-SUFFIX,wpvip.com
 #APP - WorldMonitor
 DOMAIN-SUFFIX,worldmonitor.app
-#APP - WordPress.org
-DOMAIN-SUFFIX,w.org
-DOMAIN-SUFFIX,wordpress.org
-DOMAIN-SUFFIX,wordpressfoundation.org
-DOMAIN-SUFFIX,bbpress.org
-DOMAIN-SUFFIX,buddypress.org
-DOMAIN-SUFFIX,ma.tt
 #APP - Yahoo
 DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,yahoo.com
@@ -815,12 +911,6 @@ DOMAIN-SUFFIX,iili.io
 DOMAIN-SUFFIX,imghippo.com
 #Web - imgix
 DOMAIN-SUFFIX,imgix.net
-#Web - Intercom
-DOMAIN-SUFFIX,ctfassets.net
-DOMAIN-SUFFIX,intercom.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,cloudfunctions.net
 #Web - jQuery
 DOMAIN-SUFFIX,jquery.com
 DOMAIN-SUFFIX,jquerymobile.com
@@ -858,9 +948,6 @@ DOMAIN-SUFFIX,q4cdn.com
 DOMAIN-SUFFIX,q4web.com
 #Web - Qualtrics
 DOMAIN-SUFFIX,qualtrics.com
-#Web - Sentry
-DOMAIN-SUFFIX,sentry-cdn.com
-DOMAIN-SUFFIX,sentry.io
 #Web - shields.io
 DOMAIN-SUFFIX,shields.io
 #Web - Statsig https://docs.statsig.com/infrastructure/statsig_domains
