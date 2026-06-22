@@ -1,4 +1,4 @@
-# Update > 0:15 2026/6/19
+# Update > 22:56 2026/6/22
 # https://github.com/vokins/ad/blob/main/pr.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/pr.lsr
 
@@ -154,8 +154,8 @@ IP-CIDR6,2a01:b740:a42::/48,no-resolve
 #APNs 证书请求门户
 DOMAIN,identity.apple.com
 #Alphabet-Google https://www.gstatic.com/ipranges/goog.json
-#DOMAIN-KEYWORD,.google
-DOMAIN-KEYWORD,.google.
+DOMAIN-KEYWORD,.google
+DOMAIN-KEYWORD,google.
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,amp.dev
@@ -758,6 +758,7 @@ DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,pscp.tv
 #APP - X
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
@@ -1285,3 +1286,10 @@ DOMAIN-SUFFIX,nikoneye.com
 DOMAIN-SUFFIX,nikonrumors.com
 #haitunt.org
 DOMAIN-SUFFIX,haitunt.org
+#similar
+DOMAIN-SUFFIX,similarcdn.com
+DOMAIN-SUFFIX,similarsites.com
+DOMAIN-SUFFIX,similarweb.com
+DOMAIN-SUFFIX,similarweb.io
+#youmind
+DOMAIN-SUFFIX,youmind.com
