@@ -1,4 +1,4 @@
-# Update > 22:56 2026/6/22
+# Update > 22:59 2026/6/22
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -3767,3 +3767,10 @@ DOMAIN-SUFFIX,intercom-reporting.com
 DOMAIN-SUFFIX,pangle-ads.com
 DOMAIN-SUFFIX,getsentry.com
 DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,mistymeat.com
+DOMAIN-SUFFIX,ahacdn.me
+DOMAIN-SUFFIX,pncloudfl.com
+DOMAIN-SUFFIX,detoxifylagoonsnugness.com
+DOMAIN-SUFFIX,egotisticexcavateplywood.com
+DOMAIN-SUFFIX,jimxtc.com
+DOMAIN-SUFFIX,agtcmuohbt.in
