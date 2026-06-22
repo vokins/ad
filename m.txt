@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 0.797
+! Version: 0.798
 ! Title: adfilter
-! Last modified: 23:06 2026/6/22
+! Last modified: 23:15 2026/6/22
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
-! Fork of: yList https://raw.githubusercontent.com/vokins/ad/refs/heads/main/m.txt
+! Fork of: yList https://raw.githubusercontent.com/vokins/ad/main/m.txt
 ! Homepage: https://github.com/vokins/ad/blob/main/m.txt
 !
 
@@ -374,6 +374,11 @@ szhk.com##.szgay
 
 !v2ex
 v2ex.com##div[id="pro-campaign-container"]
+
+!X.com
+x.com##aside[aria-label="推荐关注"]
+x.com##aside[aria-label="订阅 Premium"]
+x.com##div[aria-label="时间线：当前趋势"]
 
 !mobile
 m.10jqka.com.cn##img#backBanner
