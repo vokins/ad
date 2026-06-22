@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 0.796
+! Version: 0.797
 ! Title: adfilter
-! Last modified: 23:02 2026/6/22
+! Last modified: 23:06 2026/6/22
 ! Expires: 7 days (update frequency)
 ! Author:Kim
 ! Description:adfilter
@@ -35,6 +35,7 @@
 ##div[id="promote-banner"]
 ##div[id^="ad_index_top"]
 ##div[id^="taboola-"]
+##img[id="adImg"]
 
 ##[href*="/ads/click"]
 ##[href*="outbrain.com"]
