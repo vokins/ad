@@ -1,4 +1,4 @@
-# Update > 0:14 2026/6/19
+# Update > 22:56 2026/6/22
 # https://github.com/vokins/ad/blob/main/ad.lsr
 # https://raw.githubusercontent.com/vokins/ad/main/ad.lsr
 # 此文件适用于Loon Shadowrocket Surge，不再适配 QX
@@ -229,6 +229,7 @@ DOMAIN,adse.wsa.ximalaya.com
 DOMAIN,adse.ximalaya.com
 DOMAIN,mermaid.ximalaya.com
 DOMAIN,xdcs-collector.ximalaya.com
+DOMAIN,xuid-tracking.ximalaya.com
 #Audio-FM-荔枝
 DOMAIN,apprds.lizhifm.com
 DOMAIN,httpproxy101.lizhifm.com
@@ -357,6 +358,8 @@ DOMAIN-KEYWORD,-log.d.meituan.net
 DOMAIN,lx1.meituan.net
 DOMAIN,lx2.meituan.net
 DOMAIN,s3plus.meituan.net
+#DOMAIN,maplocatesdksnapshot.d.meituan.net,DIRECT
+#DOMAIN,metrics-picture.d.meituan.net,DIRECT
 DOMAIN,catdot.dianping.com
 DOMAIN,catfront.dianping.com
 DOMAIN,shark.dianping.com
@@ -386,10 +389,15 @@ DOMAIN,client-log.poizon.com
 DOMAIN,a-m-s.adnonstop.com.cn
 #Cam-美图秀秀
 DOMAIN,adui.tg.meitu.com
+DOMAIN,qianbao.meitu.com,REJECT
+DOMAIN,rich.meitu.com,REJECT
+DOMAIN,shortplay.meitu.com,REJECT
+DOMAIN,wallet.meitu.com,REJECT
 DOMAIN-SUFFIX,tg.meitu.com
 DOMAIN-SUFFIX,meitustat.com
 DOMAIN,mea.meitudata.com
 DOMAIN,stat.meitudata.com
+DOMAIN,sentry.meitu-int.com,REJECT
 #Cam-B612咔叽/Foodie
 DOMAIN,api-ad.kajicam.com
 DOMAIN,api-ad-data.kajicam.com
@@ -639,6 +647,7 @@ DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN-SUFFIX,uve.weibo.com
 DOMAIN-SUFFIX,alitui.weibo.com
 DOMAIN,adimg.vue.weibo.com
+DOMAIN,bootpreload.uve.weibo.com
 DOMAIN,dm.video.weibocdn.com
 #Sina-Sina.cn
 DOMAIN,9ibbcq2d.sina.cn
@@ -1522,26 +1531,28 @@ DOMAIN-SUFFIX,union.youdao.com
 #DOMAIN,oimagea7.ydstatic.com
 #DOMAIN,oimageb8.ydstatic.com
 #360So
+DOMAIN-SUFFIX,juzifenqi.com,REJECT
+DOMAIN-SUFFIX,nicaifu.com,REJECT
 DOMAIN-SUFFIX,daikuan.360.cn
 DOMAIN-SUFFIX,lianmeng.360.cn
 DOMAIN-SUFFIX,tf.360.cn
 DOMAIN,ad.iot.360.cn
 DOMAIN,ad.jia.360.cn
 DOMAIN,ad.life.360.cn
-DOMAIN,papi.look.360.cn
-DOMAIN,ssl.look.360.cn
-DOMAIN,socm.dmp.360.cn
-DOMAIN,s.360.cn
-DOMAIN,qapm.360.cn
-DOMAIN,ss.360tres.com
-DOMAIN,api.ssl.so.com
-DOMAIN,e.so.com
-DOMAIN,ipv6.www.so.com
-DOMAIN,p.sug.so.com
-DOMAIN,s.qhupdate.com
-DOMAIN,res.qhupdate.com
-DOMAIN,jspassport.ssl.qhimg.com
-DOMAIN,s.ssl.qhres2.com
+#DOMAIN,papi.look.360.cn
+#DOMAIN,ssl.look.360.cn
+#DOMAIN,socm.dmp.360.cn
+#DOMAIN,s.360.cn
+#DOMAIN,qapm.360.cn
+#DOMAIN,ss.360tres.com
+#DOMAIN,api.ssl.so.com
+#DOMAIN,e.so.com
+#DOMAIN,ipv6.www.so.com
+#DOMAIN,p.sug.so.com
+#DOMAIN,s.qhupdate.com
+#DOMAIN,res.qhupdate.com
+#DOMAIN,jspassport.ssl.qhimg.com
+#DOMAIN,s.ssl.qhres2.com
 #Ali
 #DOMAIN,dns.alidns.com
 #DOMAIN-SUFFIX,mmstat.com
@@ -1677,7 +1688,7 @@ DOMAIN,fxgate.baidu.com
 #DOMAIN,gips2.baidu.com
 #DOMAIN,gips3.baidu.com
 #DOMAIN,gsp0.baidu.com
-DOMAIN,h2tcbox.baidu.com
+#DOMAIN,h2tcbox.baidu.com
 DOMAIN,hcl.baidu.com
 DOMAIN,hdj.baidu.com
 DOMAIN,hector.baidu.com
@@ -2040,6 +2051,7 @@ DOMAIN,dgstatic.jd.com
 DOMAIN,uranus.jd.com
 DOMAIN,wqs11.jd.com
 DOMAIN,x.jd.com
+DOMAIN,anti-sdk-report.m.jd.com
 #Sohu
 DOMAIN,hd.sohu.com.cn
 DOMAIN,mb.hd.sohu.com.cn
@@ -2181,21 +2193,23 @@ DOMAIN,publiclog.zhiyan.tencent-cloud.net
 DOMAIN,aedns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
+#DOMAIN,game.weixin.qq.com
+DOMAIN,localhost.weixin.qq.com
+DOMAIN,shreport.weixin.qq.com
 DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN,wxsnsdy.tc.qq.com
 DOMAIN,wxsnsdy.video.qq.com
-#DOMAIN,game.weixin.qq.com
-DOMAIN,localhost.weixin.qq.com
 DOMAIN,badjs.weixinbridge.com
 DOMAIN,cube.weixinbridge.com
 DOMAIN-SUFFIX,yidianlingyi.cn
 #Tencent-腾讯视频
 DOMAIN,ad.tencentvideo.com
 DOMAIN,adstats.tencentvideo.com
-DOMAIN,info4.video.qq.com
-DOMAIN,info6.video.qq.com
+#DOMAIN,info4.video.qq.com
+#DOMAIN,info6.video.qq.com
 DOMAIN,ios.video.mpush.qq.com
 DOMAIN,sq.bls.mdt.qq.com
+DOMAIN,vi.bls.mdt.qq.com
 DOMAIN,vv6.video.qq.com
 DOMAIN-KEYWORD,trace.qq.com
 DOMAIN-KEYWORD,trace.video.qq.com
