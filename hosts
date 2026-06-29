@@ -1,1 +1,429 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+# For example:
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+# 23:12 2026/6/29
+# https://raw.githubusercontent.com/vokins/ad/main/hosts
+
+#10010
+127.0.0.1 fzyj.chinaunicom.cn
+#360
+127.0.0.1 s.360.cn
+127.0.0.1 sfstat.lianmeng.360.cn
+127.0.0.1 ssp.360.cn
+127.0.0.1 stat.lianmeng.360.cn
+127.0.0.1 e.so.com
+127.0.0.1 ipv6.www.so.com
+127.0.0.1 s.qhupdate.com
+127.0.0.1 s.ssl.qhres2.com
+127.0.0.1 ckmap.mediav.com
+127.0.0.1 max-r.mediav.com
+127.0.0.1 pages-juxiao.mediav.com
+127.0.0.1 show-g.mediav.com
+127.0.0.1 static-ssl.mediav.com
+127.0.0.1 static.mediav.com
+#amazon-adsystem
+127.0.0.1 c.amazon-adsystem.com
+127.0.0.1 config.aps.amazon-adsystem.com
+#baidu
+127.0.0.1 ada.baidu.com
+127.0.0.1 als.baidu.com
+127.0.0.1 banti.baidu.com
+127.0.0.1 dlswbr.baidu.com
+127.0.0.1 eclick.baidu.com
+127.0.0.1 em.baidu.com
+127.0.0.1 fclick.baidu.com
+127.0.0.1 fclog.baidu.com
+127.0.0.1 gsp0.baidu.com
+127.0.0.1 h2tcbox.baidu.com
+127.0.0.1 hdj.baidu.com
+127.0.0.1 hectorstatic.baidu.com
+127.0.0.1 hm.baidu.com
+127.0.0.1 hpd.baidu.com
+127.0.0.1 miao.baidu.com
+127.0.0.1 pos.baidu.com
+127.0.0.1 sp1.baidu.com
+127.0.0.1 wn.pos.baidu.com
+127.0.0.1 shield.hao123.com
+#baidu-baidustatic
+127.0.0.1 ae.bdstatic.com
+127.0.0.1 fex.bdstatic.com
+127.0.0.1 zz.bdstatic.com
+127.0.0.1 cpro.baidustatic.com
+127.0.0.1 dup.baidustatic.com
+#baidu-bcebos
+127.0.0.1 dmpstatic.cdn.bcebos.com
+127.0.0.1 fenwan.cdn.bcebos.com
+127.0.0.1 gamedelivery.cdn.bcebos.com
+127.0.0.1 lupic.cdn.bcebos.com
+127.0.0.1 render-server.cdn.bcebos.com
+127.0.0.1 tieba-fe.gz.bcebos.com
+#QQ
+127.0.0.1 apd-vlive.apdcdn.tc.qq.com
+127.0.0.1 api.aida.qq.com
+127.0.0.1 beacon.cdn.qq.com
+127.0.0.1 browsertdidticket.m.qq.com
+127.0.0.1 game.weixin.qq.com
+127.0.0.1 gatherer.m.qq.com
+127.0.0.1 h.trace.qq.com
+127.0.0.1 i.gdt.qq.com
+127.0.0.1 mi.gdt.qq.com
+127.0.0.1 news.ssp.qq.com
+127.0.0.1 op.ssp.qq.com
+127.0.0.1 otheve.beacon.qq.com
+127.0.0.1 p.l.qq.com
+127.0.0.1 p.ssp.qq.com
+127.0.0.1 rdelivery.qq.com
+127.0.0.1 sdk.e.qq.com
+127.0.0.1 snowflake.qq.com
+127.0.0.1 v.gdt.qq.com
+127.0.0.1 vr.gdt.qq.com
+#mat1.gtimg.com
+127.0.0.1 adsmind.gdtimg.com
+127.0.0.1 qzs.gdtimg.com
+127.0.0.1 pgdt.gtimg.cn
+127.0.0.1 wfiles.gtimg.cn
+#google
+127.0.0.1 ads.google.com
+127.0.0.1 adservice.google.com
+127.0.0.1 analytics.google.com
+127.0.0.1 cse.google.com
+127.0.0.1 fundingchoicesmessages.google.com
+127.0.0.1 imasdk.googleapis.com
+127.0.0.1 ep1.adtrafficquality.google
+127.0.0.1 ep2.adtrafficquality.google
+127.0.0.1 www.googletagservices.com
+127.0.0.1 www.google-analytics.com
+127.0.0.1 www.googletagmanager.com
+127.0.0.1 www.googleadservices.com
+#google-googlesyndication
+127.0.0.1 pagead2.googlesyndication.com
+127.0.0.1 tpc.googlesyndication.com
+#google-doubleclick
+127.0.0.1 cm.g.doubleclick.net
+127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 securepubads.g.doubleclick.net
+127.0.0.1 static.doubleclick.net
+127.0.0.1 stats.g.doubleclick.net
+127.0.0.1 td.doubleclick.net
+#mgtv
+127.0.0.1 crash.data.v2.mgtv.com
+127.0.0.1 pcvideotx.titan.mgtv.com
+127.0.0.1 vipcdn.mgtv.com
+127.0.0.1 encounter.bz.mgtv.com
+127.0.0.1 galaxy.bz.mgtv.com
+127.0.0.1 layer.bz.mgtv.com
+127.0.0.1 img.da.mgtv.com
+127.0.0.1 v2.da.mgtv.com
+127.0.0.1 web.da.mgtv.com
+127.0.0.1 web2.da.mgtv.com
+127.0.0.1 ys.da.mgtv.com
+127.0.0.1 apm.log.mgtv.com
+127.0.0.1 pcweb-v1.log.mgtv.com
+127.0.0.1 v1-play.log.mgtv.com
+127.0.0.1 v2.log.mgtv.com
+127.0.0.1 vip.log.mgtv.com
+#miguvideo.com
+127.0.0.1 ggmk.miguvideo.com
+127.0.0.1 ggxwb.miguvideo.com
+#zhihu
+127.0.0.1 118.89.204.198
+127.0.0.1 apm.zhihu.com
+127.0.0.1 crash2.zhihu.com
+127.0.0.1 datahub.zhihu.com
+127.0.0.1 sugar.zhihu.com
+127.0.0.1 zhihu-web-analytics.zhihu.com
+#x
+127.0.0.1 cdn.syndication.twimg.com
+127.0.0.1 syndication.twitter.com
+127.0.0.1 syndication.x.com
+#yahoo
+127.0.0.1 c2shb-oao.ssp.yahoo.com
+127.0.0.1 geo.yahoo.com
+127.0.0.1 guce.yahoo.com
+127.0.0.1 nexus-gateway-prod.media.yahoo.com
+127.0.0.1 noa.yahoo.com
+127.0.0.1 opus.analytics.yahoo.com
+127.0.0.1 pbd.yahoo.com
+127.0.0.1 pbs.yahoo.com
+127.0.0.1 signal-service.pbs.yahoo.com
+127.0.0.1 udc.yahoo.com
+127.0.0.1 ups.analytics.yahoo.com
+#unity3d.com
+127.0.0.1 adserver.unityads.unity3d.com
+127.0.0.1 auction.unityads.unity3d.com
+127.0.0.1 config.unityads.unity3d.com
+127.0.0.1 webview.unityads.unity3d.com
+#pixiv
+127.0.0.1 lc-event.pixiv.net
+127.0.0.1 open-pixon.ads-pixiv.net
+127.0.0.1 pixon.ads-pixiv.net
+#union-360yield.com
+127.0.0.1 ad.360yield.com
+127.0.0.1 dsp.360yield.com
+#union-adform.net
+127.0.0.1 adx.adform.net
+127.0.0.1 cm.adform.net
+127.0.0.1 c1.adform.net
+#union-admatrix.jp
+127.0.0.1 acq-3pas.admatrix.jp
+127.0.0.1 serving-3pas.admatrix.jp
+#union-adnxs.com
+127.0.0.1 acdn.adnxs.com
+127.0.0.1 ib.adnxs.com
+#union-adsrvr.org
+127.0.0.1 direct.adsrvr.org
+127.0.0.1 match.adsrvr.org
+#union-aralego.com
+127.0.0.1 ads.aralego.com
+127.0.0.1 agent.aralego.com
+127.0.0.1 hb.aralego.com
+127.0.0.1 sync.aralego.com
+#union-casalemedia.com
+127.0.0.1 dsum-sec.casalemedia.com
+127.0.0.1 htlb.casalemedia.com
+127.0.0.1 ssum-sec.casalemedia.com
+#union-criteo
+127.0.0.1 grid-bidder.criteo.com
+127.0.0.1 gum.criteo.com
+127.0.0.1 ssp-sync.criteo.com
+127.0.0.1 static.criteo.net
+#union-crwdcntrl.net
+127.0.0.1 id.crwdcntrl.net
+127.0.0.1 sync.crwdcntrl.net
+127.0.0.1 tags.crwdcntrl.net
+#union-dable.io
+127.0.0.1 ad-log.dable.io
+127.0.0.1 api.dable.io
+127.0.0.1 images.dable.io
+127.0.0.1 r-log.dable.io
+127.0.0.1 static.dable.io
+#union-openx.net
+127.0.0.1 eu-u.openx.net
+127.0.0.1 rtb.openx.net
+127.0.0.1 u.openx.net
+127.0.0.1 us-u.openx.net
+127.0.0.1 vidoomy-d.openx.net
+#union-pubmatic.com
+127.0.0.1 ads.pubmatic.com
+127.0.0.1 hbopenbid.pubmatic.com
+127.0.0.1 image6.pubmatic.com
+127.0.0.1 image8.pubmatic.com
+127.0.0.1 ut.pubmatic.com
+#union-quantserve.com
+127.0.0.1 cms.quantserve.com
+127.0.0.1 pixel.quantserve.com
+127.0.0.1 secure.quantserve.com
+#union-rlcdn.com
+127.0.0.1 api.rlcdn.com
+127.0.0.1 idsync.rlcdn.com
+#union-scupio.com
+127.0.0.1 dable-api.scupio.com
+127.0.0.1 prebid.scupio.com
+#union-sitemaji.com
+127.0.0.1 ad.sitemaji.com
+127.0.0.1 logs.sitemaji.com
+127.0.0.1 rd.sitemaji.com
+#union-smartadserver.com
+127.0.0.1 prg.smartadserver.com
+127.0.0.1 ssb-global.smartadserver.com
+127.0.0.1 ssbsync.smartadserver.com
+127.0.0.1 rtb-csync.smartadserver.com
+#union-taboola.com
+127.0.0.1 api.taboola.com
+127.0.0.1 beacon.bidder.taboola.com
+127.0.0.1 cdn.taboola.com
+127.0.0.1 display.bidder.taboola.com
+127.0.0.1 trc.taboola.com
+#union-rubiconproject.com
+127.0.0.1 eus.rubiconproject.com
+127.0.0.1 fastlane.rubiconproject.com
+127.0.0.1 pixel.rubiconproject.com
+127.0.0.1 secure-assets.rubiconproject.com
+127.0.0.1 token.rubiconproject.com
+#union-vidoomy
+127.0.0.1 a.vidoomy.com
+127.0.0.1 ad.vidoomy.com
+127.0.0.1 ads.vidoomy.com
+127.0.0.1 d.vidoomy.com
+127.0.0.1 vpaid.vidoomy.com
+#union-xelements.cn
+127.0.0.1 cm.ad.xelements.cn
+127.0.0.1 imp.ad.xelements.cn
+127.0.0.1 mon.ad.xelements.cn
+#union-yhcplatform.com
+127.0.0.1 adx.yhcplatform.com
+127.0.0.1 h5sdk.yhcplatform.com
+127.0.0.1 sdklog.yhcplatform.com
+#https://www.v2ex.com/
+127.0.0.1 cdn.wwads.cn
+#3:57 2026/6/27
+#https://www.ifeng.com/
+127.0.0.1 9fum.ifeng.com
+127.0.0.1 ax.ifeng.com
+127.0.0.1 bd3rd.ifeng.com
+127.0.0.1 bdmap1.ifeng.com
+127.0.0.1 bm7c.ifeng.com
+127.0.0.1 c01049em.ifeng.com
+127.0.0.1 err.ifengcloud.ifeng.com
+127.0.0.1 stadig.ifeng.com
+127.0.0.1 uww6.ifeng.com
+127.0.0.1 static.outin.cn
+#4:03 2026/6/27
+#https://www.sina.com.cn/
+#sina.cn
+127.0.0.1 9ibbcq2d.sina.cn
+127.0.0.1 l6urqh27.sina.cn
+127.0.0.1 log.sina.cn
+127.0.0.1 log2.sina.cn
+127.0.0.1 mixer.sina.cn
+127.0.0.1 mixern.sina.cn
+127.0.0.1 qgnu18wo.sina.cn
+127.0.0.1 sax.sina.cn
+127.0.0.1 beacon.sina.com.cn
+127.0.0.1 d0.sina.com.cn
+127.0.0.1 d1.sina.com.cn
+127.0.0.1 d2.sina.com.cn
+127.0.0.1 d3.sina.com.cn
+127.0.0.1 d4.sina.com.cn
+127.0.0.1 d5.sina.com.cn
+127.0.0.1 d6.sina.com.cn
+127.0.0.1 d7.sina.com.cn
+127.0.0.1 d8.sina.com.cn
+127.0.0.1 d9.sina.com.cn
+127.0.0.1 rl.cj.sina.com.cn
+127.0.0.1 rls3.cj.sina.com.cn
+127.0.0.1 sax.sina.com.cn
+127.0.0.1 saxn.sina.com.cn
+127.0.0.1 sbeacon.sina.com.cn
+127.0.0.1 xla.gongkaohao.cn
+127.0.0.1 xls.gongkaohao.cn
+127.0.0.1 ccd.gongkaozhu.cn
+127.0.0.1 www.qchannel03.cn
+127.0.0.1 cc.inping.com
+127.0.0.1 bj.qchannel03.cn
+#127.0.0.1 mjs.sinaimg.cn 
+https://mjs.sinaimg.cn/wap/project/articlev4/1.1.334/index/static/css/index.min.css
+#4:06 2026/6/27
+#https://www.163.com/
+127.0.0.1 channel.m.163.com
+127.0.0.1 e-p4p.163.com
+127.0.0.1 g.163.com
+127.0.0.1 nex.163.com
+127.0.0.1 sentry.music.163.com
+127.0.0.1 h5.analytics.126.net
+127.0.0.1 pg-ad-b1.ws.126.net
+127.0.0.1 yt-adp.ws.126.net
+127.0.0.1 vmonitor.ws.netease.com
+127.0.0.1 lf1-cdn-tos.bytegoofy.com
+#4:17 2026/6/27
+#https://www.sohu.com/
+#sohu.com.cn
+127.0.0.1 pb.hd.sohu.com.cn
+127.0.0.1 qc.hd.sohu.com.cn
+127.0.0.1 qf1.hd.sohu.com.cn
+127.0.0.1 qf2.hd.sohu.com.cn
+#sohu.com
+127.0.0.1 cdn2.aty.sohu.com
+127.0.0.1 cm.aty.sohu.com
+127.0.0.1 coin.aty.sohu.com
+127.0.0.1 count.vrs.sohu.com
+127.0.0.1 i.go.sohu.com
+127.0.0.1 js.go.sohu.com
+127.0.0.1 log.hd.sohu.com
+127.0.0.1 m.aty.sohu.com
+127.0.0.1 mmg.aty.sohu.com
+127.0.0.1 mn.aty.sohu.com
+127.0.0.1 p.aty.sohu.com
+127.0.0.1 p2p.tracker.tv.sohu.com
+127.0.0.1 pg.aty.sohu.com
+127.0.0.1 pm.aty.sohu.com
+127.0.0.1 pv.hd.sohu.com
+127.0.0.1 pv.sohu.com
+127.0.0.1 qx.hd.sohu.com
+127.0.0.1 rc.vrs.sohu.com
+127.0.0.1 reke.at.sohu.com
+127.0.0.1 s.ads.sohu.com
+127.0.0.1 s.go.sohu.com
+127.0.0.1 ssp.aty.sohu.com
+127.0.0.1 t.ads.sohu.com
+127.0.0.1 t.go.sohu.com
+127.0.0.1 track.sohu.com
+127.0.0.1 v.aty.sohu.com
+127.0.0.1 vbng.at.sohu.com
+127.0.0.1 vm.aty.sohu.com
+127.0.0.1 vstat.my.tv.sohu.com
+127.0.0.1 z.m.tv.sohu.com
+127.0.0.1 z2.m.tv.sohu.com
+127.0.0.1 adv-sv-show.focus.cn
+127.0.0.1 643108e7617ef.cdn.sohucs.com
+127.0.0.1 e8aeb8bbdbbd7.cdn.sohucs.com
+127.0.0.1 h10-725388727.z1.irs01.com
+127.0.0.1 h10-725422618.z1.irs01.com
+127.0.0.1 h10-9250381.z1.irs01.com
+127.0.0.1 sohu.irs01.com
+#4:31 2026/6/27
+#https://tv.sohu.com/
+127.0.0.1 t.hypers.com.cn
+127.0.0.1 cm.mdfull.com
+127.0.0.1 cm.masky.biddingx.com
+127.0.0.1 cc.xtgreat.com
+127.0.0.1 cm.cn.miaozhen.com
+127.0.0.1 cm.ipinyou.com
+127.0.0.1 cm.mct01.com
+127.0.0.1 cmpp.gentags.net
+127.0.0.1 m.reachmax.cn
+127.0.0.1 mapping.yoyi.com.cn
+127.0.0.1 sohutv.cm.admaster.com.cn
+127.0.0.1 sp.qf.56.com
+127.0.0.1 w.irs03.com
+127.0.0.1 sohutv.m.cn.miaozhen.com
+127.0.0.1 trace.rtbasia.com
+#https://world.people.com.cn/n1/2026/0626/c1002-40748114.html
+127.0.0.1 cl0.webterren.com
+127.0.0.1 cl2.webterren.com
+127.0.0.1 counter.people.cn
+127.0.0.1 d.webterren.com
+127.0.0.1 z.webterren.com
+#cctv.com
+127.0.0.1 galaxy.bjcathay.com
+#https://gimytv.io/eps/202631108-12.html
+127.0.0.1 glimmersmugglingsullen.com
+127.0.0.1 detoxifylagoonsnugness.com
+#5:19 2026/6/27
+#https://www.cnbeta.com.tw/
+127.0.0.1 ad.turn.com
+127.0.0.1 ap.lijit.com
+127.0.0.1 cdn.id5-sync.com
+127.0.0.1 cs.media.net
+127.0.0.1 eb2.3lift.com
+127.0.0.1 match.sharethrough.com
+127.0.0.1 onetag-sys.com
+127.0.0.1 user-sync.fwmrm.net
+127.0.0.1 x.bidswitch.net
+127.0.0.1 cs.admanmedia.com
+127.0.0.1 csync.loopme.me
+127.0.0.1 id5-sync.com
+127.0.0.1 invstatic101.creativecdn.com
+127.0.0.1 match.prod.bidr.io
+127.0.0.1 pixel-sync.sitescout.com
+127.0.0.1 pixel.tapad.com
+127.0.0.1 pool.liftdsp.com
+127.0.0.1 rtb.gumgum.com
+127.0.0.1 stx-match.dotomi.com
+127.0.0.1 bidresult-dsp.ad-m.asia
 
